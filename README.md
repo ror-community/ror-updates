@@ -37,13 +37,13 @@ Requests submitted via the [feedback form](https://docs.google.com/forms/d/e/1FA
 ![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
 
 # Tracking ROR updates
-Anyone can follow the ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) to see the requests being reviewed and to see which changes are being queued up for a future release. If you wish to follow and receive notifications about specific changes, sign in with your Github account and add yourself as a watcher to individual issues. 
+Anyone can follow the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) to see the requests being reviewed and to see which changes are being queued up for a future release. If you wish to follow and receive notifications about specific changes, sign in with your Github account and add yourself as a watcher to individual issues. 
 
-Issues have labels that categorize the requests and provide contextual information for curators. The information in these labels includes:
-- Type of request (e.g., add record or update record)
-- A general prioritization schema (1/2/3). Level 1 issues are primarily requests to add new entries to ROR. Level 2 issues are metadata changes for fields that impact discoverability, e.g., the primary name in a ROR record. Level 3 issues are metadata changes for other fields. 
-- How complex the changes might be to research and/or implement (lion/jaguar/kitten). "Lion" issues require the most investigation and/or entail the most complex metadata. "Jaguar" issues are a bit more straightforward and faster to process. "Kitten" issues are the most simple and straightforward types of changes to review and implement.
-- Whether the proposed change was requested by the organization associated with the ROR record in question, or by an external party. While anyone can propose changes to ROR, it can sometimes be helpful to know who is requesting the changes.
-- Why certain decisions have been made - i.e., if a request is declined because the changes are not within scope for ROR to implement, an "out of scope" label will be applied to the issue. 
+Issues have [labels](https://github.com/ror-community/ror-updates/labels) that categorize the requests and provide contextual information for curators. The information in these labels includes:
+- **Type of request** (e.g., add record or update record)
+- **General priority level** (1/2/3). Level 1 issues are primarily requests to add new entries to ROR. Level 2 issues are metadata changes for fields that impact discoverability, e.g., the primary name in a ROR record. Level 3 issues are metadata changes for other fields. 
+- **Estimated effort to research and/or implement (lion/jaguar/kitten)**. "Lion" issues require the most investigation and/or entail the most complex metadata. "Jaguar" issues are a bit more straightforward and faster to process. "Kitten" issues are the most simple and straightforward types of changes to review and implement.
+- **Source of request**, i.e., whether the proposed change was requested by the organization associated with the ROR record in question, or by an external party. While anyone can propose changes to ROR, it can sometimes be helpful to know who is requesting the changes.
+- **Reasons for certain decisions** - i.e., if a request is declined because the changes are not within scope for ROR to implement, an "out of scope" label will be applied to the issue. 
 
 New ROR releases are publicly announced on ROR communication channels and data dumps for each new release are added to public repositories. Check the release notes on Github to see detailed lists of changes in each release. 
