@@ -1,4 +1,4 @@
-This repository tracks proposed changes that are being reviewed and/or prepared for inclusion in ROR. Proposed changes are reviewed by community curators to determine if they are in scope. Approved changes are then prepared for inclusion in a future ROR release. New and/or updated ROR records follow the ROR metadata schema and metadata policies.
+This repository tracks proposed changes that are being reviewed and/or prepared for inclusion in ROR. Proposed changes are reviewed by community curators to determine if they are in scope. Approved changes are then prepared for inclusion in a future ROR release. New and/or updated ROR records follow the ROR metadata schema and [metadata policies](https://github.com/ror-community/ror-updates/wiki/ROR-Metadata-Policies).
 # ROR scope
 The scope of ROR is the “affiliation use case” - proper description of relationships between contributors, contributions, research sponsors, publishers, and employers. 
 
