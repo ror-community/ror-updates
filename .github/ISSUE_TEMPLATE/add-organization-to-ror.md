@@ -9,18 +9,20 @@ assignees: mariagould
 
 Summary of request: Add a new organization to ROR
 
-Name of organization: 
+Name of organization:
 Website: 
 Link to publications: 
+Organization type: 
 Wikipedia page:
 Wikidata ID:
 ISNI ID:
 GRID ID:
 Crossref Funder ID:
-Ringgold ID:
 Other names for the organization: 
-Acronym/abbreviation: 
-Related organizations:
-City:
-Country:
+Acronym/abbreviation:
+Related organizations: 
+City: 
+Country: 
+Year established:
+How will a ROR ID for this organization be used? 
 Other information about this request:
