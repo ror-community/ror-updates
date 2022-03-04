@@ -16,8 +16,8 @@
     ],
     "addresses": [
         {
-            "lat": 35.689022,
-            "lng": 139.738051,
+            "lat": 35.6895,
+            "lng": 139.69171,
             "state": null,
             "state_code": null,
             "city": "Tokyo",
@@ -60,7 +60,7 @@
         }
     ],
     "links": [
-        "http://www.jst.go.jp/EN/"
+        "https://www.jst.go.jp/"
     ],
     "aliases": [],
     "acronyms": [
@@ -68,16 +68,22 @@
     ],
     "status": "active",
     "wikipedia_url": "",
-    "labels": [],
+    "labels": [
+        {
+            "label": "科学技術振興機構",
+            "iso639": "ja"
+        }
+    ],
     "country": {
         "country_name": "Japan",
         "country_code": "JP"
     },
     "external_ids": {
         "ISNI": {
-            "preferred": null,
+            "preferred": "0000 0001 2285 0987",
             "all": [
-                "0000 0004 1754 9200"
+                "0000 0004 1754 9200",
+                "0000 0001 2285 0987"
             ]
         },
         "FundRef": {
@@ -92,6 +98,12 @@
         "GRID": {
             "preferred": "grid.419082.6",
             "all": "grid.419082.6"
+        },
+        "Wikidata": {
+            "preferred": "Q11595927",
+            "all": [
+                "Q11595927"
+            ]
         }
     }
 }

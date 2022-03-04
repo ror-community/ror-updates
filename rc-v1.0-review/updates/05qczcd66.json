@@ -1,6 +1,6 @@
 {
     "id": "https://ror.org/05qczcd66",
-    "name": "Industrial Institute of Agricultural Engineering",
+    "name": "Łukasiewicz Research Network - Industrial Institute of Agricultural Engineering",
     "email_address": null,
     "ip_addresses": [],
     "established": 1946,
@@ -10,14 +10,14 @@
     "relationships": [],
     "addresses": [
         {
-            "lat": 52.372506,
-            "lng": 16.935641,
+            "lat": 52.40692,
+            "lng": 16.92993,
             "state": null,
             "state_code": null,
-            "city": "Pozna\u0144",
+            "city": "Poznan",
             "geonames_city": {
                 "id": 3088171,
-                "city": "Pozna\u0144",
+                "city": "Poznan",
                 "geonames_admin1": {
                     "name": "Greater Poland",
                     "id": 3337498,
@@ -25,9 +25,9 @@
                     "code": "PL.86"
                 },
                 "geonames_admin2": {
-                    "name": "Pozna\u0144",
+                    "name": "Poznań",
                     "id": 7530858,
-                    "ascii_name": "Poznan",
+                    "ascii_name": "Poznań",
                     "code": "PL.86.3064"
                 },
                 "license": {
@@ -35,16 +35,16 @@
                     "license": "http://creativecommons.org/licenses/by/3.0/"
                 },
                 "nuts_level1": {
-                    "name": "REGION P\u00d3\u0141NOCNO-ZACHODNI",
-                    "code": "PL4"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level2": {
-                    "name": "Wielkopolskie",
-                    "code": "PL41"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level3": {
-                    "name": "Miasto Pozna\u0144",
-                    "code": "PL415"
+                    "name": null,
+                    "code": null
                 }
             },
             "postcode": null,
@@ -54,17 +54,20 @@
         }
     ],
     "links": [
-        "http://www.pimr.poznan.pl/"
+        "https://pimr.lukasiewicz.gov.pl"
     ],
-    "aliases": [
-        "Przemys\u0142owy Instytut Maszyn Rolniczych"
-    ],
+    "aliases": [],
     "acronyms": [
         "PIMR"
     ],
     "status": "active",
     "wikipedia_url": "",
-    "labels": [],
+    "labels": [
+        {
+            "label": "Sieć Badawcza Łukasiewicz - Przemysłowy Instytut Maszyn Rolniczych",
+            "iso639": "pl"
+        }
+    ],
     "country": {
         "country_name": "Poland",
         "country_code": "PL"
@@ -79,6 +82,12 @@
         "GRID": {
             "preferred": "grid.460634.3",
             "all": "grid.460634.3"
+        },
+        "Wikidata": {
+            "preferred": "Q30261196",
+            "all": [
+                "Q30261196"
+            ]
         }
     }
 }

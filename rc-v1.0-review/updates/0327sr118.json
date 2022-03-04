@@ -1,6 +1,6 @@
 {
     "id": "https://ror.org/0327sr118",
-    "name": "German Institute for International Educational Research",
+    "name": "DIPF | Leibniz Institute for Research and Information in Education",
     "email_address": null,
     "ip_addresses": [],
     "established": 1951,
@@ -16,8 +16,8 @@
     ],
     "addresses": [
         {
-            "lat": 50.12255,
-            "lng": 8.638385,
+            "lat": 50.11552,
+            "lng": 8.68417,
             "state": null,
             "state_code": null,
             "city": "Frankfurt am Main",
@@ -41,16 +41,16 @@
                     "license": "http://creativecommons.org/licenses/by/3.0/"
                 },
                 "nuts_level1": {
-                    "name": "HESSEN",
-                    "code": "DE7"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level2": {
-                    "name": "Darmstadt",
-                    "code": "DE71"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level3": {
-                    "name": "Frankfurt am Main, Kreisfreie Stadt",
-                    "code": "DE712"
+                    "name": null,
+                    "code": null
                 }
             },
             "postcode": null,
@@ -67,10 +67,14 @@
         "DIPF"
     ],
     "status": "active",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://de.wikipedia.org/wiki/DIPF_Leibniz-Institut_für_Bildungsforschung_und_Bildungsinformation",
     "labels": [
         {
-            "label": "Deutsches Institut f\u00fcr Internationale P\u00e4dagogische Forschung",
+            "label": "Deutsches Institut für Internationale Pädagogische Forschung",
+            "iso639": "de"
+        },
+        {
+            "label": "Leibniz-Institut für Bildungsforschung und Bildungsinformation",
             "iso639": "de"
         }
     ],
@@ -88,6 +92,12 @@
         "GRID": {
             "preferred": "grid.461683.e",
             "all": "grid.461683.e"
+        },
+        "Wikidata": {
+            "preferred": "Q1205728",
+            "all": [
+                "Q1205728"
+            ]
         }
     }
 }

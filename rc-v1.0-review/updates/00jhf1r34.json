@@ -1,6 +1,6 @@
 {
     "id": "https://ror.org/00jhf1r34",
-    "name": "Industrial Chemistry Research Institute",
+    "name": "Łukasiewicz Research Network - Industrial Chemistry Institute",
     "email_address": null,
     "ip_addresses": [],
     "established": 1922,
@@ -10,8 +10,8 @@
     "relationships": [],
     "addresses": [
         {
-            "lat": 52.261617,
-            "lng": 20.974045,
+            "lat": 52.22977,
+            "lng": 21.01178,
             "state": null,
             "state_code": null,
             "city": "Warsaw",
@@ -35,16 +35,16 @@
                     "license": "http://creativecommons.org/licenses/by/3.0/"
                 },
                 "nuts_level1": {
-                    "name": "REGION CENTRALNY",
-                    "code": "PL1"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level2": {
-                    "name": "Mazowieckie",
-                    "code": "PL12"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level3": {
-                    "name": "Miasto Warszawa",
-                    "code": "PL127"
+                    "name": null,
+                    "code": null
                 }
             },
             "postcode": null,
@@ -54,18 +54,22 @@
         }
     ],
     "links": [
-        "http://en.www.ichp.pl/"
+        "https://ichp.pl/"
     ],
     "aliases": [
-        "Instytut Chemii Przemys\u0142owej",
         "Chemical Research Institute"
     ],
     "acronyms": [
         "ICRI"
     ],
     "status": "active",
-    "wikipedia_url": "",
-    "labels": [],
+    "wikipedia_url": "https://pl.wikipedia.org/wiki/Instytut_Chemii_Przemysłowej",
+    "labels": [
+        {
+            "label": "Sieć Badawcza Łukasiewicz - Instytut Chemii Przemysłowej",
+            "iso639": "pl"
+        }
+    ],
     "country": {
         "country_name": "Poland",
         "country_code": "PL"
@@ -80,6 +84,12 @@
         "GRID": {
             "preferred": "grid.424985.6",
             "all": "grid.424985.6"
+        },
+        "Wikidata": {
+            "preferred": "Q11712979",
+            "all": [
+                "Q11712979"
+            ]
         }
     }
 }

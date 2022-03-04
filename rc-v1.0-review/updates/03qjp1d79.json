@@ -16,10 +16,10 @@
     ],
     "addresses": [
         {
-            "lat": 53.404103,
-            "lng": 10.427233,
-            "state": "Schleswig-Holstein",
-            "state_code": "DE-SH",
+            "lat": 53.43575,
+            "lng": 10.3779,
+            "state": null,
+            "state_code": null,
             "city": "Geesthacht",
             "geonames_city": {
                 "id": 2922102,
@@ -34,23 +34,23 @@
                     "name": null,
                     "id": null,
                     "ascii_name": null,
-                    "code": null
+                    "code": "DE.10.00"
                 },
                 "license": {
                     "attribution": "Data from geonames.org under a CC-BY 3.0 license",
                     "license": "http://creativecommons.org/licenses/by/3.0/"
                 },
                 "nuts_level1": {
-                    "name": "SCHLESWIG-HOLSTEIN",
-                    "code": "DEF"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level2": {
-                    "name": "Schleswig-Holstein",
-                    "code": "DEF0"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level3": {
-                    "name": "Herzogtum Lauenburg",
-                    "code": "DEF06"
+                    "name": null,
+                    "code": null
                 }
             },
             "postcode": null,
@@ -65,9 +65,11 @@
     "aliases": [
         "Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research"
     ],
-    "acronyms": [],
+    "acronyms": [
+        "HZG"
+    ],
     "status": "active",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Helmholtz-Zentrum_Hereon",
     "labels": [],
     "country": {
         "country_name": "Germany",
@@ -83,6 +85,12 @@
         "GRID": {
             "preferred": "grid.24999.3f",
             "all": "grid.24999.3f"
+        },
+        "Wikidata": {
+            "preferred": "Q1290544",
+            "all": [
+                "Q1290544"
+            ]
         }
     }
 }

@@ -10,10 +10,10 @@
     "relationships": [],
     "addresses": [
         {
-            "lat": 37.414846,
-            "lng": -122.142063,
-            "state": "California",
-            "state_code": "US-CA",
+            "lat": 37.44188,
+            "lng": -122.14302,
+            "state": null,
+            "state_code": null,
             "city": "Palo Alto",
             "geonames_city": {
                 "id": 5380748,
@@ -25,9 +25,9 @@
                     "code": "US.CA"
                 },
                 "geonames_admin2": {
-                    "name": "Santa Clara County",
+                    "name": "Santa Clara",
                     "id": 5393021,
-                    "ascii_name": "Santa Clara County",
+                    "ascii_name": "Santa Clara",
                     "code": "US.CA.085"
                 },
                 "license": {
@@ -66,15 +66,15 @@
         "country_code": "US"
     },
     "external_ids": {
-        "FundRef": {
-            "preferred": null,
-            "all": [
-                "Q5167436"
-            ]
-        },
         "GRID": {
             "preferred": "grid.508851.1",
             "all": "grid.508851.1"
+        },
+        "Wikidata": {
+            "preferred": "Q5167436",
+            "all": [
+                "Q5167436"
+            ]
         }
     }
 }

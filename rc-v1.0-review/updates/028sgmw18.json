@@ -16,8 +16,8 @@
     ],
     "addresses": [
         {
-            "lat": 50.08177,
-            "lng": 14.41464,
+            "lat": 50.08804,
+            "lng": 14.42076,
             "state": null,
             "state_code": null,
             "city": "Prague",
@@ -25,9 +25,9 @@
                 "id": 3067696,
                 "city": "Prague",
                 "geonames_admin1": {
-                    "name": "Hlavn\u00ed m\u011bsto Praha",
+                    "name": "Hlavní město Praha",
                     "id": 3067695,
-                    "ascii_name": "Hlavni mesto Praha",
+                    "ascii_name": "Hlavní město Praha",
                     "code": "CZ.52"
                 },
                 "geonames_admin2": {
@@ -41,16 +41,16 @@
                     "license": "http://creativecommons.org/licenses/by/3.0/"
                 },
                 "nuts_level1": {
-                    "name": "\u010cESK\u00c1 REPUBLIKA",
-                    "code": "CZ0"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level2": {
-                    "name": "St\u0159edn\u00ed \u010cechy",
-                    "code": "CZ02"
+                    "name": null,
+                    "code": null
                 },
                 "nuts_level3": {
-                    "name": "St\u0159edo\u010desk\u00fd kraj",
-                    "code": "CZ020"
+                    "name": null,
+                    "code": null
                 }
             },
             "postcode": null,
@@ -70,7 +70,7 @@
     "wikipedia_url": "",
     "labels": [
         {
-            "label": "Knihovna AV \u010cR",
+            "label": "Knihovna AV ČR",
             "iso639": "cs"
         }
     ],
@@ -80,14 +80,20 @@
     },
     "external_ids": {
         "ISNI": {
-            "preferred": null,
+            "preferred": "0000 0001 2225 3920",
             "all": [
-                "0000 0001 0790 2056"
+                "0000 0001 2225 3920"
             ]
         },
         "GRID": {
             "preferred": "grid.447917.8",
             "all": "grid.447917.8"
+        },
+        "Wikidata": {
+            "preferred": "Q17138718",
+            "all": [
+                "Q17138718"
+            ]
         }
     }
 }
