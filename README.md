@@ -1,3 +1,4 @@
+# ROR Updates
 This repository tracks proposed changes that are being reviewed and/or prepared for inclusion in ROR. Proposed changes are reviewed by community curators to determine if they are in scope. Approved changes are then prepared for inclusion in a future ROR release. New and/or updated ROR records follow the ROR metadata schema and [metadata policies](https://github.com/ror-community/ror-updates/wiki/ROR-Metadata-Policies).
 # ROR scope
 The scope of ROR is the “affiliation use case” - proper description of relationships between contributors, contributions, research sponsors, publishers, and employers. 
@@ -36,14 +37,20 @@ Community-based curation means:
 Requests submitted via the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform) go through an initial triage and are added to the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) for community curators to review. Curators review the requests and decide how they should be processed. Approved requests will end up in the queue for metadata preparation so the changes can be deployed on the ROR production site.  
 ![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
 
+# Publishing updates to the registry
+Both the data dump and the API are updated approximately quarterly, and both are typically updated on the same day. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
+
 # Tracking ROR updates
 Anyone can follow the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) to see the requests being reviewed and to see which changes are being queued up for a future release. If you wish to follow and receive notifications about specific changes, sign in with your Github account and add yourself as a watcher to individual issues. 
 
-Issues have [labels](https://github.com/ror-community/ror-updates/labels) that categorize the requests and provide contextual information for curators. The information in these labels includes:
+# Interpreting Github issues
+The Github issues on the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) have [labels](https://github.com/ror-community/ror-updates/labels) that categorize the requests and provide contextual information for curators. The information in these labels includes:
 - **Type of request** (e.g., add record or update record)
 - **General priority level** (1/2/3). Level 1 issues are primarily requests to add new entries to ROR. Level 2 issues are metadata changes for fields that impact discoverability, e.g., the primary name in a ROR record. Level 3 issues are metadata changes for other fields. 
 - **Estimated effort to research and/or implement (lion/jaguar/kitten)**. "Lion" issues require the most investigation and/or entail the most complex metadata. "Jaguar" issues are a bit more straightforward and faster to process. "Kitten" issues are the most simple and straightforward types of changes to review and implement.
 - **Source of request**, i.e., whether the proposed change was requested by the organization associated with the ROR record in question, or by an external party. While anyone can propose changes to ROR, it can sometimes be helpful to know who is requesting the changes.
 - **Reasons for certain decisions** - i.e., if a request is declined because the changes are not within scope for ROR to implement, an "out of scope" label will be applied to the issue. 
 
-New ROR releases are publicly announced on ROR communication channels and data dumps for each new release are added to public repositories. Check the release notes on Github to see detailed lists of changes in each release. 
+Issues that are approved for a release will be assigned a milestone tag that corresponds to the release version. 
+
+
