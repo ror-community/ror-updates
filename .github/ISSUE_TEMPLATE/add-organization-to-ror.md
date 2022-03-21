@@ -22,7 +22,8 @@ Other names for the organization:
 Acronym/abbreviation:
 Related organizations: 
 City: 
-Country: 
+Country:
+Geonames ID: 
 Year established:
 How will a ROR ID for this organization be used? 
 Other information about this request:
