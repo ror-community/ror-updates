@@ -7,7 +7,7 @@ on:
         description: Check box to validate with relationships
       directory-name:
         type: string
-        description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
+        description: Name of parent directory containing records to validate. Needed only if different from branch name.
 
 jobs:
   validate-files:
