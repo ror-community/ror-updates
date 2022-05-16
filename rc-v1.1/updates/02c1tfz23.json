@@ -1,40 +1,34 @@
 {
-  "id": "https://ror.org/02yhj4v17",
-  "name": "Institute of Physics of the Czech Academy of Sciences",
+  "id": "https://ror.org/02c1tfz23",
+  "name": "University Hospital Plzen",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1964,
+  "established": 1952,
   "types": [
-    "Facility"
+    "Healthcare"
   ],
-  "relationships": [
-    {
-      "label": "Czech Academy of Sciences",
-      "type": "Parent",
-      "id": "https://ror.org/053avzc18"
-    }
-  ],
+  "relationships": [],
   "addresses": [
     {
-      "lat": 50.08804,
-      "lng": 14.42076,
+      "lat": 49.74747,
+      "lng": 13.37759,
       "state": null,
       "state_code": null,
-      "city": "Prague",
+      "city": "Pilsen",
       "geonames_city": {
-        "id": 3067696,
-        "city": "Prague",
+        "id": 3068160,
+        "city": "Pilsen",
         "geonames_admin1": {
-          "name": "Hlavní město Praha",
-          "id": 3067695,
-          "ascii_name": "Hlavní město Praha",
-          "code": "CZ.52"
+          "name": "Plzeňský kraj",
+          "id": 3339575,
+          "ascii_name": "Plzeňský kraj",
+          "code": "CZ.87"
         },
         "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
+          "name": "Okres Plzeň-město",
+          "id": 3068158,
+          "ascii_name": "Okres Plzeň-město",
+          "code": "CZ.87.0323"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,19 +54,15 @@
     }
   ],
   "links": [
-    "https://www.fzu.cz/"
+    "http://www.fnplzen.cz/"
   ],
-  "aliases": [
-    "Institute of Physics of the CAS"
-  ],
-  "acronyms": [
-    "FZU"
-  ],
+  "aliases": [],
+  "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
   "labels": [
     {
-      "label": "Fyzikální ústav AV ČR",
+      "label": "Fakultní nemocnice Plzeň",
       "iso639": "cs"
     }
   ],
@@ -84,25 +74,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0634 148X"
+        "0000 0000 8875 8983"
       ]
     },
-    "OrgRef": {
+    "FundRef": {
       "preferred": null,
       "all": [
-        "47000029"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q25931592",
-        "Q56649806"
+        "501100006490"
       ]
     },
     "GRID": {
-      "preferred": "grid.424881.3",
-      "all": "grid.424881.3"
+      "preferred": "grid.412694.c",
+      "all": "grid.412694.c"
     }
   }
 }
