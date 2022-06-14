@@ -1,0 +1,59 @@
+name: Update labels in related records
+on:
+  workflow_dispatch:
+    inputs:
+      directory-name:
+        type: string
+        description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
+
+jobs:
+  update-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.ref }}
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Get directory name
+        if: "${{ github.event.inputs.directory-name != '' }}"
+        run: echo "WORKING_DIR=${{ github.event.inputs.directory-name }}" >> $GITHUB_ENV
+      - name: Get branch name
+        if: "${{ github.event.inputs.directory-name == '' }}"
+        run: echo "WORKING_DIR=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+      - name: Update labels in related records
+        id: updatelabels
+        working-directory: ${{ env.WORKING_DIR }}
+        run: |
+          python -m pip install --upgrade pip
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/requirements.txt -o requirements.txt
+          pip install -r requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/update_related.py -o update_related.py
+          python update_related.py
+      - name: commit changed files
+        if: ${{ steps.updatelabels.outcome == 'success'}}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern:  ${{ env.WORKING_DIR }}/*/*.json
+          commit_message: Apply relationship changes to files
+      - name: Set env variable for notification
+        if: always()
+        run: |
+          if [[ ${{ steps.updatelabels.outcome }} == 'success' ]]; then
+            echo "updatelabels_status=SUCCESS" >> $GITHUB_ENV
+          else
+            echo "updatelabels_status=FAILED" >> $GITHUB_ENV
+          fi
+      - name: Notify Slack
+        if: always()
+        uses: edge/simple-slack-notify@master
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.CURATOR_SLACK_WEBHOOK_URL }}
+          VALIDATION_STATUS: ${{ env.updatelabels_status }}
+        with:
+          channel: '#ror-curation-releases'
+          color: 'good'
+          text: 'DEV update labels in related records status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
