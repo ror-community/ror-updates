@@ -1,97 +1,97 @@
 {
-  "id": "https://ror.org/0086bb350",
-  "name": "Einstein Center Digital Future",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "https://www.digital-future.berlin/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "ECDF"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 2017,
-  "country": {
-    "country_code": "DE",
-    "country_name": "Germany"
-  },
-  "relationships": [
-    {
-      "type": "Parent",
-      "label": "Berlin University of the Arts",
-      "id": "https://ror.org/03eznrw16"
-    },
-    {
-      "type": "Parent",
-      "label": "Charité - Universitätsmedizin Berlin",
-      "id": "https://ror.org/001w7jn25"
-    },
-    {
-      "type": "Parent",
-      "label": "Freie Universität Berlin",
-      "id": "https://ror.org/046ak2485"
-    },
-    {
-      "type": "Parent",
-      "label": "Humboldt-Universität zu Berlin",
-      "id": "https://ror.org/01hcx6992"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 52.51863,
-      "lng": 13.38078,
-      "postcode": null,
-      "primary": false,
-      "city": "Berlin",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 2921044,
-      "geonames_city": {
-        "id": 2950159,
-        "city": "Berlin",
-        "nuts_level1": {
-          "code": "DE3",
-          "name": "BERLIN"
+    "id": "https://ror.org/0086bb350",
+    "name": "Einstein Center Digital Future",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2017,
+    "types": [
+        "Facility"
+    ],
+    "relationships": [
+        {
+            "label": "Berlin University of the Arts",
+            "type": "Parent",
+            "id": "https://ror.org/03eznrw16"
         },
-        "nuts_level2": {
-          "code": "DE30",
-          "name": "Berlin"
+        {
+            "label": "Charité - University Medicine Berlin",
+            "type": "Parent",
+            "id": "https://ror.org/001w7jn25"
         },
-        "nuts_level3": {
-          "code": "DE300",
-          "name": "Berlin"
+        {
+            "label": "Freie Universität Berlin",
+            "type": "Parent",
+            "id": "https://ror.org/046ak2485"
         },
-        "geonames_admin1": {
-          "id": 2950157,
-          "name": "Berlin",
-          "ascii_name": "Berlin",
-          "code": "DE.16"
-        },
-        "geonames_admin2": {
-          "id": null,
-          "name": null,
-          "ascii_name": null,
-          "code": null
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
+        {
+            "label": "Humboldt-Universität zu Berlin",
+            "type": "Parent",
+            "id": "https://ror.org/01hcx6992"
         }
-      }
+    ],
+    "addresses": [
+        {
+            "lat": 52.51863,
+            "lng": 13.38078,
+            "state": null,
+            "state_code": null,
+            "city": "Berlin",
+            "geonames_city": {
+                "id": 2950159,
+                "city": "Berlin",
+                "geonames_admin1": {
+                    "name": "Berlin",
+                    "id": 2950157,
+                    "ascii_name": "Berlin",
+                    "code": "DE.16"
+                },
+                "geonames_admin2": {
+                    "name": null,
+                    "id": null,
+                    "ascii_name": null,
+                    "code": null
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "BERLIN",
+                    "code": "DE3"
+                },
+                "nuts_level2": {
+                    "name": "Berlin",
+                    "code": "DE30"
+                },
+                "nuts_level3": {
+                    "name": "Berlin",
+                    "code": "DE300"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2921044
+        }
+    ],
+    "links": [
+        "https://www.digital-future.berlin/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "ECDF"
+    ],
+    "status": "active",
+    "wikipedia_url": "",
+    "labels": [],
+    "country": {
+        "country_name": "Germany",
+        "country_code": "DE"
+    },
+    "external_ids": {
+        "GRID": {
+            "preferred": "grid.512225.3",
+            "all": "grid.512225.3"
+        }
     }
-  ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.512225.3",
-      "all": "grid.512225.3"
-    }
-  }
 }

@@ -1,85 +1,85 @@
 {
-  "id": "https://ror.org/02hsggv49",
-  "name": "Institute for Biomedicine",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "https://www.eurac.edu/it/research/health/biomed/Pages/default.aspx"
-  ],
-  "aliases": [],
-  "acronyms": [],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [
-    {
-      "label": "Istituto di Biomedicina",
-      "iso639": "it"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": null,
-  "country": {
-    "country_code": "IT",
-    "country_name": "Italy"
-  },
-  "relationships": [
-    {
-      "type": "Parent",
-      "label": "European Academy of Bozen-Bolzano",
-      "id": "https://ror.org/01xt1w755"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 46.4711,
-      "lng": 11.33059,
-      "postcode": null,
-      "primary": false,
-      "city": "Bolzano",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 3175395,
-      "geonames_city": {
-        "id": 3181913,
-        "city": "Bolzano",
-        "nuts_level1": {
-          "code": "ITH",
-          "name": "NORD-EST"
-        },
-        "nuts_level2": {
-          "code": "ITH1",
-          "name": "Provincia Autonoma di Bolzano/Bozen"
-        },
-        "nuts_level3": {
-          "code": "ITH10",
-          "name": "Bolzano-Bozen"
-        },
-        "geonames_admin1": {
-          "id": 3165244,
-          "name": "Trentino-Alto Adige",
-          "ascii_name": "Trentino-Alto Adige",
-          "code": "IT.17"
-        },
-        "geonames_admin2": {
-          "id": 3181912,
-          "name": "Bolzano",
-          "ascii_name": "Bolzano",
-          "code": "IT.17.BZ"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
+    "id": "https://ror.org/02hsggv49",
+    "name": "Institute for Biomedicine",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": null,
+    "types": [
+        "Facility"
+    ],
+    "relationships": [
+        {
+            "label": "European Academy of Bozen",
+            "type": "Parent",
+            "id": "https://ror.org/01xt1w755"
         }
-      }
+    ],
+    "addresses": [
+        {
+            "lat": 46.4711,
+            "lng": 11.33059,
+            "state": null,
+            "state_code": null,
+            "city": "Bolzano",
+            "geonames_city": {
+                "id": 3181913,
+                "city": "Bolzano",
+                "geonames_admin1": {
+                    "name": "Trentino-Alto Adige",
+                    "id": 3165244,
+                    "ascii_name": "Trentino-Alto Adige",
+                    "code": "IT.17"
+                },
+                "geonames_admin2": {
+                    "name": "Bolzano",
+                    "id": 3181912,
+                    "ascii_name": "Bolzano",
+                    "code": "IT.17.BZ"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "NORD-EST",
+                    "code": "ITH"
+                },
+                "nuts_level2": {
+                    "name": "Provincia Autonoma di Bolzano/Bozen",
+                    "code": "ITH1"
+                },
+                "nuts_level3": {
+                    "name": "Bolzano-Bozen",
+                    "code": "ITH10"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3175395
+        }
+    ],
+    "links": [
+        "https://www.eurac.edu/it/research/health/biomed/Pages/default.aspx"
+    ],
+    "aliases": [],
+    "acronyms": [],
+    "status": "active",
+    "wikipedia_url": "",
+    "labels": [
+        {
+            "label": "Istituto di Biomedicina",
+            "iso639": "it"
+        }
+    ],
+    "country": {
+        "country_name": "Italy",
+        "country_code": "IT"
+    },
+    "external_ids": {
+        "GRID": {
+            "preferred": "grid.511439.b",
+            "all": "grid.511439.b"
+        }
     }
-  ],
-  "external_ids": {
-    "GRID": {
-      "preferred": "grid.511439.b",
-      "all": "grid.511439.b"
-    }
-  }
 }

@@ -1,119 +1,119 @@
 {
-  "id": "https://ror.org/01tp1c480",
-  "name": "Biologie des Organismes et Écosystèmes Aquatiques",
-  "types": [
-    "Facility"
-  ],
-  "links": [
-    "http://borea.mnhn.fr/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "BOREA"
-  ],
-  "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 2009,
-  "country": {
-    "country_code": "FR",
-    "country_name": "France"
-  },
-  "relationships": [
-    {
-      "type": "Parent",
-      "label": "Institut de Recherche pour le Développement",
-      "id": "https://ror.org/05q3vnk25"
-    },
-    {
-      "type": "Parent",
-      "label": "Institut Écologie et Environnement",
-      "id": "https://ror.org/01q76b368"
-    },
-    {
-      "type": "Parent",
-      "label": "National Museum of Natural History",
-      "id": "https://ror.org/03wkt5x30"
-    },
-    {
-      "type": "Parent",
-      "label": "Sorbonne University",
-      "id": "https://ror.org/02en5vm52"
-    },
-    {
-      "type": "Parent",
-      "label": "University of the French Antilles",
-      "id": "https://ror.org/02ryfmr77"
-    },
-    {
-      "type": "Parent",
-      "label": "Université de Caen Normandie",
-      "id": "https://ror.org/051kpcy16"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 48.84441,
-      "lng": 2.356289,
-      "postcode": null,
-      "primary": false,
-      "city": "Paris",
-      "state": null,
-      "state_code": null,
-      "country_geonames_id": 3017382,
-      "geonames_city": {
-        "id": 2988507,
-        "city": "Paris",
-        "nuts_level1": {
-          "code": "FR1",
-          "name": "ÎLE DE FRANCE"
+    "id": "https://ror.org/01tp1c480",
+    "name": "Biologie des Organismes et Écosystèmes Aquatiques",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2009,
+    "types": [
+        "Facility"
+    ],
+    "relationships": [
+        {
+            "label": "Institut de Recherche pour le Développement",
+            "type": "Parent",
+            "id": "https://ror.org/05q3vnk25"
         },
-        "nuts_level2": {
-          "code": "FR10",
-          "name": "Île de France"
+        {
+            "label": "Institut Écologie et Environnement",
+            "type": "Parent",
+            "id": "https://ror.org/01q76b368"
         },
-        "nuts_level3": {
-          "code": "FR101",
-          "name": "Paris"
+        {
+            "label": "National Museum of Natural History",
+            "type": "Parent",
+            "id": "https://ror.org/03wkt5x30"
         },
-        "geonames_admin1": {
-          "id": 3012874,
-          "name": "Île-de-France",
-          "ascii_name": "Ile-de-France",
-          "code": "FR.11"
+        {
+            "label": "Sorbonne University",
+            "type": "Parent",
+            "id": "https://ror.org/02en5vm52"
         },
-        "geonames_admin2": {
-          "id": 2968815,
-          "name": "Paris",
-          "ascii_name": "Paris",
-          "code": "FR.11.75"
+        {
+            "label": "University of the French West Indies",
+            "type": "Parent",
+            "id": "https://ror.org/02ryfmr77"
         },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
+        {
+            "label": "Université de Caen Normandie",
+            "type": "Parent",
+            "id": "https://ror.org/051kpcy16"
         }
-      }
-    }
-  ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0370 7482"
-      ]
+    ],
+    "addresses": [
+        {
+            "lat": 48.84441,
+            "lng": 2.356289,
+            "state": null,
+            "state_code": null,
+            "city": "Paris",
+            "geonames_city": {
+                "id": 2988507,
+                "city": "Paris",
+                "geonames_admin1": {
+                    "name": "Île-de-France",
+                    "id": 3012874,
+                    "ascii_name": "Ile-de-France",
+                    "code": "FR.11"
+                },
+                "geonames_admin2": {
+                    "name": "Paris",
+                    "id": 2968815,
+                    "ascii_name": "Paris",
+                    "code": "FR.11.75"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "ÎLE DE FRANCE",
+                    "code": "FR1"
+                },
+                "nuts_level2": {
+                    "name": "Île de France",
+                    "code": "FR10"
+                },
+                "nuts_level3": {
+                    "name": "Paris",
+                    "code": "FR101"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3017382
+        }
+    ],
+    "links": [
+        "http://borea.mnhn.fr/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "BOREA"
+    ],
+    "status": "active",
+    "wikipedia_url": "",
+    "labels": [],
+    "country": {
+        "country_name": "France",
+        "country_code": "FR"
     },
-    "CNRS": {
-      "preferred": null,
-      "all": [
-        "UMR7208"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.463789.7",
-      "all": "grid.463789.7"
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0370 7482"
+            ]
+        },
+        "CNRS": {
+            "preferred": null,
+            "all": [
+                "UMR7208"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.463789.7",
+            "all": "grid.463789.7"
+        }
     }
-  }
 }

@@ -1,120 +1,120 @@
 {
-  "id": "https://ror.org/00q6h8f30",
-  "name": "Amsterdam UMC Location VUmc",
-  "types": [
-    "Healthcare"
-  ],
-  "links": [
-    "http://www.vumc.nl/"
-  ],
-  "aliases": [],
-  "acronyms": [
-    "VUMC"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/VU_University_Medical_Center",
-  "labels": [
-    {
-      "label": "VU Medisch Centrum",
-      "iso639": "nl"
-    }
-  ],
-  "email_address": null,
-  "ip_addresses": [],
-  "established": 1964,
-  "country": {
-    "country_code": "NL",
-    "country_name": "Netherlands"
-  },
-  "relationships": [
-    {
-      "type": "Related",
-      "label": "Vrije Universiteit Amsterdam",
-      "id": "https://ror.org/008xxew50"
-    },
-    {
-      "type": "Parent",
-      "label": "Amsterdam University Medical Centers",
-      "id": "https://ror.org/05grdyy37"
-    },
-    {
-      "type": "Child",
-      "label": "Amsterdam Neuroscience",
-      "id": "https://ror.org/01x2d9f70"
-    },
-    {
-      "type": "Child",
-      "label": "EMGO Institute for Health and Care Research",
-      "id": "https://ror.org/0258apj61"
-    }
-  ],
-  "addresses": [
-    {
-      "line": null,
-      "lat": 52.335159,
-      "lng": 4.859905,
-      "postcode": null,
-      "primary": false,
-      "city": "Amsterdam",
-      "state": "Noord-Holland",
-      "state_code": "NL-NH",
-      "country_geonames_id": 2750405,
-      "geonames_city": {
-        "id": 2759794,
-        "city": "Amsterdam",
-        "nuts_level1": {
-          "code": "NL3",
-          "name": "WEST-NEDERLAND"
+    "id": "https://ror.org/00q6h8f30",
+    "name": "Amsterdam UMC Location VUmc",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1964,
+    "types": [
+        "Healthcare"
+    ],
+    "relationships": [
+        {
+            "label": "VU Amsterdam",
+            "type": "Related",
+            "id": "https://ror.org/008xxew50"
         },
-        "nuts_level2": {
-          "code": "NL32",
-          "name": "Noord-Holland"
+        {
+            "label": "Amsterdam University Medical Centers",
+            "type": "Parent",
+            "id": "https://ror.org/05grdyy37"
         },
-        "nuts_level3": {
-          "code": "NL326",
-          "name": "Groot-Amsterdam"
+        {
+            "label": "Amsterdam Neuroscience",
+            "type": "Child",
+            "id": "https://ror.org/01x2d9f70"
         },
-        "geonames_admin1": {
-          "id": 2749879,
-          "name": "North Holland",
-          "ascii_name": "North Holland",
-          "code": "NL.07"
-        },
-        "geonames_admin2": {
-          "id": 2759793,
-          "name": "Gemeente Amsterdam",
-          "ascii_name": "Gemeente Amsterdam",
-          "code": "NL.07.0363"
-        },
-        "license": {
-          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-          "license": "http://creativecommons.org/licenses/by/3.0/"
+        {
+            "label": "EMGO Institute for Health and Care Research",
+            "type": "Child",
+            "id": "https://ror.org/0258apj61"
         }
-      }
+    ],
+    "addresses": [
+        {
+            "lat": 52.335159,
+            "lng": 4.859905,
+            "state": "Noord-Holland",
+            "state_code": "NL-NH",
+            "city": "Amsterdam",
+            "geonames_city": {
+                "id": 2759794,
+                "city": "Amsterdam",
+                "geonames_admin1": {
+                    "name": "North Holland",
+                    "id": 2749879,
+                    "ascii_name": "North Holland",
+                    "code": "NL.07"
+                },
+                "geonames_admin2": {
+                    "name": "Gemeente Amsterdam",
+                    "id": 2759793,
+                    "ascii_name": "Gemeente Amsterdam",
+                    "code": "NL.07.0363"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "WEST-NEDERLAND",
+                    "code": "NL3"
+                },
+                "nuts_level2": {
+                    "name": "Noord-Holland",
+                    "code": "NL32"
+                },
+                "nuts_level3": {
+                    "name": "Groot-Amsterdam",
+                    "code": "NL326"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2750405
+        }
+    ],
+    "links": [
+        "http://www.vumc.nl/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "VUMC"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/VU_University_Medical_Center",
+    "labels": [
+        {
+            "label": "VU Medisch Centrum",
+            "iso639": "nl"
+        }
+    ],
+    "country": {
+        "country_name": "Netherlands",
+        "country_code": "NL"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0435 165X"
+            ]
+        },
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "8986849"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q1888218"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.16872.3a",
+            "all": "grid.16872.3a"
+        }
     }
-  ],
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0435 165X"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "8986849"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q1888218"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.16872.3a",
-      "all": "grid.16872.3a"
-    }
-  }
 }
