@@ -1,108 +1,108 @@
 {
-    "id": "https://ror.org/011dvr318",
-    "name": "Spaulding Rehabilitation Hospital",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1971,
-    "types": [
-        "Healthcare"
-    ],
-    "relationships": [
-        {
-            "label": "Harvard University",
-            "type": "Related",
-            "id": "https://ror.org/03vek6s52"
-        },
-        {
-            "label": "VA Boston Healthcare System",
-            "type": "Related",
-            "id": "https://ror.org/04v00sg98"
-        },
-        {
-            "label": "Partners HealthCare",
-            "type": "Parent",
-            "id": "https://ror.org/04py2rh25"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 42.378812,
-            "lng": -71.049444,
-            "state": "Massachusetts",
-            "state_code": "US-MA",
-            "city": "Boston",
-            "geonames_city": {
-                "id": 4930956,
-                "city": "Boston",
-                "geonames_admin1": {
-                    "name": "Massachusetts",
-                    "id": 6254926,
-                    "ascii_name": "Massachusetts",
-                    "code": "US.MA"
-                },
-                "geonames_admin2": {
-                    "name": "Suffolk County",
-                    "id": 4952349,
-                    "ascii_name": "Suffolk County",
-                    "code": "US.MA.025"
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level2": {
-                    "name": null,
-                    "code": null
-                },
-                "nuts_level3": {
-                    "name": null,
-                    "code": null
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 6252001
-        }
-    ],
-    "links": [
-        "http://www.spauldingrehab.org/"
-    ],
-    "aliases": [],
-    "acronyms": [],
-    "status": "active",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Spaulding_Rehabilitation_Hospital",
-    "labels": [],
-    "country": {
-        "country_name": "United States",
-        "country_code": "US"
+  "id": "https://ror.org/011dvr318",
+  "name": "Spaulding Rehabilitation Hospital",
+  "types": [
+    "Healthcare"
+  ],
+  "links": [
+    "http://www.spauldingrehab.org/"
+  ],
+  "aliases": [],
+  "acronyms": [],
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spaulding_Rehabilitation_Hospital",
+  "labels": [],
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1971,
+  "country": {
+    "country_code": "US",
+    "country_name": "United States"
+  },
+  "relationships": [
+    {
+      "type": "Related",
+      "label": "Harvard University",
+      "id": "https://ror.org/03vek6s52"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0004 0451 8771"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "8983457"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q7574134"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.416228.b",
-            "all": "grid.416228.b"
-        }
+    {
+      "type": "Related",
+      "label": "VA Boston Healthcare System",
+      "id": "https://ror.org/04v00sg98"
+    },
+    {
+      "type": "Parent",
+      "label": "Mass General Brigham",
+      "id": "https://ror.org/04py2rh25"
     }
+  ],
+  "addresses": [
+    {
+      "line": null,
+      "lat": 42.378812,
+      "lng": -71.049444,
+      "postcode": null,
+      "primary": false,
+      "city": "Boston",
+      "state": "Massachusetts",
+      "state_code": "US-MA",
+      "country_geonames_id": 6252001,
+      "geonames_city": {
+        "id": 4930956,
+        "city": "Boston",
+        "nuts_level1": {
+          "code": null,
+          "name": null
+        },
+        "nuts_level2": {
+          "code": null,
+          "name": null
+        },
+        "nuts_level3": {
+          "code": null,
+          "name": null
+        },
+        "geonames_admin1": {
+          "id": 6254926,
+          "name": "Massachusetts",
+          "ascii_name": "Massachusetts",
+          "code": "US.MA"
+        },
+        "geonames_admin2": {
+          "id": 4952349,
+          "name": "Suffolk County",
+          "ascii_name": "Suffolk County",
+          "code": "US.MA.025"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        }
+      }
+    }
+  ],
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0451 8771"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "8983457"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q7574134"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.416228.b",
+      "all": "grid.416228.b"
+    }
+  }
 }

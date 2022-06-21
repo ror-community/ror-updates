@@ -1,104 +1,104 @@
 {
-    "id": "https://ror.org/044fhy270",
-    "name": "Carl-Thiem-Klinikum Cottbus",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1914,
-    "types": [
-        "Healthcare"
-    ],
-    "relationships": [
-        {
-            "label": "Charité - University Medicine Berlin",
-            "type": "Related",
-            "id": "https://ror.org/001w7jn25"
-        },
-        {
-            "label": "Martin Luther University Halle-Wittenberg",
-            "type": "Related",
-            "id": "https://ror.org/05gqaka33"
-        },
-        {
-            "label": "TU Dresden",
-            "type": "Related",
-            "id": "https://ror.org/042aqky30"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 51.742333,
-            "lng": 14.323074,
-            "state": null,
-            "state_code": null,
-            "city": "Cottbus",
-            "geonames_city": {
-                "id": 2939811,
-                "city": "Cottbus",
-                "geonames_admin1": {
-                    "name": "Brandenburg",
-                    "id": 2945356,
-                    "ascii_name": "Brandenburg",
-                    "code": "DE.11"
-                },
-                "geonames_admin2": {
-                    "name": null,
-                    "id": null,
-                    "ascii_name": null,
-                    "code": null
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": "BRANDENBURG",
-                    "code": "DE4"
-                },
-                "nuts_level2": {
-                    "name": "Brandenburg",
-                    "code": "DE40"
-                },
-                "nuts_level3": {
-                    "name": "Spree-Neiße",
-                    "code": "DE40G"
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 2921044
-        }
-    ],
-    "links": [
-        "https://www.ctk.de/startseite.html"
-    ],
-    "aliases": [],
-    "acronyms": [
-        "CTK"
-    ],
-    "status": "active",
-    "wikipedia_url": "",
-    "labels": [],
-    "country": {
-        "country_name": "Germany",
-        "country_code": "DE"
+  "id": "https://ror.org/044fhy270",
+  "name": "Carl-Thiem-Klinikum Cottbus",
+  "types": [
+    "Healthcare"
+  ],
+  "links": [
+    "https://www.ctk.de/startseite.html"
+  ],
+  "aliases": [],
+  "acronyms": [
+    "CTK"
+  ],
+  "status": "active",
+  "wikipedia_url": "",
+  "labels": [],
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1914,
+  "country": {
+    "country_code": "DE",
+    "country_name": "Germany"
+  },
+  "relationships": [
+    {
+      "type": "Related",
+      "label": "Charité - Universitätsmedizin Berlin",
+      "id": "https://ror.org/001w7jn25"
     },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0004 0558 2150"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "47001128"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.460801.b",
-            "all": "grid.460801.b"
-        }
+    {
+      "type": "Related",
+      "label": "Martin Luther University Halle-Wittenberg",
+      "id": "https://ror.org/05gqaka33"
+    },
+    {
+      "type": "Related",
+      "label": "TU Dresden",
+      "id": "https://ror.org/042aqky30"
     }
+  ],
+  "addresses": [
+    {
+      "line": null,
+      "lat": 51.742333,
+      "lng": 14.323074,
+      "postcode": null,
+      "primary": false,
+      "city": "Cottbus",
+      "state": null,
+      "state_code": null,
+      "country_geonames_id": 2921044,
+      "geonames_city": {
+        "id": 2939811,
+        "city": "Cottbus",
+        "nuts_level1": {
+          "code": "DE4",
+          "name": "BRANDENBURG"
+        },
+        "nuts_level2": {
+          "code": "DE40",
+          "name": "Brandenburg"
+        },
+        "nuts_level3": {
+          "code": "DE40G",
+          "name": "Spree-Neiße"
+        },
+        "geonames_admin1": {
+          "id": 2945356,
+          "name": "Brandenburg",
+          "ascii_name": "Brandenburg",
+          "code": "DE.11"
+        },
+        "geonames_admin2": {
+          "id": null,
+          "name": null,
+          "ascii_name": null,
+          "code": null
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        }
+      }
+    }
+  ],
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0558 2150"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "47001128"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.460801.b",
+      "all": "grid.460801.b"
+    }
+  }
 }

@@ -1,139 +1,139 @@
 {
-    "id": "https://ror.org/046ak2485",
-    "name": "Freie Universität Berlin",
-    "email_address": null,
-    "ip_addresses": [],
-    "established": 1948,
-    "types": [
-        "Education"
-    ],
-    "relationships": [
-        {
-            "label": "Berlin Mathematical School",
-            "type": "Related",
-            "id": "https://ror.org/03zekj455"
-        },
-        {
-            "label": "Charité - University Medicine Berlin",
-            "type": "Related",
-            "id": "https://ror.org/001w7jn25"
-        },
-        {
-            "label": "Weierstrass Institute for Applied Analysis and Stochastics",
-            "type": "Related",
-            "id": "https://ror.org/00h1x4t21"
-        },
-        {
-            "label": "Botanischer Garten und Botanisches Museum Berlin",
-            "type": "Child",
-            "id": "https://ror.org/00bv4cx53"
-        },
-        {
-            "label": "Einstein Center Digital Future",
-            "type": "Child",
-            "id": "https://ror.org/0086bb350"
-        },
-        {
-            "label": "Weizenbaum Institute for the Networked Society",
-            "type": "Child",
-            "id": "https://ror.org/023kksk09"
-        }
-    ],
-    "addresses": [
-        {
-            "lat": 52.452729,
-            "lng": 13.289647,
-            "state": null,
-            "state_code": null,
-            "city": "Berlin",
-            "geonames_city": {
-                "id": 2950159,
-                "city": "Berlin",
-                "geonames_admin1": {
-                    "name": "Berlin",
-                    "id": 2950157,
-                    "ascii_name": "Berlin",
-                    "code": "DE.16"
-                },
-                "geonames_admin2": {
-                    "name": null,
-                    "id": null,
-                    "ascii_name": null,
-                    "code": null
-                },
-                "license": {
-                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
-                    "license": "http://creativecommons.org/licenses/by/3.0/"
-                },
-                "nuts_level1": {
-                    "name": "BERLIN",
-                    "code": "DE3"
-                },
-                "nuts_level2": {
-                    "name": "Berlin",
-                    "code": "DE30"
-                },
-                "nuts_level3": {
-                    "name": "Berlin",
-                    "code": "DE300"
-                }
-            },
-            "postcode": null,
-            "primary": false,
-            "line": null,
-            "country_geonames_id": 2921044
-        }
-    ],
-    "links": [
-        "http://www.fu-berlin.de/en/"
-    ],
-    "aliases": [
-        "FU Berlin"
-    ],
-    "acronyms": [
-        "FU"
-    ],
-    "status": "active",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Free_University_of_Berlin",
-    "labels": [
-        {
-            "label": "Free University of Berlin",
-            "iso639": "en"
-        }
-    ],
-    "country": {
-        "country_name": "Germany",
-        "country_code": "DE"
-    },
-    "external_ids": {
-        "ISNI": {
-            "preferred": null,
-            "all": [
-                "0000 0000 9116 4836"
-            ]
-        },
-        "FundRef": {
-            "preferred": null,
-            "all": [
-                "501100002971",
-                "501100001644"
-            ]
-        },
-        "OrgRef": {
-            "preferred": null,
-            "all": [
-                "315275"
-            ]
-        },
-        "Wikidata": {
-            "preferred": null,
-            "all": [
-                "Q153006"
-            ]
-        },
-        "GRID": {
-            "preferred": "grid.14095.39",
-            "all": "grid.14095.39"
-        }
+  "id": "https://ror.org/046ak2485",
+  "name": "Freie Universität Berlin",
+  "types": [
+    "Education"
+  ],
+  "links": [
+    "http://www.fu-berlin.de/en/"
+  ],
+  "aliases": [
+    "FU Berlin"
+  ],
+  "acronyms": [
+    "FU"
+  ],
+  "status": "active",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Free_University_of_Berlin",
+  "labels": [
+    {
+      "label": "Free University of Berlin",
+      "iso639": "en"
     }
+  ],
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1948,
+  "country": {
+    "country_code": "DE",
+    "country_name": "Germany"
+  },
+  "relationships": [
+    {
+      "type": "Related",
+      "label": "Berlin Mathematical School",
+      "id": "https://ror.org/03zekj455"
+    },
+    {
+      "type": "Related",
+      "label": "Charité - Universitätsmedizin Berlin",
+      "id": "https://ror.org/001w7jn25"
+    },
+    {
+      "type": "Related",
+      "label": "Weierstrass Institute for Applied Analysis and Stochastics",
+      "id": "https://ror.org/00h1x4t21"
+    },
+    {
+      "type": "Child",
+      "label": "Botanic Garden and Botanical Museum Berlin",
+      "id": "https://ror.org/00bv4cx53"
+    },
+    {
+      "type": "Child",
+      "label": "Einstein Center Digital Future",
+      "id": "https://ror.org/0086bb350"
+    },
+    {
+      "type": "Child",
+      "label": "Weizenbaum Institute for the Networked Society",
+      "id": "https://ror.org/023kksk09"
+    }
+  ],
+  "addresses": [
+    {
+      "line": null,
+      "lat": 52.452729,
+      "lng": 13.289647,
+      "postcode": null,
+      "primary": false,
+      "city": "Berlin",
+      "state": null,
+      "state_code": null,
+      "country_geonames_id": 2921044,
+      "geonames_city": {
+        "id": 2950159,
+        "city": "Berlin",
+        "nuts_level1": {
+          "code": "DE3",
+          "name": "BERLIN"
+        },
+        "nuts_level2": {
+          "code": "DE30",
+          "name": "Berlin"
+        },
+        "nuts_level3": {
+          "code": "DE300",
+          "name": "Berlin"
+        },
+        "geonames_admin1": {
+          "id": 2950157,
+          "name": "Berlin",
+          "ascii_name": "Berlin",
+          "code": "DE.16"
+        },
+        "geonames_admin2": {
+          "id": null,
+          "name": null,
+          "ascii_name": null,
+          "code": null
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        }
+      }
+    }
+  ],
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0000 9116 4836"
+      ]
+    },
+    "FundRef": {
+      "preferred": null,
+      "all": [
+        "501100002971",
+        "501100001644"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "315275"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q153006"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.14095.39",
+      "all": "grid.14095.39"
+    }
+  }
 }
