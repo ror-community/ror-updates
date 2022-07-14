@@ -38,7 +38,7 @@ Requests submitted via the [feedback form](https://docs.google.com/forms/d/e/1FA
 ![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
 
 # Publishing updates to the registry
-Both the data dump and the API are updated approximately quarterly, and both are typically updated on the same day. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
+The ROR API is updated on a rolling basis. ROR data dumps are updated approximately quarterly. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
 
 # Tracking ROR updates
 Anyone can follow the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) to see the requests being reviewed and to see which changes are being queued up for a future release. If you wish to follow and receive notifications about specific changes, sign in with your Github account and add yourself as a watcher to individual issues. 
