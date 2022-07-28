@@ -1,17 +1,22 @@
 {
-  "id": "https://ror.org/01awgk221",
-  "name": "Zurich University of Teacher Education",
+  "id": "https://ror.org/01sxmzj91",
+  "name": "Zürcher Fachhochschule",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2002,
+  "established": 1998,
   "types": [
     "Education"
   ],
   "relationships": [
     {
       "label": "ZHAW Zurich University of Applied Sciences",
-      "type": "Related",
+      "type": "Child",
       "id": "https://ror.org/05pmsvm27"
+    },
+    {
+      "label": "Zurich University of Applied Sciences in Business Administration",
+      "type": "Child",
+      "id": "https://ror.org/02ejkey04"
     }
   ],
   "addresses": [
@@ -60,24 +65,18 @@
     }
   ],
   "links": [
-    "https://phzh.ch/en/"
+    "http://www.zfh.ch/en/start.html"
   ],
-  "aliases": [
-    "PH Zürich"
-  ],
+  "aliases": [],
   "acronyms": [
-    "PHZH"
+    "ZFH"
   ],
   "status": "active",
-  "wikipedia_url": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Z%C3%BCrcher_Fachhochschule",
   "labels": [
     {
-      "label": "Pädagogische Hochschule Zürich",
+      "label": "Zürcher Fachhochschule",
       "iso639": "de"
-    },
-    {
-      "label": "Haute école pédagogique de Zurich",
-      "iso639": "fr"
     }
   ],
   "country": {
@@ -88,12 +87,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0000 9666 1858"
+        "0000 0000 8645 7693"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q248444"
       ]
     },
     "GRID": {
-      "preferred": "grid.483054.e",
-      "all": "grid.483054.e"
+      "preferred": "grid.463210.2",
+      "all": "grid.463210.2"
     }
   }
 }
