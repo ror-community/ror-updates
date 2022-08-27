@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/01txmfh60",
-  "name": "Seagen (Canada)",
+  "id": "https://ror.org/05vb5nm66",
+  "name": "PhysioPathologie des Adaptations Nutritionnelles",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1997,
+  "established": null,
   "types": [
-    "Company"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Seagen (United States)",
+      "label": "National Research Institute for Agriculture, Food and Environment",
       "type": "Parent",
-      "id": "https://ror.org/01vwesc15"
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "Parent",
+      "id": "https://ror.org/03gnr7b55"
     }
   ],
   "addresses": [
     {
-      "lat": 53.55014,
-      "lng": -113.46871,
+      "lat": 47.21725,
+      "lng": -1.55336,
       "state": null,
       "state_code": null,
-      "city": "Edmonton",
+      "city": "Nantes",
       "geonames_city": {
-        "id": 5946768,
-        "city": "Edmonton",
+        "id": 2990969,
+        "city": "Nantes",
         "geonames_admin1": {
-          "name": "Alberta",
-          "id": 5883102,
-          "ascii_name": "Alberta",
-          "code": "CA.01"
+          "name": "Pays de la Loire",
+          "id": 2988289,
+          "ascii_name": "Pays de la Loire",
+          "code": "FR.52"
         },
         "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
+          "name": "Loire-Atlantique",
+          "id": 2997861,
+          "ascii_name": "Loire-Atlantique",
+          "code": "FR.52.44"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,39 +61,39 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6251999
+      "country_geonames_id": 3017382
     }
   ],
   "links": [
-    "https://www.seagen.com"
+    "https://www6.angers-nantes.inrae.fr/phan"
   ],
   "aliases": [
-    "Seattle Genetics (Canada)"
+    "PhAN"
   ],
   "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Seattle_Genetics",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "Canada",
-    "country_code": "CA"
+    "country_name": "France",
+    "country_code": "FR"
   },
   "external_ids": {
-    "ISNI": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "0000 0004 0398 552X"
+        "UMR1280"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q30281689"
+        "Q51783360"
       ]
     },
     "GRID": {
-      "preferred": "grid.418358.3",
-      "all": "grid.418358.3"
+      "preferred": "grid.497646.e",
+      "all": "grid.497646.e"
     }
   }
 }

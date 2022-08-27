@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/01vwesc15",
-  "name": "Seagen (United States)",
+  "id": "https://ror.org/014nzh720",
+  "name": "Droit et changement social",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1997,
+  "established": 2012,
   "types": [
-    "Company"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Seagen (Canada)",
-      "type": "Child",
-      "id": "https://ror.org/01txmfh60"
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "Parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "Parent",
+      "id": "https://ror.org/03gnr7b55"
     }
   ],
   "addresses": [
     {
-      "lat": 47.76232,
-      "lng": -122.2054,
+      "lat": 47.21725,
+      "lng": -1.55336,
       "state": null,
       "state_code": null,
-      "city": "Bothell",
+      "city": "Nantes",
       "geonames_city": {
-        "id": 5787829,
-        "city": "Bothell",
+        "id": 2990969,
+        "city": "Nantes",
         "geonames_admin1": {
-          "name": "Washington",
-          "id": 5815135,
-          "ascii_name": "Washington",
-          "code": "US.WA"
+          "name": "Pays de la Loire",
+          "id": 2988289,
+          "ascii_name": "Pays de la Loire",
+          "code": "FR.52"
         },
         "geonames_admin2": {
-          "name": "King",
-          "id": 5799783,
-          "ascii_name": "King",
-          "code": "US.WA.033"
+          "name": "Loire-Atlantique",
+          "id": 2997861,
+          "ascii_name": "Loire-Atlantique",
+          "code": "FR.52.44"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,51 +61,45 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 3017382
     }
   ],
   "links": [
-    "https://www.seagen.com"
+    "https://dcs.univ-nantes.fr/version-francaise/"
   ],
-  "aliases": [
-    "Seattle Genetics (United States)"
+  "aliases": [],
+  "acronyms": [
+    "DCS"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Seattle_Genetics",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "France",
+    "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0378 9676"
+        "0000 0001 2309 5012"
       ]
     },
-    "FundRef": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "100010293"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "41426599"
+        "UMR6297"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q17155112"
+        "Q52606137"
       ]
     },
     "GRID": {
-      "preferred": "grid.438014.a",
-      "all": "grid.438014.a"
+      "preferred": "grid.503160.1",
+      "all": "grid.503160.1"
     }
   }
 }
