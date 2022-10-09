@@ -1,34 +1,40 @@
 {
-  "id": "https://ror.org/03x2m4d16",
-  "name": "Trunojoyo University",
+  "id": "https://ror.org/05bkpyp72",
+  "name": "Norwegian Space Agency",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2001,
+  "established": 1987,
   "types": [
-    "Education"
+    "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Trade, Industry and Fisheries",
+      "type": "Parent",
+      "id": "https://ror.org/02j2d2g70"
+    }
+  ],
   "addresses": [
     {
-      "lat": -7.0455,
-      "lng": 112.7351,
+      "lat": 59.91273,
+      "lng": 10.74609,
       "state": null,
       "state_code": null,
-      "city": "Bangkalan",
+      "city": "Oslo",
       "geonames_city": {
-        "id": 1650298,
-        "city": "Bangkalan",
+        "id": 3143244,
+        "city": "Oslo",
         "geonames_admin1": {
-          "name": "East Java",
-          "id": 1642668,
-          "ascii_name": "East Java",
-          "code": "ID.08"
+          "name": "Oslo",
+          "id": 3143242,
+          "ascii_name": "Oslo",
+          "code": "NO.12"
         },
         "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
+          "name": "Oslo",
+          "id": 6453366,
+          "ascii_name": "Oslo",
+          "code": "NO.12.0301"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -50,58 +56,58 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 1643084
+      "country_geonames_id": 3144096
     }
   ],
   "links": [
-    "https://www.trunojoyo.ac.id/"
+    "http://www.romsenter.no/eng"
   ],
   "aliases": [
-    "Universitas Trunojoyo",
-    "University of Trunojoyo Madura"
+    "Norsk Romsenter",
+    "Norwegian Space Centre"
   ],
   "acronyms": [
-    "Unijoyo"
+    "NSC"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Trunojoyo_University",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Norwegian_Space_Centre",
   "labels": [
     {
-      "label": "Universitas Trunojoyo Madura",
-      "iso639": "id"
+      "label": "Norjan avaruuskeskus",
+      "iso639": "fi"
     }
   ],
   "country": {
-    "country_name": "Indonesia",
-    "country_code": "ID"
+    "country_name": "Norway",
+    "country_code": "NO"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 1759 6832"
+        "0000 0001 2110 8924"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "31573784"
+        "1380395"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q7847992"
+        "Q261868"
       ]
     },
     "GRID": {
-      "preferred": "grid.443529.d",
-      "all": "grid.443529.d"
+      "preferred": "grid.436929.3",
+      "all": "grid.436929.3"
     },
     "FundRef": {
-      "preferred": "100019146",
+      "preferred": "501100020301",
       "all": [
-        "100019146"
+        "501100020301"
       ]
     }
   }
