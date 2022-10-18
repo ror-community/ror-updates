@@ -1,0 +1,99 @@
+{
+  "id": "https://ror.org/02qm18h86",
+  "name": "VA Pittsburgh Healthcare System",
+  "email_address": null,
+  "ip_addresses": [],
+  "established": null,
+  "types": [
+    "Healthcare"
+  ],
+  "relationships": [
+    {
+      "label": "VA Healthcare-VISN 4",
+      "type": "Parent",
+      "id": "https://ror.org/04fhxp168"
+    },
+    {
+      "label": "Geriatric Research Education and Clinical Center",
+      "type": "Child",
+      "id": "https://ror.org/01nh3sx96"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 40.44062,
+      "lng": -79.99589,
+      "state": null,
+      "state_code": null,
+      "city": "Pittsburgh",
+      "geonames_city": {
+        "id": 5206379,
+        "city": "Pittsburgh",
+        "geonames_admin1": {
+          "name": "Pennsylvania",
+          "id": 6254927,
+          "ascii_name": "Pennsylvania",
+          "code": "US.PA"
+        },
+        "geonames_admin2": {
+          "name": "Allegheny",
+          "id": 5178040,
+          "ascii_name": "Allegheny",
+          "code": "US.PA.003"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 6252001
+    }
+  ],
+  "links": [
+    "http://www.pittsburgh.va.gov/"
+  ],
+  "aliases": [],
+  "acronyms": [
+    "VAPHS"
+  ],
+  "status": "active",
+  "wikipedia_url": "",
+  "labels": [],
+  "country": {
+    "country_name": "United States",
+    "country_code": "US"
+  },
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0420 3665"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.413935.9",
+      "all": "grid.413935.9"
+    },
+    "FundRef": {
+      "preferred": "100019713",
+      "all": [
+        "100019713"
+      ]
+    }
+  }
+}
