@@ -1,45 +1,45 @@
 {
-  "id": "https://ror.org/01zbnvs85",
-  "name": "Meta (United States)",
+  "id": "https://ror.org/017bbxn17",
+  "name": "Centre de Biologie du Développement",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2004,
+  "established": 1995,
   "types": [
-    "Company"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Meta (Israel)",
-      "type": "Child",
-      "id": "https://ror.org/02388em19"
+      "label": "Institut des Sciences Biologiques",
+      "type": "Parent",
+      "id": "https://ror.org/00rydyx93"
     },
     {
-      "label": "Meta (United Kingdom)",
-      "type": "Child",
-      "id": "https://ror.org/020ye1821"
+      "label": "Université Toulouse III - Paul Sabatier",
+      "type": "Parent",
+      "id": "https://ror.org/02v6kpv12"
     }
   ],
   "addresses": [
     {
-      "lat": 37.45383,
-      "lng": -122.18219,
+      "lat": 43.60426,
+      "lng": 1.44367,
       "state": null,
       "state_code": null,
-      "city": "Menlo Park",
+      "city": "Toulouse",
       "geonames_city": {
-        "id": 5372223,
-        "city": "Menlo Park",
+        "id": 2972315,
+        "city": "Toulouse",
         "geonames_admin1": {
-          "name": "California",
-          "id": 5332921,
-          "ascii_name": "California",
-          "code": "US.CA"
+          "name": "Occitanie",
+          "id": 11071623,
+          "ascii_name": "Occitanie",
+          "code": "FR.76"
         },
         "geonames_admin2": {
-          "name": "San Mateo",
-          "id": 5392427,
-          "ascii_name": "San Mateo",
-          "code": "US.CA.081"
+          "name": "Upper Garonne",
+          "id": 3013767,
+          "ascii_name": "Upper Garonne",
+          "code": "FR.76.31"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -61,48 +61,45 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 3017382
     }
   ],
   "links": [
-    "https://www.facebook.com/"
+    "http://www-cbd.ups-tlse.fr/?lang=fr"
   ],
-  "aliases": [
-    "Meta Platforms",
-    "Facebook"
-  ],
+  "aliases": [],
   "acronyms": [
-    "FB"
+    "CBD"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "France",
+    "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0615 529X"
+        "0000 0004 0638 1019"
       ]
     },
-    "FundRef": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "100005801"
+        "UMR5547"
       ]
     },
     "Wikidata": {
-      "preferred": "Q380",
+      "preferred": null,
       "all": [
-        "Q380"
+        "Q30262215"
       ]
     },
     "GRID": {
-      "preferred": "grid.453567.6",
-      "all": "grid.453567.6"
+      "preferred": "grid.463826.d",
+      "all": "grid.463826.d"
     }
   }
 }
