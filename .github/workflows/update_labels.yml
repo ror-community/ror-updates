@@ -29,9 +29,9 @@ jobs:
         working-directory: ${{ env.WORKING_DIR }}
         run: |
           python -m pip install --upgrade pip
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/requirements.txt -o requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/move-generate-rel/update_related_records/requirements.txt -o requirements.txt
           pip install -r requirements.txt
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/update_related.py -o update_related.py
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/move-generate-rel/update_related_records/update_related.py -o update_related.py
           python update_related.py
       - name: commit changed files
         if: ${{ steps.updatelabels.outcome == 'success'}}
@@ -56,5 +56,4 @@ jobs:
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: '${env.GITHUB_REPOSITORY}: Update labels in related records status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
-
+          text: 'DEV update labels in related records status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'

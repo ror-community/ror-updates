@@ -1,13 +1,13 @@
-name: Create relationships
+name: Remove relationships to inactive records
 on:
   workflow_dispatch:
     inputs:
       directory-name:
         type: string
-        description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
+        description: Name of parent directory containing new/updated records with inactive statuses. Needed only if different from branch name.
 
 jobs:
-  generate-relationships:
+  remove-relationships:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -24,23 +24,23 @@ jobs:
       - name: Get branch name
         if: "${{ github.event.inputs.directory-name == '' }}"
         run: echo "WORKING_DIR=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
-      - name: Generate relationships
-        id: genrelshp
+      - name: Remove relationships
+        id: remrelshp
         working-directory: ${{ env.WORKING_DIR }}
         run: |
           python -m pip install --upgrade pip
           pip install requests==2.23.0
           pip install git+https://github.com/ror-community/update_address.git
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/move-generate-rel/generate_relationships/generate_relationships.py -o generate_relationships.py
-          python generate_relationships.py relationships.csv
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/move-generate-rel/remove_relationships/remove_relationships.py -o remove_relationships.py
+          python remove_relationships.py relationships.csv
       - name: commit error file
-        if: ${{ steps.genrelshp.outcome != 'success'}}
+        if: ${{ steps.remrelshp.outcome != 'success'}}
         working-directory:  ${{ env.WORKING_DIR }}
         run: |
           echo "ERRORS found for some records:"
           cat relationship_errors.log
       - name: commit changed files
-        if: ${{ steps.genrelshp.outcome == 'success'}}
+        if: ${{ steps.remrelshp.outcome == 'success'}}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern:  ${{ env.WORKING_DIR }}/**.json
@@ -48,7 +48,7 @@ jobs:
       - name: Set env variable for notification
         if: always()
         run: |
-          if [[ ${{ steps.genrelshp.outcome }} == 'success' ]]; then
+          if [[ ${{ steps.remrelshp.outcome }} == 'success' ]]; then
             echo "relationship_status=SUCCESS" >> $GITHUB_ENV
           else
             echo "relationship_status=FAILED" >> $GITHUB_ENV
@@ -62,4 +62,4 @@ jobs:
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: 'DEV relationship generation status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
+          text: 'DEV relationship removal status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
