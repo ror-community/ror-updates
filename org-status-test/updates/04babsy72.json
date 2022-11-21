@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/04n0vf235",
-  "name": "Canadian Breast Cancer Foundation",
+  "id": "https://ror.org/04babsy72",
+  "name": "Indigenous Services Canada",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1986,
+  "established": 2019,
   "types": [
-    "Nonprofit"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Canadian Cancer Society",
-      "type": "Successor",
-      "id": "https://ror.org/017343w90"
+      "label": "Aboriginal Affairs Northern Dev Canada",
+      "type": "Predecessor",
+      "id": "https://ror.org/05pgxdd43"
     }
   ],
   "addresses": [
     {
-      "lat": 43.70011,
-      "lng": -79.4163,
+      "lat": 45.47723,
+      "lng": -75.70164,
       "state": null,
       "state_code": null,
-      "city": "Toronto",
+      "city": "Gatineau",
       "geonames_city": {
-        "id": 6167865,
-        "city": "Toronto",
+        "id": 5959974,
+        "city": "Gatineau",
         "geonames_admin1": {
-          "name": "Ontario",
-          "id": 6093943,
-          "ascii_name": "Ontario",
-          "code": "CA.08"
+          "name": "Quebec",
+          "id": 6115047,
+          "ascii_name": "Quebec",
+          "code": "CA.10"
         },
         "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
+          "name": "Outaouais",
+          "id": 6095306,
+          "ascii_name": "Outaouais",
+          "code": "CA.10.07"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,15 +60,17 @@
     }
   ],
   "links": [
-    "http://www.cbcf.org/Pages/default.aspx"
+    "https://www.sac-isc.gc.ca"
   ],
   "aliases": [],
-  "acronyms": [],
-  "status": "inactive",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Canadian_Breast_Cancer_Foundation",
+  "acronyms": [
+    "ISC"
+  ],
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Indigenous_Services_Canada",
   "labels": [
     {
-      "label": "Fondation canadienne du cancer du sein",
+      "label": "Services aux Autochtones Canada",
       "iso639": "fr"
     }
   ],
@@ -77,21 +79,17 @@
     "country_code": "CA"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0473 5688"
-      ]
-    },
     "FundRef": {
-      "preferred": null,
+      "preferred": "501100013971",
       "all": [
-        "501100000147"
+        "501100013971"
       ]
     },
-    "GRID": {
-      "preferred": "grid.453374.2",
-      "all": "grid.453374.2"
+    "Wikidata": {
+      "preferred": "Q85846156",
+      "all": [
+        "Q85846156"
+      ]
     }
   }
 }
