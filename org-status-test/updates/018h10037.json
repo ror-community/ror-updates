@@ -1,34 +1,34 @@
 {
-  "id": "https://ror.org/028rzxs74",
-  "name": "Mylan (United Kingdom)",
+  "id": "https://ror.org/018h10037",
+  "name": "UK Health Security Agency",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1961,
+  "established": 2020,
   "types": [
-    "Company"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Mylan (United States)",
+      "label": "Department of Health and Social Care",
       "type": "Parent",
-      "id": "https://ror.org/04nsw4151"
+      "id": "https://ror.org/03sbpja79"
     },
     {
-      "label": "Viatris",
-      "type": "Successor",
-      "id": "https://ror.org/01g1gvr46"
+      "label": "Public Health England",
+      "type": "Predecessor",
+      "id": "https://ror.org/00vbvha87"
     }
   ],
   "addresses": [
     {
-      "lat": 51.76338,
-      "lng": -0.22419,
+      "lat": 51.50853,
+      "lng": -0.12574,
       "state": null,
       "state_code": null,
-      "city": "Hatfield",
+      "city": "London",
       "geonames_city": {
-        "id": 2647349,
-        "city": "Hatfield",
+        "id": 2643743,
+        "city": "London",
         "geonames_admin1": {
           "name": "England",
           "id": 6269131,
@@ -36,10 +36,10 @@
           "code": "GB.ENG"
         },
         "geonames_admin2": {
-          "name": "Hertfordshire",
-          "id": 2647043,
-          "ascii_name": "Hertfordshire",
-          "code": "GB.ENG.F8"
+          "name": "Greater London",
+          "id": 2648110,
+          "ascii_name": "Greater London",
+          "code": "GB.ENG.GLA"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,12 +65,14 @@
     }
   ],
   "links": [
-    "http://www.mylan.com/"
+    "https://www.gov.uk/government/organisations/uk-health-security-agency"
   ],
   "aliases": [],
-  "acronyms": [],
-  "status": "inactive",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mylan",
+  "acronyms": [
+    "UKHSA"
+  ],
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/UK_Health_Security_Agency",
   "labels": [],
   "country": {
     "country_name": "United Kingdom",
@@ -78,14 +80,10 @@
   },
   "external_ids": {
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q104336949",
       "all": [
-        "Q30714497"
+        "Q104336949"
       ]
-    },
-    "GRID": {
-      "preferred": "grid.473098.1",
-      "all": "grid.473098.1"
     }
   }
 }

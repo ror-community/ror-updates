@@ -1,17 +1,22 @@
 {
-  "id": "https://ror.org/03y81da23",
-  "name": "Laboratory of Hydrology and Geochemistry",
+  "id": "https://ror.org/0530qwm02",
+  "name": "Earth and Environment Institute of Strasbourg",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2009,
+  "established": 2021,
   "types": [
-    "Facility"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Institut National des Sciences de l'Univers",
+      "label": "University of Strasbourg",
       "type": "Parent",
-      "id": "https://ror.org/04kdfz702"
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "French National Centre for Scientific Research",
+      "type": "Parent",
+      "id": "https://ror.org/02feahw73"
     },
     {
       "label": "National School for Water and Environmental Engineering",
@@ -19,14 +24,9 @@
       "id": "https://ror.org/02jhjzd11"
     },
     {
-      "label": "University of Strasbourg",
-      "type": "Parent",
-      "id": "https://ror.org/00pg6eq24"
-    },
-    {
-      "label": "Earth and Environment Institute of Strasbourg",
-      "type": "Successor",
-      "id": "https://ror.org/0530qwm02"
+      "label": "Laboratory of Hydrology and Geochemistry",
+      "type": "Predecessor",
+      "id": "https://ror.org/03y81da23"
     }
   ],
   "addresses": [
@@ -75,17 +75,17 @@
     }
   ],
   "links": [
-    "https://lhyges.unistra.fr/-Generale-?lang=en"
+    "https://ites.unistra.fr/"
   ],
   "aliases": [],
   "acronyms": [
-    "LHyGes"
+    "ITES"
   ],
-  "status": "inactive",
-  "wikipedia_url": "",
+  "status": "active",
+  "wikipedia_url": null,
   "labels": [
     {
-      "label": "Laboratoire d’HYdrologie et de GEochimie",
+      "label": "Institut Terre et Environnement de Strasbourg",
       "iso639": "fr"
     }
   ],
@@ -93,22 +93,5 @@
     "country_name": "France",
     "country_code": "FR"
   },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2299 9140"
-      ]
-    },
-    "CNRS": {
-      "preferred": null,
-      "all": [
-        "UMR7517"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.469417.9",
-      "all": "grid.469417.9"
-    }
-  }
+  "external_ids": {}
 }
