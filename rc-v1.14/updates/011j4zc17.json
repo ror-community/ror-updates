@@ -1,45 +1,40 @@
 {
-  "id": "https://ror.org/03x6a1n79",
-  "name": "Modèles Dynamiques Corpus",
+  "id": "https://ror.org/011j4zc17",
+  "name": "National Gallery of Australia",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2001,
+  "established": 1967,
   "types": [
-    "Facility"
+    "Archive"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences Humaines et Sociales",
+      "label": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
       "type": "Parent",
-      "id": "https://ror.org/04b0z7q78"
-    },
-    {
-      "label": "Université Paris Nanterre",
-      "type": "Parent",
-      "id": "https://ror.org/013bkhk48"
+      "id": "https://ror.org/043rbr770"
     }
   ],
   "addresses": [
     {
-      "lat": 48.89198,
-      "lng": 2.20675,
+      "lat": -35.28346,
+      "lng": 149.12807,
       "state": null,
       "state_code": null,
-      "city": "Nanterre",
+      "city": "Canberra",
       "geonames_city": {
-        "id": 2990970,
-        "city": "Nanterre",
+        "id": 2172517,
+        "city": "Canberra",
         "geonames_admin1": {
-          "name": "Île-de-France",
-          "id": 3012874,
-          "ascii_name": "Île-de-France",
-          "code": "FR.11"
+          "name": "Australian Capital Territory",
+          "id": 2177478,
+          "ascii_name": "Australian Capital Territory",
+          "code": "AU.01"
         },
         "geonames_admin2": {
-          "name": "Hauts-de-Seine",
-          "id": 3013657,
-          "ascii_name": "Hauts-de-Seine",
-          "code": "FR.11.92"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -61,41 +56,41 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 3017382
+      "country_geonames_id": 2077456
     }
   ],
   "links": [
-    "https://modyco.fr"
+    "http://nga.gov.au/"
   ],
   "aliases": [
-    "Laboratoire MoDyCo"
+    "Australian National Gallery"
   ],
   "acronyms": [
-    "MoDyCo"
+    "NGA"
   ],
   "status": "active",
-  "wikipedia_url": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/National_Gallery_of_Australia",
   "labels": [],
   "country": {
-    "country_name": "France",
-    "country_code": "FR"
+    "country_name": "Australia",
+    "country_code": "AU"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0366 980X"
+        "0000 0001 2152 133X"
       ]
     },
-    "CNRS": {
+    "Wikidata": {
       "preferred": null,
       "all": [
-        "UMR7114"
+        "Q795228"
       ]
     },
     "GRID": {
-      "preferred": "grid.483522.a",
-      "all": "grid.483522.a"
+      "preferred": "grid.474072.2",
+      "all": "grid.474072.2"
     }
   }
 }

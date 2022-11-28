@@ -1,34 +1,49 @@
 {
-  "id": "https://ror.org/056swcy54",
-  "name": "Laboratoire d'ethnologie et de sociologie comparative",
+  "id": "https://ror.org/02ft5tp06",
+  "name": "Délégation Ile-de-France Ouest et Nord",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1967,
+  "established": 1990,
   "types": [
-    "Facility"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences Humaines et Sociales",
+      "label": "Direction Générale Déléguée aux Ressources",
       "type": "Parent",
-      "id": "https://ror.org/04b0z7q78"
+      "id": "https://ror.org/03yz3tz18"
     },
     {
-      "label": "Université Paris Nanterre",
-      "type": "Parent",
-      "id": "https://ror.org/013bkhk48"
+      "label": "Centre de recherches sociologiques et politiques de Paris",
+      "type": "Child",
+      "id": "https://ror.org/04jb47e97"
+    },
+    {
+      "label": "Division Technique de I'INSU",
+      "type": "Child",
+      "id": "https://ror.org/01s48fc08"
+    },
+    {
+      "label": "Handicap Neuromusculaire Physiopathologie, Biothérapie et Pharmacologie Appliquées",
+      "type": "Child",
+      "id": "https://ror.org/02nxezb95"
+    },
+    {
+      "label": "Institute for Communication Sciences",
+      "type": "Child",
+      "id": "https://ror.org/00801j392"
     }
   ],
   "addresses": [
     {
-      "lat": 48.89198,
-      "lng": 2.20675,
+      "lat": 48.81381,
+      "lng": 2.235,
       "state": null,
       "state_code": null,
-      "city": "Nanterre",
+      "city": "Meudon",
       "geonames_city": {
-        "id": 2990970,
-        "city": "Nanterre",
+        "id": 2994144,
+        "city": "Meudon",
         "geonames_admin1": {
           "name": "Île-de-France",
           "id": 3012874,
@@ -65,48 +80,29 @@
     }
   ],
   "links": [
-    "https://www.lesc-cnrs.fr/fr"
+    "http://www.dr5.cnrs.fr/"
   ],
   "aliases": [
-    "Research Center for Anthropology and Comparative Sociology"
+    "DR5"
   ],
-  "acronyms": [
-    "LESC"
-  ],
+  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Laboratoire_d%27ethnologie_et_de_sociologie_comparative",
-  "labels": [
-    {
-      "label": "Centre for Ethnology and Comparative Sociology",
-      "iso639": "en"
-    }
-  ],
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 0666 4287"
-      ]
-    },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR7186"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q3214419"
+        "MOY500"
       ]
     },
     "GRID": {
-      "preferred": "grid.483258.0",
-      "all": "grid.483258.0"
+      "preferred": "grid.433123.4",
+      "all": "grid.433123.4"
     }
   }
 }
