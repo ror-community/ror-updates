@@ -1,40 +1,50 @@
 {
-  "id": "https://ror.org/024j9sx72",
-  "name": "Galway-Mayo Institute of Technology",
+  "id": "https://ror.org/0458dap48",
+  "name": "Atlantic Technological University",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1972,
+  "established": 2021,
   "types": [
     "Education"
   ],
   "relationships": [
     {
-      "label": "Atlantic Technological University",
-      "type": "Successor",
-      "id": "https://ror.org/0458dap48"
+      "label": "Galway-Mayo Institute of Technology",
+      "type": "Predecessor",
+      "id": "https://ror.org/024j9sx72"
+    },
+    {
+      "label": "Letterkenny Institute of Technology",
+      "type": "Predecessor",
+      "id": "https://ror.org/04ps1tq95"
+    },
+    {
+      "label": "Institute of Technology Sligo",
+      "type": "Predecessor",
+      "id": "https://ror.org/032fvf508"
     }
   ],
   "addresses": [
     {
-      "lat": 53.27245,
-      "lng": -9.05095,
+      "lat": 54.26969,
+      "lng": -8.46943,
       "state": null,
       "state_code": null,
-      "city": "Galway",
+      "city": "Sligo",
       "geonames_city": {
-        "id": 2964180,
-        "city": "Galway",
+        "id": 2961423,
+        "city": "Sligo",
         "geonames_admin1": {
-          "name": "Connaught",
+          "name": "Connacht",
           "id": 7521313,
-          "ascii_name": "Connaught",
+          "ascii_name": "Connacht",
           "code": "IE.C"
         },
         "geonames_admin2": {
-          "name": "Galway",
-          "id": 2964179,
-          "ascii_name": "Galway",
-          "code": "IE.C.10"
+          "name": "County Sligo",
+          "id": 2961422,
+          "ascii_name": "County Sligo",
+          "code": "IE.C.25"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,19 +70,19 @@
     }
   ],
   "links": [
-    "http://www.gmit.ie/"
+    "https://www.atu.ie"
   ],
   "aliases": [
-    "Institúid Teicneolaíochta na Gaillimhe-Maigh Eo"
+    "Atlantic TU"
   ],
   "acronyms": [
-    "GMIT"
+    "ATU"
   ],
-  "status": "inactive",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Galway-Mayo_Institute_of_Technology",
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Atlantic_Technological_University",
   "labels": [
     {
-      "label": "Institiúid Teicneolaíochta na Gaillimhe-Maigh Eo",
+      "label": "Ollscoil Teicheolaíochta an Atlantaigh",
       "iso639": "ga"
     }
   ],
@@ -81,27 +91,11 @@
     "country_code": "IE"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 0414 8879"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "620235"
-      ]
-    },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q58310020",
       "all": [
-        "Q5519456"
+        "Q58310020"
       ]
-    },
-    "GRID": {
-      "preferred": "grid.418104.8",
-      "all": "grid.418104.8"
     }
   }
 }

@@ -1,27 +1,17 @@
 {
-  "id": "https://ror.org/05pgxdd43",
-  "name": "Aboriginal Affairs Northern Dev Canada",
+  "id": "https://ror.org/04babsy72",
+  "name": "Indigenous Services Canada",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1966,
+  "established": 2019,
   "types": [
     "Government"
   ],
   "relationships": [
     {
-      "label": "Government of Canada",
-      "type": "Parent",
-      "id": "https://ror.org/010q4q527"
-    },
-    {
-      "label": "Crown-Indigenous Relations and Northern Affairs Canada",
-      "type": "Successor",
-      "id": "https://ror.org/05xmf1h49"
-    },
-    {
-      "label": "Indigenous Services Canada",
-      "type": "Successor",
-      "id": "https://ror.org/04babsy72"
+      "label": "Aboriginal Affairs Northern Dev Canada",
+      "type": "Predecessor",
+      "id": "https://ror.org/05pgxdd43"
     }
   ],
   "addresses": [
@@ -70,21 +60,17 @@
     }
   ],
   "links": [
-    "http://www.aadnc-aandc.gc.ca/eng/1100100010002/1100100010021"
+    "https://www.sac-isc.gc.ca"
   ],
-  "aliases": [
-    "Department of Indian Affairs and Northern Development",
-    "Indigenous and Northern Affairs Canada"
-  ],
+  "aliases": [],
   "acronyms": [
-    "AANDC",
-    "AADNC"
+    "ISC"
   ],
-  "status": "inactive",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Indigenous_and_Northern_Affairs_Canada",
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Indigenous_Services_Canada",
   "labels": [
     {
-      "label": "Affaires autochtones et du développement du Nord canadien",
+      "label": "Services aux Autochtones Canada",
       "iso639": "fr"
     }
   ],
@@ -93,28 +79,17 @@
     "country_code": "CA"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2150 0635"
-      ]
-    },
     "FundRef": {
-      "preferred": "501100000047",
+      "preferred": "501100013971",
       "all": [
-        "501100000047",
-        "501100008632"
+        "501100013971"
       ]
     },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q85846156",
       "all": [
-        "Q827005"
+        "Q85846156"
       ]
-    },
-    "GRID": {
-      "preferred": "grid.271337.3",
-      "all": "grid.271337.3"
     }
   }
 }

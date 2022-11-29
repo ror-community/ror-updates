@@ -1,22 +1,22 @@
 {
-  "id": "https://ror.org/03e76ya46",
-  "name": "Max Planck Institute for Biophysical Chemistry",
+  "id": "https://ror.org/03av75f26",
+  "name": "Max Planck Institute for Multidisciplinary Sciences",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1971,
+  "established": 2022,
   "types": [
-    "Facility"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Max Planck Society",
-      "type": "Parent",
-      "id": "https://ror.org/01hhn8329"
+      "label": "Max Planck Institute of Experimental Medicine",
+      "type": "Predecessor",
+      "id": "https://ror.org/04a7f6w43"
     },
     {
-      "label": "Max Planck Institute for Multidisciplinary Sciences",
-      "type": "Successor",
-      "id": "https://ror.org/03av75f26"
+      "label": "Max Planck Institute for Biophysical Chemistry",
+      "type": "Predecessor",
+      "id": "https://ror.org/03e76ya46"
     }
   ],
   "addresses": [
@@ -65,19 +65,17 @@
     }
   ],
   "links": [
-    "http://www.mpibpc.mpg.de/en"
+    "https://www.mpinat.mpg.de/"
   ],
-  "aliases": [
-    "Karl Friedrich Bonhoeffer Institute"
-  ],
+  "aliases": [],
   "acronyms": [
-    "MPIbpc"
+    "MPINAT"
   ],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Biophysical_Chemistry",
   "labels": [
     {
-      "label": "Max-Planck-Institut für Biophysikalische Chemie",
+      "label": "Max Planck Institut für Multidisziplinäre Naturwissenschaften",
       "iso639": "de"
     }
   ],
@@ -85,28 +83,5 @@
     "country_name": "Germany",
     "country_code": "DE"
   },
-  "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2104 4211"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "2303003"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q836125"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.418140.8",
-      "all": "grid.418140.8"
-    }
-  }
+  "external_ids": {}
 }
