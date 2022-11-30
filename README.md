@@ -20,7 +20,8 @@ ROR is a registry of top-level research organization affiliations. To be include
 - Manages research
 - Publishes research
 - Educates researchers
-3. Is or will be **used as an affiliation** in published research outputs by multiple people.
+3. Is or will be **used as an affiliation** in published research outputs by multiple people, meaning that it is:
+- Not a one-person organization or consultancy.
 # Requesting changes to ROR
 Changes can be proposed by anyone via a [feedback form](https://curation-request.ror.org). 
 
