@@ -31,7 +31,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests==2.23.0
           pip install git+https://github.com/ror-community/update_address.git
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/move-generate-rel/generate_relationships/generate_relationships.py -o generate_relationships.py
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/generate_relationships/generate_relationships.py -o generate_relationships.py
           python generate_relationships.py relationships.csv
       - name: commit error file
         if: ${{ steps.genrelshp.outcome != 'success'}}
