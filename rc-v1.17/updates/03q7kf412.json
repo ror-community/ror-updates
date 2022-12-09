@@ -1,34 +1,34 @@
 {
-  "id": "https://ror.org/00c5mwp75",
-  "name": "Alcatel Lucent (Germany)",
+  "id": "https://ror.org/03q7kf412",
+  "name": "Santé Montérégie",
   "email_address": null,
   "ip_addresses": [],
   "established": null,
   "types": [
-    "Company"
+    "Healthcare"
   ],
   "relationships": [],
   "addresses": [
     {
-      "lat": 48.78232,
-      "lng": 9.17702,
+      "lat": 45.53121,
+      "lng": -73.51806,
       "state": null,
       "state_code": null,
-      "city": "Stuttgart",
+      "city": "Longueuil",
       "geonames_city": {
-        "id": 2825297,
-        "city": "Stuttgart",
+        "id": 6059891,
+        "city": "Longueuil",
         "geonames_admin1": {
-          "name": "Baden-Wurttemberg",
-          "id": 2953481,
-          "ascii_name": "Baden-Wurttemberg",
-          "code": "DE.01"
+          "name": "Quebec",
+          "id": 6115047,
+          "ascii_name": "Quebec",
+          "code": "CA.10"
         },
         "geonames_admin2": {
-          "name": "Regierungsbezirk Stuttgart",
-          "id": 3214105,
-          "ascii_name": "Regierungsbezirk Stuttgart",
-          "code": "DE.01.081"
+          "name": "Montérégie",
+          "id": 6076966,
+          "ascii_name": "Montérégie",
+          "code": "CA.10.16"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -50,23 +50,31 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 2921044
+      "country_geonames_id": 6251999
     }
   ],
-  "links": [],
+  "links": [
+    "http://www.santemonteregie.qc.ca/index.fr.html"
+  ],
   "aliases": [],
   "acronyms": [],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "Germany",
-    "country_code": "DE"
+    "country_name": "Canada",
+    "country_code": "CA"
   },
   "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0622 2851"
+      ]
+    },
     "GRID": {
-      "preferred": "grid.425343.7",
-      "all": "grid.425343.7"
+      "preferred": "grid.459534.a",
+      "all": "grid.459534.a"
     }
   }
 }

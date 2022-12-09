@@ -1,11 +1,11 @@
 {
-  "id": "https://ror.org/00c5mwp75",
-  "name": "Alcatel Lucent (Germany)",
+  "id": "https://ror.org/02rrh0b30",
+  "name": "Landesarchiv Baden Württemberg",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2005,
   "types": [
-    "Company"
+    "Archive"
   ],
   "relationships": [],
   "addresses": [
@@ -53,10 +53,12 @@
       "country_geonames_id": 2921044
     }
   ],
-  "links": [],
+  "links": [
+    "https://www.landesarchiv-bw.de"
+  ],
   "aliases": [],
   "acronyms": [],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
@@ -64,9 +66,15 @@
     "country_code": "DE"
   },
   "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0622 3563"
+      ]
+    },
     "GRID": {
-      "preferred": "grid.425343.7",
-      "all": "grid.425343.7"
+      "preferred": "grid.461748.8",
+      "all": "grid.461748.8"
     }
   }
 }
