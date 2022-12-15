@@ -1,17 +1,17 @@
 {
-  "id": "https://ror.org/051k3eh31",
-  "name": "Tokyo Medical and Dental University",
+  "id": "https://ror.org/058548196",
+  "name": "Tokyo Medical and Dental University Hospital",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1928,
+  "established": null,
   "types": [
-    "Education"
+    "Healthcare"
   ],
   "relationships": [
     {
-      "label": "Tokyo Medical and Dental University Hospital",
-      "type": "Parent",
-      "id": "https://ror.org/058548196"
+      "label": "Tokyo Medical and Dental University",
+      "type": "Child",
+      "id": "https://ror.org/051k3eh31"
     }
   ],
   "addresses": [
@@ -60,21 +60,15 @@
     }
   ],
   "links": [
-    "http://www.tmd.ac.jp/english/"
+    "http://www.tmd.ac.jp/medhospital/"
   ],
-  "aliases": [
-    "Tōkyō ika shika daigaku",
-    "とうきょういかしかだいがく",
-    "トウキョウイカシカダイガク"
-  ],
-  "acronyms": [
-    "TMDU"
-  ],
+  "aliases": [],
+  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%8C%BB%E7%A7%91%E6%AD%AF%E7%A7%91%E5%A4%A7%E5%AD%A6",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "東京医科歯科大学",
+      "label": "東京医科歯科大学医学部附属病院",
       "iso639": "ja"
     }
   ],
@@ -83,33 +77,9 @@
     "country_code": "JP"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 1014 9130"
-      ]
-    },
-    "FundRef": {
-      "preferred": null,
-      "all": [
-        "501100007951"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "2699428"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q3180921"
-      ]
-    },
     "GRID": {
-      "preferred": "grid.265073.5",
-      "all": "grid.265073.5"
+      "preferred": "grid.474906.8",
+      "all": "grid.474906.8"
     }
   }
 }
