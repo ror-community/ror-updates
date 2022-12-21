@@ -35,7 +35,7 @@ Community-based curation means:
 - Centralizing curation decisions through a community-based curation board to ensure consistency and integrity of metadata and curation policies at scale across the entire registry
 
 # Curation workflow
-Requests submitted via the [feedback form](https://curation-request.ror.org) go through an initial triage and are added to the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) for community curators to review. Curators review the requests and decide how they should be processed. Approved requests will end up in the queue for metadata preparation so the changes can be deployed on the ROR production site.  
+Requests submitted via the [feedback form](https://curation-request.ror.org) or by [creating issues](https://github.com/ror-community/ror-updates/issues/new/choose) in this repository go through an initial triage and are added to the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) for community curators to review. Curators review the requests and decide how they should be processed. Approved requests will end up in the queue for metadata preparation so the changes can be deployed on the ROR production site.  
 ![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
 
 # Publishing updates to the registry
