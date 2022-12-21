@@ -1,7 +1,7 @@
 # ROR Updates
 This repository tracks proposed changes that are being reviewed and/or prepared for inclusion in ROR. Proposed changes are reviewed by community curators to determine if they are in scope. Approved changes are then prepared for inclusion in a future ROR release. New and/or updated ROR records follow the ROR metadata schema and [metadata policies](https://github.com/ror-community/ror-updates/wiki/ROR-Metadata-Policies).
 # ROR scope
-The scope of ROR is the “affiliation use case” - proper description of relationships between contributors, contributions, research sponsors, publishers, and employers. 
+The primary focus of ROR is the “affiliation use case” - proper description of relationships between contributors, contributions, research sponsors, publishers, and employers. 
 
 We use “affiliation” to describe any formal relationship between a researcher and an organization associated with researchers, including but not limited to their employer, educator, funder, or scholarly society. 
 
@@ -39,7 +39,7 @@ Requests submitted via the [feedback form](https://curation-request.ror.org) go 
 ![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
 
 # Publishing updates to the registry
-The ROR API is updated on a rolling basis. ROR data dumps are updated approximately quarterly. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
+The ROR API and data dumps are updated on a rolling basis. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
 
 # Tracking ROR updates
 Anyone can follow the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) to see the requests being reviewed and to see which changes are being queued up for a future release. If you wish to follow and receive notifications about specific changes, sign in with your Github account and add yourself as a watcher to individual issues. 
