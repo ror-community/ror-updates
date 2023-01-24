@@ -1,40 +1,34 @@
 {
-  "id": "https://ror.org/00p45d091",
-  "name": "Korea Post",
+  "id": "https://ror.org/00f3x4340",
+  "name": "Spanish Institute of Oceanography",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2000,
+  "established": 1914,
   "types": [
     "Government"
   ],
-  "relationships": [
-    {
-      "label": "Ministry of Science and ICT",
-      "type": "Parent",
-      "id": "https://ror.org/01wpjm123"
-    }
-  ],
+  "relationships": [],
   "addresses": [
     {
-      "lat": 37.566,
-      "lng": 126.9784,
+      "lat": 40.4165,
+      "lng": -3.70256,
       "state": null,
       "state_code": null,
-      "city": "Seoul",
+      "city": "Madrid",
       "geonames_city": {
-        "id": 1835848,
-        "city": "Seoul",
+        "id": 3117735,
+        "city": "Madrid",
         "geonames_admin1": {
-          "name": "Seoul",
-          "id": 1835847,
-          "ascii_name": "Seoul",
-          "code": "KR.11"
+          "name": "Madrid",
+          "id": 3117732,
+          "ascii_name": "Madrid",
+          "code": "ES.29"
         },
         "geonames_admin2": {
-          "name": null,
-          "id": null,
-          "ascii_name": null,
-          "code": null
+          "name": "Madrid",
+          "id": 6355233,
+          "ascii_name": "Madrid",
+          "code": "ES.29.M"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,36 +50,44 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 1835841
+      "country_geonames_id": 2510769
     }
   ],
   "links": [
-    "http://www.koreapost.go.kr/eng/main/index.jsp"
+    "http://www.ieo.es/en/"
   ],
   "aliases": [],
-  "acronyms": [],
+  "acronyms": [
+    "IEO"
+  ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Korea_Post",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "우정사업본부",
-      "iso639": "ko"
+      "label": "Instituto Español de Oceanografía",
+      "iso639": "es"
     }
   ],
   "country": {
-    "country_name": "South Korea",
-    "country_code": "KR"
+    "country_name": "Spain",
+    "country_code": "ES"
   },
   "external_ids": {
-    "FundRef": {
+    "ISNI": {
       "preferred": null,
       "all": [
-        "501100003658"
+        "0000 0001 0943 6642"
+      ]
+    },
+    "FundRef": {
+      "preferred": "501100011034",
+      "all": [
+        "501100011034"
       ]
     },
     "GRID": {
-      "preferred": "grid.467707.5",
-      "all": "grid.467707.5"
+      "preferred": "grid.410389.7",
+      "all": "grid.410389.7"
     }
   }
 }

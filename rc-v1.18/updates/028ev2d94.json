@@ -1,34 +1,40 @@
 {
-  "id": "https://ror.org/02pg81z63",
-  "name": "Parc Taulí Hospital Universitari",
+  "id": "https://ror.org/028ev2d94",
+  "name": "Instituto de Productos Naturales y Agrobiología",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1986,
+  "established": 1956,
   "types": [
-    "Other"
+    "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Spanish National Research Council",
+      "type": "Parent",
+      "id": "https://ror.org/02gfc7t72"
+    }
+  ],
   "addresses": [
     {
-      "lat": 41.38879,
-      "lng": 2.15899,
+      "lat": 28.4853,
+      "lng": -16.32014,
       "state": null,
       "state_code": null,
-      "city": "Barcelona",
+      "city": "San Cristóbal de La Laguna",
       "geonames_city": {
-        "id": 3128760,
-        "city": "Barcelona",
+        "id": 2511401,
+        "city": "San Cristóbal de La Laguna",
         "geonames_admin1": {
-          "name": "Catalonia",
-          "id": 3336901,
-          "ascii_name": "Catalonia",
-          "code": "ES.56"
+          "name": "Canary Islands",
+          "id": 2593110,
+          "ascii_name": "Canary Islands",
+          "code": "ES.53"
         },
         "geonames_admin2": {
-          "name": "Barcelona",
-          "id": 3128759,
-          "ascii_name": "Barcelona",
-          "code": "ES.56.B"
+          "name": "Santa Cruz de Tenerife",
+          "id": 2511173,
+          "ascii_name": "Santa Cruz de Tenerife",
+          "code": "ES.53.TF"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -54,24 +60,15 @@
     }
   ],
   "links": [
-    "https://www.tauli.cat"
+    "https://www.ipna.csic.es/en/"
   ],
-  "aliases": [
-    "Consorci Corporació Sanitària Parc Taulí",
-    "Parc Taulí Sabadell Hospital Universitari",
-    "Parc Taulí Hospital Universitari de Sabadell"
-  ],
+  "aliases": [],
   "acronyms": [
-    "CSPT"
+    "IPNA"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [
-    {
-      "label": "Corporación Sanitaria y Universitaria Parc Taulí",
-      "iso639": "es"
-    }
-  ],
+  "labels": [],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
@@ -80,12 +77,12 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0000 9238 6887"
+        "0000 0004 1804 5442"
       ]
     },
     "GRID": {
-      "preferred": "grid.428313.f",
-      "all": "grid.428313.f"
+      "preferred": "grid.466812.f",
+      "all": "grid.466812.f"
     }
   }
 }
