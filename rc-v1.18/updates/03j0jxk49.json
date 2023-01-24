@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/02v39xy13",
-  "name": "Hospital de Sabadell",
+  "id": "https://ror.org/03j0jxk49",
+  "name": "Ming Wai Lau Centre for Reparative Medicine",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1998,
+  "established": 2016,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Parc Taulí Hospital Universitari",
+      "label": "Karolinska Institutet",
       "type": "Parent",
-      "id": "https://ror.org/02pg81z63"
+      "id": "https://ror.org/056d84691"
     }
   ],
   "addresses": [
     {
-      "lat": 41.38879,
-      "lng": 2.15899,
+      "lat": 22.27832,
+      "lng": 114.17469,
       "state": null,
       "state_code": null,
-      "city": "Barcelona",
+      "city": "Hong Kong",
       "geonames_city": {
-        "id": 3128760,
-        "city": "Barcelona",
+        "id": 1819729,
+        "city": "Hong Kong",
         "geonames_admin1": {
-          "name": "Catalonia",
-          "id": 3336901,
-          "ascii_name": "Catalonia",
-          "code": "ES.56"
+          "name": "Central and Western",
+          "id": 7533598,
+          "ascii_name": "Central and Western",
+          "code": "HK.HCW"
         },
         "geonames_admin2": {
-          "name": "Barcelona",
-          "id": 3128759,
-          "ascii_name": "Barcelona",
-          "code": "ES.56.B"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,31 +56,27 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 2510769
+      "country_geonames_id": 1819730
     }
   ],
   "links": [
-    "http://www.tauli.cat/hospital/"
+    "https://ki.se/en/research/ming-wai-lau-centre-for-reparative-medicine"
   ],
   "aliases": [],
-  "acronyms": [],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "acronyms": [
+    "MWLC"
+  ],
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "Spain",
-    "country_code": "ES"
+    "country_name": "Hong Kong",
+    "country_code": "HK"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0506 7757"
-      ]
-    },
     "GRID": {
-      "preferred": "grid.414560.2",
-      "all": "grid.414560.2"
+      "preferred": "grid.511283.c",
+      "all": "grid.511283.c"
     }
   }
 }

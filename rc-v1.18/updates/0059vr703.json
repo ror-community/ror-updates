@@ -1,22 +1,22 @@
 {
-  "id": "https://ror.org/03kjjhe36",
-  "name": "Tokyo Women's Medical University",
+  "id": "https://ror.org/0059vr703",
+  "name": "Laboratory for Integrated Micro-Mechatronic Systems",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1900,
+  "established": 2004,
   "types": [
-    "Education"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Tokyo Women's Medical University Adachi Medical Center",
-      "type": "Related",
-      "id": "https://ror.org/048swmy20"
+      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "type": "Parent",
+      "id": "https://ror.org/00s19x989"
     },
     {
-      "label": "Tokyo Women's Medical University Yachiyo Medical Center",
-      "type": "Related",
-      "id": "https://ror.org/038s3xg41"
+      "label": "The University of Tokyo",
+      "type": "Parent",
+      "id": "https://ror.org/057zh3y96"
     }
   ],
   "addresses": [
@@ -65,22 +65,15 @@
     }
   ],
   "links": [
-    "http://www.twmu.ac.jp"
+    "http://limmshp.iis.u-tokyo.ac.jp"
   ],
-  "aliases": [
-    "Tokyo Women's Medical School"
-  ],
+  "aliases": [],
   "acronyms": [
-    "TWMU"
+    "LIMMS"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Women's_Medical_University",
-  "labels": [
-    {
-      "label": "東京女子医科大学",
-      "iso639": "ja"
-    }
-  ],
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Japan",
     "country_code": "JP"
@@ -89,30 +82,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0720 6587"
+        "0000 0004 0382 1111"
       ]
     },
-    "FundRef": {
-      "preferred": "501100010391",
-      "all": [
-        "501100010391"
-      ]
-    },
-    "OrgRef": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "47000956"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q11524729"
+        "UMI2820"
       ]
     },
     "GRID": {
-      "preferred": "grid.410818.4",
-      "all": "grid.410818.4"
+      "preferred": "grid.503356.6",
+      "all": "grid.503356.6"
     }
   }
 }

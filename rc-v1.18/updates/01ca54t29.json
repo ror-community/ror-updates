@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/02v39xy13",
-  "name": "Hospital de Sabadell",
+  "id": "https://ror.org/01ca54t29",
+  "name": "Hospital Obispo Polanco",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1998,
+  "established": 1953,
   "types": [
     "Healthcare"
   ],
   "relationships": [
     {
-      "label": "Parc Taulí Hospital Universitari",
+      "label": "Universidad de Zaragoza",
+      "type": "Related",
+      "id": "https://ror.org/012a91z28"
+    },
+    {
+      "label": "Servicio Aragonés de Salud",
       "type": "Parent",
-      "id": "https://ror.org/02pg81z63"
+      "id": "https://ror.org/0178yne88"
     }
   ],
   "addresses": [
     {
-      "lat": 41.38879,
-      "lng": 2.15899,
+      "lat": 40.3456,
+      "lng": -1.10646,
       "state": null,
       "state_code": null,
-      "city": "Barcelona",
+      "city": "Teruel",
       "geonames_city": {
-        "id": 3128760,
-        "city": "Barcelona",
+        "id": 3108126,
+        "city": "Teruel",
         "geonames_admin1": {
-          "name": "Catalonia",
-          "id": 3336901,
-          "ascii_name": "Catalonia",
-          "code": "ES.56"
+          "name": "Aragon",
+          "id": 3336899,
+          "ascii_name": "Aragon",
+          "code": "ES.52"
         },
         "geonames_admin2": {
-          "name": "Barcelona",
-          "id": 3128759,
-          "ascii_name": "Barcelona",
-          "code": "ES.56.B"
+          "name": "Teruel",
+          "id": 3108125,
+          "ascii_name": "Teruel",
+          "code": "ES.52.TE"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,12 +65,12 @@
     }
   ],
   "links": [
-    "http://www.tauli.cat/hospital/"
+    "http://www.opolanco.es/"
   ],
   "aliases": [],
   "acronyms": [],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "Spain",
@@ -75,12 +80,12 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0506 7757"
+        "0000 0004 1794 9861"
       ]
     },
     "GRID": {
-      "preferred": "grid.414560.2",
-      "all": "grid.414560.2"
+      "preferred": "grid.414940.c",
+      "all": "grid.414940.c"
     }
   }
 }

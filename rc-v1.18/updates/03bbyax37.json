@@ -1,22 +1,32 @@
 {
-  "id": "https://ror.org/03kjjhe36",
-  "name": "Tokyo Women's Medical University",
+  "id": "https://ror.org/03bbyax37",
+  "name": "Spintronics Research Network of Japan",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1900,
+  "established": null,
   "types": [
-    "Education"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Tokyo Women's Medical University Adachi Medical Center",
-      "type": "Related",
-      "id": "https://ror.org/048swmy20"
+      "label": "Keio University",
+      "type": "Parent",
+      "id": "https://ror.org/02kn6nx58"
     },
     {
-      "label": "Tokyo Women's Medical University Yachiyo Medical Center",
-      "type": "Related",
-      "id": "https://ror.org/038s3xg41"
+      "label": "Osaka University",
+      "type": "Parent",
+      "id": "https://ror.org/035t8zc32"
+    },
+    {
+      "label": "Tohoku University",
+      "type": "Parent",
+      "id": "https://ror.org/01dq60k83"
+    },
+    {
+      "label": "The University of Tokyo",
+      "type": "Parent",
+      "id": "https://ror.org/057zh3y96"
     }
   ],
   "addresses": [
@@ -65,54 +75,23 @@
     }
   ],
   "links": [
-    "http://www.twmu.ac.jp"
+    "http://www.csrn.t.u-tokyo.ac.jp/outline_en/"
   ],
-  "aliases": [
-    "Tokyo Women's Medical School"
-  ],
+  "aliases": [],
   "acronyms": [
-    "TWMU"
+    "Spin-RNJ"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Tokyo_Women's_Medical_University",
-  "labels": [
-    {
-      "label": "東京女子医科大学",
-      "iso639": "ja"
-    }
-  ],
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Japan",
     "country_code": "JP"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 0720 6587"
-      ]
-    },
-    "FundRef": {
-      "preferred": "501100010391",
-      "all": [
-        "501100010391"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "47000956"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q11524729"
-      ]
-    },
     "GRID": {
-      "preferred": "grid.410818.4",
-      "all": "grid.410818.4"
+      "preferred": "grid.509963.0",
+      "all": "grid.509963.0"
     }
   }
 }
