@@ -1,6 +1,6 @@
 {
-  "id": "https://ror.org/01pe95b45",
-  "name": "Shiga Medical Center for Adults",
+  "id": "https://ror.org/05kpy7q29",
+  "name": "Shiga Medical Center",
   "email_address": null,
   "ip_addresses": [],
   "established": 1970,
@@ -9,9 +9,9 @@
   ],
   "relationships": [
     {
-      "label": "Shiga Medical Center",
-      "type": "Successor",
-      "id": "https://ror.org/05kpy7q29"
+      "label": "Shiga Medical Center for Adults",
+      "type": "Predecessor",
+      "id": "https://ror.org/01pe95b45"
     }
   ],
   "addresses": [
@@ -60,17 +60,15 @@
     }
   ],
   "links": [
-    "http://www.pref.shiga.lg.jp/e/seijin/"
+    "http://shiga.jcho.go.jp/"
   ],
-  "aliases": [
-    "大人のための滋賀医療センター"
-  ],
+  "aliases": [],
   "acronyms": [],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
   "labels": [
     {
-      "label": "滋賀県立成人病センター",
+      "label": "滋賀医療センター",
       "iso639": "ja"
     }
   ],
@@ -79,21 +77,9 @@
     "country_code": "JP"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0595 441X"
-      ]
-    },
     "GRID": {
-      "preferred": "grid.416499.7",
-      "all": "grid.416499.7"
-    },
-    "Wikidata": {
-      "preferred": "Q11564654",
-      "all": [
-        "Q11564654"
-      ]
+      "preferred": "grid.415724.1",
+      "all": "grid.415724.1"
     }
   }
 }
