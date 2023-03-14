@@ -5,6 +5,9 @@ on:
       with-relationship:
         type: boolean
         description: Check box to validate with relationships
+      skip-geonames:
+        type: boolean
+        description: Check box to skip Geonames validation
       directory-name:
         type: string
         description: Name of parent directory containing records to validate. Needed only if different from branch name.
@@ -42,14 +45,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           ls ../files/
-          if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
-            if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
-              python run_validations.py -i ../files -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/
-            else
-              python run_validations.py -i ../files -p ../files/
+          if [[ ${{ github.event.inputs.skip-geonames }} == true ]]; then
+            if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+              if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                python run_validations.py -i ../files -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/ --no-geonames
+              else
+                python run_validations.py -i ../files -p ../files/ --no-geonames
+              fi
+            elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+              python run_validations.py -i ../files --no-geonames
             fi
-          elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
-            python run_validations.py -i ../files
+          else
+            if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+              if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                python run_validations.py -i ../files -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/
+              else
+                python run_validations.py -i ../files -p ../files/
+              fi
+            elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+              python run_validations.py -i ../files
+            fi
           fi
       - name: Notify Slack
         if: always()
