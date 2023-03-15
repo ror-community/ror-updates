@@ -30,7 +30,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests==2.23.0
-          pip install git+https://github.com/ror-community/update_address.git
           curl https://raw.githubusercontent.com/ror-community/curation_ops/main/remove_relationships/remove_relationships.py -o remove_relationships.py
           python remove_relationships.py relationships.csv
       - name: commit error file

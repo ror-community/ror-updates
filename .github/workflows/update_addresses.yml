@@ -1,13 +1,13 @@
-name: Create relationships
+name: Update addresses
 on:
   workflow_dispatch:
     inputs:
       directory-name:
         type: string
-        description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
+        description: Name of parent directory containing new/updated records. Needed only if different from branch name.
 
 jobs:
-  generate-relationships:
+  update-addresses:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -24,41 +24,42 @@ jobs:
       - name: Get branch name
         if: "${{ github.event.inputs.directory-name == '' }}"
         run: echo "WORKING_DIR=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
-      - name: Generate relationships
-        id: genrelshp
+      - name: Update addresses
+        id: updateaddresses
         working-directory: ${{ env.WORKING_DIR }}
         run: |
           python -m pip install --upgrade pip
           pip install requests==2.23.0
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/generate_relationships/generate_relationships.py -o generate_relationships.py
-          python generate_relationships.py relationships.csv
+          pip install git+https://github.com/ror-community/update_address.git@add-caching
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/separate-address-update/update_address_only/update_addresses.py -o update_addresses.py
+          python update_addresses.py
       - name: commit error file
-        if: ${{ steps.genrelshp.outcome != 'success'}}
+        if: ${{ steps.updateaddresses.outcome != 'success'}}
         working-directory:  ${{ env.WORKING_DIR }}
         run: |
           echo "ERRORS found for some records:"
-          cat relationship_errors.log
+          cat address_update_errors.log
       - name: commit changed files
-        if: ${{ steps.genrelshp.outcome == 'success'}}
+        if: ${{ steps.updateaddresses.outcome == 'success'}}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern:  ${{ env.WORKING_DIR }}/**.json
-          commit_message: Apply relationship changes to files
+          commit_message: Apply address changes to files
       - name: Set env variable for notification
         if: always()
         run: |
-          if [[ ${{ steps.genrelshp.outcome }} == 'success' ]]; then
-            echo "relationship_status=SUCCESS" >> $GITHUB_ENV
+          if [[ ${{ steps.updateaddresses.outcome }} == 'success' ]]; then
+            echo "update_address_status=SUCCESS" >> $GITHUB_ENV
           else
-            echo "relationship_status=FAILED" >> $GITHUB_ENV
+            echo "update_address_status=FAILED" >> $GITHUB_ENV
           fi
       - name: Notify Slack
         if: always()
         uses: edge/simple-slack-notify@master
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.CURATOR_SLACK_WEBHOOK_URL }}
-          VALIDATION_STATUS: ${{ env.relationship_status }}
+          VALIDATION_STATUS: ${{ env.update_address_status }}
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: 'Relationship generation status ${env.VALIDATION_STATUS} in ${env.GITHUB_REPOSITORY}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
+          text: 'DEV address update status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
