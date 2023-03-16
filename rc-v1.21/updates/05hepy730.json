@@ -1,0 +1,117 @@
+{
+  "id": "https://ror.org/05hepy730",
+  "name": "Natural Resources Canada",
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1995,
+  "types": [
+    "Government"
+  ],
+  "relationships": [
+    {
+      "label": "Canadian Forest Service",
+      "type": "Child",
+      "id": "https://ror.org/0430zw506"
+    },
+    {
+      "label": "Geological Survey of Canada",
+      "type": "Child",
+      "id": "https://ror.org/03wm7z656"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "Parent",
+      "id": "https://ror.org/010q4q527"
+    },
+    {
+      "label": "Canmet Mining",
+      "type": "Child",
+      "id": "https://ror.org/008ec8r60"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 45.41117,
+      "lng": -75.69812,
+      "state": null,
+      "state_code": null,
+      "city": "Ottawa",
+      "geonames_city": {
+        "id": 6094817,
+        "city": "Ottawa",
+        "geonames_admin1": {
+          "name": "Ontario",
+          "id": 6093943,
+          "ascii_name": "Ontario",
+          "code": "CA.08"
+        },
+        "geonames_admin2": {
+          "name": "Ottawa",
+          "id": 8581623,
+          "ascii_name": "Ottawa",
+          "code": "CA.08.3506"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 6251999
+    }
+  ],
+  "links": [
+    "http://www.nrcan.gc.ca/home"
+  ],
+  "aliases": [],
+  "acronyms": [
+    "NRCan"
+  ],
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_Resources_Canada",
+  "labels": [],
+  "country": {
+    "country_name": "Canada",
+    "country_code": "CA"
+  },
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0001 2295 5236"
+      ]
+    },
+    "FundRef": {
+      "preferred": "501100000159",
+      "all": [
+        "501100000159",
+        "100007858",
+        "501100007178"
+      ]
+    },
+    "Wikidata": {
+      "preferred": "Q349770",
+      "all": [
+        "Q349770"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.202033.0",
+      "all": "grid.202033.0"
+    }
+  }
+}
