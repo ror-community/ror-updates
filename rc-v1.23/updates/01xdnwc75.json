@@ -1,23 +1,28 @@
 {
-  "id": "https://ror.org/02xbr5r10",
-  "name": "HM Prison Service",
+  "id": "https://ror.org/01xdnwc75",
+  "name": "Ministry of Justice",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2007,
   "types": [
     "Government"
   ],
   "relationships": [
     {
-      "label": "HM Prison and Probation Service",
+      "label": "Government of the United Kingdom",
       "type": "Parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "HM Prison and Probation Service",
+      "type": "Child",
       "id": "https://ror.org/03e5xvd80"
     }
   ],
   "addresses": [
     {
-      "lat": 51.50853,
-      "lng": -0.12574,
+      "lat": 51.499785,
+      "lng": -0.13491,
       "state": null,
       "state_code": null,
       "city": "London",
@@ -41,16 +46,16 @@
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "LONDON",
+          "code": "UKI"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Inner London - West",
+          "code": "UKI3"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Westminster",
+          "code": "UKI32"
         }
       },
       "postcode": null,
@@ -60,40 +65,35 @@
     }
   ],
   "links": [
-    "https://www.gov.uk/government/organisations/hm-prison-service"
+    "https://www.gov.uk/government/organisations/ministry-of-justice"
   ],
-  "aliases": [
-    "His Majesty's Prison Service",
-    "His Majesty's Prisons",
-    "Her Majesty's Prison Service",
-    "Her Majesty's Prisons"
-  ],
+  "aliases": [],
   "acronyms": [
-    "HMPS"
+    "MoJ"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/HM_Prison",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ministry_of_Justice_(United_Kingdom)",
   "labels": [],
   "country": {
     "country_name": "United Kingdom",
     "country_code": "GB"
   },
   "external_ids": {
-    "ISNI": {
+    "OrgRef": {
       "preferred": null,
       "all": [
-        "0000 0004 0462 4953"
+        "10351334"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q1607722"
+        "Q2983190"
       ]
     },
     "GRID": {
-      "preferred": "grid.434936.f",
-      "all": "grid.434936.f"
+      "preferred": "grid.421416.4",
+      "all": "grid.421416.4"
     }
   }
 }
