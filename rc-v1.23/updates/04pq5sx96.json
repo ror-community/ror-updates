@@ -7,7 +7,18 @@
   "types": [
     "Company"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Électricité de France (France)",
+      "type": "Parent",
+      "id": "https://ror.org/03wb8xz10"
+    },
+    {
+      "label": "EDF Renewables",
+      "type": "Child",
+      "id": "https://ror.org/02eyeq397"
+    }
+  ],
   "addresses": [
     {
       "lat": 32.71571,
