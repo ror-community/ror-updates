@@ -1,17 +1,22 @@
 {
-  "id": "https://ror.org/041yg4h55",
-  "name": "École Nationale Supérieure de Chimie de Lille",
+  "id": "https://ror.org/053x9s498",
+  "name": "Artois University",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1894,
+  "established": 1992,
   "types": [
-    "Facility"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Institute of Electronics, Microelectronics and Nanotechnology",
+      "label": "André Revuz Didactics Laboratory",
       "type": "Child",
-      "id": "https://ror.org/02q4res37"
+      "id": "https://ror.org/053p8kg34"
+    },
+    {
+      "label": "Institut Charles Viollette",
+      "type": "Child",
+      "id": "https://ror.org/0018c4h73"
     },
     {
       "label": "Laboratory of Catalysis and Solid State Chemistry",
@@ -19,26 +24,41 @@
       "id": "https://ror.org/04vrqzz54"
     },
     {
-      "label": "Unité Matériaux et Transformations",
+      "label": "Lille Économie Management",
       "type": "Child",
-      "id": "https://ror.org/03q99v794"
+      "id": "https://ror.org/05bz47575"
     },
     {
-      "label": "École Centrale de Lille",
-      "type": "Parent",
-      "id": "https://ror.org/01x441g73"
+      "label": "Maison Européenne des Sciences de l'Homme et de la Société",
+      "type": "Child",
+      "id": "https://ror.org/00m090414"
+    },
+    {
+      "label": "Unité de Recherche Pluridisciplinaire Sport, Santé, Société",
+      "type": "Child",
+      "id": "https://ror.org/03eq8fa86"
+    },
+    {
+      "label": "UMR Transfrontalière BioEcoAgro",
+      "type": "Related",
+      "id": "https://ror.org/032v67m28"
+    },
+    {
+      "label": "Laboratoire de Génie Civil et Géo Environnement",
+      "type": "Child",
+      "id": "https://ror.org/00fh1dw28"
     }
   ],
   "addresses": [
     {
-      "lat": 50.61669,
-      "lng": 3.16664,
+      "lat": 50.29301,
+      "lng": 2.78186,
       "state": null,
       "state_code": null,
-      "city": "Villeneuve-d'Ascq",
+      "city": "Arras",
       "geonames_city": {
-        "id": 6543862,
-        "city": "Villeneuve-d'Ascq",
+        "id": 3036784,
+        "city": "Arras",
         "geonames_admin1": {
           "name": "Hauts-de-France",
           "id": 11071624,
@@ -46,10 +66,10 @@
           "code": "FR.32"
         },
         "geonames_admin2": {
-          "name": "North",
-          "id": 2990129,
-          "ascii_name": "North",
-          "code": "FR.32.59"
+          "name": "Pas-de-Calais",
+          "id": 2988430,
+          "ascii_name": "Pas-de-Calais",
+          "code": "FR.32.62"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -75,20 +95,16 @@
     }
   ],
   "links": [
-    "https://www.ensc-lille.fr"
+    "http://www.univ-artois.fr/English"
   ],
-  "aliases": [
-    "Institut de Chimie de la Faculté des Sciences de Lille"
-  ],
-  "acronyms": [
-    "ENSCL"
-  ],
+  "aliases": [],
+  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_de_chimie_de_Lille",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Artois_University",
   "labels": [
     {
-      "label": "National Graduate School of Engineering Chemistry of Lille",
-      "iso639": "en"
+      "label": "Université d'Artois",
+      "iso639": "fr"
     }
   ],
   "country": {
@@ -99,24 +115,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2165 8686"
+        "0000 0001 2364 777X"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "20031729"
+        "13408704"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q654784"
+        "Q475504"
       ]
     },
     "GRID": {
-      "preferred": "grid.424455.6",
-      "all": "grid.424455.6"
+      "preferred": "grid.49319.36",
+      "all": "grid.49319.36"
     }
   }
 }
