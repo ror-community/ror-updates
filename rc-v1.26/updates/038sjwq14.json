@@ -1,40 +1,34 @@
 {
-  "id": "https://ror.org/0381t6379",
-  "name": "Department of the Premier and Cabinet",
+  "id": "https://ror.org/038sjwq14",
+  "name": "Australian Research Data Commons",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2018,
   "types": [
-    "Government"
+    "Other"
   ],
-  "relationships": [
-    {
-      "label": "Government of South Australia",
-      "type": "Parent",
-      "id": "https://ror.org/04g3scy39"
-    }
-  ],
+  "relationships": [],
   "addresses": [
     {
-      "lat": -34.92866,
-      "lng": 138.59863,
+      "lat": -37.814,
+      "lng": 144.96332,
       "state": null,
       "state_code": null,
-      "city": "Adelaide",
+      "city": "Melbourne",
       "geonames_city": {
-        "id": 2078025,
-        "city": "Adelaide",
+        "id": 2158177,
+        "city": "Melbourne",
         "geonames_admin1": {
-          "name": "South Australia",
-          "id": 2061327,
-          "ascii_name": "South Australia",
-          "code": "AU.05"
+          "name": "Victoria",
+          "id": 2145234,
+          "ascii_name": "Victoria",
+          "code": "AU.07"
         },
         "geonames_admin2": {
-          "name": "Adelaide",
-          "id": 7839644,
-          "ascii_name": "Adelaide",
-          "code": "AU.05.40070"
+          "name": "Melbourne",
+          "id": 7839805,
+          "ascii_name": "Melbourne",
+          "code": "AU.07.24600"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +54,14 @@
     }
   ],
   "links": [
-    "http://www.dpc.sa.gov.au/"
+    "https://ardc.edu.au/"
   ],
   "aliases": [],
   "acronyms": [
-    "DPC"
+    "ARDC"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_the_Premier_and_Cabinet_(South_Australia)",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "Australia",
@@ -75,15 +69,21 @@
   },
   "external_ids": {
     "FundRef": {
-      "preferred": "501100013759",
+      "preferred": "501100020840",
       "all": [
-        "501100001057",
-        "501100013759"
+        "100010581",
+        "501100020840"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q4824459"
       ]
     },
     "GRID": {
-      "preferred": "grid.468030.9",
-      "all": "grid.468030.9"
+      "preferred": "grid.503071.0",
+      "all": "grid.503071.0"
     }
   }
 }

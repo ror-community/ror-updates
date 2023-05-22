@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/0381t6379",
-  "name": "Department of the Premier and Cabinet",
+  "id": "https://ror.org/007ef4t67",
+  "name": "Department of Mines and Petroleum",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2009,
   "types": [
     "Government"
   ],
   "relationships": [
     {
-      "label": "Government of South Australia",
+      "label": "Government of Western Australia",
       "type": "Parent",
-      "id": "https://ror.org/04g3scy39"
+      "id": "https://ror.org/00wqdbc63"
+    },
+    {
+      "label": "Geological Survey of Western Australia",
+      "type": "Child",
+      "id": "https://ror.org/05h2dda38"
     }
   ],
   "addresses": [
     {
-      "lat": -34.92866,
-      "lng": 138.59863,
+      "lat": -31.95872,
+      "lng": 115.87109,
       "state": null,
       "state_code": null,
-      "city": "Adelaide",
+      "city": "East Perth",
       "geonames_city": {
-        "id": 2078025,
-        "city": "Adelaide",
+        "id": 8335007,
+        "city": "East Perth",
         "geonames_admin1": {
-          "name": "South Australia",
-          "id": 2061327,
-          "ascii_name": "South Australia",
-          "code": "AU.05"
+          "name": "Western Australia",
+          "id": 2058645,
+          "ascii_name": "Western Australia",
+          "code": "AU.08"
         },
         "geonames_admin2": {
-          "name": "Adelaide",
-          "id": 7839644,
-          "ascii_name": "Adelaide",
-          "code": "AU.05.40070"
+          "name": "Perth",
+          "id": 2063522,
+          "ascii_name": "Perth",
+          "code": "AU.08.57080"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +65,14 @@
     }
   ],
   "links": [
-    "http://www.dpc.sa.gov.au/"
+    "http://www.dmp.wa.gov.au/"
   ],
   "aliases": [],
   "acronyms": [
-    "DPC"
+    "DMP"
   ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_the_Premier_and_Cabinet_(South_Australia)",
+  "status": "inactive",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_Mines_and_Petroleum",
   "labels": [],
   "country": {
     "country_name": "Australia",
@@ -75,15 +80,20 @@
   },
   "external_ids": {
     "FundRef": {
-      "preferred": "501100013759",
+      "preferred": null,
       "all": [
-        "501100001057",
-        "501100013759"
+        "501100007564"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q5260400"
       ]
     },
     "GRID": {
-      "preferred": "grid.468030.9",
-      "all": "grid.468030.9"
+      "preferred": "grid.478671.b",
+      "all": "grid.478671.b"
     }
   }
 }

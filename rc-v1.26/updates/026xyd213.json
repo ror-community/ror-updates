@@ -1,17 +1,22 @@
 {
-  "id": "https://ror.org/0381t6379",
-  "name": "Department of the Premier and Cabinet",
+  "id": "https://ror.org/026xyd213",
+  "name": "Department of State Development",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2009,
   "types": [
     "Government"
   ],
   "relationships": [
     {
-      "label": "Government of South Australia",
+      "label": "Government of Western Australia",
       "type": "Parent",
-      "id": "https://ror.org/04g3scy39"
+      "id": "https://ror.org/00wqdbc63"
+    },
+    {
+      "label": "Arts South Australia",
+      "type": "Child",
+      "id": "https://ror.org/0267htk20"
     }
   ],
   "addresses": [
@@ -60,14 +65,12 @@
     }
   ],
   "links": [
-    "http://www.dpc.sa.gov.au/"
+    "http://www.dsd.wa.gov.au/"
   ],
   "aliases": [],
-  "acronyms": [
-    "DPC"
-  ],
-  "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_the_Premier_and_Cabinet_(South_Australia)",
+  "acronyms": [],
+  "status": "inactive",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_State_Development",
   "labels": [],
   "country": {
     "country_name": "Australia",
@@ -75,15 +78,27 @@
   },
   "external_ids": {
     "FundRef": {
-      "preferred": "501100013759",
+      "preferred": "501100006642",
       "all": [
-        "501100001057",
-        "501100013759"
+        "501100006642",
+        "501100002041"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "29381514"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q5260493"
       ]
     },
     "GRID": {
-      "preferred": "grid.468030.9",
-      "all": "grid.468030.9"
+      "preferred": "grid.431213.6",
+      "all": "grid.431213.6"
     }
   }
 }
