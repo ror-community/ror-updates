@@ -7,7 +7,18 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Association of Universities For Research In Astronomy",
+      "type": "Parent",
+      "id": "https://ror.org/02y5f7c97"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "Related",
+      "id": "https://ror.org/027ka1x80"
+    }
+  ],
   "addresses": [
     {
       "lat": 39.29038,
