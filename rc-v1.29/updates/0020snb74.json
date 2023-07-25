@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/007y6q934",
-  "name": "Université TÉLUQ",
+  "id": "https://ror.org/0020snb74",
+  "name": "École de Technologie Supérieure",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1972,
+  "established": 1974,
   "types": [
     "Education"
   ],
   "relationships": [
+    {
+      "label": "CentrEau - Quebec Water Management Research Centre",
+      "type": "Related",
+      "id": "https://ror.org/03wx0vn75"
+    },
     {
       "label": "Université du Québec",
       "type": "Parent",
@@ -16,14 +21,14 @@
   ],
   "addresses": [
     {
-      "lat": 46.81228,
-      "lng": -71.21454,
+      "lat": 45.50884,
+      "lng": -73.58781,
       "state": null,
       "state_code": null,
-      "city": "Québec",
+      "city": "Montreal",
       "geonames_city": {
-        "id": 6325494,
-        "city": "Québec",
+        "id": 6077243,
+        "city": "Montreal",
         "geonames_admin1": {
           "name": "Quebec",
           "id": 6115047,
@@ -31,10 +36,10 @@
           "code": "CA.10"
         },
         "geonames_admin2": {
-          "name": "Capitale-Nationale",
-          "id": 6691319,
-          "ascii_name": "Capitale-Nationale",
-          "code": "CA.10.03"
+          "name": "Montréal",
+          "id": 6077246,
+          "ascii_name": "Montréal",
+          "code": "CA.10.06"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,21 +65,15 @@
     }
   ],
   "links": [
-    "http://www.teluq.ca/"
+    "http://en.etsmtl.ca/en/home?lang=en-ca"
   ],
-  "aliases": [
-    "Telé-université, Université du Québec",
-    "Télé-Université"
+  "aliases": [],
+  "acronyms": [
+    "ÉTS"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/T%C3%89LUQ",
-  "labels": [
-    {
-      "label": "TÉLUQ University",
-      "iso639": "en"
-    }
-  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%89cole_de_technologie_sup%C3%A9rieure",
+  "labels": [],
   "country": {
     "country_name": "Canada",
     "country_code": "CA"
@@ -83,24 +82,30 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0659 512X"
+        "0000 0001 2222 4302"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100012992",
+      "all": [
+        "100012992"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "753928"
+        "318764"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q288006"
+        "Q3577916"
       ]
     },
     "GRID": {
-      "preferred": "grid.422889.d",
-      "all": "grid.422889.d"
+      "preferred": "grid.459234.d",
+      "all": "grid.459234.d"
     }
   }
 }

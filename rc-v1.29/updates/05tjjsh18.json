@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/007y6q934",
-  "name": "Université TÉLUQ",
+  "id": "https://ror.org/05tjjsh18",
+  "name": "National University Health System",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1972,
+  "established": 2008,
   "types": [
     "Education"
   ],
   "relationships": [
     {
-      "label": "Université du Québec",
-      "type": "Parent",
-      "id": "https://ror.org/010gxg263"
+      "label": "National University Cancer Institute, Singapore",
+      "type": "Child",
+      "id": "https://ror.org/025yypj46"
     }
   ],
   "addresses": [
     {
-      "lat": 46.81228,
-      "lng": -71.21454,
+      "lat": 1.28967,
+      "lng": 103.85007,
       "state": null,
       "state_code": null,
-      "city": "Québec",
+      "city": "Singapore",
       "geonames_city": {
-        "id": 6325494,
-        "city": "Québec",
+        "id": 1880252,
+        "city": "Singapore",
         "geonames_admin1": {
-          "name": "Quebec",
-          "id": 6115047,
-          "ascii_name": "Quebec",
-          "code": "CA.10"
+          "name": "SG.01",
+          "id": null,
+          "ascii_name": "SG.01",
+          "code": "SG.01"
         },
         "geonames_admin2": {
-          "name": "Capitale-Nationale",
-          "id": 6691319,
-          "ascii_name": "Capitale-Nationale",
-          "code": "CA.10.03"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,51 +56,50 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6251999
+      "country_geonames_id": 1880251
     }
   ],
   "links": [
-    "http://www.teluq.ca/"
+    "http://www.nuhs.edu.sg/#"
   ],
-  "aliases": [
-    "Telé-université, Université du Québec",
-    "Télé-Université"
+  "aliases": [],
+  "acronyms": [
+    "NUHS"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/T%C3%89LUQ",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/National_University_Health_System",
   "labels": [
     {
-      "label": "TÉLUQ University",
-      "iso639": "en"
+      "label": "国立大学医学组织",
+      "iso639": "zh"
     }
   ],
   "country": {
-    "country_name": "Canada",
-    "country_code": "CA"
+    "country_name": "Singapore",
+    "country_code": "SG"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0659 512X"
+        "0000 0004 0451 6143"
       ]
     },
-    "OrgRef": {
-      "preferred": null,
+    "FundRef": {
+      "preferred": "501100011744",
       "all": [
-        "753928"
+        "501100011744"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q288006"
+        "Q6979216"
       ]
     },
     "GRID": {
-      "preferred": "grid.422889.d",
-      "all": "grid.422889.d"
+      "preferred": "grid.410759.e",
+      "all": "grid.410759.e"
     }
   }
 }

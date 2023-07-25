@@ -1,29 +1,44 @@
 {
-  "id": "https://ror.org/007y6q934",
-  "name": "Université TÉLUQ",
+  "id": "https://ror.org/02pkvpx84",
+  "name": "Group for Research in Decision Analysis",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1972,
+  "established": 1979,
   "types": [
-    "Education"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Université du Québec",
+      "label": "HEC Montréal",
       "type": "Parent",
-      "id": "https://ror.org/010gxg263"
+      "id": "https://ror.org/05ww3wq27"
+    },
+    {
+      "label": "McGill University",
+      "type": "Parent",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Polytechnique Montréal",
+      "type": "Parent",
+      "id": "https://ror.org/05f8d4e86"
+    },
+    {
+      "label": "Université du Québec à Montréal",
+      "type": "Parent",
+      "id": "https://ror.org/002rjbv21"
     }
   ],
   "addresses": [
     {
-      "lat": 46.81228,
-      "lng": -71.21454,
-      "state": null,
-      "state_code": null,
-      "city": "Québec",
+      "lat": 45.501001,
+      "lng": -73.615789,
+      "state": "Quebec",
+      "state_code": "CA-QC",
+      "city": "Montreal",
       "geonames_city": {
-        "id": 6325494,
-        "city": "Québec",
+        "id": 6077243,
+        "city": "Montréal",
         "geonames_admin1": {
           "name": "Quebec",
           "id": 6115047,
@@ -31,10 +46,10 @@
           "code": "CA.10"
         },
         "geonames_admin2": {
-          "name": "Capitale-Nationale",
-          "id": 6691319,
-          "ascii_name": "Capitale-Nationale",
-          "code": "CA.10.03"
+          "name": "Montréal",
+          "id": 6077246,
+          "ascii_name": "Montreal",
+          "code": "CA.10.06"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,21 +75,15 @@
     }
   ],
   "links": [
-    "http://www.teluq.ca/"
+    "https://www.gerad.ca/en/"
   ],
-  "aliases": [
-    "Telé-université, Université du Québec",
-    "Télé-Université"
+  "aliases": [],
+  "acronyms": [
+    "GERAD"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/T%C3%89LUQ",
-  "labels": [
-    {
-      "label": "TÉLUQ University",
-      "iso639": "en"
-    }
-  ],
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Canada",
     "country_code": "CA"
@@ -83,24 +92,12 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0659 512X"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "753928"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q288006"
+        "0000 0004 0439 6794"
       ]
     },
     "GRID": {
-      "preferred": "grid.422889.d",
-      "all": "grid.422889.d"
+      "preferred": "grid.483276.c",
+      "all": "grid.483276.c"
     }
   }
 }

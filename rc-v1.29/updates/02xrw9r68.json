@@ -1,13 +1,23 @@
 {
-  "id": "https://ror.org/007y6q934",
-  "name": "Université TÉLUQ",
+  "id": "https://ror.org/02xrw9r68",
+  "name": "Université du Québec à Trois-Rivières",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1972,
+  "established": 1969,
   "types": [
     "Education"
   ],
   "relationships": [
+    {
+      "label": "CentrEau - Quebec Water Management Research Centre",
+      "type": "Related",
+      "id": "https://ror.org/03wx0vn75"
+    },
+    {
+      "label": "St. Lawrence Global Observatory",
+      "type": "Related",
+      "id": "https://ror.org/03wfagk22"
+    },
     {
       "label": "Université du Québec",
       "type": "Parent",
@@ -16,14 +26,14 @@
   ],
   "addresses": [
     {
-      "lat": 46.81228,
-      "lng": -71.21454,
+      "lat": 46.34515,
+      "lng": -72.5477,
       "state": null,
       "state_code": null,
-      "city": "Québec",
+      "city": "Trois-Rivières",
       "geonames_city": {
-        "id": 6325494,
-        "city": "Québec",
+        "id": 6169141,
+        "city": "Trois-Rivières",
         "geonames_admin1": {
           "name": "Quebec",
           "id": 6115047,
@@ -31,10 +41,10 @@
           "code": "CA.10"
         },
         "geonames_admin2": {
-          "name": "Capitale-Nationale",
-          "id": 6691319,
-          "ascii_name": "Capitale-Nationale",
-          "code": "CA.10.03"
+          "name": "Mauricie",
+          "id": 6068167,
+          "ascii_name": "Mauricie",
+          "code": "CA.10.04"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,18 +70,17 @@
     }
   ],
   "links": [
-    "http://www.teluq.ca/"
+    "http://www.uqtr.ca/"
   ],
-  "aliases": [
-    "Telé-université, Université du Québec",
-    "Télé-Université"
+  "aliases": [],
+  "acronyms": [
+    "UQTR"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/T%C3%89LUQ",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_%C3%A0_Trois-Rivi%C3%A8res",
   "labels": [
     {
-      "label": "TÉLUQ University",
+      "label": "University of Quebec at Trois-Rivieres",
       "iso639": "en"
     }
   ],
@@ -83,24 +92,30 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0659 512X"
+        "0000 0001 2197 8284"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100009850",
+      "all": [
+        "100009850"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "753928"
+        "505387"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q288006"
+        "Q919256"
       ]
     },
     "GRID": {
-      "preferred": "grid.422889.d",
-      "all": "grid.422889.d"
+      "preferred": "grid.265703.5",
+      "all": "grid.265703.5"
     }
   }
 }

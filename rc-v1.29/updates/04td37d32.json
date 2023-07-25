@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/007y6q934",
-  "name": "Université TÉLUQ",
-  "email_address": null,
+  "id": "https://ror.org/04td37d32",
+  "name": "Institut National de la Recherche Scientifique",
+  "email_address": "",
   "ip_addresses": [],
-  "established": 1972,
+  "established": 1969,
   "types": [
     "Education"
   ],
   "relationships": [
+    {
+      "label": "CentrEau - Quebec Water Management Research Centre",
+      "type": "Related",
+      "id": "https://ror.org/03wx0vn75"
+    },
     {
       "label": "Université du Québec",
       "type": "Parent",
@@ -60,18 +65,17 @@
     }
   ],
   "links": [
-    "http://www.teluq.ca/"
+    "http://www.inrs.ca/english/homepage"
   ],
-  "aliases": [
-    "Telé-université, Université du Québec",
-    "Télé-Université"
+  "aliases": [],
+  "acronyms": [
+    "INRS"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/T%C3%89LUQ",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Institut_national_de_la_recherche_scientifique",
   "labels": [
     {
-      "label": "TÉLUQ University",
+      "label": "National Institute of Scientific Research",
       "iso639": "en"
     }
   ],
@@ -83,24 +87,30 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 0659 512X"
+        "0000 0000 9582 2314"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100012943",
+      "all": [
+        "100012943"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "753928"
+        "377995"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q288006"
+        "Q3152403"
       ]
     },
     "GRID": {
-      "preferred": "grid.422889.d",
-      "all": "grid.422889.d"
+      "preferred": "grid.418084.1",
+      "all": "grid.418084.1"
     }
   }
 }
