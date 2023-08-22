@@ -7,7 +7,18 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Nuclear Energy",
+      "type": "Parent",
+      "id": "https://ror.org/05tj7dm33"
+    },
+    {
+      "label": "Battelle",
+      "type": "Parent",
+      "id": "https://ror.org/01h5tnr73"
+    }
+  ],
   "addresses": [
     {
       "lat": 43.46658,

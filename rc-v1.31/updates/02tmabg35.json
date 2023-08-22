@@ -1,39 +1,29 @@
 {
-  "id": "https://ror.org/031yh0y38",
-  "name": "Center for Integrated Nanotechnologies",
+  "id": "https://ror.org/02tmabg35",
+  "name": "Triad National Security (United States)",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2006,
+  "established": 2017,
   "types": [
-    "Facility"
+    "Company"
   ],
   "relationships": [
     {
       "label": "Los Alamos National Laboratory",
-      "type": "Parent",
+      "type": "Child",
       "id": "https://ror.org/01e41cf67"
-    },
-    {
-      "label": "Sandia National Laboratories",
-      "type": "Parent",
-      "id": "https://ror.org/01apwpt12"
-    },
-    {
-      "label": "National Nuclear Security Administration",
-      "type": "Parent",
-      "id": "https://ror.org/03sk1we31"
     }
   ],
   "addresses": [
     {
-      "lat": 35.08449,
-      "lng": -106.65114,
-      "state": null,
-      "state_code": null,
-      "city": "Albuquerque",
+      "lat": 35.84406,
+      "lng": -106.28716,
+      "state": "New Mexico",
+      "state_code": "US-NM",
+      "city": "Los Alamos",
       "geonames_city": {
-        "id": 5454711,
-        "city": "Albuquerque",
+        "id": 5476825,
+        "city": "Los Alamos",
         "geonames_admin1": {
           "name": "New Mexico",
           "id": 5481136,
@@ -41,10 +31,10 @@
           "code": "US.NM"
         },
         "geonames_admin2": {
-          "name": "Bernalillo",
-          "id": 5457180,
-          "ascii_name": "Bernalillo",
-          "code": "US.NM.001"
+          "name": "Los Alamos County",
+          "id": 5476834,
+          "ascii_name": "Los Alamos County",
+          "code": "US.NM.028"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -70,14 +60,12 @@
     }
   ],
   "links": [
-    "https://cint.lanl.gov/"
+    "https://www.triadns.org/"
   ],
   "aliases": [
-    "United States Department of Energy Center for Integrated Nanotechnologies"
+    "Triad"
   ],
-  "acronyms": [
-    "CINT"
-  ],
+  "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
@@ -89,18 +77,12 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 8307 9534"
-      ]
-    },
-    "FundRef": {
-      "preferred": "100014982",
-      "all": [
-        "100014982"
+        "0000 0004 7701 462X"
       ]
     },
     "GRID": {
-      "preferred": "grid.509508.1",
-      "all": "grid.509508.1"
+      "preferred": "grid.510120.7",
+      "all": "grid.510120.7"
     }
   }
 }

@@ -1,30 +1,25 @@
 {
-  "id": "https://ror.org/058m7ey48",
-  "name": "Sandia National Laboratories California",
+  "id": "https://ror.org/03z21mf61",
+  "name": "Lawrence Livermore National Security",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1956,
+  "established": 2006,
   "types": [
-    "Facility"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Sandia National Laboratories",
-      "type": "Parent",
-      "id": "https://ror.org/01apwpt12"
-    },
-    {
-      "label": "National Nuclear Security Administration",
-      "type": "Parent",
-      "id": "https://ror.org/03sk1we31"
+      "label": "Lawrence Livermore National Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/041nk4h53"
     }
   ],
   "addresses": [
     {
-      "lat": 37.68187,
-      "lng": -121.76801,
-      "state": null,
-      "state_code": null,
+      "lat": 37.687019,
+      "lng": -121.705886,
+      "state": "California",
+      "state_code": "US-CA",
       "city": "Livermore",
       "geonames_city": {
         "id": 5367440,
@@ -36,9 +31,9 @@
           "code": "US.CA"
         },
         "geonames_admin2": {
-          "name": "Alameda",
+          "name": "Alameda County",
           "id": 5322745,
-          "ascii_name": "Alameda",
+          "ascii_name": "Alameda County",
           "code": "US.CA.001"
         },
         "license": {
@@ -65,16 +60,14 @@
     }
   ],
   "links": [
-    "http://www.sandia.gov/locations/livermore_california.html"
+    "https://www.llnsllc.com/"
   ],
-  "aliases": [
-    "United States Department of Energy Sandia National Laboratories California"
-  ],
+  "aliases": [],
   "acronyms": [
-    "SNL"
+    "LLNS"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Sandia_National_Laboratories",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -84,12 +77,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0388 8279"
+        "0000 0004 0398 6848"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q30285689"
       ]
     },
     "GRID": {
-      "preferred": "grid.474523.3",
-      "all": "grid.474523.3"
+      "preferred": "grid.426732.6",
+      "all": "grid.426732.6"
     }
   }
 }

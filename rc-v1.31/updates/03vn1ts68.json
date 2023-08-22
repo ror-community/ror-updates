@@ -7,7 +7,23 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Science",
+      "type": "Parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Princeton University",
+      "type": "Parent",
+      "id": "https://ror.org/00hx57361"
+    },
+    {
+      "label": "National Spherical Torus Experiment – Upgrade",
+      "type": "Child",
+      "id": "https://ror.org/00x6j9x10"
+    }
+  ],
   "addresses": [
     {
       "lat": 40.34872,

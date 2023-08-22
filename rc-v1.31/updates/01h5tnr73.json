@@ -1,40 +1,50 @@
 {
-  "id": "https://ror.org/05vc7qy59",
-  "name": "Savannah River National Laboratory",
+  "id": "https://ror.org/01h5tnr73",
+  "name": "Battelle",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1950,
+  "established": 1929,
   "types": [
-    "Facility"
+    "Nonprofit"
   ],
   "relationships": [
     {
-      "label": "Office of Environmental Management",
-      "type": "Parent",
-      "id": "https://ror.org/00km40770"
+      "label": "National Ecological Observatory Network",
+      "type": "Related",
+      "id": "https://ror.org/04j43p132"
+    },
+    {
+      "label": "Idaho National Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/00ty2a548"
+    },
+    {
+      "label": "Pacific Northwest National Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/05h992307"
     }
   ],
   "addresses": [
     {
-      "lat": 33.56042,
-      "lng": -81.71955,
+      "lat": 39.96118,
+      "lng": -82.99879,
       "state": null,
       "state_code": null,
-      "city": "Aiken",
+      "city": "Columbus",
       "geonames_city": {
-        "id": 4569067,
-        "city": "Aiken",
+        "id": 4509177,
+        "city": "Columbus",
         "geonames_admin1": {
-          "name": "South Carolina",
-          "id": 4597040,
-          "ascii_name": "South Carolina",
-          "code": "US.SC"
+          "name": "Ohio",
+          "id": 5165418,
+          "ascii_name": "Ohio",
+          "code": "US.OH"
         },
         "geonames_admin2": {
-          "name": "Aiken",
-          "id": 4569073,
-          "ascii_name": "Aiken",
-          "code": "US.SC.003"
+          "name": "Franklin",
+          "id": 4512214,
+          "ascii_name": "Franklin",
+          "code": "US.OH.049"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,16 +70,14 @@
     }
   ],
   "links": [
-    "http://srnl.doe.gov/"
+    "http://www.battelle.org/"
   ],
   "aliases": [
-    "United States Department of Energy Office of Environmental Management Savannah River National Laboratory"
+    "Battelle Memorial Institute"
   ],
-  "acronyms": [
-    "SRNL"
-  ],
+  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Savannah_River_National_Laboratory",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Battelle_Memorial_Institute",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -79,30 +87,31 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0367 4086"
+        "0000 0000 9568 9541"
       ]
     },
     "FundRef": {
-      "preferred": "100011663",
+      "preferred": null,
       "all": [
-        "100011663"
+        "100000993"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "10413808"
+        "532208"
       ]
     },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q810911",
       "all": [
-        "Q7427872"
+        "Q810911",
+        "Q37870205"
       ]
     },
     "GRID": {
-      "preferred": "grid.451247.1",
-      "all": "grid.451247.1"
+      "preferred": "grid.27873.39",
+      "all": "grid.27873.39"
     }
   }
 }
