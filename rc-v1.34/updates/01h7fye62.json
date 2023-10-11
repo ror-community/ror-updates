@@ -7,7 +7,18 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA National Marine Fisheries Service",
+      "type": "Parent",
+      "id": "https://ror.org/033mqx355"
+    },
+    {
+      "label": "NOAA National Marine Fisheries Service Southeast Fisheries Science Center",
+      "type": "Related",
+      "id": "https://ror.org/0396y0w87"
+    }
+  ],
   "addresses": [
     {
       "lat": 47.60621,

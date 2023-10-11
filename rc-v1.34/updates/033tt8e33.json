@@ -7,7 +7,28 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA Chemical Sciences Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/03f4jbs89"
+    },
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "Parent",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "NOAA Physical Sciences Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/030ea6w47"
+    },
+    {
+      "label": "NOAA Global Systems Laboratory",
+      "type": "Child",
+      "id": "https://ror.org/006ddyp05"
+    }
+  ],
   "addresses": [
     {
       "lat": 40.01499,

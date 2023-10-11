@@ -7,7 +7,18 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA National Weather Service",
+      "type": "Parent",
+      "id": "https://ror.org/00tgqzw13"
+    },
+    {
+      "label": "NOAA Office of Climate, Water, and Weather Services",
+      "type": "Child",
+      "id": "https://ror.org/03hmhdm29"
+    }
+  ],
   "addresses": [
     {
       "lat": 30.30881,
