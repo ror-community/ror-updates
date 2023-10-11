@@ -7,7 +7,18 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA National Weather Service",
+      "type": "Parent",
+      "id": "https://ror.org/00tgqzw13"
+    },
+    {
+      "label": "Naval Oceanography Office",
+      "type": "Related",
+      "id": "https://ror.org/00y2ek133"
+    }
+  ],
   "addresses": [
     {
       "lat": 38.84872,

@@ -7,7 +7,18 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA National Marine Fisheries Service",
+      "type": "Parent",
+      "id": "https://ror.org/033mqx355"
+    },
+    {
+      "label": "NOAA National Marine Fisheries Service Alaska Fisheries Science Center",
+      "type": "Related",
+      "id": "https://ror.org/01h7fye62"
+    }
+  ],
   "addresses": [
     {
       "lat": 25.77427,
