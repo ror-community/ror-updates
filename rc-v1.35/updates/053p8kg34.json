@@ -1,17 +1,27 @@
 {
-  "id": "https://ror.org/03q7r5x87",
-  "name": "Laboratoire de Biologie, Bioingéniérie et Bioimagerie ostéoarticulaire",
+  "id": "https://ror.org/053p8kg34",
+  "name": "André Revuz Didactics Laboratory",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2001,
+  "established": 2008,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "label": "Artois University",
       "type": "Parent",
-      "id": "https://ror.org/00s19x989"
+      "id": "https://ror.org/053x9s498"
+    },
+    {
+      "label": "CY Cergy Paris University",
+      "type": "Parent",
+      "id": "https://ror.org/043htjv09"
+    },
+    {
+      "label": "Université Paris-Est Créteil",
+      "type": "Parent",
+      "id": "https://ror.org/05ggc9x40"
     },
     {
       "label": "Université Paris Cité",
@@ -19,9 +29,9 @@
       "id": "https://ror.org/05f82e368"
     },
     {
-      "label": "École Nationale Vétérinaire d'Alfort",
+      "label": "University of Rouen",
       "type": "Parent",
-      "id": "https://ror.org/04k031t90"
+      "id": "https://ror.org/03nhjew95"
     }
   ],
   "addresses": [
@@ -70,19 +80,20 @@
     }
   ],
   "links": [
-    "https://www.b3oa.cnrs.fr"
+    "https://www.ldar.website"
   ],
-  "aliases": [
-    "Bioingénierie et Bioimagerie Ostéo-Articulaire",
-    "Osteo-Articular Bioengineering and Bioimaging"
-  ],
+  "aliases": [],
   "acronyms": [
-    "B2OA",
-    "B3OA"
+    "LDAR"
   ],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Laboratoire de Didactique André Revuz",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
@@ -91,24 +102,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0452 8160"
-      ]
-    },
-    "CNRS": {
-      "preferred": null,
-      "all": [
-        "UMR7052"
+        "0000 0000 8965 4086"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q51784654"
+        "Q30262310"
       ]
     },
     "GRID": {
-      "preferred": "grid.503318.c",
-      "all": "grid.503318.c"
+      "preferred": "grid.463933.8",
+      "all": "grid.463933.8"
     }
   }
 }

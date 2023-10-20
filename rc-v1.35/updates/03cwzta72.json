@@ -1,39 +1,44 @@
 {
-  "id": "https://ror.org/03q7r5x87",
-  "name": "Laboratoire de Biologie, Bioingéniérie et Bioimagerie ostéoarticulaire",
+  "id": "https://ror.org/03cwzta72",
+  "name": "Direction des énergies",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2001,
+  "established": null,
   "types": [
-    "Facility"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "label": "Atomic Energy and Alternative Energies Commission",
       "type": "Parent",
-      "id": "https://ror.org/00s19x989"
+      "id": "https://ror.org/00jjx8s55"
     },
     {
-      "label": "Université Paris Cité",
-      "type": "Parent",
-      "id": "https://ror.org/05f82e368"
+      "label": "CEA Cadarache",
+      "type": "Child",
+      "id": "https://ror.org/01rs1gy10"
     },
     {
-      "label": "École Nationale Vétérinaire d'Alfort",
-      "type": "Parent",
-      "id": "https://ror.org/04k031t90"
+      "label": "CEA Marcoule",
+      "type": "Child",
+      "id": "https://ror.org/04140y156"
+    },
+    {
+      "label": "CEA Saclay",
+      "type": "Child",
+      "id": "https://ror.org/03n15ch10"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85341,
-      "lng": 2.3488,
+      "lat": 48.68333,
+      "lng": 2.13333,
       "state": null,
       "state_code": null,
-      "city": "Paris",
+      "city": "Gif-sur-Yvette",
       "geonames_city": {
-        "id": 2988507,
-        "city": "Paris",
+        "id": 3016078,
+        "city": "Gif-sur-Yvette",
         "geonames_admin1": {
           "name": "Île-de-France",
           "id": 3012874,
@@ -41,10 +46,10 @@
           "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Paris",
-          "id": 2968815,
-          "ascii_name": "Paris",
-          "code": "FR.11.75"
+          "name": "Essonne",
+          "id": 3019599,
+          "ascii_name": "Essonne",
+          "code": "FR.11.91"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -70,17 +75,15 @@
     }
   ],
   "links": [
-    "https://www.b3oa.cnrs.fr"
+    "https://www.cea.fr/Pages/domaines-recherche/energies.aspx"
   ],
   "aliases": [
-    "Bioingénierie et Bioimagerie Ostéo-Articulaire",
-    "Osteo-Articular Bioengineering and Bioimaging"
+    "Direction de L'Énergie Nucléaire"
   ],
   "acronyms": [
-    "B2OA",
-    "B3OA"
+    "CEA DEN"
   ],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
@@ -91,24 +94,19 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0452 8160"
-      ]
-    },
-    "CNRS": {
-      "preferred": null,
-      "all": [
-        "UMR7052"
+        "0000 0001 2180 4137"
       ]
     },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q121913443",
       "all": [
-        "Q51784654"
+        "Q30299415",
+        "Q121913443"
       ]
     },
     "GRID": {
-      "preferred": "grid.503318.c",
-      "all": "grid.503318.c"
+      "preferred": "grid.457258.9",
+      "all": "grid.457258.9"
     }
   }
 }

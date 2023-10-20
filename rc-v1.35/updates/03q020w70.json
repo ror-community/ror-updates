@@ -1,27 +1,32 @@
 {
-  "id": "https://ror.org/03q7r5x87",
-  "name": "Laboratoire de Biologie, Bioingéniérie et Bioimagerie ostéoarticulaire",
+  "id": "https://ror.org/03q020w70",
+  "name": "Biologie Structurale des Processus Cellulaires et des Agents Infectieux",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2001,
+  "established": 2012,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "label": "Institut Pasteur",
       "type": "Parent",
-      "id": "https://ror.org/00s19x989"
+      "id": "https://ror.org/0495fxg12"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "Parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Sorbonne University",
+      "type": "Parent",
+      "id": "https://ror.org/02en5vm52"
     },
     {
       "label": "Université Paris Cité",
       "type": "Parent",
       "id": "https://ror.org/05f82e368"
-    },
-    {
-      "label": "École Nationale Vétérinaire d'Alfort",
-      "type": "Parent",
-      "id": "https://ror.org/04k031t90"
     }
   ],
   "addresses": [
@@ -70,17 +75,11 @@
     }
   ],
   "links": [
-    "https://www.b3oa.cnrs.fr"
+    "http://umr3528.pasteur.fr/"
   ],
-  "aliases": [
-    "Bioingénierie et Bioimagerie Ostéo-Articulaire",
-    "Osteo-Articular Bioengineering and Bioimaging"
-  ],
-  "acronyms": [
-    "B2OA",
-    "B3OA"
-  ],
-  "status": "inactive",
+  "aliases": [],
+  "acronyms": [],
+  "status": "withdrawn",
   "wikipedia_url": "",
   "labels": [],
   "country": {
@@ -88,27 +87,15 @@
     "country_code": "FR"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0452 8160"
-      ]
-    },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR7052"
-      ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q51784654"
+        "UMR3528"
       ]
     },
     "GRID": {
-      "preferred": "grid.503318.c",
-      "all": "grid.503318.c"
+      "preferred": "grid.503255.4",
+      "all": "grid.503255.4"
     }
   }
 }
