@@ -3,7 +3,7 @@ This repository tracks proposed changes that are being reviewed and/or prepared 
 # ROR scope
 The primary focus of ROR is the “affiliation and funder use case” - proper description of relationships between contributors, contributions, research sponsors, publishers, and employers. 
 
-We use “affiliation" and "funder” to describe any formal relationship between a researcher and an organization associated with researchers, including but not limited to their employer, educator, funder, or scholarly society. 
+We use “affiliation" and "funder” to describe any formal relationship between a researcher and an organization associated with researchers, including but not limited to their employer, educator, sponsor, or scholarly society. 
 
 We define “research organization” as any organization that conducts, produces, manages, or touches research.
 # Criteria for inclusion in ROR
