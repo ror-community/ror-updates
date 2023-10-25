@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/00er56532",
-  "name": "Trinity Health Ann Arbor Hospital",
+  "id": "https://ror.org/04ebzxq58",
+  "name": "Centro de Investigaciones Cardiovasculares",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1911,
+  "established": 1976,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Trinity Health Michigan",
+      "label": "Centro Científico Tecnológico - La Plata",
       "type": "Parent",
-      "id": "https://ror.org/01w8eym62"
+      "id": "https://ror.org/03qan4b12"
+    },
+    {
+      "label": "Universidad Nacional de La Plata",
+      "type": "Parent",
+      "id": "https://ror.org/01tjs6929"
     }
   ],
   "addresses": [
     {
-      "lat": 42.27756,
-      "lng": -83.74088,
+      "lat": -34.909384,
+      "lng": -57.928262,
       "state": null,
       "state_code": null,
-      "city": "Ann Arbor",
+      "city": "Buenos Aires",
       "geonames_city": {
-        "id": 4984247,
-        "city": "Ann Arbor",
+        "id": 3435910,
+        "city": "Buenos Aires",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "Buenos Aires F.D.",
+          "id": 3433955,
+          "ascii_name": "Buenos Aires F.D.",
+          "code": "AR.07"
         },
         "geonames_admin2": {
-          "name": "Washtenaw",
-          "id": 5014120,
-          "ascii_name": "Washtenaw",
-          "code": "US.MI.161"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,36 +61,35 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 3865483
     }
   ],
   "links": [
-    "https://www.trinityhealthmichigan.org/location/trinity-health-ann-arbor-hospital"
+    "https://ciclaplata.org.ar/"
   ],
   "aliases": [
-    "Trinity Health Ann Arbor",
-    "St Joseph Mercy Hospital"
+    "Cento de Investigaciones Cardiovasculares \"Dr. Horacio Eugenio Cingolani\""
   ],
   "acronyms": [
-    "SJMH "
+    "CIC"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "Argentina",
+    "country_code": "AR"
   },
   "external_ids": {
-    "ISNI": {
+    "Wikidata": {
       "preferred": null,
       "all": [
-        "0000 0004 0370 2980"
+        "Q61931340"
       ]
     },
     "GRID": {
-      "preferred": "grid.416444.7",
-      "all": "grid.416444.7"
+      "preferred": "grid.501503.2",
+      "all": "grid.501503.2"
     }
   }
 }

@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/00er56532",
-  "name": "Trinity Health Ann Arbor Hospital",
-  "email_address": null,
+  "id": "https://ror.org/01pmtm379",
+  "name": "Instituto de Física La Plata",
+  "email_address": "",
   "ip_addresses": [],
-  "established": 1911,
+  "established": 1905,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Trinity Health Michigan",
+      "label": "Centro Científico Tecnológico - La Plata",
       "type": "Parent",
-      "id": "https://ror.org/01w8eym62"
+      "id": "https://ror.org/03qan4b12"
+    },
+    {
+      "label": "Universidad Nacional de La Plata",
+      "type": "Parent",
+      "id": "https://ror.org/01tjs6929"
     }
   ],
   "addresses": [
     {
-      "lat": 42.27756,
-      "lng": -83.74088,
+      "lat": -34.912603,
+      "lng": -57.951092,
       "state": null,
       "state_code": null,
-      "city": "Ann Arbor",
+      "city": "La Plata",
       "geonames_city": {
-        "id": 4984247,
-        "city": "Ann Arbor",
+        "id": 3432043,
+        "city": "La Plata",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "Buenos Aires",
+          "id": 3435907,
+          "ascii_name": "Buenos Aires",
+          "code": "AR.01"
         },
         "geonames_admin2": {
-          "name": "Washtenaw",
-          "id": 5014120,
-          "ascii_name": "Washtenaw",
-          "code": "US.MI.161"
+          "name": "Partido de La Plata",
+          "id": 3432039,
+          "ascii_name": "Partido de La Plata",
+          "code": "AR.01.06441"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,36 +61,33 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 3865483
     }
   ],
   "links": [
-    "https://www.trinityhealthmichigan.org/location/trinity-health-ann-arbor-hospital"
+    "http://www.iflp.unlp.edu.ar/"
   ],
-  "aliases": [
-    "Trinity Health Ann Arbor",
-    "St Joseph Mercy Hospital"
-  ],
+  "aliases": [],
   "acronyms": [
-    "SJMH "
+    "IFLP"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "Argentina",
+    "country_code": "AR"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0370 2980"
+        "0000 0004 0452 5277"
       ]
     },
     "GRID": {
-      "preferred": "grid.416444.7",
-      "all": "grid.416444.7"
+      "preferred": "grid.450288.3",
+      "all": "grid.450288.3"
     }
   }
 }

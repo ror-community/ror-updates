@@ -1,49 +1,29 @@
 {
-  "id": "https://ror.org/01w8eym62",
-  "name": "Trinity Health Michigan",
+  "id": "https://ror.org/01g0b5g28",
+  "name": "Trinity Health Oakland Hospital",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1927,
   "types": [
     "Healthcare"
   ],
   "relationships": [
     {
-      "label": "Trinity Health Ann Arbor Hospital",
-      "type": "Child",
-      "id": "https://ror.org/00er56532"
-    },
-    {
-      "label": "Trinity Health Livingston Hospital",
-      "type": "Child",
-      "id": "https://ror.org/0077rd258"
-    },
-    {
-      "label": "Chelsea Hospital",
-      "type": "Child",
-      "id": "https://ror.org/041w4x997"
-    },
-    {
-      "label": "Trinity Health Oakland Hospital",
-      "type": "Child",
-      "id": "https://ror.org/01g0b5g28"
-    },
-    {
-      "label": "Trinity Health",
+      "label": "Trinity Health Michigan",
       "type": "Parent",
-      "id": "https://ror.org/006z80t96"
+      "id": "https://ror.org/01w8eym62"
     }
   ],
   "addresses": [
     {
-      "lat": 42.27756,
-      "lng": -83.74088,
+      "lat": 42.63892,
+      "lng": -83.29105,
       "state": null,
       "state_code": null,
-      "city": "Ann Arbor",
+      "city": "Pontiac",
       "geonames_city": {
-        "id": 4984247,
-        "city": "Ann Arbor",
+        "id": 5006166,
+        "city": "Pontiac",
         "geonames_admin1": {
           "name": "Michigan",
           "id": 5001836,
@@ -51,10 +31,10 @@
           "code": "US.MI"
         },
         "geonames_admin2": {
-          "name": "Washtenaw",
-          "id": 5014120,
-          "ascii_name": "Washtenaw",
-          "code": "US.MI.161"
+          "name": "Oakland",
+          "id": 5004223,
+          "ascii_name": "Oakland",
+          "code": "US.MI.125"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -80,16 +60,20 @@
     }
   ],
   "links": [
-    "https://www.trinityhealthmichigan.org"
+    "https://www.trinityhealthmichigan.org/location/trinity-health-oakland-hospital"
   ],
   "aliases": [
-    "Saint Joseph Mercy Health System"
+    "St. Joseph Mercy Oakland Hospital",
+    "St. Joseph Mercy Hospital",
+    "St. Joseph Mercy Oakland",
+    "Trinity Health Oakland Hospital",
+    "Trinity Health St. Joseph Mercy Oakland"
   ],
   "acronyms": [
-    "SJMHS"
+    "SJMO"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Joseph_Mercy_Health_System",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -97,20 +81,20 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": null,
+      "preferred": "0000 0004 0456 8226",
       "all": [
-        "0000 0004 0422 6138"
+        "0000 0004 0456 8226"
       ]
     },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q30280975",
       "all": [
-        "Q7401561"
+        "Q30280975"
       ]
     },
     "GRID": {
-      "preferred": "grid.416543.1",
-      "all": "grid.416543.1"
+      "preferred": "grid.416708.c",
+      "all": "grid.416708.c"
     }
   }
 }

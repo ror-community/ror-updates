@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/0077rd258",
-  "name": "Trinity Health Livingston Hospital",
+  "id": "https://ror.org/030qxdf23",
+  "name": "Instituto de Fisica de Liquidos y Sistemas Biologicos",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1986,
+  "established": 1981,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Trinity Health Michigan",
+      "label": "Centro Científico Tecnológico - La Plata",
       "type": "Parent",
-      "id": "https://ror.org/01w8eym62"
+      "id": "https://ror.org/03qan4b12"
+    },
+    {
+      "label": "Universidad Nacional de La Plata",
+      "type": "Parent",
+      "id": "https://ror.org/01tjs6929"
     }
   ],
   "addresses": [
     {
-      "lat": 42.52948,
-      "lng": -83.78022,
+      "lat": -34.923421,
+      "lng": -57.946805,
       "state": null,
       "state_code": null,
-      "city": "Brighton",
+      "city": "Buenos Aires",
       "geonames_city": {
-        "id": 4986994,
-        "city": "Brighton",
+        "id": 3435910,
+        "city": "Buenos Aires",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "Buenos Aires F.D.",
+          "id": 3433955,
+          "ascii_name": "Buenos Aires F.D.",
+          "code": "AR.07"
         },
         "geonames_admin2": {
-          "name": "Livingston",
-          "id": 4999829,
-          "ascii_name": "Livingston",
-          "code": "US.MI.093"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,40 +61,39 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 3865483
     }
   ],
   "links": [
-    "https://www.trinityhealthmichigan.org/location/trinity-health-livingston-hospital"
+    "http://iflysib.unlp.edu.ar/"
   ],
-  "aliases": [
-    "Livington Hospital",
-    "St. Joseph Mercy Brighton"
+  "aliases": [],
+  "acronyms": [
+    "IFLYSIB"
   ],
-  "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "Argentina",
+    "country_code": "AR"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 6877 1004"
+        "0000 0004 1796 3591"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q50039720"
+        "Q30266612"
       ]
     },
     "GRID": {
-      "preferred": "grid.492864.5",
-      "all": "grid.492864.5"
+      "preferred": "grid.472566.4",
+      "all": "grid.472566.4"
     }
   }
 }

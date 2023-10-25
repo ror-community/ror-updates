@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/0077rd258",
-  "name": "Trinity Health Livingston Hospital",
+  "id": "https://ror.org/059n1d175",
+  "name": "Hospital de Sant Pau",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1986,
+  "established": 1401,
   "types": [
     "Healthcare"
   ],
   "relationships": [
     {
-      "label": "Trinity Health Michigan",
-      "type": "Parent",
-      "id": "https://ror.org/01w8eym62"
+      "label": "Institut de Recerca Sant Pau",
+      "type": "Related",
+      "id": "https://ror.org/005teat46"
     }
   ],
   "addresses": [
     {
-      "lat": 42.52948,
-      "lng": -83.78022,
+      "lat": 41.38879,
+      "lng": 2.15899,
       "state": null,
       "state_code": null,
-      "city": "Brighton",
+      "city": "Barcelona",
       "geonames_city": {
-        "id": 4986994,
-        "city": "Brighton",
+        "id": 3128760,
+        "city": "Barcelona",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "Catalonia",
+          "id": 3336901,
+          "ascii_name": "Catalonia",
+          "code": "ES.56"
         },
         "geonames_admin2": {
-          "name": "Livingston",
-          "id": 4999829,
-          "ascii_name": "Livingston",
-          "code": "US.MI.093"
+          "name": "Barcelona",
+          "id": 3128759,
+          "ascii_name": "Barcelona",
+          "code": "ES.56.B"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,40 +56,46 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 2510769
     }
   ],
   "links": [
-    "https://www.trinityhealthmichigan.org/location/trinity-health-livingston-hospital"
+    "http://www.santpau.cat/en"
   ],
   "aliases": [
-    "Livington Hospital",
-    "St. Joseph Mercy Brighton"
+    "Hospital de la Santa Creu i Sant Pau"
   ],
-  "acronyms": [],
+  "acronyms": [
+    "HSCSP"
+  ],
   "status": "active",
-  "wikipedia_url": "",
-  "labels": [],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
+  "labels": [
+    {
+      "label": "Hospital of the Holy Cross and Saint Paul",
+      "iso639": "en"
+    }
+  ],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "Spain",
+    "country_code": "ES"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 6877 1004"
+        "0000 0004 1768 8905"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q50039720"
+        "Q507282"
       ]
     },
     "GRID": {
-      "preferred": "grid.492864.5",
-      "all": "grid.492864.5"
+      "preferred": "grid.413396.a",
+      "all": "grid.413396.a"
     }
   }
 }
