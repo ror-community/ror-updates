@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/04k67r158",
-  "name": "Collins Aerospace (United States)",
+  "id": "https://ror.org/052451r09",
+  "name": "Pratt & Whitney (United States)",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1925,
   "types": [
     "Company"
   ],
   "relationships": [
     {
       "label": "RTX (United States)",
-      "type": "Successor",
+      "type": "Parent",
       "id": "https://ror.org/0354t7b78"
     }
   ],
   "addresses": [
     {
-      "lat": 35.22709,
-      "lng": -80.84313,
+      "lat": 41.78232,
+      "lng": -72.61203,
       "state": null,
       "state_code": null,
-      "city": "Charlotte",
+      "city": "East Hartford",
       "geonames_city": {
-        "id": 4460243,
-        "city": "Charlotte",
+        "id": 4833403,
+        "city": "East Hartford",
         "geonames_admin1": {
-          "name": "North Carolina",
-          "id": 4482348,
-          "ascii_name": "North Carolina",
-          "code": "US.NC"
+          "name": "Connecticut",
+          "id": 4831725,
+          "ascii_name": "Connecticut",
+          "code": "US.CT"
         },
         "geonames_admin2": {
-          "name": "Mecklenburg",
-          "id": 4478884,
-          "ascii_name": "Mecklenburg",
-          "code": "US.NC.119"
+          "name": "Hartford",
+          "id": 4835806,
+          "ascii_name": "Hartford",
+          "code": "US.CT.003"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,44 +60,26 @@
     }
   ],
   "links": [
-    "https://www.collinsaerospace.com"
+    "https://www.prattwhitney.com"
   ],
   "aliases": [
-    "Collins Aerospace",
-    "UTC Aerospace Systems"
+    "Pratt & Whitney",
+    "Pratt and Whitney"
   ],
-  "acronyms": [
-    "UTAS"
-  ],
-  "status": "inactive",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/UTC_Aerospace_Systems",
+  "acronyms": [],
+  "status": "active",
+  "wikipedia_url": null,
   "labels": [],
   "country": {
     "country_name": "United States",
     "country_code": "US"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2162 8698"
-      ]
-    },
     "FundRef": {
-      "preferred": null,
+      "preferred": "100004684",
       "all": [
-        "100008282"
+        "100004684"
       ]
-    },
-    "Wikidata": {
-      "preferred": null,
-      "all": [
-        "Q358594"
-      ]
-    },
-    "GRID": {
-      "preferred": "grid.455158.8",
-      "all": "grid.455158.8"
     }
   }
 }
