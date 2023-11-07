@@ -7,7 +7,18 @@
   "types": [
     "Nonprofit"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Villum Fonden",
+      "type": "Child",
+      "id": "https://ror.org/05nqkay65"
+    },
+    {
+      "label": "Velux Fonden",
+      "type": "Child",
+      "id": "https://ror.org/013w1n936"
+    }
+  ],
   "addresses": [
     {
       "lat": 56.08481,
