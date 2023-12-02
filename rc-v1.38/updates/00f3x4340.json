@@ -1,19 +1,13 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/00f3x4340",
+  "name": "Instituto Español de Oceanografía",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1914,
   "types": [
-    "Facility"
+    "Government"
   ],
-  "relationships": [
-    {
-      "label": "Spanish National Research Council",
-      "type": "Parent",
-      "id": "https://ror.org/02gfc7t72"
-    }
-  ],
+  "relationships": [],
   "addresses": [
     {
       "lat": 40.4165,
@@ -60,24 +54,37 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.ieo.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Spanish Institute of Oceanography"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "IEO"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
-  "labels": [
-    {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
-    }
-  ],
+  "status": "active",
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0001 0943 6642"
+      ]
+    },
+    "FundRef": {
+      "preferred": "501100011034",
+      "all": [
+        "501100011034"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.410389.7",
+      "all": "grid.410389.7"
+    }
+  }
 }

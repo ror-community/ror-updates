@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/038szmr31",
+  "name": "Centro de Astrobiología",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1998,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "National Institute for Aerospace Technology",
+      "type": "Parent",
+      "id": "https://ror.org/02m44ak47"
+    },
     {
       "label": "Spanish National Research Council",
       "type": "Parent",
@@ -16,14 +21,14 @@
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 40.45535,
+      "lng": -3.46973,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Torrejón de Ardoz",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 3107784,
+        "city": "Torrejón de Ardoz",
         "geonames_admin1": {
           "name": "Madrid",
           "id": 3117732,
@@ -60,24 +65,37 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://cab.inta-csic.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Center for Astrobiology"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "CAB"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
-  "labels": [
-    {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
-    }
-  ],
+  "status": "active",
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0001 2199 0769"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "47000066"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.462011.0",
+      "all": "grid.462011.0"
+    }
+  }
 }

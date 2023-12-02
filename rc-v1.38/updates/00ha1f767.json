@@ -1,6 +1,6 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/00ha1f767",
+  "name": "Instituto de Investigaciones Biomédicas Sols-Morreale",
   "email_address": null,
   "ip_addresses": [],
   "established": null,
@@ -8,6 +8,11 @@
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Autonomous University of Madrid",
+      "type": "Parent",
+      "id": "https://ror.org/01cby8j38"
+    },
     {
       "label": "Spanish National Research Council",
       "type": "Parent",
@@ -60,24 +65,42 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.iib.uam.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Alberto Sols Biomedical Research Institute"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "IIBM"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Sols-Morreale Biomedical Research Institute",
+      "iso639": "en"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 1803 1972"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.466793.9",
+      "all": "grid.466793.9"
+    },
+    "wikidata": {
+      "preferred": "Q5918253",
+      "all": [
+        "Q5918253"
+      ]
+    }
+  }
 }

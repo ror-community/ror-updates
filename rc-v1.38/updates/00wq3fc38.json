@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/00wq3fc38",
+  "name": "Institut Botànic de Barcelona",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1934,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Ajuntament de Barcelona",
+      "type": "Parent",
+      "id": "https://ror.org/00zg6q231"
+    },
     {
       "label": "Spanish National Research Council",
       "type": "Parent",
@@ -16,25 +21,25 @@
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 41.38879,
+      "lng": 2.15899,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Barcelona",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 3128760,
+        "city": "Barcelona",
         "geonames_admin1": {
-          "name": "Madrid",
-          "id": 3117732,
-          "ascii_name": "Madrid",
-          "code": "ES.29"
+          "name": "Catalonia",
+          "id": 3336901,
+          "ascii_name": "Catalonia",
+          "code": "ES.56"
         },
         "geonames_admin2": {
-          "name": "Madrid",
-          "id": 6355233,
-          "ascii_name": "Madrid",
-          "code": "ES.29.M"
+          "name": "Barcelona",
+          "id": 3128759,
+          "ascii_name": "Barcelona",
+          "code": "ES.56.B"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,24 +65,42 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.ibb.csic.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Botanical Institute of Barcelona"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "IBB"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Instituto Botánico de Barcelona",
+      "iso639": "es"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0001 2107 4293"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q20105081"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.507630.7",
+      "all": "grid.507630.7"
+    }
+  }
 }
