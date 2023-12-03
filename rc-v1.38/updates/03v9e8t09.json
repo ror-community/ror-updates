@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/03v9e8t09",
+  "name": "Centro de Biología Molecular Severo Ochoa",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1975,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Autonomous University of Madrid",
+      "type": "Related",
+      "id": "https://ror.org/01cby8j38"
+    },
     {
       "label": "Spanish National Research Council",
       "type": "Parent",
@@ -60,24 +65,37 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.cbm.uam.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Center for Molecular Biology Severo Ochoa"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "CBMSO"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
-  "labels": [
-    {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
-    }
-  ],
+  "status": "active",
+  "wikipedia_url": "",
+  "labels": [],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "FundRef": {
+      "preferred": "100017607",
+      "all": [
+        "100017607"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.465524.4",
+      "all": "grid.465524.4"
+    },
+    "Wikidata": {
+      "preferred": "Q20013983",
+      "all": [
+        "Q20013983"
+      ]
+    }
+  }
 }

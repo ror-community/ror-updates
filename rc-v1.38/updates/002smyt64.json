@@ -1,9 +1,9 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/002smyt64",
+  "name": "Instituto de Síntesis Química y Catálisis Homogénea",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1985,
   "types": [
     "Facility"
   ],
@@ -12,29 +12,34 @@
       "label": "Spanish National Research Council",
       "type": "Parent",
       "id": "https://ror.org/02gfc7t72"
+    },
+    {
+      "label": "Universidad de Zaragoza",
+      "type": "Parent",
+      "id": "https://ror.org/012a91z28"
     }
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 41.65606,
+      "lng": -0.87734,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Zaragoza",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 3104324,
+        "city": "Zaragoza",
         "geonames_admin1": {
-          "name": "Madrid",
-          "id": 3117732,
-          "ascii_name": "Madrid",
-          "code": "ES.29"
+          "name": "Aragon",
+          "id": 3336899,
+          "ascii_name": "Aragon",
+          "code": "ES.52"
         },
         "geonames_admin2": {
-          "name": "Madrid",
-          "id": 6355233,
-          "ascii_name": "Madrid",
-          "code": "ES.29.M"
+          "name": "Saragossa",
+          "id": 3104323,
+          "ascii_name": "Saragossa",
+          "code": "ES.52.Z"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,24 +65,40 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "http://www.isqch.unizar-csic.es/ISQCHportal/"
   ],
   "aliases": [],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "ISQCH"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Institute of Chemical Synthesis and Homogeneous Catalysis",
+      "iso639": "en"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 6478 7543"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q30263842"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.466831.e",
+      "all": "grid.466831.e"
+    }
+  }
 }

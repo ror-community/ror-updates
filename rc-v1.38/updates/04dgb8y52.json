@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/04dgb8y52",
+  "name": "Instituto de Investigación en Ciencias de la Alimentación",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2011,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Autonomous University of Madrid",
+      "type": "Parent",
+      "id": "https://ror.org/01cby8j38"
+    },
     {
       "label": "Spanish National Research Council",
       "type": "Parent",
@@ -60,24 +65,40 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "http://www.cial.uam-csic.es"
   ],
   "aliases": [],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "CIAL"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Institute of Food Science Research",
+      "iso639": "en"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0580 7575"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q29104249"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.473520.7",
+      "all": "grid.473520.7"
+    }
+  }
 }

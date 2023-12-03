@@ -1,40 +1,50 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/01rm2sw78",
+  "name": "Instituto de Ciencias de la Vid y del Vino",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2008,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
+      "label": "Gobierno de La Rioja",
+      "type": "Parent",
+      "id": "https://ror.org/05cjrnv40"
+    },
+    {
       "label": "Spanish National Research Council",
       "type": "Parent",
       "id": "https://ror.org/02gfc7t72"
+    },
+    {
+      "label": "University of La Rioja",
+      "type": "Parent",
+      "id": "https://ror.org/0553yr311"
     }
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 42.46667,
+      "lng": -2.45,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Logroño",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 3118150,
+        "city": "Logroño",
         "geonames_admin1": {
-          "name": "Madrid",
-          "id": 3117732,
-          "ascii_name": "Madrid",
-          "code": "ES.29"
+          "name": "La Rioja",
+          "id": 3336897,
+          "ascii_name": "La Rioja",
+          "code": "ES.27"
         },
         "geonames_admin2": {
-          "name": "Madrid",
-          "id": 6355233,
-          "ascii_name": "Madrid",
-          "code": "ES.29.M"
+          "name": "La Rioja",
+          "id": 6355232,
+          "ascii_name": "La Rioja",
+          "code": "ES.27.LO"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,24 +70,34 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.icvv.es"
   ],
   "aliases": [],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "ICVV"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Institute of Grapevine and Wine Sciences",
+      "iso639": "en"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "GRID": {
+      "preferred": "grid.481584.4",
+      "all": "grid.481584.4"
+    },
+    "Wikidata": {
+      "preferred": "Q15061868",
+      "all": [
+        "Q15061868"
+      ]
+    }
+  }
 }

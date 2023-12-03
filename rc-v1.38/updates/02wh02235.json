@@ -1,9 +1,9 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/02wh02235",
+  "name": "Centre for Automation and Robotics",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 2009,
   "types": [
     "Facility"
   ],
@@ -12,18 +12,23 @@
       "label": "Spanish National Research Council",
       "type": "Parent",
       "id": "https://ror.org/02gfc7t72"
+    },
+    {
+      "label": "Universidad Politécnica de Madrid",
+      "type": "Parent",
+      "id": "https://ror.org/03n6nwv02"
     }
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 40.30076,
+      "lng": -3.43722,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Arganda",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 3129636,
+        "city": "Arganda",
         "geonames_admin1": {
           "name": "Madrid",
           "id": 3117732,
@@ -60,24 +65,42 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://www.car.upm-csic.es/"
   ],
-  "aliases": [],
+  "aliases": [
+    "Center for Automation and Robotics"
+  ],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "CAR"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Centro de Automatización y Robótica",
+      "iso639": "es"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 0557 0387"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q72068440"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.507480.e",
+      "all": "grid.507480.e"
+    }
+  }
 }

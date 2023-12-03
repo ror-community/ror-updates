@@ -1,9 +1,9 @@
 {
-  "id": "https://ror.org/05jc7xd84",
-  "name": "Institute of Physical Chemistry Blas Cabrera",
+  "id": "https://ror.org/038792a28",
+  "name": "Instituto de Tecnología Química",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1990,
   "types": [
     "Facility"
   ],
@@ -12,29 +12,34 @@
       "label": "Spanish National Research Council",
       "type": "Parent",
       "id": "https://ror.org/02gfc7t72"
+    },
+    {
+      "label": "Universitat Politècnica de València",
+      "type": "Parent",
+      "id": "https://ror.org/01460j859"
     }
   ],
   "addresses": [
     {
-      "lat": 40.4165,
-      "lng": -3.70256,
+      "lat": 39.47391,
+      "lng": -0.37966,
       "state": null,
       "state_code": null,
-      "city": "Madrid",
+      "city": "Valencia",
       "geonames_city": {
-        "id": 3117735,
-        "city": "Madrid",
+        "id": 2509954,
+        "city": "Valencia",
         "geonames_admin1": {
-          "name": "Madrid",
-          "id": 3117732,
-          "ascii_name": "Madrid",
-          "code": "ES.29"
+          "name": "Valencia",
+          "id": 2593113,
+          "ascii_name": "Valencia",
+          "code": "ES.60"
         },
         "geonames_admin2": {
-          "name": "Madrid",
-          "id": 6355233,
-          "ascii_name": "Madrid",
-          "code": "ES.29.M"
+          "name": "Valencia",
+          "id": 2509951,
+          "ascii_name": "Valencia",
+          "code": "ES.60.V"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,24 +65,40 @@
     }
   ],
   "links": [
-    "https://www.iqfr.csic.es"
+    "https://itq.upv-csic.es"
   ],
   "aliases": [],
   "acronyms": [
-    "IQF",
-    "IQF-CSIC"
+    "ITQ"
   ],
-  "status": "withdrawn",
-  "wikipedia_url": null,
+  "status": "active",
+  "wikipedia_url": "",
   "labels": [
     {
-      "label": "Instituto de Química Física Blas Cabrera",
-      "iso639": "zh"
+      "label": "Institute of Chemical Technology",
+      "iso639": "en"
     }
   ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
-  "external_ids": {}
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0004 1804 7165"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100017204",
+      "all": [
+        "100017204"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.466825.b",
+      "all": "grid.466825.b"
+    }
+  }
 }
