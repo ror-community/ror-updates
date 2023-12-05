@@ -7,7 +7,23 @@
   "types": [
     "Education"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Gustave Eiffel",
+      "type": "Parent",
+      "id": "https://ror.org/03x42jk29"
+    },
+    {
+      "label": "Paris Chamber of Commerce",
+      "type": "Parent",
+      "id": "https://ror.org/05dwk8b49"
+    },
+    {
+      "label": "Laboratoire Interdisciplinaire Sciences, Innovations, Sociétés",
+      "type": "Child",
+      "id": "https://ror.org/007yrhe07"
+    }
+  ],
   "addresses": [
     {
       "lat": 48.84979,
