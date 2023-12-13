@@ -1,45 +1,50 @@
 {
-  "id": "https://ror.org/03wg93s13",
-  "name": "Biologie Intégrative des Organismes Marins",
+  "id": "https://ror.org/05r5y6641",
+  "name": "Laboratoire d’Océanographie de Villefranche",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2011,
+  "established": 2001,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences Biologiques",
+      "label": "Institut National des Sciences de l'Univers",
       "type": "Parent",
-      "id": "https://ror.org/00rydyx93"
+      "id": "https://ror.org/04kdfz702"
     },
     {
       "label": "Sorbonne Université",
       "type": "Parent",
       "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "European Marine Biological Resource Centre",
+      "type": "Related",
+      "id": "https://ror.org/0038zss60"
     }
   ],
   "addresses": [
     {
-      "lat": 42.48375,
-      "lng": 3.12897,
+      "lat": 43.70392,
+      "lng": 7.31088,
       "state": null,
       "state_code": null,
-      "city": "Banyuls de la Marenda",
+      "city": "Villefranche-sur-Mer",
       "geonames_city": {
-        "id": 3035092,
-        "city": "Banyuls de la Marenda",
+        "id": 2968749,
+        "city": "Villefranche-sur-Mer",
         "geonames_admin1": {
-          "name": "Occitanie",
-          "id": 11071623,
-          "ascii_name": "Occitanie",
-          "code": "FR.76"
+          "name": "Provence-Alpes-Côte d'Azur",
+          "id": 2985244,
+          "ascii_name": "Provence-Alpes-Côte d'Azur",
+          "code": "FR.93"
         },
         "geonames_admin2": {
-          "name": "Pyrénées-Orientales",
-          "id": 2984885,
-          "ascii_name": "Pyrénées-Orientales",
-          "code": "FR.76.66"
+          "name": "Alpes-Maritimes",
+          "id": 3038049,
+          "ascii_name": "Alpes-Maritimes",
+          "code": "FR.93.06"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,17 +70,17 @@
     }
   ],
   "links": [
-    "https://biom.obs-banyuls.fr"
+    "https://lov.imev-mer.fr"
   ],
   "aliases": [],
   "acronyms": [
-    "BIOM"
+    "LOV"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [
     {
-      "label": "Integrative Biology of Marine Organisms",
+      "label": "Villefranche Oceanographic Laboratory",
       "iso639": "en"
     }
   ],
@@ -87,24 +92,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0597 2554"
+        "0000 0004 0366 8890"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR7232"
+        "UMR7093"
       ]
     },
     "Wikidata": {
-      "preferred": "Q30262125",
+      "preferred": null,
       "all": [
-        "Q30262125"
+        "Q51783711"
       ]
     },
     "GRID": {
-      "preferred": "grid.463721.5",
-      "all": "grid.463721.5"
+      "preferred": "grid.499565.2",
+      "all": "grid.499565.2"
     }
   }
 }

@@ -1,17 +1,27 @@
 {
-  "id": "https://ror.org/049xh5y45",
-  "name": "Laboratoire d'Ecogéochimie des Environnements Benthiques",
+  "id": "https://ror.org/051k70002",
+  "name": "Biologie évolutive et écologie des algues",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2012,
+  "established": 2014,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
+      "label": "Austral University of Chile",
+      "type": "Parent",
+      "id": "https://ror.org/029ycp228"
+    },
+    {
       "label": "Institut Écologie et Environnement",
       "type": "Parent",
       "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Pontificia Universidad Católica de Chile",
+      "type": "Parent",
+      "id": "https://ror.org/04teye511"
     },
     {
       "label": "Sorbonne Université",
@@ -21,25 +31,25 @@
   ],
   "addresses": [
     {
-      "lat": 42.48375,
-      "lng": 3.12897,
+      "lat": 48.72381,
+      "lng": -3.98709,
       "state": null,
       "state_code": null,
-      "city": "Banyuls de la Marenda",
+      "city": "Roscoff",
       "geonames_city": {
-        "id": 3035092,
-        "city": "Banyuls de la Marenda",
+        "id": 2982809,
+        "city": "Roscoff",
         "geonames_admin1": {
-          "name": "Occitanie",
-          "id": 11071623,
-          "ascii_name": "Occitanie",
-          "code": "FR.76"
+          "name": "Brittany",
+          "id": 3030293,
+          "ascii_name": "Brittany",
+          "code": "FR.53"
         },
         "geonames_admin2": {
-          "name": "Pyrénées-Orientales",
-          "id": 2984885,
-          "ascii_name": "Pyrénées-Orientales",
-          "code": "FR.76.66"
+          "name": "Finistère",
+          "id": 3018471,
+          "ascii_name": "Finistère",
+          "code": "FR.53.29"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,17 +75,20 @@
     }
   ],
   "links": [
-    "http://lecob.obs-banyuls.fr/"
+    "https://www.sb-roscoff.fr/fr/EBEA"
   ],
-  "aliases": [],
+  "aliases": [
+    "International Research Laboratory Biologie évolutive et écologie des algues",
+    "International Research Laboratory Evolutionary Biology and Ecology of Algae"
+  ],
   "acronyms": [
-    "LECOB"
+    "EBEA"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [
     {
-      "label": "Benthic Ecogeochemistry Laboratory",
+      "label": "Evolutionary Biology and Ecology of Algae",
       "iso639": "en"
     }
   ],
@@ -84,27 +97,27 @@
     "country_code": "FR"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0004 0597 2562"
-      ]
-    },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8222"
+        "UMI3614"
       ]
     },
     "Wikidata": {
-      "preferred": "Q30261594",
+      "preferred": "Q30262249",
       "all": [
-        "Q30261594"
+        "Q30262249"
       ]
     },
     "GRID": {
-      "preferred": "grid.462905.c",
-      "all": "grid.462905.c"
+      "preferred": "grid.463867.8",
+      "all": "grid.463867.8"
+    },
+    "ISNI": {
+      "preferred": "0000 0005 1121 2276",
+      "all": [
+        "0000 0005 1121 2276"
+      ]
     }
   }
 }

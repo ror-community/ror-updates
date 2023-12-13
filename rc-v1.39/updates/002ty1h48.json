@@ -1,45 +1,60 @@
 {
-  "id": "https://ror.org/03wg93s13",
-  "name": "Biologie Intégrative des Organismes Marins",
+  "id": "https://ror.org/002ty1h48",
+  "name": "Laboratoire pour l'utilisation des lasers intenses",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2011,
+  "established": 1960,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Institut des Sciences Biologiques",
+      "label": "Atomic Energy and Alternative Energies Commission",
       "type": "Parent",
-      "id": "https://ror.org/00rydyx93"
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de Physique",
+      "type": "Parent",
+      "id": "https://ror.org/00z54nq84"
     },
     {
       "label": "Sorbonne Université",
       "type": "Parent",
       "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "University of Paris-Sud",
+      "type": "Parent",
+      "id": "https://ror.org/028rypz17"
+    },
+    {
+      "label": "École Polytechnique",
+      "type": "Parent",
+      "id": "https://ror.org/05hy3tk52"
     }
   ],
   "addresses": [
     {
-      "lat": 42.48375,
-      "lng": 3.12897,
+      "lat": 48.71828,
+      "lng": 2.2498,
       "state": null,
       "state_code": null,
-      "city": "Banyuls de la Marenda",
+      "city": "Palaiseau",
       "geonames_city": {
-        "id": 3035092,
-        "city": "Banyuls de la Marenda",
+        "id": 2988758,
+        "city": "Palaiseau",
         "geonames_admin1": {
-          "name": "Occitanie",
-          "id": 11071623,
-          "ascii_name": "Occitanie",
-          "code": "FR.76"
+          "name": "Île-de-France",
+          "id": 3012874,
+          "ascii_name": "Île-de-France",
+          "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Pyrénées-Orientales",
-          "id": 2984885,
-          "ascii_name": "Pyrénées-Orientales",
-          "code": "FR.76.66"
+          "name": "Essonne",
+          "id": 3019599,
+          "ascii_name": "Essonne",
+          "code": "FR.11.91"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,17 +80,17 @@
     }
   ],
   "links": [
-    "https://biom.obs-banyuls.fr"
+    "https://luli.ip-paris.fr"
   ],
   "aliases": [],
   "acronyms": [
-    "BIOM"
+    "LULI"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [
     {
-      "label": "Integrative Biology of Marine Organisms",
+      "label": "Laboratory for the User of Intense Lasers",
       "iso639": "en"
     }
   ],
@@ -87,24 +102,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0597 2554"
+        "0000 0000 9029 5703"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR7232"
+        "UMR7605"
       ]
     },
     "Wikidata": {
-      "preferred": "Q30262125",
+      "preferred": null,
       "all": [
-        "Q30262125"
+        "Q3214506"
       ]
     },
     "GRID": {
-      "preferred": "grid.463721.5",
-      "all": "grid.463721.5"
+      "preferred": "grid.463726.2",
+      "all": "grid.463726.2"
     }
   }
 }

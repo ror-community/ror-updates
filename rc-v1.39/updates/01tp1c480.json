@@ -1,45 +1,65 @@
 {
-  "id": "https://ror.org/049xh5y45",
-  "name": "Laboratoire d'Ecogéochimie des Environnements Benthiques",
+  "id": "https://ror.org/01tp1c480",
+  "name": "Biologie des Organismes et Écosystèmes Aquatiques",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2012,
+  "established": 2009,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "Parent",
+      "id": "https://ror.org/05q3vnk25"
+    },
     {
       "label": "Institut Écologie et Environnement",
       "type": "Parent",
       "id": "https://ror.org/01q76b368"
     },
     {
+      "label": "National Museum of Natural History",
+      "type": "Parent",
+      "id": "https://ror.org/03wkt5x30"
+    },
+    {
       "label": "Sorbonne Université",
       "type": "Parent",
       "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "University of the French Antilles",
+      "type": "Parent",
+      "id": "https://ror.org/02ryfmr77"
+    },
+    {
+      "label": "Université de Caen Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/051kpcy16"
     }
   ],
   "addresses": [
     {
-      "lat": 42.48375,
-      "lng": 3.12897,
+      "lat": 48.85341,
+      "lng": 2.3488,
       "state": null,
       "state_code": null,
-      "city": "Banyuls de la Marenda",
+      "city": "Paris",
       "geonames_city": {
-        "id": 3035092,
-        "city": "Banyuls de la Marenda",
+        "id": 2988507,
+        "city": "Paris",
         "geonames_admin1": {
-          "name": "Occitanie",
-          "id": 11071623,
-          "ascii_name": "Occitanie",
-          "code": "FR.76"
+          "name": "Île-de-France",
+          "id": 3012874,
+          "ascii_name": "Île-de-France",
+          "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Pyrénées-Orientales",
-          "id": 2984885,
-          "ascii_name": "Pyrénées-Orientales",
-          "code": "FR.76.66"
+          "name": "Paris",
+          "id": 2968815,
+          "ascii_name": "Paris",
+          "code": "FR.11.75"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,20 +85,20 @@
     }
   ],
   "links": [
-    "http://lecob.obs-banyuls.fr/"
+    "https://borea.mnhn.fr"
   ],
-  "aliases": [],
+  "aliases": [
+    "Laboratoire de biologie des organismes et des écosystèmes aquatiques",
+    "Laboratoire BOREA",
+    "BOREA Laboratory",
+    "Laboratory of biology of aquatic organisms and ecosystems"
+  ],
   "acronyms": [
-    "LECOB"
+    "BOREA"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [
-    {
-      "label": "Benthic Ecogeochemistry Laboratory",
-      "iso639": "en"
-    }
-  ],
+  "labels": [],
   "country": {
     "country_name": "France",
     "country_code": "FR"
@@ -87,24 +107,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0597 2562"
+        "0000 0004 0370 7482"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8222"
+        "UMR7208"
       ]
     },
     "Wikidata": {
-      "preferred": "Q30261594",
+      "preferred": "Q30262180",
       "all": [
-        "Q30261594"
+        "Q30262180"
       ]
     },
     "GRID": {
-      "preferred": "grid.462905.c",
-      "all": "grid.462905.c"
+      "preferred": "grid.463789.7",
+      "all": "grid.463789.7"
     }
   }
 }
