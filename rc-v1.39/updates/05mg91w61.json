@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/03zzw1w08",
-  "name": "Mayo Clinic in Florida",
+  "id": "https://ror.org/05mg91w61",
+  "name": "Office of Basic Energy Sciences",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1889,
+  "established": 1977,
   "types": [
-    "Healthcare"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Mayo Clinic",
+      "label": "Office of Science",
       "type": "Parent",
-      "id": "https://ror.org/02qp3tb03"
+      "id": "https://ror.org/00mmn6b08"
     }
   ],
   "addresses": [
     {
-      "lat": 30.33218,
-      "lng": -81.65565,
+      "lat": 38.89511,
+      "lng": -77.03637,
       "state": null,
       "state_code": null,
-      "city": "Jacksonville",
+      "city": "Washington",
       "geonames_city": {
-        "id": 4160021,
-        "city": "Jacksonville",
+        "id": 4140963,
+        "city": "Washington",
         "geonames_admin1": {
-          "name": "Florida",
-          "id": 4155751,
-          "ascii_name": "Florida",
-          "code": "US.FL"
+          "name": "Washington, D.C.",
+          "id": 4138106,
+          "ascii_name": "Washington, D.C.",
+          "code": "US.DC"
         },
         "geonames_admin2": {
-          "name": "Duval",
-          "id": 4153840,
-          "ascii_name": "Duval",
-          "code": "US.FL.031"
+          "name": "Washington",
+          "id": 4140987,
+          "ascii_name": "Washington",
+          "code": "US.DC.001"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +60,14 @@
     }
   ],
   "links": [
-    "https://www.mayoclinic.org/patient-visitor-guide/florida"
+    "https://science.osti.gov/bes"
   ],
-  "aliases": [
-    "Mayo Clinic Florida"
+  "aliases": [],
+  "acronyms": [
+    "BES"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic_Hospital",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -75,26 +75,27 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 0443 9942",
+      "preferred": null,
       "all": [
-        "0000 0004 0443 9942"
+        "0000 0004 5897 3091"
+      ]
+    },
+    "FundRef": {
+      "preferred": null,
+      "all": [
+        "100006151",
+        "100017535"
       ]
     },
     "Wikidata": {
-      "preferred": "Q6797499",
+      "preferred": null,
       "all": [
-        "Q6797499"
+        "Q30296525"
       ]
     },
     "GRID": {
-      "preferred": "grid.417467.7",
-      "all": "grid.417467.7"
-    },
-    "FundRef": {
-      "preferred": "100014535",
-      "all": [
-        "100014535"
-      ]
+      "preferred": "grid.452988.a",
+      "all": "grid.452988.a"
     }
   }
 }

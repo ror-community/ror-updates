@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/03zzw1w08",
-  "name": "Mayo Clinic in Florida",
+  "id": "https://ror.org/0280a3n32",
+  "name": "Joslin Diabetes Center",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1889,
+  "established": 1952,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Mayo Clinic",
-      "type": "Parent",
-      "id": "https://ror.org/02qp3tb03"
+      "label": "Harvard University",
+      "type": "Related",
+      "id": "https://ror.org/03vek6s52"
     }
   ],
   "addresses": [
     {
-      "lat": 30.33218,
-      "lng": -81.65565,
+      "lat": 42.35843,
+      "lng": -71.05977,
       "state": null,
       "state_code": null,
-      "city": "Jacksonville",
+      "city": "Boston",
       "geonames_city": {
-        "id": 4160021,
-        "city": "Jacksonville",
+        "id": 4930956,
+        "city": "Boston",
         "geonames_admin1": {
-          "name": "Florida",
-          "id": 4155751,
-          "ascii_name": "Florida",
-          "code": "US.FL"
+          "name": "Massachusetts",
+          "id": 6254926,
+          "ascii_name": "Massachusetts",
+          "code": "US.MA"
         },
         "geonames_admin2": {
-          "name": "Duval",
-          "id": 4153840,
-          "ascii_name": "Duval",
-          "code": "US.FL.031"
+          "name": "Suffolk",
+          "id": 4952349,
+          "ascii_name": "Suffolk",
+          "code": "US.MA.025"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +60,12 @@
     }
   ],
   "links": [
-    "https://www.mayoclinic.org/patient-visitor-guide/florida"
+    "https://www.joslin.org/"
   ],
-  "aliases": [
-    "Mayo Clinic Florida"
-  ],
+  "aliases": [],
   "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic_Hospital",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Joslin_Diabetes_Center",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -75,26 +73,27 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 0443 9942",
+      "preferred": null,
       "all": [
-        "0000 0004 0443 9942"
+        "0000 0001 2183 9479"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100007877",
+      "all": [
+        "100007877",
+        "100007878"
       ]
     },
     "Wikidata": {
-      "preferred": "Q6797499",
+      "preferred": null,
       "all": [
-        "Q6797499"
+        "Q1708743"
       ]
     },
     "GRID": {
-      "preferred": "grid.417467.7",
-      "all": "grid.417467.7"
-    },
-    "FundRef": {
-      "preferred": "100014535",
-      "all": [
-        "100014535"
-      ]
+      "preferred": "grid.16694.3c",
+      "all": "grid.16694.3c"
     }
   }
 }

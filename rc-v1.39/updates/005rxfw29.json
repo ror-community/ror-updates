@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/03zzw1w08",
-  "name": "Mayo Clinic in Florida",
+  "id": "https://ror.org/005rxfw29",
+  "name": "Philip Morris International (United States)",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1889,
+  "established": 2008,
   "types": [
-    "Healthcare"
+    "Company"
   ],
   "relationships": [
     {
-      "label": "Mayo Clinic",
-      "type": "Parent",
-      "id": "https://ror.org/02qp3tb03"
+      "label": "Philip Morris International (Germany)",
+      "type": "Child",
+      "id": "https://ror.org/022jdjx35"
+    },
+    {
+      "label": "Philip Morris International (Switzerland)",
+      "type": "Child",
+      "id": "https://ror.org/03z9zz970"
     }
   ],
   "addresses": [
     {
-      "lat": 30.33218,
-      "lng": -81.65565,
+      "lat": 40.71427,
+      "lng": -74.00597,
       "state": null,
       "state_code": null,
-      "city": "Jacksonville",
+      "city": "New York",
       "geonames_city": {
-        "id": 4160021,
-        "city": "Jacksonville",
+        "id": 5128581,
+        "city": "New York",
         "geonames_admin1": {
-          "name": "Florida",
-          "id": 4155751,
-          "ascii_name": "Florida",
-          "code": "US.FL"
+          "name": "New York",
+          "id": 5128638,
+          "ascii_name": "New York",
+          "code": "US.NY"
         },
         "geonames_admin2": {
-          "name": "Duval",
-          "id": 4153840,
-          "ascii_name": "Duval",
-          "code": "US.FL.031"
+          "name": null,
+          "id": null,
+          "ascii_name": null,
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +65,14 @@
     }
   ],
   "links": [
-    "https://www.mayoclinic.org/patient-visitor-guide/florida"
+    "https://www.pmi.com/"
   ],
-  "aliases": [
-    "Mayo Clinic Florida"
+  "aliases": [],
+  "acronyms": [
+    "PMI"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic_Hospital",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_Morris_International",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -75,25 +80,25 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 0443 9942",
+      "preferred": null,
       "all": [
-        "0000 0004 0443 9942"
+        "0000 0004 4677 3201"
       ]
     },
     "Wikidata": {
-      "preferred": "Q6797499",
+      "preferred": null,
       "all": [
-        "Q6797499"
+        "Q1852556"
       ]
     },
     "GRID": {
-      "preferred": "grid.417467.7",
-      "all": "grid.417467.7"
+      "preferred": "grid.497122.b",
+      "all": "grid.497122.b"
     },
     "FundRef": {
-      "preferred": "100014535",
+      "preferred": "100014729",
       "all": [
-        "100014535"
+        "100014729"
       ]
     }
   }

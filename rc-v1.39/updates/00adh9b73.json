@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/03zzw1w08",
-  "name": "Mayo Clinic in Florida",
+  "id": "https://ror.org/00adh9b73",
+  "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1889,
+  "established": 1947,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Mayo Clinic",
+      "label": "National Institutes of Health",
       "type": "Parent",
-      "id": "https://ror.org/02qp3tb03"
+      "id": "https://ror.org/01cwqze88"
     }
   ],
   "addresses": [
     {
-      "lat": 30.33218,
-      "lng": -81.65565,
+      "lat": 38.98067,
+      "lng": -77.10026,
       "state": null,
       "state_code": null,
-      "city": "Jacksonville",
+      "city": "Bethesda",
       "geonames_city": {
-        "id": 4160021,
-        "city": "Jacksonville",
+        "id": 4348599,
+        "city": "Bethesda",
         "geonames_admin1": {
-          "name": "Florida",
-          "id": 4155751,
-          "ascii_name": "Florida",
-          "code": "US.FL"
+          "name": "Maryland",
+          "id": 4361885,
+          "ascii_name": "Maryland",
+          "code": "US.MD"
         },
         "geonames_admin2": {
-          "name": "Duval",
-          "id": 4153840,
-          "ascii_name": "Duval",
-          "code": "US.FL.031"
+          "name": "Montgomery",
+          "id": 4362716,
+          "ascii_name": "Montgomery",
+          "code": "US.MD.031"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +60,14 @@
     }
   ],
   "links": [
-    "https://www.mayoclinic.org/patient-visitor-guide/florida"
+    "http://www.niddk.nih.gov/"
   ],
-  "aliases": [
-    "Mayo Clinic Florida"
+  "aliases": [],
+  "acronyms": [
+    "NIDDK"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic_Hospital",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/National_Institute_of_Diabetes_and_Digestive_and_Kidney_Diseases",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -75,26 +75,27 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 0443 9942",
+      "preferred": null,
       "all": [
-        "0000 0004 0443 9942"
+        "0000 0001 2203 7304"
+      ]
+    },
+    "FundRef": {
+      "preferred": null,
+      "all": [
+        "100000062",
+        "100017618"
       ]
     },
     "Wikidata": {
-      "preferred": "Q6797499",
+      "preferred": "Q29220409",
       "all": [
-        "Q6797499"
+        "Q29220409"
       ]
     },
     "GRID": {
-      "preferred": "grid.417467.7",
-      "all": "grid.417467.7"
-    },
-    "FundRef": {
-      "preferred": "100014535",
-      "all": [
-        "100014535"
-      ]
+      "preferred": "grid.419635.c",
+      "all": "grid.419635.c"
     }
   }
 }

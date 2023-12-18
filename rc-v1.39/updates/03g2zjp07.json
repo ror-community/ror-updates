@@ -1,40 +1,40 @@
 {
-  "id": "https://ror.org/03zzw1w08",
-  "name": "Mayo Clinic in Florida",
+  "id": "https://ror.org/03g2zjp07",
+  "name": "Congressionally Directed Medical Research Programs",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1889,
+  "established": 1992,
   "types": [
-    "Healthcare"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Mayo Clinic",
+      "label": "United States Department of Defense",
       "type": "Parent",
-      "id": "https://ror.org/02qp3tb03"
+      "id": "https://ror.org/0447fe631"
     }
   ],
   "addresses": [
     {
-      "lat": 30.33218,
-      "lng": -81.65565,
+      "lat": 39.41427,
+      "lng": -77.41054,
       "state": null,
       "state_code": null,
-      "city": "Jacksonville",
+      "city": "Frederick",
       "geonames_city": {
-        "id": 4160021,
-        "city": "Jacksonville",
+        "id": 4355585,
+        "city": "Frederick",
         "geonames_admin1": {
-          "name": "Florida",
-          "id": 4155751,
-          "ascii_name": "Florida",
-          "code": "US.FL"
+          "name": "Maryland",
+          "id": 4361885,
+          "ascii_name": "Maryland",
+          "code": "US.MD"
         },
         "geonames_admin2": {
-          "name": "Duval",
-          "id": 4153840,
-          "ascii_name": "Duval",
-          "code": "US.FL.031"
+          "name": "Frederick County",
+          "id": 4355594,
+          "ascii_name": "Frederick County",
+          "code": "US.MD.021"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,14 +60,14 @@
     }
   ],
   "links": [
-    "https://www.mayoclinic.org/patient-visitor-guide/florida"
+    "http://cdmrp.army.mil/"
   ],
-  "aliases": [
-    "Mayo Clinic Florida"
+  "aliases": [],
+  "acronyms": [
+    "CDMRP"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic_Hospital",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -75,26 +75,27 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 0443 9942",
+      "preferred": null,
       "all": [
-        "0000 0004 0443 9942"
+        "0000 0000 9367 6288"
+      ]
+    },
+    "FundRef": {
+      "preferred": null,
+      "all": [
+        "100000090",
+        "100014039"
       ]
     },
     "Wikidata": {
-      "preferred": "Q6797499",
+      "preferred": null,
       "all": [
-        "Q6797499"
+        "Q45134126"
       ]
     },
     "GRID": {
-      "preferred": "grid.417467.7",
-      "all": "grid.417467.7"
-    },
-    "FundRef": {
-      "preferred": "100014535",
-      "all": [
-        "100014535"
-      ]
+      "preferred": "grid.496791.4",
+      "all": "grid.496791.4"
     }
   }
 }
