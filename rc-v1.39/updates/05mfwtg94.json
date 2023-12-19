@@ -1,54 +1,39 @@
 {
-  "id": "https://ror.org/02eptjh02",
-  "name": "Laboratoire d’études spatiales et d’instrumentation en astrophysique",
+  "id": "https://ror.org/05mfwtg94",
+  "name": "Biologie de la Reproduction, Environnement, Epigénétique et Développement",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2002,
+  "established": null,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Centre National d'Études Spatiales",
+      "label": "Centre Île-de-France - Jouy-en-Josas - Antony",
       "type": "Parent",
-      "id": "https://ror.org/04h1h0y33"
+      "id": "https://ror.org/00gtg0p11"
     },
     {
-      "label": "Institut National des Sciences de l'Univers",
+      "label": "University of Paris-Saclay",
       "type": "Parent",
-      "id": "https://ror.org/04kdfz702"
+      "id": "https://ror.org/03xjwb503"
     },
     {
-      "label": "Paris Observatory",
+      "label": "École Nationale Vétérinaire d'Alfort",
       "type": "Parent",
-      "id": "https://ror.org/029nkcm90"
-    },
-    {
-      "label": "Sorbonne Université",
-      "type": "Parent",
-      "id": "https://ror.org/02en5vm52"
-    },
-    {
-      "label": "Université Paris Cité",
-      "type": "Parent",
-      "id": "https://ror.org/05f82e368"
-    },
-    {
-      "label": "Versailles Saint-Quentin-en-Yvelines University",
-      "type": "Parent",
-      "id": "https://ror.org/03mkjjy25"
+      "id": "https://ror.org/04k031t90"
     }
   ],
   "addresses": [
     {
-      "lat": 48.81381,
-      "lng": 2.235,
+      "lat": 48.75909,
+      "lng": 2.16966,
       "state": null,
       "state_code": null,
-      "city": "Meudon",
+      "city": "Jouy-en-Josas",
       "geonames_city": {
-        "id": 2994144,
-        "city": "Meudon",
+        "id": 3012165,
+        "city": "Jouy-en-Josas",
         "geonames_admin1": {
           "name": "Île-de-France",
           "id": 3012874,
@@ -56,10 +41,10 @@
           "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Hauts-de-Seine",
-          "id": 3013657,
-          "ascii_name": "Hauts-de-Seine",
-          "code": "FR.11.92"
+          "name": "Yvelines",
+          "id": 2967196,
+          "ascii_name": "Yvelines",
+          "code": "FR.11.78"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -85,17 +70,23 @@
     }
   ],
   "links": [
-    "https://www.lesia.obspm.fr"
+    "https://www6.jouy.inrae.fr/breed/"
   ],
   "aliases": [
-    "Laboratory of Space Studies and Instrumentation in Astrophysics"
+    "Unité Mixte Biologie de la Reproduction, Environnement, Epigénétique et Développement",
+    "Unit Biology of Reproduction, Environment, Epigenetics and Development"
   ],
   "acronyms": [
-    "LESIA"
+    "BREED"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Biology of Reproduction, Environment, Epigenetics and Development",
+      "iso639": "en"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
@@ -104,24 +95,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0370 8434"
-      ]
-    },
-    "CNRS": {
-      "preferred": null,
-      "all": [
-        "UMR8109"
+        "0000 0004 0459 2891"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q30274423"
+        "Q52605711"
       ]
     },
     "GRID": {
-      "preferred": "grid.482824.0",
-      "all": "grid.482824.0"
+      "preferred": "grid.503097.8",
+      "all": "grid.503097.8"
     }
   }
 }
