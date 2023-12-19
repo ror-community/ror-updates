@@ -7,7 +7,28 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Science",
+      "type": "Parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Princeton University",
+      "type": "Parent",
+      "id": "https://ror.org/00hx57361"
+    },
+    {
+      "label": "National Spherical Torus Experiment – Upgrade",
+      "type": "Child",
+      "id": "https://ror.org/05sg23t46"
+    },
+    {
+      "label": "Thea Energy, Inc. (United States)",
+      "type": "Related",
+      "id": "https://ror.org/02gwx4035"
+    }
+  ],
   "addresses": [
     {
       "lat": 40.34872,

@@ -7,7 +7,18 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Science",
+      "type": "Parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Continuous Electron Beam Accelerator Facility",
+      "type": "Child",
+      "id": "https://ror.org/033wxpt21"
+    }
+  ],
   "addresses": [
     {
       "lat": 37.08339,
