@@ -1,0 +1,104 @@
+{
+  "id": "https://ror.org/03jp40720",
+  "name": "Mayo Clinic in Arizona",
+  "email_address": null,
+  "ip_addresses": [],
+  "established": 1889,
+  "types": [
+    "Healthcare"
+  ],
+  "relationships": [
+    {
+      "label": "Mayo Clinic",
+      "type": "Parent",
+      "id": "https://ror.org/02qp3tb03"
+    },
+    {
+      "label": "Mayo Clinic Hospital",
+      "type": "Child",
+      "id": "https://ror.org/03660jn93"
+    },
+    {
+      "label": "Mayo Clinic Comprehensive Cancer Center (Arizona)",
+      "type": "Child",
+      "id": "https://ror.org/003xpy695"
+    }
+  ],
+  "addresses": [
+    {
+      "lat": 33.50921,
+      "lng": -111.89903,
+      "state": null,
+      "state_code": null,
+      "city": "Scottsdale",
+      "geonames_city": {
+        "id": 5313457,
+        "city": "Scottsdale",
+        "geonames_admin1": {
+          "name": "Arizona",
+          "id": 5551752,
+          "ascii_name": "Arizona",
+          "code": "US.AZ"
+        },
+        "geonames_admin2": {
+          "name": "Maricopa",
+          "id": 5303754,
+          "ascii_name": "Maricopa",
+          "code": "US.AZ.013"
+        },
+        "license": {
+          "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+          "license": "http://creativecommons.org/licenses/by/3.0/"
+        },
+        "nuts_level1": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level2": {
+          "name": null,
+          "code": null
+        },
+        "nuts_level3": {
+          "name": null,
+          "code": null
+        }
+      },
+      "postcode": null,
+      "primary": false,
+      "line": null,
+      "country_geonames_id": 6252001
+    }
+  ],
+  "links": [
+    "https://www.mayoclinic.org/patient-visitor-guide/arizona"
+  ],
+  "aliases": [
+    "Mayo Clinic Arizona"
+  ],
+  "acronyms": [],
+  "status": "active",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mayo_Clinic",
+  "labels": [],
+  "country": {
+    "country_name": "United States",
+    "country_code": "US"
+  },
+  "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0000 8875 6339"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q33534124"
+      ]
+    },
+    "GRID": {
+      "preferred": "grid.417468.8",
+      "all": "grid.417468.8"
+    }
+  }
+}
