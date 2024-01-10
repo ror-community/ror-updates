@@ -1,59 +1,44 @@
 {
-  "id": "https://ror.org/00gy2ar74",
-  "name": "Institut de Recerca Sant Joan de Déu",
+  "id": "https://ror.org/012zh9h13",
+  "name": "Institute of Agrifood Research and Technology",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2015,
+  "established": 2009,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Government of Catalonia",
+      "type": "Parent",
+      "id": "https://ror.org/01bg62x04"
+    },
     {
       "label": "CERCA Institution",
       "type": "Parent",
       "id": "https://ror.org/01bkbaq61"
     },
     {
-      "label": "Sant Joan de Déu Research Foundation",
-      "type": "Related",
-      "id": "https://ror.org/03g7nb016"
+      "label": "Center for Research in Agricultural Genomics",
+      "type": "Child",
+      "id": "https://ror.org/04tz2h245"
     },
     {
-      "label": "Hospital Sant Joan de Déu Barcelona",
-      "type": "Related",
-      "id": "https://ror.org/001jx2139"
-    },
-    {
-      "label": "Parc Sanitari Sant Joan de Déu",
-      "type": "Related",
-      "id": "https://ror.org/02f3ts956"
-    },
-    {
-      "label": "University of Barcelona",
-      "type": "Related",
-      "id": "https://ror.org/021018s57"
-    },
-    {
-      "label": "Universitat Politècnica de Catalunya",
-      "type": "Related",
-      "id": "https://ror.org/03mb6wj31"
-    },
-    {
-      "label": "Institut de Biomedicina de la Universitat de Barcelona",
-      "type": "Related",
-      "id": "https://ror.org/01y43zx14"
+      "label": "Centre de Recerca en Sanitat Animal",
+      "type": "Child",
+      "id": "https://ror.org/011jtr847"
     }
   ],
   "addresses": [
     {
-      "lat": 41.38879,
-      "lng": 2.15899,
+      "lat": 41.63333,
+      "lng": 2.16667,
       "state": null,
       "state_code": null,
-      "city": "Barcelona",
+      "city": "Caldes de Montbui",
       "geonames_city": {
-        "id": 3128760,
-        "city": "Barcelona",
+        "id": 3127035,
+        "city": "Caldes de Montbui",
         "geonames_admin1": {
           "name": "Catalonia",
           "id": 3336901,
@@ -90,31 +75,43 @@
     }
   ],
   "links": [
-    "https://www.irsjd.org"
+    "https://www.irta.cat"
   ],
-  "aliases": [],
+  "aliases": [
+    "Institute for Research and Technology in Food and Agriculture"
+  ],
   "acronyms": [
-    "IRSJD"
+    "IRTA",
+    "IRTA-CERCA"
   ],
   "status": "active",
-  "wikipedia_url": "https://ca.wikipedia.org/wiki/Institut_de_Recerca_Sant_Joan_de_D%C3%A9u",
-  "labels": [],
+  "wikipedia_url": "",
+  "labels": [
+    {
+      "label": "Institut de Recerca i Tecnologia Agroalimentàries",
+      "iso639": "ca"
+    }
+  ],
   "country": {
     "country_name": "Spain",
     "country_code": "ES"
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 9332 2809",
+      "preferred": "0000 0001 1943 6646",
       "all": [
-        "0000 0004 9332 2809"
+        "0000 0001 1943 6646"
       ]
     },
     "Wikidata": {
-      "preferred": "Q105889599",
+      "preferred": "Q9006472",
       "all": [
-        "Q105889599"
+        "Q9006472"
       ]
+    },
+    "GRID": {
+      "preferred": "grid.8581.4",
+      "all": "grid.8581.4"
     }
   }
 }

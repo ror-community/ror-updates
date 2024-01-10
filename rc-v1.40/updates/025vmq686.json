@@ -1,17 +1,22 @@
 {
-  "id": "https://ror.org/007j2dm88",
-  "name": "Instituto do Cérebro",
+  "id": "https://ror.org/025vmq686",
+  "name": "Pontifícia Universidade Católica do Rio Grande do Sul",
   "email_address": null,
   "ip_addresses": [],
-  "established": null,
+  "established": 1948,
   "types": [
-    "Nonprofit"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Pontifícia Universidade Católica do Rio Grande do Sul",
-      "type": "Parent",
-      "id": "https://ror.org/025vmq686"
+      "label": "Hospital São Lucas da PUCRS",
+      "type": "Related",
+      "id": "https://ror.org/0353n6963"
+    },
+    {
+      "label": "Instituto do Cérebro",
+      "type": "Child",
+      "id": "https://ror.org/007j2dm88"
     }
   ],
   "addresses": [
@@ -60,23 +65,17 @@
     }
   ],
   "links": [
-    "https://inscer.pucrs.br"
+    "https://www.pucrs.br"
   ],
-  "aliases": [
-    "Brain Institute of Rio Grande do Sul – PUCRS",
-    "Instituto do Cérebro da PUCRS",
-    "Instituto do Cérebro da \nPontifícia Universidade Católica do Rio Grande do Sul",
-    "InsCer - Instituto do Cérebro",
-    "Instituto do Cérebro do RS"
-  ],
+  "aliases": [],
   "acronyms": [
-    "InsCer"
+    "PUCRS"
   ],
   "status": "active",
-  "wikipedia_url": "",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_do_Rio_Grande_do_Sul",
   "labels": [
     {
-      "label": "Brain Institute of Rio Grande do Sul",
+      "label": "Pontifical Catholic University of Rio Grande do Sul",
       "iso639": "en"
     }
   ],
@@ -85,9 +84,27 @@
     "country_code": "BR"
   },
   "external_ids": {
+    "ISNI": {
+      "preferred": null,
+      "all": [
+        "0000 0001 2166 9094"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "12147548"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q600634"
+      ]
+    },
     "GRID": {
-      "preferred": "grid.493339.7",
-      "all": "grid.493339.7"
+      "preferred": "grid.412519.a",
+      "all": "grid.412519.a"
     }
   }
 }
