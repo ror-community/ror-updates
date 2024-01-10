@@ -1,55 +1,30 @@
 {
-  "id": "https://ror.org/05kph6k12",
-  "name": "CHI Health",
+  "id": "https://ror.org/05wf30g94",
+  "name": "Creighton University",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1996,
+  "established": 1878,
   "types": [
-    "Healthcare"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Catholic Health Initiatives",
-      "type": "Parent",
-      "id": "https://ror.org/011kd6273"
-    },
-    {
-      "label": "CHI Health Mercy Council Bluffs",
-      "type": "Child",
-      "id": "https://ror.org/03w45gf56"
-    },
-    {
       "label": "CHI Health Creighton University Medical Center - Bergan Mercy",
-      "type": "Child",
+      "type": "Related",
       "id": "https://ror.org/03z1w3b90"
     },
     {
-      "label": "CHI Health St. Francis",
-      "type": "Child",
-      "id": "https://ror.org/00znk2w36"
-    },
-    {
-      "label": "CHI Health Good Samaritan",
-      "type": "Child",
-      "id": "https://ror.org/02kms8a74"
-    },
-    {
-      "label": "CHI Health Immanuel",
-      "type": "Child",
-      "id": "https://ror.org/05n9txz34"
-    },
-    {
-      "label": "CHI Health Nebraska Heart",
-      "type": "Child",
-      "id": "https://ror.org/01srwze89"
+      "label": "St. Joseph's Hospital and Medical Center",
+      "type": "Related",
+      "id": "https://ror.org/00m72wv30"
     }
   ],
   "addresses": [
     {
-      "lat": 41.25626,
-      "lng": -95.94043,
-      "state": null,
-      "state_code": null,
+      "lat": 41.265237,
+      "lng": -95.947728,
+      "state": "Nebraska",
+      "state_code": "US-NE",
       "city": "Omaha",
       "geonames_city": {
         "id": 5074472,
@@ -61,9 +36,9 @@
           "code": "US.NE"
         },
         "geonames_admin2": {
-          "name": "Douglas",
+          "name": "Douglas County",
           "id": 5067114,
-          "ascii_name": "Douglas",
+          "ascii_name": "Douglas County",
           "code": "US.NE.055"
         },
         "license": {
@@ -90,12 +65,12 @@
     }
   ],
   "links": [
-    "https://www.chihealth.com"
+    "http://www.creighton.edu/"
   ],
   "aliases": [],
   "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/CHI_Health",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Creighton_University",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -105,18 +80,31 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0383 1256"
+        "0000 0004 1936 8876"
+      ]
+    },
+    "FundRef": {
+      "preferred": null,
+      "all": [
+        "100007254"
+      ]
+    },
+    "OrgRef": {
+      "preferred": "743822",
+      "all": [
+        "743822",
+        "16229769"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q4714382"
+        "Q770544"
       ]
     },
     "GRID": {
-      "preferred": "grid.472265.0",
-      "all": "grid.472265.0"
+      "preferred": "grid.254748.8",
+      "all": "grid.254748.8"
     }
   }
 }
