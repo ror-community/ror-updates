@@ -7,7 +7,18 @@
   "types": [
     "Government"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Health Canada",
+      "type": "Parent",
+      "id": "https://ror.org/05p8nb362"
+    },
+    {
+      "label": "National Collaborating Centre for Methods and Tools",
+      "type": "Child",
+      "id": "https://ror.org/05wagd980"
+    }
+  ],
   "addresses": [
     {
       "lat": 45.41117,

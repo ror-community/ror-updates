@@ -7,7 +7,33 @@
   "types": [
     "Healthcare"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Paracelsus-Kliniken",
+      "type": "Child",
+      "id": "https://ror.org/00dy6h529"
+    },
+    {
+      "label": "Paracelsus-Kliniken",
+      "type": "Parent",
+      "id": "https://ror.org/00dy6h529"
+    },
+    {
+      "label": "Paracelsus Elena Klinik Kassel",
+      "type": "Child",
+      "id": "https://ror.org/0270sxy44"
+    },
+    {
+      "label": "Paracelsus-Klinik Golzheim Düsseldorf",
+      "type": "Child",
+      "id": "https://ror.org/01hfgpz79"
+    },
+    {
+      "label": "Paracelsus-Harz-Klinik Bad Suderode",
+      "type": "Child",
+      "id": "https://ror.org/012xv2c39"
+    }
+  ],
   "addresses": [
     {
       "lat": 52.27264,

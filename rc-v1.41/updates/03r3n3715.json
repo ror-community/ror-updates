@@ -7,7 +7,23 @@
   "types": [
     "Education"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Gustave Eiffel",
+      "type": "Parent",
+      "id": "https://ror.org/03x42jk29"
+    },
+    {
+      "label": "Institut national de l’information géographique et forestière",
+      "type": "Parent",
+      "id": "https://ror.org/05jxfge78"
+    },
+    {
+      "label": "Laboratoire en Sciences et Technologies de l'Information Géographique pour la ville intelligente et les territoires durables",
+      "type": "Child",
+      "id": "https://ror.org/00yczwp93"
+    }
+  ],
   "addresses": [
     {
       "lat": 48.85,
