@@ -1,13 +1,18 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/01k1v7590",
+  "name": "Laboratoire de Mathématiques Raphaël Salem",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 2000,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
+      "type": "Parent",
+      "id": "https://ror.org/050jcm728"
+    },
     {
       "label": "Université de Rouen Normandie",
       "type": "Parent",
@@ -16,14 +21,14 @@
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.458283,
+      "lng": 1.069,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Saint-Étienne-du-Rouvray",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 2980236,
+        "city": "Saint-Étienne-du-Rouvray",
         "geonames_admin1": {
           "name": "Normandy",
           "id": 11071621,
@@ -41,16 +46,16 @@
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "BASSIN PARISIEN",
+          "code": "FR2"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Haute-Normandie",
+          "code": "FR23"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Seine-Maritime",
+          "code": "FR232"
         }
       },
       "postcode": null,
@@ -60,11 +65,11 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "http://lmrs.univ-rouen.fr/index_en.html"
   ],
   "aliases": [],
   "acronyms": [
-    "CRFDP"
+    "LMRS"
   ],
   "status": "active",
   "wikipedia_url": "",
@@ -77,18 +82,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0004 0385 1214"
       ]
     },
-    "Wikidata": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "UMR6085"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.463915.c",
+      "all": "grid.463915.c"
     }
   }
 }

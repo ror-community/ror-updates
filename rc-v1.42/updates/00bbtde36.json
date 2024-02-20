@@ -1,40 +1,50 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/00bbtde36",
+  "name": "Laboratory Universe and Theories",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 2002,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Université de Rouen Normandie",
+      "label": "Institut National des Sciences de l'Univers",
       "type": "Parent",
-      "id": "https://ror.org/03nhjew95"
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "Parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "Parent",
+      "id": "https://ror.org/05f82e368"
     }
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 48.81381,
+      "lng": 2.235,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Meudon",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 2994144,
+        "city": "Meudon",
         "geonames_admin1": {
-          "name": "Normandy",
-          "id": 11071621,
-          "ascii_name": "Normandy",
-          "code": "FR.28"
+          "name": "Île-de-France",
+          "id": 3012874,
+          "ascii_name": "Île-de-France",
+          "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Seine-Maritime",
-          "id": 2975248,
-          "ascii_name": "Seine-Maritime",
-          "code": "FR.28.76"
+          "name": "Hauts-de-Seine",
+          "id": 3013657,
+          "ascii_name": "Hauts-de-Seine",
+          "code": "FR.11.92"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,15 +70,20 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "http://luth.obspm.fr/"
   ],
   "aliases": [],
   "acronyms": [
-    "CRFDP"
+    "LUTH"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Laboratoire Univers et Théories",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
@@ -77,18 +92,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0004 0370 8098"
+      ]
+    },
+    "CNRS": {
+      "preferred": null,
+      "all": [
+        "UMR8102"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "Q30262535"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.464187.8",
+      "all": "grid.464187.8"
     }
   }
 }

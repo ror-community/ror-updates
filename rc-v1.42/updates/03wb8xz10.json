@@ -1,62 +1,32 @@
 {
-  "id": "https://ror.org/02nwvxz07",
-  "name": "École des Ponts ParisTech",
+  "id": "https://ror.org/03wb8xz10",
+  "name": "Électricité de France (France)",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1747,
+  "established": 1946,
   "types": [
-    "Education"
+    "Company"
   ],
   "relationships": [
-    {
-      "label": "ParisTech",
-      "type": "Parent",
-      "id": "https://ror.org/05c2qg481"
-    },
-    {
-      "label": "CERMICS",
-      "type": "Child",
-      "id": "https://ror.org/03wct8w46"
-    },
     {
       "label": "Centre d'Enseignement et de Recherche en Environnement Atmosphérique",
       "type": "Child",
       "id": "https://ror.org/03a84yw54"
     },
     {
-      "label": "Hydrologie Météorologie et Complexité",
+      "label": "Fédération de Recherche PhotoVoltaïque",
       "type": "Child",
-      "id": "https://ror.org/04fbd1w03"
+      "id": "https://ror.org/059fn5f50"
     },
     {
-      "label": "CIRED",
+      "label": "Groupe de Physique des Matériaux",
       "type": "Child",
-      "id": "https://ror.org/01b436806"
+      "id": "https://ror.org/03c2k2909"
     },
     {
-      "label": "Laboratoire Navier",
+      "label": "Laboratoire de Biodiversité et Biotechnologies Microbiennes",
       "type": "Child",
-      "id": "https://ror.org/029hkd614"
-    },
-    {
-      "label": "Laboratoire Techniques, Territoires et Sociétés",
-      "type": "Child",
-      "id": "https://ror.org/05fc1hn07"
-    },
-    {
-      "label": "Laboratoire Ville Mobilité Transport",
-      "type": "Child",
-      "id": "https://ror.org/056vbnz12"
-    },
-    {
-      "label": "Laboratoire d'Informatique Gaspard-Monge",
-      "type": "Child",
-      "id": "https://ror.org/04t50yk91"
-    },
-    {
-      "label": "Laboratoire de Météorologie Dynamique",
-      "type": "Child",
-      "id": "https://ror.org/000ehr937"
+      "id": "https://ror.org/039p01270"
     },
     {
       "label": "Laboratoire d'Hydraulique Saint-Venant",
@@ -64,14 +34,19 @@
       "id": "https://ror.org/049yaph28"
     },
     {
-      "label": "Laboratoire Eau, Environnement et Systèmes Urbains",
+      "label": "EDF Energy North America",
       "type": "Child",
-      "id": "https://ror.org/02nqy7n35"
+      "id": "https://ror.org/04pq5sx96"
     },
     {
-      "label": "Paris Jourdan Sciences Economiques",
+      "label": "EDF Renouvelables",
       "type": "Child",
-      "id": "https://ror.org/03vtagt31"
+      "id": "https://ror.org/00vng3v16"
+    },
+    {
+      "label": "Institut des Sciences de la Mécanique et Applications Industrielles",
+      "type": "Child",
+      "id": "https://ror.org/00nbx9b54"
     },
     {
       "label": "Fédération Francilienne de Mécanique - Matériaux, Structures, Procédés",
@@ -79,19 +54,14 @@
       "id": "https://ror.org/01bbf9m56"
     },
     {
-      "label": "GDR NBODY : Problème quantique à N corps en chimie et physique",
+      "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
       "type": "Child",
-      "id": "https://ror.org/01nrtdp55"
+      "id": "https://ror.org/01w1erp60"
     },
     {
       "label": "Fédération de Recherche sur l'Energie Solaire",
       "type": "Child",
       "id": "https://ror.org/0459fdx51"
-    },
-    {
-      "label": "Paris School of Economics",
-      "type": "Child",
-      "id": "https://ror.org/01qtp1053"
     }
   ],
   "addresses": [
@@ -140,19 +110,14 @@
     }
   ],
   "links": [
-    "https://ecoledesponts.fr"
+    "https://www.edf.fr/en/home"
   ],
-  "aliases": [
-    "École Nationale des Ponts et Chaussées",
-    "Les Ponts",
-    "Ecole des Ponts ParisTech",
-    "Ecole Nationale des Ponts et Chaussees"
-  ],
+  "aliases": [],
   "acronyms": [
-    "ENPC"
+    "EDF"
   ],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech",
+  "wikipedia_url": "",
   "labels": [],
   "country": {
     "country_name": "France",
@@ -162,24 +127,26 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0641 4845"
+        "0000 0001 2298 5443"
       ]
     },
-    "OrgRef": {
+    "FundRef": {
       "preferred": null,
       "all": [
-        "89836"
+        "501100006289",
+        "501100016036",
+        "501100014233"
       ]
     },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q274591",
       "all": [
-        "Q273523"
+        "Q274591"
       ]
     },
     "GRID": {
-      "preferred": "grid.424447.5",
-      "all": "grid.424447.5"
+      "preferred": "grid.410455.1",
+      "all": "grid.410455.1"
     }
   }
 }

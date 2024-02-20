@@ -1,22 +1,32 @@
 {
-  "id": "https://ror.org/053p8kg34",
-  "name": "André Revuz Didactics Laboratory",
+  "id": "https://ror.org/02eptjh02",
+  "name": "Laboratoire d’études spatiales et d’instrumentation en astrophysique",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2008,
+  "established": 2002,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "CY Cergy Paris University",
+      "label": "Centre National d'Études Spatiales",
       "type": "Parent",
-      "id": "https://ror.org/043htjv09"
+      "id": "https://ror.org/04h1h0y33"
     },
     {
-      "label": "Université Paris-Est Créteil",
+      "label": "Institut National des Sciences de l'Univers",
       "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "Parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "Parent",
+      "id": "https://ror.org/02en5vm52"
     },
     {
       "label": "Université Paris Cité",
@@ -24,26 +34,21 @@
       "id": "https://ror.org/05f82e368"
     },
     {
-      "label": "Université de Rouen Normandie",
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
       "type": "Parent",
-      "id": "https://ror.org/03nhjew95"
-    },
-    {
-      "label": "University of Lille",
-      "type": "Parent",
-      "id": "https://ror.org/02kzqn938"
+      "id": "https://ror.org/03mkjjy25"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85341,
-      "lng": 2.3488,
+      "lat": 48.81381,
+      "lng": 2.235,
       "state": null,
       "state_code": null,
-      "city": "Paris",
+      "city": "Meudon",
       "geonames_city": {
-        "id": 2988507,
-        "city": "Paris",
+        "id": 2994144,
+        "city": "Meudon",
         "geonames_admin1": {
           "name": "Île-de-France",
           "id": 3012874,
@@ -51,10 +56,10 @@
           "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Paris",
-          "id": 2968815,
-          "ascii_name": "Paris",
-          "code": "FR.11.75"
+          "name": "Hauts-de-Seine",
+          "id": 3013657,
+          "ascii_name": "Hauts-de-Seine",
+          "code": "FR.11.92"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -80,20 +85,17 @@
     }
   ],
   "links": [
-    "https://www.ldar.website"
+    "https://www.lesia.obspm.fr"
   ],
-  "aliases": [],
+  "aliases": [
+    "Laboratory of Space Studies and Instrumentation in Astrophysics"
+  ],
   "acronyms": [
-    "LDAR"
+    "LESIA"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [
-    {
-      "label": "Laboratoire de Didactique André Revuz",
-      "iso639": "fr"
-    }
-  ],
+  "labels": [],
   "country": {
     "country_name": "France",
     "country_code": "FR"
@@ -102,18 +104,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0000 8965 4086"
+        "0000 0004 0370 8434"
+      ]
+    },
+    "CNRS": {
+      "preferred": null,
+      "all": [
+        "UMR8109"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q30262310"
+        "Q30274423"
       ]
     },
     "GRID": {
-      "preferred": "grid.463933.8",
-      "all": "grid.463933.8"
+      "preferred": "grid.482824.0",
+      "all": "grid.482824.0"
     }
   }
 }

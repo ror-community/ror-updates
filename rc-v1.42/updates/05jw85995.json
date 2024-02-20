@@ -1,29 +1,44 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/05jw85995",
+  "name": "CNRT Matériaux",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 2009,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Université de Rouen Normandie",
+      "label": "Institut de Chimie",
       "type": "Parent",
-      "id": "https://ror.org/03nhjew95"
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université Le Havre Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/05v509s40"
+    },
+    {
+      "label": "Université de Caen Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/051kpcy16"
+    },
+    {
+      "label": "École Nationale Supérieure d'Ingénieurs de Caen",
+      "type": "Parent",
+      "id": "https://ror.org/01fpqqe90"
     }
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.18585,
+      "lng": -0.35912,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Caen",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 3029241,
+        "city": "Caen",
         "geonames_admin1": {
           "name": "Normandy",
           "id": 11071621,
@@ -31,10 +46,10 @@
           "code": "FR.28"
         },
         "geonames_admin2": {
-          "name": "Seine-Maritime",
-          "id": 2975248,
-          "ascii_name": "Seine-Maritime",
-          "code": "FR.28.76"
+          "name": "Calvados",
+          "id": 3029094,
+          "ascii_name": "Calvados",
+          "code": "FR.28.14"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,35 +75,44 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "http://www.cnrt.ensicaen.fr/"
   ],
   "aliases": [],
-  "acronyms": [
-    "CRFDP"
-  ],
+  "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Centre National de Recherche Technologique",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
+      "preferred": "0000 0004 7780 8489",
+      "all": [
+        "0000 0004 7780 8489"
+      ]
+    },
+    "CNRS": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "UMS3318"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "Q51783166"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.503115.3",
+      "all": "grid.503115.3"
     }
   }
 }

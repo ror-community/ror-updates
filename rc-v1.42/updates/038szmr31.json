@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/038szmr31",
+  "name": "Centro de Astrobiología",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 1998,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
-      "label": "Université de Rouen Normandie",
+      "label": "Instituto Nacional de Técnica Aeroespacial",
       "type": "Parent",
-      "id": "https://ror.org/03nhjew95"
+      "id": "https://ror.org/02m44ak47"
+    },
+    {
+      "label": "Consejo Superior de Investigaciones Científicas",
+      "type": "Parent",
+      "id": "https://ror.org/02gfc7t72"
     }
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 40.45535,
+      "lng": -3.46973,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Torrejón de Ardoz",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 3107784,
+        "city": "Torrejón de Ardoz",
         "geonames_admin1": {
-          "name": "Normandy",
-          "id": 11071621,
-          "ascii_name": "Normandy",
-          "code": "FR.28"
+          "name": "Madrid",
+          "id": 3117732,
+          "ascii_name": "Madrid",
+          "code": "ES.29"
         },
         "geonames_admin2": {
-          "name": "Seine-Maritime",
-          "id": 2975248,
-          "ascii_name": "Seine-Maritime",
-          "code": "FR.28.76"
+          "name": "Madrid",
+          "id": 6355233,
+          "ascii_name": "Madrid",
+          "code": "ES.29.M"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,39 +61,41 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 3017382
+      "country_geonames_id": 2510769
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "https://cab.inta-csic.es"
   ],
-  "aliases": [],
+  "aliases": [
+    "Center for Astrobiology"
+  ],
   "acronyms": [
-    "CRFDP"
+    "CAB"
   ],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "France",
-    "country_code": "FR"
+    "country_name": "Spain",
+    "country_code": "ES"
   },
   "external_ids": {
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0001 2199 0769"
       ]
     },
-    "Wikidata": {
+    "OrgRef": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "47000066"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.462011.0",
+      "all": "grid.462011.0"
     }
   }
 }

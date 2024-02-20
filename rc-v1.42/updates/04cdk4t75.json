@@ -1,29 +1,34 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/04cdk4t75",
+  "name": "Centre Hospitalier Universitaire de Rouen",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 1602,
   "types": [
-    "Facility"
+    "Healthcare"
   ],
   "relationships": [
     {
       "label": "Université de Rouen Normandie",
-      "type": "Parent",
+      "type": "Related",
       "id": "https://ror.org/03nhjew95"
+    },
+    {
+      "label": "Hôpital Charles-Nicolle",
+      "type": "Child",
+      "id": "https://ror.org/00cxy0s05"
     }
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.346425,
+      "lng": 1.092236,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Rouen",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 2982652,
+        "city": "Rouen",
         "geonames_admin1": {
           "name": "Normandy",
           "id": 11071621,
@@ -41,16 +46,16 @@
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "BASSIN PARISIEN",
+          "code": "FR2"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Haute-Normandie",
+          "code": "FR23"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Seine-Maritime",
+          "code": "FR232"
         }
       },
       "postcode": null,
@@ -60,12 +65,10 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "https://www.chu-rouen.fr/"
   ],
   "aliases": [],
-  "acronyms": [
-    "CRFDP"
-  ],
+  "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
@@ -77,18 +80,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0001 2296 5231"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "Q2945771"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.41724.34",
+      "all": "grid.41724.34"
     }
   }
 }

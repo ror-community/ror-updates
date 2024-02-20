@@ -1,43 +1,28 @@
 {
-  "id": "https://ror.org/03v4gjf40",
-  "name": "Technische Universität Berlin",
+  "id": "https://ror.org/00px80p03",
+  "name": "Fraunhofer Institute for Open Communication Systems",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1946,
+  "established": 1988,
   "types": [
-    "Education"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Berlin Mathematical School",
-      "type": "Related",
-      "id": "https://ror.org/03zekj455"
-    },
-    {
-      "label": "Weierstrass Institute for Applied Analysis and Stochastics",
-      "type": "Related",
-      "id": "https://ror.org/00h1x4t21"
-    },
-    {
-      "label": "Daimler Center for Automotive Information Technology Innovations",
-      "type": "Child",
-      "id": "https://ror.org/048d5b075"
+      "label": "Fraunhofer Society",
+      "type": "Parent",
+      "id": "https://ror.org/05hkkdn48"
     },
     {
       "label": "Weizenbaum Institute",
       "type": "Child",
       "id": "https://ror.org/023kksk09"
-    },
-    {
-      "label": "TU9",
-      "type": "Related",
-      "id": "https://ror.org/02nx8n605"
     }
   ],
   "addresses": [
     {
-      "lat": 52.52437,
-      "lng": 13.41053,
+      "lat": 52.525905,
+      "lng": 13.31426,
       "state": null,
       "state_code": null,
       "city": "Berlin",
@@ -54,23 +39,23 @@
           "name": null,
           "id": null,
           "ascii_name": null,
-          "code": "DE.16.00"
+          "code": null
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "BERLIN",
+          "code": "DE3"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Berlin",
+          "code": "DE30"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Berlin",
+          "code": "DE300"
         }
       },
       "postcode": null,
@@ -80,19 +65,22 @@
     }
   ],
   "links": [
-    "https://www.tu.berlin"
+    "https://www.fokus.fraunhofer.de/en"
   ],
   "aliases": [
-    "Berlin Institute of Technology",
-    "TU Berlin",
-    "Technical University of Berlin"
+    "Fraunhofer FOKUS"
   ],
   "acronyms": [
-    "TUB"
+    "FOKUS"
   ],
   "status": "active",
-  "wikipedia_url": "http://en.wikipedia.org/wiki/Technical_University_of_Berlin",
-  "labels": [],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fraunhofer_Institute_for_Open_Communication_Systems",
+  "labels": [
+    {
+      "label": "Fraunhofer-Institut für Offene Kommunikationssysteme",
+      "iso639": "de"
+    }
+  ],
   "country": {
     "country_name": "Germany",
     "country_code": "DE"
@@ -101,30 +89,18 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2292 8254"
-      ]
-    },
-    "FundRef": {
-      "preferred": null,
-      "all": [
-        "501100006764"
-      ]
-    },
-    "OrgRef": {
-      "preferred": null,
-      "all": [
-        "197203"
+        "0000 0000 9396 5928"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q51985"
+        "Q1452018"
       ]
     },
     "GRID": {
-      "preferred": "grid.6734.6",
-      "all": "grid.6734.6"
+      "preferred": "grid.469837.7",
+      "all": "grid.469837.7"
     }
   }
 }

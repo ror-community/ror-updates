@@ -1,13 +1,23 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/01k1ngp50",
+  "name": "Complexe de Recherche Interprofessionnel en Aérothermochimie",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 1996,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "type": "Parent",
+      "id": "https://ror.org/00s19x989"
+    },
     {
       "label": "Université de Rouen Normandie",
       "type": "Parent",
@@ -16,14 +26,14 @@
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.386222,
+      "lng": 1.068008,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Saint-Étienne-du-Rouvray",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 2980236,
+        "city": "Saint-Étienne-du-Rouvray",
         "geonames_admin1": {
           "name": "Normandy",
           "id": 11071621,
@@ -41,16 +51,16 @@
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "BASSIN PARISIEN",
+          "code": "FR2"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Haute-Normandie",
+          "code": "FR23"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Seine-Maritime",
+          "code": "FR232"
         }
       },
       "postcode": null,
@@ -60,11 +70,11 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "https://www.coria.fr/?lang=en"
   ],
   "aliases": [],
   "acronyms": [
-    "CRFDP"
+    "CORIA"
   ],
   "status": "active",
   "wikipedia_url": "",
@@ -77,18 +87,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0004 0452 3263"
       ]
     },
-    "Wikidata": {
+    "CNRS": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "UMR6614"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "47000086"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.462587.a",
+      "all": "grid.462587.a"
     }
   }
 }

@@ -1,13 +1,23 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/04hd6wf14",
+  "name": "Polymères, Biopolymères, Surfaces",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 2010,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "Parent",
+      "id": "https://ror.org/02cte4b68"
+    },
     {
       "label": "Université de Rouen Normandie",
       "type": "Parent",
@@ -16,8 +26,8 @@
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.460428,
+      "lng": 1.072524,
       "state": null,
       "state_code": null,
       "city": "Mont-Saint-Aignan",
@@ -41,16 +51,16 @@
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "BASSIN PARISIEN",
+          "code": "FR2"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Haute-Normandie",
+          "code": "FR23"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Seine-Maritime",
+          "code": "FR232"
         }
       },
       "postcode": null,
@@ -60,11 +70,11 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "http://pbs.univ-rouen.fr/"
   ],
   "aliases": [],
   "acronyms": [
-    "CRFDP"
+    "PBS"
   ],
   "status": "active",
   "wikipedia_url": "",
@@ -77,18 +87,24 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0001 2326 1914"
+        "0000 0004 0386 1359"
+      ]
+    },
+    "CNRS": {
+      "preferred": null,
+      "all": [
+        "UMR6270"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q52557869"
+        "Q51780043"
       ]
     },
     "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
+      "preferred": "grid.503390.c",
+      "all": "grid.503390.c"
     }
   }
 }

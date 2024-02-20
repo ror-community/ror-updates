@@ -1,9 +1,9 @@
 {
-  "id": "https://ror.org/03467xv55",
-  "name": "Centre de Recherches sur les Fonctionnements et Dysfonctionnements Psychologiques",
+  "id": "https://ror.org/05k1a6w82",
+  "name": "Laboratoire Morphodynamique Continentale et Côtière",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2017,
+  "established": 1996,
   "types": [
     "Facility"
   ],
@@ -12,18 +12,28 @@
       "label": "Université de Rouen Normandie",
       "type": "Parent",
       "id": "https://ror.org/03nhjew95"
+    },
+    {
+      "label": "French National Centre for Scientific Research",
+      "type": "Parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université de Caen Normandie",
+      "type": "Parent",
+      "id": "https://ror.org/051kpcy16"
     }
   ],
   "addresses": [
     {
-      "lat": 49.46307,
-      "lng": 1.09364,
+      "lat": 49.18585,
+      "lng": -0.35912,
       "state": null,
       "state_code": null,
-      "city": "Mont-Saint-Aignan",
+      "city": "Caen",
       "geonames_city": {
-        "id": 2992003,
-        "city": "Mont-Saint-Aignan",
+        "id": 3029241,
+        "city": "Caen",
         "geonames_admin1": {
           "name": "Normandy",
           "id": 11071621,
@@ -31,10 +41,10 @@
           "code": "FR.28"
         },
         "geonames_admin2": {
-          "name": "Seine-Maritime",
-          "id": 2975248,
-          "ascii_name": "Seine-Maritime",
-          "code": "FR.28.76"
+          "name": "Calvados",
+          "id": 3029094,
+          "ascii_name": "Calvados",
+          "code": "FR.28.14"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,35 +70,27 @@
     }
   ],
   "links": [
-    "http://crfdp.univ-rouen.fr/"
+    "https://m2c.cnrs.fr"
   ],
-  "aliases": [],
+  "aliases": [
+    "Morphodynamique continentale et côtière"
+  ],
   "acronyms": [
-    "CRFDP"
+    "M2C"
   ],
   "status": "active",
-  "wikipedia_url": "",
+  "wikipedia_url": null,
   "labels": [],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
-      "all": [
-        "0000 0001 2326 1914"
-      ]
-    },
     "Wikidata": {
-      "preferred": null,
+      "preferred": "Q51783493",
       "all": [
-        "Q52557869"
+        "Q51783493"
       ]
-    },
-    "GRID": {
-      "preferred": "grid.503149.a",
-      "all": "grid.503149.a"
     }
   }
 }
