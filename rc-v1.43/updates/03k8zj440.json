@@ -1,22 +1,62 @@
 {
-  "id": "https://ror.org/0289cxp23",
-  "name": "Hospital Virgen de la Salud",
+  "id": "https://ror.org/03k8zj440",
+  "name": "Servicio de Salud de Castilla La Mancha",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": null,
   "types": [
     "Healthcare"
   ],
   "relationships": [
     {
+      "label": "Complejo Hospitalario Universitario de Albacete",
+      "type": "Child",
+      "id": "https://ror.org/04a5hr295"
+    },
+    {
       "label": "Complejo Hospitalario Universitario de Toledo",
-      "type": "Parent",
+      "type": "Child",
       "id": "https://ror.org/04q4ppz72"
     },
     {
-      "label": "Hospital Universitario de Toledo",
-      "type": "Successor",
-      "id": "https://ror.org/00wxgxz56"
+      "label": "Hospital General Nuestra Señora del Prado",
+      "type": "Child",
+      "id": "https://ror.org/00k5pj069"
+    },
+    {
+      "label": "Hospital General Universitario de Ciudad Real",
+      "type": "Child",
+      "id": "https://ror.org/02f30ff69"
+    },
+    {
+      "label": "Hospital General de Almansa",
+      "type": "Child",
+      "id": "https://ror.org/01wc63152"
+    },
+    {
+      "label": "Hospital General de Tomelloso",
+      "type": "Child",
+      "id": "https://ror.org/01zbsrk34"
+    },
+    {
+      "label": "Hospital Nacional de Parapléjicos",
+      "type": "Child",
+      "id": "https://ror.org/04xzgfg07"
+    },
+    {
+      "label": "Hospital Universitario de Guadalajara",
+      "type": "Child",
+      "id": "https://ror.org/00jkz9152"
+    },
+    {
+      "label": "Hospital Virgen de la Luz",
+      "type": "Child",
+      "id": "https://ror.org/00k49k182"
+    },
+    {
+      "label": "Hospital de Hellín",
+      "type": "Child",
+      "id": "https://ror.org/01gaptw32"
     }
   ],
   "addresses": [
@@ -65,13 +105,13 @@
     }
   ],
   "links": [
-    "http://www.cht.es/cht/cm/cht/tkContent?pgseed=1493207263184&idContent=6060&locale=es_ES&textOnly=false"
+    "http://sescam.castillalamancha.es/"
   ],
   "aliases": [],
   "acronyms": [
-    "CHT"
+    "SESCAM"
   ],
-  "status": "inactive",
+  "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
@@ -82,12 +122,12 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 1795 0563"
+        "0000 0001 1530 8903"
       ]
     },
     "GRID": {
-      "preferred": "grid.413514.6",
-      "all": "grid.413514.6"
+      "preferred": "grid.426047.3",
+      "all": "grid.426047.3"
     }
   }
 }
