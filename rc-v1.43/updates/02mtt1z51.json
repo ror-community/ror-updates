@@ -1,40 +1,45 @@
 {
-  "id": "https://ror.org/03x4pp342",
-  "name": "Beaumont Hospital, Dearborn",
+  "id": "https://ror.org/02mtt1z51",
+  "name": "NIHR Bristol Biomedical Research Centre",
   "email_address": null,
   "ip_addresses": [],
   "established": null,
   "types": [
-    "Healthcare"
+    "Government"
   ],
   "relationships": [
     {
-      "label": "Corewell Health",
+      "label": "National Institute for Health Research",
       "type": "Parent",
-      "id": "https://ror.org/02hb5yj49"
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "University of Bristol",
+      "type": "Parent",
+      "id": "https://ror.org/0524sp257"
     }
   ],
   "addresses": [
     {
-      "lat": 42.32226,
-      "lng": -83.17631,
+      "lat": 51.45523,
+      "lng": -2.59665,
       "state": null,
       "state_code": null,
-      "city": "Dearborn",
+      "city": "Bristol",
       "geonames_city": {
-        "id": 4990510,
-        "city": "Dearborn",
+        "id": 2654675,
+        "city": "Bristol",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "England",
+          "id": 6269131,
+          "ascii_name": "England",
+          "code": "GB.ENG"
         },
         "geonames_admin2": {
-          "name": "Wayne",
-          "id": 5014227,
-          "ascii_name": "Wayne",
-          "code": "US.MI.163"
+          "name": "Bristol",
+          "id": 3333134,
+          "ascii_name": "Bristol",
+          "code": "GB.ENG.B7"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -56,34 +61,31 @@
       "postcode": null,
       "primary": false,
       "line": null,
-      "country_geonames_id": 6252001
+      "country_geonames_id": 2635167
     }
   ],
   "links": [
-    "https://www.beaumont.org/locations/beaumont-hospital-dearborn"
+    "https://www.bristolbrc.nihr.ac.uk/"
   ],
-  "aliases": [
-    "Beaumont Hospital",
-    "Oakwood Hospital - Dearborn"
-  ],
+  "aliases": [],
   "acronyms": [],
   "status": "active",
   "wikipedia_url": "",
   "labels": [],
   "country": {
-    "country_name": "United States",
-    "country_code": "US"
+    "country_name": "United Kingdom",
+    "country_code": "GB"
   },
   "external_ids": {
-    "ISNI": {
-      "preferred": null,
+    "FundRef": {
+      "preferred": "100015250",
       "all": [
-        "0000 0004 0394 7232"
+        "100015250"
       ]
     },
     "GRID": {
-      "preferred": "grid.416675.7",
-      "all": "grid.416675.7"
+      "preferred": "grid.511076.4",
+      "all": "grid.511076.4"
     }
   }
 }

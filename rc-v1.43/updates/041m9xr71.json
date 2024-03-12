@@ -1,45 +1,45 @@
 {
-  "id": "https://ror.org/05x643e19",
-  "name": "Corewell Health Butterworth Hospital",
+  "id": "https://ror.org/041m9xr71",
+  "name": "Ames National Laboratory",
   "email_address": null,
   "ip_addresses": [],
-  "established": 1875,
+  "established": 1947,
   "types": [
-    "Healthcare"
+    "Facility"
   ],
   "relationships": [
     {
-      "label": "Michigan State University",
-      "type": "Related",
-      "id": "https://ror.org/05hs6h993"
+      "label": "Iowa State University",
+      "type": "Parent",
+      "id": "https://ror.org/04rswrd78"
     },
     {
-      "label": "Corewell Health",
+      "label": "Office of Science",
       "type": "Parent",
-      "id": "https://ror.org/02hb5yj49"
+      "id": "https://ror.org/00mmn6b08"
     }
   ],
   "addresses": [
     {
-      "lat": 42.96336,
-      "lng": -85.66809,
+      "lat": 42.03471,
+      "lng": -93.61994,
       "state": null,
       "state_code": null,
-      "city": "Grand Rapids",
+      "city": "Ames",
       "geonames_city": {
-        "id": 4994358,
-        "city": "Grand Rapids",
+        "id": 4846834,
+        "city": "Ames",
         "geonames_admin1": {
-          "name": "Michigan",
-          "id": 5001836,
-          "ascii_name": "Michigan",
-          "code": "US.MI"
+          "name": "Iowa",
+          "id": 4862182,
+          "ascii_name": "Iowa",
+          "code": "US.IA"
         },
         "geonames_admin2": {
-          "name": "Kent",
-          "id": 4998005,
-          "ascii_name": "Kent",
-          "code": "US.MI.081"
+          "name": "Story",
+          "id": 4877685,
+          "ascii_name": "Story",
+          "code": "US.IA.169"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -65,14 +65,15 @@
     }
   ],
   "links": [
-    "http://www.spectrumhealth.org/butterworth"
+    "https://www.ameslab.gov/"
   ],
   "aliases": [
-    "Butterworth Hospital"
+    "Ames Laboratory",
+    "United States Department of Energy Office of Science Ames National Laboratory"
   ],
   "acronyms": [],
   "status": "active",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Butterworth_Hospital_(Michigan)",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ames_Laboratory",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -82,24 +83,30 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0450 5989"
+        "0000 0001 0690 157X"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100011659",
+      "all": [
+        "100011659"
       ]
     },
     "OrgRef": {
       "preferred": null,
       "all": [
-        "11993430"
+        "1372885"
       ]
     },
     "Wikidata": {
       "preferred": null,
       "all": [
-        "Q5003039"
+        "Q4745875"
       ]
     },
     "GRID": {
-      "preferred": "grid.413153.1",
-      "all": "grid.413153.1"
+      "preferred": "grid.451319.b",
+      "all": "grid.451319.b"
     }
   }
 }

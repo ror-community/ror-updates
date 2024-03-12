@@ -1,29 +1,34 @@
 {
-  "id": "https://ror.org/03x4pp342",
-  "name": "Beaumont Hospital, Dearborn",
-  "email_address": null,
+  "id": "https://ror.org/01ythxj32",
+  "name": "Oakland University",
+  "email_address": "",
   "ip_addresses": [],
-  "established": null,
+  "established": 1957,
   "types": [
-    "Healthcare"
+    "Education"
   ],
   "relationships": [
     {
-      "label": "Corewell Health",
-      "type": "Parent",
-      "id": "https://ror.org/02hb5yj49"
+      "label": "Beaumont Hospital, Royal Oak",
+      "type": "Related",
+      "id": "https://ror.org/03artm726"
+    },
+    {
+      "label": "Beaumont Hospital, Troy",
+      "type": "Related",
+      "id": "https://ror.org/05x9ffc66"
     }
   ],
   "addresses": [
     {
-      "lat": 42.32226,
-      "lng": -83.17631,
+      "lat": 42.68059,
+      "lng": -83.13382,
       "state": null,
       "state_code": null,
-      "city": "Dearborn",
+      "city": "Rochester",
       "geonames_city": {
-        "id": 4990510,
-        "city": "Dearborn",
+        "id": 5007400,
+        "city": "Rochester",
         "geonames_admin1": {
           "name": "Michigan",
           "id": 5001836,
@@ -31,10 +36,10 @@
           "code": "US.MI"
         },
         "geonames_admin2": {
-          "name": "Wayne",
-          "id": 5014227,
-          "ascii_name": "Wayne",
-          "code": "US.MI.163"
+          "name": "Oakland",
+          "id": 5004223,
+          "ascii_name": "Oakland",
+          "code": "US.MI.125"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -60,15 +65,14 @@
     }
   ],
   "links": [
-    "https://www.beaumont.org/locations/beaumont-hospital-dearborn"
+    "http://wwwp.oakland.edu/"
   ],
-  "aliases": [
-    "Beaumont Hospital",
-    "Oakwood Hospital - Dearborn"
+  "aliases": [],
+  "acronyms": [
+    "OU"
   ],
-  "acronyms": [],
   "status": "active",
-  "wikipedia_url": "",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oakland_University",
   "labels": [],
   "country": {
     "country_name": "United States",
@@ -78,12 +82,30 @@
     "ISNI": {
       "preferred": null,
       "all": [
-        "0000 0004 0394 7232"
+        "0000 0001 2219 916X"
+      ]
+    },
+    "FundRef": {
+      "preferred": "100017115",
+      "all": [
+        "100017115"
+      ]
+    },
+    "OrgRef": {
+      "preferred": null,
+      "all": [
+        "486279"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q782116"
       ]
     },
     "GRID": {
-      "preferred": "grid.416675.7",
-      "all": "grid.416675.7"
+      "preferred": "grid.261277.7",
+      "all": "grid.261277.7"
     }
   }
 }
