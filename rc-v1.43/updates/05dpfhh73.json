@@ -7,7 +7,18 @@
   "types": [
     "Facility"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "Parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "University of Paris-Saclay",
+      "type": "Parent",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
   "addresses": [
     {
       "lat": 48.69572,
