@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-03-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7648 2093"
+      ],
+      "preferred": "0000 0004 7648 2093",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781968"
+      ],
+      "preferred": "Q51781968",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jr1v359",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.limics.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIMICS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire d'Informatique Médicale et d'Ingénierie des Connaissances en e-Santé"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LIMICS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMRS LIMICS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Sorbonne Paris Nord",
+      "type": "parent",
+      "id": "https://ror.org/0199hds37"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

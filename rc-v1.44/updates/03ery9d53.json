@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-03-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1900,
+  "external_ids": [
+    {
+      "all": [
+        "100006120"
+      ],
+      "preferred": "100006120",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453259.c"
+      ],
+      "preferred": "grid.453259.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2215 6856"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03ery9d53",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://energy.gov/fe/office-fossil-energy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FE"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Fossil Energy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Energy Technology Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01x26mz03"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-03-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1874,
+  "external_ids": [
+    {
+      "all": [
+        "100013017"
+      ],
+      "preferred": "100013017",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412807.8"
+      ],
+      "preferred": "grid.412807.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9916"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7914455"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05dq2gs74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ww2.mc.vanderbilt.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Vanderbilt_University_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.16589,
+        "lng": -86.78444,
+        "name": "Nashville"
+      },
+      "geonames_id": 4644585
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VUMC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vanderbilt University Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Monroe Carell Jr. Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/00y64dx33"
+    },
+    {
+      "label": "Vanderbilt Psychiatric Hospital",
+      "type": "child",
+      "id": "https://ror.org/0118bqm57"
+    },
+    {
+      "label": "Vanderbilt-Ingram Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/02rjj2m04"
+    },
+    {
+      "label": "Vanderbilt Health",
+      "type": "parent",
+      "id": "https://ror.org/05grhsk96"
+    },
+    {
+      "label": "Vanderbilt University",
+      "type": "related",
+      "id": "https://ror.org/02vm5rt34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
