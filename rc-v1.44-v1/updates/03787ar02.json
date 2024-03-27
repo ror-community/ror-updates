@@ -1,50 +1,50 @@
 {
-  "id": "https://ror.org/04rrzfd14",
-  "name": "Laboratoire Modélisation et Simulation Multi-Echelle",
+  "id": "https://ror.org/03787ar02",
+  "name": "Laboratory of Mechanics and Acoustics",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": 1941,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
+      "label": "Aix-Marseille University",
+      "type": "Parent",
+      "id": "https://ror.org/035xkbk20"
+    },
+    {
+      "label": "Centrale Marseille",
+      "type": "Parent",
+      "id": "https://ror.org/040baw385"
+    },
+    {
       "label": "CNRS Ingénierie",
       "type": "Parent",
       "id": "https://ror.org/00s19x989"
-    },
-    {
-      "label": "Université Paris-Est Créteil",
-      "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
-    },
-    {
-      "label": "Université Gustave Eiffel",
-      "type": "Parent",
-      "id": "https://ror.org/03x42jk29"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85,
-      "lng": 2.6,
+      "lat": 43.29695,
+      "lng": 5.38107,
       "state": null,
       "state_code": null,
-      "city": "Champs-sur-Marne",
+      "city": "Marseille",
       "geonames_city": {
-        "id": 3027014,
-        "city": "Champs-sur-Marne",
+        "id": 2995469,
+        "city": "Marseille",
         "geonames_admin1": {
-          "name": "Île-de-France",
-          "id": 3012874,
-          "ascii_name": "Île-de-France",
-          "code": "FR.11"
+          "name": "Provence-Alpes-Côte d'Azur",
+          "id": 2985244,
+          "ascii_name": "Provence-Alpes-Côte d'Azur",
+          "code": "FR.93"
         },
         "geonames_admin2": {
-          "name": "Seine-et-Marne",
-          "id": 2975249,
-          "ascii_name": "Seine-et-Marne",
-          "code": "FR.11.77"
+          "name": "Bouches-du-Rhône",
+          "id": 3031359,
+          "ascii_name": "Bouches-du-Rhône",
+          "code": "FR.93.13"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -70,35 +70,46 @@
     }
   ],
   "links": [
-    "https://msme.univ-gustave-eiffel.fr"
+    "http://www.lma.cnrs-mrs.fr/?lang=en"
   ],
   "aliases": [],
   "acronyms": [
-    "MSME"
+    "LMA"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Laboratoire de Mécanique et d’Acoustique",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 7775 6973",
+      "preferred": null,
       "all": [
-        "0000 0004 7775 6973"
+        "0000 0001 2188 0834"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8208"
+        "UPR7051"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q16652995"
       ]
     },
     "GRID": {
-      "preferred": "grid.462588.5",
-      "all": "grid.462588.5"
+      "preferred": "grid.463931.a",
+      "all": "grid.463931.a"
     }
   }
 }

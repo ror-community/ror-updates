@@ -1,9 +1,9 @@
 {
-  "id": "https://ror.org/04rrzfd14",
-  "name": "Laboratoire Modélisation et Simulation Multi-Echelle",
+  "id": "https://ror.org/01prxdf57",
+  "name": "Georges Friedel Laboratory",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": 2013,
   "types": [
     "Facility"
   ],
@@ -14,53 +14,48 @@
       "id": "https://ror.org/00s19x989"
     },
     {
-      "label": "Université Paris-Est Créteil",
+      "label": "Mines Saint-Étienne",
       "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
-    },
-    {
-      "label": "Université Gustave Eiffel",
-      "type": "Parent",
-      "id": "https://ror.org/03x42jk29"
+      "id": "https://ror.org/05a1dws80"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85,
-      "lng": 2.6,
+      "lat": 45.42282,
+      "lng": 4.408827,
       "state": null,
       "state_code": null,
-      "city": "Champs-sur-Marne",
+      "city": "Saint-Etienne",
       "geonames_city": {
-        "id": 3027014,
-        "city": "Champs-sur-Marne",
+        "id": 2980291,
+        "city": "Saint-Étienne",
         "geonames_admin1": {
-          "name": "Île-de-France",
-          "id": 3012874,
-          "ascii_name": "Île-de-France",
-          "code": "FR.11"
+          "name": "Auvergne-Rhône-Alpes",
+          "id": 11071625,
+          "ascii_name": "Auvergne-Rhone-Alpes",
+          "code": "FR.84"
         },
         "geonames_admin2": {
-          "name": "Seine-et-Marne",
-          "id": 2975249,
-          "ascii_name": "Seine-et-Marne",
-          "code": "FR.11.77"
+          "name": "Département de la Loire",
+          "id": 2997870,
+          "ascii_name": "Departement de la Loire",
+          "code": "FR.84.42"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "CENTRE-EST",
+          "code": "FR7"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Rhône-Alpes",
+          "code": "FR71"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Loire",
+          "code": "FR715"
         }
       },
       "postcode": null,
@@ -70,35 +65,46 @@
     }
   ],
   "links": [
-    "https://msme.univ-gustave-eiffel.fr"
+    "https://www.mines-stetienne.fr/lgf/"
   ],
   "aliases": [],
   "acronyms": [
-    "MSME"
+    "LGF"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Laboratoire George Friedel",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 7775 6973",
+      "preferred": null,
       "all": [
-        "0000 0004 7775 6973"
+        "0000 0004 0382 9711"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8208"
+        "UMR5307"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q51781671"
       ]
     },
     "GRID": {
-      "preferred": "grid.462588.5",
-      "all": "grid.462588.5"
+      "preferred": "grid.503347.6",
+      "all": "grid.503347.6"
     }
   }
 }

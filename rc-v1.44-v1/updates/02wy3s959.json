@@ -1,66 +1,61 @@
 {
-  "id": "https://ror.org/04rrzfd14",
-  "name": "Laboratoire Modélisation et Simulation Multi-Echelle",
+  "id": "https://ror.org/02wy3s959",
+  "name": "Laboratoire d'Énergétique Moléculaire et Macroscopique, Combustion",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": 1970,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
+      "label": "CentraleSupélec",
+      "type": "Parent",
+      "id": "https://ror.org/019tcpt25"
+    },
+    {
       "label": "CNRS Ingénierie",
       "type": "Parent",
       "id": "https://ror.org/00s19x989"
-    },
-    {
-      "label": "Université Paris-Est Créteil",
-      "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
-    },
-    {
-      "label": "Université Gustave Eiffel",
-      "type": "Parent",
-      "id": "https://ror.org/03x42jk29"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85,
-      "lng": 2.6,
+      "lat": 48.76547,
+      "lng": 2.288495,
       "state": null,
       "state_code": null,
-      "city": "Champs-sur-Marne",
+      "city": "Châtenay-Malabry",
       "geonames_city": {
-        "id": 3027014,
-        "city": "Champs-sur-Marne",
+        "id": 3026108,
+        "city": "Châtenay-Malabry",
         "geonames_admin1": {
           "name": "Île-de-France",
           "id": 3012874,
-          "ascii_name": "Île-de-France",
+          "ascii_name": "Ile-de-France",
           "code": "FR.11"
         },
         "geonames_admin2": {
-          "name": "Seine-et-Marne",
-          "id": 2975249,
-          "ascii_name": "Seine-et-Marne",
-          "code": "FR.11.77"
+          "name": "Hauts-de-Seine",
+          "id": 3013657,
+          "ascii_name": "Hauts-de-Seine",
+          "code": "FR.11.92"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
           "license": "http://creativecommons.org/licenses/by/3.0/"
         },
         "nuts_level1": {
-          "name": null,
-          "code": null
+          "name": "ÎLE DE FRANCE",
+          "code": "FR1"
         },
         "nuts_level2": {
-          "name": null,
-          "code": null
+          "name": "Île de France",
+          "code": "FR10"
         },
         "nuts_level3": {
-          "name": null,
-          "code": null
+          "name": "Hauts-de-Seine",
+          "code": "FR105"
         }
       },
       "postcode": null,
@@ -70,11 +65,13 @@
     }
   ],
   "links": [
-    "https://msme.univ-gustave-eiffel.fr"
+    "http://www.em2c.ecp.fr/"
   ],
-  "aliases": [],
+  "aliases": [
+    "Laboratoire EM2C"
+  ],
   "acronyms": [
-    "MSME"
+    "EM2C"
   ],
   "status": "active",
   "wikipedia_url": "",
@@ -85,20 +82,26 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 7775 6973",
+      "preferred": null,
       "all": [
-        "0000 0004 7775 6973"
+        "0000 0004 0369 2292"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8208"
+        "UPR288"
+      ]
+    },
+    "Wikidata": {
+      "preferred": null,
+      "all": [
+        "Q30261487"
       ]
     },
     "GRID": {
-      "preferred": "grid.462588.5",
-      "all": "grid.462588.5"
+      "preferred": "grid.462542.3",
+      "all": "grid.462542.3"
     }
   }
 }

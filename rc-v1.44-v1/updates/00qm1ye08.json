@@ -1,50 +1,50 @@
 {
-  "id": "https://ror.org/04rrzfd14",
-  "name": "Laboratoire Modélisation et Simulation Multi-Echelle",
+  "id": "https://ror.org/00qm1ye08",
+  "name": "Centre for Material Forming",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": 1974,
   "types": [
     "Facility"
   ],
   "relationships": [
+    {
+      "label": "ARMINES",
+      "type": "Parent",
+      "id": "https://ror.org/00dcrfk74"
+    },
     {
       "label": "CNRS Ingénierie",
       "type": "Parent",
       "id": "https://ror.org/00s19x989"
     },
     {
-      "label": "Université Paris-Est Créteil",
+      "label": "Mines Paris - PSL",
       "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
-    },
-    {
-      "label": "Université Gustave Eiffel",
-      "type": "Parent",
-      "id": "https://ror.org/03x42jk29"
+      "id": "https://ror.org/04y8cs423"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85,
-      "lng": 2.6,
+      "lat": 43.70313,
+      "lng": 7.26608,
       "state": null,
       "state_code": null,
-      "city": "Champs-sur-Marne",
+      "city": "Nice",
       "geonames_city": {
-        "id": 3027014,
-        "city": "Champs-sur-Marne",
+        "id": 2990440,
+        "city": "Nice",
         "geonames_admin1": {
-          "name": "Île-de-France",
-          "id": 3012874,
-          "ascii_name": "Île-de-France",
-          "code": "FR.11"
+          "name": "Provence-Alpes-Côte d'Azur",
+          "id": 2985244,
+          "ascii_name": "Provence-Alpes-Côte d'Azur",
+          "code": "FR.93"
         },
         "geonames_admin2": {
-          "name": "Seine-et-Marne",
-          "id": 2975249,
-          "ascii_name": "Seine-et-Marne",
-          "code": "FR.11.77"
+          "name": "Alpes-Maritimes",
+          "id": 3038049,
+          "ascii_name": "Alpes-Maritimes",
+          "code": "FR.93.06"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -70,35 +70,40 @@
     }
   ],
   "links": [
-    "https://msme.univ-gustave-eiffel.fr"
+    "http://www.cemef.mines-paristech.fr/"
   ],
   "aliases": [],
   "acronyms": [
-    "MSME"
+    "CEMEF"
   ],
   "status": "active",
   "wikipedia_url": "",
-  "labels": [],
+  "labels": [
+    {
+      "label": "Centre de Mise en Forme des Matériaux",
+      "iso639": "fr"
+    }
+  ],
   "country": {
     "country_name": "France",
     "country_code": "FR"
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 7775 6973",
+      "preferred": null,
       "all": [
-        "0000 0004 7775 6973"
+        "0000 0001 0658 7015"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8208"
+        "UMR7635"
       ]
     },
     "GRID": {
-      "preferred": "grid.462588.5",
-      "all": "grid.462588.5"
+      "preferred": "grid.463782.c",
+      "all": "grid.463782.c"
     }
   }
 }

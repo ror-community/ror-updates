@@ -1,50 +1,45 @@
 {
-  "id": "https://ror.org/04rrzfd14",
-  "name": "Laboratoire Modélisation et Simulation Multi-Echelle",
+  "id": "https://ror.org/03bcdsr62",
+  "name": "Sols, Solides, Structures, Risques",
   "email_address": null,
   "ip_addresses": [],
-  "established": 2010,
+  "established": 1995,
   "types": [
     "Facility"
   ],
   "relationships": [
     {
+      "label": "Grenoble Institute of Technology",
+      "type": "Parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
       "label": "CNRS Ingénierie",
       "type": "Parent",
       "id": "https://ror.org/00s19x989"
-    },
-    {
-      "label": "Université Paris-Est Créteil",
-      "type": "Parent",
-      "id": "https://ror.org/05ggc9x40"
-    },
-    {
-      "label": "Université Gustave Eiffel",
-      "type": "Parent",
-      "id": "https://ror.org/03x42jk29"
     }
   ],
   "addresses": [
     {
-      "lat": 48.85,
-      "lng": 2.6,
+      "lat": 45.17997,
+      "lng": 5.78935,
       "state": null,
       "state_code": null,
-      "city": "Champs-sur-Marne",
+      "city": "Gières",
       "geonames_city": {
-        "id": 3027014,
-        "city": "Champs-sur-Marne",
+        "id": 3016089,
+        "city": "Gières",
         "geonames_admin1": {
-          "name": "Île-de-France",
-          "id": 3012874,
-          "ascii_name": "Île-de-France",
-          "code": "FR.11"
+          "name": "Auvergne-Rhône-Alpes",
+          "id": 11071625,
+          "ascii_name": "Auvergne-Rhône-Alpes",
+          "code": "FR.84"
         },
         "geonames_admin2": {
-          "name": "Seine-et-Marne",
-          "id": 2975249,
-          "ascii_name": "Seine-et-Marne",
-          "code": "FR.11.77"
+          "name": "Isère",
+          "id": 3012715,
+          "ascii_name": "Isère",
+          "code": "FR.84.38"
         },
         "license": {
           "attribution": "Data from geonames.org under a CC-BY 3.0 license",
@@ -70,11 +65,13 @@
     }
   ],
   "links": [
-    "https://msme.univ-gustave-eiffel.fr"
+    "http://www.3sr-grenoble.fr/"
   ],
-  "aliases": [],
+  "aliases": [
+    "Laboratoire 3SR"
+  ],
   "acronyms": [
-    "MSME"
+    "3SR"
   ],
   "status": "active",
   "wikipedia_url": "",
@@ -85,20 +82,20 @@
   },
   "external_ids": {
     "ISNI": {
-      "preferred": "0000 0004 7775 6973",
+      "preferred": null,
       "all": [
-        "0000 0004 7775 6973"
+        "0000 0004 0384 3636"
       ]
     },
     "CNRS": {
       "preferred": null,
       "all": [
-        "UMR8208"
+        "UMR5521"
       ]
     },
     "GRID": {
-      "preferred": "grid.462588.5",
-      "all": "grid.462588.5"
+      "preferred": "grid.464084.a",
+      "all": "grid.464084.a"
     }
   }
 }
