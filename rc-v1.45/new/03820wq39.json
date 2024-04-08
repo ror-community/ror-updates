@@ -38,7 +38,7 @@
         "label",
         "ror_display"
       ],
-      "value": "Laboratoire interdisciplinaire en \u00e9tudes culturelles"
+      "value": "Laboratoire interdisciplinaire en études culturelles"
     },
     {
       "lang": "fr",
@@ -48,7 +48,18 @@
       "value": "LinCS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "French National Centre for Scientific Research",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

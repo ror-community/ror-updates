@@ -74,7 +74,18 @@
       "value": "Indiana University School of Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "parent",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Indiana University Health",
+      "type": "related",
+      "id": "https://ror.org/01aaptx40"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
