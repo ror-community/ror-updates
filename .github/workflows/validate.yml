@@ -2,6 +2,13 @@ name: Validate files
 on:
   workflow_dispatch:
     inputs:
+      schema-version:
+        required: true
+        description: Schema version
+        type: choice
+        options:
+        - v1
+        - v2
       with-relationship:
         type: boolean
         description: Check box to validate with relationships
@@ -29,6 +36,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ror-community/validation-suite
+          ref: schema-v2
           path: validation-suite
       - name: Get directory name
         if: "${{ github.event.inputs.directory-name != '' }}"
@@ -39,31 +47,61 @@ jobs:
       - name: Validate files
         id: validatefiles
         run: |
+          echo ${{ github.event.inputs.schema-version}}
           mkdir files
           cp ./${{ env.WORKING_DIR }}/*/*.json files/
           cd validation-suite
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/master/ror_schema.json -o ror_schema.json
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/master/ror_schema_v2_0.json -o ror_schema_v2_0.json
           ls ../files/
-          if [[ ${{ github.event.inputs.skip-geonames }} == true ]]; then
-            if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
-              if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
-                python run_validations.py -i ../files -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/ --no-geonames
-              else
-                python run_validations.py -i ../files -p ../files/ --no-geonames
+          if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
+            echo "validating v1"
+            if [[ ${{ github.event.inputs.skip-geonames }} == true ]]; then
+              if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+                if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                  python run_validations.py -i ../files -v 1 -s ror_schema.json -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/ --no-geonames
+                else
+                  python run_validations.py -i ../files -v 1 -s ror_schema.json -p ../files/ --no-geonames
+                fi
+              elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+                python run_validations.py -i ../files -v 1 -s ror_schema.json --no-geonames
               fi
-            elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
-              python run_validations.py -i ../files --no-geonames
+            else
+              if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+                if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                  python run_validations.py -i ../files -v 1 -s ror_schema.json -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/
+                else
+                  python run_validations.py -i ../files -v 1 -s ror_schema.json -p ../files/
+                fi
+              elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+                python run_validations.py -i ../files -v 1 -s ror_schema.json
+              fi
             fi
-          else
-            if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
-              if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
-                python run_validations.py -i ../files -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/
-              else
-                python run_validations.py -i ../files -p ../files/
+          fi
+          if [[ ${{ github.event.inputs.schema-version }} == 'v2' ]]; then
+            echo "validating v2"
+            if [[ ${{ github.event.inputs.skip-geonames }} == true ]]; then
+              if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+                if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                  python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/ --no-geonames
+                else
+                  python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json -p ../files/ --no-geonames
+                fi
+              elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+                python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json --no-geonames
               fi
-            elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
-              python run_validations.py -i ../files
+            else
+              if [[ ${{ github.event.inputs.with-relationship }} == true ]]; then
+                if [[ -f "../${{ env.WORKING_DIR }}/relationships.csv" ]]; then
+                  python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json -f ../${{ env.WORKING_DIR }}/relationships.csv -p ../files/
+                else
+                  python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json -p ../files/
+                fi
+              elif [[ ${{ github.event.inputs.with-relationship }} == false ]]; then
+                python run_validations.py -i ../files -v 2 -s ror_schema_v2_0.json
+              fi
             fi
           fi
       - name: Notify Slack
@@ -74,4 +112,4 @@ jobs:
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: '${env.GITHUB_REPOSITORY}: Validation status ${{ steps.validatefiles.outcome }} in ${env.GITHUB_REPOSITORY}. On branch: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}'
+          text: 'Validation status ${{ steps.validatefiles.outcome }} in ${env.GITHUB_REPOSITORY}. Using version ${{ github.event.inputs.schema-version }}. On branch: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}'
