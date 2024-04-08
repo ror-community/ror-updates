@@ -2,6 +2,13 @@ name: Update labels in related records
 on:
   workflow_dispatch:
     inputs:
+      schema-version:
+          required: true
+          description: Schema version
+          type: choice
+          options:
+          - v1
+          - v2
       directory-name:
         type: string
         description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
@@ -29,10 +36,15 @@ jobs:
         working-directory: ${{ env.WORKING_DIR }}
         run: |
           python -m pip install --upgrade pip
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/requirements.txt -o requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/update_related_records/requirements.txt -o requirements.txt
           pip install -r requirements.txt
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/update_related.py -o update_related.py
-          python update_related.py
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/update_related_records/update_related.py -o update_related.py
+          if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
+            python update_related.py -v 1
+          fi
+          if [[ ${{ github.event.inputs.schema-version }} == 'v2' ]]; then
+            python update_related.py -v 2
+          fi
       - name: commit changed files
         if: ${{ steps.updatelabels.outcome == 'success'}}
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -56,4 +68,4 @@ jobs:
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: '${env.GITHUB_REPOSITORY}: Update labels in related records status: ${env.VALIDATION_STATUS}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
+          text: '${env.GITHUB_REPOSITORY}: Update labels in related records status: ${env.VALIDATION_STATUS}. Using version ${{ github.event.inputs.schema-version }}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
