@@ -53,7 +53,7 @@
         "label",
         "ror_display"
       ],
-      "value": "Centre de G\u00e9nie Industriel"
+      "value": "Centre de Génie Industriel"
     },
     {
       "lang": "en",
@@ -70,7 +70,13 @@
       "value": "Industrial Engineering Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "IMT Mines Albi",
+      "type": "parent",
+      "id": "https://ror.org/00bq8vv83"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
