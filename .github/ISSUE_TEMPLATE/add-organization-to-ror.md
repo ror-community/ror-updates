@@ -11,8 +11,10 @@ Summary of request: Add a new organization to ROR
 
 Name of organization:
 Website: 
+Domains:
 Link to publications: 
 Organization type: 
+Organization status:
 Wikipedia page:
 Wikidata ID:
 ISNI ID:
