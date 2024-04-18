@@ -2,6 +2,13 @@ name: Create relationships
 on:
   workflow_dispatch:
     inputs:
+      schema-version:
+            required: true
+            description: Schema version
+            type: choice
+            options:
+            - v1
+            - v2
       directory-name:
         type: string
         description: Name of parent directory containing records to generate relationships for. Needed only if different from branch name.
@@ -30,8 +37,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests==2.23.0
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/generate_relationships/generate_relationships.py -o generate_relationships.py
-          python generate_relationships.py relationships.csv
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/generate_relationships/generate_relationships.py -o generate_relationships.py
+          if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
+            python generate_relationships.py relationships.csv -v 1
+          fi
+          if [[ ${{ github.event.inputs.schema-version }} == 'v2' ]]; then
+            python generate_relationships.py relationships.csv -v 2
+          fi
       - name: commit error file
         if: ${{ steps.genrelshp.outcome != 'success'}}
         working-directory:  ${{ env.WORKING_DIR }}
@@ -61,4 +73,4 @@ jobs:
         with:
           channel: '#ror-curation-releases'
           color: 'good'
-          text: 'Relationship generation status ${env.VALIDATION_STATUS} in ${env.GITHUB_REPOSITORY}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'
+          text: 'Relationship generation status ${env.VALIDATION_STATUS} in ${env.GITHUB_REPOSITORY}. Using version ${{ github.event.inputs.schema-version }}. Branch: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/tree/${env.GITHUB_REF_NAME}. Directory: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID} for more details'

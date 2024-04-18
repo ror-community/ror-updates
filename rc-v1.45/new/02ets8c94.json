@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-04-06",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-04-06",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2296 1126"
+      ],
+      "preferred": "0000 0001 2296 1126",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2123017"
+      ],
+      "preferred": "Q2123017",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ets8c94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://medicine.iu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Indiana_University_School_of_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.76838,
+        "lng": -86.15804,
+        "name": "Indianapolis"
+      },
+      "geonames_id": 4259418
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "IU School of Medicine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "IUSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Indiana University School of Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "parent",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Indiana University Health",
+      "type": "related",
+      "id": "https://ror.org/01aaptx40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}
