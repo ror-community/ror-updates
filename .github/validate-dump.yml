@@ -1,0 +1,71 @@
+name: Validate dump
+on:
+  workflow_dispatch:
+    inputs:
+      schema-version:
+        required: true
+        description: Schema version
+        type: choice
+        options:
+        - v1
+        - v2
+      file-name:
+        required: true
+        type: string
+        description: Name of dump file to validate. Must be .zip file.
+      directory-name:
+        type: string
+        description: Name of parent directory containing file to validate. Needed only if different from branch name.
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+    if: github.event.ref != 'refs/heads/main'
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.ref }}
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Checkout validation suite
+        uses: actions/checkout@v2
+        with:
+          repository: ror-community/validation-suite
+          ref: schema-v2
+          path: validation-suite
+      - name: Get directory name
+        if: "${{ github.event.inputs.directory-name != '' }}"
+        run: echo "WORKING_DIR=${{ github.event.inputs.directory-name }}" >> $GITHUB_ENV
+      - name: Get branch name
+        if: "${{ github.event.inputs.directory-name == '' }}"
+        run: echo "WORKING_DIR=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+      - name: Validate files
+        id: validatedump
+        run: |
+          echo ${{ github.event.inputs.schema-version}}
+          cd validation-suite
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/master/ror_schema.json -o ror_schema.json
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/master/ror_schema_v2_0.json -o ror_schema_v2_0.json
+          if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
+            echo "validating v1"
+            python run_validations.py -i ../${{ env.WORKING_DIR }}/${{ github.event.inputs.file-name}} -v 1 -s ror_schema.json
+
+          fi
+          if [[ ${{ github.event.inputs.schema-version }} == 'v2' ]]; then
+            echo "validating v2"
+            python run_validations.py -i ../${{ env.WORKING_DIR }}/${{ github.event.inputs.file-name}} -v 2 -s ror_schema_v2_0.json
+          fi
+      - name: Notify Slack
+        if: always()
+        uses: edge/simple-slack-notify@master
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.CURATOR_SLACK_WEBHOOK_URL }}
+        with:
+          channel: '#ror-curation-releases'
+          color: 'good'
+          text: 'Dump validation status ${{ steps.validatedump.outcome }} in ${env.GITHUB_REPOSITORY}. Using version ${{ github.event.inputs.schema-version }}. On branch: ${{ env.WORKING_DIR }}. Please check: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}'
