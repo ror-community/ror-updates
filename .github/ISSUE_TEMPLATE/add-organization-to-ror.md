@@ -20,7 +20,9 @@ Wikidata ID:
 ISNI ID:
 GRID ID:
 Crossref Funder ID:
-Other names for the organization: 
+Other names for the organization:
+Aliases:
+Labels:
 Acronym/abbreviation:
 Related organizations: 
 City: 
