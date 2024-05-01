@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-01",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503157.5"
+      ],
+      "preferred": "grid.503157.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q51781079"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02baj6743",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cic-rennes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CIC Rennes"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre d'Investigation Clinique de Rennes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/05qec5a53"
+    },
+    {
+      "label": "Délégation Régionale Grand Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01qa4rf46"
+    },
+    {
+      "label": "University of Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
