@@ -51,7 +51,23 @@
       "value": "Sir Charles Gairdner Osborne Park Health Care Group"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "North Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/043rdsw72"
+    },
+    {
+      "label": "Sir Charles Gairdner Hospital",
+      "type": "child",
+      "id": "https://ror.org/01hhqsm59"
+    },
+    {
+      "label": "Osborne Park Hospital",
+      "type": "child",
+      "id": "https://ror.org/04v8sjw26"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
