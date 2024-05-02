@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1602,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417615.0"
+      ],
+      "preferred": "grid.417615.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2296 5231"
+      ],
+      "preferred": "0000 0001 2296 5231",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00cxy0s05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-rouen.fr/hopital_charles_nicolle/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 49.44313,
+        "lng": 1.09932,
+        "name": "Rouen"
+      },
+      "geonames_id": 2982652
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Charles-Nicolle Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Charles-Nicolle"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Rouen",
+      "type": "parent",
+      "id": "https://ror.org/04cdk4t75"
+    },
+    {
+      "label": "Université de Rouen Normandie",
+      "type": "related",
+      "id": "https://ror.org/03nhjew95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

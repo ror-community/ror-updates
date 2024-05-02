@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410394.b"
+      ],
+      "preferred": "grid.410394.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0419 8667"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30253648"
+      ],
+      "preferred": "Q30253648",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ry60714",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.va.gov/minneapolis-health-care/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 44.97997,
+        "lng": -93.26384,
+        "name": "Minneapolis"
+      },
+      "geonames_id": 5037649
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Minneapolis VA Health Care System"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Minneapolis VAHCS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Minneapolis VA Medical Center",
+      "type": "child",
+      "id": "https://ror.org/032b8d361"
+    },
+    {
+      "label": "VA Midwest Health Care Network",
+      "type": "parent",
+      "id": "https://ror.org/02f2rgc17"
+    },
+    {
+      "label": "Century College",
+      "type": "related",
+      "id": "https://ror.org/008hr1h38"
+    },
+    {
+      "label": "St. Catherine University",
+      "type": "related",
+      "id": "https://ror.org/03x1f1d90"
+    },
+    {
+      "label": "University of Minnesota",
+      "type": "related",
+      "id": "https://ror.org/017zqws13"
+    },
+    {
+      "label": "University of St. Thomas - Minnesota",
+      "type": "related",
+      "id": "https://ror.org/05vfxvp80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

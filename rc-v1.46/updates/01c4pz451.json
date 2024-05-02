@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1934,
+  "external_ids": [
+    {
+      "all": [
+        "501100004484",
+        "501100004887",
+        "501100005391"
+      ],
+      "preferred": "501100004484",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411705.6"
+      ],
+      "preferred": "grid.411705.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0166 0922"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7694901"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01c4pz451",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tums.ac.ir"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Tehran_University_of_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IR",
+        "country_name": "Iran",
+        "lat": 35.69439,
+        "lng": 51.42151,
+        "name": "Tehran"
+      },
+      "geonames_id": 112931
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TUMS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tehran University of Medical Sciences"
+    },
+    {
+      "lang": "fa",
+      "types": [
+        "label"
+      ],
+      "value": "دانشگاه علوم پزشکی تهران"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Imam Khomeini Hospital",
+      "type": "child",
+      "id": "https://ror.org/05v2x6b69"
+    },
+    {
+      "label": "Children's Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01v27vf29"
+    },
+    {
+      "label": "Shariati Hospital",
+      "type": "related",
+      "id": "https://ror.org/01rb4vv49"
+    },
+    {
+      "label": "Farabi Eye Hospital",
+      "type": "child",
+      "id": "https://ror.org/02fvps960"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

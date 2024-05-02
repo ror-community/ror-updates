@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-04-30",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100005239"
+      ],
+      "preferred": "501100005239",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 8342 3331"
+      ],
+      "preferred": "0000 0004 8342 3331",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/011gh0524",
+  "links": [
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/People%27s_Armed_Police"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CN",
+        "country_name": "China",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Armed Police Force of China"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Chinese People's Armed Police Force"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "PAPF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "People's Armed Police Force"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国人民武装警察部队"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of National Defense of the People's Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/03t0a5k13"
+    },
+    {
+      "label": "China People's Police University",
+      "type": "child",
+      "id": "https://ror.org/05mg82t36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

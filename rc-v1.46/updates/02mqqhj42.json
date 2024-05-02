@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1924,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412647.2"
+      ],
+      "preferred": "grid.412647.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9209 0955"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896631"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mqqhj42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uwhealth.org/locations/university-hospital-170"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Wisconsin_Hospital_and_Clinics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.07305,
+        "lng": -89.40123,
+        "name": "Madison"
+      },
+      "geonames_id": 5261457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "UW Health University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UW Hospital and Clinics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UWHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Wisconsin Health University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Wisconsin Hospital and Clinics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Wisconsin-Madison Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wisconsin General Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Wisconsin Carbone Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/01e4byj08"
+    },
+    {
+      "label": "University of Wisconsin Health",
+      "type": "parent",
+      "id": "https://ror.org/03e3qgk42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

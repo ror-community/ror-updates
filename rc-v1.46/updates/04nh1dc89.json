@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100007523",
+        "100000105"
+      ],
+      "preferred": "100007523",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457789.0"
+      ],
+      "preferred": "grid.457789.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/04nh1dc89",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/div/index.jsp?div=ACI"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Division of Advanced Cyberinfrastructure"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF ACI"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Directorate for Computer & Information Science & Engineering",
+      "type": "parent",
+      "id": "https://ror.org/025kzpk63"
+    },
+    {
+      "label": "CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

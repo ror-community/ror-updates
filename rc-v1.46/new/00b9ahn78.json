@@ -1,0 +1,75 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-04-30",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7974 8491"
+      ],
+      "preferred": "0000 0004 7974 8491",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00b9ahn78",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "SCGOPHCG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Sir Charles Gairdner Osborne Park Health Care Group"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "North Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/043rdsw72"
+    },
+    {
+      "label": "Sir Charles Gairdner Hospital",
+      "type": "child",
+      "id": "https://ror.org/01hhqsm59"
+    },
+    {
+      "label": "Osborne Park Hospital",
+      "type": "child",
+      "id": "https://ror.org/04v8sjw26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "1.0"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503194.a"
+      ],
+      "preferred": "grid.503194.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9641 6801"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2852691"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03rxtdc22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ens-rennes.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_de_Rennes"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.02459,
+        "lng": -1.74709,
+        "name": "Bruz"
+      },
+      "geonames_id": 3029713
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "ENS Rennes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Normale Supérieure de Rennes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Valeurs, Innovations, Politiques, Socialisations et Sports",
+      "type": "child",
+      "id": "https://ror.org/026m1rk14"
+    },
+    {
+      "label": "Laboratoire Mouvement Sport Santé",
+      "type": "child",
+      "id": "https://ror.org/05b3p7p58"
+    },
+    {
+      "label": "Institut de recherche mathématique de Rennes",
+      "type": "child",
+      "id": "https://ror.org/05y76vp22"
+    },
+    {
+      "label": "University of Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

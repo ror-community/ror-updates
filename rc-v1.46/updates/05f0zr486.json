@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "1.0"
+    }
+  },
+  "domains": [],
+  "established": 1686,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411904.9"
+      ],
+      "preferred": "grid.411904.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0520 9719"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q180080"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05f0zr486",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.akhwien.at/default.aspx?pid=1"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Vienna_General_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "name": "Vienna"
+      },
+      "geonames_id": 2761369
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AKH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Allgemeines Krankenhaus der Stadt Wien"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vienna General Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comprehensive Cancer Center Vienna",
+      "type": "child",
+      "id": "https://ror.org/00df3z122"
+    },
+    {
+      "label": "Medical University of Vienna",
+      "type": "related",
+      "id": "https://ror.org/05n3x4p02"
+    },
+    {
+      "label": "University of Vienna",
+      "type": "related",
+      "id": "https://ror.org/03prydq77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "100013110"
+      ],
+      "preferred": "100013110",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424048.e"
+      ],
+      "preferred": "grid.424048.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1090 3682"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q314578",
+        "Q316122"
+      ],
+      "preferred": "Q314578",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02aj13c28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.helmholtz-berlin.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Helmholtz-Zentrum_Berlin"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "acronym"
+      ],
+      "value": "HZB"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz-Zentrum Berlin"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helmholtz-Zentrum Berlin für Materialien und Energie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    },
+    {
+      "label": "LEAPS",
+      "type": "related",
+      "id": "https://ror.org/04wcn4e27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

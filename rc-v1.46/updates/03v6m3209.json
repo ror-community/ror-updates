@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "100012728"
+      ],
+      "preferred": "100012728",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418021.e"
+      ],
+      "preferred": "grid.418021.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0535 8394"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q28405614"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03v6m3209",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://frederick.cancer.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Frederick_National_Laboratory_for_Cancer_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.41427,
+        "lng": -77.41054,
+        "name": "Frederick"
+      },
+      "geonames_id": 4355585
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Frederick National Laboratory for Cancer Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Cancer Institute",
+      "type": "parent",
+      "id": "https://ror.org/040gcmg81"
+    },
+    {
+      "label": "The Cancer Imaging Archive",
+      "type": "related",
+      "id": "https://ror.org/02qyzaf42"
+    },
+    {
+      "label": "Leidos Biomedical Research Inc. (United States)",
+      "type": "related",
+      "id": "https://ror.org/00bardy64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

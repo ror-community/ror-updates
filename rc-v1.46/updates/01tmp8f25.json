@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-02",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "501100005739",
+        "501100006087",
+        "501100006570",
+        "501100019912"
+      ],
+      "preferred": "501100005739",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9486.3"
+      ],
+      "preferred": "grid.9486.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2159 0001"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q222738",
+        "Q39491209",
+        "Q39487233",
+        "Q19950100",
+        "Q39944976"
+      ],
+      "preferred": "Q222738",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01tmp8f25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unam.mx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Universidad_Nacional_Aut%C3%B3noma_de_M%C3%A9xico"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Autonomous University of Mexico"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNAM"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Nacional Autónoma de México"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital General de México",
+      "type": "related",
+      "id": "https://ror.org/01php1d31"
+    },
+    {
+      "label": "Centro Regional de Investigaciones Multidisciplinarias",
+      "type": "child",
+      "id": "https://ror.org/05afdpg81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
