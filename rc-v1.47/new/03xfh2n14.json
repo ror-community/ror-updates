@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -53,7 +53,13 @@
       "value": "Språkbanken Text"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Språkbanken",
+      "type": "parent",
+      "id": "https://ror.org/05qhvy459"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,23 @@
       "value": "União das Faculdades Católicas de Mato Grosso"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Faculdade Católica de Mato Grosso",
+      "type": "child",
+      "id": "https://ror.org/05s4t4n85"
+    },
+    {
+      "label": "Faculdade Católica de Cuiabá",
+      "type": "child",
+      "id": "https://ror.org/05s056h84"
+    },
+    {
+      "label": "Faculdade Católica de Várzea Grande",
+      "type": "child",
+      "id": "https://ror.org/004vxz697"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

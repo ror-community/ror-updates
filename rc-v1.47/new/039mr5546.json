@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Ústí Regional Library"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Usti Region",
+      "type": "parent",
+      "id": "https://ror.org/036k0fg31"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

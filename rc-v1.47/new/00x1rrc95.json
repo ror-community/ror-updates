@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Instituts für Life Sciences"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "HES-SO Valais-Wallis",
+      "type": "parent",
+      "id": "https://ror.org/03r5zec51"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -67,7 +67,33 @@
       "value": "L'Institut Agro"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "type": "parent",
+      "id": "https://ror.org/029m96t80"
+    },
+    {
+      "label": "Institut Agro Montpellier",
+      "type": "child",
+      "id": "https://ror.org/03rnk6m14"
+    },
+    {
+      "label": "Institut Agro Dijon",
+      "type": "child",
+      "id": "https://ror.org/03zek0r74"
+    },
+    {
+      "label": "Institut Agro Rennes-Angers",
+      "type": "child",
+      "id": "https://ror.org/01s3fs709"
+    },
+    {
+      "label": "ABSys",
+      "type": "child",
+      "id": "https://ror.org/00n2c0309"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

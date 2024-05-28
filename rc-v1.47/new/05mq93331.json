@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Vojenská nemocnice Brno"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Defence",
+      "type": "parent",
+      "id": "https://ror.org/00r7raa16"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

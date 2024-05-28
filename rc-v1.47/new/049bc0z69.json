@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -70,7 +70,13 @@
       "value": "GlycoNet"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Alberta",
+      "type": "parent",
+      "id": "https://ror.org/0160cpw27"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

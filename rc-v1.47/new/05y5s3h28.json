@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,33 @@
       "value": "Plant Health Institute of Montpellier"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Institute for Agriculture, Food and Environment",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05kpkpg04"
+    },
+    {
+      "label": "Institut Agro Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/03rnk6m14"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05q3vnk25"
+    },
+    {
+      "label": "University of Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

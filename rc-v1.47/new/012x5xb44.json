@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,18 @@
       "value": "Unity Health Toronto"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "St. Michael's Hospital",
+      "type": "child",
+      "id": "https://ror.org/04skqfp25"
+    },
+    {
+      "label": "St Joseph's Health Centre",
+      "type": "child",
+      "id": "https://ror.org/00s426w44"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

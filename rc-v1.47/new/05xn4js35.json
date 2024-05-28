@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-05-27",
+      "date": "2024-05-28",
       "schema_version": "2.0"
     }
   },
@@ -77,7 +77,13 @@
       "value": "Универзитет у Београду – Географски факултет"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Belgrade",
+      "type": "parent",
+      "id": "https://ror.org/02qsmb048"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
