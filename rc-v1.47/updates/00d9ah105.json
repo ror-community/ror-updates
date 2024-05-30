@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ucmerced.edu"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "100010945"
+      ],
+      "preferred": "100010945",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266096.d"
+      ],
+      "preferred": "grid.266096.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0049 1282"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1728622"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00d9ah105",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucmerced.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_California,_Merced"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 37.30216,
+        "lng": -120.48297,
+        "name": "Merced"
+      },
+      "geonames_id": 5372253
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UC Merced"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "UCM"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de California en Merced"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of California, Merced"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Californie à Merced"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of California System",
+      "type": "parent",
+      "id": "https://ror.org/00pjdza24"
+    },
+    {
+      "label": "Sevilleta Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/01qcacz92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424433.6"
+      ],
+      "preferred": "grid.424433.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2375 2684"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q668916"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01gmtnk43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bundeskanzleramt.gv.at/public.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Chancellery_(Austria)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "name": "Vienna"
+      },
+      "geonames_id": 2761369
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BKA"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bundeskanzleramt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Chancellery Republic of Austria"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Austrian State Archives",
+      "type": "child",
+      "id": "https://ror.org/03fb0b548"
+    },
+    {
+      "label": "Bundesdenkmalamt",
+      "type": "related",
+      "id": "https://ror.org/05ksqqc16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

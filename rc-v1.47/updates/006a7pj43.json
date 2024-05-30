@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100004888",
+        "501100004889"
+      ],
+      "preferred": "501100004888",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411081.d"
+      ],
+      "preferred": "grid.411081.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9471 1794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5062640"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006a7pj43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chudequebec.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Centre_hospitalier_universitaire_de_Qu%C3%A9bec"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUQ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre hospitalier universitaire de Québec"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Saint-François d'Assise",
+      "type": "child",
+      "id": "https://ror.org/02r1pzn16"
+    },
+    {
+      "label": "Hôpital du Saint-Sacrement",
+      "type": "child",
+      "id": "https://ror.org/002zghs56"
+    },
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    },
+    {
+      "label": "Centre hospitalier de l'Université Laval",
+      "type": "child",
+      "id": "https://ror.org/041v96n47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

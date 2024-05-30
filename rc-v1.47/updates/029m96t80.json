@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1836,
+  "external_ids": [
+    {
+      "all": [
+        "501100003198",
+        "100007643",
+        "501100011004"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425727.1"
+      ],
+      "preferred": "grid.425727.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1954 9050"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3315187"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/029m96t80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://agriculture.gouv.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Agriculture_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Agriculture"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Agriculture, Food, Fisheries, Rural Affairs and Spatial Planning"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Ministère de l'Agriculture, de l'Agroalimentaire et de la Forêt"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère de l'Agriculture, de l'Alimentation, de la Pêche, de la Ruralité et de l'Aménagement du territoire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Interaction Hôtes Agents Pathogènes",
+      "type": "child",
+      "id": "https://ror.org/041yk0b68"
+    },
+    {
+      "label": "École Nationale Vétérinaire de Toulouse",
+      "type": "child",
+      "id": "https://ror.org/03m3gzv89"
+    },
+    {
+      "label": "Office Français de la Biodiversité",
+      "type": "child",
+      "id": "https://ror.org/04f5ctv63"
+    },
+    {
+      "label": "GEVES",
+      "type": "child",
+      "id": "https://ror.org/056ms9a36"
+    },
+    {
+      "label": "L'Institut Agro",
+      "type": "child",
+      "id": "https://ror.org/01dkyve95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

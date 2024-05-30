@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100014911"
+      ],
+      "preferred": "501100014911",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.447755.0"
+      ],
+      "preferred": "grid.447755.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0610 2999"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3564646"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00r7raa16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.army.cz/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Czech_Republic)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "name": "Prague"
+      },
+      "geonames_id": 3067696
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOCR"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministerstvo Obrany a Armáda České Republiky"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Defence"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Military Hospital Brno",
+      "type": "child",
+      "id": "https://ror.org/05mq93331"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

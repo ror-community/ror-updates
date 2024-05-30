@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1897,
+  "external_ids": [
+    {
+      "all": [
+        "501100005683",
+        "501100007695",
+        "501100004094",
+        "501100006086",
+        "501100002917",
+        "100016926",
+        "501100013226"
+      ],
+      "preferred": "501100005683",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.258799.8"
+      ],
+      "preferred": "grid.258799.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0372 2033"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q336264"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kpeqv85",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kyoto-u.ac.jp/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kyoto_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 35.02107,
+        "lng": 135.75385,
+        "name": "Kyoto"
+      },
+      "geonames_id": 1857910
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kyoto University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kyōto daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "京都大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyoto University Hospital",
+      "type": "related",
+      "id": "https://ror.org/04k6gr834"
+    },
+    {
+      "label": "Kyoto University Institute for Chemical Research",
+      "type": "child",
+      "id": "https://ror.org/0349bbg69"
+    },
+    {
+      "label": "Yukawa Institute for Theoretical Physics",
+      "type": "child",
+      "id": "https://ror.org/0589kgd85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

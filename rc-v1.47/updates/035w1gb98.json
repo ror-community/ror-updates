@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "army.mil"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "grid.427904.c"
+      ],
+      "preferred": "grid.427904.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2315 4051"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1328562"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035w1gb98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.army.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_the_Army"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento del Ejército de los Estados Unidos"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of the Army"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of the Army"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Defense Forensics and Biometrics Agency",
+      "type": "child",
+      "id": "https://ror.org/00wa40650"
+    },
+    {
+      "label": "United States Army",
+      "type": "child",
+      "id": "https://ror.org/00afsp483"
+    },
+    {
+      "label": "Institute for Collaborative Biotechnologies",
+      "type": "child",
+      "id": "https://ror.org/04kz4p343"
+    },
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

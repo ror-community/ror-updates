@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100014811",
+        "100020472"
+      ],
+      "preferred": "100020472",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425779.a"
+      ],
+      "preferred": "grid.425779.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1086 7917"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1347047"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035qedt02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.beniculturali.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://it.wikipedia.org/wiki/Ministero_della_cultura"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MiBACT"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MiC"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Ministero dei Beni e delle Attività Culturali e del Turismo"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministero della cultura"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry for Cultural Assets and Environments"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Culture"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biblioteca Universitaria di Napoli",
+      "type": "child",
+      "id": "https://ror.org/058m2zy02"
+    },
+    {
+      "label": "Governo Italiano",
+      "type": "parent",
+      "id": "https://ror.org/00xqkj280"
+    },
+    {
+      "label": "Galleria Borghese",
+      "type": "child",
+      "id": "https://ror.org/01beje961"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

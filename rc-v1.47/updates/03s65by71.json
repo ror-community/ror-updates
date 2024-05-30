@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ucsc.edu"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "100006358",
+        "100006440"
+      ],
+      "preferred": "100006358",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.205975.c"
+      ],
+      "preferred": "grid.205975.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0740 6917"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1047293",
+        "Q7419417"
+      ],
+      "preferred": "Q1047293",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03s65by71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucsc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_California,_Santa_Cruz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.97412,
+        "lng": -122.0308,
+        "name": "Santa Cruz"
+      },
+      "geonames_id": 5393052
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UC Santa Cruz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "UCSC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de California en Santa Cruz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of California, Santa Cruz"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Californie à Santa Cruz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "QB3",
+      "type": "child",
+      "id": "https://ror.org/04n1n3n22"
+    },
+    {
+      "label": "University of California System",
+      "type": "parent",
+      "id": "https://ror.org/00pjdza24"
+    },
+    {
+      "label": "Moorea Coral Reef Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017vyhs10"
+    },
+    {
+      "label": "Northern Gulf of Alaska Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/01csn4944"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

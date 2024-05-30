@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1904,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412984.2"
+      ],
+      "preferred": "grid.412984.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0434 3211"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30254145"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0431j1t39",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uihealthcare.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.66113,
+        "lng": -91.53017,
+        "name": "Iowa City"
+      },
+      "geonames_id": 4862034
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UI Health Care"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Iowa Health Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Iowa",
+      "type": "parent",
+      "id": "https://ror.org/036jqmy94"
+    },
+    {
+      "label": "University of Iowa Stead Family Children’s Hospital",
+      "type": "child",
+      "id": "https://ror.org/0184n5y84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

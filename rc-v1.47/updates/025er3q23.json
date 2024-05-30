@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "defense.gouv.fr"
+  ],
+  "established": 1589,
+  "external_ids": [
+    {
+      "all": [
+        "501100005900",
+        "501100005902"
+      ],
+      "preferred": "501100005900",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418221.c"
+      ],
+      "preferred": "grid.418221.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q75706"
+      ],
+      "preferred": "Q75706",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025er3q23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defense.gouv.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Minister_of_the_Armed_Forces_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of the Armed Forces"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère de la Défense"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministère des Armées"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital d'instruction des Armées Desgenettes",
+      "type": "child",
+      "id": "https://ror.org/03m8r7k33"
+    },
+    {
+      "label": "Laboratoire de Biologie de l'Exercice pour la Performance et la Santé",
+      "type": "child",
+      "id": "https://ror.org/0449rap84"
+    },
+    {
+      "label": "Histoire et Archéologie Maritimes",
+      "type": "child",
+      "id": "https://ror.org/011mac819"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

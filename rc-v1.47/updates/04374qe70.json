@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1875,
+  "external_ids": [
+    {
+      "all": [
+        "501100000165"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.430185.b"
+      ],
+      "preferred": "grid.430185.b",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/04374qe70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sickkidsfoundation.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "name": "Toronto"
+      },
+      "geonames_id": 6167865
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SickKids Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ted Rogers Centre for Heart Research",
+      "type": "child",
+      "id": "https://ror.org/00cgnj660"
+    },
+    {
+      "label": "Hospital for Sick Children",
+      "type": "related",
+      "id": "https://ror.org/057q4rt57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100008433",
+        "501100010774"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483724.e"
+      ],
+      "preferred": "grid.483724.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0720 1209"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121610"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038tahs86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.comunidad.madrid/centros/consejeria-educacion-universidades-ciencia-portavocia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Consejería de Educación, Juventud y Deporte"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Consejería de Educación, Universidades, Ciencia y Portavocía"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    },
+    {
+      "label": "Dirección General de Universidades e Investigación",
+      "type": "child",
+      "id": "https://ror.org/03mnxvp33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

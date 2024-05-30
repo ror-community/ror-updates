@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "501100004360"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6341.0"
+      ],
+      "preferred": "grid.6341.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8578 2742"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1312762"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02yy8x990",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.slu.se/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Swedish_University_of_Agricultural_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.85882,
+        "lng": 17.63889,
+        "name": "Uppsala"
+      },
+      "geonames_id": 2666199
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Ruotsin maatalousyliopisto"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SLU"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Sveriges Lantbruksuniversitet"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Sveriges lantbruksuniversitet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish University of Agricultural Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Umeå Plant Science Centre",
+      "type": "child",
+      "id": "https://ror.org/02ehp0f77"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    },
+    {
+      "label": "Swedish Infrastructure for Ecosystem Science",
+      "type": "child",
+      "id": "https://ror.org/009b9n257"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

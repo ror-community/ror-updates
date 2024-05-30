@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2200 8933"
+      ],
+      "preferred": "0000 0001 2200 8933",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51794408"
+      ],
+      "preferred": "Q51794408",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011mac819",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mer.paris-sorbonne.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "FED 4124"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Histoire et Archéologie Maritimes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère des Armées",
+      "type": "parent",
+      "id": "https://ror.org/025er3q23"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

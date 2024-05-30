@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "501100019965"
+      ],
+      "preferred": "501100019965",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418246.d"
+      ],
+      "preferred": "grid.418246.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0352 641X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q24190740"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05jyzx602",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bccdc.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/BC_Centre_for_Disease_Control"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 49.24966,
+        "lng": -123.11934,
+        "name": "Vancouver"
+      },
+      "geonames_id": 6173331
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "BC Centre for Disease Control"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BCCDC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Provincial Health Services Authority",
+      "type": "parent",
+      "id": "https://ror.org/01jvd8304"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

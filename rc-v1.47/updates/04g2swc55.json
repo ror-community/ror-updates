@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1898,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412584.e"
+      ],
+      "preferred": "grid.412584.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0434 9816"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895561"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04g2swc55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uihealthcare.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Iowa_Hospitals_and_Clinics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.66113,
+        "lng": -91.53017,
+        "name": "Iowa City"
+      },
+      "geonames_id": 4862034
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UI Hospitals and Clinics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UIHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Iowa Hospitals and Clinics"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Iowa Stead Family Children’s Hospital",
+      "type": "child",
+      "id": "https://ror.org/0184n5y84"
+    },
+    {
+      "label": "University of Iowa",
+      "type": "parent",
+      "id": "https://ror.org/036jqmy94"
+    },
+    {
+      "label": "University of Iowa Health Care",
+      "type": "successor",
+      "id": "https://ror.org/0431j1t39"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

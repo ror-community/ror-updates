@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-05-27",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "Q95580135"
+      ],
+      "preferred": "Q95580135",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05qhvy459",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sprakbanken.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://sv.wikipedia.org/wiki/Nationella_spr%C3%A5kbanken"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.85882,
+        "lng": 17.63889,
+        "name": "Uppsala"
+      },
+      "geonames_id": 2666199
+    },
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    },
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "name": "Gothenburg"
+      },
+      "geonames_id": 2711537
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Språkbanken"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Språkbanken Tal",
+      "type": "child",
+      "id": "https://ror.org/05kbck686"
+    },
+    {
+      "label": "Språkbanken Text",
+      "type": "child",
+      "id": "https://ror.org/03xfh2n14"
+    },
+    {
+      "label": "Språkbanken Sam",
+      "type": "child",
+      "id": "https://ror.org/01mqjeb88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1456,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412469.c"
+      ],
+      "preferred": "grid.412469.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9116 8976"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2496421"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025vngs54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.medizin.uni-greifswald.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Greifswald_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 54.09311,
+        "lng": 13.38786,
+        "name": "Greifswald"
+      },
+      "geonames_id": 2917788
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Greifswald University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Medicine Greifswald"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Greifswald"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klinik und Poliklinik für Hautkrankheiten",
+      "type": "child",
+      "id": "https://ror.org/00za3wc71"
+    },
+    {
+      "label": "University of Greifswald",
+      "type": "related",
+      "id": "https://ror.org/00r1edq15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

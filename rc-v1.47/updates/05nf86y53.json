@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100005118",
+        "501100005120",
+        "501100005119"
+      ],
+      "preferred": "501100005118",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.20256.33"
+      ],
+      "preferred": "grid.20256.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0372 1485"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1300624",
+        "Q39652817"
+      ],
+      "preferred": "Q1300624",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05nf86y53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jaea.go.jp/english/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Japan_Atomic_Energy_Agency"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 36.46078,
+        "lng": 140.58058,
+        "name": "Tōkai Mura"
+      },
+      "geonames_id": 2110767
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JAEA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Japan Atomic Energy Agency"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "日本原子力研究開発機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Advanced Science Research Center",
+      "type": "child",
+      "id": "https://ror.org/05xrbcc66"
+    },
+    {
+      "label": "Japan Proton Accelerator Research Complex",
+      "type": "child",
+      "id": "https://ror.org/02vck8g64"
+    },
+    {
+      "label": "International Network of Nuclear Reaction Data Centres",
+      "type": "child",
+      "id": "https://ror.org/00e50mf91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-05-27",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "hgdc.gob.ec"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1337 5941"
+      ],
+      "preferred": "0000 0005 1337 5941",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02f4cyy89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hgdc.gob.ec"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "EC",
+        "country_name": "Ecuador",
+        "lat": -0.22985,
+        "lng": -78.52495,
+        "name": "Quito"
+      },
+      "geonames_id": 3652462
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "HGDC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital Docente de Calderón"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hospital General Docente de Calderón"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Salud Pública",
+      "type": "parent",
+      "id": "https://ror.org/02t46gq94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100006730",
+        "501100003766"
+      ],
+      "preferred": "501100006730",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454862.9"
+      ],
+      "preferred": "grid.454862.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 0316"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1583546"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00dh5gw98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.edu.ro/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_National_Education_(Romania)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "RO",
+        "country_name": "Romania",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "name": "Bucharest"
+      },
+      "geonames_id": 683506
+    }
+  ],
+  "names": [
+    {
+      "lang": "ro",
+      "types": [
+        "label"
+      ],
+      "value": "Ministerul Educației și Cercetării Științifice"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institutul National de Cercetare si Dezvoltare pentru Fizica Pamantului",
+      "type": "child",
+      "id": "https://ror.org/005m99512"
+    },
+    {
+      "label": "Government of Romania",
+      "type": "parent",
+      "id": "https://ror.org/00e6nys21"
+    },
+    {
+      "label": "Colegiul Consultativ pentru Cercetare-Dezvoltare şi Inovare",
+      "type": "child",
+      "id": "https://ror.org/03mc0m715"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

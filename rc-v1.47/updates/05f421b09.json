@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-05-30",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100007680"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415913.b"
+      ],
+      "preferred": "grid.415913.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0587 8664"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18154728",
+        "Q3334195"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05f421b09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nmrc.navy.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Medical_Research_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NMRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naval Medical Research Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Medical Research Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naval Medical Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Health Research Center",
+      "type": "child",
+      "id": "https://ror.org/01hzj5y23"
+    },
+    {
+      "label": "Naval Medical Research Unit Six",
+      "type": "child",
+      "id": "https://ror.org/02dbwrk72"
+    },
+    {
+      "label": "Naval Submarine Medical Research Laboratory",
+      "type": "child",
+      "id": "https://ror.org/03p1tqc11"
+    },
+    {
+      "label": "United States Navy",
+      "type": "parent",
+      "id": "https://ror.org/03cs53d16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
