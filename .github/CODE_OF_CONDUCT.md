@@ -14,7 +14,7 @@ ROR also upholds the values and guidance outlined in the Codes of Conduct of its
 
 - [Crossref Code of Conduct](https://www.crossref.org/code-of-conduct/)
 - [DataCite Code of Conduct](https://datacite.org/code-of-conduct.html)
-- [UC3 at CDL Code of Conduct](https://www.cdlib.org/uc3/code-of-conduct/)
+- [UC3 at CDL Code of Conduct](https://uc3.cdlib.org/code-of-conduct/)
 
 ## Expectations
 We believe that the following communication practices help make ROR community spaces welcoming, collegial, safe, and productive.
@@ -61,7 +61,7 @@ We will not accept harassment or offensive behavior, and we expect that all comm
 ## How to report a violation
 If someone makes you or anyone else feel unsafe or uncomfortable or otherwise violates this Code of Conduct, we ask you to please bring this to the attention of ROR staff or email the report to community@ror.org or info@ror.org. Reports will be seen by Maria Gould and Amanda French and will be treated privately. 
 
-You may also report violations to any of ROR's three governing organizations following the procedures outlined in the [Crossref Code of Conduct](https://www.crossref.org/code-of-conduct/), the [DataCite Code of Conduct](https://datacite.org/code-of-conduct.html), or the [UC3 at CDL Code of Conduct](https://www.cdlib.org/uc3/code-of-conduct/). 
+You may also report violations to any of ROR's three governing organizations following the procedures outlined in the [Crossref Code of Conduct](https://www.crossref.org/code-of-conduct/), the [DataCite Code of Conduct](https://datacite.org/code-of-conduct.html), or the [UC3 at CDL Code of Conduct](https://uc3.cdlib.org/code-of-conduct/). 
 
 Steps ROR will take: 
 
