@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-03",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463848.5"
+      ],
+      "preferred": "grid.463848.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2155 1811"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0084x3h80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://cral.univ-lyon1.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.69542,
+        "lng": 4.79316,
+        "name": "Saint-Genis-Laval"
+      },
+      "geonames_id": 2979985
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRAL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de Recherche Astrophysique de Lyon"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Centre for Astronomical Reseach of Lyon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lyon Observatory",
+      "type": "child",
+      "id": "https://ror.org/03j307b25"
+    },
+    {
+      "label": "Claude Bernard University Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
