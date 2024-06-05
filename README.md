@@ -36,7 +36,8 @@ Community-based curation means:
 
 # Curation workflow
 Requests submitted via the [feedback form](https://curation-request.ror.org) or by [creating issues](https://github.com/ror-community/ror-updates/issues/new/choose) in this repository go through an initial triage and are added to the [ROR Updates tracker](https://github.com/ror-community/ror-updates/projects/1) for community curators to review. Curators review the requests and decide how they should be processed. Approved requests will end up in the queue for metadata preparation so the changes can be deployed on the ROR production site.  
-![ROR Curation Workflow Outline (1)](https://user-images.githubusercontent.com/45110557/119412383-a4c38b80-bca0-11eb-9caa-81c3f4654949.jpg)
+![ROR Curation Workflow Outline (1)](https://github.com/ror-community/ror-updates/assets/5152876/316d4220-d898-4ad4-b0f0-e94d4a63e816)
+
 
 # Publishing updates to the registry
 The ROR API and data dumps are updated on a rolling basis. Curation requests are reviewed continuously and approved requests are held for deployment in the next release. Completed releases will have detailed [release notes](https://github.com/ror-community/ror-updates/releases) about which records were added and changed.  
