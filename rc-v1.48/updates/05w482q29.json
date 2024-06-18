@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-18",
       "schema_version": "2.0"
     }
   },
@@ -50,15 +50,22 @@
     {
       "lang": "fr",
       "types": [
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Laboratoire d'Anthropologie Moléculaire et Imagerie de Synthèse"
+      "value": "AMIS - Laboratoire d'anthropologie moléculaire et imagerie de synthèse"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'anthropologie moléculaire et imagerie de synthèse"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
       ],
       "value": "Laboratory of Molecular Anthropology and Image Synthesis"
     }
@@ -80,7 +87,7 @@
       "id": "https://ror.org/00pg6eq24"
     }
   ],
-  "status": "active",
+  "status": "inactive",
   "types": [
     "facility"
   ]
