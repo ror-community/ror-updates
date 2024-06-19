@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-03",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -31,7 +31,7 @@
   "links": [
     {
       "type": "website",
-      "value": "http://www-timc.imag.fr/"
+      "value": "https://www.timc.fr"
     }
   ],
   "locations": [
@@ -48,7 +48,28 @@
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire TIMC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Recherche Translationnelle et Innovation en Médecine et Complexité"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "TIMC"
+    },
+    {
+      "lang": "fr",
       "types": [
         "acronym"
       ],
@@ -57,17 +78,24 @@
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "alias"
       ],
       "value": "Techniques de l'Ingénierie Médicale et de la Complexité-Informatique, Mathématiques et Applications de Grenoble"
     },
     {
       "lang": "en",
       "types": [
-        "label"
+        "alias"
       ],
       "value": "Techniques for Biomedical Engineering and Complexity Management–Informatics, Mathematics and Applications Grenoble"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Translational Innovation in Medicine and Complexity"
     }
   ],
   "relationships": [
