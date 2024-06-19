@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -79,19 +79,9 @@
   ],
   "relationships": [
     {
-      "label": "University of Strasbourg",
-      "type": "parent",
-      "id": "https://ror.org/00pg6eq24"
-    },
-    {
-      "label": "French National Centre for Scientific Research",
-      "type": "parent",
-      "id": "https://ror.org/02feahw73"
-    },
-    {
-      "label": "Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES)",
-      "type": "parent",
-      "id": "https://ror.org/02jhjzd11"
+      "label": "Laboratory of Hydrology and Geochemistry",
+      "type": "predecessor",
+      "id": "https://ror.org/03y81da23"
     },
     {
       "label": "Institut National des Sciences de l'Univers",
@@ -99,9 +89,19 @@
       "id": "https://ror.org/04kdfz702"
     },
     {
-      "label": "Laboratory of Hydrology and Geochemistry",
-      "type": "predecessor",
-      "id": "https://ror.org/03y81da23"
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg (ENGEES)",
+      "type": "parent",
+      "id": "https://ror.org/02jhjzd11"
+    },
+    {
+      "label": "École & Observatoire des Sciences de la Terre",
+      "type": "parent",
+      "id": "https://ror.org/030qxve40"
     }
   ],
   "status": "active",

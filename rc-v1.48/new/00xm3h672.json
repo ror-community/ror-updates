@@ -60,7 +60,13 @@
       "value": "NHS England"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NHS Digital",
+      "type": "predecessor",
+      "id": "https://ror.org/03am1eg44"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

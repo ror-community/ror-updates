@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -79,14 +79,24 @@
   ],
   "relationships": [
     {
-      "label": "Délégation Régionale Auvergne-Rhône-Alpes",
+      "label": "Institut National des Sciences de l'Univers",
       "type": "parent",
-      "id": "https://ror.org/0530j9m17"
+      "id": "https://ror.org/04kdfz702"
     },
     {
       "label": "University of Clermont Auvergne",
       "type": "parent",
       "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Laboratoire de Météorologie Physique",
+      "type": "child",
+      "id": "https://ror.org/03gz4y884"
+    },
+    {
+      "label": "Laboratoire Magmas et Volcans",
+      "type": "child",
+      "id": "https://ror.org/02vnq7240"
     }
   ],
   "status": "active",

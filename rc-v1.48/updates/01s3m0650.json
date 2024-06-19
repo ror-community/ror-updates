@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -121,7 +121,13 @@
       "value": "Nalbandyan Institute of Chemical Physics of the National Academy of Sciences of the Republic of Armenia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Sciences of Armenia",
+      "type": "parent",
+      "id": "https://ror.org/04mczx267"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

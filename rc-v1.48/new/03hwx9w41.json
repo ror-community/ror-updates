@@ -48,7 +48,23 @@
       "value": "Oxford University Clinical Research Unit Nepal"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Oxford University Clinical Research Unit",
+      "type": "parent",
+      "id": "https://ror.org/05rehad94"
+    },
+    {
+      "label": "Patan Hospital",
+      "type": "related",
+      "id": "https://ror.org/02vhxx141"
+    },
+    {
+      "label": "Patan Academy of Health Sciences",
+      "type": "related",
+      "id": "https://ror.org/02mphcg88"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

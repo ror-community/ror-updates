@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -65,7 +65,13 @@
       "value": "奈良工業高等専門学校"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/02xqkcw08"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -84,9 +84,19 @@
   ],
   "relationships": [
     {
-      "label": "United States Navy",
+      "label": "NUWC Newport Division",
+      "type": "child",
+      "id": "https://ror.org/00zqysk61"
+    },
+    {
+      "label": "NUWC Keyport Division",
+      "type": "child",
+      "id": "https://ror.org/029519s87"
+    },
+    {
+      "label": "Naval Sea Systems Command",
       "type": "parent",
-      "id": "https://ror.org/03cs53d16"
+      "id": "https://ror.org/03dm1p143"
     }
   ],
   "status": "active",

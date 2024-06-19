@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -94,7 +94,13 @@
       "value": "SIVL"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "IVL Swedish Environmental Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01mbsxc64"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

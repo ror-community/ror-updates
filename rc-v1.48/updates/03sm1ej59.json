@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -79,7 +79,13 @@
       "value": "Kreftregisteret"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Norwegian Institute of Public Health",
+      "type": "parent",
+      "id": "https://ror.org/046nvst19"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

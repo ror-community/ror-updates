@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-06-17",
+      "date": "2024-06-19",
       "schema_version": "2.0"
     }
   },
@@ -72,7 +72,13 @@
       "value": "Ymchwil Iechyd a Gofal Cymru"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institute for Social Care and Health Research",
+      "type": "predecessor",
+      "id": "https://ror.org/008zsd307"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",
