@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ibmc.cnrs.fr"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.465534.5"
+      ],
+      "preferred": "grid.465534.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 0833"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05qpmg879",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ibmc.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBMC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de Biologie Moléculaire et Cellulaire"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute for Molecular and Cellular Biology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Molecular and Cellular Biology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Modèles Insectes de l'Immunité Innée",
+      "type": "child",
+      "id": "https://ror.org/030przz70"
+    },
+    {
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

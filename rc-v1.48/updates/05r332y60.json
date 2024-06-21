@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461861.c"
+      ],
+      "preferred": "grid.461861.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0445 8430"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261319"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05r332y60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www1.montpellier.inra.fr/wp-inra/bpmp/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BPMP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Biochemistry and Plant Molecular Physiology"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Biochimie et Physiologie Moléculaire des Plantes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agropolymerpolymer Engineering and Emerging Technologies",
+      "type": "child",
+      "id": "https://ror.org/0000n5x09"
+    },
+    {
+      "label": "Genetic Improvement and Adaptation of Mediterranean and Tropical Plants",
+      "type": "child",
+      "id": "https://ror.org/02w4exq36"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Institut Agro Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/03rnk6m14"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "University of Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

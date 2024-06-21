@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410529.b"
+      ],
+      "preferred": "grid.410529.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0792 4829"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945764"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041rhpw39",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-grenoble.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Centre_Hospitalier_Universitaire_de_Grenoble"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Grenoble"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Grenoble University Hospital Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Albert Michallon",
+      "type": "child",
+      "id": "https://ror.org/05kfvx519"
+    },
+    {
+      "label": "Hôpital Couple Enfant",
+      "type": "child",
+      "id": "https://ror.org/00dxw4v18"
+    },
+    {
+      "label": "Institut pour l'avancée des biosciences",
+      "type": "child",
+      "id": "https://ror.org/05kwbf598"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "related",
+      "id": "https://ror.org/02rx3b187"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

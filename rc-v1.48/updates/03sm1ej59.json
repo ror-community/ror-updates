@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "kreftregisteret.no"
+  ],
+  "established": 1951,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418941.1"
+      ],
+      "preferred": "grid.418941.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0727 140X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11981944"
+      ],
+      "preferred": "Q11981944",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03sm1ej59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kreftregisteret.no"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NO",
+        "country_name": "Norway",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cancer Registry of Norway"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kreftregisteret"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Norwegian Institute of Public Health",
+      "type": "parent",
+      "id": "https://ror.org/046nvst19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

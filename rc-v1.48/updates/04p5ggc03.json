@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mdc-berlin.de"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419491.0"
+      ],
+      "preferred": "grid.419491.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1014 0849"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1912019"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04p5ggc03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mdc-berlin.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Delbr%C3%BCck_Center_for_Molecular_Medicine_in_the_Helmholtz_Association"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MDC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Max Delbrück Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Max Delbrück Center for Molecular Medicine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Max Delbrück Center for Molecular Medicine in the Helmholtz Association"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Delbrück-Centrum für Molekulare Medizin in der Helmholtz-Gemeinschaft"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

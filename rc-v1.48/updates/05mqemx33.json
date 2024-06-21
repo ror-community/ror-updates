@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463748.a"
+      ],
+      "preferred": "grid.463748.a",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05mqemx33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://latim.univ-brest.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.39029,
+        "lng": -4.48628,
+        "name": "Brest"
+      },
+      "geonames_id": 3030300
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LATIM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Traitement de l'Information Médicale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Medical Information Processing"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Régional Universitaire de Brest",
+      "type": "child",
+      "id": "https://ror.org/03evbwn87"
+    },
+    {
+      "label": "Délégation Régionale Grand Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01qa4rf46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

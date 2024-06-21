@@ -1,0 +1,78 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-06-19",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100014050"
+      ],
+      "preferred": "100014050",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q105169380"
+      ],
+      "preferred": "Q105169380",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003mzyg61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.erdc.usace.army.mil/Locations/CERL/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 32.35265,
+        "lng": -90.87788,
+        "name": "Vicksburg"
+      },
+      "geonames_id": 4449620
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CERLen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Construction Engineering Research Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Engineer Research and Development Center",
+      "type": "parent",
+      "id": "https://ror.org/027mhn368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

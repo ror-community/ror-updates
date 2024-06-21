@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2171 8239"
+      ],
+      "preferred": "0000 0001 2171 8239",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3577986"
+      ],
+      "preferred": "Q3577986",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030qxve40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://eost.unistra.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "EOST"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ecole et Observatoire des Sciences de la Terre"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU EOST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Universe Sciences Observatory EOST"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École & Observatoire des Sciences de la Terre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Institut Terre & Environnement de Strasbourg",
+      "type": "child",
+      "id": "https://ror.org/0530qwm02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "facility"
+  ]
+}

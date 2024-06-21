@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.511001.4"
+      ],
+      "preferred": "grid.511001.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/02f9r3321",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://vaccine-research-institute.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.79266,
+        "lng": 2.46569,
+        "name": "Créteil"
+      },
+      "geonames_id": 3022530
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de Recherche Vaccinale"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Vaccine Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agence Nationale de Recherches sur le Sida et les Hépatites Virales",
+      "type": "parent",
+      "id": "https://ror.org/01kv58h76"
+    },
+    {
+      "label": "Université Paris-Est Créteil",
+      "type": "parent",
+      "id": "https://ror.org/05ggc9x40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

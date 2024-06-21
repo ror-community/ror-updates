@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100010216",
+        "100010219"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419846.6"
+      ],
+      "preferred": "grid.419846.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2203 7603"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981964"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bnxa153",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navsea.navy.mil/Home/Warfare-Centers/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Undersea_Warfare_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.4901,
+        "lng": -71.31283,
+        "name": "Newport"
+      },
+      "geonames_id": 5223593
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NUWC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Undersea Warfare Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NUWC Newport Division",
+      "type": "child",
+      "id": "https://ror.org/00zqysk61"
+    },
+    {
+      "label": "NUWC Keyport Division",
+      "type": "child",
+      "id": "https://ror.org/029519s87"
+    },
+    {
+      "label": "Naval Sea Systems Command",
+      "type": "parent",
+      "id": "https://ror.org/03dm1p143"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-06-19",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "tsa.gov"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100013159"
+      ],
+      "preferred": "100013159",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0405 9085"
+      ],
+      "preferred": "0000 0004 0405 9085",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2304163"
+      ],
+      "preferred": "Q2304163",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qa2gd95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tsa.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TSA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Transportation Security Administration"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Transportation Security Administration"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Transportation Security Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Homeland Security",
+      "type": "parent",
+      "id": "https://ror.org/00jyr0d86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462725.0"
+      ],
+      "preferred": "grid.462725.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 5428"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03z69yv22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://inserm-umr991.univ-rennes1.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Foie, Métabolisme, Cancer"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Liver, Metabolisms and Cancer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "University of Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466376.6"
+      ],
+      "preferred": "grid.466376.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0617 2428"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578181"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jq57122",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nantes.archi.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSA Nantes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Architecture de Nantes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "AAU - Ambiances, Architectures, Urbanités",
+      "type": "child",
+      "id": "https://ror.org/05hz99a17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2153 2856"
+      ],
+      "preferred": "0000 0001 2153 2856",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782452"
+      ],
+      "preferred": "Q51782452",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0009eec40",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lling.univ-nantes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LLING"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Linguistique de Nantes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

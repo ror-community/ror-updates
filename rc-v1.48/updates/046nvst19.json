@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1929,
+  "external_ids": [
+    {
+      "all": [
+        "501100021078"
+      ],
+      "preferred": "501100021078",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418193.6"
+      ],
+      "preferred": "grid.418193.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1541 4204"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7061149"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/046nvst19",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fhi.no/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Norwegian_Institute_of_Public_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NO",
+        "country_name": "Norway",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Folkehelseinstituttet"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIPH"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "label"
+      ],
+      "value": "Nasjonalt folkehelseinstitutt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Norwegian Institute of Public Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health and Care Services",
+      "type": "parent",
+      "id": "https://ror.org/05ykb3m36"
+    },
+    {
+      "label": "Cancer Registry of Norway",
+      "type": "child",
+      "id": "https://ror.org/03sm1ej59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1119,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412220.7"
+      ],
+      "preferred": "grid.412220.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2177 138X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04bckew43",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chru-strasbourg.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpitaux Universitaires de Strasbourg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital of Strasbourg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Civil, Strasbourg",
+      "type": "child",
+      "id": "https://ror.org/05fkq4848"
+    },
+    {
+      "label": "Hôpital d'Hautepierre",
+      "type": "child",
+      "id": "https://ror.org/04e1w6923"
+    },
+    {
+      "label": "Université de Strasbourg",
+      "type": "related",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "ERN EYE",
+      "type": "related",
+      "id": "https://ror.org/029nm1m14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1506,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411766.3"
+      ],
+      "preferred": "grid.411766.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0472 3249"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03evbwn87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-brest.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.39029,
+        "lng": -4.48628,
+        "name": "Brest"
+      },
+      "geonames_id": 3030300
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHRU de Brest"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Régional Universitaire de Brest"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Universitaire de Brest"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Génétique, Génomique Fonctionnelle et Biotechnologies",
+      "type": "child",
+      "id": "https://ror.org/05xxb2f26"
+    },
+    {
+      "label": "Laboratoire de Traitement de l'Information Médicale",
+      "type": "parent",
+      "id": "https://ror.org/05mqemx33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462755.7"
+      ],
+      "preferred": "grid.462755.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9277 3238"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05hyx5a17",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.g2elab.grenoble-inp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "G2ELab"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Génie Électrique de Grenoble"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut polytechnique de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

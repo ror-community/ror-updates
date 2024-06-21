@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503348.9"
+      ],
+      "preferred": "grid.503348.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0620 5541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51780760"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03bbjky47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://carmen.univ-lyon1.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.71404,
+        "lng": 4.80755,
+        "name": "Oullins"
+      },
+      "geonames_id": 2988998
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CarMeN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire CarMeN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire de Recherche en Cardiovasculaire, Métabolisme, Diabétologie et Nutrition"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Institut National des Sciences Appliquées de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/050jn9y42"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

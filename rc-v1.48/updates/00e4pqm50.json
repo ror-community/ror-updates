@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463861.e"
+      ],
+      "preferred": "grid.463861.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8863 9896"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00e4pqm50",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://geolab.univ-bpclermont.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GEOLAB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Géographie Physique et Environnementale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "University of Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Université de Limoges",
+      "type": "parent",
+      "id": "https://ror.org/02cp04407"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

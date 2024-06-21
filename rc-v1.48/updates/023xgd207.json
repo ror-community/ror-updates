@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1867,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411430.3"
+      ],
+      "preferred": "grid.411430.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0288 2594"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945675"
+      ],
+      "preferred": "Q2945675",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/023xgd207",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-lyon.fr/hopital-lyon-sud"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.70359,
+        "lng": 4.82424,
+        "name": "Pierre-Bénite"
+      },
+      "geonames_id": 2987314
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHLS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Lyon Sud"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Lyon Sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospices Civils de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/01502ca60"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "related",
+      "id": "https://ror.org/029brtt94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

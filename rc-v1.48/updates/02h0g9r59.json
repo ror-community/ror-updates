@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100013946"
+      ],
+      "preferred": "501100013946",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464190.e"
+      ],
+      "preferred": "grid.464190.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 6175"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02h0g9r59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utinam.cnrs.fr/?lang=fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.24878,
+        "lng": 6.01815,
+        "name": "Besançon"
+      },
+      "geonames_id": 3033123
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut UTINAM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Université de franche-comté",
+      "type": "parent",
+      "id": "https://ror.org/03pcc9z86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

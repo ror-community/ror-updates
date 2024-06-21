@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100007393",
+        "501100004923",
+        "100013465"
+      ],
+      "preferred": "100007393",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453087.d"
+      ],
+      "preferred": "grid.453087.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8578 3614"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0162y2387",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.afm-telethon.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.74607,
+        "lng": 2.35275,
+        "name": "Rungis"
+      },
+      "geonames_id": 2982146
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AFM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "AFM-Téléthon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Association Francaise contre les Myopathies"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "French Muscular Dystrophy Association"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gene Therapy Laboratory",
+      "type": "child",
+      "id": "https://ror.org/008rwh029"
+    },
+    {
+      "label": "Institut des Maladies Génétiques Imagine",
+      "type": "child",
+      "id": "https://ror.org/05rq3rb55"
+    },
+    {
+      "label": "Institut des Cellules Souches pour le Traitement et l'Étude des Maladies Monogéniques",
+      "type": "child",
+      "id": "https://ror.org/04g9rt435"
+    },
+    {
+      "label": "Institut de Myologie",
+      "type": "child",
+      "id": "https://ror.org/0270xt841"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

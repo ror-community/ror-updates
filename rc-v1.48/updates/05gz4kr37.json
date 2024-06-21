@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1881,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463752.1"
+      ],
+      "preferred": "grid.463752.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2369 4306"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2013017"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gz4kr37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.obs-banyuls.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Observatoire_oc%C3%A9anologique_de_Banyuls-sur-Mer"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 42.4818,
+        "lng": 3.1283,
+        "name": "Banyuls-sur-Mer"
+      },
+      "geonames_id": 6618454
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire Arago"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OOB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire Océanologique de Banyuls-sur-Mer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Ecogéochimie des Environnements Benthiques",
+      "type": "child",
+      "id": "https://ror.org/049xh5y45"
+    },
+    {
+      "label": "Biologie Intégrative des Organismes Marins",
+      "type": "child",
+      "id": "https://ror.org/03wg93s13"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "European Marine Biological Resource Centre",
+      "type": "related",
+      "id": "https://ror.org/0038zss60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

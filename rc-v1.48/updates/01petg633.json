@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "msh-lorraine.fr"
+  ],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463746.4"
+      ],
+      "preferred": "grid.463746.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2191 9655"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01petg633",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://msh-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "name": "Nancy"
+      },
+      "geonames_id": 2990999
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lorraine Institute for Social Sciences and Humanities"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSH"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "MSH Lorraine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Maison des sciences de l'homme Lorraine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

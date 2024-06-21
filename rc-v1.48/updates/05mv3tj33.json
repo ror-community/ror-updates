@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464193.d"
+      ],
+      "preferred": "grid.464193.d",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05mv3tj33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://osur.univ-reunion.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "RE",
+        "country_name": "Réunion",
+        "lat": -20.88231,
+        "lng": 55.4504,
+        "name": "Saint-Denis"
+      },
+      "geonames_id": 935264
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU-R"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "OSU-Réunion"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire des Sciences de l'Univers de la Réunion"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Universe Sciences Observatory of la Réunion Island"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "University of Reunion Island",
+      "type": "parent",
+      "id": "https://ror.org/005ypkf75"
+    },
+    {
+      "label": "Laboratoire de l'Atmosphère et des Cyclones",
+      "type": "child",
+      "id": "https://ror.org/03wsemq03"
+    },
+    {
+      "label": "Météo-France",
+      "type": "parent",
+      "id": "https://ror.org/0233st365"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05q3vnk25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

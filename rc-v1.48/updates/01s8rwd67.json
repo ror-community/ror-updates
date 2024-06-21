@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457381.c"
+      ],
+      "preferred": "grid.457381.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 6194"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01s8rwd67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.paca.inserm.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Régionale Provence-Alpes-Côte d’Azur et Corse"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm DR Paca et Corse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Economic & Social Sciences, Health Systems & Medical Informatics",
+      "type": "child",
+      "id": "https://ror.org/0508wny29"
+    },
+    {
+      "label": "Unité de Neurobiologie des canaux Ioniques et de la Synapse",
+      "type": "child",
+      "id": "https://ror.org/04d3p2m17"
+    },
+    {
+      "label": "Génétique Médicale & Génomique Fonctionelle",
+      "type": "child",
+      "id": "https://ror.org/04fc8dp24"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

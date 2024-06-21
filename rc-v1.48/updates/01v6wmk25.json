@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460202.2"
+      ],
+      "preferred": "grid.460202.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30260881"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01v6wmk25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/centres/bretagne-normandie/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Bretagne-Normandie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Physiologie Environnement et Génétique pour l'Animal et les Systèmes d'Elevage",
+      "type": "child",
+      "id": "https://ror.org/00mg8nf58"
+    },
+    {
+      "label": "Laboratoire Science & technologie du Lait & de l'œuf",
+      "type": "child",
+      "id": "https://ror.org/03whgj090"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1878,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482893.c"
+      ],
+      "preferred": "grid.482893.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1507 9856"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3348374"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03j307b25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://observatoire.univ-lyon1.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lyon_Observatory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "Lyon Observatory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU OSUL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Observatoire de Lyon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche Astrophysique de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/0084x3h80"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    },
+    {
+      "label": "Laboratoire de Géologie de Lyon : Terre, Planètes et Environnement",
+      "type": "child",
+      "id": "https://ror.org/04t89f389"
+    },
+    {
+      "label": "Centre de Recherche Astrophysique de Lyon",
+      "type": "child",
+      "id": "https://ror.org/0084x3h80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "facility"
+  ]
+}

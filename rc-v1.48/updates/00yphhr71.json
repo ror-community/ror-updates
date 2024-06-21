@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1924,
+  "external_ids": [
+    {
+      "all": [
+        "501100013944"
+      ],
+      "preferred": "501100013944",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452436.2"
+      ],
+      "preferred": "grid.452436.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8775 4825"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00yphhr71",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.icl-lorraine.fr/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.66115,
+        "lng": 6.17114,
+        "name": "Vandœuvre-lès-Nancy"
+      },
+      "geonames_id": 2970797
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Cancérologie de Lorraine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche en Automatique de Nancy",
+      "type": "child",
+      "id": "https://ror.org/022r5hc56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

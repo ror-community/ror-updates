@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503112.4"
+      ],
+      "preferred": "grid.503112.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9644 2671"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782448"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016wdna72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://crestic.univ-reims.fr/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 49.26526,
+        "lng": 4.02853,
+        "name": "Reims"
+      },
+      "geonames_id": 2984114
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CReSTIC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Recherche en STIC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de Recherche en Sciences et Technologies de l'Information et de la Communication"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "STIC Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Régionale Est",
+      "type": "parent",
+      "id": "https://ror.org/04kv7c795"
+    },
+    {
+      "label": "Université de Reims Champagne-Ardenne",
+      "type": "parent",
+      "id": "https://ror.org/03hypw319"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

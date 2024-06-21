@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424661.3"
+      ],
+      "preferred": "grid.424661.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2173 3068"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05y503v71",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.inra.org.ma/accueil1.asp?codelangue=23&po=2"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_national_de_la_recherche_agronomique"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "lat": 34.01325,
+        "lng": -6.83255,
+        "name": "Rabat"
+      },
+      "geonames_id": 2538475
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INRA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut National de la Recherche Agronomique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Chrono-Environnement",
+      "type": "child",
+      "id": "https://ror.org/028cef883"
+    },
+    {
+      "label": "GEVES",
+      "type": "child",
+      "id": "https://ror.org/056ms9a36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

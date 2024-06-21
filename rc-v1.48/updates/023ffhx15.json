@@ -1,0 +1,75 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464022.6"
+      ],
+      "preferred": "grid.464022.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0110 3210"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/023ffhx15",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://roberval.utc.fr/?lang=fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 49.41794,
+        "lng": 2.82606,
+        "name": "Compiègne"
+      },
+      "geonames_id": 3024066
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Roberval"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Technologie de Compiègne",
+      "type": "parent",
+      "id": "https://ror.org/04y5kwa70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

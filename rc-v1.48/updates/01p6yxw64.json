@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503207.3"
+      ],
+      "preferred": "grid.503207.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4657 8318"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3117819"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01p6yxw64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.groupe-genes.fr/en/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GENES"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Groupe des Écoles Nationales d'Économie et Statistique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche en Économie et Statistique",
+      "type": "child",
+      "id": "https://ror.org/0449khs19"
+    },
+    {
+      "label": "École Nationale de la Statistique et de l'Administration Économique",
+      "type": "child",
+      "id": "https://ror.org/01fz7mn40"
+    },
+    {
+      "label": "École Nationale de la Statistique et de l'Analyse de l'Information",
+      "type": "child",
+      "id": "https://ror.org/00k206f19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

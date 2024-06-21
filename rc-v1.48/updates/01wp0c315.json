@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "501100004571",
+        "501100006022",
+        "501100014630",
+        "501100009243"
+      ],
+      "preferred": "501100014630",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418199.c"
+      ],
+      "preferred": "grid.418199.c",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01wp0c315",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://solidarites-sante.gouv.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère des Affaires Sociales et de la Santé"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministère des Solidarités et de la Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gouvernement de la République française",
+      "type": "parent",
+      "id": "https://ror.org/0172v8z89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

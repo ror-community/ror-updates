@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463720.4"
+      ],
+      "preferred": "grid.463720.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 5500"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05wqg4606",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lpa.ens.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire Pierre Aigrain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pierre Aigrain Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire de Physique de l'ENS",
+      "type": "successor",
+      "id": "https://ror.org/03a26mh11"
+    }
+  ],
+  "status": "withdrawn",
+  "types": [
+    "facility"
+  ]
+}

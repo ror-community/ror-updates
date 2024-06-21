@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1802,
+  "external_ids": [
+    {
+      "all": [
+        "501100003023"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453357.3"
+      ],
+      "preferred": "grid.453357.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1230 1204"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2572330"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xp49e10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.education.gouv.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_National_Education_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Minister of National Education Youth and Sport"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministere de l'Education Nationale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of National Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre d'Études et de Recherches sur les Qualifications",
+      "type": "child",
+      "id": "https://ror.org/03hv4y553"
+    },
+    {
+      "label": "Institut Français d'Archéologie Orientale",
+      "type": "child",
+      "id": "https://ror.org/055pd2p26"
+    },
+    {
+      "label": "Gouvernement de la République française",
+      "type": "parent",
+      "id": "https://ror.org/0172v8z89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

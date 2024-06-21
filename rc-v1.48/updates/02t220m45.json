@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457022.6"
+      ],
+      "preferred": "grid.457022.6",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/02t220m45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bretagne-pays-de-la-loire.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DR17"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Bretagne et Pays de la Loire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Recherche Dupuy de Lôme",
+      "type": "child",
+      "id": "https://ror.org/03011gg73"
+    },
+    {
+      "label": "Laboratoire des Sciences du Numérique de Nantes",
+      "type": "child",
+      "id": "https://ror.org/02snf8m58"
+    },
+    {
+      "label": "Direction Générale Déléguée aux Ressources",
+      "type": "parent",
+      "id": "https://ror.org/03yz3tz18"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

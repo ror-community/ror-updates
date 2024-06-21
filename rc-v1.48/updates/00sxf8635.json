@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-08",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0648 1001"
+      ],
+      "preferred": "0000 0004 0648 1001",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981961"
+      ],
+      "preferred": "Q6981961",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00sxf8635",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Port-Hueneme/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Surface_Warfare_Center_Port_Hueneme"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.14778,
+        "lng": -119.19511,
+        "name": "Port Hueneme"
+      },
+      "geonames_id": 5384339
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSWC PHD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NSWC Port Hueneme"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NSWC Port Hueneme Division"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naval Surface Warfare Center Port Hueneme Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Surface Warfare Center",
+      "type": "parent",
+      "id": "https://ror.org/03d4ecn10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

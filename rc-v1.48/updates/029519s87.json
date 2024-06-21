@@ -1,0 +1,78 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-08",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0522 1099"
+      ],
+      "preferred": "0000 0004 0522 1099",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/029519s87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navsea.navy.mil/Home/Warfare-Centers/NUWC-Keyport/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 47.70204,
+        "lng": -122.62098,
+        "name": "Keyport"
+      },
+      "geonames_id": 5799696
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NUWC Keyport"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NUWC Keyport Division"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naval Undersea Warfare Center Keyport Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Undersea Warfare Center",
+      "type": "parent",
+      "id": "https://ror.org/04bnxa153"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

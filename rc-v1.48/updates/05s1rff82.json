@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462804.c"
+      ],
+      "preferred": "grid.462804.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0387 2525"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261561"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05s1rff82",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.dijon.inra.fr/csga/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSGA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre des Sciences du Goût et de l'Alimentation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Agro Dijon",
+      "type": "parent",
+      "id": "https://ror.org/03zek0r74"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université de Bourgogne",
+      "type": "parent",
+      "id": "https://ror.org/03k1bsr36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

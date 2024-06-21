@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.474428.9"
+      ],
+      "preferred": "grid.474428.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2176 6943"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981958",
+        "Q5038292"
+      ],
+      "preferred": "Q6981958",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03d4ecn10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navsea.navy.mil/Home/Warfare-Centers/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Surface_Warfare_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSWC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Surface Warfare Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Sea Systems Command",
+      "type": "parent",
+      "id": "https://ror.org/03dm1p143"
+    },
+    {
+      "label": "NSWC Carderock Division",
+      "type": "child",
+      "id": "https://ror.org/03jsbvj12"
+    },
+    {
+      "label": "NSWC Corona Division",
+      "type": "child",
+      "id": "https://ror.org/04q54n515"
+    },
+    {
+      "label": "NSWC Crane Division",
+      "type": "child",
+      "id": "https://ror.org/04mfmy854"
+    },
+    {
+      "label": "NSWC Dahlgren Division",
+      "type": "child",
+      "id": "https://ror.org/04yrq0159"
+    },
+    {
+      "label": "NSWC Indian Head",
+      "type": "child",
+      "id": "https://ror.org/012ba0982"
+    },
+    {
+      "label": "NSWC Panama City Division",
+      "type": "child",
+      "id": "https://ror.org/03tbm7598"
+    },
+    {
+      "label": "NSWC Philadelphia Division",
+      "type": "child",
+      "id": "https://ror.org/0502xk698"
+    },
+    {
+      "label": "NSWC Port Hueneme Division",
+      "type": "child",
+      "id": "https://ror.org/00sxf8635"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

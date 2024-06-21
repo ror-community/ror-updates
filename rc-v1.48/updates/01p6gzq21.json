@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "501100011873"
+      ],
+      "preferred": "501100011873",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.509791.3"
+      ],
+      "preferred": "grid.509791.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9593 7568"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6467316"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01p6gzq21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lnls.cnpem.br/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "lat": -22.90556,
+        "lng": -47.06083,
+        "name": "Campinas"
+      },
+      "geonames_id": 3467865
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brazilian Synchrotron Light Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LNLS"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratório Nacional de Luz Síncrotron"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Brazilian Center for Research in Energy and Materials",
+      "type": "parent",
+      "id": "https://ror.org/05m235j20"
+    },
+    {
+      "label": "Sirius",
+      "type": "child",
+      "id": "https://ror.org/0451nna70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

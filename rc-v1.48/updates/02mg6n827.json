@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457348.9"
+      ],
+      "preferred": "grid.457348.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0630 1517"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2931224"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mg6n827",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://portail.cea.fr/Pages/le-cea/les-centres-cea/grenoble.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CEA Grenoble"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CENG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre d'Études Nucléaires de Grenoble"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Economie Appliquée de Grenoble",
+      "type": "child",
+      "id": "https://ror.org/00fwjkb59"
+    },
+    {
+      "label": "Laboratoire des Technologies de la Microélectronique",
+      "type": "child",
+      "id": "https://ror.org/036zswm25"
+    },
+    {
+      "label": "Atomic Energy and Alternative Energies Commission",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

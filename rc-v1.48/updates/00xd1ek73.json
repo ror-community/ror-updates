@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463926.c"
+      ],
+      "preferred": "grid.463926.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 9755"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262303"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xd1ek73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://portail.polytechnique.edu/lms/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LMS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire Mécanique des Solides"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Solids Mechanic Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "École Nationale Supérieure des Mines de Paris",
+      "type": "parent",
+      "id": "https://ror.org/04y8cs423"
+    },
+    {
+      "label": "École Polytechnique",
+      "type": "parent",
+      "id": "https://ror.org/05hy3tk52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

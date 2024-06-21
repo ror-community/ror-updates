@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "100000180",
+        "100008287",
+        "100006467"
+      ],
+      "preferred": "100000180",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.433574.2"
+      ],
+      "preferred": "grid.433574.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2214 8194"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11231"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00jyr0d86",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dhs.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Seguridad Nacional de los Estados Unidos"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of Homeland Security"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Domestic Nuclear Detection Office",
+      "type": "child",
+      "id": "https://ror.org/01y5va805"
+    },
+    {
+      "label": "Federal Emergency Management Agency",
+      "type": "child",
+      "id": "https://ror.org/01g9x3v85"
+    },
+    {
+      "label": "United States Coast Guard",
+      "type": "child",
+      "id": "https://ror.org/00zyc7969"
+    },
+    {
+      "label": "United States Customs and Border Protection",
+      "type": "child",
+      "id": "https://ror.org/02bq0x116"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    },
+    {
+      "label": "Transportation Security Administration",
+      "type": "child",
+      "id": "https://ror.org/04qa2gd95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

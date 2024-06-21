@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-06-20",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463769.9"
+      ],
+      "preferred": "grid.463769.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 3561"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/059eam965",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://labtau.univ-lyon1.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LabTAU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire des applications Thérapeutiques des Ultrasons"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory of Therapeutic Applications of Ultrasound"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Léon Bérard",
+      "type": "parent",
+      "id": "https://ror.org/01cmnjq37"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Délégation Régionale Auvergne-Rhône-Alpes",
+      "type": "parent",
+      "id": "https://ror.org/0530j9m17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
