@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-03",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100006364"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.455095.8"
+      ],
+      "preferred": "grid.455095.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2189 059X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152443"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03m8vkq32",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.e-cancer.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.83545,
+        "lng": 2.24128,
+        "name": "Boulogne-Billancourt"
+      },
+      "geonames_id": 3031137
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "French National Cancer Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut National du Cancer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cancéropôle Est",
+      "type": "child",
+      "id": "https://ror.org/0050w9p71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}
