@@ -5,37 +5,42 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-03",
+      "date": "2024-07-07",
       "schema_version": "2.0"
     }
   },
-  "domains": [],
-  "established": 2012,
+  "domains": [
+    "franceparkinson.fr"
+  ],
+  "established": 1984,
   "external_ids": [
     {
       "all": [
-        "grid.460792.e"
+        "501100008211"
       ],
-      "preferred": "grid.460792.e",
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.478229.2"
+      ],
+      "preferred": "grid.478229.2",
       "type": "grid"
     },
     {
       "all": [
-        "Q3247880"
+        "0000 0004 0455 6073"
       ],
       "preferred": null,
-      "type": "wikidata"
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/0033vhx30",
+  "id": "https://ror.org/03egfjv78",
   "links": [
     {
       "type": "website",
-      "value": "http://www.universiteparisseine.fr/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/University_of_Paris-Seine"
+      "value": "https://www.franceparkinson.fr"
     }
   ],
   "locations": [
@@ -43,20 +48,20 @@
       "geonames_details": {
         "country_code": "FR",
         "country_name": "France",
-        "lat": 49.03645,
-        "lng": 2.07613,
-        "name": "Cergy"
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 3027883
+      "geonames_id": 2988507
     }
   ],
   "names": [
     {
-      "lang": "en",
+      "lang": "fr",
       "types": [
-        "label"
+        "alias"
       ],
-      "value": "University of Paris-Seine"
+      "value": "Association France Parkinson"
     },
     {
       "lang": "fr",
@@ -64,12 +69,13 @@
         "label",
         "ror_display"
       ],
-      "value": "Université Paris-Seine"
+      "value": "France Parkinson"
     }
   ],
   "relationships": [],
-  "status": "inactive",
+  "status": "active",
   "types": [
-    "education"
+    "funder",
+    "other"
   ]
 }

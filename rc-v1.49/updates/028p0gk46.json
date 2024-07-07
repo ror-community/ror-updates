@@ -5,37 +5,33 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-03",
+      "date": "2024-07-07",
       "schema_version": "2.0"
     }
   },
   "domains": [],
-  "established": 2012,
+  "established": null,
   "external_ids": [
     {
       "all": [
-        "grid.460792.e"
+        "grid.482791.1"
       ],
-      "preferred": "grid.460792.e",
+      "preferred": "grid.482791.1",
       "type": "grid"
     },
     {
       "all": [
-        "Q3247880"
+        "0000 0004 0643 8521"
       ],
       "preferred": null,
-      "type": "wikidata"
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/0033vhx30",
+  "id": "https://ror.org/028p0gk46",
   "links": [
     {
       "type": "website",
-      "value": "http://www.universiteparisseine.fr/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/University_of_Paris-Seine"
+      "value": "https://hopital-prive-des-peupliers-paris.ramsaysante.fr"
     }
   ],
   "locations": [
@@ -43,20 +39,20 @@
       "geonames_details": {
         "country_code": "FR",
         "country_name": "France",
-        "lat": 49.03645,
-        "lng": 2.07613,
-        "name": "Cergy"
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 3027883
+      "geonames_id": 2988507
     }
   ],
   "names": [
     {
       "lang": "en",
       "types": [
-        "label"
+        "alias"
       ],
-      "value": "University of Paris-Seine"
+      "value": "Private Hospital Of The Peupliers"
     },
     {
       "lang": "fr",
@@ -64,12 +60,12 @@
         "label",
         "ror_display"
       ],
-      "value": "Université Paris-Seine"
+      "value": "Ramsay Santé Hôpital privé des Peupliers"
     }
   ],
   "relationships": [],
-  "status": "inactive",
+  "status": "active",
   "types": [
-    "education"
+    "healthcare"
   ]
 }

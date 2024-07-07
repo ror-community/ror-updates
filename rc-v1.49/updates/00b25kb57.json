@@ -5,37 +5,39 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-03",
+      "date": "2024-07-07",
       "schema_version": "2.0"
     }
   },
-  "domains": [],
-  "established": 2012,
+  "domains": [
+    "edpsciences.org"
+  ],
+  "established": 1920,
   "external_ids": [
     {
       "all": [
-        "grid.460792.e"
+        "grid.473214.7"
       ],
-      "preferred": "grid.460792.e",
+      "preferred": "grid.473214.7",
       "type": "grid"
     },
     {
       "all": [
-        "Q3247880"
+        "0000 0001 1135 5331"
       ],
       "preferred": null,
-      "type": "wikidata"
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/0033vhx30",
+  "id": "https://ror.org/00b25kb57",
   "links": [
     {
       "type": "website",
-      "value": "http://www.universiteparisseine.fr/"
+      "value": "https://publications.edpsciences.org"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/University_of_Paris-Seine"
+      "value": "https://en.wikipedia.org/wiki/EDP_Sciences"
     }
   ],
   "locations": [
@@ -43,33 +45,33 @@
       "geonames_details": {
         "country_code": "FR",
         "country_name": "France",
-        "lat": 49.03645,
-        "lng": 2.07613,
-        "name": "Cergy"
+        "lat": 48.68167,
+        "lng": 2.16944,
+        "name": "Les Ulis"
       },
-      "geonames_id": 3027883
+      "geonames_id": 6615536
     }
   ],
   "names": [
-    {
-      "lang": "en",
-      "types": [
-        "label"
-      ],
-      "value": "University of Paris-Seine"
-    },
     {
       "lang": "fr",
       "types": [
         "label",
         "ror_display"
       ],
-      "value": "Université Paris-Seine"
+      "value": "EDP Sciences"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Édition Diffusion Presse Sciences"
     }
   ],
   "relationships": [],
-  "status": "inactive",
+  "status": "active",
   "types": [
-    "education"
+    "other"
   ]
 }

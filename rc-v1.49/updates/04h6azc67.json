@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-07",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "textron.com"
+  ],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "grid.431960.9"
+      ],
+      "preferred": "grid.431960.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0625 6494"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2140315"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04h6azc67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.textron.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Textron"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.82399,
+        "lng": -71.41283,
+        "name": "Providence"
+      },
+      "geonames_id": 5224151
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Special Yarns"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label"
+      ],
+      "value": "Textron"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Textron (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Textron Systems (Germany)",
+      "type": "child",
+      "id": "https://ror.org/02fw8mx86"
+    },
+    {
+      "label": "Textron Systems (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/04y75v050"
+    },
+    {
+      "label": "Avco (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/04neq5659"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

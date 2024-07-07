@@ -1,32 +1,37 @@
 {
   "admin": {
     "created": {
-      "date": "2024-06-19",
-      "schema_version": "2.0"
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
     "last_modified": {
       "date": "2024-07-07",
       "schema_version": "2.0"
     }
   },
-  "domains": [
-    "bge-lab.fr"
-  ],
-  "established": 2023,
+  "domains": [],
+  "established": 2006,
   "external_ids": [
     {
       "all": [
-        "Q126839579"
+        "grid.462682.c"
       ],
-      "preferred": "Q126839579",
-      "type": "wikidata"
+      "preferred": "grid.462682.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 0515"
+      ],
+      "preferred": null,
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/039j4x695",
+  "id": "https://ror.org/010rs2a38",
   "links": [
     {
       "type": "website",
-      "value": "https://www.bge-lab.fr"
+      "value": "https://dcm.univ-grenoble-alpes.fr/departement-chimie-moleculaire"
     }
   ],
   "locations": [
@@ -43,37 +48,37 @@
   ],
   "names": [
     {
-      "lang": "fr",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "BGE"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Biosciences and Bioengineering for Health Laboratory"
+      "value": "DCM"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "alias"
       ],
-      "value": "Laboratoire Biosciences et bioingénierie pour la Santé"
+      "value": "DCM Grenoble"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Département de Chimie Moléculaire"
     }
   ],
   "relationships": [
     {
-      "label": "Université Grenoble Alpes",
+      "label": "Institut de Chimie",
       "type": "parent",
-      "id": "https://ror.org/02rx3b187"
+      "id": "https://ror.org/02cte4b68"
     }
   ],
   "status": "active",
   "types": [
-    "education"
+    "facility"
   ]
 }

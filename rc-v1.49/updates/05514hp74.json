@@ -1,32 +1,30 @@
 {
   "admin": {
     "created": {
-      "date": "2024-06-19",
-      "schema_version": "2.0"
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
     "last_modified": {
       "date": "2024-07-07",
       "schema_version": "2.0"
     }
   },
-  "domains": [
-    "bge-lab.fr"
-  ],
-  "established": 2023,
+  "domains": [],
+  "established": null,
   "external_ids": [
     {
       "all": [
-        "Q126839579"
+        "grid.488484.c"
       ],
-      "preferred": "Q126839579",
-      "type": "wikidata"
+      "preferred": "grid.488484.c",
+      "type": "grid"
     }
   ],
-  "id": "https://ror.org/039j4x695",
+  "id": "https://ror.org/05514hp74",
   "links": [
     {
       "type": "website",
-      "value": "https://www.bge-lab.fr"
+      "value": "https://lbfa.univ-grenoble-alpes.fr"
     }
   ],
   "locations": [
@@ -43,37 +41,37 @@
   ],
   "names": [
     {
-      "lang": "fr",
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "BGE"
+      "value": "LBFA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire Bioénergétique Fondamentale et Appliquée"
     },
     {
       "lang": "en",
       "types": [
-        "alias"
-      ],
-      "value": "Biosciences and Bioengineering for Health Laboratory"
-    },
-    {
-      "lang": "fr",
-      "types": [
         "label",
         "ror_display"
       ],
-      "value": "Laboratoire Biosciences et bioingénierie pour la Santé"
+      "value": "Laboratory of Fundamental and Applied Bioenergetics"
     }
   ],
   "relationships": [
     {
-      "label": "Université Grenoble Alpes",
+      "label": "Délégation Alpes",
       "type": "parent",
-      "id": "https://ror.org/02rx3b187"
+      "id": "https://ror.org/04px4e658"
     }
   ],
   "status": "active",
   "types": [
-    "education"
+    "facility"
   ]
 }
