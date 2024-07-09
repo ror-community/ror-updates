@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -82,7 +82,13 @@
       "value": "University of Minnesota Supercomputing Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Minnesota System",
+      "type": "parent",
+      "id": "https://ror.org/03grvy078"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

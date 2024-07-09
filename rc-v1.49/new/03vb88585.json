@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -70,7 +70,13 @@
       "value": "Abbott Diabetes Care (United States)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Abbott (United States)",
+      "type": "parent",
+      "id": "https://ror.org/0052svj16"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

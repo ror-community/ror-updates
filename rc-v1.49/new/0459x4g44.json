@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,18 @@
       "value": "Hypoxie et Physiopathologies cardiovasculaires et respiratoires"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

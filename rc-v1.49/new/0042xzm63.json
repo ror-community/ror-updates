@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,33 @@
       "value": "RESTORE Science Program"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA National Ocean Service",
+      "type": "parent",
+      "id": "https://ror.org/02k4h0334"
+    },
+    {
+      "label": "NOAA National Centers for Coastal Ocean Science",
+      "type": "parent",
+      "id": "https://ror.org/05ba43f71"
+    },
+    {
+      "label": "United States Fish and Wildlife Service",
+      "type": "related",
+      "id": "https://ror.org/04k7dar27"
+    },
+    {
+      "label": "Gulf States Marine Fisheries Commission",
+      "type": "related",
+      "id": "https://ror.org/05tqpe068"
+    },
+    {
+      "label": "Gulf of Mexico Fishery Management Council",
+      "type": "related",
+      "id": "https://ror.org/02an5tz90"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -70,7 +70,13 @@
       "value": "University of California Los Angeles Clinical and Translational Science Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of California, Los Angeles",
+      "type": "parent",
+      "id": "https://ror.org/046rm7j60"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

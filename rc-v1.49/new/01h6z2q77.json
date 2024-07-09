@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Équipe de Recherche sur les Mutations de l'Europe et de ses Sociétés"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Côte d'Azur",
+      "type": "parent",
+      "id": "https://ror.org/019tgvf94"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

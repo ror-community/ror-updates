@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Microsoft Research New England (United States)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Microsoft (United States)",
+      "type": "parent",
+      "id": "https://ror.org/00d0nc645"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

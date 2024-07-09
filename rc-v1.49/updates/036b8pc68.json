@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-07",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -70,7 +70,18 @@
       "value": "Stiftung Alfried Krupp Kolleg Greifswald"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alfried Krupp von Bohlen und Halbach Foundation",
+      "type": "related",
+      "id": "https://ror.org/04y7h3604"
+    },
+    {
+      "label": "Universität Greifswald",
+      "type": "related",
+      "id": "https://ror.org/00r1edq15"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

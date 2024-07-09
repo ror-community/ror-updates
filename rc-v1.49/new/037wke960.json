@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -63,7 +63,23 @@
       "value": "Foreign, Commonwealth and Development Office"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Foreign and Commonwealth Office",
+      "type": "predecessor",
+      "id": "https://ror.org/02vtmh618"
+    },
+    {
+      "label": "Department for International Development",
+      "type": "predecessor",
+      "id": "https://ror.org/05rf29967"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

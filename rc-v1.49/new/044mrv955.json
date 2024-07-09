@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,23 @@
       "value": "Institut d'Études Scientifiques de Cargèse"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Côte d'Azur",
+      "type": "parent",
+      "id": "https://ror.org/019tgvf94"
+    },
+    {
+      "label": "Université de Corse Pascal Paoli",
+      "type": "parent",
+      "id": "https://ror.org/050ra0n32"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

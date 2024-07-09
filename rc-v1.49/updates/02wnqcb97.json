@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-07",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -76,7 +76,13 @@
       "value": "National Health Service"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Health and Social Care",
+      "type": "parent",
+      "id": "https://ror.org/03sbpja79"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

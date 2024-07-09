@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-08",
+      "date": "2024-07-09",
       "schema_version": "2.0"
     }
   },
@@ -72,7 +72,13 @@
       "value": "중소기업기술정보진흥원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of SMEs and Startups",
+      "type": "parent",
+      "id": "https://ror.org/03sws5s65"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",
