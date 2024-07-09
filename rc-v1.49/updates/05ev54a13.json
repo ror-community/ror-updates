@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-09",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503309.c"
+      ],
+      "preferred": "grid.503309.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 0921"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05ev54a13",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.toulouse.inra.fr/lerna/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 43.605638,
+        "lng": 1.431664,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LERNA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Économie des Ressources Naturelles"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Occitanie-Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/02sxjwh33"
+    },
+    {
+      "label": "Université Toulouse-I-Capitole",
+      "type": "parent",
+      "id": "https://ror.org/0443n9e75"
+    },
+    {
+      "label": "Toulouse School of Economics",
+      "type": "parent",
+      "id": "https://ror.org/00ff5f522"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

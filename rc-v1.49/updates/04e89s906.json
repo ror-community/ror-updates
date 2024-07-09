@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-09",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462765.4"
+      ],
+      "preferred": "grid.462765.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 4014"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04e89s906",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.phlam.univ-lille1.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 50.610154,
+        "lng": 3.143421,
+        "name": "Villeneuve-d'Ascq"
+      },
+      "geonames_id": 6543862
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Physique des Lasers, Atomes et Molécules"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PhLAM"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Physique",
+      "type": "parent",
+      "id": "https://ror.org/00z54nq84"
+    },
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
