@@ -7,21 +7,16 @@ We use “affiliation" and "funder” to describe any formal relationship betwee
 
 We define “research organization” as any organization that conducts, produces, manages, or touches research.
 # Criteria for inclusion in ROR
-ROR is a registry of top-level research organization affiliations. To be included in the registry, an organization should be:
-1. A **top-level entity**, meaning that it is:
-- A standalone organization
-- Sufficiently independent from other organizations it might be related to
-- Not a subdivision within an organization
-2. A **research organization**, meaning that it is involved in one or more of the following activities:
-- Produces research
-- Funds research
-- Employs researchers
-- Facilitates research
-- Manages research
-- Publishes research
-- Educates researchers
-3. Is or will be **used as an affiliation** in published research outputs by **multiple people**, meaning that it is:
+ROR supports a pragmatic level of hierarchy, intended to identify, disambiguate, and match these organizations with their outputs and activities. To be included in the registry, an organization should:
+- Have discrete acknowledgement of its activities in sources like affiliations and funding acknowledgements
+- Demonstrate independence from other organizations it might be related to
+- Not exist as a subdivision within an standalone organization or named entity.
+
+ROR also requires that an organization is **used as an affiliation** in published research outputs by **multiple people**, meaning that it is:
 - Not a one-person organization or consultancy.
+
+For a more complete description of ROR’s scope, please refer to ROR’s curation documentation for [new](https://github.com/ror-community/ror-updates/wiki/Curator-Evaluation-Workflow:-New-Records) and [update](https://github.com/ror-community/ror-updates/wiki/Curator-Evaluation-Workflow:-Updates-to-Existing-Records) records.
+
 # Requesting changes to ROR
 Changes can be proposed by anyone via a [feedback form](https://curation-request.ror.org). 
 
