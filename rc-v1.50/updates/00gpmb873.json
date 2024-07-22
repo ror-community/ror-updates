@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-22",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "kssg.ch"
+  ],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413349.8"
+      ],
+      "preferred": "grid.413349.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2294 4705"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1728153"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00gpmb873",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kssg.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kantonsspital_St._Gallen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.42391,
+        "lng": 9.37477,
+        "name": "Saint Gallen"
+      },
+      "geonames_id": 2658822
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Canton of St. Gallen-Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cantonal Hospital St. Gallen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cantonal Hospital of St. Gallen"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kantonsspital St. Gallen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St. Gallen Cantonal Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Muskelzentrum/ALS Clinic",
+      "type": "child",
+      "id": "https://ror.org/05h29rm85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-22",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463868.7"
+      ],
+      "preferred": "grid.463868.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 8530"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262250"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01920cw75",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gepi.obspm.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.81381,
+        "lng": 2.235,
+        "name": "Meudon"
+      },
+      "geonames_id": 2994144
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GEPI"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Galaxies, Etoiles, Physique et Instrumentation"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire GEPI"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
