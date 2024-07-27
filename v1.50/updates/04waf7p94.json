@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-27",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1918,
+  "external_ids": [
+    {
+      "all": [
+        "501100014418"
+      ],
+      "preferred": "501100014418",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419305.a"
+      ],
+      "preferred": "grid.419305.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1943 2944"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04waf7p94",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.nencki.gov.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "name": "Warsaw"
+      },
+      "geonames_id": 756135
+    }
+  ],
+  "names": [
+    {
+      "lang": "pl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instytut Biologii Doświadczalnej im. Marcelego Nenckiego"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nencki Institute of Experimental Biology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    },
+    {
+      "label": "Uniwersytet SWPS",
+      "type": "related",
+      "id": "https://ror.org/0407f1r36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
