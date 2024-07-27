@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Himalayan College of Agricultural Sciences and Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Purbanchal University",
+      "type": "parent",
+      "id": "https://ror.org/0353fsq42"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

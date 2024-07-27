@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-26",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -58,7 +58,13 @@
       "value": "DoCoMo Communications Laboratories Europe GmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NTT (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/045vwce28"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

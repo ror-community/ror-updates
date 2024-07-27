@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-22",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Hospital do Servidor Público Estadual"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto de Assistência Médica ao Servidor Público Estadual",
+      "type": "parent",
+      "id": "https://ror.org/03cg93958"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

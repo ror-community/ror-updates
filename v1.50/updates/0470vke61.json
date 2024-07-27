@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-26",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -85,11 +85,6 @@
   ],
   "relationships": [
     {
-      "label": "Finmeccanica (Poland)",
-      "type": "child",
-      "id": "https://ror.org/0203k1k48"
-    },
-    {
       "label": "Leonardo (France)",
       "type": "child",
       "id": "https://ror.org/00vfjqp82"
@@ -100,9 +95,24 @@
       "id": "https://ror.org/02sj0zy88"
     },
     {
+      "label": "Leonardo (Poland)",
+      "type": "child",
+      "id": "https://ror.org/0203k1k48"
+    },
+    {
       "label": "Leonardo (United Kingdom)",
-      "type": "parent",
+      "type": "child",
       "id": "https://ror.org/0445yn719"
+    },
+    {
+      "label": "Thales Alenia Space (France)",
+      "type": "child",
+      "id": "https://ror.org/05gz77z03"
+    },
+    {
+      "label": "Leonardo (United States)",
+      "type": "child",
+      "id": "https://ror.org/01pde1s08"
     }
   ],
   "status": "active",

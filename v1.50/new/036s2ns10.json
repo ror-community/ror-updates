@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "uOttawa Brain and Mind Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Ottawa",
+      "type": "parent",
+      "id": "https://ror.org/03c4mmv16"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

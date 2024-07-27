@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-26",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -72,14 +72,14 @@
   ],
   "relationships": [
     {
-      "label": "Hudson Institute of Medical Research",
-      "type": "parent",
-      "id": "https://ror.org/0083mf965"
-    },
-    {
       "label": "Monash University",
       "type": "related",
       "id": "https://ror.org/02bfwt286"
+    },
+    {
+      "label": "Hudson Institute of Medical Research",
+      "type": "successor",
+      "id": "https://ror.org/0083mf965"
     }
   ],
   "status": "inactive",

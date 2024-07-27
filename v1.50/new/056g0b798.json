@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,23 @@
       "value": "Universidade Lusíada"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lusíada University of Lisbon",
+      "type": "child",
+      "id": "https://ror.org/00zjprf31"
+    },
+    {
+      "label": "Lusíada University of Porto",
+      "type": "child",
+      "id": "https://ror.org/04ehtgm24"
+    },
+    {
+      "label": "Universidade Lusíada de Vila Nova de Famalicão",
+      "type": "child",
+      "id": "https://ror.org/014q1bn90"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

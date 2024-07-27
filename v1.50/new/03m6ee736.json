@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -102,7 +102,23 @@
       "value": "Vermont State University"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Northern Vermont University",
+      "type": "predecessor",
+      "id": "https://ror.org/04anrxg79"
+    },
+    {
+      "label": "Vermont Technical College",
+      "type": "predecessor",
+      "id": "https://ror.org/00j32a689"
+    },
+    {
+      "label": "Castleton University",
+      "type": "predecessor",
+      "id": "https://ror.org/01qdjtw37"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

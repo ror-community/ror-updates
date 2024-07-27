@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -51,7 +51,13 @@
       "value": "Escola Superior de Saúde Cruz Vermelha Portuguesa - Alto Tâmega"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cruz Vermelha Portuguesa",
+      "type": "parent",
+      "id": "https://ror.org/047j0dn45"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

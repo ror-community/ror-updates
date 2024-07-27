@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,28 @@
       "value": "Centre de Recherche sur la Biodiversité et l'Environnement"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "Université Toulouse III - Paul Sabatier",
+      "type": "parent",
+      "id": "https://ror.org/02v6kpv12"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/032qezt74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

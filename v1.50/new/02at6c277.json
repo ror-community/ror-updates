@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Simplification des soins chez les patients complexes"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Picardie Jules Verne",
+      "type": "parent",
+      "id": "https://ror.org/01gyxrk03"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

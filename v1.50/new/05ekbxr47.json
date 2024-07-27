@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -56,7 +56,13 @@
       "value": "Instituto Politécnico de Saúde do Norte - CESPU"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cooperativa de Ensino Superior Politécnico e Universitário",
+      "type": "parent",
+      "id": "https://ror.org/00w7bj245"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

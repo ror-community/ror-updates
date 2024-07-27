@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-27",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1904,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466382.d"
+      ],
+      "preferred": "grid.466382.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2150 9242"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00a5dxw64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ensa-normandie.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 49.44533,
+        "lng": 1.15144,
+        "name": "Darnétal"
+      },
+      "geonames_id": 3021717
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSA Normandie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Architecture de Normandie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Architecture, Territoire, Environnement",
+      "type": "child",
+      "id": "https://ror.org/04cr3xz70"
+    },
+    {
+      "label": "Normandie Université",
+      "type": "parent",
+      "id": "https://ror.org/01k40cz91"
+    },
+    {
+      "label": "Fédération de Recherche sur l'Energie Solaire",
+      "type": "related",
+      "id": "https://ror.org/0459fdx51"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

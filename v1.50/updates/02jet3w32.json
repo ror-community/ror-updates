@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-22",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -69,6 +69,16 @@
   ],
   "relationships": [
     {
+      "label": "Ludwig-Maximilians-Universität München",
+      "type": "related",
+      "id": "https://ror.org/05591te55"
+    },
+    {
+      "label": "Ludwig-Maximilians-Universität München",
+      "type": "parent",
+      "id": "https://ror.org/05591te55"
+    },
+    {
       "label": "Klinik und Poliklinik für Orthopädie, Physikalische Medizin und Rehabilitation",
       "type": "child",
       "id": "https://ror.org/05fw3y429"
@@ -87,11 +97,6 @@
       "label": "Klinik und Poliklinik für Frauenheilkunde und Geburtshilfe",
       "type": "child",
       "id": "https://ror.org/02794jc95"
-    },
-    {
-      "label": "Ludwig-Maximilians-Universität München",
-      "type": "related",
-      "id": "https://ror.org/05591te55"
     }
   ],
   "status": "active",

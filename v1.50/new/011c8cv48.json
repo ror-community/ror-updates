@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-07-24",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -81,7 +81,18 @@
       "value": "Cujas Library"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris-Panthéon-Assas",
+      "type": "parent",
+      "id": "https://ror.org/04qb2qm38"
+    },
+    {
+      "label": "Université Paris 1 Panthéon-Sorbonne",
+      "type": "parent",
+      "id": "https://ror.org/002t25c44"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

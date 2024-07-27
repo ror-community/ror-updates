@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-07-22",
+      "date": "2024-07-27",
       "schema_version": "2.0"
     }
   },
@@ -80,8 +80,13 @@
   "relationships": [
     {
       "label": "Université de Lorraine",
-      "type": "child",
+      "type": "parent",
       "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
     }
   ],
   "status": "active",

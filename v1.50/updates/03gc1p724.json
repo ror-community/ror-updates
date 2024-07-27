@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-07-27",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508754.b"
+      ],
+      "preferred": "grid.508754.b",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03gc1p724",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ijclab.in2p3.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.69572,
+        "lng": 2.18727,
+        "name": "Orsay"
+      },
+      "geonames_id": 2989204
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "IJCLab"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of the Physics of the Two Infinities Irène Joliot-Curie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Physique Nucléaire et de Physique des Particules",
+      "type": "parent",
+      "id": "https://ror.org/03fd77x13"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
