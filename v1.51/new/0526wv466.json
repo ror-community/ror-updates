@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,18 @@
       "value": "Universitas Muhammadiyah Kuningan"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "STIKES Muhammadiyah Kuningan",
+      "type": "predecessor",
+      "id": "https://ror.org/05rbj6w12"
+    },
+    {
+      "label": "STKIP Muhammadiyah Kuningan",
+      "type": "predecessor",
+      "id": "https://ror.org/046gx1e19"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

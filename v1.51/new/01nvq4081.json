@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Muzeum skla a bižuterie v Jablonci nad Nisou"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Culture",
+      "type": "parent",
+      "id": "https://ror.org/00fxxw604"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Western Star Trucks"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Daimler Truck (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/049ahjd53"
+    },
+    {
+      "label": "Daimler (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/05angxc35"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

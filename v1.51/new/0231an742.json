@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,13 @@
       "value": "江门地下中微子实验观测站"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of High Energy Physics",
+      "type": "parent",
+      "id": "https://ror.org/03v8tnc06"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

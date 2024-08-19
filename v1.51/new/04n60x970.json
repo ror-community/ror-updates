@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -61,7 +61,13 @@
       "value": "GE Vernova Inc"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "General Electric (United States)",
+      "type": "parent",
+      "id": "https://ror.org/013msgt25"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

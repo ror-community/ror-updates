@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -79,7 +79,13 @@
       "value": "T. Rowe Price Group, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "T. Rowe Price Program for Charitable Giving",
+      "type": "child",
+      "id": "https://ror.org/052gyqs21"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

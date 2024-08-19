@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -65,7 +65,13 @@
       "value": "Sekolah Tinggi Keguruan dan Ilmu Pendidikan Muhammadiyah Kuningan"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universitas Muhammadiyah Kuningan",
+      "type": "successor",
+      "id": "https://ror.org/0526wv466"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

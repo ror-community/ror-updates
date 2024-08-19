@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -64,7 +64,13 @@
       "value": "HES-SO School of Art & Design - ECAL/Ecole cantonale"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "HES-SO University of Applied Sciences and Arts Western Switzerland",
+      "type": "parent",
+      "id": "https://ror.org/01xkakk17"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

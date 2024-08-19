@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -64,7 +64,13 @@
       "value": "SGS Germany GmbH (Germany)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "SGS (Switzerland)",
+      "type": "parent",
+      "id": "https://ror.org/05p30rt34"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

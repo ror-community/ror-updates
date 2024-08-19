@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -97,7 +97,13 @@
       "value": "S. M. Kirov Military Medical Academy of the Russian Defense Ministry"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Defence of the Russian Federation",
+      "type": "parent",
+      "id": "https://ror.org/03ngg2631"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

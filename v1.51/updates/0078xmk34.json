@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "100008524",
+        "100008525"
+      ],
+      "preferred": "100008524",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.253613.0"
+      ],
+      "preferred": "grid.253613.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2192 5772"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2302336"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0078xmk34",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.umt.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Montana"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 46.87215,
+        "lng": -113.994,
+        "name": "Missoula"
+      },
+      "geonames_id": 5666639
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UM"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Montana"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Montana"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du montana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Montana Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/00x0rjj17"
+    },
+    {
+      "label": "Montana University System",
+      "type": "parent",
+      "id": "https://ror.org/052msxy68"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

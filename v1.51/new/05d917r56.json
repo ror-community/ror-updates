@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-08-19",
+      "date": "2024-08-21",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Інститут культурології Національної академії мистецтв України"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Arts",
+      "type": "parent",
+      "id": "https://ror.org/01psx1920"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
