@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-19",
       "schema_version": "2.0"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Western State Colorado University"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

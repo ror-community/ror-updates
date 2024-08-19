@@ -72,7 +72,18 @@
       "value": "National Oceanic and Atmospheric Administration Center for Earth System Sciences and Remote Sensing Technologies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Education",
+      "type": "parent",
+      "id": "https://ror.org/032h87485"
+    },
+    {
+      "label": "City College of New York",
+      "type": "related",
+      "id": "https://ror.org/00wmhkr98"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

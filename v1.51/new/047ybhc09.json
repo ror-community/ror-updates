@@ -51,7 +51,18 @@
       "value": "City St George's, University of London"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "City, University of London",
+      "type": "child",
+      "id": "https://ror.org/04489at23"
+    },
+    {
+      "label": "St George's, University of London",
+      "type": "child",
+      "id": "https://ror.org/040f08y74"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-19",
       "schema_version": "2.0"
     }
   },
@@ -49,7 +49,13 @@
       "value": "Taunton & Somerset NHS Foundation Trust"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Somerset NHS Foundation Trust",
+      "type": "successor",
+      "id": "https://ror.org/00abj3t43"
+    }
+  ],
   "status": "inactive",
   "types": [
     "nonprofit"

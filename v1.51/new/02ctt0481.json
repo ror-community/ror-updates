@@ -80,7 +80,18 @@
       "value": "Western Star Trucks"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Daimler Truck (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/049ahjd53"
+    },
+    {
+      "label": "Daimler (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/05angxc35"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

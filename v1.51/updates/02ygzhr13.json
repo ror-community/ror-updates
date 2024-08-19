@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-19",
       "schema_version": "2.0"
     }
   },
@@ -81,7 +81,13 @@
       "value": "University of Washington Bothell"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Washington",
+      "type": "parent",
+      "id": "https://ror.org/00cvxb145"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-19",
       "schema_version": "2.0"
     }
   },
@@ -56,7 +56,13 @@
       "value": "中国人民解放军广州军区武汉总医院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "General Hospital of Central Theater Command",
+      "type": "successor",
+      "id": "https://ror.org/030ev1m28"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

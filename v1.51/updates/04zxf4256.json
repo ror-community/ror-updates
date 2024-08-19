@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-08-17",
+      "date": "2024-08-19",
       "schema_version": "2.0"
     }
   },
@@ -102,7 +102,13 @@
       "value": "The General Tire & Rubber Company"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Continental (United States)",
+      "type": "parent",
+      "id": "https://ror.org/05yhca997"
+    }
+  ],
   "status": "active",
   "types": [
     "company"
