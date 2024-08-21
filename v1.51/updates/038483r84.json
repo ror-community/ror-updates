@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "501100003054"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423791.a"
+      ],
+      "preferred": "grid.423791.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1761 7437"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q565594"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038483r84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eni.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Eni"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    },
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eni (Italy)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Ente Nazionale Idrocarburi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Eni (Belgium)",
+      "type": "child",
+      "id": "https://ror.org/0138rdd60"
+    },
+    {
+      "label": "Eni (France)",
+      "type": "child",
+      "id": "https://ror.org/05frh7832"
+    },
+    {
+      "label": "Eni (Kazakhstan)",
+      "type": "child",
+      "id": "https://ror.org/05xp7y466"
+    },
+    {
+      "label": "Eni (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/02jqsa674"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

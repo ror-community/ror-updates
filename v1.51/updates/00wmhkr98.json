@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1847,
+  "external_ids": [
+    {
+      "all": [
+        "100008261",
+        "100008262"
+      ],
+      "preferred": "100008261",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254250.4"
+      ],
+      "preferred": "grid.254250.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2264 7145"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1093910"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wmhkr98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ccny.cuny.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/City_College_of_New_York"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCNY"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "City College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "City College of New York"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "City College of the City University of New York"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "City University of New York",
+      "type": "parent",
+      "id": "https://ror.org/00453a208"
+    },
+    {
+      "label": "NOAA Center for Earth System Sciences and Remote Sensing Technologies",
+      "type": "related",
+      "id": "https://ror.org/02jb98t16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

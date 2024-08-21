@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100006233"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419357.d"
+      ],
+      "preferred": "grid.419357.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2199 3636"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1856153"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036266993",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nrel.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Renewable_Energy_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.75554,
+        "lng": -105.2211,
+        "name": "Golden"
+      },
+      "geonames_id": 5423294
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NREL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Renewable Energy Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Energy Efficiency and Renewable Energy National Renewable Energy Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Energy Efficiency and Renewable Energy National Renewable Energy Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Energy Efficiency and Renewable Energy",
+      "type": "parent",
+      "id": "https://ror.org/02xznz413"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

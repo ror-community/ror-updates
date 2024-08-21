@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "geus.dk"
+  ],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "100010437"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.13508.3f"
+      ],
+      "preferred": "grid.13508.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1017 5662"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4993674"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01b40r146",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.geus.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Geological_Survey_of_Denmark_and_Greenland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": "da",
+      "types": [
+        "alias"
+      ],
+      "value": "Danmarks og Grønlands Geologiske Undersøgelse"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "De Nationale Geologiske Undersøgelser for Danmark og Grønland"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GEUS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Geological Survey of Denmark and Greenland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geocenter Denmark",
+      "type": "child",
+      "id": "https://ror.org/04cz2sw33"
+    },
+    {
+      "label": "Danish Ministry of Climate, Energy and Utilities",
+      "type": "parent",
+      "id": "https://ror.org/012sh1702"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

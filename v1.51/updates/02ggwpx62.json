@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100006526"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467923.d"
+      ],
+      "preferred": "grid.467923.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9567 0277"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02ggwpx62",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cdc.gov/ncezid/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "name": "Atlanta"
+      },
+      "geonames_id": 4180439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCEZID"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Center for Emerging and Zoonotic Infectious Diseases"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Infectious Diseases",
+      "type": "parent",
+      "id": "https://ror.org/01z6p8p31"
+    },
+    {
+      "label": "National Center for Infectious Diseases",
+      "type": "predecessor",
+      "id": "https://ror.org/04vmke174"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

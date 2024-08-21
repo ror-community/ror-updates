@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-08-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "100016292"
+      ],
+      "preferred": "100016292",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.36020.37"
+      ],
+      "preferred": "grid.36020.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8889 3720"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15900817",
+        "Q39765881"
+      ],
+      "preferred": "Q15900817",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wcstg80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.narlabs.org.tw/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Applied_Research_Laboratories"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "lat": 25.04776,
+        "lng": 121.53185,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "NARLabs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Applied Research Laboratories"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "財團法人國家實驗研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Center for High-Performance Computing",
+      "type": "child",
+      "id": "https://ror.org/01jpzd518"
+    },
+    {
+      "label": "Taiwan Space Agency",
+      "type": "child",
+      "id": "https://ror.org/03dcxwy38"
+    },
+    {
+      "label": "National Science and Technology Council",
+      "type": "parent",
+      "id": "https://ror.org/02kv4zf79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
