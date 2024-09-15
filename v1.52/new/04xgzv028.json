@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,18 @@
       "value": "Cooperative Institute for Limnology and Ecosystems Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Michigan–Ann Arbor",
+      "type": "parent",
+      "id": "https://ror.org/00jmfr291"
+    },
+    {
+      "label": "NOAA Great Lakes Environmental Research Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/01jeee804"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

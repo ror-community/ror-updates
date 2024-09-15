@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -83,7 +83,13 @@
       "value": "独立行政法人 国立病院機構 埼玉病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

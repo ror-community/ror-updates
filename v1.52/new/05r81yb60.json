@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Collegium Medicum in Bydgoszcz",
+      "type": "parent",
+      "id": "https://ror.org/04c5jwj47"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

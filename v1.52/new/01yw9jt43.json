@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,28 @@
       "value": "Pathogenesis and Control of Chronic and Emerging Infections"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Établissement Français du Sang",
+      "type": "parent",
+      "id": "https://ror.org/037hby126"
+    },
+    {
+      "label": "Université des Antilles",
+      "type": "parent",
+      "id": "https://ror.org/02ryfmr77"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

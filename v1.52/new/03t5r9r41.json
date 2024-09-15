@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Telefónica Innovación Digital S.L.U."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Telefonica Research and Development",
+      "type": "predecessor",
+      "id": "https://ror.org/03qgzzb04"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

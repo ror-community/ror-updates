@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "NFDI für Wirtschaftsdaten und Verwandtes (Sozial- und Verhaltenswissenschaften)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nationale Forschungsdateninfrastruktur",
+      "type": "parent",
+      "id": "https://ror.org/05qj6w324"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

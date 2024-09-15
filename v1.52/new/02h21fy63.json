@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Swiss Academy of Engineering Sciences SATW"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Swiss Academies of Arts and Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05b2r4b98"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

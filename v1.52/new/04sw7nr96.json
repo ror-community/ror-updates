@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -79,7 +79,18 @@
       "value": "Instituto de Astrofísica de La Plata"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico - La Plata",
+      "type": "parent",
+      "id": "https://ror.org/03qan4b12"
+    },
+    {
+      "label": "Universidad Nacional de La Plata",
+      "type": "parent",
+      "id": "https://ror.org/01tjs6929"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

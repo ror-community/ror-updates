@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -43,7 +43,13 @@
       "value": "Cambridge IVF"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cambridge University Hospitals NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/04v54gj93"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

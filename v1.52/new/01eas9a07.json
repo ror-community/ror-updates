@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -81,7 +81,23 @@
       "value": "The Sense Research and Innovation Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Lausanne",
+      "type": "related",
+      "id": "https://ror.org/019whta54"
+    },
+    {
+      "label": "University Hospital of Lausanne",
+      "type": "related",
+      "id": "https://ror.org/05a353079"
+    },
+    {
+      "label": "HES-SO Valais-Wallis",
+      "type": "related",
+      "id": "https://ror.org/03r5zec51"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

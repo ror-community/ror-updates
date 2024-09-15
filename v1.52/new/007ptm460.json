@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -81,7 +81,13 @@
       "value": "Domestic Policy Strategy Agency of the Ministry of Home Affairs of the Republic of Indonesia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Home Affairs",
+      "type": "parent",
+      "id": "https://ror.org/047sfm294"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,13 @@
       "value": "UR LISC"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Clermont-Auvergne-Rhône-Alpes",
+      "type": "parent",
+      "id": "https://ror.org/04aqtsh50"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Lyceum of the Philippines University – Batangas"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lyceum of the Philippines University",
+      "type": "parent",
+      "id": "https://ror.org/027e56k73"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

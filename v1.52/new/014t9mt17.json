@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -64,7 +64,18 @@
       "value": "Institut Minoru de Recherche Avancé America"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Aisin (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/00vtxwp63"
+    },
+    {
+      "label": "IMRA Europe",
+      "type": "related",
+      "id": "https://ror.org/054d78x30"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

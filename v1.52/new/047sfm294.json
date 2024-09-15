@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Ministry of Home Affairs of Indonesia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Badan Strategi Kebijakan Dalam Negeri",
+      "type": "child",
+      "id": "https://ror.org/007ptm460"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

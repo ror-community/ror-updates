@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,18 @@
       "value": "EuroMov Digital Health in Motion"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "IMT Mines Alès",
+      "type": "parent",
+      "id": "https://ror.org/03e8rf594"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

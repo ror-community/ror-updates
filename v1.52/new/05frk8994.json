@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,18 @@
       "value": "Initial MAnagement and prevention of acute orGan failures IN critically ill patiEnts"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Nîmes",
+      "type": "parent",
+      "id": "https://ror.org/0275ye937"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

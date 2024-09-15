@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -43,7 +43,18 @@
       "value": "King's Fertility"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fetal Medicine Foundation",
+      "type": "related",
+      "id": "https://ror.org/0261b7b91"
+    },
+    {
+      "label": "King's College Hospital",
+      "type": "parent",
+      "id": "https://ror.org/044nptt90"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

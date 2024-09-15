@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Teaching and learning - NSW Department of Education"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NSW Department of Education",
+      "type": "parent",
+      "id": "https://ror.org/05nne8c43"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

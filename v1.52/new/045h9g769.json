@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,13 @@
       "value": "Ministry of Trade, Co-operatives, Small and Medium Enterprises of Fiji"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of National Trade Measurement and Standards",
+      "type": "child",
+      "id": "https://ror.org/03d087w61"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

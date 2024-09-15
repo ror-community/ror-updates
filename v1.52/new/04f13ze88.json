@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,18 @@
       "value": "中国人民解放军空军"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "PLA Air Force Xi'an Flying College",
+      "type": "child",
+      "id": "https://ror.org/05gzn8n94"
+    },
+    {
+      "label": "Air Force Communication NCO Academy",
+      "type": "child",
+      "id": "https://ror.org/02n6w8087"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

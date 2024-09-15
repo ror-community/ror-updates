@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -62,7 +62,13 @@
       "value": "International Treaty on Plant Genetic Resources for Food and Agriculture Benefit-sharing Fund"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Food and Agriculture Organization of the United Nations",
+      "type": "parent",
+      "id": "https://ror.org/00pe0tf51"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -64,7 +64,13 @@
       "value": "中国人民解放军空军通信士官学校"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "People's Liberation Army Air Force",
+      "type": "parent",
+      "id": "https://ror.org/04f13ze88"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

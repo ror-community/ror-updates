@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "مركز البحث في التكنولوجيات التغذية الزراعية"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Directorate General for Scientific Research and Technological Development",
+      "type": "parent",
+      "id": "https://ror.org/04jpfrv51"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

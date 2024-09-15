@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-09-14",
+      "date": "2024-09-15",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,13 @@
       "value": "福建省平潭环境监测中心站"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fujian Provincial Department of Ecology and Environment",
+      "type": "parent",
+      "id": "https://ror.org/0102dvb40"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
