@@ -9,50 +9,47 @@
       "schema_version": "2.0"
     }
   },
-  "domains": [
-    "cnib.ca"
-  ],
-  "established": 1918,
+  "domains": [],
+  "established": 1997,
   "external_ids": [
     {
       "all": [
-        "100013501",
-        "100013933"
+        "100009837"
       ],
-      "preferred": "100013933",
+      "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.427573.0"
+        "grid.418040.9"
       ],
-      "preferred": "grid.427573.0",
+      "preferred": "grid.418040.9",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0218 7030"
+        "0000 0001 2177 1232"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q2906450"
+        "Q2826578"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/03z2x5890",
+  "id": "https://ror.org/00qxr8t08",
   "links": [
     {
       "type": "website",
-      "value": "https://www.cnib.ca"
+      "value": "https://inspection.canada.ca"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/CNIB"
+      "value": "https://en.wikipedia.org/wiki/Canadian_Food_Inspection_Agency"
     }
   ],
   "locations": [
@@ -60,61 +57,41 @@
       "geonames_details": {
         "country_code": "CA",
         "country_name": "Canada",
-        "lat": 43.70643,
-        "lng": -79.39864,
-        "name": "Toronto"
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
       },
-      "geonames_id": 6167865
+      "geonames_id": 6094817
     }
   ],
   "names": [
     {
-      "lang": "en",
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Agence Canadienne d'Inspection des Aliments"
+    },
+    {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CNIB"
+      "value": "CFIA"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display"
-      ],
-      "value": "CNIB Foundation"
-    },
-    {
-      "lang": "en",
-      "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Canadian National Institute for the Blind"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "label"
-      ],
-      "value": "Fondation INCA"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "acronym"
-      ],
-      "value": "INCA"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "label"
-      ],
-      "value": "Institut National Canadien des Aveugles"
+      "value": "Canadian Food Inspection Agency"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
     "funder",
-    "other"
+    "government"
   ]
 }
