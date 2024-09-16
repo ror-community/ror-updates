@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "100010966"
+      ],
+      "preferred": "100010966",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.487762.8"
+      ],
+      "preferred": "grid.487762.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0388 3064"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7099552"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g7a7c91",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sunyorange.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SUNY_Orange"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.44593,
+        "lng": -74.42293,
+        "name": "Middletown"
+      },
+      "geonames_id": 5126842
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Orange County Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SUNY Orange"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Orange County Community College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

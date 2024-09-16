@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "education.nsw.gov.au"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "501100001101",
+        "501100002122"
+      ],
+      "preferred": "501100001101",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.461941.f"
+      ],
+      "preferred": "grid.461941.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0703 8464"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5260271"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05nne8c43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://education.nsw.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Education_(New_South_Wales)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "NSW Department of Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NSW Technical and Further Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "New South Wales Department of Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "New South Wales Technical and Further Education"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TAFE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Technical and Further Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of New South Wales",
+      "type": "parent",
+      "id": "https://ror.org/0067dvq63"
+    },
+    {
+      "label": "NSW Office for Learning and Teaching",
+      "type": "child",
+      "id": "https://ror.org/025rgte66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "501100020549"
+      ],
+      "preferred": "501100020549",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418116.b"
+      ],
+      "preferred": "grid.418116.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0200 3174"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01cmnjq37",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.centreleonberard.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CLB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Léon Bérard"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "centre de lutte contre le cancer Léon-Bérard"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche en Cancérologie de Lyon",
+      "type": "child",
+      "id": "https://ror.org/02mgw3155"
+    },
+    {
+      "label": "Centre de Recherche en Acquisition et Traitement de l'Image pour la Santé",
+      "type": "child",
+      "id": "https://ror.org/03smk3872"
+    },
+    {
+      "label": "Laboratoire des applications Thérapeutiques des Ultrasons",
+      "type": "child",
+      "id": "https://ror.org/059eam965"
+    },
+    {
+      "label": "ERN EURACAN",
+      "type": "related",
+      "id": "https://ror.org/01rq5e797"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

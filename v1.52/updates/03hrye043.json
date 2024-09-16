@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "herkimer.edu"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462355.3"
+      ],
+      "preferred": "grid.462355.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0388 0955"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5739244"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03hrye043",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.herkimer.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Herkimer_County_Community_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.02563,
+        "lng": -74.98599,
+        "name": "Herkimer"
+      },
+      "geonames_id": 5120545
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Herkimer College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Herkimer County Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SUNY Herkimer"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Herkimer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "clinton.edu"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469416.8"
+      ],
+      "preferred": "grid.469416.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0387 8257"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5134090"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0468fwt03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.clinton.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Clinton_Community_College_(New_York)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 44.69949,
+        "lng": -73.45291,
+        "name": "Plattsburgh"
+      },
+      "geonames_id": 5131692
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Clinton Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SUNY Clinton Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Clinton Community College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

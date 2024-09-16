@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sunyjcc.edu"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507862.e"
+      ],
+      "preferred": "grid.507862.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8683 249X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6146214"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0068dme40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sunyjcc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Jamestown_Community_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 42.097,
+        "lng": -79.23533,
+        "name": "Jamestown"
+      },
+      "geonames_id": 5122534
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JCC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jamestown Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SUNY Jamestown Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Jamestown Community College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

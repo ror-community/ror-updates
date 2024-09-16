@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "downstate.edu"
+  ],
+  "established": 1860,
+  "external_ids": [
+    {
+      "all": [
+        "100009740"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262863.b"
+      ],
+      "preferred": "grid.262863.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0693 2202"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3246712"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0041qmd21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.downstate.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SUNY_Downstate_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 40.6501,
+        "lng": -73.94958,
+        "name": "Brooklyn"
+      },
+      "geonames_id": 5110302
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Downstate Health Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "SUNY Downstate Health Sciences University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SUNY Downstate Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Downstate Health Sciences University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    },
+    {
+      "label": "Brookdale University Hospital and Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0065vkd37"
+    },
+    {
+      "label": "Kingsbrook Jewish Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03dp8bn13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder",
+    "healthcare"
+  ]
+}

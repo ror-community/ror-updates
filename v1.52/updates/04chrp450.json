@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "501100004823",
+        "501100005702"
+      ],
+      "preferred": "501100004823",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.27476.30"
+      ],
+      "preferred": "grid.27476.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 978X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1191132"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04chrp450",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.nagoya-u.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Nagoya_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 35.18147,
+        "lng": 136.90641,
+        "name": "Nagoya"
+      },
+      "geonames_id": 1856057
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Nagoya Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nagoya University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "名古屋大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tokai National Higher Education and Research System",
+      "type": "parent",
+      "id": "https://ror.org/04d139241"
+    },
+    {
+      "label": "Nagoya University Hospital",
+      "type": "related",
+      "id": "https://ror.org/008zz8m46"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

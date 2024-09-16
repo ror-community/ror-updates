@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sonova.com"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100004228"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.437266.2"
+      ],
+      "preferred": "grid.437266.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0613 8617"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/027rr8795",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sonova.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.24254,
+        "lng": 8.72342,
+        "name": "Stäfa"
+      },
+      "geonames_id": 2658518
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Phonak AG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Phonak Holding AG"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Phonak Switzerland"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Sonova (Switzerland)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sonova International"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sonova (United States)",
+      "type": "child",
+      "id": "https://ror.org/05k0hd440"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

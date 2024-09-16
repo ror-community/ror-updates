@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419534.e"
+      ],
+      "preferred": "grid.419534.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1015 6533"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1287942"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04fq9j139",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.is.mpg.de/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_Intelligent_Systems"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "name": "Stuttgart"
+      },
+      "geonames_id": 2825297
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPI-IS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Intelligent Systems"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Intelligente Systeme"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Institutes for Intelligent Systems & Solid State Research Library",
+      "type": "child",
+      "id": "https://ror.org/010c2rf19"
+    },
+    {
+      "label": "Tübingen AI Center",
+      "type": "child",
+      "id": "https://ror.org/0107nyd78"
+    },
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100012020"
+      ],
+      "preferred": "501100012020",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.471315.5"
+      ],
+      "preferred": "grid.471315.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1770 184X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05hessd06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sekisuichemical.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sekisui Chemical (Japan)"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "積水化学工業株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sekisui Kasei (Japan)",
+      "type": "child",
+      "id": "https://ror.org/036w79395"
+    },
+    {
+      "label": "Sekisui Medical (Japan)",
+      "type": "child",
+      "id": "https://ror.org/02deetg88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

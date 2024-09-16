@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100004876",
+        "501100018836"
+      ],
+      "preferred": "501100018836",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.31410.37"
+      ],
+      "preferred": "grid.31410.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9422 8284"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7492756"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/018hjpz25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sth.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Sheffield_Teaching_Hospitals_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 53.38297,
+        "lng": -1.4659,
+        "name": "Sheffield"
+      },
+      "geonames_id": 2638077
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sheffield Teaching Hospitals NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Charles Clifford Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/05f2xwq77"
+    },
+    {
+      "label": "Jessop Hospital",
+      "type": "child",
+      "id": "https://ror.org/03wc8tg09"
+    },
+    {
+      "label": "Northern General Hospital",
+      "type": "child",
+      "id": "https://ror.org/05r409z22"
+    },
+    {
+      "label": "Royal Hallamshire Hospital",
+      "type": "child",
+      "id": "https://ror.org/00514rc81"
+    },
+    {
+      "label": "Weston Park Cancer Centre",
+      "type": "child",
+      "id": "https://ror.org/042gs1a72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

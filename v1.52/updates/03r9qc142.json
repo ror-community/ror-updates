@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100012317",
+        "501100012621"
+      ],
+      "preferred": "501100012621",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.485385.7"
+      ],
+      "preferred": "grid.485385.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q7864056"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03r9qc142",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uclhospitals.brc.nihr.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/UCLH/UCL_Biomedical_Research_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NIHR Biomedical Research Centre at University College London Hospitals NHS Foundation Trust and University College London"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UCL Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute for Health Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "University College London",
+      "type": "parent",
+      "id": "https://ror.org/02jx3x895"
+    },
+    {
+      "label": "University College London Hospitals NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/042fqyp44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}
