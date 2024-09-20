@@ -36,7 +36,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ror-community/validation-suite
-          ref: schema-v2
           path: validation-suite
       - name: Get directory name
         if: "${{ github.event.inputs.directory-name != '' }}"

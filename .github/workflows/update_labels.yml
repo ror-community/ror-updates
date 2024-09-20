@@ -36,9 +36,9 @@ jobs:
         working-directory: ${{ env.WORKING_DIR }}
         run: |
           python -m pip install --upgrade pip
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/update_related_records/requirements.txt -o requirements.txt
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/requirements.txt -o requirements.txt
           pip install -r requirements.txt
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/update_related_records/update_related.py -o update_related.py
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_related_records/update_related.py -o update_related.py
           if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
             python update_related.py -v 1
           fi
