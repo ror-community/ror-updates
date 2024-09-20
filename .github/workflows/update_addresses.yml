@@ -38,7 +38,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests==2.23.0
           pip install git+https://github.com/ror-community/update_address.git@v2-locations
-          curl https://raw.githubusercontent.com/ror-community/curation_ops/v2-crosswalk/update_address_only/update_addresses.py -o update_addresses.py
+          curl https://raw.githubusercontent.com/ror-community/curation_ops/main/update_address_only/update_addresses.py -o update_addresses.py
           if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
             python update_addresses.py -v 1
           fi
