@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "schema_version": "2.0"
     }
   },
@@ -96,7 +96,28 @@
       "value": "ML2R"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "TU Dortmund University",
+      "type": "parent",
+      "id": "https://ror.org/01k97gp34"
+    },
+    {
+      "label": "University of Bonn",
+      "type": "parent",
+      "id": "https://ror.org/041nas322"
+    },
+    {
+      "label": "Fraunhofer Institute for Intelligent Analysis and Information Systems",
+      "type": "parent",
+      "id": "https://ror.org/04nc32781"
+    },
+    {
+      "label": "Fraunhofer Institute for Material Flow and Logistics",
+      "type": "parent",
+      "id": "https://ror.org/00z7dje19"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

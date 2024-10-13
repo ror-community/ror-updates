@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "schema_version": "2.0"
     }
   },
@@ -84,7 +84,13 @@
       "value": "Rat für Forschung und Technologieentwicklung"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Austrian Council for Sciences, Technology, and Innovation",
+      "type": "successor",
+      "id": "https://ror.org/02pb0jm72"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

@@ -70,7 +70,23 @@
       "value": "Centre d'Investigation Clinique Hôpital Européen Georges Pompidou"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -55,7 +55,18 @@
       "value": "NASA High Energy Astrophysics Archive Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Goddard Space Flight Center",
+      "type": "parent",
+      "id": "https://ror.org/0171mag52"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

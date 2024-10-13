@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "schema_version": "2.0"
     }
   },
@@ -70,7 +70,13 @@
       "value": "Santa Marcelina Colégio São Paulo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Santa Marcelina Educação",
+      "type": "parent",
+      "id": "https://ror.org/01p3rp369"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

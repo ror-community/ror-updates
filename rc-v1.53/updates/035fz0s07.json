@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-12",
+      "date": "2024-10-13",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,13 @@
       "value": "CH2M Hill"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Jacobs (United States)",
+      "type": "successor",
+      "id": "https://ror.org/05pmj3x43"
+    }
+  ],
   "status": "inactive",
   "types": [
     "company"

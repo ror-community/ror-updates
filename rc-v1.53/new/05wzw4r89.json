@@ -64,7 +64,18 @@
       "value": "Laboratoire Mémoire, Cerveau et Cognition"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Laboratoire Mémoire et Cognition",
+      "type": "predecessor",
+      "id": "https://ror.org/036ydxy43"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

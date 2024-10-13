@@ -57,7 +57,23 @@
       "value": "Bosch Health Campus der Robert Bosch Stiftung"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Robert Bosch Stiftung",
+      "type": "parent",
+      "id": "https://ror.org/012kqkf58"
+    },
+    {
+      "label": "Robert Bosch Hospital",
+      "type": "child",
+      "id": "https://ror.org/034nkkr84"
+    },
+    {
+      "label": "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology",
+      "type": "child",
+      "id": "https://ror.org/02pnjnj33"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
