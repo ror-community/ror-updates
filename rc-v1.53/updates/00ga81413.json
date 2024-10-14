@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100009189"
+      ],
+      "preferred": "100009189",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452909.3"
+      ],
+      "preferred": "grid.452909.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0479 0204"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ga81413",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sms.si.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 27.44671,
+        "lng": -80.32561,
+        "name": "Ft. Pierce"
+      },
+      "geonames_id": 4156018
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Smithsonian Marine Station"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Smithsonian Institution",
+      "type": "parent",
+      "id": "https://ror.org/01pp8nd67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

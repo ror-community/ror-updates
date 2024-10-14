@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.484327.e"
+      ],
+      "preferred": "grid.484327.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0420 8415"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33122045"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030j39b93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.visn21.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.10409,
+        "lng": -122.25664,
+        "name": "Vallejo"
+      },
+      "geonames_id": 5405380
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VA Sierra Pacific Network"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "VISN 21"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "San Francisco VA Health Care System",
+      "type": "child",
+      "id": "https://ror.org/04g9q2h37"
+    },
+    {
+      "label": "VA Central California Health Care System",
+      "type": "child",
+      "id": "https://ror.org/03wjr6873"
+    },
+    {
+      "label": "VA Northern California Health Care System",
+      "type": "child",
+      "id": "https://ror.org/05ts0bd12"
+    },
+    {
+      "label": "VA Pacific Islands Health Care System",
+      "type": "child",
+      "id": "https://ror.org/028zspe92"
+    },
+    {
+      "label": "VA Palo Alto Health Care System",
+      "type": "child",
+      "id": "https://ror.org/00nr17z89"
+    },
+    {
+      "label": "VA Sierra Nevada Health Care System",
+      "type": "child",
+      "id": "https://ror.org/03cfvmk82"
+    },
+    {
+      "label": "VA Southern Nevada Healthcare System",
+      "type": "child",
+      "id": "https://ror.org/02xpk4806"
+    },
+    {
+      "label": "Veterans Health Administration",
+      "type": "parent",
+      "id": "https://ror.org/05eq41471"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

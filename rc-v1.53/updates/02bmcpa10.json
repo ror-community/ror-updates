@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "biusante.parisdescartes.fr"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473349.e"
+      ],
+      "preferred": "grid.473349.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 4440"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02bmcpa10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.biusante.parisdescartes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "BIU Santé"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bibliothèque Interuniversitaire de Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

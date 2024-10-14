@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lns.infn.it"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466880.4"
+      ],
+      "preferred": "grid.466880.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 4895"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30263862"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02k1zhm92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lns.infn.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://it.wikipedia.org/wiki/Laboratori_nazionali_del_Sud"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 37.49223,
+        "lng": 15.07041,
+        "name": "Catania"
+      },
+      "geonames_id": 2525068
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Laboratori Nazionali del Sud"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Sud"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LNS"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratori Nazionali del Sud"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Laboratori Nazionali del Sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

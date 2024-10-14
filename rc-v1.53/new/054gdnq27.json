@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-13",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "bosch-health-campus.de"
+  ],
+  "established": 2022,
+  "external_ids": [],
+  "id": "https://ror.org/054gdnq27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bosch-health-campus.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "name": "Stuttgart"
+      },
+      "geonames_id": 2825297
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Bosch Health Campus"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label"
+      ],
+      "value": "Bosch Health Campus GmbH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Bosch Health Campus der Robert Bosch Stiftung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Robert Bosch Stiftung",
+      "type": "parent",
+      "id": "https://ror.org/012kqkf58"
+    },
+    {
+      "label": "Robert Bosch Hospital",
+      "type": "child",
+      "id": "https://ror.org/034nkkr84"
+    },
+    {
+      "label": "Dr. Margarete Fischer-Bosch-Institute of Clinical Pharmacology",
+      "type": "child",
+      "id": "https://ror.org/02pnjnj33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

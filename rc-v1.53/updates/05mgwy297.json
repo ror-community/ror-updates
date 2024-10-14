@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1846,
+  "external_ids": [
+    {
+      "all": [
+        "100009200"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.432623.2"
+      ],
+      "preferred": "grid.432623.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2034 3957"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1609326"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05mgwy297",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://library.si.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Smithsonian_Libraries"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Smithsonian Institution Libraries"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Smithsonian Libraries"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Smithsonian Institution",
+      "type": "parent",
+      "id": "https://ror.org/01pp8nd67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive",
+    "funder"
+  ]
+}

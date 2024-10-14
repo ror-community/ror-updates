@@ -1,0 +1,154 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "100006198",
+        "100007726"
+      ],
+      "preferred": "100006198",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.133275.1"
+      ],
+      "preferred": "grid.133275.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0637 6666"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q52152"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0171mag52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nasa.gov/centers/goddard/home/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.00455,
+        "lng": -76.87553,
+        "name": "Greenbelt"
+      },
+      "geonames_id": 4356847
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Centro de Vuelo Espacial Goddard"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GSFC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Goddard Space Flight Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Space Physics Data Facility",
+      "type": "child",
+      "id": "https://ror.org/00ryjtt64"
+    },
+    {
+      "label": "Community Coordinated Modeling Center",
+      "type": "child",
+      "id": "https://ror.org/01dy3j343"
+    },
+    {
+      "label": "Katherine Johnson Independent Verification and Validation Facility",
+      "type": "child",
+      "id": "https://ror.org/04xr3m042"
+    },
+    {
+      "label": "Solar Data Analysis Center",
+      "type": "child",
+      "id": "https://ror.org/04rvfc379"
+    },
+    {
+      "label": "Heliophysics Science Division",
+      "type": "child",
+      "id": "https://ror.org/03myraf72"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "Wallops Flight Facility",
+      "type": "related",
+      "id": "https://ror.org/00r57r863"
+    },
+    {
+      "label": "Python in Heliophysics Community",
+      "type": "related",
+      "id": "https://ror.org/012prn105"
+    },
+    {
+      "label": "Earth System Science Interdisciplinary Center",
+      "type": "related",
+      "id": "https://ror.org/042607708"
+    },
+    {
+      "label": "Goddard Institute for Space Studies",
+      "type": "related",
+      "id": "https://ror.org/01cyfxe35"
+    },
+    {
+      "label": "High Energy Astrophysics Science Archive Research Center",
+      "type": "child",
+      "id": "https://ror.org/05g4cxq12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

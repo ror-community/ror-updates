@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uchc.edu"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100017834"
+      ],
+      "preferred": "100017834",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.208078.5"
+      ],
+      "preferred": "grid.208078.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0394"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895298"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kzs4y22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://health.uconn.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Connecticut_Health_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.71982,
+        "lng": -72.83204,
+        "name": "Farmington"
+      },
+      "geonames_id": 4834272
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "UConn Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UConn Health Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Connecticut Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Connecticut Health Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hartford Hospital",
+      "type": "related",
+      "id": "https://ror.org/00gt5xe03"
+    },
+    {
+      "label": "University of Connecticut",
+      "type": "related",
+      "id": "https://ror.org/02der9h97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

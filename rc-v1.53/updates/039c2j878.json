@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414028.b"
+      ],
+      "preferred": "grid.414028.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1795 3756"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1779588"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/039c2j878",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.defense.gouv.fr/sante/ressources/hopitaux-militaires/hia-percy-a-clamart"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/H%C3%B4pital_d%27instruction_des_arm%C3%A9es_Percy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.80299,
+        "lng": 2.26692,
+        "name": "Clamart"
+      },
+      "geonames_id": 3024783
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "HIA Percy"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital d'instruction des Armées Percy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Percy Training Hospital of the Armies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Giovanni Borelli",
+      "type": "child",
+      "id": "https://ror.org/02hcn4061"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

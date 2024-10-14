@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100009198"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419531.b"
+      ],
+      "preferred": "grid.419531.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q1127326"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04hnzva96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nationalzoo.si.edu/scbi/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Smithsonian_Conservation_Biology_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.91817,
+        "lng": -78.19444,
+        "name": "Front Royal"
+      },
+      "geonames_id": 4760232
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Conservation and Research Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SCBI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Smithsonian Conservation Biology Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Smithsonian Institution",
+      "type": "parent",
+      "id": "https://ror.org/01pp8nd67"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

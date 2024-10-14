@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1791,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419774.8"
+      ],
+      "preferred": "grid.419774.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2242 5825"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1422336"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04zx93s85",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gendarmerie.interieur.gouv.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Gendarmerie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gendarmerie Nationale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Gendarmerie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère de l'Intérieur",
+      "type": "child",
+      "id": "https://ror.org/015jj1011"
+    },
+    {
+      "label": "École des Officiers de la Gendarmerie Nationale",
+      "type": "child",
+      "id": "https://ror.org/05kqgwz20"
+    },
+    {
+      "label": "Ministère des Armées",
+      "type": "parent",
+      "id": "https://ror.org/025er3q23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

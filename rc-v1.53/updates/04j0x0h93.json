@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "bo.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470193.8"
+      ],
+      "preferred": "grid.470193.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8343 7610"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265275"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04j0x0h93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bo.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 44.49381,
+        "lng": 11.33875,
+        "name": "Bologna"
+      },
+      "geonames_id": 3181928
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Bologna"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Bologna Division"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Bologna"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-BO"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Bologna"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Bologna Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "University of Bologna",
+      "type": "related",
+      "id": "https://ror.org/01111rn36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

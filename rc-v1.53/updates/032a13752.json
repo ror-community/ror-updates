@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "100009199"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419533.9"
+      ],
+      "preferred": "grid.419533.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8612 0361"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2295408"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032a13752",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.serc.si.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Smithsonian_Environmental_Research_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.938,
+        "lng": -76.557,
+        "name": "Edgewater"
+      },
+      "geonames_id": 4354072
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SERC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Smithsonian Environmental Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Smithsonian Institution",
+      "type": "parent",
+      "id": "https://ror.org/01pp8nd67"
+    },
+    {
+      "label": "Konza Prairie Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/02wavzm11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
