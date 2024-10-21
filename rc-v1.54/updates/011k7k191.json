@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "landspitali.is"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100004103"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410540.4"
+      ],
+      "preferred": "grid.410540.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9894 0842"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6485215"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011k7k191",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://landspitali.is"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Landsp%C3%ADtali"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "lat": 64.13548,
+        "lng": -21.89541,
+        "name": "Reykjavik"
+      },
+      "geonames_id": 3413829
+    }
+  ],
+  "names": [
+    {
+      "lang": "is",
+      "types": [
+        "label"
+      ],
+      "value": "Landspítali"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University Hospital of Iceland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agricultural University of Iceland",
+      "type": "related",
+      "id": "https://ror.org/035s3f323"
+    },
+    {
+      "label": "University of Iceland",
+      "type": "related",
+      "id": "https://ror.org/01db6h964"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

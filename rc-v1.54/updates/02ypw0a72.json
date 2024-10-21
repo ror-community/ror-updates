@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "enib.fr"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462173.5"
+      ],
+      "preferred": "grid.462173.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0640 3599"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q273564"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ypw0a72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enib.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Brest"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.38131,
+        "lng": -4.61805,
+        "name": "Plouzané"
+      },
+      "geonames_id": 2986626
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Brest National Engineering School"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENIB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "École nationale d'ingénieurs de Brest"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Recherche Dupuy de Lôme",
+      "type": "child",
+      "id": "https://ror.org/03011gg73"
+    },
+    {
+      "label": "Laboratoire des Sciences et Techniques de l’Information de la Communication et de la Connaissance",
+      "type": "child",
+      "id": "https://ror.org/0266kfd37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

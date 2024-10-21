@@ -1,0 +1,153 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ornl.gov"
+  ],
+  "established": 1943,
+  "external_ids": [
+    {
+      "all": [
+        "100006228"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.135519.a"
+      ],
+      "preferred": "grid.135519.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0446 2659"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q714439",
+        "Q6971313"
+      ],
+      "preferred": "Q714439",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01qz5mb56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ornl.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.01036,
+        "lng": -84.26964,
+        "name": "Oak Ridge"
+      },
+      "geonames_id": 4646571
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ORNL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oak Ridge National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Science Oak Ridge National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Oak Ridge National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Joint Institute for Computational Sciences",
+      "type": "child",
+      "id": "https://ror.org/05277x335"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "child",
+      "id": "https://ror.org/01dvj3d25"
+    },
+    {
+      "label": "Center for Nanophase Materials Sciences",
+      "type": "child",
+      "id": "https://ror.org/01wass480"
+    },
+    {
+      "label": "High Flux Isotope Reactor",
+      "type": "child",
+      "id": "https://ror.org/02xn1ny06"
+    },
+    {
+      "label": "Oak Ridge Leadership Computing Facility",
+      "type": "child",
+      "id": "https://ror.org/05p915b28"
+    },
+    {
+      "label": "Spallation Neutron Source",
+      "type": "child",
+      "id": "https://ror.org/00q6v6102"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "UT-Battelle",
+      "type": "parent",
+      "id": "https://ror.org/04nza6677"
+    },
+    {
+      "label": "National Microbiome Data Collaborative",
+      "type": "related",
+      "id": "https://ror.org/05cwx3318"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

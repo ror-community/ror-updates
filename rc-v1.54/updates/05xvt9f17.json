@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lumc.nl"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100005039",
+        "501100005038",
+        "501100005040"
+      ],
+      "preferred": "501100005039",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10419.3d"
+      ],
+      "preferred": "grid.10419.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8945 2978"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2406409"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05xvt9f17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lumc.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Leiden_University_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.15833,
+        "lng": 4.49306,
+        "name": "Leiden"
+      },
+      "geonames_id": 2751773
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LUMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leiden University Medical Center"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Leids Universitair Medisch Centrum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Jon J van Rood Centre for Clinical Transfusion Research",
+      "type": "child",
+      "id": "https://ror.org/04cm10r73"
+    },
+    {
+      "label": "Willem-Alexander Kinderziekenhuis",
+      "type": "child",
+      "id": "https://ror.org/02xmm1048"
+    },
+    {
+      "label": "Leiden University",
+      "type": "related",
+      "id": "https://ror.org/027bh9e22"
+    },
+    {
+      "label": "Endo-ERN",
+      "type": "related",
+      "id": "https://ror.org/05s4nk876"
+    },
+    {
+      "label": "Holland Particle Therapy Center",
+      "type": "related",
+      "id": "https://ror.org/05ahyhp31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

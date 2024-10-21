@@ -1,0 +1,150 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ki.se"
+  ],
+  "established": 1810,
+  "external_ids": [
+    {
+      "all": [
+        "501100004047",
+        "501100009741"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4714.6"
+      ],
+      "preferred": "grid.4714.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0626"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q219564"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056d84691",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ki.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Karolinska_Institutet"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KI"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Karoliininen instituutti"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Karolinska Institute"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Karolinska Institutet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal Caroline Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Integrated Cardio Metabolic Centre",
+      "type": "child",
+      "id": "https://ror.org/01pgex273"
+    },
+    {
+      "label": "Ming Wai Lau Centre for Reparative Medicine",
+      "type": "child",
+      "id": "https://ror.org/03j0jxk49"
+    },
+    {
+      "label": "Center for Innovative Medicine",
+      "type": "child",
+      "id": "https://ror.org/00dgqhm63"
+    },
+    {
+      "label": "Karolinska University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00m8d6786"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

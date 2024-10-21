@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usz.ch"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100009396"
+      ],
+      "preferred": "501100009396",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412004.3"
+      ],
+      "preferred": "grid.412004.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0478 9977"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q450139"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01462r250",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usz.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Hospital_of_Z%C3%BCrich"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.36667,
+        "lng": 8.55,
+        "name": "Zurich"
+      },
+      "geonames_id": 2657896
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Hôpital universitaire de Zurich"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USZ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital of Zurich"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsspital Zürich"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Zurich University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratory for Social and Neural Systems Research",
+      "type": "child",
+      "id": "https://ror.org/021p56f43"
+    },
+    {
+      "label": "University of Zurich",
+      "type": "related",
+      "id": "https://ror.org/02crff812"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

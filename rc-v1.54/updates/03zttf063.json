@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "vr.se"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100004359",
+        "501100006310"
+      ],
+      "preferred": "501100004359",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.208387.6"
+      ],
+      "preferred": "grid.208387.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1506 5964"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7654827"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03zttf063",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vr.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swedish_Research_Council"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish Research Council"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VR"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Vetenskapsrådet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European X-Ray Free-Electron Laser",
+      "type": "child",
+      "id": "https://ror.org/01wp2jz98"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

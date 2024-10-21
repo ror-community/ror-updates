@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "augusta.edu"
+  ],
+  "established": 1828,
+  "external_ids": [
+    {
+      "all": [
+        "100008578",
+        "100008620",
+        "100012127"
+      ],
+      "preferred": "100008578",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410427.4"
+      ],
+      "preferred": "grid.410427.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 9329"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5547686"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012mef835",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.augusta.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Augusta_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 33.47097,
+        "lng": -81.97484,
+        "name": "Augusta"
+      },
+      "geonames_id": 4180531
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Augusta University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GRU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Georgia Regents University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Georgia",
+      "type": "parent",
+      "id": "https://ror.org/017wcm924"
+    },
+    {
+      "label": "Augusta University Health",
+      "type": "related",
+      "id": "https://ror.org/007rawr89"
+    },
+    {
+      "label": "Charlie Norwood VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01ng1yh19"
+    },
+    {
+      "label": "Georgia Regents Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01gtybw70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uu.nl"
+  ],
+  "established": 1636,
+  "external_ids": [
+    {
+      "all": [
+        "501100001829",
+        "501100002989"
+      ],
+      "preferred": "501100001829",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5477.1"
+      ],
+      "preferred": "grid.5477.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2034 6234",
+        "0000 0000 9637 0671"
+      ],
+      "preferred": "0000 0000 9637 0671",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q221653"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04pp8hn57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uu.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Utrecht_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "name": "Utrecht"
+      },
+      "geonames_id": 2745912
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Rijksuniversiteit Utrecht"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit Utrecht"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Utrecht University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Delta Institute for Theoretical Physics",
+      "type": "child",
+      "id": "https://ror.org/01yx4wq53"
+    },
+    {
+      "label": "University Museum Utrecht",
+      "type": "child",
+      "id": "https://ror.org/058kzes98"
+    },
+    {
+      "label": "Royal Netherlands Institute for Sea Research",
+      "type": "related",
+      "id": "https://ror.org/01gntjh03"
+    },
+    {
+      "label": "University Medical Center Utrecht",
+      "type": "related",
+      "id": "https://ror.org/0575yy874"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

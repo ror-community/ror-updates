@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nii.ac.jp"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100012311"
+      ],
+      "preferred": "501100012311",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.250343.3"
+      ],
+      "preferred": "grid.250343.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1018 5342"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4346622"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ksd4g47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nii.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Institute_of_Informatics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kokuritsu Jōhōgaku Kenkyūjo"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NII"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute of Informatics"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立情報学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Japan Link Center",
+      "type": "child",
+      "id": "https://ror.org/056cwrs58"
+    },
+    {
+      "label": "Research Organization of Information and Systems",
+      "type": "parent",
+      "id": "https://ror.org/04p4e8t29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "desy.de"
+  ],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100001647"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7683.a"
+      ],
+      "preferred": "grid.7683.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0492 0453"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q311801",
+        "Q39901428"
+      ],
+      "preferred": "Q311801",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01js2sh04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://desy.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/DESY"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 53.55073,
+        "lng": 9.99302,
+        "name": "Hamburg"
+      },
+      "geonames_id": 2911298
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "DESY"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutsches Elektronen-Synchrotron DESY"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Free-Electron Laser Science",
+      "type": "child",
+      "id": "https://ror.org/04fme8709"
+    },
+    {
+      "label": "John von Neumann Institute for Computing",
+      "type": "child",
+      "id": "https://ror.org/02zmk8084"
+    },
+    {
+      "label": "Centre for Structural Systems Biology",
+      "type": "child",
+      "id": "https://ror.org/04fhwda97"
+    },
+    {
+      "label": "European X-Ray Free-Electron Laser",
+      "type": "child",
+      "id": "https://ror.org/01wp2jz98"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    },
+    {
+      "label": "LEAPS",
+      "type": "related",
+      "id": "https://ror.org/04wcn4e27"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

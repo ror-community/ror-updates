@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "morgan.edu"
+  ],
+  "established": 1867,
+  "external_ids": [
+    {
+      "all": [
+        "100010065"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.260238.d"
+      ],
+      "preferred": "grid.260238.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2224 4258"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1054905"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017d8gk22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.morgan.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Morgan_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
+      },
+      "geonames_id": 4347778
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Morgan State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Morgan"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État morgan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Transportation Center",
+      "type": "child",
+      "id": "https://ror.org/02wjh7838"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

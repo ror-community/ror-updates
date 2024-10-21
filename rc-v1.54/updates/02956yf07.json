@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "tsukuba.ac.jp"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100006559"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.20515.33"
+      ],
+      "preferred": "grid.20515.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2369 4728"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q743615"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02956yf07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tsukuba.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Tsukuba"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 36.2,
+        "lng": 140.1,
+        "name": "Tsukuba"
+      },
+      "geonames_id": 2110683
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Tsukuba daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Tsukuba"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "筑波大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Life Science Center for Survival Dynamics, Tsukuba Advanced Research Alliance (TARA)",
+      "type": "child",
+      "id": "https://ror.org/04br41767"
+    },
+    {
+      "label": "University of Tsukuba Hospital",
+      "type": "related",
+      "id": "https://ror.org/028fz3b89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "enise.fr"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "501100011081"
+      ],
+      "preferred": "501100011081",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.434191.a"
+      ],
+      "preferred": "grid.434191.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1792 4277"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578093"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017cfeh02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://enise.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Saint-Etienne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "name": "Saint-Etienne"
+      },
+      "geonames_id": 2980291
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENISE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Engineering School of Saint-Étienne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale d'Ingénieurs de Saint-Étienne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire de Tribologie et Dynamique des Systèmes",
+      "type": "child",
+      "id": "https://ror.org/015vtcw98"
+    },
+    {
+      "label": "Université de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/01rk35k63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

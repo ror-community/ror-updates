@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nirt.res.in"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "501100015988"
+      ],
+      "preferred": "501100015988",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417330.2"
+      ],
+      "preferred": "grid.417330.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 6138"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18128555"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qp1eh12",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nirt.res.in"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Institute_for_Research_in_Tuberculosis"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IN",
+        "country_name": "India",
+        "lat": 13.08784,
+        "lng": 80.27847,
+        "name": "Chennai"
+      },
+      "geonames_id": 1264527
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIRT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute of Research in Tuberculosis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Tuberculosis Chemotherapy Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indian Council of Medical Research",
+      "type": "parent",
+      "id": "https://ror.org/0492wrx28"
+    },
+    {
+      "label": "University of Madras",
+      "type": "related",
+      "id": "https://ror.org/04jmt9361"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

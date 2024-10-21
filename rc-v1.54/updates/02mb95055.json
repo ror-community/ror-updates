@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "bbk.ac.uk"
+  ],
+  "established": 1823,
+  "external_ids": [
+    {
+      "all": [
+        "501100021082"
+      ],
+      "preferred": "501100021082",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.88379.3d"
+      ],
+      "preferred": "grid.88379.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2324 0507"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q375606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mb95055",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bbk.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Birkbeck,_University_of_London"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BBK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Birkbeck College"
+    },
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Birkbeck, Prifysgol Llundain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Birkbeck, University of London"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Structural and Molecular Biology",
+      "type": "child",
+      "id": "https://ror.org/05wsetc54"
+    },
+    {
+      "label": "University of London",
+      "type": "parent",
+      "id": "https://ror.org/04cw6st05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

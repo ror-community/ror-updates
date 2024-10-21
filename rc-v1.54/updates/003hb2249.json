@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "hrb.ie"
+  ],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "100010414",
+        "501100001590"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413895.2"
+      ],
+      "preferred": "grid.413895.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0575 6536"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/003hb2249",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hrb.ie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "name": "Dublin"
+      },
+      "geonames_id": 2964574
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HRB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health Research Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Trials Methodology Research Network",
+      "type": "child",
+      "id": "https://ror.org/05y8p4437"
+    },
+    {
+      "label": "Irish Research eLibrary",
+      "type": "related",
+      "id": "https://ror.org/05c347015"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

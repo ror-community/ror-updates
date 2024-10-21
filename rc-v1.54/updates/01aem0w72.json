@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "shh.se"
+  ],
+  "established": 1884,
+  "external_ids": [
+    {
+      "all": [
+        "501100009785"
+      ],
+      "preferred": "501100009785",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.445308.e"
+      ],
+      "preferred": "grid.445308.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0460 3941"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7562940"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01aem0w72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.shh.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sophiahemmet_University_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Sophiahemmet Högskola"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sophiahemmet University College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sophiahemmet Hospital",
+      "type": "related",
+      "id": "https://ror.org/05t65ke24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "kumc.edu"
+  ],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "100006727"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412016.0"
+      ],
+      "preferred": "grid.412016.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2177 6375"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/036c9yv20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kumc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Kansas#Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.11417,
+        "lng": -94.62746,
+        "name": "Kansas City"
+      },
+      "geonames_id": 4273837
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "KU Med"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "KU Medical Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KUMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Kansas Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Kansas",
+      "type": "related",
+      "id": "https://ror.org/001tmjg57"
+    },
+    {
+      "label": "The University of Kansas Health System",
+      "type": "related",
+      "id": "https://ror.org/05kg11974"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

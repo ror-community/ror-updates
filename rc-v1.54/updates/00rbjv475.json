@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "esciencecenter.nl"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "100013407"
+      ],
+      "preferred": "100013407",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454309.f"
+      ],
+      "preferred": "grid.454309.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5345 7063"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30297165"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rbjv475",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.esciencecenter.nl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NLeSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Netherlands eScience Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dutch Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04jsz6e67"
+    },
+    {
+      "label": "SURF",
+      "type": "parent",
+      "id": "https://ror.org/009vhk114"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

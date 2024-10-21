@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "unlv.edu"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "100004186",
+        "100007162"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.272362.0"
+      ],
+      "preferred": "grid.272362.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0806 6926"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2302311"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0406gha72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unlv.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Nevada,_Las_Vegas"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.17497,
+        "lng": -115.13722,
+        "name": "Las Vegas"
+      },
+      "geonames_id": 5506956
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNLV"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Nevada, Las Vegas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Nevada, Las Vegas"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du Nevada à las Vegas"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nevada System of Higher Education",
+      "type": "parent",
+      "id": "https://ror.org/03sxdvx36"
+    },
+    {
+      "label": "University Medical Center of Southern Nevada",
+      "type": "related",
+      "id": "https://ror.org/017sgna85"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

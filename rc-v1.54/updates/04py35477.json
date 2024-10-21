@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "biochem.mpg.de"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418615.f"
+      ],
+      "preferred": "grid.418615.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0491 845X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q878218"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04py35477",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.biochem.mpg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_of_Biochemistry"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.10732,
+        "lng": 11.45196,
+        "name": "Martinsried"
+      },
+      "geonames_id": 2873111
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute of Biochemistry"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Biochemie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Max Planck Unit for Structural Molecular Biology",
+      "type": "related",
+      "id": "https://ror.org/01qecd649"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

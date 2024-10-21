@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uah.edu"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "100011479"
+      ],
+      "preferred": "100011479",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265893.3"
+      ],
+      "preferred": "grid.265893.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8796 4945"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1783148"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zsxwr40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uah.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.7304,
+        "lng": -86.58594,
+        "name": "Huntsville"
+      },
+      "geonames_id": 4068590
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Alabama in Huntsville"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'alabama à huntsville"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alabama Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/02rj8cx55"
+    },
+    {
+      "label": "National Space Science and Technology Center",
+      "type": "child",
+      "id": "https://ror.org/01s3dpm97"
+    },
+    {
+      "label": "Severe Weather Institute - Radar & Lightning Laboratory",
+      "type": "child",
+      "id": "https://ror.org/02abb9a79"
+    },
+    {
+      "label": "University of Alabama System",
+      "type": "parent",
+      "id": "https://ror.org/051fvmk98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

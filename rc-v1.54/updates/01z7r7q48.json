@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "chop.edu"
+  ],
+  "established": 1855,
+  "external_ids": [
+    {
+      "all": [
+        "100006458",
+        "100008638"
+      ],
+      "preferred": "100006458",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.239552.a"
+      ],
+      "preferred": "grid.239552.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0680 8770"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4569202"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01z7r7q48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chop.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Children%27s_Hospital_of_Philadelphia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "name": "Philadelphia"
+      },
+      "geonames_id": 4560349
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHOP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's Hospital of Philadelphia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Penn Center for AIDS Research",
+      "type": "child",
+      "id": "https://ror.org/047939x15"
+    },
+    {
+      "label": "Saint Peter's University Hospital",
+      "type": "related",
+      "id": "https://ror.org/055mfza47"
+    },
+    {
+      "label": "University of Pennsylvania",
+      "type": "related",
+      "id": "https://ror.org/00b30xv10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

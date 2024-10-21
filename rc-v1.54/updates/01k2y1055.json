@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "wlv.ac.uk"
+  ],
+  "established": 1851,
+  "external_ids": [
+    {
+      "all": [
+        "100010037"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6374.6"
+      ],
+      "preferred": "grid.6374.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0693 5374"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1816202"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01k2y1055",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wlv.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Wolverhampton"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 52.58547,
+        "lng": -2.12296,
+        "name": "Wolverhampton"
+      },
+      "geonames_id": 2633691
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Wolverhampton"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Walsall College",
+      "type": "child",
+      "id": "https://ror.org/05c24ew78"
+    },
+    {
+      "label": "Middle East College",
+      "type": "related",
+      "id": "https://ror.org/03z34n548"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

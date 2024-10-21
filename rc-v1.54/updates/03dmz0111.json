@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mak.ac.ug"
+  ],
+  "established": 1922,
+  "external_ids": [
+    {
+      "all": [
+        "501100009914"
+      ],
+      "preferred": "501100009914",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11194.3c"
+      ],
+      "preferred": "grid.11194.3c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0620 0548"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q261506"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03dmz0111",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mak.ac.ug"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Makerere_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "UG",
+        "country_name": "Uganda",
+        "lat": 0.31628,
+        "lng": 32.58219,
+        "name": "Kampala"
+      },
+      "geonames_id": 232422
+    }
+  ],
+  "names": [
+    {
+      "lang": "sw",
+      "types": [
+        "label"
+      ],
+      "value": "Chuo Kikuu cha Makerere"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Makerere University"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "جامعة ماكيريري"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Uganda Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/02e6sh902"
+    },
+    {
+      "label": "Butabika Hospital",
+      "type": "related",
+      "id": "https://ror.org/02z5rm416"
+    },
+    {
+      "label": "Mulago Hospital",
+      "type": "related",
+      "id": "https://ror.org/02rhp5f96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

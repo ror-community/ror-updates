@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "untsystem.edu"
+  ],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411020.6"
+      ],
+      "preferred": "grid.411020.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9970 8287"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q385046"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qbxj466",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.untsystem.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_North_Texas_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 32.78306,
+        "lng": -96.80667,
+        "name": "Dallas"
+      },
+      "geonames_id": 4684888
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Sistema Universitario del Norte de Texas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UNT System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of North Texas System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of North Texas",
+      "type": "child",
+      "id": "https://ror.org/00v97ad02"
+    },
+    {
+      "label": "University of North Texas Health Science Center",
+      "type": "child",
+      "id": "https://ror.org/05msxaq47"
+    },
+    {
+      "label": "University of North Texas at Dallas",
+      "type": "child",
+      "id": "https://ror.org/01n51v443"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nnfc.re.kr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100019956"
+      ],
+      "preferred": "501100019956",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.496766.c"
+      ],
+      "preferred": "grid.496766.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0546 0225"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05k1va520",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nnfc.re.kr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NNFC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nano Synthesis Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "NanoFab Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National NanoFab Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "나노종합기술원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Advanced Institute of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/05apxxy63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

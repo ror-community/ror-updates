@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "cwi.nl"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100020817"
+      ],
+      "preferred": "501100020817",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6054.7"
+      ],
+      "preferred": "grid.6054.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0369 4183"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1054410"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00x7ekv49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cwi.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Centrum_Wiskunde_%26_Informatica"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CWI"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centrum Wiskunde & Informatica"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Research Institute for Mathematics and Computer Science"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dutch Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04jsz6e67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

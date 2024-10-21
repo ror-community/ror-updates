@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uh.edu"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "100005914"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266436.3"
+      ],
+      "preferred": "grid.266436.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1569 9707"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1472358"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/048sx0r50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uh.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Houston"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UH"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Houston"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Houston"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de houston"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Theoretical Biological Physics",
+      "type": "child",
+      "id": "https://ror.org/04hfg7v94"
+    },
+    {
+      "label": "University of Houston System",
+      "type": "parent",
+      "id": "https://ror.org/040vwpm13"
+    },
+    {
+      "label": "Central Texas Veterans Health Care System",
+      "type": "related",
+      "id": "https://ror.org/02dcp1550"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

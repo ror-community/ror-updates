@@ -1,0 +1,147 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "anl.gov"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100006224"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.187073.a"
+      ],
+      "preferred": "grid.187073.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1939 4845"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q649120"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gvnxz63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.anl.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Argonne_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.67364,
+        "lng": -88.00173,
+        "name": "Lemont"
+      },
+      "geonames_id": 4899581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ANL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Argonne National Laboratory"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratorio Nacional Argonne"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Argonne National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Light Energy Activated Redox Processes",
+      "type": "child",
+      "id": "https://ror.org/004x7d471"
+    },
+    {
+      "label": "Advanced Photon Source",
+      "type": "child",
+      "id": "https://ror.org/04qxsr837"
+    },
+    {
+      "label": "Argonne Leadership Computing Facility",
+      "type": "child",
+      "id": "https://ror.org/01svjdw65"
+    },
+    {
+      "label": "Argonne Tandem Linac Accelerator System",
+      "type": "child",
+      "id": "https://ror.org/04b15va38"
+    },
+    {
+      "label": "Center for Nanoscale Materials",
+      "type": "child",
+      "id": "https://ror.org/045ybte48"
+    },
+    {
+      "label": "University of Chicago",
+      "type": "parent",
+      "id": "https://ror.org/024mw5h28"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

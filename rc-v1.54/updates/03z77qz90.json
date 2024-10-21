@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ut.ee"
+  ],
+  "established": 1632,
+  "external_ids": [
+    {
+      "all": [
+        "501100007821",
+        "501100004783"
+      ],
+      "preferred": "501100007821",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10939.32"
+      ],
+      "preferred": "grid.10939.32",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 7661"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q204181"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03z77qz90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ut.ee"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Tartu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "lat": 58.38062,
+        "lng": 26.72509,
+        "name": "Tartu"
+      },
+      "geonames_id": 588335
+    }
+  ],
+  "names": [
+    {
+      "lang": "et",
+      "types": [
+        "label"
+      ],
+      "value": "Tartu Ülikool"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Tartu"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Тартуский университет"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tartu Observatory",
+      "type": "child",
+      "id": "https://ror.org/04mc23283"
+    },
+    {
+      "label": "University of Tartu Natural History Museum and Botanical Garden",
+      "type": "child",
+      "id": "https://ror.org/049h10h83"
+    },
+    {
+      "label": "Tartu University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01dm91j21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

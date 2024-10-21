@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usaintlouis.be"
+  ],
+  "established": 1858,
+  "external_ids": [
+    {
+      "all": [
+        "501100008137"
+      ],
+      "preferred": "501100008137",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.434229.a"
+      ],
+      "preferred": "grid.434229.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0941 6203"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1391752"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ygek028",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usaintlouis.be"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_Saint-Louis_Bruxelles"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "name": "Brussels"
+      },
+      "geonames_id": 2800866
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Facultés Universitaires Saint-Louis"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Facultés universitaires saint-louis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Saint-Louis University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UCLouvain Saint-Louis Brussels"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USLB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université Saint-Louis"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université Saint-Louis - Bruxelles"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UCLouvain",
+      "type": "parent",
+      "id": "https://ror.org/02495e989"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nccu.edu"
+  ],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "100014239"
+      ],
+      "preferred": "100014239",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261038.e"
+      ],
+      "preferred": "grid.261038.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2295 5703"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1518804"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/051r3tx83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nccu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/North_Carolina_Central_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 35.99403,
+        "lng": -78.89862,
+        "name": "Durham"
+      },
+      "geonames_id": 4464368
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCCU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Carolina Central University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université centrale de caroline du nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Triangle Center for Evolutionary Medicine",
+      "type": "child",
+      "id": "https://ror.org/02yjqwr70"
+    },
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

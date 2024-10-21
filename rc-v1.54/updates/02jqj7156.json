@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "gmu.edu"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "100006369",
+        "100005907",
+        "100009979"
+      ],
+      "preferred": "100006369",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22448.38"
+      ],
+      "preferred": "grid.22448.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8032"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1411222"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jqj7156",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gmu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/George_Mason_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.84622,
+        "lng": -77.30637,
+        "name": "Fairfax"
+      },
+      "geonames_id": 4758023
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "George Mason University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad George Mason"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Virginia Serious Game Institute",
+      "type": "child",
+      "id": "https://ror.org/037130043"
+    },
+    {
+      "label": "Roy Rosenzweig Center for History and New Media",
+      "type": "child",
+      "id": "https://ror.org/04smycn12"
+    },
+    {
+      "label": "Statistical Assessment Service",
+      "type": "related",
+      "id": "https://ror.org/03n3k9q60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nau.edu"
+  ],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100008883"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261120.6"
+      ],
+      "preferred": "grid.261120.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8040"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q139901"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0272j5188",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nau.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Northern_Arizona_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 35.19807,
+        "lng": -111.65127,
+        "name": "Flagstaff"
+      },
+      "geonames_id": 5294810
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Arizona State College of Flagstaff"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NAU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northern Arizona University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bonanza Creek Long Term Ecological Research",
+      "type": "child",
+      "id": "https://ror.org/01nysf027"
+    },
+    {
+      "label": "Arizona's Public Universities",
+      "type": "parent",
+      "id": "https://ror.org/0054f1w39"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    },
+    {
+      "label": "McMurdo Dry Valleys Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/04r3s7465"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

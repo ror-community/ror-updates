@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lu.se"
+  ],
+  "established": 1666,
+  "external_ids": [
+    {
+      "all": [
+        "501100003252",
+        "501100006738",
+        "501100004817"
+      ],
+      "preferred": "501100003252",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4514.4"
+      ],
+      "preferred": "grid.4514.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0930 2361"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q218506",
+        "Q3578307"
+      ],
+      "preferred": "Q218506",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012a77v79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lu.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Lund_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 55.70584,
+        "lng": 13.19321,
+        "name": "Lund"
+      },
+      "geonames_id": 2693678
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lund University"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Lundin yliopisto"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Lunds universitet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biological Museum, Lund University",
+      "type": "child",
+      "id": "https://ror.org/048555y32"
+    },
+    {
+      "label": "Skåne University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02z31g829"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    },
+    {
+      "label": "ArchLab",
+      "type": "related",
+      "id": "https://ror.org/00rky3x16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

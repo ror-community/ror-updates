@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uncg.edu"
+  ],
+  "established": 1891,
+  "external_ids": [
+    {
+      "all": [
+        "100011862"
+      ],
+      "preferred": "100011862",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266860.c"
+      ],
+      "preferred": "grid.266860.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0671 255X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1321380"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04fnxsj42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uncg.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_North_Carolina_at_Greensboro"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.07264,
+        "lng": -79.79198,
+        "name": "Greensboro"
+      },
+      "geonames_id": 4469146
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UNC Greensboro"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNCG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of North Carolina at Greensboro"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de caroline du nord à greensboro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    },
+    {
+      "label": "Konza Prairie Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/02wavzm11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "url.edu"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100008332"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6162.3"
+      ],
+      "preferred": "grid.6162.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2174 6723"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q24576"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04p9k2z50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.url.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Ramon_Llull"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ramon Llull University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "URL"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Ramon Llull"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitat Ramon Llull"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Esade",
+      "type": "child",
+      "id": "https://ror.org/02d9gec76"
+    },
+    {
+      "label": "Institut Químic de Sarrià",
+      "type": "child",
+      "id": "https://ror.org/04y3yya25"
+    },
+    {
+      "label": "Observatori de l'Ebre",
+      "type": "child",
+      "id": "https://ror.org/03vht8z34"
+    },
+    {
+      "label": "Fundacio Privada Universitat I Tecnologia",
+      "type": "related",
+      "id": "https://ror.org/0366spj33"
+    },
+    {
+      "label": "Fundacio Pere Tarres",
+      "type": "related",
+      "id": "https://ror.org/05fc8gj45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

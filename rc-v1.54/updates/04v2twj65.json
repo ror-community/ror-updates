@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "brookes.ac.uk"
+  ],
+  "established": 1865,
+  "external_ids": [
+    {
+      "all": [
+        "100010053"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7628.b"
+      ],
+      "preferred": "grid.7628.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0726 8331"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q132478"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v2twj65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.brookes.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Oxford_Brookes_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OBU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oxford Brookes University"
+    },
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Brookes Rhydychen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Churchill Hospital",
+      "type": "related",
+      "id": "https://ror.org/009vheq40"
+    },
+    {
+      "label": "John Radcliffe Hospital",
+      "type": "related",
+      "id": "https://ror.org/0080acb59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uclm.es"
+  ],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "501100007480"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8048.4"
+      ],
+      "preferred": "grid.8048.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2194 2329"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q941806"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05r78ng12",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uclm.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Castilla%E2%80%93La_Mancha"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 38.98626,
+        "lng": -3.92907,
+        "name": "Ciudad Real"
+      },
+      "geonames_id": 2519402
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCLM"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Castilla-La Mancha"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Castilla-La Mancha"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ORFEO-CINQA Research Network",
+      "type": "child",
+      "id": "https://ror.org/03xw5ev35"
+    },
+    {
+      "label": "Instituto de Investigación en Recursos Cinegéticos",
+      "type": "child",
+      "id": "https://ror.org/0140hpe71"
+    },
+    {
+      "label": "Complejo Hospitalario Universitario de Albacete",
+      "type": "related",
+      "id": "https://ror.org/04a5hr295"
+    },
+    {
+      "label": "Hospital General Universitario de Albacete",
+      "type": "related",
+      "id": "https://ror.org/055p2yz63"
+    },
+    {
+      "label": "Hospital General Universitario de Ciudad Real",
+      "type": "related",
+      "id": "https://ror.org/02f30ff69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "educause.edu"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "100005705"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.298107.5"
+      ],
+      "preferred": "grid.298107.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2286 5011"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5341309"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0486x5a41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.educause.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Educause"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.97776,
+        "lng": -105.13193,
+        "name": "Louisville"
+      },
+      "geonames_id": 5429522
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Educause"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Coalition for Networked Information",
+      "type": "child",
+      "id": "https://ror.org/043fjtb89"
+    },
+    {
+      "label": "United States Department of Commerce",
+      "type": "parent",
+      "id": "https://ror.org/04chq2495"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

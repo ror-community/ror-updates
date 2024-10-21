@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "csus.edu"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "100009503",
+        "100005546"
+      ],
+      "preferred": "100009503",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.253564.3"
+      ],
+      "preferred": "grid.253564.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2169 6543"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1026941"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03e26wv14",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.csus.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/California_State_University,_Sacramento"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.58157,
+        "lng": -121.4944,
+        "name": "Sacramento"
+      },
+      "geonames_id": 5389489
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "California State University, Sacramento"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Sacramento"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de californie à sacramento"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California State University System",
+      "type": "parent",
+      "id": "https://ror.org/020qm1538"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

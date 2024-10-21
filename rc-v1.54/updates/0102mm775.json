@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "umk.pl"
+  ],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "501100006345",
+        "501100004947"
+      ],
+      "preferred": "501100006345",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5374.5"
+      ],
+      "preferred": "grid.5374.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 6490"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1752712"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0102mm775",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umk.pl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Nicolaus_Copernicus_University_in_Toru%C5%84"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "lat": 53.01375,
+        "lng": 18.59814,
+        "name": "Torun"
+      },
+      "geonames_id": 3083271
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nicolaus Copernicus University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMK"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Uniwersytet Mikołaja Kopernika w Toruniu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Collegium Medicum in Bydgoszcz",
+      "type": "child",
+      "id": "https://ror.org/04c5jwj47"
+    },
+    {
+      "label": "Antoni Jurasz University Hospital",
+      "type": "related",
+      "id": "https://ror.org/029zxzd20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uliege.be"
+  ],
+  "established": 1817,
+  "external_ids": [
+    {
+      "all": [
+        "501100005627",
+        "501100006673"
+      ],
+      "preferred": "501100005627",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4861.b"
+      ],
+      "preferred": "grid.4861.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0805 7253"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1334582"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00afp2z80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uliege.be"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Li%C3%A8ge"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "lat": 50.63373,
+        "lng": 5.56749,
+        "name": "Liège"
+      },
+      "geonames_id": 2792413
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ULiège"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit van Luik"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Liège"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Lüttich"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Liège"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gembloux Agro-Bio Tech",
+      "type": "child",
+      "id": "https://ror.org/00bmzhb16"
+    },
+    {
+      "label": "UMR Transfrontalière BioEcoAgro",
+      "type": "child",
+      "id": "https://ror.org/032v67m28"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Liège",
+      "type": "related",
+      "id": "https://ror.org/044s61914"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

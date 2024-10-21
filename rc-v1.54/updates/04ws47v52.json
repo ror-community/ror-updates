@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "konyvtar.mta.hu"
+  ],
+  "established": 1826,
+  "external_ids": [
+    {
+      "all": [
+        "grid.496758.1"
+      ],
+      "preferred": "grid.496758.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2178 9790"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04ws47v52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://konyvtar.mta.hu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "name": "Budapest"
+      },
+      "geonames_id": 3054643
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Library and Information Centre of the Hungarian Academy of Sciences"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Magyar Tudományos Akadémia Könyvtár és Információs Központ"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hungarian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/02ks8qq67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

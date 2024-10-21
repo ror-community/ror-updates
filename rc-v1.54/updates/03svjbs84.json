@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lstmed.ac.uk"
+  ],
+  "established": 1898,
+  "external_ids": [
+    {
+      "all": [
+        "100014976"
+      ],
+      "preferred": "100014976",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.48004.38"
+      ],
+      "preferred": "grid.48004.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9764"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3835531"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03svjbs84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lstmed.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Liverpool_School_of_Tropical_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "name": "Liverpool"
+      },
+      "geonames_id": 2644210
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LSTM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Liverpool School of Tropical Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Malawi-Liverpool-Wellcome Trust Clinical Research Programme",
+      "type": "related",
+      "id": "https://ror.org/03tebt685"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

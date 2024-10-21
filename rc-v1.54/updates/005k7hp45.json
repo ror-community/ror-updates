@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sum.edu.pl"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100007771",
+        "501100010252"
+      ],
+      "preferred": "501100010252",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411728.9"
+      ],
+      "preferred": "grid.411728.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2198 0923"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2239217"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005k7hp45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sum.edu.pl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Medical_University_of_Silesia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "lat": 50.25841,
+        "lng": 19.02754,
+        "name": "Katowice"
+      },
+      "geonames_id": 3096472
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medical University of Silesia"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SUM"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "alias"
+      ],
+      "value": "Śląski Uniwersytet Medyczny"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Śląski Uniwersytet Medyczny w Katowicach"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Górnośląskie Centrum Medyczne",
+      "type": "related",
+      "id": "https://ror.org/0110em457"
+    },
+    {
+      "label": "Kingsbrook Jewish Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03dp8bn13"
+    },
+    {
+      "label": "Górnośląskie Centrum Zdrowia Dziecka w Katowicach",
+      "type": "related",
+      "id": "https://ror.org/00f5hjx88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

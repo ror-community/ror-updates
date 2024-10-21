@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lrz.de"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "501100019692"
+      ],
+      "preferred": "501100019692",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.509721.8"
+      ],
+      "preferred": "grid.509721.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q872555"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05558nw16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lrz.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Leibniz-Rechenzentrum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.24896,
+        "lng": 11.65101,
+        "name": "Garching"
+      },
+      "geonames_id": 2922582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LRZ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Supercomputing Centre"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Rechenzentrum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bavarian Academy of Sciences and Humanities",
+      "type": "parent",
+      "id": "https://ror.org/001rdaz60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

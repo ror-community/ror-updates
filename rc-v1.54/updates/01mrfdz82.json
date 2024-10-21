@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "tamucc.edu"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "100007809",
+        "100008292"
+      ],
+      "preferred": "100007809",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.264759.b"
+      ],
+      "preferred": "grid.264759.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9880 7531"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q634651"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01mrfdz82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tamucc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Texas_A%26M_University%E2%80%93Corpus_Christi"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 27.80058,
+        "lng": -97.39638,
+        "name": "Corpus Christi"
+      },
+      "geonames_id": 4683416
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "A&M-CC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "A&M-Corpus Christi"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TAMUCC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Texas A&M University – Corpus Christi"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Texas A&M–Corpus Christi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Harte Research Institute for Gulf of Mexico Studies",
+      "type": "child",
+      "id": "https://ror.org/04rpe5h19"
+    },
+    {
+      "label": "Texas A&M University System",
+      "type": "parent",
+      "id": "https://ror.org/0034eay46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

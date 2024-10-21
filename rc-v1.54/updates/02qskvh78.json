@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "umbc.edu"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "100006636"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266673.0"
+      ],
+      "preferred": "grid.266673.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2177 1144"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q735049"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qskvh78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://umbc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Maryland,_Baltimore_County"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
+      },
+      "geonames_id": 4347778
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMBC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Maryland, Baltimore County"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du maryland, comté de baltimore"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Maryland",
+      "type": "parent",
+      "id": "https://ror.org/01r0c1p88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

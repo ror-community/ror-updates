@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "hit.edu.cn"
+  ],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "501100003472"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.19373.3f"
+      ],
+      "preferred": "grid.19373.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0193 3564"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q632558"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01yqg2h08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hit.edu.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CN",
+        "country_name": "China",
+        "lat": 45.75,
+        "lng": 126.65,
+        "name": "Harbin"
+      },
+      "geonames_id": 2037013
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HIT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Harbin Institute of Technology"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "哈尔滨工业大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Advanced Welding and Joining",
+      "type": "child",
+      "id": "https://ror.org/03zxdkx17"
+    },
+    {
+      "label": "State Key Laboratory of Robotics and Systems",
+      "type": "child",
+      "id": "https://ror.org/015m77g16"
+    },
+    {
+      "label": "State Key Laboratory of Urban Water Resources and Water Environment",
+      "type": "child",
+      "id": "https://ror.org/05s6mpv98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "postech.ac.kr"
+  ],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "501100002541"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.49100.3c"
+      ],
+      "preferred": "grid.49100.3c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0742 4007"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q40018",
+        "Q47522690",
+        "Q47520060",
+        "Q47495146"
+      ],
+      "preferred": "Q40018",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xysgw12",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.postech.ac.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Pohang_University_of_Science_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "lat": 36.02917,
+        "lng": 129.36481,
+        "name": "Pohang"
+      },
+      "geonames_id": 1839071
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "POSTECH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pohang University of Science and Technology"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "포항공과대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pohang Accelerator Laboratory",
+      "type": "child",
+      "id": "https://ror.org/02gntzb40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

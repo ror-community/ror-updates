@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mcw.edu"
+  ],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "100008980",
+        "100008981"
+      ],
+      "preferred": "100008980",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.30760.32"
+      ],
+      "preferred": "grid.30760.32",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2111 8460"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6806307"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00qqv6244",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mcw.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Medical_College_of_Wisconsin"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.0389,
+        "lng": -87.90647,
+        "name": "Milwaukee"
+      },
+      "geonames_id": 5263045
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MCW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medical College of Wisconsin"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Medical College of Wisconsin Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/0115fxs14"
+    },
+    {
+      "label": "Children's Hospital of Wisconsin",
+      "type": "related",
+      "id": "https://ror.org/049cbmb74"
+    },
+    {
+      "label": "Froedtert Hospital",
+      "type": "related",
+      "id": "https://ror.org/01nhrc260"
+    },
+    {
+      "label": "Milwaukee VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0176arq92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "rcseng.ac.uk"
+  ],
+  "established": 1800,
+  "external_ids": [
+    {
+      "all": [
+        "501100000297"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421666.1"
+      ],
+      "preferred": "grid.421666.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2106 8352"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1584160"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qrg5a24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rcseng.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_College_of_Surgeons_of_England"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RCS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal College of Surgeons"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal College of Surgeons of England"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal College of Anaesthetists",
+      "type": "child",
+      "id": "https://ror.org/05362bq16"
+    },
+    {
+      "label": "Royal College of Ophthalmologists",
+      "type": "child",
+      "id": "https://ror.org/05s86pb97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

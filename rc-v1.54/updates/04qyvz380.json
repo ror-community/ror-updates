@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sjsu.edu"
+  ],
+  "established": 1857,
+  "external_ids": [
+    {
+      "all": [
+        "100016181"
+      ],
+      "preferred": "100016181",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.186587.5"
+      ],
+      "preferred": "grid.186587.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0722 3678"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q498526"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qyvz380",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sjsu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/San_Jose_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "name": "San Jose"
+      },
+      "geonames_id": 5392171
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SJSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "San Jose State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "San Jose State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de San José"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de san josé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California State University System",
+      "type": "parent",
+      "id": "https://ror.org/020qm1538"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

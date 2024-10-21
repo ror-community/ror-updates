@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "jlab.org"
+  ],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "100011665"
+      ],
+      "preferred": "100011665",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.450315.6"
+      ],
+      "preferred": "grid.450315.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2236 1964"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1540109"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02vwzrd76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jlab.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Thomas_Jefferson_National_Accelerator_Facility"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.98038,
+        "lng": -76.42975,
+        "name": "Newport News"
+      },
+      "geonames_id": 4776024
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "JLab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jefferson Lab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Science Thomas Jefferson National Accelerator Facility"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TJNAF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Thomas Jefferson National Accelerator Facility"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Science Thomas Jefferson National Accelerator Facility"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Thomas Jefferson National Accelerator Facility"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Continuous Electron Beam Accelerator Facility",
+      "type": "child",
+      "id": "https://ror.org/033wxpt21"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

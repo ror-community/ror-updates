@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "igakuken.or.jp"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100016589"
+      ],
+      "preferred": "100016589",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.272456.0"
+      ],
+      "preferred": "grid.272456.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00vya8493",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://igakuken.or.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tokyo Metropolitan Institute of Medical Science"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "公益財団法人東京都医学総合研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tokyo Institute of Psychiatry",
+      "type": "child",
+      "id": "https://ror.org/007c88108"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

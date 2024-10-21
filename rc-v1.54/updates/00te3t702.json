@@ -1,0 +1,146 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uga.edu"
+  ],
+  "established": 1785,
+  "external_ids": [
+    {
+      "all": [
+        "100007699",
+        "100011128",
+        "100010543",
+        "100008779",
+        "100008780",
+        "100007903",
+        "100018790",
+        "100011119"
+      ],
+      "preferred": "100007699",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.213876.9"
+      ],
+      "preferred": "grid.213876.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 738X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q761534"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00te3t702",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uga.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Georgia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 33.96095,
+        "lng": -83.37794,
+        "name": "Athens"
+      },
+      "geonames_id": 4180386
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Franklin College"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UGA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Georgia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Georgia"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de géorgie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Georgia Sea Grant",
+      "type": "child",
+      "id": "https://ror.org/0014w1417"
+    },
+    {
+      "label": "University of Georgia Research Foundation",
+      "type": "child",
+      "id": "https://ror.org/04sqkw483"
+    },
+    {
+      "label": "Skidaway Institute of Oceanography",
+      "type": "child",
+      "id": "https://ror.org/03hjqxp26"
+    },
+    {
+      "label": "University System of Georgia",
+      "type": "parent",
+      "id": "https://ror.org/017wcm924"
+    },
+    {
+      "label": "Georgia Coastal Ecosystems Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017bfx208"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "csusb.edu"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "grid.253565.2"
+      ],
+      "preferred": "grid.253565.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2169 7773"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1026944"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02n651896",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.csusb.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/California_State_University,_San_Bernardino"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.10834,
+        "lng": -117.28977,
+        "name": "San Bernardino"
+      },
+      "geonames_id": 5391710
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSUSB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "California State University, San Bernardino"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de California, San Bernardino"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California State University System",
+      "type": "parent",
+      "id": "https://ror.org/020qm1538"
+    },
+    {
+      "label": "Arrowhead Regional Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00yvh2s32"
+    },
+    {
+      "label": "Community Hospital of San Bernardino",
+      "type": "related",
+      "id": "https://ror.org/0092pe568"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

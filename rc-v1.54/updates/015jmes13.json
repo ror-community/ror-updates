@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sdstate.edu"
+  ],
+  "established": 1881,
+  "external_ids": [
+    {
+      "all": [
+        "100008213",
+        "100008214"
+      ],
+      "preferred": "100008213",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.263791.8"
+      ],
+      "preferred": "grid.263791.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2167 853X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2302260"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/015jmes13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sdstate.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/South_Dakota_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 44.31136,
+        "lng": -96.79839,
+        "name": "Brookings"
+      },
+      "geonames_id": 5226534
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Dakota State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Dakota del Sur"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État du Dakota du Sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Dakota Agricultural Experiment Station",
+      "type": "child",
+      "id": "https://ror.org/00qkgfc37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

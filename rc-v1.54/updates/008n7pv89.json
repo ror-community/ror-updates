@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "plymouth.ac.uk"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100002286",
+        "100008962"
+      ],
+      "preferred": "501100002286",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11201.33"
+      ],
+      "preferred": "grid.11201.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2219 0747"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1711558"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008n7pv89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.plymouth.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Plymouth"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 50.37153,
+        "lng": -4.14305,
+        "name": "Plymouth"
+      },
+      "geonames_id": 2640194
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Plymouth"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Plymouth"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Derriford Hospital",
+      "type": "related",
+      "id": "https://ror.org/00v5h4y49"
+    },
+    {
+      "label": "Royal Devon and Exeter Hospital",
+      "type": "related",
+      "id": "https://ror.org/03jrh3t05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usm.edu"
+  ],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "100006525"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267193.8"
+      ],
+      "preferred": "grid.267193.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2295 628X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q624090"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0270vfa57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usm.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Southern_Mississippi"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 31.32712,
+        "lng": -89.29034,
+        "name": "Hattiesburg"
+      },
+      "geonames_id": 4429295
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Southern Miss"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Southern Mississippi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mississippi Institutions of Higher Learning",
+      "type": "parent",
+      "id": "https://ror.org/04kqgqa72"
+    },
+    {
+      "label": "Forrest General Hospital",
+      "type": "related",
+      "id": "https://ror.org/05bq1qp94"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    },
+    {
+      "label": "Mississippi Space Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/0249rpb20"
+    },
+    {
+      "label": "Wesley Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00ftebr67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

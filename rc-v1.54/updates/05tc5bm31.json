@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fgcu.edu"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "100009880"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255962.f"
+      ],
+      "preferred": "grid.255962.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0647 2963"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1430054"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05tc5bm31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fgcu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Florida_Gulf_Coast_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 26.62168,
+        "lng": -81.84059,
+        "name": "Fort Myers"
+      },
+      "geonames_id": 4155995
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FGCU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Florida Gulf Coast University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University System of Florida",
+      "type": "parent",
+      "id": "https://ror.org/05sqd3t97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

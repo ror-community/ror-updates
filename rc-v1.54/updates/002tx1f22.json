@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "csuohio.edu"
+  ],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "100006466"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254298.0"
+      ],
+      "preferred": "grid.254298.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2173 4730"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1100801"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002tx1f22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://csuohio.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Cleveland_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.4995,
+        "lng": -81.69541,
+        "name": "Cleveland"
+      },
+      "geonames_id": 5150529
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cleveland State University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de cleveland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

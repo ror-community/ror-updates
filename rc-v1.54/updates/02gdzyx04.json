@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uwinnipeg.ca"
+  ],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "100009367"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267457.5"
+      ],
+      "preferred": "grid.267457.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1703 4731"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q472167"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02gdzyx04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uwinnipeg.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Winnipeg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Winnipeg"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de winnipeg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Winnipeg Institute for Theoretical Physics",
+      "type": "child",
+      "id": "https://ror.org/010tw2j24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

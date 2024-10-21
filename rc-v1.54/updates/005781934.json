@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "baylor.edu"
+  ],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "100007492",
+        "100010272",
+        "100005470"
+      ],
+      "preferred": "100007492",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.252890.4"
+      ],
+      "preferred": "grid.252890.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2111 2894"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q812573"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005781934",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.baylor.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Baylor_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 31.54933,
+        "lng": -97.14667,
+        "name": "Waco"
+      },
+      "geonames_id": 4739526
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Baylor University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "McLennan Community College",
+      "type": "child",
+      "id": "https://ror.org/05nf32076"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

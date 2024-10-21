@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "boisestate.edu"
+  ],
+  "established": 1932,
+  "external_ids": [
+    {
+      "all": [
+        "100007233",
+        "100007750",
+        "100006921"
+      ],
+      "preferred": "100007233",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.184764.8"
+      ],
+      "preferred": "grid.184764.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0670 228X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q891082"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e3zdp86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.boisestate.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Boise_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.6135,
+        "lng": -116.20345,
+        "name": "Boise"
+      },
+      "geonames_id": 5586437
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Boise State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Boise"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de boise"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St. Luke's Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/02m0cd826"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

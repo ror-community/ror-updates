@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ensea.fr"
+  ],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424458.b"
+      ],
+      "preferred": "grid.424458.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 8330"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2707341"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qeacd72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensea.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_de_l%27%C3%A9lectronique_et_de_ses_applications_(Cergy-Pontoise)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 49.03645,
+        "lng": 2.07613,
+        "name": "Cergy"
+      },
+      "geonames_id": 3027883
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENREA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSEA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure de l'Électronique et de ses Applications"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Equipes Traitement de l'Information et Systèmes",
+      "type": "child",
+      "id": "https://ror.org/0592ata02"
+    },
+    {
+      "label": "Laboratoire Sols et Environnement",
+      "type": "child",
+      "id": "https://ror.org/01e8etd40"
+    },
+    {
+      "label": "Laboratoire Quartz",
+      "type": "child",
+      "id": "https://ror.org/01s6q2813"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

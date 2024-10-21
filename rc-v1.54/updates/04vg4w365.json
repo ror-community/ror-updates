@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lboro.ac.uk"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "501100000857",
+        "501100000634"
+      ],
+      "preferred": "501100000857",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6571.5"
+      ],
+      "preferred": "grid.6571.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8542"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1434547"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vg4w365",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lboro.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Loughborough_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 52.76667,
+        "lng": -1.2,
+        "name": "Loughborough"
+      },
+      "geonames_id": 2643567
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Loughborough University"
+    },
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Loughborough"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NIHR Leicester Biomedical Research Centre",
+      "type": "child",
+      "id": "https://ror.org/05xqxa525"
+    },
+    {
+      "label": "Loughborough Hospital",
+      "type": "related",
+      "id": "https://ror.org/03pkrx282"
+    },
+    {
+      "label": "NIHR Leicester-Loughborough Diet, Lifestyle and Physical Activity Biomedical Research Unit",
+      "type": "related",
+      "id": "https://ror.org/01fphh031"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

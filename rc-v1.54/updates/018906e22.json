@@ -1,0 +1,145 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "erasmusmc.nl"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100008039",
+        "501100003061",
+        "501100010659"
+      ],
+      "preferred": "501100010659",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5645.2"
+      ],
+      "preferred": "grid.5645.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 992X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3126873"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/018906e22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.erasmusmc.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Erasmus_MC"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 51.9225,
+        "lng": 4.47917,
+        "name": "Rotterdam"
+      },
+      "geonames_id": 2747891
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Erasmus MC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Erasmus University Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Erasmus MC - Sophia Children’s Hospital",
+      "type": "child",
+      "id": "https://ror.org/047afsm11"
+    },
+    {
+      "label": "Erasmus MC Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/03r4m3349"
+    },
+    {
+      "label": "Erasmus MC Transplant Institute",
+      "type": "child",
+      "id": "https://ror.org/0585v6057"
+    },
+    {
+      "label": "Erasmus Optical Imaging Centre",
+      "type": "child",
+      "id": "https://ror.org/00hjpwn75"
+    },
+    {
+      "label": "Erasmus MC Hart en Vaat Instituut",
+      "type": "child",
+      "id": "https://ror.org/004c11w41"
+    },
+    {
+      "label": "Rotterdam Study",
+      "type": "child",
+      "id": "https://ror.org/02ac58f22"
+    },
+    {
+      "label": "Erasmus University Rotterdam",
+      "type": "related",
+      "id": "https://ror.org/057w15z03"
+    },
+    {
+      "label": "ERN CRANIO",
+      "type": "related",
+      "id": "https://ror.org/032gggv33"
+    },
+    {
+      "label": "ERNICA",
+      "type": "related",
+      "id": "https://ror.org/02h9n4675"
+    },
+    {
+      "label": "Holland Particle Therapy Center",
+      "type": "related",
+      "id": "https://ror.org/05ahyhp31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

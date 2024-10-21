@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "kaist.ac.kr"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100007107",
+        "501100007108"
+      ],
+      "preferred": "501100007107",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.37172.30"
+      ],
+      "preferred": "grid.37172.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2292 0500"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q39949",
+        "Q40211976"
+      ],
+      "preferred": "Q39949",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05apxxy63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kaist.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/KAIST"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KAIST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Advanced Institute of Science and Technology"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국과학기술원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Intelligent Synthetic Biology Center",
+      "type": "child",
+      "id": "https://ror.org/023dqar74"
+    },
+    {
+      "label": "National NanoFab Center",
+      "type": "child",
+      "id": "https://ror.org/05k1va520"
+    },
+    {
+      "label": "Science and Technology Policy Institute",
+      "type": "related",
+      "id": "https://ror.org/00s147322"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

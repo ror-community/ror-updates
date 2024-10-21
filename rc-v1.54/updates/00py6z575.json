@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sdccd.edu"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462800.8"
+      ],
+      "preferred": "grid.462800.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8773 0567"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7413621"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00py6z575",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sdccd.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/San_Diego_Community_College_District"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDCCD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "San Diego Community College District"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "San Diego City College",
+      "type": "child",
+      "id": "https://ror.org/05szy4c49"
+    },
+    {
+      "label": "San Diego Mesa College",
+      "type": "child",
+      "id": "https://ror.org/014m3pp97"
+    },
+    {
+      "label": "San Diego Miramar College",
+      "type": "child",
+      "id": "https://ror.org/01kqyam71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

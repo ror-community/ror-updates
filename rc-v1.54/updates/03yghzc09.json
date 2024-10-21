@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "exeter.ac.uk"
+  ],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "501100000737",
+        "501100000604"
+      ],
+      "preferred": "501100000737",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8391.3"
+      ],
+      "preferred": "grid.8391.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8024"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1414861"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03yghzc09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.exeter.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Exeter"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 50.7236,
+        "lng": -3.52751,
+        "name": "Exeter"
+      },
+      "geonames_id": 2649808
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Caerwysg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Exeter"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wellcome Centre of Cultures and Environments of Health",
+      "type": "child",
+      "id": "https://ror.org/00rbqbc98"
+    },
+    {
+      "label": "MRC Centre for Medical Mycology",
+      "type": "child",
+      "id": "https://ror.org/00vbzva31"
+    },
+    {
+      "label": "Derriford Hospital",
+      "type": "related",
+      "id": "https://ror.org/00v5h4y49"
+    },
+    {
+      "label": "Royal Devon and Exeter Hospital",
+      "type": "related",
+      "id": "https://ror.org/03jrh3t05"
+    },
+    {
+      "label": "GW4 Facility for High-Resolution Electron Cryo-Microscopy",
+      "type": "related",
+      "id": "https://ror.org/022p86748"
+    },
+    {
+      "label": "GW4",
+      "type": "related",
+      "id": "https://ror.org/000vekr11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "oca.eu"
+  ],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440460.2"
+      ],
+      "preferred": "grid.440460.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2181 5557"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2991466"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/039fj2469",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.oca.eu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/C%C3%B4te_d%27Azur_Observatory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 43.70313,
+        "lng": 7.26608,
+        "name": "Nice"
+      },
+      "geonames_id": 2990440
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OCA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire de la Côte d’Azur"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Observatoire de la côte d'azur"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Astrophysique Relativiste, Théories, Expériences, Métrologie, Instrumentation, Signaux",
+      "type": "child",
+      "id": "https://ror.org/031ah7413"
+    },
+    {
+      "label": "Géoazur",
+      "type": "child",
+      "id": "https://ror.org/05xtktk35"
+    },
+    {
+      "label": "Lagrange Laboratory",
+      "type": "child",
+      "id": "https://ror.org/02fdv8735"
+    },
+    {
+      "label": "Université Côte d'Azur",
+      "type": "parent",
+      "id": "https://ror.org/019tgvf94"
+    },
+    {
+      "label": "Fédération française Matériaux sous hautes vitesses de déformation. Application aux matériaux en conditions extrêmes, Procédés et structures",
+      "type": "related",
+      "id": "https://ror.org/00hgbrg14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

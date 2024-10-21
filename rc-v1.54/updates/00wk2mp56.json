@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "buaa.edu.cn"
+  ],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "501100002358",
+        "501100003096"
+      ],
+      "preferred": "501100002358",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.64939.31"
+      ],
+      "preferred": "grid.64939.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9999 1211"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2299797"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wk2mp56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://buaa.edu.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Beihang_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CN",
+        "country_name": "China",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BUAA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Beihang University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beijing University of Aeronautics and Astronautics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京航空航天大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Software Development Environment",
+      "type": "child",
+      "id": "https://ror.org/017r4dj03"
+    },
+    {
+      "label": "State Key Laboratory of Virtual Reality Technology and Systems",
+      "type": "child",
+      "id": "https://ror.org/0009eea46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
