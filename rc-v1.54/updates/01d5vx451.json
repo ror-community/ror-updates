@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "vhir.org",
+    "vhir.vallhebron.com"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "grid.430994.3"
+      ],
+      "preferred": "grid.430994.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 0287"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21086309"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01d5vx451",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://vhir.vallhebron.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VHIR"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VHIR-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vall d'Hebron Institut de Recerca"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Vall d'Hebron Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CIBBIM-Nanomedicine",
+      "type": "child",
+      "id": "https://ror.org/04xezgr31"
+    },
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    },
+    {
+      "label": "Centre d'Esclerosi Múltiple de Catalunya",
+      "type": "related",
+      "id": "https://ror.org/01kzbqm05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

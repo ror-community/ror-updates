@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mbl.edu"
+  ],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "grid.144532.5"
+      ],
+      "preferred": "grid.144532.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2169 920X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q500632"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/046dg4z72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mbl.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Marine_Biological_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.52701,
+        "lng": -70.67324,
+        "name": "Woods Hole"
+      },
+      "geonames_id": 4956152
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MBL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Marine Biological Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Plum Island Ecosystems Long Term Ecological Research",
+      "type": "child",
+      "id": "https://ror.org/052tfzs89"
+    },
+    {
+      "label": "University of Chicago",
+      "type": "related",
+      "id": "https://ror.org/024mw5h28"
+    },
+    {
+      "label": "Woods Hole Oceanographic Institution",
+      "type": "related",
+      "id": "https://ror.org/03zbnzt98"
+    },
+    {
+      "label": "Woodwell Climate Research Center",
+      "type": "related",
+      "id": "https://ror.org/04cvvej54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

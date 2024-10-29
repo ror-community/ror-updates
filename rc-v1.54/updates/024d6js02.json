@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "cuni.cz"
+  ],
+  "established": 1348,
+  "external_ids": [
+    {
+      "all": [
+        "100007397",
+        "100007672",
+        "100008579",
+        "100007543",
+        "100008551",
+        "100019214"
+      ],
+      "preferred": "100007397",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4491.8"
+      ],
+      "preferred": "grid.4491.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 116X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q31519"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/024d6js02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cuni.cz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Charles_University_in_Prague"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "name": "Prague"
+      },
+      "geonames_id": 3067696
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Charles University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Charles University in Prague"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Karls-Universität Prag"
+    },
+    {
+      "lang": "sk",
+      "types": [
+        "label"
+      ],
+      "value": "Univerzita Karlova"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Univerzita Karlova v Praze"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Pharmacology",
+      "type": "child",
+      "id": "https://ror.org/01ss14a40"
+    },
+    {
+      "label": "Center for Advanced Preclinical Imaging",
+      "type": "child",
+      "id": "https://ror.org/0094hc805"
+    },
+    {
+      "label": "General University Hospital in Prague",
+      "type": "related",
+      "id": "https://ror.org/04yg23125"
+    },
+    {
+      "label": "University Hospital in Motol",
+      "type": "related",
+      "id": "https://ror.org/0125yxn03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

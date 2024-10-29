@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "cereq.fr"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.432878.2"
+      ],
+      "preferred": "grid.432878.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2294 5863"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03hv4y553",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cereq.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEREQ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Études et de Recherches sur les Qualifications"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "French Centre for Research on Education, Training and Employment"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministere de l'Education Nationale",
+      "type": "parent",
+      "id": "https://ror.org/04xp49e10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

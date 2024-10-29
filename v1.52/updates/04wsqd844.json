@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "501100006021"
+      ],
+      "preferred": "501100006021",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484080.0"
+      ],
+      "preferred": "grid.484080.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0671 8206"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3029559"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04wsqd844",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.defense.gouv.fr/dga"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_de_l%27armement"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DGA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Direction Générale de l'Armement"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère des Armées",
+      "type": "parent",
+      "id": "https://ror.org/025er3q23"
+    },
+    {
+      "label": "DGA Techniques aérospatiales",
+      "type": "child",
+      "id": "https://ror.org/02q398w70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

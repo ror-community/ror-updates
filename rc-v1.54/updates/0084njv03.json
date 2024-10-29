@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "tamusa.edu"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "100010860"
+      ],
+      "preferred": "100010860",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.469272.c"
+      ],
+      "preferred": "grid.469272.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0180 5693"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7707479"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0084njv03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tamusa.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Texas_A%26M_University%E2%80%93San_Antonio"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TAMUSA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Texas A&M University – San Antonio"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Texas A&M University–Kingsville System Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Texas A&M University System",
+      "type": "parent",
+      "id": "https://ror.org/0034eay46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

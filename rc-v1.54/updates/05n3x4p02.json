@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "meduniwien.ac.at"
+  ],
+  "established": 1365,
+  "external_ids": [
+    {
+      "all": [
+        "501100005788"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22937.3d"
+      ],
+      "preferred": "grid.22937.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9259 8492"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q700731"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n3x4p02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.meduniwien.ac.at"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Medical_University_of_Vienna"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AT",
+        "country_name": "Austria",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "name": "Vienna"
+      },
+      "geonames_id": 2761369
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "MedUni Vienna"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "MedUni Wien"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medical University of Vienna"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Medizinische Universität Wien"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universitätszahnklinik Wien",
+      "type": "related",
+      "id": "https://ror.org/04zvdfd56"
+    },
+    {
+      "label": "Vienna General Hospital",
+      "type": "related",
+      "id": "https://ror.org/05f0zr486"
+    },
+    {
+      "label": "Max Perutz Labs",
+      "type": "related",
+      "id": "https://ror.org/05cz70a34"
+    },
+    {
+      "label": "St. Anna Children's Cancer Research Institute",
+      "type": "related",
+      "id": "https://ror.org/05bd7c383"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "agrar.mta.hu"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425416.0"
+      ],
+      "preferred": "grid.425416.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1794 4673"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/057k9q466",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://agrar.mta.hu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "lat": 47.31601,
+        "lng": 18.79045,
+        "name": "Martonvásár"
+      },
+      "geonames_id": 3048326
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ATK"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Agrártudományi Kutatóközpont"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre for Agricultural Research"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "Magyar Tudományos Akadémia Agrártudományi Kutatóközpont"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agricultural Institute",
+      "type": "child",
+      "id": "https://ror.org/05y1qcf54"
+    },
+    {
+      "label": "Institute for Soil Sciences",
+      "type": "child",
+      "id": "https://ror.org/036eftk49"
+    },
+    {
+      "label": "Institute for Veterinary Medical Research",
+      "type": "child",
+      "id": "https://ror.org/025m2a107"
+    },
+    {
+      "label": "Plant Protection Institute",
+      "type": "child",
+      "id": "https://ror.org/052t9a145"
+    },
+    {
+      "label": "Hungarian Research Network",
+      "type": "parent",
+      "id": "https://ror.org/04w6pnc49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "aber.ac.uk"
+  ],
+  "established": 1872,
+  "external_ids": [
+    {
+      "all": [
+        "501100000315",
+        "501100001641",
+        "501100001642"
+      ],
+      "preferred": "501100000315",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8186.7"
+      ],
+      "preferred": "grid.8186.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2168 2483"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q319761"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/015m2p889",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aber.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Aberystwyth_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 52.41548,
+        "lng": -4.08292,
+        "name": "Aberystwyth"
+      },
+      "geonames_id": 2657782
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Aberystwyth University"
+    },
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Aberystwyth"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University College Wales"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Biological, Environmental and Rural Sciences",
+      "type": "child",
+      "id": "https://ror.org/051wgfj58"
+    },
+    {
+      "label": "Bronglais General Hospital",
+      "type": "related",
+      "id": "https://ror.org/05wf8v135"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ncts.ntu.edu.tw"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "100009125"
+      ],
+      "preferred": "100009125",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468468.0"
+      ],
+      "preferred": "grid.468468.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9060 5564"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q10867778"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mfp0b67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ncts.ntu.edu.tw"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "lat": 25.04776,
+        "lng": 121.53185,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCTS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Center for Theoretical Sciences"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "國家理論科學研究中心"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Center for Theoretical Sciences, Mathematics Division",
+      "type": "child",
+      "id": "https://ror.org/04jmdbw57"
+    },
+    {
+      "label": "National Center for Theoretical Sciences, Physics Division",
+      "type": "child",
+      "id": "https://ror.org/02mh1d616"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

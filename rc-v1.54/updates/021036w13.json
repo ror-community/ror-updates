@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "bsu.by"
+  ],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "501100007609"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.17678.3f"
+      ],
+      "preferred": "grid.17678.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1092 255X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2418908"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021036w13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://bsu.by"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Belarusian_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "lat": 53.9,
+        "lng": 27.56667,
+        "name": "Minsk"
+      },
+      "geonames_id": 625144
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Belarusian State University"
+    },
+    {
+      "lang": "be",
+      "types": [
+        "label"
+      ],
+      "value": "Беларускі дзяржаўны ўніверсітэт"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Белорусский государственный университет"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Sakharov Environmental Institute",
+      "type": "child",
+      "id": "https://ror.org/05198a862"
+    },
+    {
+      "label": "Joint Institute of the Dalian University of Technology and Belarusian State University",
+      "type": "child",
+      "id": "https://ror.org/00adjwa30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

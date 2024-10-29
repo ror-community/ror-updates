@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fiu.edu"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "100007681",
+        "100008034"
+      ],
+      "preferred": "100007681",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.65456.34"
+      ],
+      "preferred": "grid.65456.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 1845"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1065809"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02gz6gg07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fiu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Florida_International_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 25.77427,
+        "lng": -80.19366,
+        "name": "Miami"
+      },
+      "geonames_id": 4164138
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FIU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Florida International University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Internacional de Florida"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université internationale de floride"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Florida Coastal Everglades Long Term Ecological Research",
+      "type": "child",
+      "id": "https://ror.org/03davk141"
+    },
+    {
+      "label": "State University System of Florida",
+      "type": "parent",
+      "id": "https://ror.org/05sqd3t97"
+    },
+    {
+      "label": "Jackson Memorial Hospital",
+      "type": "related",
+      "id": "https://ror.org/02y070a55"
+    },
+    {
+      "label": "Miami Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/048d1b238"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

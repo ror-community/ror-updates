@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ameslab.gov"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "100011659"
+      ],
+      "preferred": "100011659",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451319.b"
+      ],
+      "preferred": "grid.451319.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0690 157X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4745875"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041m9xr71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ameslab.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ames_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 42.03471,
+        "lng": -93.61994,
+        "name": "Ames"
+      },
+      "geonames_id": 4846834
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ames Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ames National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Ames National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Iowa State University",
+      "type": "parent",
+      "id": "https://ror.org/04rswrd78"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

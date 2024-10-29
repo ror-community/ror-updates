@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ump.edu.pl"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100010438"
+      ],
+      "preferred": "501100010438",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22254.33"
+      ],
+      "preferred": "grid.22254.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2205 0971"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q741563"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zbb2597",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://pums.ump.edu.pl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Poznan_University_of_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "PL",
+        "country_name": "Poland",
+        "lat": 52.40692,
+        "lng": 16.92993,
+        "name": "Poznan"
+      },
+      "geonames_id": 3088171
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PUMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Poznan University of Medical Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Heliodor Swiecicki Clinical Hospital",
+      "type": "child",
+      "id": "https://ror.org/00dfpj523"
+    },
+    {
+      "label": "University Hospital of Lord’s Transfiguration",
+      "type": "related",
+      "id": "https://ror.org/04smhj247"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

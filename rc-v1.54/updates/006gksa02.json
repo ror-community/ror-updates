@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uniovi.es"
+  ],
+  "established": 1574,
+  "external_ids": [
+    {
+      "all": [
+        "501100006382",
+        "501100002929"
+      ],
+      "preferred": "501100006382",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10863.3c"
+      ],
+      "preferred": "grid.10863.3c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2164 6351"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2303432"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006gksa02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uniovi.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Oviedo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 43.36029,
+        "lng": -5.84476,
+        "name": "Oviedo"
+      },
+      "geonames_id": 3114711
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UO"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad de Oviedo"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidá d'Uviéu"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Oviedo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ORFEO-CINQA Research Network",
+      "type": "child",
+      "id": "https://ror.org/03xw5ev35"
+    },
+    {
+      "label": "Instituto Mixto de Investigación en Biodiversidad",
+      "type": "child",
+      "id": "https://ror.org/02cp22d42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

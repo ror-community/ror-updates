@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "oakland.edu"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "100017115"
+      ],
+      "preferred": "100017115",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261277.7"
+      ],
+      "preferred": "grid.261277.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2219 916X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q782116"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ythxj32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://oakland.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Oakland_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 42.68059,
+        "lng": -83.13382,
+        "name": "Rochester"
+      },
+      "geonames_id": 5007400
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oakland University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Beaumont Hospital, Royal Oak",
+      "type": "related",
+      "id": "https://ror.org/03artm726"
+    },
+    {
+      "label": "Beaumont Hospital, Troy",
+      "type": "related",
+      "id": "https://ror.org/05x9ffc66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

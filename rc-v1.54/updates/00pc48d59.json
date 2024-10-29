@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "eawag.ch"
+  ],
+  "established": 1936,
+  "external_ids": [
+    {
+      "all": [
+        "501100011718"
+      ],
+      "preferred": "501100011718",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418656.8"
+      ],
+      "preferred": "grid.418656.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1551 0562"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q678765"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00pc48d59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eawag.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swiss_Federal_Institute_of_Aquatic_Science_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.39724,
+        "lng": 8.61872,
+        "name": "Dübendorf"
+      },
+      "geonames_id": 2660971
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EAWAG"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Eidgenössische Anstalt für Wasserversorgung, Abwasserreinigung und Gewässerschutz"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Institut fédéral pour l’aménagement, l’épuration et la protection des eaux"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swiss Federal Institute of Aquatic Science and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL",
+      "type": "child",
+      "id": "https://ror.org/021f7p178"
+    },
+    {
+      "label": "Board of the Swiss Federal Institutes of Technology",
+      "type": "parent",
+      "id": "https://ror.org/01rvn4p91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

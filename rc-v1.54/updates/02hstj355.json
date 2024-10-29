@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mmu.ac.uk"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100010014"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.25627.34"
+      ],
+      "preferred": "grid.25627.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0790 5329"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1888771"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02hstj355",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mmu.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Manchester_Metropolitan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 53.48095,
+        "lng": -2.23743,
+        "name": "Manchester"
+      },
+      "geonames_id": 2643123
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Manchester Metropolitan University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Manchester School of Architecture",
+      "type": "child",
+      "id": "https://ror.org/03xxxrq06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

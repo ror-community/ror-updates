@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usu.edu"
+  ],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "100006630",
+        "100007201",
+        "100007200"
+      ],
+      "preferred": "100006630",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.53857.3c"
+      ],
+      "preferred": "grid.53857.3c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2185 8768"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1052614"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00h6set76",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.usu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Utah_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.73549,
+        "lng": -111.83439,
+        "name": "Logan"
+      },
+      "geonames_id": 5777544
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USU"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Utah"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de l'utah"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Utah State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Utah State University Space Dynamics Laboratory",
+      "type": "child",
+      "id": "https://ror.org/02w403h65"
+    },
+    {
+      "label": "Utah Agricultural Experiment Station",
+      "type": "child",
+      "id": "https://ror.org/02d5zdh33"
+    },
+    {
+      "label": "Utah System of Higher Education",
+      "type": "parent",
+      "id": "https://ror.org/02mv6r745"
+    },
+    {
+      "label": "Arctic Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/04pk7zz41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

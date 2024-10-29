@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "utu.fi"
+  ],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "501100005609",
+        "501100008557"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1374.1"
+      ],
+      "preferred": "grid.1374.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 1371"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q501841"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vghhr25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utu.fi"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Turku"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FI",
+        "country_name": "Finland",
+        "lat": 60.45148,
+        "lng": 22.26869,
+        "name": "Turku"
+      },
+      "geonames_id": 633679
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Turun yliopisto"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Turku"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Åbo universitet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Turku Centre for Computer Science",
+      "type": "child",
+      "id": "https://ror.org/00vy7ed73"
+    },
+    {
+      "label": "Turku PET Centre",
+      "type": "child",
+      "id": "https://ror.org/01761e930"
+    },
+    {
+      "label": "Turun Yliopistosäätiö",
+      "type": "child",
+      "id": "https://ror.org/02kjggt26"
+    },
+    {
+      "label": "Turku University Hospital",
+      "type": "related",
+      "id": "https://ror.org/05dbzj528"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

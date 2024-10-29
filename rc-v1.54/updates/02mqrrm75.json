@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uqat.ca"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100009442",
+        "501100004098"
+      ],
+      "preferred": "100009442",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265704.2"
+      ],
+      "preferred": "grid.265704.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0665 6279"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2077260"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mqrrm75",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uqat.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_en_Abitibi-T%C3%A9miscamingue"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 48.23656,
+        "lng": -79.02311,
+        "name": "Rouyn-Noranda"
+      },
+      "geonames_id": 6128577
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UQAT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université du Québec en Abitibi-Témiscamingue"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université du Québec",
+      "type": "parent",
+      "id": "https://ror.org/010gxg263"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

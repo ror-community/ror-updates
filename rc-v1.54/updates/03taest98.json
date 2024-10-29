@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ipp.mpg.de"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461804.f"
+      ],
+      "preferred": "grid.461804.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0648 0340"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q881298"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03taest98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipp.mpg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Planck_Institute_of_Plasma_Physics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.24896,
+        "lng": 11.65101,
+        "name": "Garching"
+      },
+      "geonames_id": 2922582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Plasma Physics"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Plasmaphysik"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Computing and Data Facility",
+      "type": "child",
+      "id": "https://ror.org/03e21z229"
+    },
+    {
+      "label": "Max Planck Institute for Plasma Physics - Greifswald",
+      "type": "child",
+      "id": "https://ror.org/029rhq550"
+    },
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "related",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

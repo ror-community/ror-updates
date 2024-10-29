@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "syr.edu"
+  ],
+  "established": 1870,
+  "external_ids": [
+    {
+      "all": [
+        "100007126",
+        "100008568"
+      ],
+      "preferred": "100007126",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.264484.8"
+      ],
+      "preferred": "grid.264484.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2189 1568"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q617433"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025r5qe02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.syracuse.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Syracuse_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.04812,
+        "lng": -76.14742,
+        "name": "Syracuse"
+      },
+      "geonames_id": 5140405
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Syracuse University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Siracusa"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de syracuse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Qualitative Data Repository",
+      "type": "child",
+      "id": "https://ror.org/014trz974"
+    },
+    {
+      "label": "Syracuse VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0332k3m42"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    },
+    {
+      "label": "Great Lakes Research Consortium",
+      "type": "related",
+      "id": "https://ror.org/05cshtm26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

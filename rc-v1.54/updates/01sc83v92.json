@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ehesp.fr"
+  ],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "501100012519"
+      ],
+      "preferred": "501100012519",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414412.6"
+      ],
+      "preferred": "grid.414412.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1943 5037"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1587855"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01sc83v92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ehesp.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/EHESP"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EHESP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École des Hautes Études en Santé Publique"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "École des hautes études en santé publique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Arènes: politique, santé publique, environnement, médias",
+      "type": "child",
+      "id": "https://ror.org/00m4rxj18"
+    },
+    {
+      "label": "Institut de Recherche en Santé, Environnement et Travail",
+      "type": "child",
+      "id": "https://ror.org/01p178v10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

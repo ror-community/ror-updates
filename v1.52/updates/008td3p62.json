@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "501100013260"
+      ],
+      "preferred": "501100013260",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2202 0385"
+      ],
+      "preferred": "0000 0001 2202 0385",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4966582"
+      ],
+      "preferred": "Q4966582",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008td3p62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.icrr.u-tokyo.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institute_for_Cosmic_Ray_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICRR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute for Cosmic Ray Research"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "東京大学宇宙線研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "KAGRA",
+      "type": "child",
+      "id": "https://ror.org/033tx3651"
+    },
+    {
+      "label": "The University of Tokyo",
+      "type": "parent",
+      "id": "https://ror.org/057zh3y96"
+    },
+    {
+      "label": "National Astronomical Observatory of Japan",
+      "type": "parent",
+      "id": "https://ror.org/052rrw050"
+    },
+    {
+      "label": "High Energy Accelerator Research Organization",
+      "type": "parent",
+      "id": "https://ror.org/01g5y5k24"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "tudelft.nl"
+  ],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "501100001831",
+        "501100002984"
+      ],
+      "preferred": "501100001831",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5292.c"
+      ],
+      "preferred": "grid.5292.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 4740"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q752663",
+        "Q6379334"
+      ],
+      "preferred": "Q752663",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e2c7k09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tudelft.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Delft_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.00667,
+        "lng": 4.35556,
+        "name": "Delft"
+      },
+      "geonames_id": 2757345
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Delft University of Technology"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "TU Delft"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Technische Universiteit Delft"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "QuTech",
+      "type": "child",
+      "id": "https://ror.org/04wf30j82"
+    },
+    {
+      "label": "TU Delft OPEN Publishing",
+      "type": "child",
+      "id": "https://ror.org/02hrx0m28"
+    },
+    {
+      "label": "Reinier de Graaf Hospital",
+      "type": "related",
+      "id": "https://ror.org/00wkhef66"
+    },
+    {
+      "label": "4TU",
+      "type": "related",
+      "id": "https://ror.org/03rsncr94"
+    },
+    {
+      "label": "Holland Particle Therapy Center",
+      "type": "related",
+      "id": "https://ror.org/05ahyhp31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

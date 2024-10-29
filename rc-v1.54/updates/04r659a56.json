@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "une.edu.au"
+  ],
+  "established": 1938,
+  "external_ids": [
+    {
+      "all": [
+        "501100001772"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1020.3"
+      ],
+      "preferred": "grid.1020.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 7371"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1814435"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r659a56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.une.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_New_England_(Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "lat": -30.50123,
+        "lng": 151.66553,
+        "name": "Armidale"
+      },
+      "geonames_id": 2177671
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "New England University College of the University of Sydney"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of New England"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UNE Partnerships (Australia)",
+      "type": "child",
+      "id": "https://ror.org/0238awh09"
+    },
+    {
+      "label": "Gosford Hospital",
+      "type": "related",
+      "id": "https://ror.org/01jg3a168"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "eur.nl"
+  ],
+  "established": 1913,
+  "external_ids": [
+    {
+      "all": [
+        "501100001828",
+        "501100005797",
+        "100007620"
+      ],
+      "preferred": "501100001828",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6906.9"
+      ],
+      "preferred": "grid.6906.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9262 1349"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q633529"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/057w15z03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eur.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Erasmus_University_Rotterdam"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 51.9225,
+        "lng": 4.47917,
+        "name": "Rotterdam"
+      },
+      "geonames_id": 2747891
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EUR"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Erasmus Universiteit Rotterdam"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Erasmus University Rotterdam"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Erasmus MC",
+      "type": "related",
+      "id": "https://ror.org/018906e22"
+    },
+    {
+      "label": "Erasmus MC - Sophia Children’s Hospital",
+      "type": "related",
+      "id": "https://ror.org/047afsm11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

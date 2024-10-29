@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "icn2.cat"
+  ],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "100017171"
+      ],
+      "preferred": "100017171",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424584.b"
+      ],
+      "preferred": "grid.424584.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6475 7328"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q28134575"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00k1qja49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://icn2.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Catalan Institute of Nanoscience and Nanotechnology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICN2"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICN2-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Català de Nanociència i Nanotecnologia"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Catalán de Nanociencia y Nanotecnología"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "parent",
+      "id": "https://ror.org/052g8jq94"
+    },
+    {
+      "label": "Consejo Superior de Investigaciones Científicas",
+      "type": "parent",
+      "id": "https://ror.org/02gfc7t72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

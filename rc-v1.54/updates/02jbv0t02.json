@@ -1,0 +1,177 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lbl.gov"
+  ],
+  "established": 1931,
+  "external_ids": [
+    {
+      "all": [
+        "100006235"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.184769.5"
+      ],
+      "preferred": "grid.184769.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2231 4551"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1133630",
+        "Q4686229"
+      ],
+      "preferred": "Q1133630",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jbv0t02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lbl.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 37.87159,
+        "lng": -122.27275,
+        "name": "Berkeley"
+      },
+      "geonames_id": 5327684
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Berkeley Lab"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LBL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LBNL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire national lawrence-berkeley"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lawrence Berkeley National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Lawrence Berkeley National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Joint Center for Artificial Photosynthesis",
+      "type": "child",
+      "id": "https://ror.org/05jtgpc57"
+    },
+    {
+      "label": "Advanced Light Source",
+      "type": "child",
+      "id": "https://ror.org/00319zh75"
+    },
+    {
+      "label": "Joint Genome Institute",
+      "type": "child",
+      "id": "https://ror.org/04xm1d337"
+    },
+    {
+      "label": "Environmental System Science Data Infrastructure for a Virtual Ecosystem",
+      "type": "child",
+      "id": "https://ror.org/01t14bp54"
+    },
+    {
+      "label": "Molecular Foundry",
+      "type": "child",
+      "id": "https://ror.org/01fdhpk75"
+    },
+    {
+      "label": "National Energy Research Scientific Computing Center",
+      "type": "child",
+      "id": "https://ror.org/05v3mvq14"
+    },
+    {
+      "label": "Energy Sciences Network",
+      "type": "child",
+      "id": "https://ror.org/0382bxa43"
+    },
+    {
+      "label": "National Microbiome Data Collaborative",
+      "type": "child",
+      "id": "https://ror.org/05cwx3318"
+    },
+    {
+      "label": "University of California System",
+      "type": "parent",
+      "id": "https://ror.org/00pjdza24"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

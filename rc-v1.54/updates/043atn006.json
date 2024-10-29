@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "vcccd.edu"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "grid.422167.4"
+      ],
+      "preferred": "grid.422167.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 3604"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q22078147"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043atn006",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vcccd.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ventura_County_Community_College_District"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.27834,
+        "lng": -119.29317,
+        "name": "Ventura"
+      },
+      "geonames_id": 5405878
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VCCCD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ventura College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ventura County Community College District"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oxnard College",
+      "type": "child",
+      "id": "https://ror.org/03k3rfc04"
+    },
+    {
+      "label": "Ventura College",
+      "type": "child",
+      "id": "https://ror.org/00pn5nj90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

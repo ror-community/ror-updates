@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uidaho.edu"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "100012326"
+      ],
+      "preferred": "100012326",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266456.5"
+      ],
+      "preferred": "grid.266456.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 9900"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1854488"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03hbp5t65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uidaho.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Idaho"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 46.73239,
+        "lng": -117.00017,
+        "name": "Moscow"
+      },
+      "geonames_id": 5601538
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UI"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Idaho"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Idaho"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Idaho Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/05b1jpg49"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

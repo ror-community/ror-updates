@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "elettra.eu"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100014806"
+      ],
+      "preferred": "100014806",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5942.a"
+      ],
+      "preferred": "grid.5942.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 508X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3717376",
+        "Q47517188"
+      ],
+      "preferred": "Q3717376",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01c3rrh15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.elettra.eu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ELETTRA"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 45.64953,
+        "lng": 13.77678,
+        "name": "Trieste"
+      },
+      "geonames_id": 3165185
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Elettra"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Elettra Sincrotrone Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Elettra-Sincrotrone Trieste S.C.p.A."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AREA Science Park",
+      "type": "parent",
+      "id": "https://ror.org/01dt7qh15"
+    },
+    {
+      "label": "Euro-BioImaging ERIC",
+      "type": "related",
+      "id": "https://ror.org/05d78xc36"
+    },
+    {
+      "label": "LEAPS",
+      "type": "related",
+      "id": "https://ror.org/04wcn4e27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "urv.cat"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100007512"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410367.7"
+      ],
+      "preferred": "grid.410367.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 9230"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3133193"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g5sqv46",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.urv.cat/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Rovira_i_Virgili"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 41.11905,
+        "lng": 1.24544,
+        "name": "Tarragona"
+      },
+      "geonames_id": 3108288
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rovira i Virgili University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "URV"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Rovira i Virgili"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Universitat Rovira i Virgili"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Català d'Arqueologia Clàssica",
+      "type": "child",
+      "id": "https://ror.org/04nwrc387"
+    },
+    {
+      "label": "Hospital Universitari Joan XXIII de Tarragona",
+      "type": "related",
+      "id": "https://ror.org/05s4b1t72"
+    },
+    {
+      "label": "Hospital Universitari Sant Joan de Reus",
+      "type": "related",
+      "id": "https://ror.org/04f7pyb58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

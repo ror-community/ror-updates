@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sunyacc.edu"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100010958"
+      ],
+      "preferred": "100010958",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.487751.8"
+      ],
+      "preferred": "grid.487751.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0382 4388"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7395009"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fw8ag12",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sunyacc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SUNY_Adirondack"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.37729,
+        "lng": -73.61317,
+        "name": "Queensbury"
+      },
+      "geonames_id": 5133279
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Adirondack Community College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SUNY Adirondack"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Adirondack Community College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

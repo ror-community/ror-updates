@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uwc.ac.za"
+  ],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100003504"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8974.2"
+      ],
+      "preferred": "grid.8974.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2156 8226"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q475700"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00h2vm590",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uwc.ac.za"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Western_Cape"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "lat": -33.92584,
+        "lng": 18.42322,
+        "name": "Cape Town"
+      },
+      "geonames_id": 3369157
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UWC"
+    },
+    {
+      "lang": "af",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit van Wes-Kaapland"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of the Western Cape"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inter-university Institute for Data Intensive Astronomy",
+      "type": "child",
+      "id": "https://ror.org/01edhwb26"
+    },
+    {
+      "label": "Red Cross War Memorial Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/04d6eav07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

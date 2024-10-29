@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fno.cz"
+  ],
+  "established": 1912,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412727.5"
+      ],
+      "preferred": "grid.412727.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0609 0692"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00a6yph09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fno.cz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 49.83465,
+        "lng": 18.28204,
+        "name": "Ostrava"
+      },
+      "geonames_id": 3068799
+    }
+  ],
+  "names": [
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Fakultní Nemocnice Ostrava"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Ostrava"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Ostrava",
+      "type": "related",
+      "id": "https://ror.org/00pyqav47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

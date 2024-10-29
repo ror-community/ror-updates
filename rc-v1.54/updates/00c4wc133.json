@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "famu.edu"
+  ],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "100016743"
+      ],
+      "preferred": "100016743",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255948.7"
+      ],
+      "preferred": "grid.255948.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2214 9445"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1430048"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00c4wc133",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.famu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Florida_A%26M_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 30.43826,
+        "lng": -84.28073,
+        "name": "Tallahassee"
+      },
+      "geonames_id": 4174715
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FAMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Florida A&M University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Florida Agricultural and Mechanical University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Agrónoma y Mecánica de Florida"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Florida A&M University - Florida State University College of Engineering",
+      "type": "child",
+      "id": "https://ror.org/01v4tq883"
+    },
+    {
+      "label": "State University System of Florida",
+      "type": "parent",
+      "id": "https://ror.org/05sqd3t97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

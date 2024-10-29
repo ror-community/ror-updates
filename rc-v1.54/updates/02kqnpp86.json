@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "unina2.it"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100004296",
+        "501100009448"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9841.4"
+      ],
+      "preferred": "grid.9841.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2200 8888"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3551649"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kqnpp86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://unina2.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Seconda_Universit%C3%A0_degli_Studi_di_Napoli"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 41.07262,
+        "lng": 14.33231,
+        "name": "Caserta"
+      },
+      "geonames_id": 3179866
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Second University of Naples"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Campania \"Luigi Vanvitelli\""
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università degli Studi della Campania \"Luigi Vanvitelli\""
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Interuniversitario di Ricerca sui Peptidi Bioattivi",
+      "type": "child",
+      "id": "https://ror.org/055cpj147"
+    },
+    {
+      "label": "Azienda Ospedaliera Universitaria Università degli Studi della Campania Luigi Vanvitelli",
+      "type": "related",
+      "id": "https://ror.org/02p9ey581"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "rush.edu"
+  ],
+  "established": 1837,
+  "external_ids": [
+    {
+      "all": [
+        "grid.240684.c"
+      ],
+      "preferred": "grid.240684.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0705 3621"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1535116"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01j7c0b24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rush.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Rush_University_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rush University Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rush Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/0219djn76"
+    },
+    {
+      "label": "Rush University",
+      "type": "related",
+      "id": "https://ror.org/01k9xac83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uclouvain.be"
+  ],
+  "established": 1425,
+  "external_ids": [
+    {
+      "all": [
+        "100007355",
+        "100007370",
+        "501100005041",
+        "501100008135",
+        "501100005043"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7942.8"
+      ],
+      "preferred": "grid.7942.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2294 713X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q378134"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02495e989",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uclouvain.be"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_catholique_de_Louvain"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "lat": 50.66829,
+        "lng": 4.61443,
+        "name": "Louvain-la-Neuve"
+      },
+      "geonames_id": 2792073
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Catholic University of Louvain"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UCLouvain"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université catholique de Belgique"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université catholique de Louvain"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UCLouvain Saint-Louis Brussels",
+      "type": "child",
+      "id": "https://ror.org/02ygek028"
+    },
+    {
+      "label": "CHU Dinant Godinne UCL Namur",
+      "type": "related",
+      "id": "https://ror.org/00ntbvq76"
+    },
+    {
+      "label": "Cliniques Universitaires Saint-Luc",
+      "type": "related",
+      "id": "https://ror.org/03s4khd80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

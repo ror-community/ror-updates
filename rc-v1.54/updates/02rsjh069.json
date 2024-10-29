@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "carilionclinic.org"
+  ],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100008401"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413420.0"
+      ],
+      "preferred": "grid.413420.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 1303"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5039556"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02rsjh069",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.carilionclinic.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Carilion_Clinic"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 37.27097,
+        "lng": -79.94143,
+        "name": "Roanoke"
+      },
+      "geonames_id": 4782167
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Carilion Clinic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Carilion Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Carilion Roanoke Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/02yn1ge31"
+    },
+    {
+      "label": "Carilion Roanoke Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/036nxkh98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

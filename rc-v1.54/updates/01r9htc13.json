@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ulb.be"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "501100008367",
+        "501100008537",
+        "501100010527"
+      ],
+      "preferred": "501100010527",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4989.c"
+      ],
+      "preferred": "grid.4989.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2348 6355"
+      ],
+      "preferred": "0000 0001 2348 6355",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q574606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01r9htc13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ulb.be"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_libre_de_Bruxelles"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "name": "Brussels"
+      },
+      "geonames_id": 2800866
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ULB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université Libre de Bruxelles"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Interuniversity Institute for High Energies",
+      "type": "child",
+      "id": "https://ror.org/040w2dm02"
+    },
+    {
+      "label": "Wiener - Anspach Foundation",
+      "type": "child",
+      "id": "https://ror.org/013ww9721"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire Brugmann",
+      "type": "related",
+      "id": "https://ror.org/011apjk30"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Saint-Pierre",
+      "type": "related",
+      "id": "https://ror.org/05cmp5q80"
+    },
+    {
+      "label": "Erasmus Hospital",
+      "type": "related",
+      "id": "https://ror.org/05j1gs298"
+    },
+    {
+      "label": "Institut Jules Bordet",
+      "type": "related",
+      "id": "https://ror.org/05e8s8534"
+    },
+    {
+      "label": "Queen Fabiola Children's University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01t5yh786"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

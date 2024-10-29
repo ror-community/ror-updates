@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "temple.edu"
+  ],
+  "established": 1884,
+  "external_ids": [
+    {
+      "all": [
+        "100005806",
+        "100010842"
+      ],
+      "preferred": "100010842",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.264727.2"
+      ],
+      "preferred": "grid.264727.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2248 3398"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1420239"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00kx1jb78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.temple.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Temple_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "name": "Philadelphia"
+      },
+      "geonames_id": 4560349
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Temple University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Temple"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Temple University Ambler",
+      "type": "child",
+      "id": "https://ror.org/04zzmzt85"
+    },
+    {
+      "label": "Allegheny General Hospital",
+      "type": "related",
+      "id": "https://ror.org/02gy6qp39"
+    },
+    {
+      "label": "St. Christopher's Hospital for Children",
+      "type": "related",
+      "id": "https://ror.org/05t3ett24"
+    },
+    {
+      "label": "Temple University Health System",
+      "type": "related",
+      "id": "https://ror.org/02fhvxj45"
+    },
+    {
+      "label": "Temple University Hospital",
+      "type": "related",
+      "id": "https://ror.org/028rvnd71"
+    },
+    {
+      "label": "Western Pennsylvania Hospital",
+      "type": "related",
+      "id": "https://ror.org/02yhx1447"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "smhi.se"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "100009488"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6057.4"
+      ],
+      "preferred": "grid.6057.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0289 1343"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2983328"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00hgzve81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.smhi.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swedish_Meteorological_and_Hydrological_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 58.59419,
+        "lng": 16.1826,
+        "name": "Norrköping"
+      },
+      "geonames_id": 2688368
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Ruotsin meteorologinen ja hydrologinen laitos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SMHI"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Sveriges Meteorologiska och Hydrologiska Institut"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Sveriges meteorologiska och hydrologiska institut"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish Meteorological and Hydrological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bolin Centre for Climate Research",
+      "type": "child",
+      "id": "https://ror.org/058zxsr17"
+    },
+    {
+      "label": "EC-Earth Consortium",
+      "type": "related",
+      "id": "https://ror.org/010bg5245"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "dtu.dk"
+  ],
+  "established": 1829,
+  "external_ids": [
+    {
+      "all": [
+        "501100005192",
+        "501100005191",
+        "501100006262"
+      ],
+      "preferred": "501100005192",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5170.3"
+      ],
+      "preferred": "grid.5170.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2181 8870"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1269766",
+        "Q56612529",
+        "Q2118480"
+      ],
+      "preferred": "Q1269766",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qtj9h94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dtu.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Technical_University_of_Denmark"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "lat": 55.77044,
+        "lng": 12.50378,
+        "name": "Kongens Lyngby"
+      },
+      "geonames_id": 2618468
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DTU"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "Danmarks Tekniske Universitet"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Dänemarks Technische Universität"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Technical University of Denmark"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nordic Laboratory for Luminescence Dating",
+      "type": "child",
+      "id": "https://ror.org/020hmha06"
+    },
+    {
+      "label": "DTU Space",
+      "type": "child",
+      "id": "https://ror.org/01cyz3n15"
+    },
+    {
+      "label": "Jj X-Ray",
+      "type": "related",
+      "id": "https://ror.org/02bkz8z02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

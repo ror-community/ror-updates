@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "umcutrecht.nl"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "501100003761"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7692.a"
+      ],
+      "preferred": "grid.7692.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9012 6352"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2456800"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0575yy874",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umcutrecht.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_Medical_Center_Utrecht"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "name": "Utrecht"
+      },
+      "geonames_id": 2745912
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMC"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "UMC Utrecht"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universitair Medisch Centrum Utrecht"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Medical Center Utrecht"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wilhelmina Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/05fqypv61"
+    },
+    {
+      "label": "Hubrecht Institute for Developmental Biology and Stem Cell Research",
+      "type": "related",
+      "id": "https://ror.org/023qc4a07"
+    },
+    {
+      "label": "Princess Máxima Center",
+      "type": "related",
+      "id": "https://ror.org/02aj7yc53"
+    },
+    {
+      "label": "Utrecht University",
+      "type": "related",
+      "id": "https://ror.org/04pp8hn57"
+    },
+    {
+      "label": "ERN RITA",
+      "type": "related",
+      "id": "https://ror.org/0208ges23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

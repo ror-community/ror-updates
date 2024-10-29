@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ice.mpg.de"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418160.a"
+      ],
+      "preferred": "grid.418160.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0491 7131"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q700245"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ks53214",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ice.mpg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Chemical_Ecology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.92878,
+        "lng": 11.5899,
+        "name": "Jena"
+      },
+      "geonames_id": 2895044
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MPI-CE"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "acronym"
+      ],
+      "value": "MPI-COE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Chemical Ecology"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Chemische Ökologie"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Max-Planck-Institut für chemische Ökologie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

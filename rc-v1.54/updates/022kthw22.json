@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "rochester.edu"
+  ],
+  "established": 1850,
+  "external_ids": [
+    {
+      "all": [
+        "100008091",
+        "100005836",
+        "100008243",
+        "100011125"
+      ],
+      "preferred": "100008091",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.16416.34"
+      ],
+      "preferred": "grid.16416.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9174"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q149990"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022kthw22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rochester.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Rochester"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 43.15478,
+        "lng": -77.61556,
+        "name": "Rochester"
+      },
+      "geonames_id": 5134086
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UR"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Rochester"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rochester"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Rochester"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Rochester Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00trqv719"
+    },
+    {
+      "label": "Golisano Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02rcfyf15"
+    },
+    {
+      "label": "Highland Hospital",
+      "type": "related",
+      "id": "https://ror.org/00z9qkg54"
+    },
+    {
+      "label": "Strong Memorial Hospital",
+      "type": "related",
+      "id": "https://ror.org/0583j8v67"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

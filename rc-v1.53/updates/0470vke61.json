@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "leonardo.com"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "501100003324"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423952.b"
+      ],
+      "preferred": "grid.423952.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2302 3537"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q910379"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0470vke61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.leonardo.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Finmeccanica"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Finmeccanica (Italy)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Leonardo (Italy)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leonardo (Poland)",
+      "type": "child",
+      "id": "https://ror.org/0203k1k48"
+    },
+    {
+      "label": "Leonardo (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/0445yn719"
+    },
+    {
+      "label": "Leonardo (France)",
+      "type": "child",
+      "id": "https://ror.org/00vfjqp82"
+    },
+    {
+      "label": "Leonardo (United States)",
+      "type": "child",
+      "id": "https://ror.org/041twcm28"
+    },
+    {
+      "label": "Thales Alenia Space (France)",
+      "type": "child",
+      "id": "https://ror.org/05gz77z03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

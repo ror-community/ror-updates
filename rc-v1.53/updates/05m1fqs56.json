@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507524.1"
+      ],
+      "preferred": "grid.507524.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2165 5389"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q193582"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05m1fqs56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.assemblee-nationale.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Assembly_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Assemblée Nationale de France"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "French National Assembly"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gouvernement de la République française",
+      "type": "parent",
+      "id": "https://ror.org/0172v8z89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

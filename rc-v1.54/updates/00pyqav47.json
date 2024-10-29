@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "osu.cz"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100006704"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412684.d"
+      ],
+      "preferred": "grid.412684.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2155 4545"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1783294"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00pyqav47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.osu.cz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Ostrava"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 49.83465,
+        "lng": 18.28204,
+        "name": "Ostrava"
+      },
+      "geonames_id": 3068799
+    }
+  ],
+  "names": [
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Ostravská univerzita v Ostravě"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Ostrava"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Hospital Ostrava",
+      "type": "related",
+      "id": "https://ror.org/00a6yph09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

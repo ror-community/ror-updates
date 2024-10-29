@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "aalto.fi"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100002666",
+        "501100007143",
+        "501100002682",
+        "501100007144"
+      ],
+      "preferred": "501100002666",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5373.2"
+      ],
+      "preferred": "grid.5373.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0838 9418"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q300980"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020hwjq30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aalto.fi"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Aalto_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FI",
+        "country_name": "Finland",
+        "lat": 60.2052,
+        "lng": 24.6522,
+        "name": "Espoo"
+      },
+      "geonames_id": 660158
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Aalto University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Aalto-Universitetet"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Aalto-Yliopisto"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Aalto-yliopisto"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helsinki Institute for Information Technology",
+      "type": "child",
+      "id": "https://ror.org/05kph4940"
+    },
+    {
+      "label": "Helsinki Institute of Physics",
+      "type": "child",
+      "id": "https://ror.org/01x2x1522"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

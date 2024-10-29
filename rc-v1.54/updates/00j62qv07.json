@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "kva.se"
+  ],
+  "established": 1739,
+  "external_ids": [
+    {
+      "all": [
+        "501100001725"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419331.d"
+      ],
+      "preferred": "grid.419331.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0945 0671"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q191583"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00j62qv07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kva.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Swedish_Academy_of_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KVA"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Kungliga Vetenskapsakademien"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RSAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Swedish Academy of Sciences"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Ruotsin kuninkaallinen tiedeakatemia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Abisko Scientific Research Station",
+      "type": "child",
+      "id": "https://ror.org/00q1c3610"
+    },
+    {
+      "label": "Mittag-Leffler Institute",
+      "type": "child",
+      "id": "https://ror.org/02z85gz67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "csun.edu"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100008775"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.253563.4"
+      ],
+      "preferred": "grid.253563.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0657 9381"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1026939"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005f5hv41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.csun.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/California_State_University,_Northridge"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.22834,
+        "lng": -118.53675,
+        "name": "Northridge"
+      },
+      "geonames_id": 5377985
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSUN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "California State University, Northridge"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de californie à northridge"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California State University System",
+      "type": "parent",
+      "id": "https://ror.org/020qm1538"
+    },
+    {
+      "label": "Moorea Coral Reef Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017vyhs10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

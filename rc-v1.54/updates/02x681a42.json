@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "empa.ch"
+  ],
+  "established": 1880,
+  "external_ids": [
+    {
+      "all": [
+        "501100003044"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7354.5"
+      ],
+      "preferred": "grid.7354.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2331 3059"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q683116"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02x681a42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.empa.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swiss_Federal_Laboratories_for_Materials_Science_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.39724,
+        "lng": 8.61872,
+        "name": "Dübendorf"
+      },
+      "geonames_id": 2660971
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMPA"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Eidgenössische Materialprüfungs- und Forschungsanstalt"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire fédéral d'essai des matériaux et de recherche"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swiss Federal Laboratories for Materials Science and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL",
+      "type": "child",
+      "id": "https://ror.org/021f7p178"
+    },
+    {
+      "label": "Board of the Swiss Federal Institutes of Technology",
+      "type": "parent",
+      "id": "https://ror.org/01rvn4p91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

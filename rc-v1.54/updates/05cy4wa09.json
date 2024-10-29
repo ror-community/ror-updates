@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "sanger.ac.uk"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "grid.10306.34"
+      ],
+      "preferred": "grid.10306.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0606 5382"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1142544"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05cy4wa09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanger.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Wellcome_Trust_Sanger_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Sanger Centre"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WTSI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wellcome Sanger Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wellcome Trust Sanger Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wellcome Trust",
+      "type": "parent",
+      "id": "https://ror.org/029chgv08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

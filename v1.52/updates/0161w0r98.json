@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "100016337",
+        "100012917"
+      ],
+      "preferred": "100012917",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.433561.6"
+      ],
+      "preferred": "grid.433561.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0374 8794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3044760"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0161w0r98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.economy-ni.gov.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_for_the_Economy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 54.59682,
+        "lng": -5.92541,
+        "name": "Belfast"
+      },
+      "geonames_id": 2655984
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department for the Economy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Enterprise, Trade and Investment"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DfE"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Invest Northern Ireland",
+      "type": "child",
+      "id": "https://ror.org/00qnrsq87"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

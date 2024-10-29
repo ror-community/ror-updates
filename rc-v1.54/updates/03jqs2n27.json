@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "must.edu.mo"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100015260"
+      ],
+      "preferred": "501100015260",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.259384.1"
+      ],
+      "preferred": "grid.259384.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8945 4455"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q847993"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03jqs2n27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.must.edu.mo"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Macau_University_of_Science_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "MO",
+        "country_name": "Macao",
+        "lat": 22.20056,
+        "lng": 113.54611,
+        "name": "Macao"
+      },
+      "geonames_id": 1821274
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MUST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Macau University of Science and Technology"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Universidade de Ciência e Tecnologia de Macau"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Guangdong-Hongkong-Macau Joint Laboratory of Collaborative Innovation for Environmental Quality",
+      "type": "child",
+      "id": "https://ror.org/02gwsx029"
+    },
+    {
+      "label": "Macau University of Science and Technology Foundation",
+      "type": "parent",
+      "id": "https://ror.org/02avx9m34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

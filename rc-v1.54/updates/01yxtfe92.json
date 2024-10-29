@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "grenoble.archi.fr"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466362.3"
+      ],
+      "preferred": "grid.466362.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2188 4704"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01yxtfe92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.grenoble.archi.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Architecture de Grenoble"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AAU - Ambiances, Architectures, Urbanités",
+      "type": "child",
+      "id": "https://ror.org/05hz99a17"
+    },
+    {
+      "label": "Méthodes et Histoire de l'architecture",
+      "type": "child",
+      "id": "https://ror.org/00genbz89"
+    },
+    {
+      "label": "Architecture, Environnement & Cultures Constructives",
+      "type": "child",
+      "id": "https://ror.org/02wrd4e19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

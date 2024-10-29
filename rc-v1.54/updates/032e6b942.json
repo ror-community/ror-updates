@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "awi.de"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "501100003207"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10894.34"
+      ],
+      "preferred": "grid.10894.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1033 7684"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q536656",
+        "Q864474"
+      ],
+      "preferred": "Q536656",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032e6b942",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.awi.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Alfred_Wegener_Institute_for_Polar_and_Marine_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 53.53615,
+        "lng": 8.59298,
+        "name": "Bremerhaven"
+      },
+      "geonames_id": 2944368
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AWI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Alfred Wegener Institute for Polar and Marine Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Alfred-Wegener-Institut"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Institute for Functional Marine Biodiversity",
+      "type": "child",
+      "id": "https://ror.org/00tea5y39"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

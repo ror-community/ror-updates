@@ -1,0 +1,78 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-09-14",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100007199"
+      ],
+      "preferred": "100007199",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5906 8413"
+      ],
+      "preferred": "0000 0004 5906 8413",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02d5zdh33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://caas.usu.edu/uaes/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 41.73549,
+        "lng": -111.83439,
+        "name": "Logan"
+      },
+      "geonames_id": 5777544
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "UAES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Utah Agricultural Experiment Station"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Utah State University",
+      "type": "parent",
+      "id": "https://ror.org/00h6set76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

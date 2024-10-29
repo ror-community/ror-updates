@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100022432"
+      ],
+      "preferred": "501100022432",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.17423.33"
+      ],
+      "preferred": "grid.17423.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 6621"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1583495"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cmntr54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iac.es"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 28.46824,
+        "lng": -16.25462,
+        "name": "Tenerife"
+      },
+      "geonames_id": 2511174
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IAC"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Institut Astrofísic de les Illes Canàries"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Astrofísica de Canarias"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Isaac Newton Group",
+      "type": "child",
+      "id": "https://ror.org/054tmk179"
+    },
+    {
+      "label": "Universidad de La Laguna",
+      "type": "parent",
+      "id": "https://ror.org/01r9z8p25"
+    },
+    {
+      "label": "Red Española de Supercomputación",
+      "type": "related",
+      "id": "https://ror.org/02x2fbb57"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

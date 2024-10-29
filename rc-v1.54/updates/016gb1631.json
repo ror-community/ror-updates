@@ -1,0 +1,146 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-21",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "brc.hu"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418331.c"
+      ],
+      "preferred": "grid.418331.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2195 9606",
+        "0000 0004 0620 9788"
+      ],
+      "preferred": "0000 0001 2195 9606",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4914963"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016gb1631",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.brc.hu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Biological_Research_Centre_(Hungarian_Academy_of_Sciences)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "lat": 46.253,
+        "lng": 20.14824,
+        "name": "Szeged"
+      },
+      "geonames_id": 715429
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Biological Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "HUN-REN Biological Research Center"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "HUN-REN Szegedi Biológiai Kutatóközpont"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "MTA Szegedi Biológiai Központ"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Magyar Tudományos Akadémia Szegedi Biológiai Kutatóközpontjának"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "Szegedi Biológiai Kutatóközpont"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Biochemistry",
+      "type": "child",
+      "id": "https://ror.org/022dvs210"
+    },
+    {
+      "label": "Institute of Biophysics",
+      "type": "child",
+      "id": "https://ror.org/038synb39"
+    },
+    {
+      "label": "Institute of Genetics",
+      "type": "child",
+      "id": "https://ror.org/04tjemt46"
+    },
+    {
+      "label": "Institute of Plant Biology",
+      "type": "child",
+      "id": "https://ror.org/039h1gd08"
+    },
+    {
+      "label": "Hungarian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/02ks8qq67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

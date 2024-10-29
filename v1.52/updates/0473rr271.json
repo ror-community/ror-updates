@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100006285"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483785.5"
+      ],
+      "preferred": "grid.483785.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1532 7434"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q800112"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0473rr271",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fhwa.dot.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Federal_Highway_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FHWA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Highway Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Turner-Fairbank Highway Research Center",
+      "type": "child",
+      "id": "https://ror.org/04edx5729"
+    },
+    {
+      "label": "United States Department of Transportation",
+      "type": "parent",
+      "id": "https://ror.org/02xfw2e90"
+    },
+    {
+      "label": "Bureau of Public Roads",
+      "type": "predecessor",
+      "id": "https://ror.org/039c93x30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

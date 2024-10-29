@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-09-16",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usp.ac.fj"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "100018226"
+      ],
+      "preferred": "100018226",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.33998.38"
+      ],
+      "preferred": "grid.33998.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2171 4027"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1062121"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008stv805",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usp.ac.fj/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_South_Pacific"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FJ",
+        "country_name": "Fiji",
+        "lat": -18.13683,
+        "lng": 178.42531,
+        "name": "Suva"
+      },
+      "geonames_id": 2198148
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of the South Pacific"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of the South Pacific - Samoa Campus",
+      "type": "child",
+      "id": "https://ror.org/03be9n013"
+    },
+    {
+      "label": "University of the South Pacific - Solomon Islands Campus",
+      "type": "child",
+      "id": "https://ror.org/001vq2a15"
+    },
+    {
+      "label": "University of the South Pacific - Emalus Campus",
+      "type": "child",
+      "id": "https://ror.org/01n0nt715"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

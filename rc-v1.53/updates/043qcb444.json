@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-14",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "gssi.it"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100014350"
+      ],
+      "preferred": "501100014350",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.466750.6"
+      ],
+      "preferred": "grid.466750.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6005 2566"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16561696"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043qcb444",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gssi.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 42.35055,
+        "lng": 13.39954,
+        "name": "L’Aquila"
+      },
+      "geonames_id": 3175121
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GSSI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gran Sasso Science Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Gran Sasso Science Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-GSSI"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Gran Sasso",
+      "type": "related",
+      "id": "https://ror.org/02s8k0k61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
