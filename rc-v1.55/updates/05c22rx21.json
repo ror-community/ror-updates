@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -97,7 +97,13 @@
       "value": "Quebec Artificial Intelligence Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "International Laboratory on Learning Systems",
+      "type": "child",
+      "id": "https://ror.org/02bkw1m29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

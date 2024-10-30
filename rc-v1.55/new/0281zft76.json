@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -83,7 +83,28 @@
       "value": "پژوهشگاه علوم غدد و متابولیسم"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tehran University of Medical Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01c4pz451"
+    },
+    {
+      "label": "Endocrinology and Metabolism Molecular-Cellular Sciences Institute",
+      "type": "child",
+      "id": "https://ror.org/001s04270"
+    },
+    {
+      "label": "Endocrinology and Metabolism Population Sciences Institute",
+      "type": "child",
+      "id": "https://ror.org/028btb530"
+    },
+    {
+      "label": "Endocrinology and Metabolism Clinical Sciences Institute",
+      "type": "child",
+      "id": "https://ror.org/0430z0381"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

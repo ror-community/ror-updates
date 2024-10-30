@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -43,7 +43,13 @@
       "value": "Avangrid Renewables"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iberdrola (Spain)",
+      "type": "parent",
+      "id": "https://ror.org/0030ewy42"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

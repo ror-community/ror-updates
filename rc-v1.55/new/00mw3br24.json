@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -86,7 +86,28 @@
       "value": "پژوهشکده محیط زیست دانشگاه علوم پزشکی تهران"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tehran University of Medical Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01c4pz451"
+    },
+    {
+      "label": "Center for Air Pollution Research",
+      "type": "child",
+      "id": "https://ror.org/048m8ny81"
+    },
+    {
+      "label": "Center for Water Quality Research",
+      "type": "child",
+      "id": "https://ror.org/002b8we25"
+    },
+    {
+      "label": "Center for Solid Waste Research",
+      "type": "child",
+      "id": "https://ror.org/00vh46373"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

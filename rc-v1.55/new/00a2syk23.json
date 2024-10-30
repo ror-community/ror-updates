@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -93,7 +93,13 @@
       "value": "Ludwig Boltzmann Institute for Digital Health and Prevention"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ludwig Boltzmann Gesellschaft",
+      "type": "parent",
+      "id": "https://ror.org/01v1jam04"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

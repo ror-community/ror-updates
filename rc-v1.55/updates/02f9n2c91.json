@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -81,7 +81,13 @@
       "value": "Writtle University College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Anglia Ruskin University",
+      "type": "successor",
+      "id": "https://ror.org/0009t4v78"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

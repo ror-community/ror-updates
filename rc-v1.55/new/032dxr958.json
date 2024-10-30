@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Instituto para os Comportamentos Aditivos e as Dependências, I.P."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Serviço de Intervenção nos Comportamentos Aditivos e nas Dependências",
+      "type": "predecessor",
+      "id": "https://ror.org/02wefvw09"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -60,7 +60,23 @@
       "value": "Institut national des sciences appliquées Hauts-de-France"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut d'électronique de microélectronique et de nanotechnologie",
+      "type": "child",
+      "id": "https://ror.org/02q4res37"
+    },
+    {
+      "label": "Laboratoire d'Automatique, de Mécanique et d'Informatique Industrielles et Humaines",
+      "type": "child",
+      "id": "https://ror.org/006z7v557"
+    },
+    {
+      "label": "Université Polytechnique Hauts-de-France",
+      "type": "parent",
+      "id": "https://ror.org/02ezch769"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

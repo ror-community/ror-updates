@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -86,7 +86,23 @@
       "value": "پژوهشکده علوم دارویی دانشگاه علوم پزشکی تهران"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tehran University of Medical Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01c4pz451"
+    },
+    {
+      "label": "Pharmaceutical Quality Assurance Research Center",
+      "type": "child",
+      "id": "https://ror.org/05k1tzr49"
+    },
+    {
+      "label": "Pharmaceutical Management and Economics Research Center",
+      "type": "child",
+      "id": "https://ror.org/01w4ywr53"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

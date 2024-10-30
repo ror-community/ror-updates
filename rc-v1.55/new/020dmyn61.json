@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,23 @@
       "value": "EMERging plants pathogens in GREENhouses and labs"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Nouvelle Aquitaine-Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/00tebkv94"
+    },
+    {
+      "label": "UMR BIOdiversity, GEnes & Communities",
+      "type": "parent",
+      "id": "https://ror.org/033ebya06"
+    },
+    {
+      "label": "Biologie du Fruit et Pathologie",
+      "type": "parent",
+      "id": "https://ror.org/00ccpdp17"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

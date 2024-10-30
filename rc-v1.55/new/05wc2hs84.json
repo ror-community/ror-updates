@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -78,7 +78,13 @@
       "value": "Tecnológico Nacional de México Campus Huauchinango"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tecnológico Nacional de México",
+      "type": "parent",
+      "id": "https://ror.org/00davry38"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

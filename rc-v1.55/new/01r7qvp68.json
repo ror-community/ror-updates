@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,13 @@
       "value": "Institut de Recerca en salut i social Glòria Compte"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fundació Salut Empordà",
+      "type": "parent",
+      "id": "https://ror.org/03vn0fp34"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

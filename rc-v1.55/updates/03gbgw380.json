@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -48,7 +48,18 @@
       "value": "Institut de Science des Données de Montpellier"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

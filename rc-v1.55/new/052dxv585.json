@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "福建师范大学协和学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fujian Normal University",
+      "type": "parent",
+      "id": "https://ror.org/020azk594"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

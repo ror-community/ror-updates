@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -50,7 +50,13 @@
       "value": "Fundação de Ensino e Pesquisa em Ciências da Saúde Secretaria de Estado de Saúde"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola de Saúde Pública do Distrito Federal",
+      "type": "child",
+      "id": "https://ror.org/05nxsdg44"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

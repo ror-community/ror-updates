@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -72,7 +72,18 @@
       "value": "Fundació Salut Empordà"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut de Recerca Glòria Compte",
+      "type": "child",
+      "id": "https://ror.org/01r7qvp68"
+    },
+    {
+      "label": "Hospital de Figueres",
+      "type": "child",
+      "id": "https://ror.org/038kghk15"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

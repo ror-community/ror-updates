@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -65,7 +65,13 @@
       "value": "Iowa Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Iowa",
+      "type": "parent",
+      "id": "https://ror.org/036jqmy94"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

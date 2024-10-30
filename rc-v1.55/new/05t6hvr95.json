@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -76,7 +76,13 @@
       "value": "北京雁栖湖应用数学研究院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tsinghua University",
+      "type": "parent",
+      "id": "https://ror.org/03cve4549"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

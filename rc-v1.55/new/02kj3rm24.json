@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -65,7 +65,18 @@
       "value": "Wisconsin Geological and Natural History Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Wisconsin–Extension",
+      "type": "parent",
+      "id": "https://ror.org/05mdm7050"
+    },
+    {
+      "label": "University of Wisconsin–Madison",
+      "type": "parent",
+      "id": "https://ror.org/01y2jtd41"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Ministry of Universities and Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Education, Universities and Research",
+      "type": "predecessor",
+      "id": "https://ror.org/0166hxq48"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

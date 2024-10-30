@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -100,7 +100,13 @@
       "value": "Instituto de Estudos Avançados da Universidade de São Paulo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade de São Paulo",
+      "type": "parent",
+      "id": "https://ror.org/036rp1748"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

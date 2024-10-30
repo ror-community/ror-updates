@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Hessisches Landesarchiv"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hessische Institut für Landesgeschichte",
+      "type": "related",
+      "id": "https://ror.org/017drqp47"
+    },
+    {
+      "label": "Hessian Ministry for Science and the Arts",
+      "type": "parent",
+      "id": "https://ror.org/00zd5gr55"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

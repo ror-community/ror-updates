@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -90,7 +90,18 @@
       "value": "Fédération Atmo France"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "AtmoSud",
+      "type": "child",
+      "id": "https://ror.org/032wz9653"
+    },
+    {
+      "label": "Atmo Guyane",
+      "type": "child",
+      "id": "https://ror.org/05p4hdr45"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

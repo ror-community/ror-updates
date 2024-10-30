@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -84,7 +84,13 @@
       "value": "Ohio Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ohio Department of Natural Resources",
+      "type": "parent",
+      "id": "https://ror.org/05p85rs79"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

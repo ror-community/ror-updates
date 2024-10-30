@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -72,7 +72,18 @@
       "value": "Alaska Division of Geological and Geophysical Surveys"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alaska Department of Natural Resources",
+      "type": "parent",
+      "id": "https://ror.org/02emftt08"
+    },
+    {
+      "label": "Alaska Volcano Observatory",
+      "type": "related",
+      "id": "https://ror.org/05mw0zd11"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

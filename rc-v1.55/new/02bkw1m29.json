@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,38 @@
       "value": "International Laboratory on Learning Systems"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "CentraleSupélec",
+      "type": "parent",
+      "id": "https://ror.org/019tcpt25"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "École de Technologie Supérieure",
+      "type": "parent",
+      "id": "https://ror.org/0020snb74"
+    },
+    {
+      "label": "McGill University",
+      "type": "parent",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Mila - Quebec Artificial Intelligence Institute",
+      "type": "parent",
+      "id": "https://ror.org/05c22rx21"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

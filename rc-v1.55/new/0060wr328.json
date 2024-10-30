@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -60,7 +60,13 @@
       "value": "French Air and Space Force"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère des Armées",
+      "type": "parent",
+      "id": "https://ror.org/025er3q23"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

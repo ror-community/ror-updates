@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -41,7 +41,28 @@
       "value": "Fundació de Recerca Clínic Barcelona-Institut d’Investigacions Biomèdiques August Pi i Sunyer"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+      "type": "predecessor",
+      "id": "https://ror.org/054vayn55"
+    },
+    {
+      "label": "Fundació Clínic per a la Recerca Biomèdica",
+      "type": "predecessor",
+      "id": "https://ror.org/03mw46n78"
+    },
+    {
+      "label": "Fundació Privada Clínic per a La Recerca Biomèdica",
+      "type": "predecessor",
+      "id": "https://ror.org/018ndmv91"
+    },
+    {
+      "label": "Hospital Clínic de Barcelona",
+      "type": "parent",
+      "id": "https://ror.org/02a2kzf50"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Highbury College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "City of Portsmouth College",
+      "type": "successor",
+      "id": "https://ror.org/01zk01k31"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -65,7 +65,13 @@
       "value": "Open Book Collective"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Thoth Open Metadata",
+      "type": "related",
+      "id": "https://ror.org/00dyx6f45"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

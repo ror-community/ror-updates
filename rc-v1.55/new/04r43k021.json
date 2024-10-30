@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-10-29",
+      "date": "2024-10-30",
       "schema_version": "2.0"
     }
   },
@@ -72,7 +72,13 @@
       "value": "The Institute of Chemical Sciences and Technologies \"Giulio Natta\""
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
