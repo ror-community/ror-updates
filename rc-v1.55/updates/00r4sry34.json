@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "murdoch.edu.au"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100001799",
+        "100008715"
+      ],
+      "preferred": "501100001799",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1025.6"
+      ],
+      "preferred": "grid.1025.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0436 6763"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1375146"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00r4sry34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.murdoch.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Murdoch_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Murdoch University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Western Crop Genetics Alliance",
+      "type": "child",
+      "id": "https://ror.org/009axtj18"
+    },
+    {
+      "label": "Digitisation Centre of Western Australia",
+      "type": "related",
+      "id": "https://ror.org/00jjz9s23"
+    },
+    {
+      "label": "Harry Butler Institute",
+      "type": "child",
+      "id": "https://ror.org/01byxf044"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

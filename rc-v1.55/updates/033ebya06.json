@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508391.6"
+      ],
+      "preferred": "grid.508391.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0622 9359"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q52606108"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/033ebya06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://biogeco.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 44.80849,
+        "lng": -0.58915,
+        "name": "Talence"
+      },
+      "geonames_id": 2973495
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIOGECO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "BIOdiversité, GÊnes & Communautés"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR BIOGECO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UMR BIOdiversity, GEnes & Communities"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "EMERGREEN",
+      "type": "child",
+      "id": "https://ror.org/020dmyn61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

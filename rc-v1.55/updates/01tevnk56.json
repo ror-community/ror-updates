@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "unisi.it"
+  ],
+  "established": 1240,
+  "external_ids": [
+    {
+      "all": [
+        "100012990"
+      ],
+      "preferred": "100012990",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9024.f"
+      ],
+      "preferred": "grid.9024.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 4641"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1245999"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01tevnk56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unisi.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Siena"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "IT",
+        "country_name": "Italy",
+        "lat": 43.31822,
+        "lng": 11.33064,
+        "name": "Siena"
+      },
+      "geonames_id": 3166548
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNISI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Siena"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università degli Studi di Siena"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Siena"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de sienne"
+    },
+    {
+      "lang": "sl",
+      "types": [
+        "label"
+      ],
+      "value": "Univerza v Sieni"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Azienda Ospedaliera Universitaria Senese",
+      "type": "related",
+      "id": "https://ror.org/02s7et124"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Gruppo Collegato di Siena",
+      "type": "related",
+      "id": "https://ror.org/05etrbr47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

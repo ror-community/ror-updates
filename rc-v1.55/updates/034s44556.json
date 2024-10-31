@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "501100011781"
+      ],
+      "preferred": "501100011781",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.512110.6"
+      ],
+      "preferred": "grid.512110.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 9534 661X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q57587699"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/034s44556",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://council.science/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/International_Science_Council"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Conseil International des Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "International Science Council"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "World Climate Research Programme",
+      "type": "child",
+      "id": "https://ror.org/04frnva71"
+    },
+    {
+      "label": "World Glacier Monitoring Service",
+      "type": "related",
+      "id": "https://ror.org/01jtrvx49"
+    },
+    {
+      "label": "World Data System",
+      "type": "related",
+      "id": "https://ror.org/01pwmqe95"
+    },
+    {
+      "label": "Committee on Data of the International Science Council",
+      "type": "child",
+      "id": "https://ror.org/02cy4j108"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

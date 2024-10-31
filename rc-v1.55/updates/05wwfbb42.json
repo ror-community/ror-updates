@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "enap.ca"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100012993"
+      ],
+      "preferred": "100012993",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420828.4"
+      ],
+      "preferred": "grid.420828.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2165 7843"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578074"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wwfbb42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://enap.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/%C3%89cole_nationale_d'administration_publique"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENAP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale d'Administration Publique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université du Québec",
+      "type": "parent",
+      "id": "https://ror.org/010gxg263"
+    },
+    {
+      "label": "Obvia",
+      "type": "related",
+      "id": "https://ror.org/05fdt6816"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

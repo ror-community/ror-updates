@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "green.univ-lorraine.fr"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463904.c"
+      ],
+      "preferred": "grid.463904.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3117751"
+      ],
+      "preferred": "Q3117751",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01kwx4m12",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://green.univ-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.66115,
+        "lng": 6.17114,
+        "name": "Vandœuvre-lès-Nancy"
+      },
+      "geonames_id": 2970797
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GREEN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Groupe de Recherche en Electrotechnique et Electronique de Nancy"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Groupe de Recherche en Énergie Électrique de Nancy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Centre-Est",
+      "type": "parent",
+      "id": "https://ror.org/01tz1zp46"
+    },
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

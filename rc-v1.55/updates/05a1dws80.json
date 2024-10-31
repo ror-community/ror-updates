@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1816,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424462.2"
+      ],
+      "preferred": "grid.424462.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2184 7997"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578252"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05a1dws80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mines-stetienne.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_des_mines_de_Saint-%C3%89tienne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "name": "Saint-Etienne"
+      },
+      "geonames_id": 2980291
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSMSE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mines Saint-Étienne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "École Nationale Supérieure des Mines de Saint-Étienne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École des Mines de Saint-Étienne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Environnement, ville, société",
+      "type": "child",
+      "id": "https://ror.org/0256r1e04"
+    },
+    {
+      "label": "Georges Friedel Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01prxdf57"
+    },
+    {
+      "label": "Laboratoire d'Informatique, de Modélisation et d'Optimisation des Systèmes",
+      "type": "child",
+      "id": "https://ror.org/00t3fpp34"
+    },
+    {
+      "label": "Université de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/01rk35k63"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

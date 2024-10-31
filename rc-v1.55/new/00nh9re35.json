@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-29",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "landesarchiv.hessen.de"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 4910 4177"
+      ],
+      "preferred": "0000 0004 4910 4177",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15114770"
+      ],
+      "preferred": "Q15114770",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00nh9re35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://landesarchiv.hessen.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Hessisches_Landesarchiv"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.80904,
+        "lng": 8.77069,
+        "name": "Marburg"
+      },
+      "geonames_id": 2873759
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "acronym"
+      ],
+      "value": "HLA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Hessian State Archives"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hessisches Landesarchiv"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hessische Institut für Landesgeschichte",
+      "type": "related",
+      "id": "https://ror.org/017drqp47"
+    },
+    {
+      "label": "Hessian Ministry for Science and the Arts",
+      "type": "parent",
+      "id": "https://ror.org/00zd5gr55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

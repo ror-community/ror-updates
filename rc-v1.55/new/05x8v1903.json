@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-29",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "dggs.alaska.gov"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0396 389X"
+      ],
+      "preferred": "0000 0004 0396 389X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q108156268"
+      ],
+      "preferred": "Q108156268",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05x8v1903",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dggs.alaska.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 64.83778,
+        "lng": -147.71639,
+        "name": "Fairbanks"
+      },
+      "geonames_id": 5861897
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "ADGGS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Alaska Division of Geological & Geophysical Surveys"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Alaska Division of Geological and Geophysical Surveys"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alaska Department of Natural Resources",
+      "type": "parent",
+      "id": "https://ror.org/02emftt08"
+    },
+    {
+      "label": "Alaska Volcano Observatory",
+      "type": "related",
+      "id": "https://ror.org/05mw0zd11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

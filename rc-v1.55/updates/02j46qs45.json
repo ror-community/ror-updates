@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "muni.cz"
+  ],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100010653"
+      ],
+      "preferred": "501100010653",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10267.32"
+      ],
+      "preferred": "grid.10267.32",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2194 0956"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q763586"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02j46qs45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.muni.cz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Masaryk_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "name": "Brno"
+      },
+      "geonames_id": 3078610
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Masaryk University"
+    },
+    {
+      "lang": "sk",
+      "types": [
+        "label"
+      ],
+      "value": "Masarykova univerzita"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Central European Institute of Technology – Masaryk University",
+      "type": "child",
+      "id": "https://ror.org/009nz6031"
+    },
+    {
+      "label": "RECETOX",
+      "type": "child",
+      "id": "https://ror.org/032hzqh22"
+    },
+    {
+      "label": "Central European Institute of Technology",
+      "type": "related",
+      "id": "https://ror.org/01p7k1986"
+    },
+    {
+      "label": "St. Anne's University Hospital Brno",
+      "type": "related",
+      "id": "https://ror.org/049bjee35"
+    },
+    {
+      "label": "University Hospital Brno",
+      "type": "related",
+      "id": "https://ror.org/00qq1fp34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

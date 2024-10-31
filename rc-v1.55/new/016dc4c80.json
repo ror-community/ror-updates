@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-29",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0789 6768"
+      ],
+      "preferred": "0000 0001 0789 6768",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2862884"
+      ],
+      "preferred": "Q2862884",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016dc4c80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defense.gouv.fr/terre"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/French_Army"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Armée de terre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "French Army"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère des Armées",
+      "type": "parent",
+      "id": "https://ror.org/025er3q23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

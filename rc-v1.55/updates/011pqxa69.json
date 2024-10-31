@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uqo.ca"
+  ],
+  "established": 1981,
+  "external_ids": [
+    {
+      "all": [
+        "100012376"
+      ],
+      "preferred": "100012376",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265705.3"
+      ],
+      "preferred": "grid.265705.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2112 1125"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2562148"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011pqxa69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uqo.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_en_Outaouais"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 45.47723,
+        "lng": -75.70164,
+        "name": "Gatineau"
+      },
+      "geonames_id": 5959974
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UQO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université du Québec en Outaouais"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université du Québec à Hull"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université du Québec",
+      "type": "parent",
+      "id": "https://ror.org/010gxg263"
+    },
+    {
+      "label": "Obvia",
+      "type": "related",
+      "id": "https://ror.org/05fdt6816"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462898.9"
+      ],
+      "preferred": "grid.462898.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0640 3791"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578223"
+      ],
+      "preferred": "Q3578223",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01h0ffh48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensc-rennes.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSCR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure de Chimie de Rennes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Chimiques de Rennes",
+      "type": "child",
+      "id": "https://ror.org/00adwkx90"
+    },
+    {
+      "label": "Université de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    },
+    {
+      "label": "GDR NBODY : Problème quantique à N corps en chimie et physique",
+      "type": "related",
+      "id": "https://ror.org/01nrtdp55"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

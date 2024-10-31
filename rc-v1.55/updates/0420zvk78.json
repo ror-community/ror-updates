@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "concordia.ca"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "501100002914"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410319.e"
+      ],
+      "preferred": "grid.410319.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8630"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q326342"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0420zvk78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.concordia.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Concordia_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Concordia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Concordia University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université Concordia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Obvia",
+      "type": "related",
+      "id": "https://ror.org/05fdt6816"
+    },
+    {
+      "label": "Concordia University Press",
+      "type": "child",
+      "id": "https://ror.org/0397a5g27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

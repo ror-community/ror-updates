@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-13",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "um.pt"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 6472 2248"
+      ],
+      "preferred": "0000 0004 6472 2248",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/029me2p54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ium.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "lat": 38.71667,
+        "lng": -9.13333,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "acronym"
+      ],
+      "value": "IUM"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Instituto Universitário Militar"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Military University Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Estado-Maior-General das Forças Armadas",
+      "type": "parent",
+      "id": "https://ror.org/000xab928"
+    },
+    {
+      "label": "Portuguese Joint Command and Staff College",
+      "type": "predecessor",
+      "id": "https://ror.org/001vtka31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

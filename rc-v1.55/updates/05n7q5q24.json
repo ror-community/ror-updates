@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493011.e"
+      ],
+      "preferred": "grid.493011.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0007 6708"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q50039904"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n7q5q24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dpir.nt.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "AU",
+        "country_name": "Australia",
+        "lat": -12.46113,
+        "lng": 130.84185,
+        "name": "Darwin"
+      },
+      "geonames_id": 2073124
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Primary Industry and Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of the Northern Territory",
+      "type": "parent",
+      "id": "https://ror.org/01537wn74"
+    },
+    {
+      "label": "Northern Territory Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/011y8np74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

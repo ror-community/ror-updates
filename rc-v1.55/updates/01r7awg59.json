@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uoguelph.ca"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "100008986"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.34429.38"
+      ],
+      "preferred": "grid.34429.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8198"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q795988"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01r7awg59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uoguelph.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Guelph"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 43.54594,
+        "lng": -80.25599,
+        "name": "Guelph"
+      },
+      "geonames_id": 5967629
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Guelph"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de guelph"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ontario Veterinary College",
+      "type": "child",
+      "id": "https://ror.org/04frvgs13"
+    },
+    {
+      "label": "Ontario Agri-Food Innovation Alliance",
+      "type": "related",
+      "id": "https://ror.org/02ftfma65"
+    },
+    {
+      "label": "Centre for Biodiversity Genomics",
+      "type": "child",
+      "id": "https://ror.org/04zsyxa30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

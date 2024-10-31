@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uoa.gr"
+  ],
+  "established": 1837,
+  "external_ids": [
+    {
+      "all": [
+        "501100005187"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5216.0"
+      ],
+      "preferred": "grid.5216.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2155 0800"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q547867"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04gnjpq42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uoa.gr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_and_Kapodistrian_University_of_Athens"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GR",
+        "country_name": "Greece",
+        "lat": 37.98376,
+        "lng": 23.72784,
+        "name": "Athens"
+      },
+      "geonames_id": 264371
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National and Kapodistrian University of Athens"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Athens"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université nationale et capodistrienne d'athènes"
+    },
+    {
+      "lang": "el",
+      "types": [
+        "label"
+      ],
+      "value": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laiko General Hospital of Athens",
+      "type": "related",
+      "id": "https://ror.org/02dvs1389"
+    },
+    {
+      "label": "Zoology Museum of the University of Athens",
+      "type": "child",
+      "id": "https://ror.org/01927vf62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

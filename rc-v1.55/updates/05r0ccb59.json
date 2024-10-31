@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "entpe.fr"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "100012944"
+      ],
+      "preferred": "100012944",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.462176.0"
+      ],
+      "preferred": "grid.462176.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2184 7794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578157"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05r0ccb59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.entpe.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_des_travaux_publics_de_l%27%C3%89tat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 45.78693,
+        "lng": 4.9251,
+        "name": "Vaulx-en-Velin"
+      },
+      "geonames_id": 2970456
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENTPE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale des Travaux Publics de l'État"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Environnement, ville, société",
+      "type": "child",
+      "id": "https://ror.org/0256r1e04"
+    },
+    {
+      "label": "Laboratoire Aménagement Économie Transports",
+      "type": "child",
+      "id": "https://ror.org/01yw97595"
+    },
+    {
+      "label": "Laboratoire d'Ingénierie Circulation Transports",
+      "type": "child",
+      "id": "https://ror.org/02ahzca76"
+    },
+    {
+      "label": "Laboratoire de Tribologie et Dynamique des Systèmes",
+      "type": "child",
+      "id": "https://ror.org/015vtcw98"
+    },
+    {
+      "label": "Laboratoire d'Ecologie des Hydrosystèmes Naturels et Anthropisés",
+      "type": "child",
+      "id": "https://ror.org/05pny1q12"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

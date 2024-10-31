@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "usask.ca"
+  ],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "100008920",
+        "100011782"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.25152.31"
+      ],
+      "preferred": "grid.25152.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2154 235X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1514848"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/010x8gc63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usask.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Saskatchewan"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 52.13238,
+        "lng": -106.66892,
+        "name": "Saskatoon"
+      },
+      "geonames_id": 6141256
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "USASK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Saskatchewan"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de la saskatchewan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Horizon College and Seminary",
+      "type": "child",
+      "id": "https://ror.org/01sjjfh02"
+    },
+    {
+      "label": "Global Water Futures",
+      "type": "child",
+      "id": "https://ror.org/04rm7h526"
+    },
+    {
+      "label": "Global Institute for Water Security",
+      "type": "related",
+      "id": "https://ror.org/05997db74"
+    },
+    {
+      "label": "Royal University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00wg2b048"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

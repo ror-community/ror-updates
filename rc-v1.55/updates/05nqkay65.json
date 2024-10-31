@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-08",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "villumfonden.dk"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100008398"
+      ],
+      "preferred": "100008398",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5905 9648"
+      ],
+      "preferred": "0000 0004 5905 9648",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7931130"
+      ],
+      "preferred": "Q7931130",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05nqkay65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://villumfonden.dk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "lat": 56.08481,
+        "lng": 12.31803,
+        "name": "Søborg"
+      },
+      "geonames_id": 2613204
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Villum Foundation"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Villum Fonden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Villum Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Velux Foundations",
+      "type": "parent",
+      "id": "https://ror.org/007ww2d15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "defense.gouv.fr"
+  ],
+  "established": 1589,
+  "external_ids": [
+    {
+      "all": [
+        "501100016398"
+      ],
+      "preferred": "501100016398",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418221.c"
+      ],
+      "preferred": "grid.418221.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q75706"
+      ],
+      "preferred": "Q75706",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025er3q23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defense.gouv.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Minister_of_the_Armed_Forces_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of the Armed Forces"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère de la Défense"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministère des Armées"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital d'instruction des Armées Desgenettes",
+      "type": "child",
+      "id": "https://ror.org/03m8r7k33"
+    },
+    {
+      "label": "Laboratoire de Biologie de l'Exercice pour la Performance et la Santé",
+      "type": "child",
+      "id": "https://ror.org/0449rap84"
+    },
+    {
+      "label": "Histoire et Archéologie Maritimes",
+      "type": "child",
+      "id": "https://ror.org/011mac819"
+    },
+    {
+      "label": "Direction Générale de l'Armement",
+      "type": "child",
+      "id": "https://ror.org/04wsqd844"
+    },
+    {
+      "label": "Gendarmerie Nationale",
+      "type": "child",
+      "id": "https://ror.org/04zx93s85"
+    },
+    {
+      "label": "Gouvernement de la République française",
+      "type": "parent",
+      "id": "https://ror.org/0172v8z89"
+    },
+    {
+      "label": "Marine nationale",
+      "type": "child",
+      "id": "https://ror.org/051dhry29"
+    },
+    {
+      "label": "Armée de l'air et de l'espace",
+      "type": "child",
+      "id": "https://ror.org/0060wr328"
+    },
+    {
+      "label": "Armée de terre",
+      "type": "child",
+      "id": "https://ror.org/016dc4c80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-10-31",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "hec.ca"
+  ],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "100012767"
+      ],
+      "preferred": "100012767",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.256696.8"
+      ],
+      "preferred": "grid.256696.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0555 9354"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q273527"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ww3wq27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hec.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/HEC_Montr%C3%A9al"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "HEC Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "École des Hautes Études commerciales de Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Group for Research in Decision Analysis",
+      "type": "child",
+      "id": "https://ror.org/02pkvpx84"
+    },
+    {
+      "label": "Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Obvia",
+      "type": "related",
+      "id": "https://ror.org/05fdt6816"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
