@@ -70,7 +70,18 @@
       "value": "Oncology Institute of Southern Switzerland"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ente Ospedaliero Cantonale",
+      "type": "parent",
+      "id": "https://ror.org/00sh19a92"
+    },
+    {
+      "label": "Institute of Oncology Research",
+      "type": "predecessor",
+      "id": "https://ror.org/01dpyn972"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -90,7 +90,18 @@
       "value": "Fuerza Aérea Brasileña"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Academia da Força Aérea",
+      "type": "child",
+      "id": "https://ror.org/00nya5t35"
+    },
+    {
+      "label": "Ministry of Defence",
+      "type": "parent",
+      "id": "https://ror.org/01mke9645"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

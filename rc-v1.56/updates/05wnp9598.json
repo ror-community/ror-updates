@@ -88,7 +88,23 @@
       "value": "The First Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Air University",
+      "type": "child",
+      "id": "https://ror.org/05jwcsm16"
+    },
+    {
+      "label": "59th Medical Wing",
+      "type": "child",
+      "id": "https://ror.org/01sq4yt06"
+    },
+    {
+      "label": "United States Air Force",
+      "type": "parent",
+      "id": "https://ror.org/006gmme17"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",
