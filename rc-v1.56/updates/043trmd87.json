@@ -10,46 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1994,
+  "established": null,
   "external_ids": [
     {
       "all": [
-        "100003582"
+        "100006445"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.248698.9"
+        "grid.457570.4"
       ],
-      "preferred": "grid.248698.9",
+      "preferred": "grid.457570.4",
       "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 0508 8283"
-      ],
-      "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q604635"
-      ],
-      "preferred": null,
-      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02a0fwv66",
+  "id": "https://ror.org/043trmd87",
   "links": [
     {
       "type": "website",
-      "value": "http://aimath.org"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/American_Institute_of_Mathematics"
+      "value": "http://chm.pse.umass.edu/"
     }
   ],
   "locations": [
@@ -57,11 +39,11 @@
       "geonames_details": {
         "country_code": "US",
         "country_name": "United States",
-        "lat": 34.14778,
-        "lng": -118.14452,
-        "name": "Pasadena"
+        "lat": 42.393779,
+        "lng": -72.526159,
+        "name": "Amherst Center"
       },
-      "geonames_id": 5381396
+      "geonames_id": 4929023
     }
   ],
   "names": [
@@ -70,7 +52,7 @@
       "types": [
         "acronym"
       ],
-      "value": "AIM"
+      "value": "CHM"
     },
     {
       "lang": "en",
@@ -78,14 +60,19 @@
         "ror_display",
         "label"
       ],
-      "value": "American Institute of Mathematics"
+      "value": "Center for Hierarchical Manufacturing"
     }
   ],
   "relationships": [
     {
       "label": "U.S. National Science Foundation",
-      "type": "parent",
+      "type": "related",
       "id": "https://ror.org/021nxhr62"
+    },
+    {
+      "label": "University of Massachusetts Amherst",
+      "type": "related",
+      "id": "https://ror.org/0072zz521"
     }
   ],
   "status": "active",

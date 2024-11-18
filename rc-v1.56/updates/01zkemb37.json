@@ -6,62 +6,55 @@
     },
     "last_modified": {
       "date": "2024-11-18",
-      "schema_version": "2.0"
+      "schema_version": "1.0"
     }
   },
   "domains": [],
-  "established": 1994,
+  "established": 1891,
   "external_ids": [
     {
       "all": [
-        "100003582"
+        "grid.476255.7"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.248698.9"
-      ],
-      "preferred": "grid.248698.9",
+      "preferred": "grid.476255.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0508 8283"
+        "0000 0004 0629 3457"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q604635"
+        "Q30338351"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02a0fwv66",
+  "id": "https://ror.org/01zkemb37",
   "links": [
     {
       "type": "website",
-      "value": "http://aimath.org"
+      "value": "https://www.msd.de/"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/American_Institute_of_Mathematics"
+      "value": "https://en.wikipedia.org/wiki/Merck_%26_Co."
     }
   ],
   "locations": [
     {
       "geonames_details": {
-        "country_code": "US",
-        "country_name": "United States",
-        "lat": 34.14778,
-        "lng": -118.14452,
-        "name": "Pasadena"
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.113671,
+        "lng": 11.73347,
+        "name": "Haar"
       },
-      "geonames_id": 5381396
+      "geonames_id": 2913192
     }
   ],
   "names": [
@@ -70,27 +63,33 @@
       "types": [
         "acronym"
       ],
-      "value": "AIM"
+      "value": "MSD"
     },
     {
-      "lang": "en",
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "American Institute of Mathematics"
+      "value": "MSD (Germany)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Merck Sharp & Dohme"
     }
   ],
   "relationships": [
     {
-      "label": "U.S. National Science Foundation",
+      "label": "Merck & Co., Inc., Rahway, NJ, USA (United States)",
       "type": "parent",
-      "id": "https://ror.org/021nxhr62"
+      "id": "https://ror.org/02891sr49"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
-    "nonprofit"
+    "company"
   ]
 }

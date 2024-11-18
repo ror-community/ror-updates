@@ -10,46 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1994,
+  "established": 1972,
   "external_ids": [
     {
       "all": [
-        "100003582"
+        "grid.430864.d"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.248698.9"
-      ],
-      "preferred": "grid.248698.9",
+      "preferred": "grid.430864.d",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0508 8283"
+        "0000 0000 9018 7542"
       ],
       "preferred": null,
       "type": "isni"
-    },
-    {
-      "all": [
-        "Q604635"
-      ],
-      "preferred": null,
-      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02a0fwv66",
+  "id": "https://ror.org/02437s643",
   "links": [
     {
       "type": "website",
-      "value": "http://aimath.org"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/American_Institute_of_Mathematics"
+      "value": "https://www.uillinois.edu"
     }
   ],
   "locations": [
@@ -57,11 +39,11 @@
       "geonames_details": {
         "country_code": "US",
         "country_name": "United States",
-        "lat": 34.14778,
-        "lng": -118.14452,
-        "name": "Pasadena"
+        "lat": 42.27113,
+        "lng": -89.094,
+        "name": "Rockford"
       },
-      "geonames_id": 5381396
+      "geonames_id": 4907959
     }
   ],
   "names": [
@@ -70,7 +52,7 @@
       "types": [
         "acronym"
       ],
-      "value": "AIM"
+      "value": "UICOMR"
     },
     {
       "lang": "en",
@@ -78,19 +60,30 @@
         "ror_display",
         "label"
       ],
-      "value": "American Institute of Mathematics"
+      "value": "University of Illinois Chicago, Rockford campus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Illinois at Rockford"
     }
   ],
   "relationships": [
     {
-      "label": "U.S. National Science Foundation",
+      "label": "University of Illinois Chicago",
       "type": "parent",
-      "id": "https://ror.org/021nxhr62"
+      "id": "https://ror.org/02mpq6x41"
+    },
+    {
+      "label": "Swedish American Hospital",
+      "type": "related",
+      "id": "https://ror.org/05scd7d31"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
-    "nonprofit"
+    "education"
   ]
 }
