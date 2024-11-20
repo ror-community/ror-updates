@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "um6ss.ma"
+  ],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.501379.9"
+      ],
+      "preferred": "grid.501379.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6022 6378"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q19407257"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01tezat55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://um6ss.ma"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "lat": 33.58831,
+        "lng": -7.61138,
+        "name": "Casablanca"
+      },
+      "geonames_id": 2553604
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Mohammed VI University of Health and Medical Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UM6SS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université Mohammed VI des Sciences de la Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire National de Référence",
+      "type": "child",
+      "id": "https://ror.org/020nbej04"
+    },
+    {
+      "label": "Hôpital Universitaire International Cheikh Khalifa",
+      "type": "related",
+      "id": "https://ror.org/03g26ah87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

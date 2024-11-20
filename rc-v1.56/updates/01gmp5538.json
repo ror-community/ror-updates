@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100005447"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457907.8"
+      ],
+      "preferred": "grid.457907.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01gmp5538",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/oirm/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF OIRM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Information and Resource Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Division of Human Resource Management",
+      "type": "child",
+      "id": "https://ror.org/04vw0kz07"
+    },
+    {
+      "label": "Division of Information Systems",
+      "type": "child",
+      "id": "https://ror.org/01vnjbg30"
+    },
+    {
+      "label": "U.S. National Science Foundation",
+      "type": "parent",
+      "id": "https://ror.org/021nxhr62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

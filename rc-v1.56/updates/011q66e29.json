@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "inia.es"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "100007652"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419190.4"
+      ],
+      "preferred": "grid.419190.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2300 669X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5669458"
+      ],
+      "preferred": "Q5669458",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011q66e29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inia.es"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INIA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Agricultural and Food Research and Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Spanish National Institute for Agricultural and Food Research and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Ciencias Forestales",
+      "type": "child",
+      "id": "https://ror.org/02nxes898"
+    },
+    {
+      "label": "Centro de Recursos Fitogenéticos y Agricultura Sostenible",
+      "type": "child",
+      "id": "https://ror.org/01y7nsd18"
+    },
+    {
+      "label": "Centro de Investigación en Sanidad Animal",
+      "type": "child",
+      "id": "https://ror.org/05m6hv760"
+    },
+    {
+      "label": "Centre for Plant Biotechnology and Genomics",
+      "type": "related",
+      "id": "https://ror.org/04mfzb702"
+    },
+    {
+      "label": "Consejo Superior de Investigaciones Científicas",
+      "type": "parent",
+      "id": "https://ror.org/02gfc7t72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

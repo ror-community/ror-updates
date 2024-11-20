@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nationwidechildrens.org"
+  ],
+  "established": 1892,
+  "external_ids": [
+    {
+      "all": [
+        "100007520",
+        "100011500"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.240344.5"
+      ],
+      "preferred": "grid.240344.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0392 3476"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6979874"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003rfsp33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nationwidechildrens.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Nationwide_Children%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.96118,
+        "lng": -82.99879,
+        "name": "Columbus"
+      },
+      "geonames_id": 4509177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nationwide Children's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Muscle Health and Neuromuscular Disorders",
+      "type": "child",
+      "id": "https://ror.org/00n9sps80"
+    },
+    {
+      "label": "The Ohio State University",
+      "type": "related",
+      "id": "https://ror.org/00rs6vg23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

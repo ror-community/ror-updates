@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fmi.ch"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100008550"
+      ],
+      "preferred": "100008550",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.482245.d"
+      ],
+      "preferred": "grid.482245.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 3787"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01bmjkv45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fmi.ch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.55839,
+        "lng": 7.57327,
+        "name": "Basel"
+      },
+      "geonames_id": 2661604
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FMI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Friedrich Miescher Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Friedrich Miescher Institute for Biomedical Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Novartis (Switzerland)",
+      "type": "related",
+      "id": "https://ror.org/02f9zrr09"
+    },
+    {
+      "label": "University of Basel",
+      "type": "related",
+      "id": "https://ror.org/02s6k3f65"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

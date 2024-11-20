@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "deutsches-museum.de"
+  ],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "501100021849"
+      ],
+      "preferred": "501100021849",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424220.2"
+      ],
+      "preferred": "grid.424220.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0492 4948"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q131617"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00a7n7g54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deutsches-museum.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Deutsches_Museum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutsches Museum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "German Museum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "German Museum of Masterpieces of Science and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive",
+    "funder"
+  ]
+}

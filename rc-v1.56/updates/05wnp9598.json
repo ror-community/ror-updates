@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100010458"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.478225.e"
+      ],
+      "preferred": "grid.478225.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q407064"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wnp9598",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.aetc.af.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Air_Education_and_Training_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AETC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Air Education and Training Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Air Training Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The First Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Air University",
+      "type": "child",
+      "id": "https://ror.org/05jwcsm16"
+    },
+    {
+      "label": "59th Medical Wing",
+      "type": "child",
+      "id": "https://ror.org/01sq4yt06"
+    },
+    {
+      "label": "United States Air Force",
+      "type": "parent",
+      "id": "https://ror.org/006gmme17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

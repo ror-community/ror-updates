@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lwl.org"
+  ],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461769.b"
+      ],
+      "preferred": "grid.461769.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1955 161X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03cdgfs84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www2.lwl.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.96236,
+        "lng": 7.62571,
+        "name": "Münster"
+      },
+      "geonames_id": 2867543
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LWL"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Landschaftsverband Westfalen-Lippe"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "LWL-Universitätsklinik Hamm",
+      "type": "child",
+      "id": "https://ror.org/05w1kdn42"
+    },
+    {
+      "label": "LWL-Universitätsklinikum Bochum",
+      "type": "child",
+      "id": "https://ror.org/04nkkrh90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

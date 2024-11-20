@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.456757.2"
+      ],
+      "preferred": "grid.456757.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0615 8060"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1153972"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01mke9645",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.defesa.gov.br/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Brazil)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "lat": -15.77972,
+        "lng": -47.92972,
+        "name": "Brasília"
+      },
+      "geonames_id": 3469058
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Defence"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Ministério da Defesa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Interministerial Commission for Sea Resources",
+      "type": "child",
+      "id": "https://ror.org/02e38dy05"
+    },
+    {
+      "label": "Federal Government of Brazil",
+      "type": "parent",
+      "id": "https://ror.org/00n0s9w57"
+    },
+    {
+      "label": "Força Aérea Brasileira",
+      "type": "child",
+      "id": "https://ror.org/00gz6rx61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "ouh.dk"
+  ],
+  "established": 1912,
+  "external_ids": [
+    {
+      "all": [
+        "501100004196"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7143.1"
+      ],
+      "preferred": "grid.7143.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0512 5013"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2496415"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ey0ed83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ouh.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Odense_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "lat": 55.39594,
+        "lng": 10.38831,
+        "name": "Odense"
+      },
+      "geonames_id": 2615876
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Odense Universitets Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Odense University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Psykiatrien i Region Syddanmark",
+      "type": "child",
+      "id": "https://ror.org/02vypmx38"
+    },
+    {
+      "label": "Svendborg Sygehus",
+      "type": "child",
+      "id": "https://ror.org/04ka38w49"
+    },
+    {
+      "label": "University of Southern Denmark",
+      "type": "related",
+      "id": "https://ror.org/03yrrjy16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

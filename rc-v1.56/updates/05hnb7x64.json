@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "brgm.fr"
+  ],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100006273"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.16117.30"
+      ],
+      "preferred": "grid.16117.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2184 6484"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q138691"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05hnb7x64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.brgm.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bureau_de_Recherches_G%C3%A9ologiques_et_Mini%C3%A8res"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.90289,
+        "lng": 1.90389,
+        "name": "Orléans"
+      },
+      "geonames_id": 2989317
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BRGM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Bur Rech Geol & Minieres"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Bur. Rech. Geol. Minieres"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bureau de Recherches Géologiques et Minières"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "French Geological Survey"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Geological and Mining Research Bureau"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Field Observatory in Urban Hydrology",
+      "type": "child",
+      "id": "https://ror.org/05v3w8223"
+    },
+    {
+      "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
+      "type": "child",
+      "id": "https://ror.org/01w1erp60"
+    },
+    {
+      "label": "Institut des Sciences de la Terre d'Orléans",
+      "type": "child",
+      "id": "https://ror.org/02t2hg116"
+    },
+    {
+      "label": "Gestion de l'Eau, Acteurs, Usages",
+      "type": "child",
+      "id": "https://ror.org/020g0rw41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

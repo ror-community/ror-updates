@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uni-marburg.de"
+  ],
+  "established": 1527,
+  "external_ids": [
+    {
+      "all": [
+        "100008967"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10253.35"
+      ],
+      "preferred": "grid.10253.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9756"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q155354"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rdrb571",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-marburg.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Marburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.80904,
+        "lng": 8.77069,
+        "name": "Marburg"
+      },
+      "geonames_id": 2873759
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Philipps University of Marburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Philipps-Universität Marburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fachkrankenhaus Kloster Grafschaft",
+      "type": "related",
+      "id": "https://ror.org/04ehrwx42"
+    },
+    {
+      "label": "Klinikum Fulda",
+      "type": "related",
+      "id": "https://ror.org/04jmqe852"
+    },
+    {
+      "label": "Klinikum Kassel",
+      "type": "related",
+      "id": "https://ror.org/048ycfv73"
+    },
+    {
+      "label": "Universitätsklinikum Gießen und Marburg",
+      "type": "related",
+      "id": "https://ror.org/032nzv584"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

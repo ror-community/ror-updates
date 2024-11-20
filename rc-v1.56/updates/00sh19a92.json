@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469433.f"
+      ],
+      "preferred": "grid.469433.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0514 7845"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00sh19a92",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.eoc.ch/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 46.19278,
+        "lng": 9.01703,
+        "name": "Bellinzona"
+      },
+      "geonames_id": 2661567
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EOC"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ente Ospedaliero Cantonale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Regionale di Locarno",
+      "type": "child",
+      "id": "https://ror.org/01a3zyd02"
+    },
+    {
+      "label": "Ospedale regionale di Lugano",
+      "type": "child",
+      "id": "https://ror.org/00gkheh82"
+    },
+    {
+      "label": "Istituto Pediatrico della Svizzera Italiana",
+      "type": "child",
+      "id": "https://ror.org/04fnna213"
+    },
+    {
+      "label": "Istituto Imaging della Svizzera Italiana",
+      "type": "child",
+      "id": "https://ror.org/0410gdv63"
+    },
+    {
+      "label": "Ospedale Regionale di Mendrisio",
+      "type": "child",
+      "id": "https://ror.org/017eabx08"
+    },
+    {
+      "label": "Istituto Oncologico della Svizzera Italiana",
+      "type": "child",
+      "id": "https://ror.org/04tty5b50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

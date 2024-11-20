@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "insa-strasbourg.fr"
+  ],
+  "established": 1875,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435015.6"
+      ],
+      "preferred": "grid.435015.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0640 5519"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q521036"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/001nta019",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.insa-strasbourg.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/INSA_Strasbourg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "INSA Strasbourg"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut National des Sciences Appliquées de Strasbourg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Technische Winterschule für Wiesenbautechniker"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie",
+      "type": "child",
+      "id": "https://ror.org/00k4e5n71"
+    },
+    {
+      "label": "Fédération de Recherche sur l'Energie Solaire",
+      "type": "related",
+      "id": "https://ror.org/0459fdx51"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

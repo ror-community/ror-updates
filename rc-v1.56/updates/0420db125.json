@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "rockefeller.edu"
+  ],
+  "established": 1901,
+  "external_ids": [
+    {
+      "all": [
+        "100012007"
+      ],
+      "preferred": "100012007",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.134907.8"
+      ],
+      "preferred": "grid.134907.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2166 1519"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q270272"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0420db125",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rockefeller.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Rockefeller_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rockefeller University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Rockefeller"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rockefeller University Press",
+      "type": "child",
+      "id": "https://ror.org/04er32z07"
+    },
+    {
+      "label": "Chan Zuckerberg Biohub New York",
+      "type": "child",
+      "id": "https://ror.org/0263t7p64"
+    },
+    {
+      "label": "Rockefeller University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00jjq6q61"
+    },
+    {
+      "label": "Hospital for Special Surgery",
+      "type": "related",
+      "id": "https://ror.org/03zjqec80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

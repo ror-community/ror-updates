@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "lsmu.lt"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100016250"
+      ],
+      "preferred": "501100016250",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.45083.3a"
+      ],
+      "preferred": "grid.45083.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0432 6841"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2092640"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0069bkg23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lsmu.lt"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lithuanian_University_of_Health_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "lat": 54.90272,
+        "lng": 23.90961,
+        "name": "Kaunas"
+      },
+      "geonames_id": 598316
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LSMU"
+    },
+    {
+      "lang": "lt",
+      "types": [
+        "label"
+      ],
+      "value": "Lietuvos Sveikatos Mokslų Universitetas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lithuanian University of Health Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Uniwersytet Medyczny w Kownie"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Медицинская академия Литовского университета для наук здравоохранения"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital of Lithuanian University of Health Sciences Kaunas Clinics",
+      "type": "child",
+      "id": "https://ror.org/058hsp657"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

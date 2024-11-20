@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "swansea.ac.uk"
+  ],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "501100001317"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4827.9"
+      ],
+      "preferred": "grid.4827.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0658 8800"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1420500"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/053fq8t95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.swansea.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Swansea_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.62079,
+        "lng": -3.94323,
+        "name": "Swansea"
+      },
+      "geonames_id": 2636432
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Abertawe"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swansea University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Energy Safety Research Institute",
+      "type": "child",
+      "id": "https://ror.org/026znxe07"
+    },
+    {
+      "label": "Countess of Chester Hospital",
+      "type": "related",
+      "id": "https://ror.org/041hae580"
+    },
+    {
+      "label": "Morriston Hospital",
+      "type": "related",
+      "id": "https://ror.org/01p830915"
+    },
+    {
+      "label": "Singleton Hospital",
+      "type": "related",
+      "id": "https://ror.org/02ab2dg68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

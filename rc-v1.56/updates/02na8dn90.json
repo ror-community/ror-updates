@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "uk-essen.de"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "100017590"
+      ],
+      "preferred": "100017590",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410718.b"
+      ],
+      "preferred": "grid.410718.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0262 7331"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02na8dn90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uk-essen.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 51.45657,
+        "lng": 7.01228,
+        "name": "Essen"
+      },
+      "geonames_id": 2928810
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Essen University Hospital"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Essen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "West German Heart and Vascular Center Essen",
+      "type": "child",
+      "id": "https://ror.org/05aw6p704"
+    },
+    {
+      "label": "University of Duisburg-Essen",
+      "type": "related",
+      "id": "https://ror.org/04mz5ra38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "chu-angers.fr"
+  ],
+  "established": 1175,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411147.6"
+      ],
+      "preferred": "grid.411147.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0472 0283"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0250ngj72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-angers.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.47156,
+        "lng": -0.55202,
+        "name": "Angers"
+      },
+      "geonames_id": 3037656
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Angers"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire d'Angers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers",
+      "type": "child",
+      "id": "https://ror.org/003g1aw90"
+    },
+    {
+      "label": "Université d'Angers",
+      "type": "related",
+      "id": "https://ror.org/04yrqp957"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

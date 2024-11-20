@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "louisville.edu"
+  ],
+  "established": 1798,
+  "external_ids": [
+    {
+      "all": [
+        "100007924"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266623.5"
+      ],
+      "preferred": "grid.266623.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2113 1622"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1317143"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ckdn478",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://louisville.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Louisville"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.25424,
+        "lng": -85.75941,
+        "name": "Louisville"
+      },
+      "geonames_id": 4299276
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Louisville"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Louisville"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de louisville"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cardiovascular Innovation Institute",
+      "type": "child",
+      "id": "https://ror.org/0230wyg61"
+    },
+    {
+      "label": "Louisville VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01zd7yk57"
+    },
+    {
+      "label": "University of Louisville Hospital",
+      "type": "related",
+      "id": "https://ror.org/04sq8k219"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

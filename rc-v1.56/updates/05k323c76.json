@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nrm.se"
+  ],
+  "established": 1819,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425591.e"
+      ],
+      "preferred": "grid.425591.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 2864"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1420103"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05k323c76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nrm.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swedish_Museum_of_Natural_History"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Museum of Natural History"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Naturhistoriska riksmuseet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish Museum of Natural History"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Valtion luonnonhistoriallinen museo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Palaeogenetics",
+      "type": "child",
+      "id": "https://ror.org/04sx39q13"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "child",
+      "id": "https://ror.org/0221pcv84"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fh-potsdam.de"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461741.1"
+      ],
+      "preferred": "grid.461741.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0680 6484"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q896706"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012m9bp23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fh-potsdam.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fachhochschule_Potsdam"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 52.39886,
+        "lng": 13.06566,
+        "name": "Potsdam"
+      },
+      "geonames_id": 2852458
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "FH Potsdam"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FHP"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Fachhochschule Potsdam"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fachhochschule Potsdam University of Applied Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Applied Sciences Potsdam"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut für Fortbildung, Forschung und Entwicklung",
+      "type": "child",
+      "id": "https://ror.org/00pptj576"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

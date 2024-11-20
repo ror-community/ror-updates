@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100000076"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457768.f"
+      ],
+      "preferred": "grid.457768.f",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/001xhss06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/dir/index.jsp?org=BIO"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Directorate for Biological Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF BIO"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Division of Biological Infrastructure",
+      "type": "child",
+      "id": "https://ror.org/04qn9mx93"
+    },
+    {
+      "label": "Division of Environmental Biology",
+      "type": "child",
+      "id": "https://ror.org/03g87he71"
+    },
+    {
+      "label": "Division of Integrative Organismal Systems",
+      "type": "child",
+      "id": "https://ror.org/01rvays47"
+    },
+    {
+      "label": "Division of Molecular & Cellular Biosciences",
+      "type": "child",
+      "id": "https://ror.org/002jdaq33"
+    },
+    {
+      "label": "Emerging Frontiers Office",
+      "type": "child",
+      "id": "https://ror.org/01tnvpc68"
+    },
+    {
+      "label": "U.S. National Science Foundation",
+      "type": "parent",
+      "id": "https://ror.org/021nxhr62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "montefiore.org"
+  ],
+  "established": 1884,
+  "external_ids": [
+    {
+      "all": [
+        "grid.240283.f"
+      ],
+      "preferred": "grid.240283.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2152 0791"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6905066"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/044ntvm43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://montefioreeinstein.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Montefiore_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 40.84985,
+        "lng": -73.86641,
+        "name": "Bronx"
+      },
+      "geonames_id": 5110266
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Montefiore Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lady of Mercy Medical Center",
+      "type": "child",
+      "id": "https://ror.org/02navrb60"
+    },
+    {
+      "label": "Sound Shore Medical Center",
+      "type": "child",
+      "id": "https://ror.org/031wwqy14"
+    },
+    {
+      "label": "Albert Einstein College of Medicine",
+      "type": "related",
+      "id": "https://ror.org/05cf8a891"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

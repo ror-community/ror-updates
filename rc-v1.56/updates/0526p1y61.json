@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "orau.org"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100006225",
+        "100006173"
+      ],
+      "preferred": "100006225",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410547.3"
+      ],
+      "preferred": "grid.410547.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1013 9784"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5583848"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0526p1y61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.orau.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Oak_Ridge_Associated_Universities"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 36.01036,
+        "lng": -84.26964,
+        "name": "Oak Ridge"
+      },
+      "geonames_id": 4646571
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ORAU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oak Ridge Associated Universities"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Oak Ridge Institute of Nuclear Studies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oak Ridge Institute for Science and Education",
+      "type": "child",
+      "id": "https://ror.org/040vxhp34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

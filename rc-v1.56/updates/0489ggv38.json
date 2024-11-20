@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "canterbury.ac.uk"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "100011228"
+      ],
+      "preferred": "100011228",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.127050.1"
+      ],
+      "preferred": "grid.127050.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0249 951X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3182956"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0489ggv38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.canterbury.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Canterbury_Christ_Church_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "lat": 51.27904,
+        "lng": 1.07992,
+        "name": "Canterbury"
+      },
+      "geonames_id": 2653877
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCCU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Canterbury Christ Church University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kent and Medway Medical School",
+      "type": "child",
+      "id": "https://ror.org/049p9j193"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

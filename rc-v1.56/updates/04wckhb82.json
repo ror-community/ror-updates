@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "fnhk.cz"
+  ],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "100019624"
+      ],
+      "preferred": "100019624",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412539.8"
+      ],
+      "preferred": "grid.412539.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0609 2284"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wckhb82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fnhk.cz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "lat": 50.20923,
+        "lng": 15.83277,
+        "name": "Hradec Králové"
+      },
+      "geonames_id": 3074967
+    }
+  ],
+  "names": [
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Fakultní Nemocnice Hradec Králové"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Hradec Králové"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Hradec Králové",
+      "type": "related",
+      "id": "https://ror.org/05k238v14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-11-19",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "junia.com"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466329.c"
+      ],
+      "preferred": "grid.466329.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7434 4981",
+        "0000 0001 2154 0303"
+      ],
+      "preferred": "0000 0004 7434 4981",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3117452"
+      ],
+      "preferred": "Q3117452",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02evec030",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.junia.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 50.63297,
+        "lng": 3.05858,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Groupe Institut Supérieur d'Agriculture de Lille"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ISA Lille"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "JUNIA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "JUNIA - Grande école d'ingénieurs"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Yncréa Hauts-de-France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Charles Viollette",
+      "type": "child",
+      "id": "https://ror.org/0018c4h73"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}
