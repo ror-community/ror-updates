@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -63,7 +63,13 @@
       "value": "Universidade de Aveiro Centro de Tecnologia Mecânica e Automação"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Aveiro",
+      "type": "parent",
+      "id": "https://ror.org/00nt41z93"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

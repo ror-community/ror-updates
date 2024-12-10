@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -90,7 +90,13 @@
       "value": "University Hospital of Jerez"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Consejería de Salud y Consumo",
+      "type": "parent",
+      "id": "https://ror.org/047pymx40"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

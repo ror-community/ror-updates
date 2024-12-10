@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -51,7 +51,13 @@
       "value": "Governo dos Açores"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Secretaria Regional da Saúde e Segurança Social",
+      "type": "child",
+      "id": "https://ror.org/029n0xq72"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "dlr.de"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100002946"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7551.6"
+      ],
+      "preferred": "grid.7551.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8983 7915"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q157332",
+        "Q38825517"
+      ],
+      "preferred": "Q157332",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bwf3e34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dlr.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/German_Aerospace_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.93333,
+        "lng": 6.95,
+        "name": "Cologne"
+      },
+      "geonames_id": 2886242
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DLR"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Deutsches Zentrum für Luft- und Raumfahrt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Deutsches Zentrum für Luft- und Raumfahrt e.V"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "German Aerospace Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    },
+    {
+      "label": "In-Service Aircraft for a Global Observing System",
+      "type": "related",
+      "id": "https://ror.org/033zfn006"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

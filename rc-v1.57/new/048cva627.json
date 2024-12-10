@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -55,7 +55,18 @@
       "value": "DVGW-TUHH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Deutscher Verein des Gas und Wasserfaches",
+      "type": "parent",
+      "id": "https://ror.org/03h3w3289"
+    },
+    {
+      "label": "Hamburg University of Technology",
+      "type": "parent",
+      "id": "https://ror.org/04bs1pb34"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

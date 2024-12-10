@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Universidade de Lisboa Centro de Estudos do Ambiente e do Mar"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Aveiro",
+      "type": "parent",
+      "id": "https://ror.org/00nt41z93"
+    },
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Guthrie Corning Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Guthrie Robert Packer Hospital",
+      "type": "parent",
+      "id": "https://ror.org/0068v6128"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -63,7 +63,13 @@
       "value": "مركز البحوث والدراسات الصحية"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saudi Health Council",
+      "type": "parent",
+      "id": "https://ror.org/03nk5kq98"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

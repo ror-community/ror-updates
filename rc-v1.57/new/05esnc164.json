@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Richard Ivey School of Business"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Western University",
+      "type": "parent",
+      "id": "https://ror.org/02grkyz14"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

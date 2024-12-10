@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -97,7 +97,13 @@
       "value": "Етнографски институт Српске академије наука и уметности"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Serbian Academy of Sciences and Arts",
+      "type": "parent",
+      "id": "https://ror.org/05m1y4204"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

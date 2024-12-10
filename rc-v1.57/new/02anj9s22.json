@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -97,7 +97,18 @@
       "value": "Mt. Cuba Astronomical Observatory, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Delaware Asteroseismic Research Center",
+      "type": "child",
+      "id": "https://ror.org/01tqfb593"
+    },
+    {
+      "label": "Mt. Cuba Astronomical Foundation",
+      "type": "related",
+      "id": "https://ror.org/038a16f20"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

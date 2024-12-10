@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1853,
+  "external_ids": [
+    {
+      "all": [
+        "501100001703",
+        "501100001709"
+      ],
+      "preferred": "501100001703",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5333.6"
+      ],
+      "preferred": "grid.5333.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2183 9049"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q262760"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02s376052",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.epfl.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 46.516,
+        "lng": 6.63282,
+        "name": "Lausanne"
+      },
+      "geonames_id": 2659994
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EPFL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Swiss Federal Institute of Technology in Lausanne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Polytechnique Fédérale de Lausanne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NCCR Chemical Biology - Visualisation and Control of Biological Processes Using Chemistry",
+      "type": "child",
+      "id": "https://ror.org/033f9yy33"
+    },
+    {
+      "label": "Swiss Data Science Center",
+      "type": "child",
+      "id": "https://ror.org/02hdt9m26"
+    },
+    {
+      "label": "Board of the Swiss Federal Institutes of Technology",
+      "type": "parent",
+      "id": "https://ror.org/01rvn4p91"
+    },
+    {
+      "label": "Idiap Research Institute",
+      "type": "related",
+      "id": "https://ror.org/05932h694"
+    },
+    {
+      "label": "Swiss Polar Institute",
+      "type": "related",
+      "id": "https://ror.org/02z9ca723"
+    },
+    {
+      "label": "NCCR Catalysis",
+      "type": "related",
+      "id": "https://ror.org/03qf6ek79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

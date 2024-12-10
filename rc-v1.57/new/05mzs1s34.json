@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Multidisciplinary Research Centre for the Human and Social Sciences"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CY Cergy Paris Université",
+      "type": "parent",
+      "id": "https://ror.org/043htjv09"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

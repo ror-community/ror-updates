@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Instituto Gulbenkian de Ciência"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gulbenkian Institute for Molecular Medicine",
+      "type": "successor",
+      "id": "https://ror.org/0346k0491"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

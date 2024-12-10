@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -62,7 +62,33 @@
       "value": "Nuvance Health Systems"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Western Connecticut Health Network",
+      "type": "predecessor",
+      "id": "https://ror.org/03vcded87"
+    },
+    {
+      "label": "Northwell Health",
+      "type": "parent",
+      "id": "https://ror.org/02bxt4m23"
+    },
+    {
+      "label": "Vassar Brothers Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05g023586"
+    },
+    {
+      "label": "Danbury Hospital",
+      "type": "child",
+      "id": "https://ror.org/04t2rv460"
+    },
+    {
+      "label": "Norwalk Hospital",
+      "type": "child",
+      "id": "https://ror.org/005xhc966"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -78,7 +78,13 @@
       "value": "Специализирана болница за активно лечение по детски болести „Проф. Иван Митев“"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medical University of Sofia",
+      "type": "related",
+      "id": "https://ror.org/01n9zy652"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

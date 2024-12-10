@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -83,7 +83,13 @@
       "value": "四條畷学園大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shijonawate Gakuen Junior College",
+      "type": "child",
+      "id": "https://ror.org/036vefa56"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

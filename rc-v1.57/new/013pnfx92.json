@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -92,7 +92,13 @@
       "value": "Mines Paris, Université PSL, Institut des Hautes Études pour l’Innovation et l’Entreprenariat (IHEIE)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "École Nationale Supérieure des Mines de Paris",
+      "type": "parent",
+      "id": "https://ror.org/04y8cs423"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

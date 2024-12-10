@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Centro de Linguística da Universidade do Porto"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade do Porto",
+      "type": "parent",
+      "id": "https://ror.org/043pwc612"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

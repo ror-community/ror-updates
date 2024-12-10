@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -71,7 +71,13 @@
       "value": "NOAA Global Monitoring Laboratory"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA Earth System Research Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/033tt8e33"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

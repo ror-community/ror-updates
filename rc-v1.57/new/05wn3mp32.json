@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -77,7 +77,13 @@
       "value": "Rimouski Marine Sciences Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université du Québec à Rimouski",
+      "type": "parent",
+      "id": "https://ror.org/049jtt335"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -109,7 +109,13 @@
       "value": "Université d'État du Minnesota"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Minnesota State Colleges and Universities System",
+      "type": "parent",
+      "id": "https://ror.org/014qpa824"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

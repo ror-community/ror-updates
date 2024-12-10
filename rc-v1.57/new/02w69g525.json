@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2024-12-09",
+      "date": "2024-12-10",
       "schema_version": "2.0"
     }
   },
@@ -69,7 +69,13 @@
       "value": "THW"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Federal Ministry for the Interior",
+      "type": "parent",
+      "id": "https://ror.org/013v7ga69"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
