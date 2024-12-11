@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "grid.265960.e"
+      ],
+      "preferred": "grid.265960.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0422 5627"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q500154"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04fttyv97",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ualr.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Arkansas_at_Little_Rock"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 34.74648,
+        "lng": -92.28959,
+        "name": "Little Rock"
+      },
+      "geonames_id": 4119403
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UALR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Arkansas at Little Rock"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'arkansas à little rock"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Arkansas Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/03hjnwv43"
+    },
+    {
+      "label": "University of Arkansas System",
+      "type": "parent",
+      "id": "https://ror.org/05vvhh982"
+    },
+    {
+      "label": "Arkansas Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/01t33qq42"
+    },
+    {
+      "label": "University of Arkansas Medical Center",
+      "type": "related",
+      "id": "https://ror.org/005k4dn45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

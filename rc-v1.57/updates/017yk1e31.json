@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414835.f"
+      ],
+      "preferred": "grid.414835.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0439 6364"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/017yk1e31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.moh.gov.et/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "ET",
+        "country_name": "Ethiopia",
+        "lat": 9.02497,
+        "lng": 38.74689,
+        "name": "Addis Ababa"
+      },
+      "geonames_id": 344979
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FMOH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oromiyaa Regional Health Bureau",
+      "type": "child",
+      "id": "https://ror.org/03k3h8z07"
+    },
+    {
+      "label": "South Ethiopia Regional State Health Bureau",
+      "type": "child",
+      "id": "https://ror.org/058p87c41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

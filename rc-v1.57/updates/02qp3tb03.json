@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "mayoclinic.edu",
+    "mayoclinic.org"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "100000871",
+        "100007048"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.66875.3a"
+      ],
+      "preferred": "grid.66875.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 167X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1130172"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qp3tb03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mayoclinic.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mayo_Clinic"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 44.02163,
+        "lng": -92.4699,
+        "name": "Rochester"
+      },
+      "geonames_id": 5043473
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Clínica Mayo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mayo Clinic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Mayo Clinic in Rochester, Minnesota"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mayo Clinic in Arizona",
+      "type": "child",
+      "id": "https://ror.org/03jp40720"
+    },
+    {
+      "label": "Mayo Clinic in Florida",
+      "type": "child",
+      "id": "https://ror.org/03zzw1w08"
+    },
+    {
+      "label": "Mayo Clinic Health System",
+      "type": "child",
+      "id": "https://ror.org/02zzw8g45"
+    },
+    {
+      "label": "Mayo Clinic Comprehensive Cancer Center (Minnesota)",
+      "type": "child",
+      "id": "https://ror.org/012wxv498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

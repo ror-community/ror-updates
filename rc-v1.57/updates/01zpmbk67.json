@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1932,
+  "external_ids": [
+    {
+      "all": [
+        "grid.280828.8"
+      ],
+      "preferred": "grid.280828.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9681 3540"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01zpmbk67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.indianapolis.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": 39.76838,
+        "lng": -86.15804,
+        "name": "Indianapolis"
+      },
+      "geonames_id": 4259418
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Richard L. Roudebush VA Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VA Healthcare System Serving Ohio, Indiana and Michigan",
+      "type": "parent",
+      "id": "https://ror.org/02z5d2h92"
+    },
+    {
+      "label": "Indiana University Bloomington",
+      "type": "related",
+      "id": "https://ror.org/02k40bc56"
+    },
+    {
+      "label": "Indiana University Indianapolis",
+      "type": "parent",
+      "id": "https://ror.org/03eftgw80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100020371"
+      ],
+      "preferred": "501100020371",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.13574.34"
+      ],
+      "preferred": "grid.13574.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0468 4980"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1780898"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wt3br81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.regeringen.se/sveriges-regering/klimat--och-naringslivsdepartementet/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Enterprise_and_Innovation_(Sweden)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Klimat- och näringslivsdepartementet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministry of Climate and Enterprise"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Enterprise and Innovation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Enterprise, Energy and Communications"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of Sweden",
+      "type": "parent",
+      "id": "https://ror.org/04gey0774"
+    },
+    {
+      "label": "Swedish Agency for Economic and Regional Growth",
+      "type": "related",
+      "id": "https://ror.org/02969qk41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

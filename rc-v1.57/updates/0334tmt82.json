@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463807.e"
+      ],
+      "preferred": "grid.463807.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0618 1201"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0334tmt82",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.dijon.inra.fr/cesaer/en/axis/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "FR",
+        "country_name": "France",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESAER"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Economie et de Sociologie Appliquées à l'Agriculture et aux Espaces Ruraux"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Bourgogne-Franche-Comté",
+      "type": "parent",
+      "id": "https://ror.org/002jby155"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Institut Agro Dijon",
+      "type": "parent",
+      "id": "https://ror.org/03zek0r74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

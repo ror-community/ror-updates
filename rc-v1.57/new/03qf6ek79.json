@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-12-09",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [
+    "nccr-catalysis.ch"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100023650"
+      ],
+      "preferred": "501100023650",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 1092 057X"
+      ],
+      "preferred": "0000 0005 1092 057X",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03qf6ek79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nccr-catalysis.ch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "lat": 47.00016,
+        "lng": 8.01427,
+        "name": "Switzerland"
+      },
+      "geonames_id": 2658434
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "NCCR Catalysis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Center of Competence in Research Catalysis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Centre of Competence in Research Catalysis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ETH Zurich",
+      "type": "related",
+      "id": "https://ror.org/05a28rw58"
+    },
+    {
+      "label": "École Polytechnique Fédérale de Lausanne",
+      "type": "related",
+      "id": "https://ror.org/02s376052"
+    },
+    {
+      "label": "Swiss National Science Foundation",
+      "type": "parent",
+      "id": "https://ror.org/00yjd3n13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

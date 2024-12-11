@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100002956",
+        "100012114"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1463.0"
+      ],
+      "preferred": "grid.1463.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0692 6582"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1182587",
+        "Q5206019"
+      ],
+      "preferred": "Q1182587",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00hgy8d33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.drdc-rddc.gc.ca/en/index.page"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Defence_Research_and_Development_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DRDC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Defence Research and Development Canada"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RDDC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Recherche & développement pour la défense Canada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of National Defence",
+      "type": "parent",
+      "id": "https://ror.org/035rreb34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

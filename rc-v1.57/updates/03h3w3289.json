@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1859,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424189.2"
+      ],
+      "preferred": "grid.424189.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1018 6740"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q871092"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03h3w3289",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dvgw.de/english-pages/dvgw/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Deutscher_Verein_des_Gas-_und_Wasserfaches"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "DE",
+        "country_name": "Germany",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
+      },
+      "geonames_id": 2946447
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DVGW"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutscher Verein des Gas und Wasserfaches"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "German Technical and Scientific Association for Gas and Water"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "DVGW - Technologiezentrum Wasser",
+      "type": "child",
+      "id": "https://ror.org/0441q2c30"
+    },
+    {
+      "label": "DVGW-Forschungsstelle am Engler-Bunte-Institut des Karlsruher Instituts für Technologie",
+      "type": "child",
+      "id": "https://ror.org/040fv5d16"
+    },
+    {
+      "label": "DVGW-Forschungsstelle TUHH",
+      "type": "child",
+      "id": "https://ror.org/048cva627"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

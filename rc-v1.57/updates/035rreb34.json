@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2024-12-10",
+      "schema_version": "2.0"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "501100018825"
+      ],
+      "preferred": "501100018825",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.461959.6"
+      ],
+      "preferred": "grid.461959.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 0128"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1191463"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035rreb34",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dnd.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_National_Defence_(Canada)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "country_code": "CA",
+        "country_name": "Canada",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DND"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of National Defence"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Ministère de la Défense nationale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Defence Research and Development Canada",
+      "type": "child",
+      "id": "https://ror.org/00hgy8d33"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "parent",
+      "id": "https://ror.org/010q4q527"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
