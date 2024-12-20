@@ -3,7 +3,7 @@ name: Add organization to ROR
 about: Template for suggesting a new organization to be added to ROR
 title: 'Add a new organization to ROR: '
 labels: new record, triage needed
-assignees: adambuttrick
+assignees: rileymmarsh
 
 ---
 
