@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "London Health Sciences Centre Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lawson Health Research Institute",
+      "type": "predecessor",
+      "id": "https://ror.org/051gsh239"
+    },
+    {
+      "label": "London Health Sciences Centre",
+      "type": "parent",
+      "id": "https://ror.org/037tz0e16"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

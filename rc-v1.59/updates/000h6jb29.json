@@ -1,0 +1,142 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ufz.de"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100004813"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7492.8"
+      ],
+      "preferred": "grid.7492.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0492 3830"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q880999"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/000h6jb29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ufz.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Helmholtz_Centre_for_Environmental_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      },
+      "geonames_id": 2879139
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helmholtz Centre for Environmental Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz Centre for Environmental Research - UFZ"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Helmholtz-Zentrum für Umweltforschung"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz-Zentrum für Umweltforschung - UFZ"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz-Zentrum für Umweltforschung GmbH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz-Zentrum für Umweltforschung GmbH -UFZ"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UFZ"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    },
+    {
+      "label": "German Centre for Integrative Biodiversity Research",
+      "type": "related",
+      "id": "https://ror.org/01jty7g66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

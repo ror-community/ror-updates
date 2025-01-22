@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,23 @@
       "value": "Centre de recherche Charles-Le Moyne"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre intégré de santé et de services sociaux de la Montérégie-Centre",
+      "type": "parent",
+      "id": "https://ror.org/04qekdn52"
+    },
+    {
+      "label": "Hôpital Charles-Le Moyne",
+      "type": "parent",
+      "id": "https://ror.org/01jnc6p74"
+    },
+    {
+      "label": "Université de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/00kybxq39"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

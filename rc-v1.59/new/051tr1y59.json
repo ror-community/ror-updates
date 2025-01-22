@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Luxembourg Centre for Systems Biomedicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Luxembourg",
+      "type": "parent",
+      "id": "https://ror.org/036x5ad56"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "World Commission on Environmental Law"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "International Union for Conservation of Nature",
+      "type": "parent",
+      "id": "https://ror.org/04tehfn33"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

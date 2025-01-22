@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -85,7 +85,18 @@
       "value": "Lawson Research Institute at St. Joseph's"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lawson Health Research Institute",
+      "type": "predecessor",
+      "id": "https://ror.org/051gsh239"
+    },
+    {
+      "label": "St Joseph's Health Care",
+      "type": "parent",
+      "id": "https://ror.org/05rj7xr73"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unina.it"
+  ],
+  "established": 1224,
+  "external_ids": [
+    {
+      "all": [
+        "100007195",
+        "100009052"
+      ],
+      "preferred": "100007195",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4691.a"
+      ],
+      "preferred": "grid.4691.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0790 385X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q691851"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05290cv24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unina.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Naples_Federico_II"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "72",
+        "country_subdivision_name": "Campania",
+        "lat": 40.85216,
+        "lng": 14.26811,
+        "name": "Naples"
+      },
+      "geonames_id": 3172394
+    }
+  ],
+  "names": [
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Universitat de Nàpols Frederic II"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Naples Federico II"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università degli Studi di Napoli Federico II"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Neapel Federico II"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Naples - Frédéric-II"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Interuniversitario di Ricerca sui Peptidi Bioattivi",
+      "type": "child",
+      "id": "https://ror.org/055cpj147"
+    },
+    {
+      "label": "Federico II University Hospital",
+      "type": "child",
+      "id": "https://ror.org/02jr6tp70"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Sezione di Napoli",
+      "type": "related",
+      "id": "https://ror.org/015kcdd40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-12",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "杏林大学医学部付属杉並病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyorin University",
+      "type": "parent",
+      "id": "https://ror.org/0188yz413"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -115,7 +115,13 @@
       "value": "Latvijas Universitātes Cietvielu fizikas institūts"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Latvia",
+      "type": "parent",
+      "id": "https://ror.org/05g3mes96"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

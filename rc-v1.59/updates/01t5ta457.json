@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Universidade de Coimbra Centro de Inovação em Biomedicina e Biotecnologia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Coimbra",
+      "type": "parent",
+      "id": "https://ror.org/04z8k9a98"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

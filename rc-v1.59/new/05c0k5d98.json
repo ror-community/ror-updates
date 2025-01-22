@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Danish Cardiovascular Academy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Danish Cardiovascular Research Academy",
+      "type": "predecessor",
+      "id": "https://ror.org/0054s2h05"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -115,7 +115,13 @@
       "value": "WSL-Institut für Schnee-und Lawinenforschung SLF"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "type": "parent",
+      "id": "https://ror.org/04bs5yc70"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

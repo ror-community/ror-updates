@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -111,7 +111,13 @@
       "value": "社会医療法人大阪国際メディカル＆サイエンスセンター 大阪警察病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NTT WEST Osaka Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/01bfp5e25"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

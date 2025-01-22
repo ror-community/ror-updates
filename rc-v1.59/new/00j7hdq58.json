@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Centre hospitalier affilié universitaire de Québec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CHU de Québec-Université Laval",
+      "type": "successor",
+      "id": "https://ror.org/05qn5kv73"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

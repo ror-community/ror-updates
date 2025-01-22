@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -88,7 +88,33 @@
       "value": "Centre d'Investigation Clinique - Innovation Technologique de Garches"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "type": "parent",
+      "id": "https://ror.org/03mkjjy25"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Ministère des Solidarités et de la Santé",
+      "type": "parent",
+      "id": "https://ror.org/01wp0c315"
+    },
+    {
+      "label": "Centre d'Investigation Clinique - Innovation Technologique",
+      "type": "parent",
+      "id": "https://ror.org/04fmayc82"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

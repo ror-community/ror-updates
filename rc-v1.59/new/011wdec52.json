@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Centre of Excellence for Biosecurity Risk Analysis"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Melbourne",
+      "type": "parent",
+      "id": "https://ror.org/01ej9dk98"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

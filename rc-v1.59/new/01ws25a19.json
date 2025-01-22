@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,18 @@
       "value": "Fraunhofer Project Centre for Composites Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Western University",
+      "type": "parent",
+      "id": "https://ror.org/02grkyz14"
+    },
+    {
+      "label": "Fraunhofer Institute for Chemical Technology",
+      "type": "parent",
+      "id": "https://ror.org/03nb1x490"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

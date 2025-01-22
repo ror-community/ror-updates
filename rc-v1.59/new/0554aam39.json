@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -92,7 +92,13 @@
       "value": "Werfen, OEM Headquarters and Technology Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Werfen (Spain)",
+      "type": "parent",
+      "id": "https://ror.org/04h9yzf84"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

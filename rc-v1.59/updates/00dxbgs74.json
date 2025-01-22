@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,13 @@
       "value": "Mines Paris, Université PSL, Centre de Mathématiques Appliquées (CMA)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "École Nationale Supérieure des Mines de Paris",
+      "type": "parent",
+      "id": "https://ror.org/04y8cs423"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

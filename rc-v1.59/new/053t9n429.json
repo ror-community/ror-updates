@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,23 @@
       "value": "UMR CNRS BioCIS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CY Cergy Paris Université",
+      "type": "parent",
+      "id": "https://ror.org/043htjv09"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

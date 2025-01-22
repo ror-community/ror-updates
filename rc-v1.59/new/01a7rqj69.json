@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Archeologický informační systém České republiky"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Institute of Archaeology, Prague",
+      "type": "parent",
+      "id": "https://ror.org/0287jta43"
+    },
+    {
+      "label": "Czech Academy of Sciences, Institute of Archaeology, Brno",
+      "type": "parent",
+      "id": "https://ror.org/02bvcjw39"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

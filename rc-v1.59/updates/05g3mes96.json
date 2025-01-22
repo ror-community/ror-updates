@@ -1,0 +1,144 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100005414"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9845.0"
+      ],
+      "preferred": "grid.9845.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0775 3222",
+        "0000 0001 1940 7589"
+      ],
+      "preferred": "0000 0001 0775 3222",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q498407",
+        "Q30257608",
+        "Q39774585"
+      ],
+      "preferred": "Q498407",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05g3mes96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lu.lv"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Latvia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "country_subdivision_code": "RIX",
+        "country_subdivision_name": "Riga",
+        "lat": 56.946,
+        "lng": 24.10589,
+        "name": "Riga"
+      },
+      "geonames_id": 456172
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LU"
+    },
+    {
+      "lang": "lv",
+      "types": [
+        "label"
+      ],
+      "value": "Latvijas Universitāte"
+    },
+    {
+      "lang": "lt",
+      "types": [
+        "label"
+      ],
+      "value": "Latvijos universitetas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Latvia"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Латвийский университет"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Polymer Mechanics",
+      "type": "child",
+      "id": "https://ror.org/03hvvks39"
+    },
+    {
+      "label": "Riga East University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00ss42h10"
+    },
+    {
+      "label": "UL Institute of Literature, Folklore and Art",
+      "type": "child",
+      "id": "https://ror.org/02ck2y820"
+    },
+    {
+      "label": "UL Institute of Mathematics and Computer Science",
+      "type": "child",
+      "id": "https://ror.org/02q2vrq41"
+    },
+    {
+      "label": "Institute of Solid State Physics, UL",
+      "type": "child",
+      "id": "https://ror.org/04a0bad71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

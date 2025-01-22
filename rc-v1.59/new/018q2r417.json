@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "ライフサイエンス統合データベースセンター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Research Organization of Information and Systems",
+      "type": "parent",
+      "id": "https://ror.org/04p4e8t29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

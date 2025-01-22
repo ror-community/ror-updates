@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-12",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "大阪音楽大学短期大学部"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Osaka College of Music",
+      "type": "parent",
+      "id": "https://ror.org/02rvr7q96"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

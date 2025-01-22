@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unipi.it"
+  ],
+  "established": 1343,
+  "external_ids": [
+    {
+      "all": [
+        "501100007514"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5395.a"
+      ],
+      "preferred": "grid.5395.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 3729"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q645663"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ad39j10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unipi.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Pisa"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.70853,
+        "lng": 10.4036,
+        "name": "Pisa"
+      },
+      "geonames_id": 3170647
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UniPi"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Pisa"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università di Pisa"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Pisa"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Pise"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Cisanello",
+      "type": "related",
+      "id": "https://ror.org/00mc91w09"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Sezione di Pisa",
+      "type": "related",
+      "id": "https://ror.org/05symbg58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

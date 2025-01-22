@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "100020396"
+      ],
+      "preferred": "100020396",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 1763 4958"
+      ],
+      "preferred": "0000 0004 1763 4958",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q29438518"
+      ],
+      "preferred": "Q29438518",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004qcrr52",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.inia.gob.pe/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Instituto_Nacional_de_Innovaci%C3%B3n_Agraria"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "PE",
+        "country_name": "Peru",
+        "country_subdivision_code": "LMA",
+        "country_subdivision_name": "Lima Province",
+        "lat": -12.04318,
+        "lng": -77.02824,
+        "name": "Lima"
+      },
+      "geonames_id": 3936456
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INIA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Innovación Agraria"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute of Agrarian Innovation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Estacion Experimental Agraria Pucallpa - INIA",
+      "type": "child",
+      "id": "https://ror.org/004zvfq85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

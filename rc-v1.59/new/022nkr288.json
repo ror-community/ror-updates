@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-12",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "岡山短期大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Okayama Gakuin University",
+      "type": "parent",
+      "id": "https://ror.org/04t9wmk29"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

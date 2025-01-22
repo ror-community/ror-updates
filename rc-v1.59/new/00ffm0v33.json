@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-01-21",
+      "date": "2025-01-22",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,13 @@
       "value": "Wikimedia Community User Group Brasil"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Wikimedia Brasil",
+      "type": "predecessor",
+      "id": "https://ror.org/01pvaw447"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

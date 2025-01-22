@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1558,
+  "external_ids": [
+    {
+      "all": [
+        "100012957"
+      ],
+      "preferred": "100012957",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9613.d"
+      ],
+      "preferred": "grid.9613.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1939 2794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q154561"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05qpz1x62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-jena.de/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Jena"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "TH",
+        "country_subdivision_name": "Thuringia",
+        "lat": 50.92878,
+        "lng": 11.5899,
+        "name": "Jena"
+      },
+      "geonames_id": 2895044
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Friedrich Schiller University Jena"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Friedrich-Schiller-Universität Jena"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Thüringer Universitäts- und Landesbibliothek",
+      "type": "child",
+      "id": "https://ror.org/0493yt138"
+    },
+    {
+      "label": "Jena University Hospital",
+      "type": "related",
+      "id": "https://ror.org/035rzkx15"
+    },
+    {
+      "label": "Zentralklinik Bad Berka",
+      "type": "related",
+      "id": "https://ror.org/00zfe1b87"
+    },
+    {
+      "label": "German Centre for Integrative Biodiversity Research",
+      "type": "related",
+      "id": "https://ror.org/01jty7g66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
