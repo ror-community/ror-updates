@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "501100015742"
+      ],
+      "preferred": "501100015742",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419754.a"
+      ],
+      "preferred": "grid.419754.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2259 5533"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1302497"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bs5yc70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wsl.ch/index_EN"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swiss_Federal_Institute_for_Forest,_Snow_and_Landscape_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.35515,
+        "lng": 8.44256,
+        "name": "Birmensdorf"
+      },
+      "geonames_id": 2661496
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Institut Fédéral de Recherches sur la Forêt, la Neige et le Paysage"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto Federale di Ricerca per la Foresta, la Neve e il Paesaggio"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swiss Federal Institute for Forest, Snow and Landscape Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WSL"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL",
+      "type": "child",
+      "id": "https://ror.org/021f7p178"
+    },
+    {
+      "label": "Board of the Swiss Federal Institutes of Technology",
+      "type": "parent",
+      "id": "https://ror.org/01rvn4p91"
+    },
+    {
+      "label": "WSL Institute for Snow and Avalanche Research SLF",
+      "type": "child",
+      "id": "https://ror.org/04pzmmv39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

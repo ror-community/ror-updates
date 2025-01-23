@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fe.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470200.1"
+      ],
+      "preferred": "grid.470200.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1765 4414"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265282"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00zs3y046",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fe.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Emilia-Romagna",
+        "lat": 44.83804,
+        "lng": 11.62057,
+        "name": "Ferrara"
+      },
+      "geonames_id": 3177090
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Ferrara"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Ferrara Division"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Ferrara"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-FE"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Ferrara"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Ferrara Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "University of Ferrara",
+      "type": "related",
+      "id": "https://ror.org/041zkgm14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

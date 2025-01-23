@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fi.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470204.5"
+      ],
+      "preferred": "grid.470204.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2231 4148"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265285"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02vv5y108",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fi.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.83193,
+        "lng": 11.19924,
+        "name": "Sesto Fiorentino"
+      },
+      "geonames_id": 3166601
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Firenze"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Florence"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Florence Division"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Firenze"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-FI"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Firenze"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Florence Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Laboratorio di Tecniche Nucleari per l'Ambiente e i Beni Culturali",
+      "type": "child",
+      "id": "https://ror.org/01jkemy20"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Gruppo Collegato di Siena",
+      "type": "child",
+      "id": "https://ror.org/05etrbr47"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "University of Florence",
+      "type": "related",
+      "id": "https://ror.org/04jr1s763"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

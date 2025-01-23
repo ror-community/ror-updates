@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100006586"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410528.a"
+      ],
+      "preferred": "grid.410528.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2322 4179"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05qsjq305",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-nice.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.70313,
+        "lng": 7.26608,
+        "name": "Nice"
+      },
+      "geonames_id": 2990440
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU de Nice"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Nice"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Pasteur",
+      "type": "child",
+      "id": "https://ror.org/056b4pm25"
+    },
+    {
+      "label": "Hôpital Saint Roch",
+      "type": "child",
+      "id": "https://ror.org/058qmst67"
+    },
+    {
+      "label": "Hôpital l'Archet",
+      "type": "child",
+      "id": "https://ror.org/02fsxgh46"
+    },
+    {
+      "label": "Université Côte d'Azur",
+      "type": "related",
+      "id": "https://ror.org/019tgvf94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

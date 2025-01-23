@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "le.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470680.d"
+      ],
+      "preferred": "grid.470680.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1761 7699"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265693"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00qrf6g60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://web.le.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "75",
+        "country_subdivision_name": "Apulia",
+        "lat": 40.35481,
+        "lng": 18.17244,
+        "name": "Lecce"
+      },
+      "geonames_id": 3174953
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Lecce"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Lecce Section"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Lecce"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-LE"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Lecce"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Lecce Section"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "University of Salento",
+      "type": "related",
+      "id": "https://ror.org/03fc1k060"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

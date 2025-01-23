@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1922,
+  "external_ids": [
+    {
+      "all": [
+        "501100009708"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.487026.f"
+      ],
+      "preferred": "grid.487026.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9922 7627"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04txyc737",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://novonordiskfonden.dk/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Novo_Nordisk_Foundation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NNF"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "Novo Nordisk Fonden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Novo Nordisk Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Novo Holdings (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/04sfxgz72"
+    },
+    {
+      "label": "Novo Nordisk Foundation Center for Basic Metabolic Research",
+      "type": "related",
+      "id": "https://ror.org/02s32fb62"
+    },
+    {
+      "label": "Steno Diabetes Centers",
+      "type": "related",
+      "id": "https://ror.org/03w7awk87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

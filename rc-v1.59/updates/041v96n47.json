@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1951,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411065.7"
+      ],
+      "preferred": "grid.411065.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0013 6651"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5062638"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041v96n47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chudequebec.ca/centre-hospitaliers/centre-hospitalier-de-universite-laval-chul.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Centre_hospitalier_de_l'Universit%C3%A9_Laval"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre hospitalier de l'Université Laval"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    },
+    {
+      "label": "CHU de Québec-Université Laval",
+      "type": "successor",
+      "id": "https://ror.org/05qn5kv73"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

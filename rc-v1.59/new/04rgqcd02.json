@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-01-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "crchudequebec.ulaval.ca"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1681 1227"
+      ],
+      "preferred": "0000 0005 1681 1227",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04rgqcd02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.crchudequebec.ulaval.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CRCHU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de recherche du CHU de Québec-Université Laval"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de recherche du CHUL"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CHU de Québec-Université Laval",
+      "type": "parent",
+      "id": "https://ror.org/05qn5kv73"
+    },
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "healthcare"
+  ]
+}

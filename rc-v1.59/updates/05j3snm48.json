@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ts.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470223.0"
+      ],
+      "preferred": "grid.470223.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 7175"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265303"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05j3snm48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ts.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "36",
+        "country_subdivision_name": "Friuli Venezia Giulia",
+        "lat": 45.64953,
+        "lng": 13.77678,
+        "name": "Trieste"
+      },
+      "geonames_id": 3165185
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Division in Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-TS"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Trieste"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Division in Trieste"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Gruppo Collegato di Udine",
+      "type": "child",
+      "id": "https://ror.org/04m8t3f14"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    },
+    {
+      "label": "University of Trieste",
+      "type": "related",
+      "id": "https://ror.org/02n742c10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

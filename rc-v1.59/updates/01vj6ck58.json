@@ -1,0 +1,145 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "to.infn.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470222.1"
+      ],
+      "preferred": "grid.470222.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7471 9712"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30265302"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01vj6ck58",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.to.infn.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "21",
+        "country_subdivision_name": "Piedmont",
+        "lat": 45.07049,
+        "lng": 7.68682,
+        "name": "Turin"
+      },
+      "geonames_id": 3165524
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Sezione di Torino"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Torino"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Turin"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "INFN Turin Section"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "INFN-TO"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto Nazionale di Fisica Nucleare, Sezione di Torino"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute for Nuclear Physics, Turin Section"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Gruppo Collegato di Alessandria",
+      "type": "child",
+      "id": "https://ror.org/0479kf329"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare",
+      "type": "parent",
+      "id": "https://ror.org/005ta0471"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    },
+    {
+      "label": "Università degli Studi del Piemonte Orientale “Amedeo Avogadro”",
+      "type": "related",
+      "id": "https://ror.org/04387x656"
+    },
+    {
+      "label": "University of Turin",
+      "type": "related",
+      "id": "https://ror.org/048tbm396"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

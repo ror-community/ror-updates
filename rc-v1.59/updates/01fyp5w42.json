@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-12-09",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "agsjerez.es"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 1771 2178"
+      ],
+      "preferred": "0000 0004 1771 2178",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q64442949"
+      ],
+      "preferred": "Q64442949",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fyp5w42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.agsjerez.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Hospital_Universitario_de_Jerez_de_la_Frontera"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AN",
+        "country_subdivision_name": "Andalusia",
+        "lat": 36.68645,
+        "lng": -6.13606,
+        "name": "Jerez de la Frontera"
+      },
+      "geonames_id": 2516326
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "AGS de Jerez, Costa Noroeste y Sierra de Cádiz"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "AGSJerez"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital SAS Jerez"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hospital Universitario de Jerez"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital of Jerez"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Consejería de Salud y Consumo",
+      "type": "parent",
+      "id": "https://ror.org/047pymx40"
+    },
+    {
+      "label": "Andalusian Health Service",
+      "type": "parent",
+      "id": "https://ror.org/03q4c3e69"
+    },
+    {
+      "label": "Universidad de Cádiz",
+      "type": "related",
+      "id": "https://ror.org/04mxxkb11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unibw.de"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "grid.7752.7"
+      ],
+      "preferred": "grid.7752.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8801 1556"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q283099"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kkv3f82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unibw.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Bundeswehr_University_Munich"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UniBw M"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitaet Der Bundeswehr Muenchen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of the Bundeswehr Munich"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universität der Bundeswehr München"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bundeswehr",
+      "type": "parent",
+      "id": "https://ror.org/00nmgny79"
+    },
+    {
+      "label": "Federal Ministry of Defence",
+      "type": "parent",
+      "id": "https://ror.org/03g7eh380"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

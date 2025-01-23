@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1902,
+  "external_ids": [
+    {
+      "all": [
+        "100005843",
+        "100016662"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418276.e"
+      ],
+      "preferred": "grid.418276.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2323 7340"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1043963"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04jr01610",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://carnegiescience.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Carnegie_Institution_for_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Carnegie Institute for Science"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Carnegie Institution for Science"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Carnegie Institution of Washington"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Carnegie Science"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Carnegie Observatories",
+      "type": "child",
+      "id": "https://ror.org/03h4zjr91"
+    },
+    {
+      "label": "Department of Embryology",
+      "type": "child",
+      "id": "https://ror.org/03bvtqh46"
+    },
+    {
+      "label": "Earth and Planets Laboratory",
+      "type": "child",
+      "id": "https://ror.org/02h41sr05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

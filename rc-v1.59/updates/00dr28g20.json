@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uoc.gr"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100004429"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8127.c"
+      ],
+      "preferred": "grid.8127.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0576 3437"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2302473"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00dr28g20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uoc.gr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Crete"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GR",
+        "country_name": "Greece",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Crete",
+        "lat": 35.36555,
+        "lng": 24.48232,
+        "name": "Rethymno"
+      },
+      "geonames_id": 254352
+    },
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GR",
+        "country_name": "Greece",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Crete",
+        "lat": 35.32787,
+        "lng": 25.14341,
+        "name": "Heraklion"
+      },
+      "geonames_id": 261745
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UOC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Crete"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de crète"
+    },
+    {
+      "lang": "el",
+      "types": [
+        "label"
+      ],
+      "value": "Πανεπιστήμιο Κρήτης"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Hospital of Heraklion",
+      "type": "related",
+      "id": "https://ror.org/0312m2266"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "idiv.de"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100020056"
+      ],
+      "preferred": "501100020056",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421064.5"
+      ],
+      "preferred": "grid.421064.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7470 3956"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1206134"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jty7g66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.idiv.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/German_Centre_for_Integrative_Biodiversity_Research_(iDiv)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      },
+      "geonames_id": 2879139
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Zentrum für integrative Biodiversitätsforschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "German Center for Integrative Biodiversity Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Centre for Integrative Biodiversity Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "iDiv"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leipzig University",
+      "type": "related",
+      "id": "https://ror.org/03s7gtk40"
+    },
+    {
+      "label": "Martin Luther University Halle-Wittenberg",
+      "type": "related",
+      "id": "https://ror.org/05gqaka33"
+    },
+    {
+      "label": "Friedrich Schiller University Jena",
+      "type": "related",
+      "id": "https://ror.org/05qpz1x62"
+    },
+    {
+      "label": "Helmholtz Centre for Environmental Research",
+      "type": "related",
+      "id": "https://ror.org/000h6jb29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

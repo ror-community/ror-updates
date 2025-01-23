@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100004888",
+        "501100004889"
+      ],
+      "preferred": "501100004888",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411081.d"
+      ],
+      "preferred": "grid.411081.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9471 1794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5062640"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006a7pj43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chudequebec.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Centre_hospitalier_universitaire_de_Qu%C3%A9bec"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUQ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre hospitalier universitaire de Québec"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CHU de Québec-Université Laval",
+      "type": "successor",
+      "id": "https://ror.org/05qn5kv73"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

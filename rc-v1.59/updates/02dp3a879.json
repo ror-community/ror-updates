@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-01-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ino.cnr.it"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425378.f"
+      ],
+      "preferred": "grid.425378.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 1574"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3803642"
+      ],
+      "preferred": "Q3803642",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02dp3a879",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ino.cnr.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.77925,
+        "lng": 11.24626,
+        "name": "Florence"
+      },
+      "geonames_id": 3176959
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "CNR-INO"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto Nazionale di Ottica"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Institute of Optics"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Quantum Science and Technology in Arcetri",
+      "type": "child",
+      "id": "https://ror.org/04mmhnh95"
+    },
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
