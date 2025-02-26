@@ -54,7 +54,28 @@
       "value": "Royal Perth Bentley Hospitals Group"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Royal Perth Hospital",
+      "type": "child",
+      "id": "https://ror.org/00zc2xc51"
+    },
+    {
+      "label": "Bentley Health Service",
+      "type": "child",
+      "id": "https://ror.org/02mft8527"
+    },
+    {
+      "label": "Next Step Drug and Alcohol Services",
+      "type": "child",
+      "id": "https://ror.org/014xaa570"
+    },
+    {
+      "label": "East Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/02baa5g50"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

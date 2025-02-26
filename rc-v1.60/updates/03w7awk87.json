@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "steno.dk"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419658.7"
+      ],
+      "preferred": "grid.419658.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0646 7285"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7607605"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03w7awk87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://steno.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Steno_Diabetes_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.75238,
+        "lng": 12.5745,
+        "name": "Charlottenlund"
+      },
+      "geonames_id": 2623188
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Steno Diabetes Centers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Capital Region of Denmark",
+      "type": "parent",
+      "id": "https://ror.org/049qz7x77"
+    },
+    {
+      "label": "Copenhagen University Hospital",
+      "type": "parent",
+      "id": "https://ror.org/05bpbnx46"
+    },
+    {
+      "label": "Novo Nordisk Foundation",
+      "type": "related",
+      "id": "https://ror.org/04txyc737"
+    },
+    {
+      "label": "Steno Diabetes Center Copenhagen",
+      "type": "child",
+      "id": "https://ror.org/03gqzdg87"
+    },
+    {
+      "label": "Steno Diabetes Center North Jutland",
+      "type": "child",
+      "id": "https://ror.org/03aqyvf83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

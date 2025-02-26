@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.30390.39"
+      ],
+      "preferred": "grid.30390.39",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2183 7107"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0233st365",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.meteofrance.com/accueil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/M%C3%A9t%C3%A9o-France"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Météo-France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de Recherches Météorologiques",
+      "type": "child",
+      "id": "https://ror.org/004rej139"
+    },
+    {
+      "label": "Laboratoire de l'Atmosphère et des Cyclones",
+      "type": "child",
+      "id": "https://ror.org/03wsemq03"
+    },
+    {
+      "label": "Service des Avions Français Instrumentés pour la Recherche en Environnement",
+      "type": "child",
+      "id": "https://ror.org/02qdgbw61"
+    },
+    {
+      "label": "Observatoire des Sciences de l'Univers de la Réunion",
+      "type": "child",
+      "id": "https://ror.org/05mv3tj33"
+    },
+    {
+      "label": "In-Service Aircraft for a Global Observing System",
+      "type": "related",
+      "id": "https://ror.org/033zfn006"
+    },
+    {
+      "label": "UAR Data Terra",
+      "type": "child",
+      "id": "https://ror.org/0518tra10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

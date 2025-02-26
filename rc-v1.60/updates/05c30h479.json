@@ -60,7 +60,18 @@
       "value": "Virginia Department of Behavioral Health and Developmental Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Commonwealth of Virginia",
+      "type": "parent",
+      "id": "https://ror.org/01q4vax14"
+    },
+    {
+      "label": "Northern Virginia Mental Health Institute",
+      "type": "child",
+      "id": "https://ror.org/053wq6q28"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

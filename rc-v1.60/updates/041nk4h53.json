@@ -1,0 +1,169 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "llnl.gov"
+  ],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "100006227"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.250008.f"
+      ],
+      "preferred": "grid.250008.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2160 9702"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q519826"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041nk4h53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.llnl.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Lawrence_Livermore_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.68187,
+        "lng": -121.76801,
+        "name": "Livermore"
+      },
+      "geonames_id": 5367440
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LLL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LLNL"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratorio Nacional Lawrence Livermore"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lawrence Livermore National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Lawrence Livermore National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Lawrence Livermore National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Ignition Facility",
+      "type": "child",
+      "id": "https://ror.org/035cj2961"
+    },
+    {
+      "label": "Lawrence Livermore National Security",
+      "type": "parent",
+      "id": "https://ror.org/03z21mf61"
+    },
+    {
+      "label": "National Nuclear Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/03sk1we31"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    },
+    {
+      "label": "Program for Climate Model Diagnosis and Intercomparison",
+      "type": "child",
+      "id": "https://ror.org/02k3nmd98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

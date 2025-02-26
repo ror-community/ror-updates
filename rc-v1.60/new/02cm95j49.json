@@ -94,7 +94,28 @@
       "value": "United States Army Communications-Electronics Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "U.S. Army Materiel Command",
+      "type": "parent",
+      "id": "https://ror.org/011rwyf32"
+    },
+    {
+      "label": "CECOM Software Engineering Center",
+      "type": "child",
+      "id": "https://ror.org/044webc45"
+    },
+    {
+      "label": "U.S. Army Information Systems Engineering Command",
+      "type": "child",
+      "id": "https://ror.org/02kyzc549"
+    },
+    {
+      "label": "U.S. Army CECOM Integrated Logistics Support Center",
+      "type": "child",
+      "id": "https://ror.org/00a3qqg15"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

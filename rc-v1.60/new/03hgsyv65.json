@@ -75,7 +75,33 @@
       "value": "UMR 8630"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Laboratoire National de Métrologie et d'Essais",
+      "type": "parent",
+      "id": "https://ror.org/01ph39d13"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Systèmes de Référence Temps-Espace",
+      "type": "predecessor",
+      "id": "https://ror.org/03tdef037"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-05-27",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "navy.mil"
+  ],
+  "established": 1775,
+  "external_ids": [
+    {
+      "all": [
+        "100009896"
+      ],
+      "preferred": "100009896",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2155 5249"
+      ],
+      "preferred": "0000 0001 2155 5249",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11220"
+      ],
+      "preferred": "Q11220",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cs53d16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navy.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Navy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Navy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "United States Navy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Aerospace Medical Institute",
+      "type": "child",
+      "id": "https://ror.org/04rm24644"
+    },
+    {
+      "label": "Naval Aerospace Medical Research Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01gsy1c54"
+    },
+    {
+      "label": "Naval History and Heritage Command",
+      "type": "child",
+      "id": "https://ror.org/02c37bg49"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

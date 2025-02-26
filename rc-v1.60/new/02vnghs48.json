@@ -58,7 +58,18 @@
       "value": "Indiana University Columbus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "child",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Indiana University Indianapolis",
+      "type": "related",
+      "id": "https://ror.org/03eftgw80"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
