@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100007523",
+        "100000105"
+      ],
+      "preferred": "100007523",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457789.0"
+      ],
+      "preferred": "grid.457789.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/04nh1dc89",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/div/index.jsp?div=ACI"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Division of Advanced Cyberinfrastructure"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF ACI"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NSF CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    },
+    {
+      "label": "Directorate for Computer & Information Science & Engineering",
+      "type": "parent",
+      "id": "https://ror.org/025kzpk63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

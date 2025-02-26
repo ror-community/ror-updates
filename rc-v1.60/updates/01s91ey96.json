@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450328.8"
+      ],
+      "preferred": "grid.450328.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4904 2260"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7312413"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01s91ey96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://renci.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Renaissance_Computing_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.9132,
+        "lng": -79.05584,
+        "name": "Chapel Hill"
+      },
+      "geonames_id": 4460162
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RENCI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Renaissance Computing Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NSF CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    },
+    {
+      "label": "North Carolina State University",
+      "type": "parent",
+      "id": "https://ror.org/04tj63d06"
+    },
+    {
+      "label": "Duke University",
+      "type": "parent",
+      "id": "https://ror.org/00py81415"
+    },
+    {
+      "label": "University of North Carolina at Chapel Hill",
+      "type": "related",
+      "id": "https://ror.org/0130frc33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

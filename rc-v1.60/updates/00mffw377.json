@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100001068"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468032.b"
+      ],
+      "preferred": "grid.468032.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9487 6740"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00mffw377",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ahpra.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AHPRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Australian Health Practitioner Regulation Agency"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Health and Aged Care",
+      "type": "parent",
+      "id": "https://ror.org/02swcnz29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

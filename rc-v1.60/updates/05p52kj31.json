@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416100.2"
+      ],
+      "preferred": "grid.416100.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0688 4634"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7373845"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05p52kj31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.health.qld.gov.au/rbwh/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Brisbane_and_Women's_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -27.46794,
+        "lng": 153.02809,
+        "name": "Brisbane"
+      },
+      "geonames_id": 2174003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RBWH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Brisbane and Women's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Queensland Health",
+      "type": "parent",
+      "id": "https://ror.org/00c1dt378"
+    },
+    {
+      "label": "The University of Queensland",
+      "type": "related",
+      "id": "https://ror.org/00rqy9422"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
