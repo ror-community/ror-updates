@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tafiri.go.tz"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463660.1"
+      ],
+      "preferred": "grid.463660.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5929 4912"
+      ],
+      "preferred": "0000 0004 5929 4912",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00h98p168",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tafiri.go.tz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "TZ",
+        "country_name": "Tanzania",
+        "country_subdivision_code": "02",
+        "country_subdivision_name": "Dar es Salaam Region",
+        "lat": -6.82349,
+        "lng": 39.26951,
+        "name": "Dar es Salaam"
+      },
+      "geonames_id": 160263
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TAFIRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tanzania Fisheries Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Livestock and Fisheries",
+      "type": "parent",
+      "id": "https://ror.org/0369jpd83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

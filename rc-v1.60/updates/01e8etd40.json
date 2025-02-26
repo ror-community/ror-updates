@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lse.univ-lorraine.fr"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464137.3"
+      ],
+      "preferred": "grid.464137.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262491"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01e8etd40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lse.univ-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "name": "Nancy"
+      },
+      "geonames_id": 2990999
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LSE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display",
+        "alias"
+      ],
+      "value": "Laboratoire Sols et Environnement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Soil and Environmental Sciences"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LSE"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre INRAE Grand-Est - Colmar",
+      "type": "parent",
+      "id": "https://ror.org/00zg31r41"
+    },
+    {
+      "label": "Délégation Centre-Est",
+      "type": "parent",
+      "id": "https://ror.org/01tz1zp46"
+    },
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "École Nationale Supérieure de l'Électronique et de ses Applications",
+      "type": "parent",
+      "id": "https://ror.org/03qeacd72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

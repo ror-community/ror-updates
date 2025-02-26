@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "environment.sa.gov.au"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100004666",
+        "501100001188"
+      ],
+      "preferred": "501100004666",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468056.9"
+      ],
+      "preferred": "grid.468056.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0074 0939"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5260295"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/053gv9453",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.environment.sa.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_for_Environment_and_Water_(South_Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "SA",
+        "country_subdivision_name": "South Australia",
+        "lat": -34.92866,
+        "lng": 138.59863,
+        "name": "Adelaide"
+      },
+      "geonames_id": 2078025
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias",
+        "label",
+        "ror_display"
+      ],
+      "value": "Department for Environment and Water"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Environment Water and Natural Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Herbarium of South Australia",
+      "type": "child",
+      "id": "https://ror.org/01s8j4r12"
+    },
+    {
+      "label": "Government of South Australia",
+      "type": "parent",
+      "id": "https://ror.org/04g3scy39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

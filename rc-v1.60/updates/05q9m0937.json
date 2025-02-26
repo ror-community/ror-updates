@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aau.at"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100008905"
+      ],
+      "preferred": "501100008905",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7520.0"
+      ],
+      "preferred": "grid.7520.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2196 3349"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q690639"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05q9m0937",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aau.at"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Alpen-Adria-Universit%C3%A4t_Klagenfurt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "2",
+        "country_subdivision_name": "Carinthia",
+        "lat": 46.62472,
+        "lng": 14.30528,
+        "name": "Klagenfurt"
+      },
+      "geonames_id": 2774326
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AAU"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Alpen-Adria-Universität Klagenfurt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Klagenfurt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Klagenfurt"
+    },
+    {
+      "lang": "sl",
+      "types": [
+        "label"
+      ],
+      "value": "Univerza v Celovcu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Interdisciplinary Studies of Austrian Universities",
+      "type": "child",
+      "id": "https://ror.org/001zf8v27"
+    },
+    {
+      "label": "Institute for Comparative Media and Communication Studies",
+      "type": "related",
+      "id": "https://ror.org/02yf6ha74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
