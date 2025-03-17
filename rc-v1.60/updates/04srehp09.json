@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "100009374"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.480976.4"
+      ],
+      "preferred": "grid.480976.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0371 6119"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q25052476"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04srehp09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.psf.gov.pk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Pakistan_Science_Foundation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "PK",
+        "country_name": "Pakistan",
+        "country_subdivision_code": "IS",
+        "country_subdivision_name": "Islamabad",
+        "lat": 33.72148,
+        "lng": 73.04329,
+        "name": "Islamabad"
+      },
+      "geonames_id": 1176615
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PSF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pakistan Science Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pakistan Scientific and Technological Information Centre",
+      "type": "child",
+      "id": "https://ror.org/01cdxzt16"
+    },
+    {
+      "label": "Pakistan Museum of Natural History",
+      "type": "child",
+      "id": "https://ror.org/00c2x1j89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umaryland.edu"
+  ],
+  "established": 1807,
+  "external_ids": [
+    {
+      "all": [
+        "100010393"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411024.2"
+      ],
+      "preferred": "grid.411024.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 4264"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4119470"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04rq5mt64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umaryland.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Maryland,_Baltimore"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
+      },
+      "geonames_id": 4347778
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMAB"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Maryland, Baltimore"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Bioscience and Biotechnology Research",
+      "type": "child",
+      "id": "https://ror.org/02zs3hb12"
+    },
+    {
+      "label": "University System of Maryland",
+      "type": "parent",
+      "id": "https://ror.org/01r0c1p88"
+    },
+    {
+      "label": "Institute of Human Virology",
+      "type": "related",
+      "id": "https://ror.org/02e66xy22"
+    },
+    {
+      "label": "University of Maryland Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00sde4n60"
+    },
+    {
+      "label": "VA Maryland Health Care System",
+      "type": "related",
+      "id": "https://ror.org/05ax3zh38"
+    },
+    {
+      "label": "University of Maryland School of Medicine",
+      "type": "child",
+      "id": "https://ror.org/055yg0521"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100009119"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414235.5"
+      ],
+      "preferred": "grid.414235.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0619 2154"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5098159"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bsaey45",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cmri.org.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Children's_Medical_Research_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CMRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's Medical Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children's Hospital at Westmead",
+      "type": "related",
+      "id": "https://ror.org/05k0s5494"
+    },
+    {
+      "label": "The University of Sydney",
+      "type": "related",
+      "id": "https://ror.org/0384j8v12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

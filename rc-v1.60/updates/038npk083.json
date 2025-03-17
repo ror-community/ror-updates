@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416427.2"
+      ],
+      "preferred": "grid.416427.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0399 7168"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7055120"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038npk083",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.northdevonhealth.nhs.uk/services/nddh/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/North_Devon_District_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.08022,
+        "lng": -4.05808,
+        "name": "Barnstaple"
+      },
+      "geonames_id": 2656281
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Devon District Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Northern Devon Healthcare NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/00z9m6b57"
+    },
+    {
+      "label": "Royal Devon University Healthcare NHS Foundation Trust",
+      "type": "successor",
+      "id": "https://ror.org/05e5ahc59"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

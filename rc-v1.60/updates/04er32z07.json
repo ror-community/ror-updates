@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0619 781X"
+      ],
+      "preferred": "0000 0004 0619 781X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1524082"
+      ],
+      "preferred": "Q1524082",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04er32z07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://rupress.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Rockefeller_University_Press"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RUP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rockefeller University Press"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rockefeller University",
+      "type": "parent",
+      "id": "https://ror.org/0420db125"
+    },
+    {
+      "label": "Life Science Alliance LLC (United States)",
+      "type": "related",
+      "id": "https://ror.org/0162hm862"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

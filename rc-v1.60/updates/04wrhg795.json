@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fortwayne.iu.edu"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503847.d"
+      ],
+      "preferred": "grid.503847.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7553 4541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q55593285"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04wrhg795",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://fortwayne.iu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Indiana_University_Fort_Wayne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 41.1306,
+        "lng": -85.12886,
+        "name": "Fort Wayne"
+      },
+      "geonames_id": 4920423
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Indiana University Fort Wayne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "parent",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Indiana University Indianapolis",
+      "type": "related",
+      "id": "https://ror.org/03eftgw80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

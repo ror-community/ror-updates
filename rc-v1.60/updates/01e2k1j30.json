@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "100014058"
+      ],
+      "preferred": "100014058",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 0672 5166"
+      ],
+      "preferred": "0000 0001 0672 5166",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17986161"
+      ],
+      "preferred": "Q17986161",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01e2k1j30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.med.navy.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bureau_of_Medicine_and_Surgery"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88233,
+        "lng": -77.17109,
+        "name": "Falls Church"
+      },
+      "geonames_id": 4758390
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BUMED"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bureau of Medicine and Surgery"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Navy Bureau of Medicine and Surgery"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Navy Bureau of Medicine and Surgery"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Bureau of Medicine and Surgery"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Navy and Marine Corps Force Health Protection Command",
+      "type": "child",
+      "id": "https://ror.org/035agn614"
+    },
+    {
+      "label": "Naval Medical Research Command",
+      "type": "child",
+      "id": "https://ror.org/05f421b09"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

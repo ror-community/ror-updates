@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1775,
+  "external_ids": [
+    {
+      "all": [
+        "100006752",
+        "100006469"
+      ],
+      "preferred": "100006752",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.431335.3"
+      ],
+      "preferred": "grid.431335.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0582 4666"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1049334"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05w4e8v21",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.usace.army.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Corps_of_Engineers"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CoE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Corps des ingénieurs de l'armée des États-unis"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Cuerpo de Ingenieros del Ejército de los Estados Unidos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USACE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Corps of Engineers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Engineer Research and Development Center",
+      "type": "child",
+      "id": "https://ror.org/027mhn368"
+    },
+    {
+      "label": "United States Department of the Army",
+      "type": "parent",
+      "id": "https://ror.org/035w1gb98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

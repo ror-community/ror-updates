@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100010458"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.478225.e"
+      ],
+      "preferred": "grid.478225.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q407064"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wnp9598",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.aetc.af.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Air_Education_and_Training_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.48313,
+        "lng": -98.42531,
+        "name": "Fort Sam Houston Joint Base San Antonio"
+      },
+      "geonames_id": 11055091
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AETC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Air Education and Training Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Air Training Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The First Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Air University",
+      "type": "child",
+      "id": "https://ror.org/05jwcsm16"
+    },
+    {
+      "label": "59th Medical Wing",
+      "type": "child",
+      "id": "https://ror.org/01sq4yt06"
+    },
+    {
+      "label": "United States Department of the Air Force",
+      "type": "parent",
+      "id": "https://ror.org/01973x930"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

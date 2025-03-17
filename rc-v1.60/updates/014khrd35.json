@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473809.1"
+      ],
+      "preferred": "grid.473809.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0602 9971"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981869"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/014khrd35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnmoc.navy.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Meteorology_and_Oceanography_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MS",
+        "country_subdivision_name": "Mississippi",
+        "lat": 32.78347,
+        "lng": -89.22784,
+        "name": "Pearl River"
+      },
+      "geonames_id": 4440572
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "COMNAVMETOCCOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Meteorology and Oceanography Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Stennis Space Center, Mississippi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Joint Typhoon Warning Center",
+      "type": "child",
+      "id": "https://ror.org/04f0f7630"
+    },
+    {
+      "label": "Naval Oceanography Office",
+      "type": "child",
+      "id": "https://ror.org/00y2ek133"
+    },
+    {
+      "label": "United States Naval Observatory",
+      "type": "child",
+      "id": "https://ror.org/048s2rn92"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

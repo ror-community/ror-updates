@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "irsn.fr"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100004598"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418735.c"
+      ],
+      "preferred": "grid.418735.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1414 6236"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1502878"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ha22c77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.irsn.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_de_radioprotection_et_de_s%C3%BBret%C3%A9_nucl%C3%A9aire"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.79325,
+        "lng": 2.29275,
+        "name": "Fontenay-aux-Roses"
+      },
+      "geonames_id": 3017924
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRSN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Radioprotection et de Sûreté Nucléaire"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Radiological Protection and Nuclear Safety"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Radioprotection and Nuclear Safety Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Autorité de sûreté nucléaire et de radioprotection",
+      "type": "successor",
+      "id": "https://ror.org/04dbtaf18"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

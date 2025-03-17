@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1882,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413249.9"
+      ],
+      "preferred": "grid.413249.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 0051"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7374738"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gpvde20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sswahs.nsw.gov.au/rpa/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Prince_Alfred_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "PA Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RPA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RPAH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Prince Alfred Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Woolcock Institute of Medical Research",
+      "type": "child",
+      "id": "https://ror.org/04hy0x592"
+    },
+    {
+      "label": "Centenary Institute",
+      "type": "related",
+      "id": "https://ror.org/05gvja138"
+    },
+    {
+      "label": "The University of Sydney",
+      "type": "related",
+      "id": "https://ror.org/0384j8v12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cecom.army.mil"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0739 7141"
+      ],
+      "preferred": "0000 0001 0739 7141",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7889466"
+      ],
+      "preferred": "Q7889466",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02cm95j49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cecom.army.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Communications-Electronics_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.46686,
+        "lng": -76.13066,
+        "name": "Aberdeen Proving Ground"
+      },
+      "geonames_id": 7257914
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Army Communications-Electronics Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CECOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Army CECOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "U.S. Army Communications-Electronics Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Army Communications-Electronics Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Materiel Command",
+      "type": "parent",
+      "id": "https://ror.org/011rwyf32"
+    },
+    {
+      "label": "CECOM Software Engineering Center",
+      "type": "child",
+      "id": "https://ror.org/044webc45"
+    },
+    {
+      "label": "U.S. Army Information Systems Engineering Command",
+      "type": "child",
+      "id": "https://ror.org/02kyzc549"
+    },
+    {
+      "label": "U.S. Army CECOM Integrated Logistics Support Center",
+      "type": "child",
+      "id": "https://ror.org/00a3qqg15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

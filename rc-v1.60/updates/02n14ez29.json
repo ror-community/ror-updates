@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1917,
+  "external_ids": [
+    {
+      "all": [
+        "100009913"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415879.6"
+      ],
+      "preferred": "grid.415879.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0639 7318"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981860"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02n14ez29",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.med.navy.mil/sites/nmcsd/Pages/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Medical_Center_San_Diego"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Balboa Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bob Wilson Naval Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NMCSD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Medical Center San Diego"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Defense Health Agency",
+      "type": "parent",
+      "id": "https://ror.org/03df8gj37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482920.5"
+      ],
+      "preferred": "grid.482920.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0451 0120"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981810"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0539h2w52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navfac.navy.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Facilities_Engineering_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NAVFAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naval Facilities Engineering Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Naval Facilities Engineering Systems Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Facilities Engineering and Expeditionary Warfare Center",
+      "type": "child",
+      "id": "https://ror.org/0103y3647"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

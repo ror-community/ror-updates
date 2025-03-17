@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.428531.9"
+      ],
+      "preferred": "grid.428531.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0520 8708"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30287180"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049qgqg40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.provence-corse.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DR12"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Provence et Corse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Station Marine d'Endoume",
+      "type": "child",
+      "id": "https://ror.org/051p9ra28"
+    },
+    {
+      "label": "Direction Générale Déléguée aux Ressources",
+      "type": "parent",
+      "id": "https://ror.org/03yz3tz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "appstate.edu"
+  ],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100009708"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.252323.7"
+      ],
+      "preferred": "grid.252323.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 3802",
+        "0000 0004 1936 7523"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q620640"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/051m4vc48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.appstate.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Appalachian_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 36.21679,
+        "lng": -81.67455,
+        "name": "Boone"
+      },
+      "geonames_id": 4456703
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "App State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Appalachian State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

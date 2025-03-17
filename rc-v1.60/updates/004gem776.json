@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "agri.ee"
+  ],
+  "established": 1918,
+  "external_ids": [
+    {
+      "all": [
+        "501100004574"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.437613.4"
+      ],
+      "preferred": "grid.437613.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0631 3526"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/004gem776",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.agri.ee"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "country_subdivision_code": "37",
+        "country_subdivision_name": "Harjumaa",
+        "lat": 59.43696,
+        "lng": 24.75353,
+        "name": "Tallinn"
+      },
+      "geonames_id": 588409
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Agriculture"
+    },
+    {
+      "lang": "et",
+      "types": [
+        "label"
+      ],
+      "value": "Regionaal - Ja Põllumajandusministeerium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre of Estonian Rural Research and Knowledge",
+      "type": "child",
+      "id": "https://ror.org/01cxqde27"
+    },
+    {
+      "label": "Veterinary and Food Board",
+      "type": "child",
+      "id": "https://ror.org/006npbt15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

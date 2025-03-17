@@ -1,0 +1,155 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "100000182",
+        "100006753",
+        "100010200",
+        "100016156",
+        "100014055"
+      ],
+      "preferred": "100000182",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420210.5"
+      ],
+      "preferred": "grid.420210.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0036 4726"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7889498"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cd02q50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mrdc.health.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Medical_Research_and_Materiel_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.41427,
+        "lng": -77.41054,
+        "name": "Frederick"
+      },
+      "geonames_id": 4355585
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Army Medical Research and Development Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Army Medical Research and Materiel Command"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USAMRMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Medical Research and Development Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Army Medical Research and Materiel Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Research Institute of Environmental Medicine",
+      "type": "child",
+      "id": "https://ror.org/00rg6zq05"
+    },
+    {
+      "label": "United States Army Medical Research Institute of Infectious Diseases",
+      "type": "child",
+      "id": "https://ror.org/01pveve47"
+    },
+    {
+      "label": "Walter Reed Army Institute of Research",
+      "type": "child",
+      "id": "https://ror.org/0145znz58"
+    },
+    {
+      "label": "Congressionally Directed Medical Research Programs",
+      "type": "child",
+      "id": "https://ror.org/03g2zjp07"
+    },
+    {
+      "label": "United States Army Medical Command",
+      "type": "parent",
+      "id": "https://ror.org/04vrzee53"
+    },
+    {
+      "label": "United States Army Institute of Surgical Research",
+      "type": "child",
+      "id": "https://ror.org/02gb0hd06"
+    },
+    {
+      "label": "Telemedicine & Advanced Technology Research Center",
+      "type": "child",
+      "id": "https://ror.org/014pvr265"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

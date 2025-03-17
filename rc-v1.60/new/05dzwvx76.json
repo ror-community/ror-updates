@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/05dzwvx76",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -32.00224,
+        "lng": 115.92473,
+        "name": "Bentley"
+      },
+      "geonames_id": 2076752
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "RPBG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Royal Perth Bentley Group"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal Perth Bentley Hospitals Group"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Perth Hospital",
+      "type": "child",
+      "id": "https://ror.org/00zc2xc51"
+    },
+    {
+      "label": "Bentley Health Service",
+      "type": "child",
+      "id": "https://ror.org/02mft8527"
+    },
+    {
+      "label": "Next Step Drug and Alcohol Services",
+      "type": "child",
+      "id": "https://ror.org/014xaa570"
+    },
+    {
+      "label": "East Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/02baa5g50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ttu.edu"
+  ],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "100007131",
+        "100010422"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.264784.b"
+      ],
+      "preferred": "grid.264784.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2186 7496"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1423756"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0405mnx93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ttu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Texas_Tech_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 33.57786,
+        "lng": -101.85517,
+        "name": "Lubbock"
+      },
+      "geonames_id": 5525577
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TTU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Texas Tech"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Texas Tech University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NSF CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    },
+    {
+      "label": "Texas Tech University System",
+      "type": "parent",
+      "id": "https://ror.org/0082ybm03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

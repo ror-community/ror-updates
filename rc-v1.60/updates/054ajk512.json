@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "100010464",
+        "100010218"
+      ],
+      "preferred": "100010464",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420427.7"
+      ],
+      "preferred": "grid.420427.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0511 8526"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981726"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054ajk512",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navair.navy.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Air_Systems_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.28374,
+        "lng": -76.41853,
+        "name": "NAS Pax River"
+      },
+      "geonames_id": 7267585
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NAVAIR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Air Systems Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Air Warfare Center Training Systems Division",
+      "type": "child",
+      "id": "https://ror.org/02wt4s775"
+    },
+    {
+      "label": "Naval Air Warfare Center Weapons Division",
+      "type": "child",
+      "id": "https://ror.org/03cap2a49"
+    },
+    {
+      "label": "Naval Air Warfare Center Aircraft Division",
+      "type": "child",
+      "id": "https://ror.org/01zj39k81"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

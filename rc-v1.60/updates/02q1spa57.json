@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "501100007521"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265234.4"
+      ],
+      "preferred": "grid.265234.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2177 9066"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3551686"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02q1spa57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.utunis.rnu.tn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Tunis_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "TN",
+        "country_name": "Tunisia",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Tunis Governorate",
+        "lat": 36.81897,
+        "lng": 10.16579,
+        "name": "Tunis"
+      },
+      "geonames_id": 2464470
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tunis University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Tunis"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "جامعة تونس"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Supérieur de Gestion de Tunis",
+      "type": "child",
+      "id": "https://ror.org/04w9mdw91"
+    },
+    {
+      "label": "ENSIT",
+      "type": "child",
+      "id": "https://ror.org/02a6s9190"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

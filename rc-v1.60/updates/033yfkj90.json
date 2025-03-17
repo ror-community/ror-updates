@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nps.edu"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "100009910"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1108.8"
+      ],
+      "preferred": "grid.1108.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 1282"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1515048"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/033yfkj90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nps.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Postgraduate_School"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 36.60024,
+        "lng": -121.89468,
+        "name": "Monterey"
+      },
+      "geonames_id": 5374361
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NPS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Postgraduate School"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

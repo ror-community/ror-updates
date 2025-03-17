@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-04-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "100020785"
+      ],
+      "preferred": "100020785",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.510585.c"
+      ],
+      "preferred": "grid.510585.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q55075184"
+      ],
+      "preferred": "Q55075184",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0593xbv16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://armyfuturescommand.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Futures_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 30.26715,
+        "lng": -97.74306,
+        "name": "Austin"
+      },
+      "geonames_id": 4671654
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AFC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Army Futures Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Futures Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Combat Capabilities Development Command",
+      "type": "child",
+      "id": "https://ror.org/02rdkx920"
+    },
+    {
+      "label": "United States Department of the Army",
+      "type": "parent",
+      "id": "https://ror.org/035w1gb98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

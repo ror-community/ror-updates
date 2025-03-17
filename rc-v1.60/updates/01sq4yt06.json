@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1941,
+  "external_ids": [
+    {
+      "all": [
+        "100014044"
+      ],
+      "preferred": "100014044",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.476822.d"
+      ],
+      "preferred": "grid.476822.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6040 4031"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4641007"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01sq4yt06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.59mdw.af.mil/News/ArticleDisplay/tabid/2553/Article/407547/359th-medical-operations-squadron-welcomes-new-commander.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/59th_Medical_Wing"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "59th Medical Wing"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MDW"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wilford Hall Ambulatory Surgical Center",
+      "type": "child",
+      "id": "https://ror.org/025m0q735"
+    },
+    {
+      "label": "Air Education and Training Command",
+      "type": "parent",
+      "id": "https://ror.org/05wnp9598"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

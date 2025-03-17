@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-01-10",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0383 1547"
+      ],
+      "preferred": "0000 0004 0383 1547",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/011ygpb73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.icmub.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICMUB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Chimie Moléculaire de l'Université de Bourgogne"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Molecular Chemistry of the University of Burgundy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Molecular Chemistry Institute of the University of Burgundy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "parent",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

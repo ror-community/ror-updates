@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1656,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411439.a"
+      ],
+      "preferred": "grid.411439.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2150 9058"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q939883"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mh9a093",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://pitiesalpetriere.aphp.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Piti%C3%A9-Salp%C3%AAtri%C3%A8re_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Hôpital Universitaire de la Pitié-Salpêtrière"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Hôpital de la Pitié-Salpêtrière"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pitié-Salpêtrière Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "ERN EURO-NMD",
+      "type": "related",
+      "id": "https://ror.org/04x3ta798"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "related",
+      "id": "https://ror.org/02en5vm52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

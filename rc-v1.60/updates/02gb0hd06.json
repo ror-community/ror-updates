@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usaisr.health.mil"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100010199"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420328.f"
+      ],
+      "preferred": "grid.420328.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 0308"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02gb0hd06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://usaisr.health.milmil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USAISR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Institute of Surgical Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Medical Research and Development Command",
+      "type": "parent",
+      "id": "https://ror.org/03cd02q50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

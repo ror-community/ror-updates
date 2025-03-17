@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ign.fr"
+  ],
+  "established": 1940,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424645.5"
+      ],
+      "preferred": "grid.424645.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9747 945X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1665102"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05jxfge78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ign.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_g%C3%A9ographique_national"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.83864,
+        "lng": 2.41579,
+        "name": "Saint-Mandé"
+      },
+      "geonames_id": 2978621
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut Géographique National"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut national de l’information géographique et forestière"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Geographic Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ecole Nationale des Sciences Géographiques",
+      "type": "child",
+      "id": "https://ror.org/03r3n3715"
+    },
+    {
+      "label": "UAR Data Terra",
+      "type": "child",
+      "id": "https://ror.org/0518tra10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "amc.army.mil"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 1956 4613"
+      ],
+      "preferred": "0000 0001 1956 4613",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q847228"
+      ],
+      "preferred": "Q847228",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011rwyf32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.amc.army.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Materiel_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 34.68387,
+        "lng": -86.64764,
+        "name": "Redstone Arsenal"
+      },
+      "geonames_id": 7260623
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Army Materiel Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "U.S. Army Materiel Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Army Materiel Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Aviation and Missile Command",
+      "type": "child",
+      "id": "https://ror.org/056d91m78"
+    },
+    {
+      "label": "U.S. Army Communications-Electronics Command",
+      "type": "child",
+      "id": "https://ror.org/02cm95j49"
+    },
+    {
+      "label": "U.S. Army Tank-automotive and Armaments Command",
+      "type": "child",
+      "id": "https://ror.org/03vy7v919"
+    },
+    {
+      "label": "U.S. Army Joint Munitions Command",
+      "type": "child",
+      "id": "https://ror.org/03hmvjq54"
+    },
+    {
+      "label": "U.S. Army Sustainment Command",
+      "type": "child",
+      "id": "https://ror.org/05p4ndd12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

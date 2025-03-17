@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.257411.4"
+      ],
+      "preferred": "grid.257411.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0647 1186"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6023671"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00e0c0q64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iupuc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Indiana_University_%E2%80%93_Purdue_University_Columbus"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 39.20144,
+        "lng": -85.92138,
+        "name": "Columbus"
+      },
+      "geonames_id": 4256038
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IUPUC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Indiana University – Purdue University Columbus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "parent",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Purdue University System",
+      "type": "parent",
+      "id": "https://ror.org/05p8z3f47"
+    },
+    {
+      "label": "Indiana University Columbus",
+      "type": "successor",
+      "id": "https://ror.org/02vnghs48"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education"
+  ]
+}

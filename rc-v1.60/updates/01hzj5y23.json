@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100014059"
+      ],
+      "preferred": "100014059",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415874.b"
+      ],
+      "preferred": "grid.415874.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2292 6021"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q100955816"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01hzj5y23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.med.navy.mil/Naval-Medical-Research-Command/R-D-Commands/Naval-Health-Research-Center/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NHRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Health Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Medical Research Command",
+      "type": "parent",
+      "id": "https://ror.org/05f421b09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100010195",
+        "100010186"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416653.3"
+      ],
+      "preferred": "grid.416653.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 5663",
+        "0000 0004 4686 9756"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7413343"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00m1mwc36",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://bamc.tricare.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Brooke_Army_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BAMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias",
+        "label",
+        "ror_display"
+      ],
+      "value": "Brooke Army Medical Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SAMMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "San Antonio Military Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The University of Texas Health Science Center at San Antonio",
+      "type": "related",
+      "id": "https://ror.org/02f6dcw23"
+    },
+    {
+      "label": "Uniformed Services University of the Health Sciences",
+      "type": "related",
+      "id": "https://ror.org/04r3kq386"
+    },
+    {
+      "label": "Defense Health Agency",
+      "type": "parent",
+      "id": "https://ror.org/03df8gj37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416787.b"
+      ],
+      "preferred": "grid.416787.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0500 8589"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145257"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00q10wd18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sah.org.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sydney_Adventist_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SAH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sydney Adventist Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Adventist HealthCare",
+      "type": "parent",
+      "id": "https://ror.org/039d9wk42"
+    },
+    {
+      "label": "The University of Sydney",
+      "type": "related",
+      "id": "https://ror.org/0384j8v12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

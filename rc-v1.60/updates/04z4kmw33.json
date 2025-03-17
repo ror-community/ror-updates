@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1848,
+  "external_ids": [
+    {
+      "all": [
+        "grid.429299.d"
+      ],
+      "preferred": "grid.429299.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 651X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04z4kmw33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mh.org.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Melbourne Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Royal Melbourne Hospital",
+      "type": "child",
+      "id": "https://ror.org/005bvs909"
+    },
+    {
+      "label": "The University of Melbourne",
+      "type": "related",
+      "id": "https://ror.org/01ej9dk98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

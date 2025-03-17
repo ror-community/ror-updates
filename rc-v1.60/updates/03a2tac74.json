@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100018676"
+      ],
+      "preferred": "501100018676",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418025.a"
+      ],
+      "preferred": "grid.418025.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0606 5526"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5919633"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03a2tac74",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.florey.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Florey_Institute_of_Neuroscience_and_Mental_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Florey Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Florey Institute of Neuroscience and Mental Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Howard Florey Institute of Experimental Physiology and Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The University of Melbourne",
+      "type": "parent",
+      "id": "https://ror.org/01ej9dk98"
+    },
+    {
+      "label": "Austin Health",
+      "type": "related",
+      "id": "https://ror.org/05dbj6g52"
+    },
+    {
+      "label": "The Royal Melbourne Hospital",
+      "type": "related",
+      "id": "https://ror.org/005bvs909"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

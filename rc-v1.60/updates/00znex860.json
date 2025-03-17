@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "100009911",
+        "100015089"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265465.6"
+      ],
+      "preferred": "grid.265465.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2296 3025"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q559549"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00znex860",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.usna.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Naval_Academy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.97859,
+        "lng": -76.49184,
+        "name": "Annapolis"
+      },
+      "geonames_id": 4347242
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Academia Naval de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Académie Navale d'Annapolis"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USNA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Naval Academy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tatrc.org"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "100006965"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453220.2"
+      ],
+      "preferred": "grid.453220.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0541 7753"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7696350"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/014pvr265",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tatrc.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Telemedicine_and_Advanced_Technology_Research_Center_(United_States_Army)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.41427,
+        "lng": -77.41054,
+        "name": "Frederick"
+      },
+      "geonames_id": 4355585
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TATRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Telemedicine & Advanced Technology Research Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Telemedicine and Advanced Technology Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Medical Research and Development Command",
+      "type": "parent",
+      "id": "https://ror.org/03cd02q50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

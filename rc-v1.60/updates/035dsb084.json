@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wigner.hu"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100014549"
+      ],
+      "preferred": "501100014549",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419766.b"
+      ],
+      "preferred": "grid.419766.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 8344"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1161072"
+      ],
+      "preferred": "Q1161072",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035dsb084",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://wigner.hu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "BU",
+        "country_subdivision_name": "Budapest",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "name": "Budapest"
+      },
+      "geonames_id": 3054643
+    }
+  ],
+  "names": [
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "HUN-REN Wigner Fizikai Kutatóközpont"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "HUN-REN Wigner Research Centre for Physics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MTA Wigner RC"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "Wigner Fizikai Kutatóközpont"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wigner RCP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wigner Research Centre for Physics"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Particle and Nuclear Physics",
+      "type": "child",
+      "id": "https://ror.org/008mx9f83"
+    },
+    {
+      "label": "Institute for Solid State Physics and Optics",
+      "type": "child",
+      "id": "https://ror.org/01pdam362"
+    },
+    {
+      "label": "Hungarian Research Network",
+      "type": "parent",
+      "id": "https://ror.org/04w6pnc49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

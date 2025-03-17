@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1829,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416195.e"
+      ],
+      "preferred": "grid.416195.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0453 3875"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7374710"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00zc2xc51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://rph.health.wa.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Perth_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RPH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Perth Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "RPH Research Foundation",
+      "type": "child",
+      "id": "https://ror.org/00pebsc23"
+    },
+    {
+      "label": "East Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/02baa5g50"
+    },
+    {
+      "label": "The University of Western Australia",
+      "type": "related",
+      "id": "https://ror.org/047272k79"
+    },
+    {
+      "label": "Royal Perth Bentley Group",
+      "type": "parent",
+      "id": "https://ror.org/05dzwvx76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

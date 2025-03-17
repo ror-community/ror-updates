@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mines.edu"
+  ],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "100008917"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254549.b"
+      ],
+      "preferred": "grid.254549.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8155"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1111367"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04raf6v53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mines.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Colorado_School_of_Mines"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 39.75554,
+        "lng": -105.2211,
+        "name": "Golden"
+      },
+      "geonames_id": 5423294
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Colorado School of Mines"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    },
+    {
+      "label": "Colorado Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/03chr2715"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

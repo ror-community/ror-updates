@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oasu.fr"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470942.c"
+      ],
+      "preferred": "grid.470942.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1958 9570"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03qma7a12",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.oasu.u-bordeaux.fr/index.php/present2015.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.83061,
+        "lng": -0.52675,
+        "name": "Floirac"
+      },
+      "geonames_id": 3018246
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OASU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire Aquitain des Sciences de l'Univers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "La Rochelle Université",
+      "type": "parent",
+      "id": "https://ror.org/04mv1z119"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Laboratoire d'Astrophysique de Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/00yee3n23"
+    },
+    {
+      "label": "Environnements et Paléoenvironnements Océaniques et Continentaux",
+      "type": "child",
+      "id": "https://ror.org/01tsa0x55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

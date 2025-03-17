@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.280816.5"
+      ],
+      "preferred": "grid.280816.5",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05c30h479",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dbhds.virginia.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 37.55376,
+        "lng": -77.46026,
+        "name": "Richmond"
+      },
+      "geonames_id": 4781708
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DBHDS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Virginia Department of Behavioral Health and Developmental Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Commonwealth of Virginia",
+      "type": "parent",
+      "id": "https://ror.org/01q4vax14"
+    },
+    {
+      "label": "Northern Virginia Mental Health Institute",
+      "type": "child",
+      "id": "https://ror.org/053wq6q28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

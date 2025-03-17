@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100006082"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467776.3"
+      ],
+      "preferred": "grid.467776.3",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05ep65r25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mard.gov.vn/en/Pages/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "country_subdivision_code": "HN",
+        "country_subdivision_name": "Hanoi",
+        "lat": 21.0245,
+        "lng": 105.84117,
+        "name": "Hanoi"
+      },
+      "geonames_id": 1581130
+    }
+  ],
+  "names": [
+    {
+      "lang": "vi",
+      "types": [
+        "label"
+      ],
+      "value": "Bộ Nông nghiệp và Phát triển Nông thôn"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MARD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Agriculture and Rural Development"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Animal Health",
+      "type": "child",
+      "id": "https://ror.org/02ssta106"
+    },
+    {
+      "label": "National Institute of Veterinary Research",
+      "type": "child",
+      "id": "https://ror.org/059mgez24"
+    },
+    {
+      "label": "Southern Institute of Water Resources Research",
+      "type": "child",
+      "id": "https://ror.org/050f5ff98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

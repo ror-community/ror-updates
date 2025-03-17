@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100022235"
+      ],
+      "preferred": "501100022235",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483996.9"
+      ],
+      "preferred": "grid.483996.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7434 9352"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121811"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rnbty21",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cqc2t.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CQC2T"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre for Quantum Computation and Communication Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian Research Council",
+      "type": "parent",
+      "id": "https://ror.org/05mmh0f86"
+    },
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

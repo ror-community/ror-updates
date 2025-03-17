@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100014060"
+      ],
+      "preferred": "100014060",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415942.f"
+      ],
+      "preferred": "grid.415942.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2174 4824"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6981947"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03p1tqc11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.med.navy.mil/Naval-Medical-Research-Command/R-D-Commands/Naval-Submarine-Medical-Research-Laboratory/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Naval_Submarine_Medical_Research_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Connecticut",
+        "lat": 41.3501,
+        "lng": -72.07841,
+        "name": "Groton"
+      },
+      "geonames_id": 4835461
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSMRL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Naval Submarine Medical Research Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Medical Research Command",
+      "type": "parent",
+      "id": "https://ror.org/05f421b09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

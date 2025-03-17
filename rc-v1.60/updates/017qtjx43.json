@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lped.fr"
+  ],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503336.0"
+      ],
+      "preferred": "grid.503336.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2187 5170"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3206122"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017qtjx43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lped.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPED"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire Population Environnement Développement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Population Environment Development Laboratory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LPED"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR Laboratoire Population Environnement Développement"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aix-Marseille Université",
+      "type": "parent",
+      "id": "https://ror.org/035xkbk20"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05q3vnk25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

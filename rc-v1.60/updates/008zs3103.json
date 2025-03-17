@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rice.edu"
+  ],
+  "established": 1912,
+  "external_ids": [
+    {
+      "all": [
+        "100007863",
+        "100009159",
+        "100005894",
+        "100005598"
+      ],
+      "preferred": "100007863",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.21940.3e"
+      ],
+      "preferred": "grid.21940.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8278"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q842909"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008zs3103",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rice.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Rice_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rice University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Rice"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "William Marsh Rice University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Theoretical Biological Physics",
+      "type": "child",
+      "id": "https://ror.org/04hfg7v94"
+    },
+    {
+      "label": "Moorea Coral Reef Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017vyhs10"
+    },
+    {
+      "label": "Sevilleta Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/01qcacz92"
+    },
+    {
+      "label": "Kinder Institute for Urban Research",
+      "type": "child",
+      "id": "https://ror.org/01reat095"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
