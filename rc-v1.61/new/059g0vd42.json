@@ -54,7 +54,23 @@
       "value": "UMR7021"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Laboratoire de Biophotonique et Pharmacologie",
+      "type": "predecessor",
+      "id": "https://ror.org/0032sc770"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

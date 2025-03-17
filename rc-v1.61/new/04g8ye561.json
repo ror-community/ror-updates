@@ -73,7 +73,18 @@
       "value": "United States European Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    },
+    {
+      "label": "United States Naval Forces Europe-Africa",
+      "type": "child",
+      "id": "https://ror.org/03jdm4e29"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

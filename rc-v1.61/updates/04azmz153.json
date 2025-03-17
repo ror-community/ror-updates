@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "grid.490605.e"
+      ],
+      "preferred": "grid.490605.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0518 7628"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04azmz153",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.stadt-zuerich.ch/waid/de/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.36667,
+        "lng": 8.55,
+        "name": "Zurich"
+      },
+      "geonames_id": 2657896
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Stadtspital Waid"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Waidspital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Stadtspital Zürich",
+      "type": "successor",
+      "id": "https://ror.org/04933pe04"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -73,7 +73,18 @@
       "value": "United States Northern Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    },
+    {
+      "label": "United States Fleet Forces Command",
+      "type": "child",
+      "id": "https://ror.org/04w46c814"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

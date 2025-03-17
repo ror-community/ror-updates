@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.477667.3"
+      ],
+      "preferred": "grid.477667.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 1008"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/027d2g669",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jll.se/halsasjukochtandvard/ostersundssjukhus.4.54cfcc1012779f872b08000266.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "Z",
+        "country_subdivision_name": "Jämtland",
+        "lat": 63.1792,
+        "lng": 14.63566,
+        "name": "Östersund"
+      },
+      "geonames_id": 2685750
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Östersunds Hospital"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Östersunds sjukhus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Region Jämtland Härjedalen",
+      "type": "parent",
+      "id": "https://ror.org/05wq91d49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

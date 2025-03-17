@@ -80,7 +80,18 @@
       "value": "United States Special Operations Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    },
+    {
+      "label": "United States Naval Special Warfare Command",
+      "type": "child",
+      "id": "https://ror.org/054z15n55"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

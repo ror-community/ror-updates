@@ -57,7 +57,18 @@
       "value": "Stadtspital Zürich"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Triemli Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/03kpdys72"
+    },
+    {
+      "label": "Stadtspital Waid",
+      "type": "predecessor",
+      "id": "https://ror.org/04azmz153"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
