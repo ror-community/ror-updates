@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neonscience.org"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.422235.0"
+      ],
+      "preferred": "grid.422235.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6483 1479"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3336870"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04j43p132",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.neonscience.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Ecological_Observatory_Network"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 40.01499,
+        "lng": -105.27055,
+        "name": "Boulder"
+      },
+      "geonames_id": 5574991
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NEON"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Ecological Observatory Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Battelle",
+      "type": "related",
+      "id": "https://ror.org/01h5tnr73"
+    },
+    {
+      "label": "U.S. National Science Foundation",
+      "type": "parent",
+      "id": "https://ror.org/021nxhr62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

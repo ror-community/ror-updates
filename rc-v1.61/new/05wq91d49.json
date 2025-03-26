@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "regionjh.se"
+  ],
+  "established": 1863,
+  "external_ids": [
+    {
+      "all": [
+        "501100009778"
+      ],
+      "preferred": "501100009778",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5998 0613"
+      ],
+      "preferred": "0000 0004 5998 0613",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11285861"
+      ],
+      "preferred": "Q11285861",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wq91d49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://regionjh.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://sv.wikipedia.org/wiki/Region_J%C3%A4mtland_H%C3%A4rjedalen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "Z",
+        "country_subdivision_name": "Jämtland",
+        "lat": 63.1792,
+        "lng": 14.63566,
+        "name": "Östersund"
+      },
+      "geonames_id": 2685750
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "acronym"
+      ],
+      "value": "RJH"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Region JH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Region Jamtland Harjedalen"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Region Jämtland Härjedalen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Östersunds Hospital",
+      "type": "child",
+      "id": "https://ror.org/027d2g669"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

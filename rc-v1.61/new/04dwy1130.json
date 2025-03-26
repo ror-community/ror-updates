@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "academie-sciences.fr"
+  ],
+  "established": 1666,
+  "external_ids": [
+    {
+      "all": [
+        "100015118"
+      ],
+      "preferred": "100015118",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2290 4869"
+      ],
+      "preferred": "0000 0001 2290 4869",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q188771"
+      ],
+      "preferred": "Q188771",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04dwy1130",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.academie-sciences.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Acad%C3%A9mie_des_sciences_(France)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Académie des sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "French Academy of Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de France",
+      "type": "parent",
+      "id": "https://ror.org/02cjet079"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

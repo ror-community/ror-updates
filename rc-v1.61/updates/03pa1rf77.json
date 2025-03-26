@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "501100011183"
+      ],
+      "preferred": "501100011183",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458487.2"
+      ],
+      "preferred": "grid.458487.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1803 9309"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03pa1rf77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://imr.cas.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "LN",
+        "country_subdivision_name": "Liaoning",
+        "lat": 41.79222,
+        "lng": 123.43278,
+        "name": "Shenyang"
+      },
+      "geonames_id": 2034937
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institute of Metal Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Metal Corrosion and Protection",
+      "type": "child",
+      "id": "https://ror.org/054qdnd47"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "International Centre for Materials Physics",
+      "type": "related",
+      "id": "https://ror.org/04gpjfg13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

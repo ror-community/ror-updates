@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "centcom.mil"
+  ],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0429 2530"
+      ],
+      "preferred": "0000 0004 0429 2530",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1476046"
+      ],
+      "preferred": "Q1476046",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r9s9m52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.centcom.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Central_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 27.8472,
+        "lng": -82.50338,
+        "name": "Macdill Air Force Base"
+      },
+      "geonames_id": 7267537
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Central Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "United States Central Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    },
+    {
+      "label": "United States Naval Forces Central Command",
+      "type": "child",
+      "id": "https://ror.org/059j2wh09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419266.e"
+      ],
+      "preferred": "grid.419266.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2106 4394"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04kgp9g48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://instituciones.sld.cu/ucmh/english/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CU",
+        "country_name": "Cuba",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Havana",
+        "lat": 23.13302,
+        "lng": -82.38304,
+        "name": "Havana"
+      },
+      "geonames_id": 3553478
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCMH"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad de Ciencias Médicas de la Habana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Salud Pública",
+      "type": "parent",
+      "id": "https://ror.org/02zttza43"
+    },
+    {
+      "label": "Universidad de Ciencias Médicas de Matanzas",
+      "type": "related",
+      "id": "https://ror.org/04wr3ta36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}
