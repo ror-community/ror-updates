@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ismar.cnr.it"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466841.9"
+      ],
+      "preferred": "grid.466841.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1755 4130"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02hdf6119",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ismar.cnr.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "34",
+        "country_subdivision_name": "Veneto",
+        "lat": 45.43713,
+        "lng": 12.33265,
+        "name": "Venice"
+      },
+      "geonames_id": 3164603
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "CNR-ISMAR"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISMAR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Marine Science"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Marine Sciences (CNR-ISMAR)"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Istituto di Scienze Marine del Consiglio Nazionale delle Ricerche"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    },
+    {
+      "label": "European Marine Biological Resource Centre",
+      "type": "related",
+      "id": "https://ror.org/0038zss60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

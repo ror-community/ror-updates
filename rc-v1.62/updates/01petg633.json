@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "msh-lorraine.fr"
+  ],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463746.4"
+      ],
+      "preferred": "grid.463746.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2191 9655"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262145"
+      ],
+      "preferred": "Q30262145",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01petg633",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://msh-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "name": "Nancy"
+      },
+      "geonames_id": 2990999
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Lorraine Institute for Social Sciences and Humanities"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSH"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "MSH Lorraine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Maison des Sciences sociales et des Humanités Lorraine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Maison des sciences de l'homme Lorraine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

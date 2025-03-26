@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kosmos.ut.ee"
+  ],
+  "established": 1810,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435122.3"
+      ],
+      "preferred": "grid.435122.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1385 4505"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q91068780"
+      ],
+      "preferred": "Q91068780",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mc23283",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kosmos.ut.ee"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Tartu_Observatory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "country_subdivision_code": "79",
+        "country_subdivision_name": "Tartu",
+        "lat": 58.38062,
+        "lng": 26.72509,
+        "name": "Tartu"
+      },
+      "geonames_id": 588335
+    }
+  ],
+  "names": [
+    {
+      "lang": "et",
+      "types": [
+        "label"
+      ],
+      "value": "Tartu Observatoorium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tartu Observatory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Estonian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01pewsd85"
+    },
+    {
+      "label": "University of Tartu",
+      "type": "parent",
+      "id": "https://ror.org/03z77qz90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

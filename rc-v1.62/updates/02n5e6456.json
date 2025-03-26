@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "phcn.vic.gov.au"
+  ],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466993.7"
+      ],
+      "preferred": "grid.466993.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0436 2893"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02n5e6456",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.peninsulahealth.org.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -38.14458,
+        "lng": 145.12291,
+        "name": "Frankston"
+      },
+      "geonames_id": 2166144
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Peninsula Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Frankston Hospital",
+      "type": "child",
+      "id": "https://ror.org/051b68e86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

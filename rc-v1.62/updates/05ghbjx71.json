@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cisssca.com"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420763.4"
+      ],
+      "preferred": "grid.420763.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4686 6563"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30282741"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ghbjx71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cisssca.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.75818,
+        "lng": -71.23921,
+        "name": "Saint Romuald"
+      },
+      "geonames_id": 8740846
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CISSCA Chaudière-Appalaches"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CISSS Chaudière-Appalaches"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "CISSS of Chaudière-Appalaches"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSSS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Recherche du Centre intégré de santé et de services sociaux de Chaudière-Appalaches"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre intégré de santé et de services sociaux de Chaudière-Appalaches"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centres intégrés de santé et de services sociaux de Chaudière-Appalaches (CISSS)"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centres intégrés universitaires de santé et de services sociaux de Chaudière-Appalaches (CIUSSS)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital d'Youville de Sherbrooke",
+      "type": "child",
+      "id": "https://ror.org/02805zw73"
+    },
+    {
+      "label": "Hôpital Hôtel-Dieu de Lévis",
+      "type": "child",
+      "id": "https://ror.org/05sqjae09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

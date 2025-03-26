@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418792.1"
+      ],
+      "preferred": "grid.418792.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9064 3333"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q27048558"
+      ],
+      "preferred": "Q27048558",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05bznkw77",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bruyere.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bruyère"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bruyère Continuing Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Saint-Vincent Hospital",
+      "type": "child",
+      "id": "https://ror.org/05cgcnt36"
+    },
+    {
+      "label": "Élisabeth Bruyère Hospital",
+      "type": "child",
+      "id": "https://ror.org/05h61fg48"
+    },
+    {
+      "label": "Centre for Catalysis Research and Innovation",
+      "type": "related",
+      "id": "https://ror.org/00rzr5v92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

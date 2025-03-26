@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ivl.se"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "501100011038"
+      ],
+      "preferred": "501100011038",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5809.4"
+      ],
+      "preferred": "grid.5809.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9987 7806"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/020r6p262",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ivl.se"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "IVL - Swedish Environmental Research Institute"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "IVL Svenska Miljöinstitutet"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "IVL Svenska Miljöinstitutet AB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "IVL Swedish Environmental Research Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIVL"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "IVL Swedish Environmental Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01mbsxc64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}
