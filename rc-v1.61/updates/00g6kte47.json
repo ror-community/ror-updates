@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1827,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415207.5"
+      ],
+      "preferred": "grid.415207.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 3756"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30280383"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g6kte47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.auslromagna.it/luoghi/ospedali/ospedale-ravenna"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Emilia-Romagna",
+        "lat": 44.41344,
+        "lng": 12.20121,
+        "name": "Ravenna"
+      },
+      "geonames_id": 3169561
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ospedale \"Santa Maria delle Croci\" di Ravenna"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "S.Maria delle Croci Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Santa Maria delle Croci Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Azienda Unità Sanitaria Locale Della Romagna",
+      "type": "parent",
+      "id": "https://ror.org/01rqq3d62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

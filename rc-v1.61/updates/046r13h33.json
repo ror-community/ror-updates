@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100013392"
+      ],
+      "preferred": "100013392",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.498851.9"
+      ],
+      "preferred": "grid.498851.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0636 485X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3315321"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/046r13h33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.msss.gouv.qc.ca/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_and_Social_Services_(Quebec)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health and Social Services"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Ministère de la Santé et des Services Sociaux"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Héma-Québec",
+      "type": "child",
+      "id": "https://ror.org/008jvv944"
+    },
+    {
+      "label": "Institut National d'Excellence en Santé et en Services Sociaux",
+      "type": "child",
+      "id": "https://ror.org/04e3xe586"
+    },
+    {
+      "label": "Institut National de Santé Publique du Québec",
+      "type": "child",
+      "id": "https://ror.org/00kv63439"
+    },
+    {
+      "label": "Office des Personnes Handicapées du Québec",
+      "type": "child",
+      "id": "https://ror.org/03e0kkv22"
+    },
+    {
+      "label": "Government of Quebec",
+      "type": "parent",
+      "id": "https://ror.org/05waa5295"
+    },
+    {
+      "label": "CIUSSS du Centre-Ouest-de-l'Île-de-Montréal",
+      "type": "child",
+      "id": "https://ror.org/03qbtqz88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463906.e"
+      ],
+      "preferred": "grid.463906.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 2086"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0032sc770",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www-lbp.unistra.fr/?lang=fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.52894,
+        "lng": 7.71523,
+        "name": "Illkirch-Graffenstaden"
+      },
+      "geonames_id": 3012834
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Biophotonique et Pharmacologie"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Biophotonics and Pharmacology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Laboratoire de bioimagerie et pathologies",
+      "type": "successor",
+      "id": "https://ror.org/059g0vd42"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

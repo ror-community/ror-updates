@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410592.b"
+      ],
+      "preferred": "grid.410592.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2170 091X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01xjv7358",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jasri.jp/ja/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Hyōgo",
+        "lat": 35.00268,
+        "lng": 134.35896,
+        "name": "Sayō"
+      },
+      "geonames_id": 1852831
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "JASRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Japan Synchrotron Radiation Research Institute"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "公益財団法人高輝度光科学研究センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "SPring-8",
+      "type": "child",
+      "id": "https://ror.org/01d1kv753"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

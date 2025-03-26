@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "100009918"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.481225.8"
+      ],
+      "preferred": "grid.481225.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0414 8782"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q646899"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03agkn750",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.smdc.army.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Space_and_Missile_Defense_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 34.68387,
+        "lng": -86.64764,
+        "name": "Redstone Arsenal"
+      },
+      "geonames_id": 7260623
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SMDC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "U.S. Army Space and Missile Defense Command"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USASMDC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Army Space and Missile Defense Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Space and Missile Defense Command Technical Center",
+      "type": "child",
+      "id": "https://ror.org/00mexna55"
+    },
+    {
+      "label": "United States Space Command",
+      "type": "parent",
+      "id": "https://ror.org/0123ggt98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uwaterloo.ca"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "501100008411",
+        "501100004490"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.46078.3d"
+      ],
+      "preferred": "grid.46078.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8644 1405"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1049470",
+        "Q3799227"
+      ],
+      "preferred": "Q1049470",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01aff2v68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uwaterloo.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Waterloo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 43.4668,
+        "lng": -80.51639,
+        "name": "Waterloo"
+      },
+      "geonames_id": 6176823
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UWaterloo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Waterloo"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de waterloo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Canadian Association for Leisure Studies",
+      "type": "related",
+      "id": "https://ror.org/02czb6c47"
+    },
+    {
+      "label": "Grand River Hospital",
+      "type": "related",
+      "id": "https://ror.org/02j3zn476"
+    },
+    {
+      "label": "Future Cities Institute",
+      "type": "child",
+      "id": "https://ror.org/01sqgq073"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

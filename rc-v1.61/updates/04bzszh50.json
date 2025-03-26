@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gpi.savba.sk"
+  ],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434825.c"
+      ],
+      "preferred": "grid.434825.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0723 5062"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04bzszh50",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://gpi.savba.sk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "country_subdivision_code": "BL",
+        "country_subdivision_name": "Bratislava Region",
+        "lat": 48.14816,
+        "lng": 17.10674,
+        "name": "Bratislava"
+      },
+      "geonames_id": 3060972
+    }
+  ],
+  "names": [
+    {
+      "lang": "sk",
+      "types": [
+        "label"
+      ],
+      "value": "Geofyzikálny odbor Ústav vied o Zemi v.v.i Slovenská Akadémia Vied"
+    },
+    {
+      "lang": "sk",
+      "types": [
+        "alias"
+      ],
+      "value": "Geofyzikálny odbor Ústav vied o Zemi, verejná výskumná inštitúcia Slovenská akadémia vied"
+    },
+    {
+      "lang": "sk",
+      "types": [
+        "alias"
+      ],
+      "value": "Geofyzikálny Ústav SAV"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Geophysical Division of the Earth Science Institute of the Slovak Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Geophysical Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Geophysical Institute SAS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Earth Science Institute of the Slovak Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0120cx869"
+    },
+    {
+      "label": "Slovak Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/03h7qq074"
+    },
+    {
+      "label": "Earth Science Institute of the Slovak Academy of Sciences",
+      "type": "successor",
+      "id": "https://ror.org/0120cx869"
+    }
+  ],
+  "status": "withdrawn",
+  "types": [
+    "facility"
+  ]
+}

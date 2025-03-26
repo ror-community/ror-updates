@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "york.ac.uk"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "100009001",
+        "100009150",
+        "100018087"
+      ],
+      "preferred": "100009001",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5685.e"
+      ],
+      "preferred": "grid.5685.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9668"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q967165"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04m01e293",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.york.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_York"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.95763,
+        "lng": -1.08271,
+        "name": "York"
+      },
+      "geonames_id": 2633352
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Efrog"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of York"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ORFEO-CINQA Research Network",
+      "type": "child",
+      "id": "https://ror.org/03xw5ev35"
+    },
+    {
+      "label": "Stockholm Environment Institute",
+      "type": "child",
+      "id": "https://ror.org/017w08b10"
+    },
+    {
+      "label": "Archaeology Data Service",
+      "type": "child",
+      "id": "https://ror.org/04w1khd64"
+    },
+    {
+      "label": "Hull York Medical School",
+      "type": "related",
+      "id": "https://ror.org/0003e4m70"
+    },
+    {
+      "label": "York Hospital",
+      "type": "related",
+      "id": "https://ror.org/0003zy991"
+    },
+    {
+      "label": "White Rose University Consortium",
+      "type": "related",
+      "id": "https://ror.org/0251f2x81"
+    },
+    {
+      "label": "White Rose Libraries",
+      "type": "related",
+      "id": "https://ror.org/00906dm81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
