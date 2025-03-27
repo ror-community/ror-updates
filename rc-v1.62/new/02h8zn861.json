@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,23 @@
       "value": "e-INFRA"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CESNET, zájmové sdružení právnických osob",
+      "type": "parent",
+      "id": "https://ror.org/050dkka69"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "VSB - Technical University of Ostrava",
+      "type": "parent",
+      "id": "https://ror.org/05x8mcb75"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

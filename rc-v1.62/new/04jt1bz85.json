@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Advanced Micro Devices (Singapore) Pte Ltd"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Advanced Micro Devices (United States)",
+      "type": "parent",
+      "id": "https://ror.org/04kd6c783"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

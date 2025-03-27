@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "UR1633"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

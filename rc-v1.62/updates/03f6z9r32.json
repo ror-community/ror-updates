@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -106,7 +106,13 @@
       "value": "University of Media, Arts and Communication - Ghana Institute of Journalism"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Media, Arts and Communication",
+      "type": "parent",
+      "id": "https://ror.org/01wf12v72"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

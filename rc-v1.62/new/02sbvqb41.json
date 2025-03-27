@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,23 @@
       "value": "Revvity, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "PerkinElmer (United States)",
+      "type": "parent",
+      "id": "https://ror.org/05s8x7560"
+    },
+    {
+      "label": "Cisbio (France)",
+      "type": "child",
+      "id": "https://ror.org/04bfjpv87"
+    },
+    {
+      "label": "Horizon Discovery (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00q2y5s03"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

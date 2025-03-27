@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Česká infrastruktura sledování uhlíku"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Global Change Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/01v5hek98"
+    },
+    {
+      "label": "Integrated Carbon Observation System",
+      "type": "related",
+      "id": "https://ror.org/01d0fc168"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

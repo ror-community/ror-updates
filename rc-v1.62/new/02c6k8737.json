@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "A-STAR Research Entities"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Infectious Diseases Labs",
+      "type": "child",
+      "id": "https://ror.org/00jj11r28"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

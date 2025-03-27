@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -45,7 +45,13 @@
       "value": "Centre de réadaptation en dépendance de Québec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre intégré universitaire de santé et de services sociaux de la Capitale-Nationale",
+      "type": "parent",
+      "id": "https://ror.org/00pamm417"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

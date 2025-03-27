@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Elsevier BV (Netherlands)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "RELX Group (Netherlands)",
+      "type": "parent",
+      "id": "https://ror.org/02scfj030"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

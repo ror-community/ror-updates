@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Surface Physics Laboratory – Hydrogen Technology Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Charles University",
+      "type": "parent",
+      "id": "https://ror.org/024d6js02"
+    },
+    {
+      "label": "Central European Research Infrastructure Consortium",
+      "type": "related",
+      "id": "https://ror.org/01h2v3d55"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

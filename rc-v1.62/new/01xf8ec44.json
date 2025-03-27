@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,18 @@
       "value": "NeXUS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Ohio State University",
+      "type": "parent",
+      "id": "https://ror.org/00rs6vg23"
+    },
+    {
+      "label": "U.S. National Science Foundation",
+      "type": "parent",
+      "id": "https://ror.org/021nxhr62"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

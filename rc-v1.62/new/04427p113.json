@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Centre d'enseignement et de recherche en foresterie"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cegep de Sainte Foy",
+      "type": "parent",
+      "id": "https://ror.org/047f73w76"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

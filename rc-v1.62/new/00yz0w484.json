@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "CHRIST (Deemed to be) University, Delhi NCR"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Christ University",
+      "type": "parent",
+      "id": "https://ror.org/022tv9y30"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,18 @@
       "value": "Českýsociálněvědní datovýarchiv"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Institute of Sociology",
+      "type": "parent",
+      "id": "https://ror.org/018hy5194"
+    },
+    {
+      "label": "Consortium of European Social Science Data Archives",
+      "type": "related",
+      "id": "https://ror.org/02wg9xc72"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

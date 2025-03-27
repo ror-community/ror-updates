@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,28 @@
       "value": "Brookhavenská národní laboratoř – účast České republiky"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Technical University in Prague",
+      "type": "parent",
+      "id": "https://ror.org/03kqpb082"
+    },
+    {
+      "label": "Charles University",
+      "type": "parent",
+      "id": "https://ror.org/024d6js02"
+    },
+    {
+      "label": "Czech Academy of Sciences, Nuclear Physics Institute",
+      "type": "parent",
+      "id": "https://ror.org/04jymbd90"
+    },
+    {
+      "label": "Brookhaven National Laboratory",
+      "type": "related",
+      "id": "https://ror.org/02ex6cf31"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

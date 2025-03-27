@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -70,8 +70,18 @@
   "relationships": [
     {
       "label": "Amsterdam University Medical Centers",
-      "type": "parent",
+      "type": "related",
       "id": "https://ror.org/05grdyy37"
+    },
+    {
+      "label": "Vrije Universiteit Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/008xxew50"
+    },
+    {
+      "label": "University of Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/04dkp9463"
     }
   ],
   "status": "active",

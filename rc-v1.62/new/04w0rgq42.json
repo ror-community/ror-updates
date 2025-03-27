@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "LEA ARTIBAI Ikastetxea"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Leartiker",
+      "type": "child",
+      "id": "https://ror.org/05rdan836"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

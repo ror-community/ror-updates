@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Underground laboratory LSM"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Technical University in Prague",
+      "type": "parent",
+      "id": "https://ror.org/03kqpb082"
+    },
+    {
+      "label": "National Radiation Protection Institute",
+      "type": "parent",
+      "id": "https://ror.org/02vwpg498"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Evonik Pte Ltd"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Evonik (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/01qmw3j63"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

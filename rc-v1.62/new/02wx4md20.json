@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "Český národní uzel pro výzkum rodiny GGP-CZ"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "Charles University",
+      "type": "parent",
+      "id": "https://ror.org/024d6js02"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

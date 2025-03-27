@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "EU-ARC.CZ"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Astronomical Institute",
+      "type": "parent",
+      "id": "https://ror.org/03tp8z347"
+    },
+    {
+      "label": "Atacama Large Millimeter Submillimeter Array",
+      "type": "related",
+      "id": "https://ror.org/01adx8c71"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

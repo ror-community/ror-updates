@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,33 @@
       "value": "Aerosol, Clouds and Trace Gases Research Infrastructure"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Hydrometeorological Institute",
+      "type": "parent",
+      "id": "https://ror.org/00xbsaf62"
+    },
+    {
+      "label": "Czech Academy of Sciences, Institute of Atmospheric Physics",
+      "type": "parent",
+      "id": "https://ror.org/04vtzcr32"
+    },
+    {
+      "label": "Czech Academy of Sciences, Institute of Chemical Process Fundamentals",
+      "type": "parent",
+      "id": "https://ror.org/02acv3g39"
+    },
+    {
+      "label": "Czech Academy of Sciences, Global Change Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/01v5hek98"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

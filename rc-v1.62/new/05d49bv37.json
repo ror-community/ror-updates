@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Istituto di Scienze Polari"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "related",
+      "id": "https://ror.org/04zaypm56"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

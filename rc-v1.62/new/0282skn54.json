@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "JFE Engineering Pte Ltd (Singapore)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "JFE Engineering Corporation (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/05t153d32"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Garde côtière canadienne"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fisheries and Oceans Canada",
+      "type": "parent",
+      "id": "https://ror.org/02qa1x782"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

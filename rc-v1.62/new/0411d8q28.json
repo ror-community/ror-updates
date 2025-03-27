@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Waco Mammoth National Monument"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Park Service",
+      "type": "parent",
+      "id": "https://ror.org/044zqqy65"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

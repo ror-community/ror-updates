@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "U.S. Virgin Islands Department of Planning and Natural Resources"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "U.S. Virgin Islands Division of Fish and Wildlife",
+      "type": "child",
+      "id": "https://ror.org/05mf37487"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

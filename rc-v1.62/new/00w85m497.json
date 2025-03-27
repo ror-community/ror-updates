@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "トヨタ自動車北米"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Toyota Motor North America (United States)",
+      "type": "successor",
+      "id": "https://ror.org/0076knn86"
+    }
+  ],
   "status": "inactive",
   "types": [
     "company",

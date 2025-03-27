@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,23 @@
       "value": "Český národní uzel Evropské sítě infrastruktur klinického výzkumu"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "St. Anne's University Hospital Brno",
+      "type": "parent",
+      "id": "https://ror.org/049bjee35"
+    },
+    {
+      "label": "European Clinical Research Infrastructure Network",
+      "type": "related",
+      "id": "https://ror.org/051ycea61"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

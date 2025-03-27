@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "Seismological Facility for the Advancement of Geoscience"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Division of Earth Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05v01mk25"
+    },
+    {
+      "label": "EarthScope Consortium",
+      "type": "parent",
+      "id": "https://ror.org/04danrt76"
+    },
+    {
+      "label": "Incorporated Research Institutions For Seismology",
+      "type": "related",
+      "id": "https://ror.org/05xkn9s74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

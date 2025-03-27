@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,33 @@
       "value": "Národní infrastruktura chemické biologie"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Institute of Molecular Genetics",
+      "type": "parent",
+      "id": "https://ror.org/045syc608"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "Palacký University Olomouc",
+      "type": "parent",
+      "id": "https://ror.org/04qxnmv42"
+    },
+    {
+      "label": "University of Chemistry and Technology, Prague",
+      "type": "parent",
+      "id": "https://ror.org/05ggn0a85"
+    },
+    {
+      "label": "EU-OPENSCREEN",
+      "type": "related",
+      "id": "https://ror.org/055zp1089"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

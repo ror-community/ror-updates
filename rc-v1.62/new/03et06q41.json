@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "ख्वप कलेज अफ ईन्जिनियरिङ्ग"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of Engineering",
+      "type": "parent",
+      "id": "https://ror.org/03ny67e60"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

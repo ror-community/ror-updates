@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Amsterdam Gastroenterology Endocrinology Metabolism"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Amsterdam University Medical Centers",
+      "type": "related",
+      "id": "https://ror.org/05grdyy37"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

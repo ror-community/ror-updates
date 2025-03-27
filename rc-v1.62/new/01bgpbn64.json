@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,23 @@
       "value": "Groupe de Recherches en Études Indiennes"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Sorbonne Nouvelle",
+      "type": "parent",
+      "id": "https://ror.org/03z6jp965"
+    },
+    {
+      "label": "Université Paris Sciences et Lettres",
+      "type": "parent",
+      "id": "https://ror.org/013cjyk83"
+    },
+    {
+      "label": "École Pratique des Hautes Études",
+      "type": "parent",
+      "id": "https://ror.org/046b3cj80"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

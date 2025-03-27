@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "Институт По Минералогия И Кристалография “Акад. Иван Костов” Българска Академия На Науките"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Bulgarian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01x8hew03"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Ville de Sherbrooke"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Municipal Affairs, Regions and Land Occupancy",
+      "type": "parent",
+      "id": "https://ror.org/03d5zgz97"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

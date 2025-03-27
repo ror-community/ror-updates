@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "České centrum pro fenogenomiku"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Institute of Molecular Genetics",
+      "type": "parent",
+      "id": "https://ror.org/045syc608"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

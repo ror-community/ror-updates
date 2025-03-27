@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Hospital de Tortosa Virgen de la Cinta"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut Català de la Salut",
+      "type": "parent",
+      "id": "https://ror.org/04wkdwp52"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

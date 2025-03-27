@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Les Cultures de l'Europe Méditerranéenne Occidentale"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Sorbonne Nouvelle",
+      "type": "parent",
+      "id": "https://ror.org/03z6jp965"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Cisbio Bioassays"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Revvity (United States)",
+      "type": "parent",
+      "id": "https://ror.org/02sbvqb41"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

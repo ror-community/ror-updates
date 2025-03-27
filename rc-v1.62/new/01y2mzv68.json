@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "معهد بحوث الهندسة الزراعية"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Agricultural Research Center",
+      "type": "parent",
+      "id": "https://ror.org/05hcacp57"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

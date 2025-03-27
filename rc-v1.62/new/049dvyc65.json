@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Association des graduées et gradués en agriculture et alimentation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "parent",
+      "id": "https://ror.org/04sjchr03"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

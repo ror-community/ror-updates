@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Maharashtra Institute of Dental Science and Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Maharashtra Institute of Medical Science and Research",
+      "type": "parent",
+      "id": "https://ror.org/03szqc633"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "Système de Production d’Ions Radioactifs Accélérés en Ligne – účast ČR"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences, Nuclear Physics Institute",
+      "type": "parent",
+      "id": "https://ror.org/04jymbd90"
+    },
+    {
+      "label": "GANIL",
+      "type": "related",
+      "id": "https://ror.org/042dc0x18"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

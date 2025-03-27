@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Microsoft Operations Pte Ltd"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Microsoft (United States)",
+      "type": "parent",
+      "id": "https://ror.org/00d0nc645"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

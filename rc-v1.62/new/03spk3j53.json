@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,28 @@
       "value": "Národní centrum lékařské genomiky"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Charles University",
+      "type": "parent",
+      "id": "https://ror.org/024d6js02"
+    },
+    {
+      "label": "University Hospital Brno",
+      "type": "parent",
+      "id": "https://ror.org/00qq1fp34"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "parent",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "Palacký University Olomouc",
+      "type": "parent",
+      "id": "https://ror.org/04qxnmv42"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

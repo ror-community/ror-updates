@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-03-26",
+      "date": "2025-03-27",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Programa Universitario de Estudios del Desarrollo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Nacional Autónoma de México",
+      "type": "parent",
+      "id": "https://ror.org/01tmp8f25"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
