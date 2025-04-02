@@ -54,7 +54,23 @@
       "value": "Heliophysics Data and Modeling Consortium"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Solar Data Analysis Center",
+      "type": "related",
+      "id": "https://ror.org/04rvfc379"
+    },
+    {
+      "label": "Space Physics Data Facility",
+      "type": "related",
+      "id": "https://ror.org/00ryjtt64"
+    },
+    {
+      "label": "Heliophysics Science Division",
+      "type": "parent",
+      "id": "https://ror.org/03myraf72"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
