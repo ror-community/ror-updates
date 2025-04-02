@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gurdon.cam.ac.uk"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "501100019684"
+      ],
+      "preferred": "501100019684",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.450000.1"
+      ],
+      "preferred": "grid.450000.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0606 5024"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5013781"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00fp3ce15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gurdon.cam.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Gurdon_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Gurdon Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "The Gurdon Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wellcome/Cancer Research UK Gurdon Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cancer Research UK",
+      "type": "parent",
+      "id": "https://ror.org/054225q67"
+    },
+    {
+      "label": "University of Cambridge",
+      "type": "parent",
+      "id": "https://ror.org/013meh722"
+    },
+    {
+      "label": "Wellcome Trust",
+      "type": "parent",
+      "id": "https://ror.org/029chgv08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

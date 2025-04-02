@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411244.6"
+      ],
+      "preferred": "grid.411244.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9691 6072"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5903026"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ehe5s81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.comunidad.madrid/hospital/getafe/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.30571,
+        "lng": -3.73295,
+        "name": "Getafe"
+      },
+      "geonames_id": 3121437
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Universitario de Getafe"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    },
+    {
+      "label": "Universidad Europea",
+      "type": "related",
+      "id": "https://ror.org/04dp46240"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

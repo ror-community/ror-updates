@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dmi.dk"
+  ],
+  "established": 1872,
+  "external_ids": [
+    {
+      "all": [
+        "grid.14170.33"
+      ],
+      "preferred": "grid.14170.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q1164325"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020m6x732",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dmi.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Danish_Meteorological_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DMI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Danish Meteorological Institute"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "alias"
+      ],
+      "value": "Danmarks Meteorologiske Institut"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Danish Meteorological Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The National Danish Meteorological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Danish Ministry of Climate, Energy and Utilities",
+      "type": "parent",
+      "id": "https://ror.org/012sh1702"
+    },
+    {
+      "label": "EC-Earth Consortium",
+      "type": "related",
+      "id": "https://ror.org/010bg5245"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

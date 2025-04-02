@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100020147"
+      ],
+      "preferred": "501100020147",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01rq5e797",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://euracan.eu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ERN EURACAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Reference Network on rare adult solid cancers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ERN Board of Member States",
+      "type": "parent",
+      "id": "https://ror.org/00r7apq26"
+    },
+    {
+      "label": "Centre Léon Bérard",
+      "type": "related",
+      "id": "https://ror.org/01cmnjq37"
+    },
+    {
+      "label": "European Rare Disease Research Coordination and Support Action",
+      "type": "related",
+      "id": "https://ror.org/00f29ja18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

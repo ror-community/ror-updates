@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fnusa.cz"
+  ],
+  "established": 1786,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412752.7"
+      ],
+      "preferred": "grid.412752.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0608 7557"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30287084"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049bjee35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fnusa.cz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "64",
+        "country_subdivision_name": "South Moravian",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "name": "Brno"
+      },
+      "geonames_id": 3078610
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FNUSA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St. Anne's University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "St. Anne's University Hospital Brno"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Clinical Research Center, St. Anne's University Hospital Brno",
+      "type": "child",
+      "id": "https://ror.org/027v97282"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "related",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "Czech National Infrastructure for Biological Data",
+      "type": "child",
+      "id": "https://ror.org/0286qer95"
+    },
+    {
+      "label": "Czech National Node to the European Infrastructure for Translational Medicine",
+      "type": "child",
+      "id": "https://ror.org/04xsmz457"
+    },
+    {
+      "label": "Czech National Node to the European Clinical Research Infrastructure Network",
+      "type": "child",
+      "id": "https://ror.org/0001a1c49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

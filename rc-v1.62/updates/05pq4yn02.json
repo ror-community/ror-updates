@@ -1,0 +1,182 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bc.cas.cz"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100017273"
+      ],
+      "preferred": "501100017273",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418338.5"
+      ],
+      "preferred": "grid.418338.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2255 8513"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q8310408"
+      ],
+      "preferred": "Q8310408",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05pq4yn02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bc.cas.cz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "31",
+        "country_subdivision_name": "Jihočeský kraj",
+        "lat": 48.97447,
+        "lng": 14.47434,
+        "name": "České Budějovice"
+      },
+      "geonames_id": 3077916
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BC AV ČR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "BC CAS"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Biologické centrum AV ČR"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Biologické centrum AV ČR, v. v. i."
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Biologické centrum AV ČR, veřejná výzkumná instituce"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Biology Centre CAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Biology Centre of the Czech Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Czech Acad Sci, Biol Ctr"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Czech Academy of Sciences, Biology Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/053avzc18"
+    },
+    {
+      "label": "Institute of Entomology",
+      "type": "predecessor",
+      "id": "https://ror.org/039nazg33"
+    },
+    {
+      "label": "Institute of Hydrobiology, Biology Centre, Academy of Sciences of the Czech Republic",
+      "type": "predecessor",
+      "id": "https://ror.org/0436nxt45"
+    },
+    {
+      "label": "Institute of Parasitology",
+      "type": "predecessor",
+      "id": "https://ror.org/05rhyza23"
+    },
+    {
+      "label": "Institute of Plant Molecular Biology",
+      "type": "predecessor",
+      "id": "https://ror.org/00jr65m43"
+    },
+    {
+      "label": "Institute of Soil Biology",
+      "type": "predecessor",
+      "id": "https://ror.org/02tz8r820"
+    },
+    {
+      "label": "Czech National Infrastructure for Biological Data",
+      "type": "child",
+      "id": "https://ror.org/0286qer95"
+    },
+    {
+      "label": "National Research Infrastructure for Biological and Medical Imaging",
+      "type": "child",
+      "id": "https://ror.org/00defv642"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

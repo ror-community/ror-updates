@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100009560"
+      ],
+      "preferred": "501100009560",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411067.5"
+      ],
+      "preferred": "grid.411067.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8584 9230"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2496396"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032nzv584",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ukgm.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_Hospital_of_Giessen_and_Marburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.58727,
+        "lng": 8.67554,
+        "name": "Giessen"
+      },
+      "geonames_id": 2920512
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKGM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Hospital of Giessen and Marburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitätsklinikum Gießen und Marburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hals- Nasen- und Ohrenklinik Gießen",
+      "type": "child",
+      "id": "https://ror.org/0246zee65"
+    },
+    {
+      "label": "Poliklinik für Zahnärztliche Prothetik",
+      "type": "child",
+      "id": "https://ror.org/032kej893"
+    },
+    {
+      "label": "Philipps University of Marburg",
+      "type": "related",
+      "id": "https://ror.org/01rdrb571"
+    },
+    {
+      "label": "Justus-Liebig-Universität Gießen",
+      "type": "related",
+      "id": "https://ror.org/033eqas34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/049412q44",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://roma1.ingv.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "62",
+        "country_subdivision_name": "Lazio",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "INGV Sezione di Roma 1"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INGV-Roma1"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Istituto Nazionale di Geofisica e Vulcanologia Sezione di Roma 1"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Institute of Geophysics and Volcanology, Rome 1 Section"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto Nazionale di Geofisica e Vulcanologia",
+      "type": "parent",
+      "id": "https://ror.org/00qps9a02"
+    },
+    {
+      "label": "Laboratorio per le Alte Pressioni e Alte Temperature di Geofisica e Vulcanologia Sperimentali",
+      "type": "child",
+      "id": "https://ror.org/04q2cht42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

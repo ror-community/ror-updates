@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fnbrno.cz"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412554.3"
+      ],
+      "preferred": "grid.412554.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0609 2751"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00qq1fp34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fnbrno.cz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "64",
+        "country_subdivision_name": "South Moravian",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "name": "Brno"
+      },
+      "geonames_id": 3078610
+    }
+  ],
+  "names": [
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Fakultní Nemocnice Brno"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Brno"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Masaryk University",
+      "type": "related",
+      "id": "https://ror.org/02j46qs45"
+    },
+    {
+      "label": "National Centre for Medical Genomics",
+      "type": "child",
+      "id": "https://ror.org/03spk3j53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

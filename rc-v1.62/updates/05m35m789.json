@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "universidadeuropea.com"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7424 6759"
+      ],
+      "preferred": "0000 0004 7424 6759",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q116876982"
+      ],
+      "preferred": "Q116876982",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05m35m789",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://universidadeuropea.com/conocenos/valencia/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Universidad_Europea_de_Valencia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "VC",
+        "country_subdivision_name": "Valencia",
+        "lat": 39.47391,
+        "lng": -0.37966,
+        "name": "Valencia"
+      },
+      "geonames_id": 2509954
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European University of Valencia"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "UEV"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universidad Europea de Valencia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universidad Europea",
+      "type": "parent",
+      "id": "https://ror.org/04dp46240"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

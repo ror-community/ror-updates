@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ircm.qc.ca"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "grid.511547.3"
+      ],
+      "preferred": "grid.511547.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3152112"
+      ],
+      "preferred": "Q3152112",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05m8pzq90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ircm.qc.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRCM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institut de Recherches Cliniques de Montréal"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Montreal Clinical Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "parent",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Centre Hospitalier de l’Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0410a8y51"
+    },
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

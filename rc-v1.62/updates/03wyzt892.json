@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "100017169"
+      ],
+      "preferred": "100017169",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11478.3b"
+      ],
+      "preferred": "grid.11478.3b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q11913498"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wyzt892",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.crg.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Centre_for_Genomic_Regulation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRG"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRG-CERCA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre for Genomic Regulation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Barcelona Institute for Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/03kpps236"
+    },
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Quantitative Genomics Medicine Laboratories (qGenomics)",
+      "type": "related",
+      "id": "https://ror.org/0404psf52"
+    },
+    {
+      "label": "Universitat Pompeu Fabra",
+      "type": "related",
+      "id": "https://ror.org/04n0g0b29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ukw.de"
+  ],
+  "established": 1402,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411760.5"
+      ],
+      "preferred": "grid.411760.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1378 7891"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1784848"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03pvr2g57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ukw.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.79391,
+        "lng": 9.95121,
+        "name": "Würzburg"
+      },
+      "geonames_id": 2805615
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKW"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitaetsklinikum Wuerzburg - Klinikum Der Bayerischen Julius-Maximilians-Universitat"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital Würzburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital of Wuerzburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitätsklinikum Würzburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Augenklinik Universitätsklinikum Würzburg",
+      "type": "child",
+      "id": "https://ror.org/00rwpbm87"
+    },
+    {
+      "label": "Comprehensive Cancer Center Mainfranken",
+      "type": "child",
+      "id": "https://ror.org/013tmk464"
+    },
+    {
+      "label": "Universitäts-Kinderklinik Würzburg",
+      "type": "child",
+      "id": "https://ror.org/000ph9k36"
+    },
+    {
+      "label": "University of Würzburg",
+      "type": "related",
+      "id": "https://ror.org/00fbnyb24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

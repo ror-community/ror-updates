@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.498794.f"
+      ],
+      "preferred": "grid.498794.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2151 122X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3315342"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03d5zgz97",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mamrot.gouv.qc.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Municipal_Affairs,_Regions_and_Land_Occupancy_(Quebec)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MAMROT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Municipal Affairs, Regions and Land Occupancy"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Ministère des Affaires Municipales et de l'Occupation du Territoire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Société d'Habitation du Québec",
+      "type": "child",
+      "id": "https://ror.org/037fm9770"
+    },
+    {
+      "label": "Government of Quebec",
+      "type": "parent",
+      "id": "https://ror.org/05waa5295"
+    },
+    {
+      "label": "Ville de Sherbrooke",
+      "type": "child",
+      "id": "https://ror.org/044sx9203"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

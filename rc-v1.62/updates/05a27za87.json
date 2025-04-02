@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [],
+  "id": "https://ror.org/05a27za87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ern-rnd.eu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.52266,
+        "lng": 9.05222,
+        "name": "Tübingen"
+      },
+      "geonames_id": 2820860
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ERN-RND"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Reference Network for Rare Neurological Diseases"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ERN Board of Member States",
+      "type": "parent",
+      "id": "https://ror.org/00r7apq26"
+    },
+    {
+      "label": "Universitätsklinikum Tübingen",
+      "type": "related",
+      "id": "https://ror.org/00pjgxh97"
+    },
+    {
+      "label": "European Rare Disease Research Coordination and Support Action",
+      "type": "related",
+      "id": "https://ror.org/00f29ja18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

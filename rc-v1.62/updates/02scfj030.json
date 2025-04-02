@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "100005201"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.462207.5"
+      ],
+      "preferred": "grid.462207.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0672 9757"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q746413"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02scfj030",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.relx.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/RELX"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "North Holland",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "RELX Group (Netherlands)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Reed Elsevier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "RELX Group (United Kingdom)",
+      "type": "parent",
+      "id": "https://ror.org/055j8ya05"
+    },
+    {
+      "label": "Elsevier BV (Netherlands)",
+      "type": "child",
+      "id": "https://ror.org/013fhv752"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

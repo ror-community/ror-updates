@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100000160"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457842.8"
+      ],
+      "preferred": "grid.457842.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05v01mk25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/div/index.jsp?div=ear"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Division of Earth Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF EAR"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Directorate for Geosciences",
+      "type": "parent",
+      "id": "https://ror.org/05p847d66"
+    },
+    {
+      "label": "Geodetic Facility for the Advancement of Geoscience",
+      "type": "child",
+      "id": "https://ror.org/03c1c5b19"
+    },
+    {
+      "label": "Seismological Facility for the Advancement of Geoscience",
+      "type": "child",
+      "id": "https://ror.org/057py8t43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

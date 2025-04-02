@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463812.a"
+      ],
+      "preferred": "grid.463812.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2163 3972"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/020cdve92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cri.ensmp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.40908,
+        "lng": 2.70177,
+        "name": "Fontainebleau"
+      },
+      "geonames_id": 3018074
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRI"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Recherche en Informatique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Mines Paris, PSL University, Centre for computer science (CRI)"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Mines Paris, Université PSL, Centre de Recherche en Informatique (CRI)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ARMINES",
+      "type": "parent",
+      "id": "https://ror.org/00dcrfk74"
+    },
+    {
+      "label": "École Nationale Supérieure des Mines de Paris",
+      "type": "parent",
+      "id": "https://ror.org/04y8cs423"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

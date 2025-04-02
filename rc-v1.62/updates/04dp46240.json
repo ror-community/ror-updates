@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "universidadeuropea.com"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "100019776"
+      ],
+      "preferred": "100019776",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.119375.8"
+      ],
+      "preferred": "grid.119375.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2173 8416"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2290716"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04dp46240",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://universidadeuropea.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/European_University_of_Madrid"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UE"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universidad Europea"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidad Europea de Madrid"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Universitario Santa Cristina",
+      "type": "related",
+      "id": "https://ror.org/01bynmm24"
+    },
+    {
+      "label": "Hospital Universitario de Getafe",
+      "type": "related",
+      "id": "https://ror.org/01ehe5s81"
+    },
+    {
+      "label": "Universidad Europea de Valencia",
+      "type": "child",
+      "id": "https://ror.org/05m35m789"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

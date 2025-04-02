@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-giessen.de"
+  ],
+  "established": 1607,
+  "external_ids": [
+    {
+      "all": [
+        "100009091"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8664.c"
+      ],
+      "preferred": "grid.8664.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2165 8627"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q317053"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/033eqas34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-giessen.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Giessen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.58727,
+        "lng": 8.67554,
+        "name": "Giessen"
+      },
+      "geonames_id": 2920512
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Giessen University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JLU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Justus Liebig University Giessen"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Justus-Liebig-Universität Giessen"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Justus-Liebig-Universität Gießen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Giessen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cardio-Pulmonary Institute",
+      "type": "child",
+      "id": "https://ror.org/04ckbty56"
+    },
+    {
+      "label": "Center for Psychobiology and Behavioral Medicine",
+      "type": "related",
+      "id": "https://ror.org/04rnfrn04"
+    },
+    {
+      "label": "Universitätsklinikum Gießen und Marburg",
+      "type": "related",
+      "id": "https://ror.org/032nzv584"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

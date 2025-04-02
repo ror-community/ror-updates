@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "vumc.nl"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "grid.16872.3a"
+      ],
+      "preferred": "grid.16872.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0435 165X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1888218"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00q6h8f30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://vumc.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/VU_University_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "North Holland",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Amsterdam UMC Location VUmc"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Amsterdam UMC Location Vrije Universiteit Amsterdam"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "VU Medisch Centrum"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VUMC"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Vrije Universiteit Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Amsterdam University Medical Centers",
+      "type": "parent",
+      "id": "https://ror.org/05grdyy37"
+    },
+    {
+      "label": "Vrije Universiteit Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/008xxew50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

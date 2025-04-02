@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503251.0"
+      ],
+      "preferred": "grid.503251.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0513 9853"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152393"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00qk0vr83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ines-solaire.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.65362,
+        "lng": 5.8549,
+        "name": "Le Bourget-du-Lac"
+      },
+      "geonames_id": 3005081
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INES"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut National de l'Énergie Solaire"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "National Solar Energy Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Délégation Rhône Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/00bjjqs38"
+    },
+    {
+      "label": "Université Savoie Mont Blanc",
+      "type": "parent",
+      "id": "https://ror.org/04gqg1a07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

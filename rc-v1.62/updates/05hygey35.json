@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "institute-genetics-cancer.ed.ac.uk"
+  ],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415854.9"
+      ],
+      "preferred": "grid.415854.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 7892"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6717453"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05hygey35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://institute-genetics-cancer.ed.ac.uk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "name": "Edinburgh"
+      },
+      "geonames_id": 2650225
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGMM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institute of Genetics and Cancer"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "MRC Institute of Genetics and Molecular Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    },
+    {
+      "label": "University of Edinburgh",
+      "type": "parent",
+      "id": "https://ror.org/01nrxwf90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

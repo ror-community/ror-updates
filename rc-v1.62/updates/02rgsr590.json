@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "501100012331",
+        "501100008271"
+      ],
+      "preferred": "501100012331",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.500522.0"
+      ],
+      "preferred": "grid.500522.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7866 5248"
+      ],
+      "preferred": "0000 0004 7866 5248",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12323506"
+      ],
+      "preferred": "Q12323506",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02rgsr590",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://leo-foundation.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "LEO Fondet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "LEO Foundation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LEO Pharma Research Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leo Pharma (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/05tzrdd39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

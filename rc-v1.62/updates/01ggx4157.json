@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cern.ch"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "100012470"
+      ],
+      "preferred": "100012470",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9132.9"
+      ],
+      "preferred": "grid.9132.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2156 142X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q42944"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ggx4157",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://home.web.cern.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/CERN"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Geneva",
+        "lat": 46.20222,
+        "lng": 6.14569,
+        "name": "Geneva"
+      },
+      "geonames_id": 2660646
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CERN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Organization for Nuclear Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Europäische Organisation für Kernforschung"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Organisation européenne pour la recherche nucléaire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "SCOAP3",
+      "type": "child",
+      "id": "https://ror.org/012fftw39"
+    },
+    {
+      "label": "Research Infrastructure for Experiments at CERN",
+      "type": "related",
+      "id": "https://ror.org/01t0a1151"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

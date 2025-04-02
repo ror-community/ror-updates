@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bcu.ac.uk"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100009537"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.19822.30"
+      ],
+      "preferred": "grid.19822.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 2449"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3547145"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00t67pt25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bcu.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Birmingham_City_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.48142,
+        "lng": -1.89983,
+        "name": "Birmingham"
+      },
+      "geonames_id": 2655603
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BCU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Birmingham City University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Birmingham College of Art"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Birmingham Polytechnic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Central England in Birmingham"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Printing History and Culture",
+      "type": "child",
+      "id": "https://ror.org/05a9avq33"
+    },
+    {
+      "label": "Birmingham City Hospital",
+      "type": "related",
+      "id": "https://ror.org/02smq5q54"
+    },
+    {
+      "label": "Royal Birmingham Conservatoire",
+      "type": "child",
+      "id": "https://ror.org/05jc8b719"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

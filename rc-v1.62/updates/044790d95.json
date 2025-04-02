@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sinaihealth.ca"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.492573.e"
+      ],
+      "preferred": "grid.492573.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6477 6457"
+      ],
+      "preferred": "0000 0004 6477 6457",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q48865137"
+      ],
+      "preferred": "Q48865137",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/044790d95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sinaihealth.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "name": "Toronto"
+      },
+      "geonames_id": 6167865
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sinai Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bridgepoint Active Healthcare",
+      "type": "child",
+      "id": "https://ror.org/01zeqwe54"
+    },
+    {
+      "label": "Mount Sinai Hospital",
+      "type": "child",
+      "id": "https://ror.org/05deks119"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

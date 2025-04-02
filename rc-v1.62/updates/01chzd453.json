@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "upce.cz"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100016365"
+      ],
+      "preferred": "501100016365",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11028.3a"
+      ],
+      "preferred": "grid.11028.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9050 662X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q728840"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01chzd453",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.upce.cz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Pardubice"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "53",
+        "country_subdivision_name": "Pardubický",
+        "lat": 50.04075,
+        "lng": 15.77659,
+        "name": "Pardubice"
+      },
+      "geonames_id": 3068582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Pardubice"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Univerzita Pardubice"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre of Materials and Nanotechnologies",
+      "type": "child",
+      "id": "https://ror.org/00v570979"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

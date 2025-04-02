@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "merl.com"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100014462"
+      ],
+      "preferred": "100014462",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/00e2e3n51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.merl.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.3751,
+        "lng": -71.10561,
+        "name": "Cambridge"
+      },
+      "geonames_id": 4931972
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "MERL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Mitsubishi Electric Research Laboratories"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Mitsubishi Electric Research Laboratories (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mitsubishi Group (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/0234cd281"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

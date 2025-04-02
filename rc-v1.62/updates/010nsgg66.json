@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1745,
+  "external_ids": [
+    {
+      "all": [
+        "501100004871"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6738.a"
+      ],
+      "preferred": "grid.6738.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1090 0254"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q734324"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/010nsgg66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tu-braunschweig.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Technical_University_of_Braunschweig"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 52.26594,
+        "lng": 10.52673,
+        "name": "Braunschweig"
+      },
+      "geonames_id": 2945024
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "TU Braunschweig"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Technische Universität Braunschweig"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Forschungszentrum Küste",
+      "type": "child",
+      "id": "https://ror.org/00w53fs94"
+    },
+    {
+      "label": "L3S Research Center",
+      "type": "child",
+      "id": "https://ror.org/039t4wk02"
+    },
+    {
+      "label": "TU9",
+      "type": "related",
+      "id": "https://ror.org/02nx8n605"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

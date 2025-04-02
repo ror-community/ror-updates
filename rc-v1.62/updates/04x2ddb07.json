@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100021081"
+      ],
+      "preferred": "501100021081",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/04x2ddb07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.erknet.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ERKNet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Rare Kidney Disease Reference Network"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Reference Network for Rare Kidney Diseases"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ERN Board of Member States",
+      "type": "parent",
+      "id": "https://ror.org/00r7apq26"
+    },
+    {
+      "label": "University Hospital Heidelberg",
+      "type": "related",
+      "id": "https://ror.org/013czdx64"
+    },
+    {
+      "label": "European Rare Disease Research Coordination and Support Action",
+      "type": "related",
+      "id": "https://ror.org/00f29ja18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

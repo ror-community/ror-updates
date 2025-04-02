@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483403.8"
+      ],
+      "preferred": "grid.483403.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0685 5219"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121380"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02wae9s43",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.searo.who.int/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/World_Health_Organization#Regional_offices"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "DL",
+        "country_subdivision_name": "Delhi",
+        "lat": 28.62137,
+        "lng": 77.2148,
+        "name": "New Delhi"
+      },
+      "geonames_id": 1261481
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "WHO Regional Office for South-East Asia"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WHO SEARO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "World Health Organization Regional Office for South-East Asia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "World Health Organization - India",
+      "type": "child",
+      "id": "https://ror.org/05vefar40"
+    },
+    {
+      "label": "World Health Organization",
+      "type": "parent",
+      "id": "https://ror.org/01f80g185"
+    },
+    {
+      "label": "World Health Organization - Bangladesh",
+      "type": "child",
+      "id": "https://ror.org/01yb6xh37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

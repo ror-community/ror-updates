@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chu-dijon.fr"
+  ],
+  "established": 1204,
+  "external_ids": [
+    {
+      "all": [
+        "grid.31151.37"
+      ],
+      "preferred": "grid.31151.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0593 7185"
+      ],
+      "preferred": "0000 0004 0593 7185",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945762"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0377z4z10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-dijon.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CHU Dijon Bourgogne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU de Dijon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Régional Universitaire de Dijon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Universitaire Dijon Bourgogne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agroécologie",
+      "type": "child",
+      "id": "https://ror.org/00mkad321"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "related",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

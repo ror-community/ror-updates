@@ -1,0 +1,148 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fnal.gov"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100006230"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417851.e"
+      ],
+      "preferred": "grid.417851.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0675 0679"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q337641"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020hgte69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fnal.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fermilab"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -88.31257,
+        "name": "Batavia"
+      },
+      "geonames_id": 4884192
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fermi National Accelerator Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fermilab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Accelerator Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Science Fermi National Accelerator Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Fermi National Accelerator Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fermilab Accelerator Complex",
+      "type": "child",
+      "id": "https://ror.org/0415p6x27"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Fermi Research Alliance",
+      "type": "parent",
+      "id": "https://ror.org/02j58f715"
+    },
+    {
+      "label": "Universities Research Association",
+      "type": "related",
+      "id": "https://ror.org/009djdq91"
+    },
+    {
+      "label": "University of Chicago",
+      "type": "related",
+      "id": "https://ror.org/024mw5h28"
+    },
+    {
+      "label": "Research Infrastructure for Fermilab Experiments",
+      "type": "related",
+      "id": "https://ror.org/02mebaz96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

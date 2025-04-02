@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lyon.archi.fr"
+  ],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466390.e"
+      ],
+      "preferred": "grid.466390.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1781 7025"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05mhx5h16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lyon.archi.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EAL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Architecture de Lyon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École d'architecture de Lyon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Environnement, ville, société",
+      "type": "child",
+      "id": "https://ror.org/0256r1e04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}
