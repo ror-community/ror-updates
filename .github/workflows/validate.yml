@@ -36,7 +36,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ror-community/validation-suite
-          ref: schema-2-1
           path: validation-suite
       - name: Get directory name
         if: "${{ github.event.inputs.directory-name != '' }}"
@@ -53,8 +52,8 @@ jobs:
           cd validation-suite
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          curl https://raw.githubusercontent.com/ror-community/ror-schema/refs/heads/schema-v2-1/ror_schema.json -o ror_schema.json
-          curl https://raw.githubusercontent.com/ror-community/ror-schema/refs/heads/schema-v2-1/ror_schema_v2_1.json -o ror_schema_v2_1.json
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/refs/heads/master/ror_schema.json -o ror_schema.json
+          curl https://raw.githubusercontent.com/ror-community/ror-schema/refs/heads/master/ror_schema_v2_1.json -o ror_schema_v2_1.json
           ls ../files/
           if [[ ${{ github.event.inputs.schema-version }} == 'v1' ]]; then
             echo "validating v1"
