@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462763.2"
+      ],
+      "preferred": "grid.462763.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9853 2953"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4393524"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fv25t22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cea.fr/Pages/le-cea/les-centres-cea/paris-saclay.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Saclay_Nuclear_Research_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.7326,
+        "lng": 2.16923,
+        "name": "Saclay"
+      },
+      "geonames_id": 2982043
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CEA Paris-Saclay - Etablissement de Saclay"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre CEA de Saclay"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Saclay Nuclear Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03n15ch10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

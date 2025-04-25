@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-04-02",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-04-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lle.ens-lyon.fr"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "Q52604520"
+      ],
+      "preferred": "Q52604520",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007e33924",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lle.ens-lyon.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LLE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de l'Éducation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAR 3773"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAR3773"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
