@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "ncar.ucar.edu"
-  ],
-  "established": 1930,
+  "domains": [],
+  "established": 1959,
   "external_ids": [
     {
       "all": [
-        "100005323"
+        "100005626"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.57828.30"
+        "grid.413455.2"
       ],
-      "preferred": "grid.57828.30",
+      "preferred": "grid.413455.2",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0637 9680"
+        "0000 0000 9807 2096"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q934589"
+        "Q3366349"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/05cvfcr44",
+  "id": "https://ror.org/04zhhyn23",
   "links": [
     {
       "type": "website",
-      "value": "https://ncar.ucar.edu/"
+      "value": "https://www2.ucar.edu/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/National_Center_for_Atmospheric_Research"
+      "value": "http://en.wikipedia.org/wiki/University_Corporation_for_Atmospheric_Research"
     }
   ],
   "locations": [
@@ -76,29 +74,15 @@
       "types": [
         "acronym"
       ],
-      "value": "NCAR"
+      "value": "UCAR"
     },
     {
       "lang": "en",
       "types": [
-        "label",
-        "ror_display"
+        "ror_display",
+        "label"
       ],
-      "value": "NSF National Center for Atmospheric Research"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "National Center for Atmospheric Research"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "National Science Foundation National Center for Atmospheric Research"
+      "value": "University Corporation for Atmospheric Research"
     }
   ],
   "relationships": [
@@ -106,6 +90,16 @@
       "label": "NSF NCAR Climate and Global Dynamics Laboratory",
       "type": "child",
       "id": "https://ror.org/03qrb1j36"
+    },
+    {
+      "label": "High Altitude Observatory",
+      "type": "child",
+      "id": "https://ror.org/03773p874"
+    },
+    {
+      "label": "NSF National Center for Atmospheric Research",
+      "type": "child",
+      "id": "https://ror.org/05cvfcr44"
     },
     {
       "label": "Atmospheric Chemistry Observations & Modeling",
@@ -133,29 +127,19 @@
       "id": "https://ror.org/05detrt70"
     },
     {
-      "label": "High Altitude Observatory",
+      "label": "NSF Unidata",
       "type": "child",
-      "id": "https://ror.org/03773p874"
+      "id": "https://ror.org/02nkrnd53"
     },
     {
-      "label": "University Corporation for Atmospheric Research",
-      "type": "parent",
-      "id": "https://ror.org/04zhhyn23"
-    },
-    {
-      "label": "Rocky Mountain Advanced Computing Consortium",
-      "type": "related",
-      "id": "https://ror.org/019q0z051"
-    },
-    {
-      "label": "Division of Atmospheric and Geospace Sciences",
-      "type": "parent",
-      "id": "https://ror.org/037gd6g64"
+      "label": "Cooperative Programs for the Advancement of Earth system science",
+      "type": "child",
+      "id": "https://ror.org/0015pkk46"
     }
   ],
   "status": "active",
   "types": [
-    "facility",
-    "funder"
+    "funder",
+    "nonprofit"
   ]
 }
