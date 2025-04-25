@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100005773"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467915.8"
+      ],
+      "preferred": "grid.467915.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9747 3509"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/015tnsz82",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.miseagrant.umich.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.27756,
+        "lng": -83.74088,
+        "name": "Ann Arbor"
+      },
+      "geonames_id": 4984247
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Michigan Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Michigan State University",
+      "type": "parent",
+      "id": "https://ror.org/05hs6h993"
+    },
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "University of Michigan",
+      "type": "parent",
+      "id": "https://ror.org/00jmfr291"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}
