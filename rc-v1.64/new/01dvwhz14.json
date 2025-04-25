@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -53,7 +53,13 @@
       "value": "Zimmer (Portugal)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Zimmer Biomet (United States)",
+      "type": "parent",
+      "id": "https://ror.org/02bn55144"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

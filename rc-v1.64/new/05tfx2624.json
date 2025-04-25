@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Estação Nacional de Fruticultura Vieira Natividade"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Nacional de Investigação Agrária e Veterinária",
+      "type": "parent",
+      "id": "https://ror.org/01fqrjt38"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

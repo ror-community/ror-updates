@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "medac Sucursal em Portugal"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medac (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/05e0gzh77"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

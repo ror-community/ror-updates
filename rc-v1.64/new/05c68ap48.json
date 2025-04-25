@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "ESEPF CIFAP"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola Superior de Educação de Paula Frassinetti",
+      "type": "parent",
+      "id": "https://ror.org/03a4d8673"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

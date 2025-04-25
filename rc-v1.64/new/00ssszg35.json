@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Instituto de Investigação em Ciências do Mar Okeanos"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade dos Açores",
+      "type": "parent",
+      "id": "https://ror.org/04276xd64"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

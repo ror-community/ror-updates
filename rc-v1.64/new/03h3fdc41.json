@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-24",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,33 @@
       "value": "苏州纳米科技协同创新中心"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Soochow University",
+      "type": "parent",
+      "id": "https://ror.org/05t8y2r12"
+    },
+    {
+      "label": "Suzhou Institute of Nano-tech and Nano-bionics",
+      "type": "related",
+      "id": "https://ror.org/0027d9x02"
+    },
+    {
+      "label": "University of Science and Technology of China",
+      "type": "related",
+      "id": "https://ror.org/04c4dkn09"
+    },
+    {
+      "label": "Xi'an Jiaotong University",
+      "type": "related",
+      "id": "https://ror.org/017zhmm22"
+    },
+    {
+      "label": "Southeast University",
+      "type": "related",
+      "id": "https://ror.org/04ct4d772"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

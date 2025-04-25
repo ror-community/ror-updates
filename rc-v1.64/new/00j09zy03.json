@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Universidade Católica Portuguesa Campus de Braga"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Católica Portuguesa",
+      "type": "parent",
+      "id": "https://ror.org/03b9snr86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

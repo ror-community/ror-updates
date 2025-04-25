@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Centro de História de Arte e Investigação Artística"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Évora",
+      "type": "parent",
+      "id": "https://ror.org/02gyps716"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

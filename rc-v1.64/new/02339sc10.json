@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "United Nations University Operating Unit on Policy-Driven Electronic Governance"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United Nations University",
+      "type": "parent",
+      "id": "https://ror.org/04kkx4y96"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

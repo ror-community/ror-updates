@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Centro de Oncologia dos Açores"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Governo dos Açores",
+      "type": "parent",
+      "id": "https://ror.org/049zrp193"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

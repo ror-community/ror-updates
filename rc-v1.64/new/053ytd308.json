@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Serviço de Documentação e Bibliotecas"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Minho",
+      "type": "parent",
+      "id": "https://ror.org/037wpkx04"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

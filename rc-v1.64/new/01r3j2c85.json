@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Unidade de Investigação e Desenvolvimento de Nefrologia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade do Porto",
+      "type": "parent",
+      "id": "https://ror.org/043pwc612"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

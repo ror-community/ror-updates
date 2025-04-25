@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Sistema Nacional de Informação Geográfica"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Direção Geral do Território",
+      "type": "parent",
+      "id": "https://ror.org/04n0kzv11"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

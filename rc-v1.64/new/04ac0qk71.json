@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-24",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -63,7 +63,13 @@
       "value": "江苏省财政厅"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Jiangsu Province",
+      "type": "parent",
+      "id": "https://ror.org/004svx814"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

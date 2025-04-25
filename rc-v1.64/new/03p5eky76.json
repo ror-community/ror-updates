@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-24",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -86,7 +86,18 @@
       "value": "现代农业产业技术体系"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture and Rural Affairs",
+      "type": "parent",
+      "id": "https://ror.org/05ckt8b96"
+    },
+    {
+      "label": "Ministry of Finance of the People's Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/02jnxpg76"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

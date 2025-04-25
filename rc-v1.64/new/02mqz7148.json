@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "3M (Portugal)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "3M (United States)",
+      "type": "parent",
+      "id": "https://ror.org/00mgss748"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

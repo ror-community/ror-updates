@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Rede Nacional de Computação Avançada"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fundacao de Computacao Cientifica Nacional",
+      "type": "parent",
+      "id": "https://ror.org/01jjfyf53"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

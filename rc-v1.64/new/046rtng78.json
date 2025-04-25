@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-24",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "广东省人力资源和社会保障厅"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "People's Government of Guangdong Province",
+      "type": "parent",
+      "id": "https://ror.org/050m0b055"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

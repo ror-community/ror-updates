@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Clinical Trial and Consulting (Portugal)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Clinical Trial and Consulting",
+      "type": "parent",
+      "id": "https://ror.org/00jyb5v21"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

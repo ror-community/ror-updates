@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-04-21",
+      "date": "2025-04-25",
       "schema_version": "2.1"
     }
   },
@@ -53,7 +53,13 @@
       "value": "Centro de Toxicogenómica e Saúde Humana"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Nova de Lisboa",
+      "type": "parent",
+      "id": "https://ror.org/02xankh89"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
