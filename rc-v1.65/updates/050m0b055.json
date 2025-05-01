@@ -9,39 +9,36 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "gdstc.gd.gov.cn"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 2005,
   "external_ids": [
     {
       "all": [
-        "501100007162",
-        "501100004000",
-        "501100021171",
-        "501100018540",
-        "501100012245",
-        "501100015956",
-        "501100012243",
-        "100012540",
-        "100016691"
+        "501100002912"
       ],
-      "preferred": "501100007162",
+      "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.454741.7"
+        "grid.453702.7"
       ],
-      "preferred": "grid.454741.7",
+      "preferred": "grid.453702.7",
       "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 4026"
+      ],
+      "preferred": null,
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/00tjzgn92",
+  "id": "https://ror.org/050m0b055",
   "links": [
     {
       "type": "website",
-      "value": "https://gdstc.gd.gov.cn"
+      "value": "http://www.gd.gov.cn/"
     }
   ],
   "locations": [
@@ -64,31 +61,22 @@
     {
       "lang": "en",
       "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Department of Science and Technology of Guangdong Province"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Guangdong Science and Technology Department"
-    },
-    {
-      "lang": "zh",
-      "types": [
+        "ror_display",
         "label"
       ],
-      "value": "广东省科学技术厅"
+      "value": "People's Government of Guangdong Province"
     }
   ],
   "relationships": [
     {
-      "label": "People's Government of Guangdong Province",
-      "type": "parent",
-      "id": "https://ror.org/050m0b055"
+      "label": "Human Resources and Social Security Department of Guangdong Provice",
+      "type": "child",
+      "id": "https://ror.org/046rtng78"
+    },
+    {
+      "label": "Department of Science and Technology of Guangdong Province",
+      "type": "child",
+      "id": "https://ror.org/00tjzgn92"
     }
   ],
   "status": "active",

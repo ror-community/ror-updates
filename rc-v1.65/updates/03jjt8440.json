@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2023-03-30",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -9,48 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "edu.shandong.gov.cn"
-  ],
+  "domains": [],
   "established": null,
   "external_ids": [
     {
       "all": [
-        "100012906",
-        "501100010040",
-        "501100010029",
-        "100012620"
+        "501100003091"
       ],
-      "preferred": "100012906",
+      "preferred": "501100003091",
       "type": "fundref"
     },
     {
       "all": [
-        "grid.454884.1"
+        "0000 0004 1758 1286"
       ],
-      "preferred": "grid.454884.1",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 1759 9574"
-      ],
-      "preferred": null,
+      "preferred": "0000 0004 1758 1286",
       "type": "isni"
     },
     {
       "all": [
-        "Q30297427"
+        "Q11044121"
       ],
-      "preferred": null,
+      "preferred": "Q11044121",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/01ksk4k18",
+  "id": "https://ror.org/03jjt8440",
   "links": [
     {
       "type": "website",
-      "value": "http://edu.shandong.gov.cn"
+      "value": "http://www.sd.gov.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E4%B8%9C%E7%9C%81%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C"
     }
   ],
   "locations": [
@@ -76,35 +68,28 @@
         "ror_display",
         "label"
       ],
-      "value": "Department of Education Shandong Province"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "SDPED"
+      "value": "Government of Shandong Province"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Shandong Province Department of Education"
+      "value": "People's Government of Shandong Province"
     },
     {
       "lang": "zh",
       "types": [
         "label"
       ],
-      "value": "山东省教育厅（省委教育工委）"
+      "value": "山东省人民政府"
     }
   ],
   "relationships": [
     {
-      "label": "Government of Shandong Province",
-      "type": "parent",
-      "id": "https://ror.org/03jjt8440"
+      "label": "Department of Education Shandong Province",
+      "type": "child",
+      "id": "https://ror.org/01ksk4k18"
     }
   ],
   "status": "active",
