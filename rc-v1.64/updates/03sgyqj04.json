@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "enscm.fr"
+  ],
+  "established": 1676,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418671.d"
+      ],
+      "preferred": "grid.418671.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 3544"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q948420"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03sgyqj04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enscm.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_de_chimie_de_Montpellier"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSCM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure de Chimie de Montpellier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Charles Gerhardt Montpellier",
+      "type": "child",
+      "id": "https://ror.org/028wq3277"
+    },
+    {
+      "label": "Institut Européen des Membranes",
+      "type": "child",
+      "id": "https://ror.org/04nmj9827"
+    },
+    {
+      "label": "Institut des Biomolécules Max Mousseron",
+      "type": "child",
+      "id": "https://ror.org/05d1e6v30"
+    },
+    {
+      "label": "Institut de Chimie Séparative de Marcoule",
+      "type": "child",
+      "id": "https://ror.org/04fr7pd94"
+    },
+    {
+      "label": "GDR NBODY : Problème quantique à N corps en chimie et physique",
+      "type": "related",
+      "id": "https://ror.org/01nrtdp55"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    },
+    {
+      "label": "Plateforme d'Analyses et de Caractérisations Chimie Balard",
+      "type": "child",
+      "id": "https://ror.org/02fpe6x37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

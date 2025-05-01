@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-04-27",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 8003 5480"
+      ],
+      "preferred": "0000 0004 8003 5480",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01zy07c70",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nct-dresden.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "NCT Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Center for Tumor Diseases Partner Site Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nationales Centrum für Tumorerkrankungen Dresden"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "German Cancer Research Center",
+      "type": "parent",
+      "id": "https://ror.org/04cdgtt98"
+    },
+    {
+      "label": "University Hospital Carl Gustav Carus",
+      "type": "parent",
+      "id": "https://ror.org/04za5zm41"
+    },
+    {
+      "label": "Technische Universität Dresden",
+      "type": "parent",
+      "id": "https://ror.org/042aqky30"
+    },
+    {
+      "label": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "type": "parent",
+      "id": "https://ror.org/01zy2cs03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

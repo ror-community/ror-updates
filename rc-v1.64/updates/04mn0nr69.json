@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "icar.cnrs.fr"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469454.e"
+      ],
+      "preferred": "grid.469454.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8952 2454"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30264828"
+      ],
+      "preferred": "Q30264828",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mn0nr69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://icar.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "ICAR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Interactions, Corpus, Apprentissages, Représentations"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5191"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5191"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Lumière Lyon 2",
+      "type": "parent",
+      "id": "https://ror.org/03rth4p18"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

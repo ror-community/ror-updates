@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 8060 7653"
+      ],
+      "preferred": "0000 0004 8060 7653",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00pamm417",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ciusss-capitalenationale.gouv.qc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_int%C3%A9gr%C3%A9_de_sant%C3%A9_et_de_services_sociaux"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CIUSSS de la Capitale-Nationale"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre intégré universitaire de santé et de services sociaux de la Capitale-Nationale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de réadaptation en dépendance de Québec",
+      "type": "child",
+      "id": "https://ror.org/01ca3xs90"
+    },
+    {
+      "label": "Institut Universitaire en Santé Mentale de Québec",
+      "type": "child",
+      "id": "https://ror.org/03mt5nv96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

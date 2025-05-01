@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lneg.pt"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425302.2"
+      ],
+      "preferred": "grid.425302.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2106 3068"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00w7v1v77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lneg.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LNEG"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratório Nacional de Energia e Geologia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Laboratory of Energy and Geology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratório de Energia Solar",
+      "type": "child",
+      "id": "https://ror.org/003zsfh57"
+    },
+    {
+      "label": "Infraestrutura de Investigação para a Biomassa e a Bioenergia",
+      "type": "child",
+      "id": "https://ror.org/02jtacs89"
+    },
+    {
+      "label": "Infraestrutura Nacional de Investigação para Energia Solar de Concentração",
+      "type": "child",
+      "id": "https://ror.org/04fmw2x94"
+    },
+    {
+      "label": "Research Infrastructure on Integration of Solar Energy Systems in Buildings",
+      "type": "child",
+      "id": "https://ror.org/05ddx0m09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

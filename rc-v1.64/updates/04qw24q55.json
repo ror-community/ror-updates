@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wur.nl"
+  ],
+  "established": 1918,
+  "external_ids": [
+    {
+      "all": [
+        "501100006626",
+        "501100001830",
+        "501100004890",
+        "501100004891"
+      ],
+      "preferred": "501100006626",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4818.5"
+      ],
+      "preferred": "grid.4818.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0791 5666"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q422208"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qw24q55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wur.nl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Wageningen_University_and_Research_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Gelderland",
+        "lat": 51.97,
+        "lng": 5.66667,
+        "name": "Wageningen"
+      },
+      "geonames_id": 2745088
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WUR"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Wageningen Universiteit en Researchcentrum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wageningen University & Research"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Wageningen University & Research centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wageningen University and Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "4TU",
+      "type": "related",
+      "id": "https://ror.org/03rsncr94"
+    },
+    {
+      "label": "Wageningen Marine Research",
+      "type": "child",
+      "id": "https://ror.org/013dzwk66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

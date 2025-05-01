@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pimmswia.gov.pl"
+  ],
+  "established": 2023,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0577 6414"
+      ],
+      "preferred": "0000 0004 0577 6414",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q106462766"
+      ],
+      "preferred": "Q106462766",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004z7y014",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://pimmswia.gov.pl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://pl.wikipedia.org/wiki/Pa%C5%84stwowy_Instytut_Medyczny_Ministerstwa_Spraw_Wewn%C4%99trznych_i_Administracji"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Mazovia",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "name": "Warsaw"
+      },
+      "geonames_id": 756135
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Medical Institute of the Ministry of Interior and Administration"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "acronym"
+      ],
+      "value": "PIM MSWiA"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Państwowy Instytut Medyczny Ministerstwa Spraw Wewnętrznych i Administracji"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Interior and Administration",
+      "type": "parent",
+      "id": "https://ror.org/03c86nx70"
+    },
+    {
+      "label": "Central Clinical Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/03b45mr48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

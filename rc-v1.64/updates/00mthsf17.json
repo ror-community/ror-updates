@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100005261"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.157868.5"
+      ],
+      "preferred": "grid.157868.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9961 060X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q55596074"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00mthsf17",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-montpellier.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHRU MTP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre Hospitalier Universitaire de Montpellier"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Hospital of Montpellier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Arnaud de Villeneuve",
+      "type": "child",
+      "id": "https://ror.org/04m6sq715"
+    },
+    {
+      "label": "Hôpital Lapeyronie",
+      "type": "child",
+      "id": "https://ror.org/03xzagw65"
+    },
+    {
+      "label": "Hôpital Saint Eloi",
+      "type": "child",
+      "id": "https://ror.org/04pwyfk22"
+    },
+    {
+      "label": "Université de Montpellier",
+      "type": "related",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Institute for Regenerative Medicine & Biotherapy",
+      "type": "related",
+      "id": "https://ror.org/00b8mh310"
+    },
+    {
+      "label": "Physiologie et Médecine Expérimentale du Coeur et des Muscles",
+      "type": "related",
+      "id": "https://ror.org/003sscq03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

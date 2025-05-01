@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100000159"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457839.4"
+      ],
+      "preferred": "grid.457839.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/037gd6g64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nsf.gov/div/index.jsp?div=ags"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Division of Atmospheric and Geospace Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSF AGS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Directorate for Geosciences",
+      "type": "parent",
+      "id": "https://ror.org/05p847d66"
+    },
+    {
+      "label": "NSF National Center for Atmospheric Research",
+      "type": "child",
+      "id": "https://ror.org/05cvfcr44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

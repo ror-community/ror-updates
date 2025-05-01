@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0659 7002"
+      ],
+      "preferred": "0000 0001 0659 7002",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3407026"
+      ],
+      "preferred": "Q3407026",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04frnva71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wcrp-climate.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/World_Climate_Research_Programme"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Geneva",
+        "lat": 46.20222,
+        "lng": 6.14569,
+        "name": "Geneva"
+      },
+      "geonames_id": 2660646
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WCRP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "World Climate Research Program"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "World Climate Research Programme"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "WCRP-CMIP International Project Office",
+      "type": "child",
+      "id": "https://ror.org/000fg4e24"
+    },
+    {
+      "label": "World Meteorological Organization",
+      "type": "parent",
+      "id": "https://ror.org/011pjwf87"
+    },
+    {
+      "label": "International Science Council",
+      "type": "parent",
+      "id": "https://ror.org/034s44556"
+    },
+    {
+      "label": "Intergovernmental Oceanographic Commission of UNESCO",
+      "type": "parent",
+      "id": "https://ror.org/01qk7v094"
+    },
+    {
+      "label": "WCRP-ESMO International Project Office",
+      "type": "child",
+      "id": "https://ror.org/01tqb7m13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

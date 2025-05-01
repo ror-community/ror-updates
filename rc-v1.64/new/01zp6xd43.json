@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-04-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ln.gov.cn"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017439",
+        "501100018617"
+      ],
+      "preferred": "100017439",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01zp6xd43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ln.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "LN",
+        "country_subdivision_name": "Liaoning",
+        "lat": 41.79222,
+        "lng": 123.43278,
+        "name": "Shenyang"
+      },
+      "geonames_id": 2034937
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "The People's Government of Liaoning Province"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "辽宁省人民政府"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Science and Technology of Liaoning Province",
+      "type": "child",
+      "id": "https://ror.org/02f09cx53"
+    },
+    {
+      "label": "Educational Department of Liaoning Province",
+      "type": "child",
+      "id": "https://ror.org/0022v2454"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

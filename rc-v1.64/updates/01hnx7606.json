@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-29",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "atmo-france.org"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0641 6103"
+      ],
+      "preferred": "0000 0004 0641 6103",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21427263"
+      ],
+      "preferred": "Q21427263",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01hnx7606",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.atmo-france.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Atmo_France"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Atmo Federation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Atmo France"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Atmo France Federation"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Fédération Atmo"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Fédération Atmo France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AtmoSud",
+      "type": "child",
+      "id": "https://ror.org/032wz9653"
+    },
+    {
+      "label": "Atmo Guyane",
+      "type": "child",
+      "id": "https://ror.org/05p4hdr45"
+    },
+    {
+      "label": "Atmo Hauts-de-France",
+      "type": "child",
+      "id": "https://ror.org/00j3wcb35"
+    },
+    {
+      "label": "Atmo Normandie",
+      "type": "child",
+      "id": "https://ror.org/040hzz705"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

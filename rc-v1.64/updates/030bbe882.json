@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "udelar.edu.uy"
+  ],
+  "established": 1849,
+  "external_ids": [
+    {
+      "all": [
+        "501100006048"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11630.35"
+      ],
+      "preferred": "grid.11630.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2165 7640"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1856423"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030bbe882",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://udelar.edu.uy"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Republic_(Uruguay)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "UY",
+        "country_name": "Uruguay",
+        "country_subdivision_code": "MO",
+        "country_subdivision_name": "Montevideo Department",
+        "lat": -34.90328,
+        "lng": -56.18816,
+        "name": "Montevideo"
+      },
+      "geonames_id": 3441575
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidad de la República"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universidad de la República de Uruguay"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of the Republic"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "University of the Republic of Uruguay"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Programa de Desarrollo de las Ciencias Básicas",
+      "type": "child",
+      "id": "https://ror.org/00jkr8r49"
+    },
+    {
+      "label": "Hospital de Clínicas",
+      "type": "related",
+      "id": "https://ror.org/04jdthe46"
+    },
+    {
+      "label": "FundaQuim",
+      "type": "related",
+      "id": "https://ror.org/03b3ph316"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "100014537"
+      ],
+      "preferred": "100014537",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484472.9"
+      ],
+      "preferred": "grid.484472.9",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/04437j066",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sservi.nasa.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.35411,
+        "lng": -121.95524,
+        "name": "Santa Clara"
+      },
+      "geonames_id": 5393015
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NASA Lunar Science Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NLSI"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SSERVI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Solar System Exploration Research Virtual Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "Institute for Modeling Plasma, Atmospheres and Cosmic Dust",
+      "type": "related",
+      "id": "https://ror.org/02y798n84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

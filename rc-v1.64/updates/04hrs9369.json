@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.433120.7"
+      ],
+      "preferred": "grid.433120.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30255680"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04hrs9369",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cnrs.fr/languedoc-roussillon/index.htm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DR13"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Languedoc Roussillon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UMR Botanique et Modélisation de l’Architecture des Plantes et des végétations",
+      "type": "child",
+      "id": "https://ror.org/020nks034"
+    },
+    {
+      "label": "Institut de Recherche en Infectiologie de Montpellier",
+      "type": "child",
+      "id": "https://ror.org/036eg1q44"
+    },
+    {
+      "label": "Direction Générale Déléguée aux Ressources",
+      "type": "parent",
+      "id": "https://ror.org/03yz3tz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

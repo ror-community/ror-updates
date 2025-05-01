@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lnec.pt"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100020033"
+      ],
+      "preferred": "501100020033",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.16326.30"
+      ],
+      "preferred": "grid.16326.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0392 1227"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214525"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03bvw9g02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lnec.pt"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Laborat%C3%B3rio_Nacional_de_Engenharia_Civil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LNEC"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratório Nacional de Engenharia Civil"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Laboratory for Civil Engineering"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro de Instrumentação Científica",
+      "type": "child",
+      "id": "https://ror.org/02qdtzh46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420732.0"
+      ],
+      "preferred": "grid.420732.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0621 4067"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152767"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03mt5nv96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ciusss-capitalenationale.gouv.qc.ca/a-propos/cucr/iusmq"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre hospitalier Robert-Giffard"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IUSMQ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Universitaire en Santé Mentale de Québec"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Institute in Mental Health of Quebec"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    },
+    {
+      "label": "Centre intégré universitaire de santé et de services sociaux de la Capitale-Nationale",
+      "type": "parent",
+      "id": "https://ror.org/00pamm417"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

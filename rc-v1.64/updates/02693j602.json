@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 9452 8287"
+      ],
+      "preferred": "0000 0000 9452 8287",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16643770"
+      ],
+      "preferred": "Q16643770",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02693j602",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.icm.unicancer.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Regional du Cancer de Montpellier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UniCancer Group",
+      "type": "parent",
+      "id": "https://ror.org/04vhgtv41"
+    },
+    {
+      "label": "Institut de Recherche en Cancérologie de Montpellier",
+      "type": "child",
+      "id": "https://ror.org/03capj968"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

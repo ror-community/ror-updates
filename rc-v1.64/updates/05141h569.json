@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inacap.cl"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.441840.d"
+      ],
+      "preferred": "grid.441840.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2169 4839"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30294001"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05141h569",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inacap.cl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INACAP"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Capacitación Profesional"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universidad Tecnológica de Chile INACAP",
+      "type": "child",
+      "id": "https://ror.org/02e698f45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

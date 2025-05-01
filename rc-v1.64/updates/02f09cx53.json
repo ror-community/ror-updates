@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100012131"
+      ],
+      "preferred": "501100012131",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483825.0"
+      ],
+      "preferred": "grid.483825.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1761 2193"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02f09cx53",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lninfo.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "LN",
+        "country_subdivision_name": "Liaoning",
+        "lat": 41.79222,
+        "lng": 123.43278,
+        "name": "Shenyang"
+      },
+      "geonames_id": 2034937
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Science and Technology of Liaoning Province"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "辽宁省科学技术厅"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The People's Government of Liaoning Province",
+      "type": "parent",
+      "id": "https://ror.org/01zp6xd43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

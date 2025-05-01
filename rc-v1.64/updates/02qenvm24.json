@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chanzuckerberg.com"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "100014989"
+      ],
+      "preferred": "100014989",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507326.5"
+      ],
+      "preferred": "grid.507326.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6090 4941"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21623039"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qenvm24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://chanzuckerberg.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Chan_Zuckerberg_Initiative"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.48522,
+        "lng": -122.23635,
+        "name": "Redwood City"
+      },
+      "geonames_id": 5386834
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CZI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Chan Zuckerberg Initiative"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chan Zuckerberg Initiative (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chan Zuckerberg Biohub San Francisco",
+      "type": "child",
+      "id": "https://ror.org/00knt4f32"
+    },
+    {
+      "label": "Chan Zuckerberg Biohub New York",
+      "type": "child",
+      "id": "https://ror.org/0263t7p64"
+    },
+    {
+      "label": "Chan Zuckerberg Biohub Chicago",
+      "type": "child",
+      "id": "https://ror.org/014nxkk19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

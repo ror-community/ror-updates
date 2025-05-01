@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-04-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507329.a"
+      ],
+      "preferred": "grid.507329.a",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05ke5hb07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tu-dresden.de/med/mf/plid"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PLID"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Paul Langerhans Institut Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Paul Langerhans Institute Dresden"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Zentrum München",
+      "type": "parent",
+      "id": "https://ror.org/00cfam450"
+    },
+    {
+      "label": "Technische Universität Dresden",
+      "type": "parent",
+      "id": "https://ror.org/042aqky30"
+    },
+    {
+      "label": "University Hospital Carl Gustav Carus",
+      "type": "parent",
+      "id": "https://ror.org/04za5zm41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
