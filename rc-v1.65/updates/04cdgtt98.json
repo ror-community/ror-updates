@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "100008658",
+        "100018027"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7497.d"
+      ],
+      "preferred": "grid.7497.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0492 0584"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q449325"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04cdgtt98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dkfz.de/en/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/German_Cancer_Research_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DKFZ"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Krebsforschungszentrum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Cancer Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "DKFZ-ZMBH Alliance",
+      "type": "child",
+      "id": "https://ror.org/05x8b4491"
+    },
+    {
+      "label": "Heidelberger Institut für Radioonkologie",
+      "type": "child",
+      "id": "https://ror.org/015wgw417"
+    },
+    {
+      "label": "Hopp Children's Cancer Center Heidelberg",
+      "type": "child",
+      "id": "https://ror.org/02cypar22"
+    },
+    {
+      "label": "Nationales Centrum für Tumorerkrankungen Dresden",
+      "type": "child",
+      "id": "https://ror.org/01zy07c70"
+    },
+    {
+      "label": "Helmholtz Institute for Translational Oncology Mainz",
+      "type": "child",
+      "id": "https://ror.org/054qg2939"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

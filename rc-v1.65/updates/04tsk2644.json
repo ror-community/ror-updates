@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "501100006254",
+        "501100006551",
+        "501100007200",
+        "501100008835"
+      ],
+      "preferred": "501100006254",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5570.7"
+      ],
+      "preferred": "grid.5570.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0490 981X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q309948"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04tsk2644",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ruhr-uni-bochum.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ruhr_University_Bochum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.48165,
+        "lng": 7.21648,
+        "name": "Bochum"
+      },
+      "geonames_id": 2947416
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RUB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ruhr University Bochum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Ruhr-Universität Bochum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Advanced Study in the Humanities Essen",
+      "type": "child",
+      "id": "https://ror.org/01z1qnm06"
+    },
+    {
+      "label": "Institute for Prevention and Occupational Medicine",
+      "type": "child",
+      "id": "https://ror.org/03jqa2c59"
+    },
+    {
+      "label": "University Hospitals of the Ruhr-University of Bochum",
+      "type": "related",
+      "id": "https://ror.org/03zcpvf19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

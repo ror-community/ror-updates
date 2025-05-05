@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ucr.edu"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "100007602",
+        "100009035",
+        "100007601",
+        "100005909",
+        "100011115"
+      ],
+      "preferred": "100007602",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266097.c"
+      ],
+      "preferred": "grid.266097.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2222 1582"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1075148"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03nawhv43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucr.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_California,_Riverside"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 33.95335,
+        "lng": -117.39616,
+        "name": "Riverside"
+      },
+      "geonames_id": 5387877
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UC Riverside"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCR"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de California en Riverside"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of California, Riverside"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Californie à Riverside"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of California System",
+      "type": "parent",
+      "id": "https://ror.org/00pjdza24"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

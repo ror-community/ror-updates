@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100020570"
+      ],
+      "preferred": "100020570",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412519.a"
+      ],
+      "preferred": "grid.412519.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2166 9094"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q600634"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025vmq686",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pucrs.br"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_do_Rio_Grande_do_Sul"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "RS",
+        "country_subdivision_name": "Rio Grande do Sul",
+        "lat": -30.03283,
+        "lng": -51.23019,
+        "name": "Porto Alegre"
+      },
+      "geonames_id": 3452925
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PUCRS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pontifical Catholic University of Rio Grande do Sul"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pontifícia Universidade Católica do Rio Grande do Sul"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto do Cérebro",
+      "type": "child",
+      "id": "https://ror.org/007j2dm88"
+    },
+    {
+      "label": "Hospital São Lucas da PUCRS",
+      "type": "related",
+      "id": "https://ror.org/0353n6963"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

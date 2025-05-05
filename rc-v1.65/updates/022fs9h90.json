@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unifr.ch"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "501100005869",
+        "501100013788"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8534.a"
+      ],
+      "preferred": "grid.8534.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0478 1713"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q36188"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022fs9h90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unifr.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Fribourg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "FR",
+        "country_subdivision_name": "Fribourg",
+        "lat": 46.80237,
+        "lng": 7.15128,
+        "name": "Fribourg"
+      },
+      "geonames_id": 2660718
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Fribourg"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università di Friburgo"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Freiburg"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Fribourg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Adolphe Merkle Institute",
+      "type": "child",
+      "id": "https://ror.org/01yx62742"
+    },
+    {
+      "label": "HFR Freiburg Kantonsspital",
+      "type": "related",
+      "id": "https://ror.org/00fz8k419"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

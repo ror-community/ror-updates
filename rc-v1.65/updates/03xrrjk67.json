@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1831,
+  "external_ids": [
+    {
+      "all": [
+        "100011531",
+        "100015474",
+        "100017506"
+      ],
+      "preferred": "100011531",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411015.0"
+      ],
+      "preferred": "grid.411015.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0727 7545"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q492318"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03xrrjk67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ua.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Alabama"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 33.20984,
+        "lng": -87.56917,
+        "name": "Tuscaloosa"
+      },
+      "geonames_id": 4094455
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Alabama"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Alabama"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'Alabama"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Alabama System",
+      "type": "parent",
+      "id": "https://ror.org/051fvmk98"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

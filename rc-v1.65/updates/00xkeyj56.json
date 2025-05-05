@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kent.ac.uk"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "501100001316",
+        "501100020882"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9759.2"
+      ],
+      "preferred": "grid.9759.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2232 2818"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1516684"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xkeyj56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kent.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Kent"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.27904,
+        "lng": 1.07992,
+        "name": "Canterbury"
+      },
+      "geonames_id": 2653877
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Kent"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Kent at Canterbury"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kent and Medway Medical School",
+      "type": "child",
+      "id": "https://ror.org/049p9j193"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

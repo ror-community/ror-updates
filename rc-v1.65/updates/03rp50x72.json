@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wits.ac.za"
+  ],
+  "established": 1922,
+  "external_ids": [
+    {
+      "all": [
+        "100009467",
+        "501100001336",
+        "501100010241"
+      ],
+      "preferred": "100009467",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11951.3d"
+      ],
+      "preferred": "grid.11951.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 1135"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q534643"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03rp50x72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wits.ac.za"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Witwatersrand"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "GP",
+        "country_subdivision_name": "Gauteng",
+        "lat": -26.20227,
+        "lng": 28.04363,
+        "name": "Johannesburg"
+      },
+      "geonames_id": 993800
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of the Witwatersrand"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "Wits"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wits University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agincourt Health and Socio-Demographic Surveillance System",
+      "type": "child",
+      "id": "https://ror.org/01vga2998"
+    },
+    {
+      "label": "Southern Centre For Inequality Studies",
+      "type": "child",
+      "id": "https://ror.org/02ayn5869"
+    },
+    {
+      "label": "Chris Hani Baragwanath Hospital",
+      "type": "related",
+      "id": "https://ror.org/02g48bh60"
+    },
+    {
+      "label": "Helen Joseph Hospital",
+      "type": "related",
+      "id": "https://ror.org/04nrs5002"
+    },
+    {
+      "label": "Johannesburg Hospital",
+      "type": "related",
+      "id": "https://ror.org/047x96110"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

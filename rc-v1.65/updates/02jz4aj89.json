@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "maastrichtuniversity.nl"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "501100001835",
+        "501100011097"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5012.6"
+      ],
+      "preferred": "grid.5012.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0481 6099"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1137652"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jz4aj89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maastrichtuniversity.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Maastricht_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "LI",
+        "country_subdivision_name": "Limburg",
+        "lat": 50.84833,
+        "lng": 5.68889,
+        "name": "Maastricht"
+      },
+      "geonames_id": 2751283
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maastricht University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UM"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit Maastricht"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Catharina Ziekenhuis",
+      "type": "related",
+      "id": "https://ror.org/01qavk531"
+    },
+    {
+      "label": "Maastricht University Medical Centre",
+      "type": "related",
+      "id": "https://ror.org/02d9ce178"
+    },
+    {
+      "label": "Máxima Medisch Centrum",
+      "type": "related",
+      "id": "https://ror.org/02x6rcb77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

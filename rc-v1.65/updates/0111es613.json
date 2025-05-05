@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1567,
+  "external_ids": [
+    {
+      "all": [
+        "501100024028"
+      ],
+      "preferred": "501100024028",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410526.4"
+      ],
+      "preferred": "grid.410526.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0277 7938"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30253672"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0111es613",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.comunidad.madrid/hospital/gregoriomaranon/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hospital_General_Universitario_Gregorio_Mara%C3%B1%C3%B3n"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital General Universitario Gregorio Marañón"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    },
+    {
+      "label": "Universidad Complutense de Madrid",
+      "type": "related",
+      "id": "https://ror.org/02p0gd045"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

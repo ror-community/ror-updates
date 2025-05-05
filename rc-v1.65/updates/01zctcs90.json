@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "501100000775",
+        "100012346"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1236.6"
+      ],
+      "preferred": "grid.1236.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0790 9434"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q152057"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01zctcs90",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bp.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/BP"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "BP (United Kingdom)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "BP Amoco"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "The British Petroleum Company"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "BP (Canada)",
+      "type": "child",
+      "id": "https://ror.org/051177492"
+    },
+    {
+      "label": "BP (France)",
+      "type": "child",
+      "id": "https://ror.org/03f9m1k43"
+    },
+    {
+      "label": "BP (Germany)",
+      "type": "child",
+      "id": "https://ror.org/048q66y67"
+    },
+    {
+      "label": "BP (Spain)",
+      "type": "child",
+      "id": "https://ror.org/05dfvhh79"
+    },
+    {
+      "label": "BP (United States)",
+      "type": "child",
+      "id": "https://ror.org/051659894"
+    },
+    {
+      "label": "Castrol (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/0503ft796"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

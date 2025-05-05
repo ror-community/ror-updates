@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "charlotte.edu",
+    "uncc.edu"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100010942",
+        "100016294"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266859.6"
+      ],
+      "preferred": "grid.266859.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8598 2218"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1783178"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04dawnj30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.charlotte.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.22709,
+        "lng": -80.84313,
+        "name": "Charlotte"
+      },
+      "geonames_id": 4460243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNCC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Carolina del Norte en Charlotte"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of North Carolina at Charlotte"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de caroline du nord à charlotte"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

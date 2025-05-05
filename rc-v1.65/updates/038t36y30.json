@@ -1,0 +1,144 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-heidelberg.de"
+  ],
+  "established": 1386,
+  "external_ids": [
+    {
+      "all": [
+        "501100001661",
+        "501100001662",
+        "501100005858",
+        "501100003801",
+        "501100007678",
+        "501100010441",
+        "501100021374"
+      ],
+      "preferred": "501100001661",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7700.0"
+      ],
+      "preferred": "grid.7700.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2190 4373"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q151510",
+        "Q571207"
+      ],
+      "preferred": "Q151510",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038t36y30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-heidelberg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Heidelberg_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Heidelberg University"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Ruprecht-Karls-Universität Heidelberg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "DKFZ-ZMBH Alliance",
+      "type": "child",
+      "id": "https://ror.org/05x8b4491"
+    },
+    {
+      "label": "Heidelberger Institut für Radioonkologie",
+      "type": "child",
+      "id": "https://ror.org/015wgw417"
+    },
+    {
+      "label": "Hopp Children's Cancer Center Heidelberg",
+      "type": "child",
+      "id": "https://ror.org/02cypar22"
+    },
+    {
+      "label": "Institute for German, European and International Medical Law, Public Health Law and Bioethics",
+      "type": "child",
+      "id": "https://ror.org/003xvvt95"
+    },
+    {
+      "label": "University Hospital Heidelberg",
+      "type": "related",
+      "id": "https://ror.org/013czdx64"
+    },
+    {
+      "label": "University Medical Centre Mannheim",
+      "type": "related",
+      "id": "https://ror.org/05sxbyd35"
+    },
+    {
+      "label": "Westpfalz Klinikum",
+      "type": "related",
+      "id": "https://ror.org/00ma6s786"
+    },
+    {
+      "label": "Medizinische Fakultät Mannheim",
+      "type": "related",
+      "id": "https://ror.org/02m1z0a87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

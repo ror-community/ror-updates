@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "501100007179",
+        "501100010489"
+      ],
+      "preferred": "501100010489",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410869.2"
+      ],
+      "preferred": "grid.410869.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1766 7522"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05b9pgt88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.actrec.gov.in/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "MH",
+        "country_subdivision_name": "Maharashtra",
+        "lat": 19.07283,
+        "lng": 72.88261,
+        "name": "Mumbai"
+      },
+      "geonames_id": 1275339
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ACTREC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Advanced Centre for Treatment, Research and Education in Cancer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tata Memorial Hospital",
+      "type": "parent",
+      "id": "https://ror.org/010842375"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

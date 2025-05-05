@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "100008247",
+        "501100006208",
+        "501100002101",
+        "100008248",
+        "100018641",
+        "100018629",
+        "100018639",
+        "100019334"
+      ],
+      "preferred": "100008247",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.29980.3a"
+      ],
+      "preferred": "grid.29980.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 7830"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1201513"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jmxt844",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.otago.ac.nz/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Otago"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "OTA",
+        "country_subdivision_name": "Otago",
+        "lat": -45.87416,
+        "lng": 170.50361,
+        "name": "Dunedin"
+      },
+      "geonames_id": 2191562
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Otago"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Riddet Institute",
+      "type": "child",
+      "id": "https://ror.org/053336823"
+    },
+    {
+      "label": "The Dodd-Walls Centre for Photonic and Quantum Technologies",
+      "type": "child",
+      "id": "https://ror.org/05p61mv27"
+    },
+    {
+      "label": "Dunedin Public Hospital",
+      "type": "related",
+      "id": "https://ror.org/029gprt07"
+    },
+    {
+      "label": "Wellington Hospital",
+      "type": "related",
+      "id": "https://ror.org/007n45g27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

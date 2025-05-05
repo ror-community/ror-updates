@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "501100008725",
+        "501100016233"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418903.7"
+      ],
+      "preferred": "grid.418903.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2227 8271"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0288swk05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.if-pan.krakow.pl/ifpan_ww/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "12",
+        "country_subdivision_name": "Lesser Poland",
+        "lat": 50.06143,
+        "lng": 19.93658,
+        "name": "Krakow"
+      },
+      "geonames_id": 3094802
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IF PAN"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Farmakologii im. Jerzego Maja Polskiej Akademii Nauk"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maj Institute of Pharmacology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

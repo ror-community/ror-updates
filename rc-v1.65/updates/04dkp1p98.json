@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "501100018901"
+      ],
+      "preferred": "501100018901",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1527.1"
+      ],
+      "preferred": "grid.1527.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1086 859X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q923429"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04dkp1p98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bom.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bureau_of_Meteorology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Australia Bureau of Meteorology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Australian Bureau of Meteorology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bureau of Meteorology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Collaboration for Australian Weather and Climate Research",
+      "type": "child",
+      "id": "https://ror.org/01ew37b76"
+    },
+    {
+      "label": "Consortium for Ocean-Sea Ice Modelling in Australia",
+      "type": "related",
+      "id": "https://ror.org/00qq77n27"
+    },
+    {
+      "label": "Integrated Marine Observing System",
+      "type": "related",
+      "id": "https://ror.org/010x3gp67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

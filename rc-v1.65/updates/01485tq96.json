@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uwyo.edu"
+  ],
+  "established": 1886,
+  "external_ids": [
+    {
+      "all": [
+        "100008106",
+        "100009212",
+        "100010598",
+        "100008107",
+        "100008108",
+        "100017825",
+        "100015214",
+        "100016515"
+      ],
+      "preferred": "100008106",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.135963.b"
+      ],
+      "preferred": "grid.135963.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2109 0381"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1326975"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01485tq96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uwyo.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Wyoming"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WY",
+        "country_subdivision_name": "Wyoming",
+        "lat": 41.31137,
+        "lng": -105.5911,
+        "name": "Laramie"
+      },
+      "geonames_id": 5830062
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UW"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Wyoming"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Wyoming"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du wyoming"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wyoming Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/04jaeeg73"
+    },
+    {
+      "label": "Konza Prairie Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/02wavzm11"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

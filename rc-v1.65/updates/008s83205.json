@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uab.edu"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100008333",
+        "100011305",
+        "100001363",
+        "100005685",
+        "100013236",
+        "100011120",
+        "100011221",
+        "100011488",
+        "100016455"
+      ],
+      "preferred": "100008333",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265892.2"
+      ],
+      "preferred": "grid.265892.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0634 4187"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1472663"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008s83205",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uab.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 33.52066,
+        "lng": -86.80249,
+        "name": "Birmingham"
+      },
+      "geonames_id": 4049979
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Alabama at Birmingham"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'alabama à birmingham"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Alabama System",
+      "type": "parent",
+      "id": "https://ror.org/051fvmk98"
+    },
+    {
+      "label": "Children's of Alabama",
+      "type": "related",
+      "id": "https://ror.org/053bp9m60"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    },
+    {
+      "label": "University of Alabama at Birmingham Hospital",
+      "type": "related",
+      "id": "https://ror.org/01rm42p40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

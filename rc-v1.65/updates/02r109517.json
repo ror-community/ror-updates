@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "100007273",
+        "100020424",
+        "100019236",
+        "100021780",
+        "100021788",
+        "100021795",
+        "100021802",
+        "100021814",
+        "100021829"
+      ],
+      "preferred": "100020424",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.471410.7"
+      ],
+      "preferred": "grid.471410.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 7643"
+      ],
+      "preferred": "0000 0001 2179 7643",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3567094"
+      ],
+      "preferred": "Q3567094",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02r109517",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://weill.cornell.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Weill_Cornell_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WCM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Weill Cornell Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cornell University",
+      "type": "parent",
+      "id": "https://ror.org/05bnh6r87"
+    },
+    {
+      "label": "Hospital for Special Surgery",
+      "type": "related",
+      "id": "https://ror.org/03zjqec80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

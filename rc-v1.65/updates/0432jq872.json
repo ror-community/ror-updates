@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "msstate.edu"
+  ],
+  "established": 1878,
+  "external_ids": [
+    {
+      "all": [
+        "100007250",
+        "100008400",
+        "100008505",
+        "100006449",
+        "100012591",
+        "100011143",
+        "100013671"
+      ],
+      "preferred": "100007250",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.260120.7"
+      ],
+      "preferred": "grid.260120.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0816 8287"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1939211"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0432jq872",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.msstate.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Mississippi_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MS",
+        "country_subdivision_name": "Mississippi",
+        "lat": 33.45049,
+        "lng": -88.81961,
+        "name": "Starkville"
+      },
+      "geonames_id": 4447161
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mississippi State University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Mississippi State University of Agriculture and Applied Science"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État du Mississippi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mississippi Institutions of Higher Learning",
+      "type": "parent",
+      "id": "https://ror.org/04kqgqa72"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    },
+    {
+      "label": "Mississippi Space Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/0249rpb20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

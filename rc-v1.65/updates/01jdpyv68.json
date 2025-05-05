@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "501100005690",
+        "501100021210"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11749.3a"
+      ],
+      "preferred": "grid.11749.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2167 7588"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q700758"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jdpyv68",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uni-saarland.de/en/home.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Saarland_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SL",
+        "country_subdivision_name": "Saarland",
+        "lat": 49.23262,
+        "lng": 7.00982,
+        "name": "Saarbrücken"
+      },
+      "geonames_id": 2842647
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Saarland University"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität des Saarlandes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Europa-Institut",
+      "type": "child",
+      "id": "https://ror.org/02dm92c46"
+    },
+    {
+      "label": "European School of Materials",
+      "type": "child",
+      "id": "https://ror.org/002n9qz56"
+    },
+    {
+      "label": "Klinikum Saarbrücken",
+      "type": "related",
+      "id": "https://ror.org/04wg18j80"
+    },
+    {
+      "label": "Universitätsklinikum des Saarlandes",
+      "type": "related",
+      "id": "https://ror.org/00nvxt968"
+    },
+    {
+      "label": "Deutscher EDV-Gerichtstag",
+      "type": "related",
+      "id": "https://ror.org/05mnb8680"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "curtin.edu.au"
+  ],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "501100001797",
+        "501100018820"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1032.0"
+      ],
+      "preferred": "grid.1032.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0375 4078"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1145497"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02n415q13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.curtin.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Curtin_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Curtin University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Curtin University of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Centre for Radio Astronomy Research",
+      "type": "child",
+      "id": "https://ror.org/05sd1pp77"
+    },
+    {
+      "label": "Curtin Hub for Immersive Visualisation and eResearch",
+      "type": "child",
+      "id": "https://ror.org/00hjft591"
+    },
+    {
+      "label": "Digitisation Centre of Western Australia",
+      "type": "related",
+      "id": "https://ror.org/00jjz9s23"
+    },
+    {
+      "label": "Australian Centre for Excellence in Antarctic Science",
+      "type": "related",
+      "id": "https://ror.org/024jkkf40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "501100003074",
+        "501100006668",
+        "501100021778",
+        "501100014250"
+      ],
+      "preferred": "501100003074",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454808.5"
+      ],
+      "preferred": "grid.454808.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5905 007X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03stxzb56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.argentina.gob.ar/ciencia/agencia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
+      },
+      "geonames_id": 3435910
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ANPCyT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Agencia Nacional de Promoción Científica y Tecnológica"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Ciencia, Tecnología e Innovación",
+      "type": "parent",
+      "id": "https://ror.org/02h503d38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

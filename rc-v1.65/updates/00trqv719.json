@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "100009750",
+        "100011124",
+        "100015425"
+      ],
+      "preferred": "100009750",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412750.5"
+      ],
+      "preferred": "grid.412750.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9166"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896217"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00trqv719",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.urmc.rochester.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Rochester_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 43.15478,
+        "lng": -77.61556,
+        "name": "Rochester"
+      },
+      "geonames_id": 5134086
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "URMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rochester Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Golisano Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02rcfyf15"
+    },
+    {
+      "label": "Highland Hospital",
+      "type": "child",
+      "id": "https://ror.org/00z9qkg54"
+    },
+    {
+      "label": "Strong Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/0583j8v67"
+    },
+    {
+      "label": "University of Rochester",
+      "type": "parent",
+      "id": "https://ror.org/022kthw22"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

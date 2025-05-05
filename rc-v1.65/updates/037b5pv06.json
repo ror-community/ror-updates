@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pte.hu"
+  ],
+  "established": 1912,
+  "external_ids": [
+    {
+      "all": [
+        "501100009594",
+        "501100009615"
+      ],
+      "preferred": "501100009594",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9679.1"
+      ],
+      "preferred": "grid.9679.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0663 9479"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1187444"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/037b5pv06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://pte.hu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_P%C3%A9cs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "BA",
+        "country_subdivision_name": "Baranya",
+        "lat": 46.0725,
+        "lng": 18.23083,
+        "name": "Pécs"
+      },
+      "geonames_id": 3046526
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PTE"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Pécsi Tudományegyetem"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Pecs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bács-Kiskun Megyei Csillagvizsgáló Intézet",
+      "type": "child",
+      "id": "https://ror.org/03n8qgc13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

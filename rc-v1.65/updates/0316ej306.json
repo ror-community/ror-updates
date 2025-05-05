@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "weizmann.ac.il"
+  ],
+  "established": 1934,
+  "external_ids": [
+    {
+      "all": [
+        "501100001735",
+        "501100001811",
+        "501100003941",
+        "501100016043",
+        "501100020260",
+        "501100020296",
+        "501100021552"
+      ],
+      "preferred": "501100001735",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.13992.30"
+      ],
+      "preferred": "grid.13992.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0604 7563"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4182"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0316ej306",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.weizmann.ac.il"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IL",
+        "country_name": "Israel",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Central District",
+        "lat": 31.89421,
+        "lng": 34.81199,
+        "name": "Rehovot"
+      },
+      "geonames_id": 293725
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Machon Weizmann LeMada"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Weizmann Institute of Science"
+    },
+    {
+      "lang": "he",
+      "types": [
+        "label"
+      ],
+      "value": "מכון ויצמן למדע"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "معهد وايزمان للعلوم"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yeda Research and Development (Israel)",
+      "type": "child",
+      "id": "https://ror.org/02s50ft61"
+    },
+    {
+      "label": "CRC183 - Entangled States of Matter",
+      "type": "child",
+      "id": "https://ror.org/015wtqn87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

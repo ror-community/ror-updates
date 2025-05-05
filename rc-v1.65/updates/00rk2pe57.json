@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100000006",
+        "100007297",
+        "100014036"
+      ],
+      "preferred": "100000006",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.482851.2"
+      ],
+      "preferred": "grid.482851.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0257 7469"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1063818"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rk2pe57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.onr.navy.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Naval_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ONR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Naval Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Naval Research Laboratory",
+      "type": "child",
+      "id": "https://ror.org/04d23a975"
+    },
+    {
+      "label": "Community Coordinated Modeling Center",
+      "type": "child",
+      "id": "https://ror.org/01dy3j343"
+    },
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

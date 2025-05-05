@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100008427",
+        "100017708"
+      ],
+      "preferred": "100017708",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.479785.0"
+      ],
+      "preferred": "grid.479785.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05wgann87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deutsches-stiftungszentrum.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.45657,
+        "lng": 7.01228,
+        "name": "Essen"
+      },
+      "geonames_id": 2928810
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DSZ"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutsches Stiftungszentrum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hermann und Lilly Schilling-Stiftung",
+      "type": "child",
+      "id": "https://ror.org/01f7ent21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

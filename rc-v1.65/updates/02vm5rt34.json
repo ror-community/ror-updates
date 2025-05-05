@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "100006537",
+        "100007139",
+        "100007206",
+        "100006538",
+        "100007207",
+        "100006010",
+        "100007182",
+        "100010901"
+      ],
+      "preferred": "100006537",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.152326.1"
+      ],
+      "preferred": "grid.152326.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2264 7217"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q29052"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02vm5rt34",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.vanderbilt.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Vanderbilt_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TN",
+        "country_subdivision_name": "Tennessee",
+        "lat": 36.16589,
+        "lng": -86.78444,
+        "name": "Nashville"
+      },
+      "geonames_id": 4644585
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vanderbilt University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Vandy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tennessee Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/03h2q9n18"
+    },
+    {
+      "label": "Monroe Carell Jr. Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/00y64dx33"
+    },
+    {
+      "label": "Vanderbilt University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05dq2gs74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

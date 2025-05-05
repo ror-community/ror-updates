@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100018870",
+        "100020040"
+      ],
+      "preferred": "100020040",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0272 5010"
+      ],
+      "preferred": "0000 0005 0272 5010",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q123026777"
+      ],
+      "preferred": "Q123026777",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0008vp155",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pdjf.dk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "82",
+        "country_subdivision_name": "Central Jutland",
+        "lat": 56.37797,
+        "lng": 9.66065,
+        "name": "Bjerringbro"
+      },
+      "geonames_id": 2624019
+    }
+  ],
+  "names": [
+    {
+      "lang": "da",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Grundfos Fond"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Grundfos Foundation"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "alias"
+      ],
+      "value": "Poul Due Jensen Fond"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Poul Due Jensen Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Grundfos (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/05rdv5n40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

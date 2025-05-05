@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aub.edu.lb"
+  ],
+  "established": 1866,
+  "external_ids": [
+    {
+      "all": [
+        "100007688",
+        "100008685",
+        "501100016263"
+      ],
+      "preferred": "100007688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22903.3a"
+      ],
+      "preferred": "grid.22903.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9801"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q469482"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04pznsd21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://aub.edu.lb"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/American_University_of_Beirut"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "LB",
+        "country_name": "Lebanon",
+        "country_subdivision_code": "BA",
+        "country_subdivision_name": "Beyrouth",
+        "lat": 33.89332,
+        "lng": 35.50157,
+        "name": "Beirut"
+      },
+      "geonames_id": 276781
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AUB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "American University of Beirut"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université américaine de beyrouth"
+    },
+    {
+      "lang": "hy",
+      "types": [
+        "label"
+      ],
+      "value": "Բեյրութի ամերիկյան համալսարան"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "الجامعة الأميركية في بيروت"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "American University of Beirut New York Office",
+      "type": "child",
+      "id": "https://ror.org/05t3agv77"
+    },
+    {
+      "label": "American University of Beirut Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00wmm6v75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

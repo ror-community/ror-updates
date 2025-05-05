@@ -1,0 +1,144 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iastate.edu"
+  ],
+  "established": 1858,
+  "external_ids": [
+    {
+      "all": [
+        "100009227",
+        "100009228",
+        "100009229",
+        "100015300",
+        "100015082",
+        "100016683",
+        "100010953",
+        "100010954",
+        "100013638",
+        "100015389",
+        "100016521",
+        "100017874"
+      ],
+      "preferred": "100009227",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.34421.30"
+      ],
+      "preferred": "grid.34421.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 7312"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1136919"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04rswrd78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iastate.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Iowa_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IA",
+        "country_subdivision_name": "Iowa",
+        "lat": 42.03471,
+        "lng": -93.61994,
+        "name": "Ames"
+      },
+      "geonames_id": 4846834
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Iowa State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Iowa State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Iowa"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de l'Iowa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Iowa Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/00fe3cc74"
+    },
+    {
+      "label": "Ames National Laboratory",
+      "type": "child",
+      "id": "https://ror.org/041m9xr71"
+    },
+    {
+      "label": "Center for Statistics and Applications in Forensic Evidence",
+      "type": "related",
+      "id": "https://ror.org/01txfgz53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

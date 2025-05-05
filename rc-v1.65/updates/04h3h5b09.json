@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100017592"
+      ],
+      "preferred": "100017592",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.435330.2"
+      ],
+      "preferred": "grid.435330.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0475 2277"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04h3h5b09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ipb.ac.rs/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RS",
+        "country_name": "Serbia",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Central Serbia",
+        "lat": 44.80401,
+        "lng": 20.46513,
+        "name": "Belgrade"
+      },
+      "geonames_id": 792680
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Physics Belgrade"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Physics Belgrade, National Institute of the Republic of Serbia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Belgrade",
+      "type": "parent",
+      "id": "https://ror.org/02qsmb048"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

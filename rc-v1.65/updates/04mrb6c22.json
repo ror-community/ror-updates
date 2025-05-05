@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "100001181",
+        "100012416"
+      ],
+      "preferred": "100012416",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414629.c"
+      ],
+      "preferred": "grid.414629.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0401 0871"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16996992"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mrb6c22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.inova.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Inova_Health_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88233,
+        "lng": -77.17109,
+        "name": "Falls Church"
+      },
+      "geonames_id": 4758390
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fairfax Hospital Association"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Inova Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inova Alexandria Hospital",
+      "type": "child",
+      "id": "https://ror.org/03ks67450"
+    },
+    {
+      "label": "Inova Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02se3s925"
+    },
+    {
+      "label": "Inova Fairfax Hospital",
+      "type": "child",
+      "id": "https://ror.org/0212h5y77"
+    },
+    {
+      "label": "Inova Loudoun Hospital",
+      "type": "child",
+      "id": "https://ror.org/009rt9f88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

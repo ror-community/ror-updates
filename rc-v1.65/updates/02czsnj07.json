@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "deakin.edu.au"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "501100001778",
+        "501100003028",
+        "100015144",
+        "501100017029"
+      ],
+      "preferred": "501100001778",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1021.2"
+      ],
+      "preferred": "grid.1021.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0526 7079"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1180978",
+        "Q21973208"
+      ],
+      "preferred": "Q1180978",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02czsnj07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deakin.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Deakin_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.84978,
+        "lng": 145.11901,
+        "name": "Burwood"
+      },
+      "geonames_id": 7932622
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deakin University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Box Hill Hospital",
+      "type": "related",
+      "id": "https://ror.org/0484pjq71"
+    },
+    {
+      "label": "Geelong Hospital",
+      "type": "related",
+      "id": "https://ror.org/00jrpxe15"
+    },
+    {
+      "label": "Epworth Hospital",
+      "type": "related",
+      "id": "https://ror.org/02ett6548"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

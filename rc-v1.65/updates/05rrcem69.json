@@ -1,0 +1,172 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ucdavis.edu"
+  ],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "100007707",
+        "100010553",
+        "100009752",
+        "100007862",
+        "100009219",
+        "100008956",
+        "100009751",
+        "100013701",
+        "100011080",
+        "100013038",
+        "100013677",
+        "100014530",
+        "100016257",
+        "100016749",
+        "100022967"
+      ],
+      "preferred": "100007707",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.27860.3b"
+      ],
+      "preferred": "grid.27860.3b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9684"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q129421"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05rrcem69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucdavis.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_California,_Davis"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 38.54491,
+        "lng": -121.74052,
+        "name": "Davis"
+      },
+      "geonames_id": 5341704
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UC Davis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "UCD"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de California en Davis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of California, Davis"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Californie à Davis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NeuroMab",
+      "type": "child",
+      "id": "https://ror.org/00fyrp007"
+    },
+    {
+      "label": "Tahoe Environmental Research Center",
+      "type": "child",
+      "id": "https://ror.org/00xcmeq33"
+    },
+    {
+      "label": "University of California System",
+      "type": "parent",
+      "id": "https://ror.org/00pjdza24"
+    },
+    {
+      "label": "San Joaquin General Hospital",
+      "type": "related",
+      "id": "https://ror.org/02ha38c24"
+    },
+    {
+      "label": "UC Davis Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/05ehe8t08"
+    },
+    {
+      "label": "UC Davis Health System",
+      "type": "related",
+      "id": "https://ror.org/05q8kyc69"
+    },
+    {
+      "label": "University of California Davis Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05t6gpm70"
+    },
+    {
+      "label": "Veterinary Medical Teaching Hospital",
+      "type": "related",
+      "id": "https://ror.org/026t0fx73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

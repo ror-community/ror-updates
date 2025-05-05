@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "100011623",
+        "100015698",
+        "100016599"
+      ],
+      "preferred": "100011623",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411031.6"
+      ],
+      "preferred": "grid.411031.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0484 1472"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q929715"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05p8z3f47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.purdue.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Purdue_University_system"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 40.42587,
+        "lng": -86.90807,
+        "name": "West Lafayette"
+      },
+      "geonames_id": 4928096
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Purdue University System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Purdue University Fort Wayne",
+      "type": "child",
+      "id": "https://ror.org/04c4hz115"
+    },
+    {
+      "label": "Purdue University Northwest",
+      "type": "child",
+      "id": "https://ror.org/04keq6987"
+    },
+    {
+      "label": "Purdue University West Lafayette",
+      "type": "child",
+      "id": "https://ror.org/02dqehb95"
+    },
+    {
+      "label": "Purdue University Institute for Cancer Research",
+      "type": "child",
+      "id": "https://ror.org/0371gg960"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

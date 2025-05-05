@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "100020768",
+        "100015712"
+      ],
+      "preferred": "100020768",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412722.0"
+      ],
+      "preferred": "grid.412722.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0515 3663"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/047s7ex42",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://healthcare.utah.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utah",
+        "lat": 40.76078,
+        "lng": -111.89105,
+        "name": "Salt Lake City"
+      },
+      "geonames_id": 5780993
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UUHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Utah Health Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Huntsman Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/03v7tx966"
+    },
+    {
+      "label": "South Jordan Health Center",
+      "type": "child",
+      "id": "https://ror.org/01mjp5v83"
+    },
+    {
+      "label": "University of Utah",
+      "type": "related",
+      "id": "https://ror.org/03r0ha626"
+    },
+    {
+      "label": "University of Utah Hospital",
+      "type": "related",
+      "id": "https://ror.org/03b436430"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

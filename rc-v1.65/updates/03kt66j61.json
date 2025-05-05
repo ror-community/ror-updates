@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100003399",
+        "501100011470",
+        "501100013105",
+        "501100012247"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452927.f"
+      ],
+      "preferred": "grid.452927.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9684 550X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03kt66j61",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://stcsm.sh.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806,
+        "name": "Shanghai"
+      },
+      "geonames_id": 1796236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "STCSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Science and Technology Commission of Shanghai Municipality"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Shanghai Municipal People's Government",
+      "type": "parent",
+      "id": "https://ror.org/05xp2yp46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

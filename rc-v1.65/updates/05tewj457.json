@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "501100003395",
+        "501100004894",
+        "501100018558",
+        "501100013285",
+        "501100012150"
+      ],
+      "preferred": "501100003395",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452908.2"
+      ],
+      "preferred": "grid.452908.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8884 3598"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30296493"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05tewj457",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.shmec.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806,
+        "name": "Shanghai"
+      },
+      "geonames_id": 1796236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SHMEC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shanghai Municipal Education Commission"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Shanghai Municipal People's Government",
+      "type": "parent",
+      "id": "https://ror.org/05xp2yp46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

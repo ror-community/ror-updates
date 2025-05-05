@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1840,
+  "external_ids": [
+    {
+      "all": [
+        "501100009245"
+      ],
+      "preferred": "501100009245",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436172.5"
+      ],
+      "preferred": "grid.436172.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1016 4066"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4294535"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01pntf040",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.government.se/government-of-sweden/ministry-of-education-and-research/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Education_and_Research_(Sweden)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Education and Research"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Utbildningsdepartementet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Institute of Art",
+      "type": "child",
+      "id": "https://ror.org/031fw8h15"
+    },
+    {
+      "label": "Swedish Polar Research Secretariat",
+      "type": "child",
+      "id": "https://ror.org/02t64n115"
+    },
+    {
+      "label": "Government of Sweden",
+      "type": "parent",
+      "id": "https://ror.org/04gey0774"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

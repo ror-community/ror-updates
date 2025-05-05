@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uca.es"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "501100008723",
+        "501100014533",
+        "501100020892"
+      ],
+      "preferred": "501100008723",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7759.c"
+      ],
+      "preferred": "grid.7759.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0358 0096"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2000065"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mxxkb11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uca.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_C%C3%A1diz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AN",
+        "country_subdivision_name": "Andalusia",
+        "lat": 36.52672,
+        "lng": -6.2891,
+        "name": "Cadiz"
+      },
+      "geonames_id": 2520600
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad de Cádiz"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Universitat de Cadis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Cádiz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Universitario Puerta del Mar",
+      "type": "related",
+      "id": "https://ror.org/040xzg562"
+    },
+    {
+      "label": "Hospital Universitario Puerto Real",
+      "type": "related",
+      "id": "https://ror.org/04fbqvq73"
+    },
+    {
+      "label": "Hospital Universitario de Jerez",
+      "type": "related",
+      "id": "https://ror.org/01fyp5w42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

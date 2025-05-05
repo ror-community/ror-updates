@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "newcastle.edu.au"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "501100001771",
+        "501100008918"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266842.c"
+      ],
+      "preferred": "grid.266842.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8831 109X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q531285"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00eae9z71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.newcastle.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Newcastle_(Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -32.92953,
+        "lng": 151.7801,
+        "name": "Newcastle"
+      },
+      "geonames_id": 2155472
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Newcastle University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Newcastle Australia"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UoN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ARC Centre of Excellence for Enabling Eco-Efficient Beneficiation of Minerals",
+      "type": "child",
+      "id": "https://ror.org/01nsxs283"
+    },
+    {
+      "label": "Gosford Hospital",
+      "type": "related",
+      "id": "https://ror.org/01jg3a168"
+    },
+    {
+      "label": "John Hunter Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/048sjbt91"
+    },
+    {
+      "label": "John Hunter Hospital",
+      "type": "related",
+      "id": "https://ror.org/0187t0j49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

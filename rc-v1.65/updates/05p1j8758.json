@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1863,
+  "external_ids": [
+    {
+      "all": [
+        "100007765",
+        "100007830",
+        "100007766",
+        "100007829",
+        "100013658",
+        "100015475",
+        "100015476"
+      ],
+      "preferred": "100007765",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.36567.31"
+      ],
+      "preferred": "grid.36567.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0737 1259"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q31249"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05p1j8758",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.k-state.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kansas_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "KS",
+        "country_subdivision_name": "Kansas",
+        "lat": 39.18361,
+        "lng": -96.57167,
+        "name": "Manhattan"
+      },
+      "geonames_id": 4274994
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "K-State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kansas State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Kansas"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État du kansas"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kansas State University Salina Aerospace and Technology Campus",
+      "type": "child",
+      "id": "https://ror.org/02mrpaq42"
+    },
+    {
+      "label": "Konza Prairie Long Term Ecological Research",
+      "type": "child",
+      "id": "https://ror.org/02wavzm11"
+    },
+    {
+      "label": "Johnson Cancer Research Center",
+      "type": "child",
+      "id": "https://ror.org/00nffqq91"
+    },
+    {
+      "label": "McMurdo Dry Valleys Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/04r3s7465"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

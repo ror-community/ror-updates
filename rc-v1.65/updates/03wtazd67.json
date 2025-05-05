@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100008445",
+        "501100022591"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.470530.5"
+      ],
+      "preferred": "grid.470530.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9593 7090"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5219714"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wtazd67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ens.dk/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Danish_Energy_Agency"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Danish Energy Agency"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "Energistyrelsen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Danish Ministry of Climate, Energy and Utilities",
+      "type": "parent",
+      "id": "https://ror.org/012sh1702"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

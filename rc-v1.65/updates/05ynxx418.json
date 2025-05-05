@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "liu.se"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100003945",
+        "501100006585",
+        "501100010752"
+      ],
+      "preferred": "501100003945",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5640.7"
+      ],
+      "preferred": "grid.5640.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2162 9922"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q782600"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ynxx418",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://liu.se/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Link%C3%B6ping_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "E",
+        "country_subdivision_name": "Östergötland",
+        "lat": 58.41086,
+        "lng": 15.62157,
+        "name": "Linköping"
+      },
+      "geonames_id": 2694762
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LiU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Linköping University"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Linköpingin Yliopisto"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Linköpings Universitet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wallenberg Wood Science Center",
+      "type": "child",
+      "id": "https://ror.org/039qvmf95"
+    },
+    {
+      "label": "Santa Anna IT Research Institute",
+      "type": "child",
+      "id": "https://ror.org/010dsgr95"
+    },
+    {
+      "label": "Linköping University Hospital",
+      "type": "related",
+      "id": "https://ror.org/05h1aye87"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "AIDA Data Hub",
+      "type": "related",
+      "id": "https://ror.org/04gjptv97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

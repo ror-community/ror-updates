@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2022,
+  "external_ids": [
+    {
+      "all": [
+        "501100024290",
+        "501100001217"
+      ],
+      "preferred": "501100024290",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q113380107"
+      ],
+      "preferred": "Q113380107",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01db6n192",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dcceew.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Climate_Change%2C_Energy%2C_the_Environment_and_Water"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "ACT",
+        "country_subdivision_name": "Australian Capital Territory",
+        "lat": -35.28346,
+        "lng": 149.12807,
+        "name": "Canberra"
+      },
+      "geonames_id": 2172517
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Climate Change, Energy, the Environment and Water"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian Biological Resources Study",
+      "type": "child",
+      "id": "https://ror.org/00289aa83"
+    },
+    {
+      "label": "Australian Institute of Marine Science",
+      "type": "child",
+      "id": "https://ror.org/03x57gn41"
+    },
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "Department of Agriculture, Water and the Environment",
+      "type": "predecessor",
+      "id": "https://ror.org/030c92375"
+    },
+    {
+      "label": "Consortium for Ocean-Sea Ice Modelling in Australia",
+      "type": "related",
+      "id": "https://ror.org/00qq77n27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

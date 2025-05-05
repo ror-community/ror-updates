@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oulu.fi"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100006196",
+        "501100006432",
+        "501100005734",
+        "501100008488",
+        "501100018871",
+        "501100012682",
+        "501100020019"
+      ],
+      "preferred": "501100006196",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10858.34"
+      ],
+      "preferred": "grid.10858.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0941 4873"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1357517"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03yj89h83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.oulu.fi"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Oulu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "North Ostrobothnia",
+        "lat": 65.01236,
+        "lng": 25.46816,
+        "name": "Oulu"
+      },
+      "geonames_id": 643492
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Oulun yliopisto"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Oulu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oulu University Hospital",
+      "type": "related",
+      "id": "https://ror.org/045ney286"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

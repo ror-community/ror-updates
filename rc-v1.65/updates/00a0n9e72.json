@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ul.ie"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100001635",
+        "501100014531",
+        "501100020871"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10049.3c"
+      ],
+      "preferred": "grid.10049.3c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9692"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q573954"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00a0n9e72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ul.ie"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Limerick"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Munster",
+        "lat": 52.66472,
+        "lng": -8.62306,
+        "name": "Limerick"
+      },
+      "geonames_id": 2962943
+    }
+  ],
+  "names": [
+    {
+      "lang": "ga",
+      "types": [
+        "label"
+      ],
+      "value": "Ollscoil Luimnigh"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Limerick"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Advanced Materials and BioEngineering Research",
+      "type": "child",
+      "id": "https://ror.org/01c4rxk68"
+    },
+    {
+      "label": "St. Luke's General Hospital",
+      "type": "related",
+      "id": "https://ror.org/05p668j08"
+    },
+    {
+      "label": "University Hospital Limerick",
+      "type": "related",
+      "id": "https://ror.org/04y3ze847"
+    },
+    {
+      "label": "University Maternity Hospital Limerick",
+      "type": "related",
+      "id": "https://ror.org/04jgrem26"
+    },
+    {
+      "label": "Mary Immaculate College",
+      "type": "related",
+      "id": "https://ror.org/009q3yg92"
+    },
+    {
+      "label": "Irish Research eLibrary",
+      "type": "related",
+      "id": "https://ror.org/05c347015"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

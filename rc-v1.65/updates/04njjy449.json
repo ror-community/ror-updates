@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ugr.es"
+  ],
+  "established": 1531,
+  "external_ids": [
+    {
+      "all": [
+        "501100006393",
+        "501100018947"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4489.1"
+      ],
+      "preferred": "grid.4489.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0263"
+      ],
+      "preferred": "0000 0004 1937 0263",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1232180"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04njjy449",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ugr.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Granada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AN",
+        "country_subdivision_name": "Andalusia",
+        "lat": 37.18817,
+        "lng": -3.60667,
+        "name": "Granada"
+      },
+      "geonames_id": 2517117
+    }
+  ],
+  "names": [
+    {
+      "lang": "eu",
+      "types": [
+        "label"
+      ],
+      "value": "Granadako Unibertsitatea"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UGR"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad de Granada"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Granada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Complejo Hospitalario Universitario de Granada",
+      "type": "related",
+      "id": "https://ror.org/02pnm9721"
+    },
+    {
+      "label": "Hospital Real de Granada",
+      "type": "related",
+      "id": "https://ror.org/0556xhz50"
+    },
+    {
+      "label": "Hospital Universitario Virgen de las Nieves",
+      "type": "related",
+      "id": "https://ror.org/02f01mz90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

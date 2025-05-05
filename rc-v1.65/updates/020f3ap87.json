@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "utk.edu"
+  ],
+  "established": 1794,
+  "external_ids": [
+    {
+      "all": [
+        "100008526",
+        "100009260",
+        "100011135",
+        "100014455",
+        "100009774",
+        "100011413",
+        "100011642"
+      ],
+      "preferred": "100014455",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411461.7"
+      ],
+      "preferred": "grid.411461.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2315 1184"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1150105"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020f3ap87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utk.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Tennessee"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TN",
+        "country_subdivision_name": "Tennessee",
+        "lat": 35.96064,
+        "lng": -83.92074,
+        "name": "Knoxville"
+      },
+      "geonames_id": 4634946
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UT"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Tennessee"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Tennessee at Knoxville"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Joint Institute for Computational Sciences",
+      "type": "child",
+      "id": "https://ror.org/05277x335"
+    },
+    {
+      "label": "University of Tennessee System",
+      "type": "parent",
+      "id": "https://ror.org/00xzqjh13"
+    },
+    {
+      "label": "University of Tennessee Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0277n1841"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

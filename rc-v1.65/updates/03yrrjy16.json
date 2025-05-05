@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sdu.dk"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "501100006356",
+        "501100018810"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10825.3e"
+      ],
+      "preferred": "grid.10825.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0728 0170"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2166335",
+        "Q39641498"
+      ],
+      "preferred": "Q2166335",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03yrrjy16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sdu.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Southern_Denmark"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "83",
+        "country_subdivision_name": "South Denmark",
+        "lat": 55.39594,
+        "lng": 10.38831,
+        "name": "Odense"
+      },
+      "geonames_id": 2615876
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "South Danish University"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "Syddansk Universitet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Southern Denmark"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Cosmology and Particle Physics Phenomenology",
+      "type": "child",
+      "id": "https://ror.org/04y51qn38"
+    },
+    {
+      "label": "Bandim Health Project",
+      "type": "related",
+      "id": "https://ror.org/002nf6q61"
+    },
+    {
+      "label": "Odense University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00ey0ed83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

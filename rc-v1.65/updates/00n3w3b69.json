@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "strath.ac.uk"
+  ],
+  "established": 1796,
+  "external_ids": [
+    {
+      "all": [
+        "100008078",
+        "100009138",
+        "100016271"
+      ],
+      "preferred": "100008078",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11984.35"
+      ],
+      "preferred": "grid.11984.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2113 8138"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1859178"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00n3w3b69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.strath.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Strathclyde"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.86515,
+        "lng": -4.25763,
+        "name": "Glasgow"
+      },
+      "geonames_id": 2648579
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Strathclyde"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Weir Advanced Research Centre",
+      "type": "child",
+      "id": "https://ror.org/04kd9a392"
+    },
+    {
+      "label": "Scottish Confederation of University and Research Libraries",
+      "type": "related",
+      "id": "https://ror.org/03hkzcg46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

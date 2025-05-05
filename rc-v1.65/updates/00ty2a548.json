@@ -1,0 +1,144 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100011660",
+        "100016186"
+      ],
+      "preferred": "100011660",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417824.c"
+      ],
+      "preferred": "grid.417824.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0020 7392"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1314158"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ty2a548",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inl.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Idaho_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "ID",
+        "country_subdivision_name": "Idaho",
+        "lat": 43.46658,
+        "lng": -112.03414,
+        "name": "Idaho Falls"
+      },
+      "geonames_id": 5596475
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Idaho National Laboratory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire national de l'idaho"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratorio Nacional de Idaho"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Nuclear Energy Idaho National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Nuclear Energy Idaho National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nuclear Science User Facilities",
+      "type": "child",
+      "id": "https://ror.org/03c7p2r39"
+    },
+    {
+      "label": "Battelle",
+      "type": "parent",
+      "id": "https://ror.org/01h5tnr73"
+    },
+    {
+      "label": "Office of Nuclear Energy",
+      "type": "parent",
+      "id": "https://ror.org/05tj7dm33"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

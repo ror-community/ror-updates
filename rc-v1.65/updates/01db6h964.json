@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hi.is"
+  ],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "501100005415",
+        "501100020584"
+      ],
+      "preferred": "501100020584",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.14013.37"
+      ],
+      "preferred": "grid.14013.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0640 0021"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q196559"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01db6h964",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hi.is"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Iceland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "country_subdivision_code": "1",
+        "country_subdivision_name": "Capital Region",
+        "lat": 64.13548,
+        "lng": -21.89541,
+        "name": "Reykjavik"
+      },
+      "geonames_id": 3413829
+    }
+  ],
+  "names": [
+    {
+      "lang": "is",
+      "types": [
+        "label"
+      ],
+      "value": "Háskóli Íslands"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Iceland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National University Hospital of Iceland",
+      "type": "related",
+      "id": "https://ror.org/011k7k191"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

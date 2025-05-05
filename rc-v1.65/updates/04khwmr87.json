@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "100020826"
+      ],
+      "preferred": "100020826",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.473822.8"
+      ],
+      "preferred": "grid.473822.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/04khwmr87",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.viennabiocenter.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "9",
+        "country_subdivision_name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "name": "Vienna"
+      },
+      "geonames_id": 2761369
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VBC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vienna Biocenter"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gregor Mendel Institute of Molecular Plant Biology",
+      "type": "child",
+      "id": "https://ror.org/05twjp994"
+    },
+    {
+      "label": "Vienna BioCenter Core Facilities",
+      "type": "child",
+      "id": "https://ror.org/01w64ht88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "501100001838",
+        "501100004940"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436219.b"
+      ],
+      "preferred": "grid.436219.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0410 2557"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q13765742"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008d1xp69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tem.fi/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Economic_Affairs_and_Employment_(Finland)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Arbets- och näringsministeriet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Economic Affairs and Employment"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TEM"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Työ- ja elinkeinoministeriö"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Finnish Safety and Chemicals Agency",
+      "type": "child",
+      "id": "https://ror.org/00eggnv95"
+    },
+    {
+      "label": "Geological Survey of Finland",
+      "type": "child",
+      "id": "https://ror.org/03vjnqy43"
+    },
+    {
+      "label": "VTT Technical Research Centre of Finland",
+      "type": "child",
+      "id": "https://ror.org/04b181w54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

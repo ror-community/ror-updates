@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100019896"
+      ],
+      "preferred": "501100019896",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.494302.8"
+      ],
+      "preferred": "grid.494302.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03ehgrz61",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mz.gov.si/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "country_subdivision_code": "061",
+        "country_subdivision_name": "Ljubljana",
+        "lat": 46.05108,
+        "lng": 14.50513,
+        "name": "Ljubljana"
+      },
+      "geonames_id": 3196359
+    }
+  ],
+  "names": [
+    {
+      "lang": "sl",
+      "types": [
+        "label"
+      ],
+      "value": "Ministrstvo za zdravje"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute of Public Health",
+      "type": "child",
+      "id": "https://ror.org/02zfrea47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

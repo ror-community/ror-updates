@@ -1,0 +1,147 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uic.edu"
+  ],
+  "established": 1858,
+  "external_ids": [
+    {
+      "all": [
+        "100008522",
+        "100008523",
+        "100006631",
+        "100011118",
+        "100019924"
+      ],
+      "preferred": "100008522",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.185648.6"
+      ],
+      "preferred": "grid.185648.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 0319"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q955764"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mpq6x41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uic.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Illinois_at_Chicago"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "University of Illinois Chicago"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Illinois at Chicago"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Illinois at Chicago Circle"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'illinois à chicago"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Illinois Indiana Sea Grant",
+      "type": "child",
+      "id": "https://ror.org/00vg14f79"
+    },
+    {
+      "label": "University of Illinois Chicago, Rockford campus",
+      "type": "child",
+      "id": "https://ror.org/02437s643"
+    },
+    {
+      "label": "Peoria campus of the University of Illinois System",
+      "type": "child",
+      "id": "https://ror.org/02qrdc062"
+    },
+    {
+      "label": "University of Illinois System",
+      "type": "parent",
+      "id": "https://ror.org/05e94g991"
+    },
+    {
+      "label": "University of Illinois Hospital & Health Sciences System",
+      "type": "related",
+      "id": "https://ror.org/03jhe7195"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

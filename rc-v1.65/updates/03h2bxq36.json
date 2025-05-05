@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dundee.ac.uk"
+  ],
+  "established": 1881,
+  "external_ids": [
+    {
+      "all": [
+        "100008890",
+        "501100002995",
+        "100012679"
+      ],
+      "preferred": "100008890",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8241.f"
+      ],
+      "preferred": "grid.8241.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0397 2876"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1249005"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03h2bxq36",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dundee.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Dundee"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 56.46913,
+        "lng": -2.97489,
+        "name": "Dundee"
+      },
+      "geonames_id": 2650752
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Universitas Dundensis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Dundee"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MRC Protein Phosphorylation and Ubiquitylation Unit",
+      "type": "child",
+      "id": "https://ror.org/01zg1tt02"
+    },
+    {
+      "label": "Wellcome Centre for Anti-Infectives Research",
+      "type": "child",
+      "id": "https://ror.org/02e6k9z27"
+    },
+    {
+      "label": "Dundee Dental Hospital",
+      "type": "related",
+      "id": "https://ror.org/01ybj8n97"
+    },
+    {
+      "label": "James Hutton Institute",
+      "type": "related",
+      "id": "https://ror.org/03rzp5127"
+    },
+    {
+      "label": "Ninewells Hospital",
+      "type": "related",
+      "id": "https://ror.org/039c6rk82"
+    },
+    {
+      "label": "Perth Royal Infirmary",
+      "type": "related",
+      "id": "https://ror.org/05nstty25"
+    },
+    {
+      "label": "Scottish Confederation of University and Research Libraries",
+      "type": "related",
+      "id": "https://ror.org/03hkzcg46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1772,
+  "external_ids": [
+    {
+      "all": [
+        "501100005754",
+        "501100014196"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1649.a"
+      ],
+      "preferred": "grid.1649.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9445 082X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3290496"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vgqjj36",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sahlgrenskaic.com/medical-care/sahlgrenska-university-hospital/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sahlgrenska_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "O",
+        "country_subdivision_name": "Västra Götaland",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "name": "Gothenburg"
+      },
+      "geonames_id": 2711537
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Sahlgrenska Universitetssjukhuset"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sahlgrenska University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Drottning Silvias barn- och ungdomssjukhus",
+      "type": "child",
+      "id": "https://ror.org/00yqpgp96"
+    },
+    {
+      "label": "University of Gothenburg",
+      "type": "related",
+      "id": "https://ror.org/01tm6cn81"
+    },
+    {
+      "label": "Jubileumskliniken Cancerfond",
+      "type": "related",
+      "id": "https://ror.org/005re7g62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

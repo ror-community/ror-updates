@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "musc.edu"
+  ],
+  "established": 1824,
+  "external_ids": [
+    {
+      "all": [
+        "100006942",
+        "100015690",
+        "100011147",
+        "100011482",
+        "100023053"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.259828.c"
+      ],
+      "preferred": "grid.259828.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2189 3475"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6806451"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012jban78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://musc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Medical_University_of_South_Carolina"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SC",
+        "country_subdivision_name": "South Carolina",
+        "lat": 32.77632,
+        "lng": -79.93275,
+        "name": "Charleston"
+      },
+      "geonames_id": 4574324
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MUSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medical University of South Carolina"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MUSC Hollings Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/00w52vt71"
+    },
+    {
+      "label": "Ralph H. Johnson VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/030ma0n95"
+    },
+    {
+      "label": "Roper Hospital",
+      "type": "related",
+      "id": "https://ror.org/01q11am17"
+    },
+    {
+      "label": "Spartanburg Regional Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0322mf940"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

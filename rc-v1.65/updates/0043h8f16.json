@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usd.edu"
+  ],
+  "established": 1862,
+  "external_ids": [
+    {
+      "all": [
+        "100011411",
+        "100011412"
+      ],
+      "preferred": "100011411",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267169.d"
+      ],
+      "preferred": "grid.267169.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2293 1795"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1305521"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0043h8f16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usd.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_South_Dakota"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "South Dakota",
+        "lat": 42.77944,
+        "lng": -96.92921,
+        "name": "Vermillion"
+      },
+      "geonames_id": 5232592
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USD"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Dakota del Sur"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of South Dakota"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du Dakota du Sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rapid City Regional Hospital",
+      "type": "related",
+      "id": "https://ror.org/038v5dr76"
+    },
+    {
+      "label": "Sanford USD Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04wrfcw61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

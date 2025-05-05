@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unict.it"
+  ],
+  "established": 1434,
+  "external_ids": [
+    {
+      "all": [
+        "501100004505",
+        "501100020611",
+        "501100022296"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8158.4"
+      ],
+      "preferred": "grid.8158.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 1969"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1248821"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03a64bh57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unict.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Catania"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "82",
+        "country_subdivision_name": "Sicily",
+        "lat": 37.49223,
+        "lng": 15.07041,
+        "name": "Catania"
+      },
+      "geonames_id": 2525068
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Catania"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università degli Studi di Catania"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Catania"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de catane"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Siciliano di Fisica Nucleare e di Struttura della Materia",
+      "type": "child",
+      "id": "https://ror.org/02wdzfm91"
+    },
+    {
+      "label": "Istituto Nazionale di Fisica Nucleare, Sezione di Catania",
+      "type": "related",
+      "id": "https://ror.org/02pq29p90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

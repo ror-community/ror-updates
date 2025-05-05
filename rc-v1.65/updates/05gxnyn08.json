@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100010249",
+        "100008113",
+        "100011748",
+        "100017554"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.257413.6"
+      ],
+      "preferred": "grid.257413.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 3919"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1433199"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gxnyn08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iupui.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Indiana_University_%E2%80%93_Purdue_University_Indianapolis"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 39.76838,
+        "lng": -86.15804,
+        "name": "Indianapolis"
+      },
+      "geonames_id": 4259418
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IUPUI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Indiana University – Purdue University Indianapolis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indiana University",
+      "type": "parent",
+      "id": "https://ror.org/01kg8sb98"
+    },
+    {
+      "label": "Purdue University System",
+      "type": "parent",
+      "id": "https://ror.org/05p8z3f47"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

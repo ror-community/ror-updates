@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "princeton.edu"
+  ],
+  "established": 1746,
+  "external_ids": [
+    {
+      "all": [
+        "100006734",
+        "100005664",
+        "100007242",
+        "100007084",
+        "100005677",
+        "100005591",
+        "100006025",
+        "100005589",
+        "100008141",
+        "100014564"
+      ],
+      "preferred": "100006734",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.16750.35"
+      ],
+      "preferred": "grid.16750.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 5006"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21578"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00hx57361",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.princeton.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Princeton_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 40.34872,
+        "lng": -74.65905,
+        "name": "Princeton"
+      },
+      "geonames_id": 5102922
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "College of New Jersey"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Princeton University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Princeton"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de princeton"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Discrete Mathematics and Theoretical Computer Science",
+      "type": "child",
+      "id": "https://ror.org/00k551w06"
+    },
+    {
+      "label": "Princeton Plasma Physics Laboratory",
+      "type": "child",
+      "id": "https://ror.org/03vn1ts68"
+    },
+    {
+      "label": "National Spherical Torus Experiment – Upgrade",
+      "type": "child",
+      "id": "https://ror.org/05sg23t46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

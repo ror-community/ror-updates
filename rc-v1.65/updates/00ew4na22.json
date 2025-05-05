@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "100007082",
+        "100009155",
+        "100019120"
+      ],
+      "preferred": "100019120",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419943.2"
+      ],
+      "preferred": "grid.419943.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 5953"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ew4na22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.otsuka-us.com/Pages/Default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 40.34872,
+        "lng": -74.65905,
+        "name": "Princeton"
+      },
+      "geonames_id": 5102922
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OAPI"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Otsuka (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Otsuka America Pharmaceutical"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Otsuka (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/013k5y296"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unk.edu"
+  ],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "100010940",
+        "100015304"
+      ],
+      "preferred": "100010940",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266814.f"
+      ],
+      "preferred": "grid.266814.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0386 5405"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895890"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04d5mb615",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unk.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Nebraska_at_Kearney"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 40.69946,
+        "lng": -99.08148,
+        "name": "Kearney"
+      },
+      "geonames_id": 5071348
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nebraska State Normal School at Kearney"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Nebraska at Kearney"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Nebraska System",
+      "type": "parent",
+      "id": "https://ror.org/0238rvs44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

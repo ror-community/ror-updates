@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100011100",
+        "100013690",
+        "100013688"
+      ],
+      "preferred": "100013688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451075.2"
+      ],
+      "preferred": "grid.451075.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6432 598X"
+      ],
+      "preferred": "0000 0004 6432 598X",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03qtzce31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.economie.gouv.qc.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministery of Economy, Innovation and Exports"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Economy, Science and Innovation"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministère de l'Économie, de l'Innovation et de l'Énergie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère de l'Économie, de la Science et de l'Innovation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Commission de l'Ethique en Science et en Technologie",
+      "type": "child",
+      "id": "https://ror.org/00acpf703"
+    },
+    {
+      "label": "Government of Quebec",
+      "type": "parent",
+      "id": "https://ror.org/05waa5295"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

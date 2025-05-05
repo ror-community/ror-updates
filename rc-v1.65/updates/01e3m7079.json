@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1819,
+  "external_ids": [
+    {
+      "all": [
+        "100008102",
+        "100008104",
+        "100008641",
+        "100008105",
+        "100008103",
+        "100014452"
+      ],
+      "preferred": "100008102",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.24827.3b"
+      ],
+      "preferred": "grid.24827.3b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 9593"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q153265"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01e3m7079",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Cincinnati"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.12711,
+        "lng": -84.51439,
+        "name": "Cincinnati"
+      },
+      "geonames_id": 4508722
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Cincinnati"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Cincinnati"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de cincinnati"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Cincinnati Children's Hospital Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01hcyya48"
+    },
+    {
+      "label": "Cincinnati VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/045r80n66"
+    },
+    {
+      "label": "Shriners Hospitals for Children - Cincinnati",
+      "type": "related",
+      "id": "https://ror.org/01aeq1t78"
+    },
+    {
+      "label": "University of Cincinnati Medical Center",
+      "type": "related",
+      "id": "https://ror.org/02p72h367"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wfu.edu"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "100007154",
+        "100008478",
+        "100013142"
+      ],
+      "preferred": "100007154",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.241167.7"
+      ],
+      "preferred": "grid.241167.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2185 3318"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q392667"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0207ad724",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wfu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Wake_Forest_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 36.09986,
+        "lng": -80.24422,
+        "name": "Winston-Salem"
+      },
+      "geonames_id": 4499612
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Wake Forest"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de wake forest"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wake Forest University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Virginia Tech - Wake Forest University School of Biomedical Engineering & Sciences",
+      "type": "child",
+      "id": "https://ror.org/01q1y4t48"
+    },
+    {
+      "label": "Atrium Health Wake Forest Baptist",
+      "type": "child",
+      "id": "https://ror.org/04v8djg66"
+    },
+    {
+      "label": "Brenner Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/05j2xx287"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

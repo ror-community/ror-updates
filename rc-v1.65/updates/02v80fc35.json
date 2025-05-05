@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "auburn.edu"
+  ],
+  "established": 1856,
+  "external_ids": [
+    {
+      "all": [
+        "100007579",
+        "100007580",
+        "100008745",
+        "100008493",
+        "100012321",
+        "100016522"
+      ],
+      "preferred": "100007579",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.252546.2"
+      ],
+      "preferred": "grid.252546.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2297 8753"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q540672"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02v80fc35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://auburn.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Auburn_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 32.60986,
+        "lng": -85.48078,
+        "name": "Auburn"
+      },
+      "geonames_id": 4830796
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Auburn University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Auburn"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Auburn University System",
+      "type": "parent",
+      "id": "https://ror.org/03pwcc270"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

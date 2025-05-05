@@ -1,0 +1,142 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "utmb.edu"
+  ],
+  "established": 1891,
+  "external_ids": [
+    {
+      "all": [
+        "100008013",
+        "100007865",
+        "100009259",
+        "100013695"
+      ],
+      "preferred": "100008013",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.176731.5"
+      ],
+      "preferred": "grid.176731.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1547 9964"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q921264"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016tfm930",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utmb.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Texas_Medical_Branch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.30135,
+        "lng": -94.7977,
+        "name": "Galveston"
+      },
+      "geonames_id": 4692883
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Centro Médico de la Universidad de Texas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The University of Texas Medical Branch at Galveston"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTMB"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The University of Texas System",
+      "type": "parent",
+      "id": "https://ror.org/01gek1696"
+    },
+    {
+      "label": "Central Texas Veterans Health Care System",
+      "type": "related",
+      "id": "https://ror.org/02dcp1550"
+    },
+    {
+      "label": "John Sealy Hospital",
+      "type": "related",
+      "id": "https://ror.org/02fxjt553"
+    },
+    {
+      "label": "Rebecca Sealy Hospital",
+      "type": "related",
+      "id": "https://ror.org/02agrc313"
+    },
+    {
+      "label": "Shriners Hospitals for Children - Galveston",
+      "type": "related",
+      "id": "https://ror.org/01v95tx09"
+    },
+    {
+      "label": "Shriners Hospitals for Children - Houston",
+      "type": "related",
+      "id": "https://ror.org/037dvnz29"
+    },
+    {
+      "label": "Texas Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00dqsbj20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

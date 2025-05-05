@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nd.edu"
+  ],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "100008109",
+        "100005683",
+        "100008110",
+        "100006050",
+        "100005961",
+        "100005880",
+        "100012463"
+      ],
+      "preferred": "100008109",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.131063.6"
+      ],
+      "preferred": "grid.131063.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2168 0066"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q178848"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00mkhxb43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nd.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Notre_Dame"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 41.70019,
+        "lng": -86.23793,
+        "name": "Notre Dame"
+      },
+      "geonames_id": 8469294
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Notre Dame"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université notre-dame"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mike and Josie Harper Cancer Research Institute",
+      "type": "child",
+      "id": "https://ror.org/030jvtg87"
+    },
+    {
+      "label": "NSF CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

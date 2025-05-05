@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chalmers.se"
+  ],
+  "established": 1829,
+  "external_ids": [
+    {
+      "all": [
+        "501100002835",
+        "501100006552",
+        "501100022277"
+      ],
+      "preferred": "501100002835",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5371.0"
+      ],
+      "preferred": "grid.5371.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0775 6028"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q836805",
+        "Q929994"
+      ],
+      "preferred": "Q836805",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040wg7k59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chalmers.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Chalmers_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "O",
+        "country_subdivision_name": "Västra Götaland",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "name": "Gothenburg"
+      },
+      "geonames_id": 2711537
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chalmers"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Chalmers Tekniska Högskola"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chalmers University of Technology"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Chalmers tekniska högskola"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Chalmersin teknillinen korkeakoulu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wallenberg Wood Science Center",
+      "type": "child",
+      "id": "https://ror.org/039qvmf95"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Chalmers Industriteknik",
+      "type": "related",
+      "id": "https://ror.org/00acv8d41"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

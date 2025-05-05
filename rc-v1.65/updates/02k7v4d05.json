@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unibe.ch"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "100009068",
+        "501100007282",
+        "100009070",
+        "100009069",
+        "100013353",
+        "100020401"
+      ],
+      "preferred": "100009068",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5734.5"
+      ],
+      "preferred": "grid.5734.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0726 5157"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q659080"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02k7v4d05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unibe.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Bern"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Bern",
+        "lat": 46.94809,
+        "lng": 7.44744,
+        "name": "Bern"
+      },
+      "geonames_id": 2661552
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Bern"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Università di Berna"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Bern"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de Berne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wyss Academy for Nature",
+      "type": "child",
+      "id": "https://ror.org/03dz0k314"
+    },
+    {
+      "label": "University Hospital of Bern",
+      "type": "related",
+      "id": "https://ror.org/01q9sj412"
+    },
+    {
+      "label": "Wiederkäuerklinik",
+      "type": "related",
+      "id": "https://ror.org/003bz8x96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

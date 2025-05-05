@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ecu.edu"
+  ],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "100008501",
+        "100008558",
+        "100012851",
+        "100019661"
+      ],
+      "preferred": "100008501",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255364.3"
+      ],
+      "preferred": "grid.255364.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2191 0423"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1277776"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01vx35703",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ecu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/East_Carolina_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.61266,
+        "lng": -77.36635,
+        "name": "Greenville"
+      },
+      "geonames_id": 4469160
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ECU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "East Carolina"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "East Carolina University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad del Este de Carolina"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    },
+    {
+      "label": "Durham VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/034adnw64"
+    },
+    {
+      "label": "Vidant Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00bxj7497"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

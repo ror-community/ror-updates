@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ulster.ac.uk"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "501100001632",
+        "100018383",
+        "501100024043"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12641.30"
+      ],
+      "preferred": "grid.12641.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0551 9715"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2096524"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01yp9g959",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ulster.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ulster_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "NIR",
+        "country_subdivision_name": "Northern Ireland",
+        "lat": 55.13333,
+        "lng": -6.66667,
+        "name": "Coleraine"
+      },
+      "geonames_id": 2652586
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Ulster"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Ulster"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Altnagelvin Area Hospital",
+      "type": "related",
+      "id": "https://ror.org/05xxmnm27"
+    },
+    {
+      "label": "Belfast City Hospital",
+      "type": "related",
+      "id": "https://ror.org/02405mj67"
+    },
+    {
+      "label": "Royal Victoria Hospital",
+      "type": "related",
+      "id": "https://ror.org/03rq50d77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

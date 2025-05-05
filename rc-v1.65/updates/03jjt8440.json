@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-03-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100003091"
+      ],
+      "preferred": "501100003091",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 1758 1286"
+      ],
+      "preferred": "0000 0004 1758 1286",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11044121"
+      ],
+      "preferred": "Q11044121",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03jjt8440",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sd.gov.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E4%B8%9C%E7%9C%81%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "Shandong",
+        "lat": 36.66833,
+        "lng": 116.99722,
+        "name": "Jinan"
+      },
+      "geonames_id": 1805753
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Shandong Province"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "People's Government of Shandong Province"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "山东省人民政府"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Education Shandong Province",
+      "type": "child",
+      "id": "https://ror.org/01ksk4k18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

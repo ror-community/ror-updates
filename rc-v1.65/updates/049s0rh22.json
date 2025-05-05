@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dartmouth.edu"
+  ],
+  "established": 1769,
+  "external_ids": [
+    {
+      "all": [
+        "100008299",
+        "100009231",
+        "100008300",
+        "100015823"
+      ],
+      "preferred": "100008299",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254880.3"
+      ],
+      "preferred": "grid.254880.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 2404"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q49116"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049s0rh22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://home.dartmouth.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Dartmouth_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "New Hampshire",
+        "lat": 43.70229,
+        "lng": -72.28954,
+        "name": "Hanover"
+      },
+      "geonames_id": 5087168
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dartmouth College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dartmouth Health",
+      "type": "child",
+      "id": "https://ror.org/01pa9ed26"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    },
+    {
+      "label": "Center for Open Neuroscience",
+      "type": "related",
+      "id": "https://ror.org/04tfhh831"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

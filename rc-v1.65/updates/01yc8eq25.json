@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100018689"
+      ],
+      "preferred": "501100018689",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.512893.4"
+      ],
+      "preferred": "grid.512893.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0005 0284 1388"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01yc8eq25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.scren.es/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Plataforma de Unidades de Investigación Clínica y Ensayos Clínicos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SCReN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Spanish Clinical Research Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of Spain",
+      "type": "parent",
+      "id": "https://ror.org/038jjxj40"
+    },
+    {
+      "label": "Instituto de Salud Carlos III",
+      "type": "parent",
+      "id": "https://ror.org/00ca2c886"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

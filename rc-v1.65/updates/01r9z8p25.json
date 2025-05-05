@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ull.es"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "100015528",
+        "100015529"
+      ],
+      "preferred": "100015528",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10041.34"
+      ],
+      "preferred": "grid.10041.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2106 0879"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q539881"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01r9z8p25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ull.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_La_Laguna"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CN",
+        "country_subdivision_name": "Canary Islands",
+        "lat": 28.4853,
+        "lng": -16.32014,
+        "name": "San Cristóbal de La Laguna"
+      },
+      "geonames_id": 2511401
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ULL"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad de La Laguna"
+    },
+    {
+      "lang": "gl",
+      "types": [
+        "label"
+      ],
+      "value": "Universidade de La Laguna"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of La Laguna"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of San Fernando de La Laguna"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Astrofísica de Canarias",
+      "type": "child",
+      "id": "https://ror.org/03cmntr54"
+    },
+    {
+      "label": "Hospital Universitario de Canarias",
+      "type": "related",
+      "id": "https://ror.org/05qndj312"
+    },
+    {
+      "label": "Hospital Universitario Nuestra Señora de Candelaria",
+      "type": "related",
+      "id": "https://ror.org/005a3p084"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

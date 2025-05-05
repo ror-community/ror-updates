@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-ulm.de"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "501100008977",
+        "501100013812",
+        "501100019218"
+      ],
+      "preferred": "501100008977",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6582.9"
+      ],
+      "preferred": "grid.6582.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9748"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q835662"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032000t02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-ulm.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Ulm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.39841,
+        "lng": 9.99155,
+        "name": "Ulm"
+      },
+      "geonames_id": 2820256
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ulm University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Ulm"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universität Ulm"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Integrated Quantum Science and Technology",
+      "type": "child",
+      "id": "https://ror.org/01z25am55"
+    },
+    {
+      "label": "Forschungsinstitut für Anwendungsorientierte Wissensverarbeitung",
+      "type": "child",
+      "id": "https://ror.org/04s7shc55"
+    },
+    {
+      "label": "Fachklinik für Neurologie Dietenbronn",
+      "type": "related",
+      "id": "https://ror.org/04zj3zq12"
+    },
+    {
+      "label": "Institute for Laser Technology in Medicine and Measurement Technique",
+      "type": "related",
+      "id": "https://ror.org/04edeq073"
+    },
+    {
+      "label": "University Hospital Ulm",
+      "type": "related",
+      "id": "https://ror.org/05emabm63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

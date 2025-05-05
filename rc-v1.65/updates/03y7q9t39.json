@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "canterbury.ac.nz"
+  ],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "100008414",
+        "100015424",
+        "501100009369"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.21006.35"
+      ],
+      "preferred": "grid.21006.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 4063"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q432475"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03y7q9t39",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.canterbury.ac.nz"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Canterbury"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "CAN",
+        "country_subdivision_name": "Canterbury",
+        "lat": -43.53333,
+        "lng": 172.63333,
+        "name": "Christchurch"
+      },
+      "geonames_id": 2192362
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Canterbury College"
+    },
+    {
+      "lang": "mi",
+      "types": [
+        "label"
+      ],
+      "value": "Te Whare Wānanga o Waitaha"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Canterbury"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Dodd-Walls Centre for Photonic and Quantum Technologies",
+      "type": "child",
+      "id": "https://ror.org/05p61mv27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

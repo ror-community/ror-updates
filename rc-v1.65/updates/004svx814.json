@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100002949",
+        "501100010014",
+        "501100012246"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452964.8"
+      ],
+      "preferred": "grid.452964.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1758 6802"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/004svx814",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jiangsu.gov.cn/JSGOVEN08/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "JS",
+        "country_subdivision_name": "Jiangsu",
+        "lat": 32.06167,
+        "lng": 118.77778,
+        "name": "Nanjing"
+      },
+      "geonames_id": 1799962
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Jiangsu Province"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Human Resources and Social Security of Jiangsu Province",
+      "type": "child",
+      "id": "https://ror.org/02kv0wv09"
+    },
+    {
+      "label": "Department of Finance of Jiangsu Province",
+      "type": "child",
+      "id": "https://ror.org/04ac0qk71"
+    },
+    {
+      "label": "Jiangsu Education Department",
+      "type": "child",
+      "id": "https://ror.org/059md9404"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uams.edu"
+  ],
+  "established": 1879,
+  "external_ids": [
+    {
+      "all": [
+        "100008519",
+        "100008231",
+        "100015317"
+      ],
+      "preferred": "100008519",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.241054.6"
+      ],
+      "preferred": "grid.241054.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4687 1637"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q941298"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xcryt71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uams.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Arkansas_for_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AR",
+        "country_subdivision_name": "Arkansas",
+        "lat": 34.74648,
+        "lng": -92.28959,
+        "name": "Little Rock"
+      },
+      "geonames_id": 4119403
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Arkansas for Medical Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Arkansas System",
+      "type": "parent",
+      "id": "https://ror.org/05vvhh982"
+    },
+    {
+      "label": "Arkansas Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/01t33qq42"
+    },
+    {
+      "label": "Central Arkansas Veterans Healthcare System",
+      "type": "related",
+      "id": "https://ror.org/01s5r6w32"
+    },
+    {
+      "label": "University of Arkansas Medical Center",
+      "type": "related",
+      "id": "https://ror.org/005k4dn45"
+    },
+    {
+      "label": "The Cancer Imaging Archive",
+      "type": "related",
+      "id": "https://ror.org/02qyzaf42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
