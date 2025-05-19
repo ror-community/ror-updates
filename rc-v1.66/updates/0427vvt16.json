@@ -116,7 +116,18 @@
       "value": "Global Affairs Canada"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Embassy of Canada in Washington, D.C",
+      "type": "child",
+      "id": "https://ror.org/03594dm11"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "parent",
+      "id": "https://ror.org/010q4q527"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -99,7 +99,18 @@
       "value": "University of Applied Sciences of the German Social Accident Insurance"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Deutsche Gesetzliche Unfallversicherung",
+      "type": "parent",
+      "id": "https://ror.org/01agh0847"
+    },
+    {
+      "label": "Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung",
+      "type": "related",
+      "id": "https://ror.org/0454e9996"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

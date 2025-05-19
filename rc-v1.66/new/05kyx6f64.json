@@ -78,7 +78,23 @@
       "value": "United States Army Combined Arms Support Command"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sustainment Center of Excellence",
+      "type": "child",
+      "id": "https://ror.org/01p1q1f66"
+    },
+    {
+      "label": "U.S. Army Training and Doctrine Command",
+      "type": "parent",
+      "id": "https://ror.org/02t7y5s37"
+    },
+    {
+      "label": "Army Sustainment University",
+      "type": "child",
+      "id": "https://ror.org/02skkz355"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

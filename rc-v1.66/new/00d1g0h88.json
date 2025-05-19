@@ -54,7 +54,28 @@
       "value": "Heliophysics Digital Resource Library"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Heliophysics Science Division",
+      "type": "parent",
+      "id": "https://ror.org/03myraf72"
+    },
+    {
+      "label": "Heliophysics Data and Modeling Consortium",
+      "type": "child",
+      "id": "https://ror.org/04xbq1n92"
+    },
+    {
+      "label": "Solar Data Analysis Center",
+      "type": "child",
+      "id": "https://ror.org/04rvfc379"
+    },
+    {
+      "label": "Space Physics Data Facility",
+      "type": "child",
+      "id": "https://ror.org/00ryjtt64"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
