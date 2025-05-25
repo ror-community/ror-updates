@@ -1,0 +1,75 @@
+name: Triage Issues
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to triage'
+        required: false
+        type: string
+      start_issue:
+        description: 'Start issue number for range (inclusive)'
+        required: false
+        type: string
+      end_issue:
+        description: 'End issue number for range (inclusive)'
+        required: false
+        type: string
+      skip_commented:
+        description: 'Skip issues that already have bot comments'
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout specific script version
+        uses: actions/checkout@v4
+        with:
+          repository: ror-community/curation_ops
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies from requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r triage_issues/requirements.txt
+
+      - name: Validate inputs
+        run: |
+          if [[ -n "${{ github.event.inputs.issue_number }}" && ( -n "${{ github.event.inputs.start_issue }}" || -n "${{ github.event.inputs.end_issue }}" ) ]]; then
+            echo "Error: Cannot specify both single issue and issue range"
+            exit 1
+          fi
+          if [[ -z "${{ github.event.inputs.issue_number }}" && ( -z "${{ github.event.inputs.start_issue }}" || -z "${{ github.event.inputs.end_issue }}" ) ]]; then
+            echo "Error: Must specify either single issue number or both start and end issue numbers"
+            exit 1
+          fi
+
+      - name: Run Triage Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ISSUE_NUMBER: ${{ github.event.inputs.issue_number }}
+          START_ISSUE: ${{ github.event.inputs.start_issue }}
+          END_ISSUE: ${{ github.event.inputs.end_issue }}
+          SKIP_COMMENTED: ${{ github.event.inputs.skip_commented }}
+        run: |
+          echo "--- Debugging Environment Variables ---"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "ISSUE_NUMBER: $ISSUE_NUMBER"
+          echo "START_ISSUE: $START_ISSUE"
+          echo "END_ISSUE: $END_ISSUE"
+          echo "SKIP_COMMENTED: $SKIP_COMMENTED"
+          echo "Running Python script: triage_issues/triage_issues_action.py"
+          python triage_issues/triage_issues_action.py
