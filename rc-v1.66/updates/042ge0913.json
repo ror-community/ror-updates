@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1931,
+  "external_ids": [
+    {
+      "all": [
+        "501100004725",
+        "501100002768",
+        "501100002821"
+      ],
+      "preferred": "501100004725",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453052.5"
+      ],
+      "preferred": "grid.453052.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 5423"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q697113"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042ge0913",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.moea.gov.tw/Mns/english/home/English.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Economic_Affairs_(Taiwan)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Taiwan",
+        "lat": 25.05306,
+        "lng": 121.52639,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOEA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Economic Affairs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bureau of Energy",
+      "type": "child",
+      "id": "https://ror.org/044ktnx96"
+    },
+    {
+      "label": "Central Geological Survey, MOEA",
+      "type": "child",
+      "id": "https://ror.org/05kqvrr98"
+    },
+    {
+      "label": "Industrial Development Bureau",
+      "type": "child",
+      "id": "https://ror.org/001s1be73"
+    },
+    {
+      "label": "Taiwan Power (Taiwan)",
+      "type": "child",
+      "id": "https://ror.org/00xtmkg39"
+    },
+    {
+      "label": "Government of the Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/05t0w3074"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

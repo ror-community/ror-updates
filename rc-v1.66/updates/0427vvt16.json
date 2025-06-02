@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "501100008627",
+        "501100000043",
+        "100010503"
+      ],
+      "preferred": "501100008627",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454088.5"
+      ],
+      "preferred": "grid.454088.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6037 2738",
+        "0000 0001 2369 8286"
+      ],
+      "preferred": "0000 0004 6037 2738",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3315371"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0427vvt16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.international.gc.ca/international/index.aspx?lang=eng"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Global_Affairs_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AMC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Affaires Mondiales Canada"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of External Affairs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Foreign Affairs, Trade and Development Canada"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Global Affairs Canada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Embassy of Canada in Washington, D.C",
+      "type": "child",
+      "id": "https://ror.org/03594dm11"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "parent",
+      "id": "https://ror.org/010q4q527"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

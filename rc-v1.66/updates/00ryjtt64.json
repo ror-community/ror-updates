@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508829.e"
+      ],
+      "preferred": "grid.508829.e",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00ryjtt64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://spdf.gsfc.nasa.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.00455,
+        "lng": -76.87553,
+        "name": "Greenbelt"
+      },
+      "geonames_id": 4356847
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SPDF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Space Physics Data Facility"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Goddard Space Flight Center",
+      "type": "parent",
+      "id": "https://ror.org/0171mag52"
+    },
+    {
+      "label": "Heliophysics Data and Modeling Consortium",
+      "type": "related",
+      "id": "https://ror.org/04xbq1n92"
+    },
+    {
+      "label": "Heliophysics Digital Resource Library",
+      "type": "parent",
+      "id": "https://ror.org/00d1g0h88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

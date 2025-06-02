@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.498415.5"
+      ],
+      "preferred": "grid.498415.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3128622"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042949r55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hesam.eu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "HESAM Université"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Hautes Écoles Sorbonne Arts et Métiers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Arts et Métiers",
+      "type": "child",
+      "id": "https://ror.org/018pp1107"
+    },
+    {
+      "label": "Conservatoire National des Arts et Métiers",
+      "type": "child",
+      "id": "https://ror.org/0175hh227"
+    },
+    {
+      "label": "École Nationale Supérieure d'Architecture de Paris-La Villette",
+      "type": "child",
+      "id": "https://ror.org/03e2r1r87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

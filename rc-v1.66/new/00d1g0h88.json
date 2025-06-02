@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-05-19",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hdrl.gsfc.nasa.gov"
+  ],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/00d1g0h88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hdrl.gsfc.nasa.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.00455,
+        "lng": -76.87553,
+        "name": "Greenbelt"
+      },
+      "geonames_id": 4356847
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "HDRL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Heliophysics Digital Resource Library"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Heliophysics Science Division",
+      "type": "parent",
+      "id": "https://ror.org/03myraf72"
+    },
+    {
+      "label": "Heliophysics Data and Modeling Consortium",
+      "type": "child",
+      "id": "https://ror.org/04xbq1n92"
+    },
+    {
+      "label": "Solar Data Analysis Center",
+      "type": "child",
+      "id": "https://ror.org/04rvfc379"
+    },
+    {
+      "label": "Space Physics Data Facility",
+      "type": "child",
+      "id": "https://ror.org/00ryjtt64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

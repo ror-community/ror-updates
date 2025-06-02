@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "100010096",
+        "501100007163"
+      ],
+      "preferred": "100010096",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.462843.f"
+      ],
+      "preferred": "grid.462843.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2308 9077"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q750196",
+        "Q38914329"
+      ],
+      "preferred": "Q750196",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e1c4h55",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sep.gob.mx/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Secretariat_of_Public_Education_(Mexico)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SEP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Secretariat of Public Education"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Secretaría de Educación Pública"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tecnológico Nacional de México",
+      "type": "child",
+      "id": "https://ror.org/00davry38"
+    },
+    {
+      "label": "Universitario Tecnológico Universitam",
+      "type": "child",
+      "id": "https://ror.org/05whw7f42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1802,
+  "external_ids": [
+    {
+      "all": [
+        "100009923"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419884.8"
+      ],
+      "preferred": "grid.419884.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 2270"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9219",
+        "Q5260438"
+      ],
+      "preferred": "Q9219",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jepya76",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.westpoint.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Military_Academy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 41.39148,
+        "lng": -73.95597,
+        "name": "West Point"
+      },
+      "geonames_id": 5143966
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Academia Militar de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Académie Militaire de West Point"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Military Academy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "West Point Army"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army",
+      "type": "parent",
+      "id": "https://ror.org/00afsp483"
+    },
+    {
+      "label": "Army Cyber Institute at West Point",
+      "type": "child",
+      "id": "https://ror.org/01b61x679"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

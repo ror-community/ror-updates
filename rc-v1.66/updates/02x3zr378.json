@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cno.navy.mil"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q1072415"
+      ],
+      "preferred": "Q1072415",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02x3zr378",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cno.navy.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Chief_of_Naval_Operations"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.87095,
+        "lng": -77.05526,
+        "name": "Pentagon"
+      },
+      "geonames_id": 4778469
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "OPNAV"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Office of the Chief of Naval Operations"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of the Navy",
+      "type": "parent",
+      "id": "https://ror.org/03ar0mv07"
+    },
+    {
+      "label": "Naval Safety Command",
+      "type": "child",
+      "id": "https://ror.org/01fwb5927"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

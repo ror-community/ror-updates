@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "100010460"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.481489.8"
+      ],
+      "preferred": "grid.481489.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0689 287X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3550729"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vrzee53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.army.mil/armymedicine/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Medical_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MEDCOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Medical Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Aeromedical Research Lab",
+      "type": "child",
+      "id": "https://ror.org/01ajqvg59"
+    },
+    {
+      "label": "United States Army Medical Research and Development Command",
+      "type": "child",
+      "id": "https://ror.org/03cd02q50"
+    },
+    {
+      "label": "Defense Center for Public Health - Aberdeen",
+      "type": "child",
+      "id": "https://ror.org/03qhdpz92"
+    },
+    {
+      "label": "United States Department of the Army",
+      "type": "parent",
+      "id": "https://ror.org/035w1gb98"
+    },
+    {
+      "label": "Landstuhl Regional Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05rpr6785"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

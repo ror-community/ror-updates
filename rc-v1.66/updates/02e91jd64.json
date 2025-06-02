@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "upm.edu.my"
+  ],
+  "established": 1931,
+  "external_ids": [
+    {
+      "all": [
+        "501100004530",
+        "501100006018",
+        "501100007145",
+        "501100006528",
+        "501100008850"
+      ],
+      "preferred": "501100004530",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11142.37"
+      ],
+      "preferred": "grid.11142.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2231 800X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1458579"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e91jd64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://upm.edu.my"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universiti_Putra_Malaysia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Selangor",
+        "lat": 3.03333,
+        "lng": 101.71667,
+        "name": "Seri Kembangan"
+      },
+      "geonames_id": 1744246
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPM"
+    },
+    {
+      "lang": "ms",
+      "types": [
+        "alias"
+      ],
+      "value": "Universiti Pertanian Malaysia"
+    },
+    {
+      "lang": "ms",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universiti Putra Malaysia"
+    },
+    {
+      "lang": "ta",
+      "types": [
+        "label"
+      ],
+      "value": "மலேசிய புத்ரா பல்கலைக்கழகம்"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "博特拉大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Serdang Hospital",
+      "type": "related",
+      "id": "https://ror.org/00g89bg08"
+    },
+    {
+      "label": "Putra Business School",
+      "type": "child",
+      "id": "https://ror.org/02re7jk37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

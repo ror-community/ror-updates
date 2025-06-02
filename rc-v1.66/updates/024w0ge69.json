@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "100008903",
+        "501100006573",
+        "100013227"
+      ],
+      "preferred": "100008903",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454740.6"
+      ],
+      "preferred": "grid.454740.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q697240"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/024w0ge69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mohw.gov.tw/EN/Ministry/Index.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_and_Welfare_(Taiwan)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Taiwan",
+        "lat": 25.05306,
+        "lng": 121.52639,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DOH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Health"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOHW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health and Welfare"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Wèishēng Shǔ"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Zhōnghuá Mínguó Wèishēng Fúlì Bù"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Taiwan Food and Drug Administration",
+      "type": "child",
+      "id": "https://ror.org/0250say61"
+    },
+    {
+      "label": "Tao Yuan General Hospital",
+      "type": "child",
+      "id": "https://ror.org/0367d2222"
+    },
+    {
+      "label": "Government of the Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/05t0w3074"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

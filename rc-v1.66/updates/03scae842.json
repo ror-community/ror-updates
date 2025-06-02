@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-17",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "socom.mil"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2183 1493"
+      ],
+      "preferred": "0000 0001 2183 1493",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1067064"
+      ],
+      "preferred": "Q1067064",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03scae842",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.socom.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Special_Operations_Command"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 27.8472,
+        "lng": -82.50338,
+        "name": "Macdill Air Force Base"
+      },
+      "geonames_id": 7267537
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Special Operations Command"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "USSOCOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "United States Special Operations Command"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Naval Special Warfare Command",
+      "type": "child",
+      "id": "https://ror.org/054z15n55"
+    },
+    {
+      "label": "United States Department of Defense",
+      "type": "parent",
+      "id": "https://ror.org/0447fe631"
+    },
+    {
+      "label": "Joint Special Operations University",
+      "type": "child",
+      "id": "https://ror.org/04zn7j940"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

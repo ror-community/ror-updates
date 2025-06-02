@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-09-14",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q16974004"
+      ],
+      "preferred": "Q16974004",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0595f4b08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aflcmc.af.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Air_Force_Life_Cycle_Management_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.82201,
+        "lng": -84.0368,
+        "name": "Wright-Patterson Air Force Base"
+      },
+      "geonames_id": 7701733
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "AFLCMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Air Force Life Cycle Management Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "U.S. Air Force Life Cycle Management Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Air Force Materiel Command",
+      "type": "parent",
+      "id": "https://ror.org/02m4c1x70"
+    },
+    {
+      "label": "United States Air Force Electronic Systems Center",
+      "type": "predecessor",
+      "id": "https://ror.org/002v1jc79"
+    },
+    {
+      "label": "United States Air Force Air Armament Center",
+      "type": "predecessor",
+      "id": "https://ror.org/0563ebm96"
+    },
+    {
+      "label": "United States Air Force Aeronautical Systems Center",
+      "type": "predecessor",
+      "id": "https://ror.org/00nj2dc54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

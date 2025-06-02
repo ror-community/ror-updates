@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bmbwf.gv.at"
+  ],
+  "established": 1848,
+  "external_ids": [
+    {
+      "all": [
+        "501100013699"
+      ],
+      "preferred": "501100013699",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.493896.9"
+      ],
+      "preferred": "grid.493896.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2107 7064"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q606227"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03gng8t46",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bmbwf.gv.at"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Education_(Austria)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "9",
+        "country_subdivision_name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "name": "Vienna"
+      },
+      "geonames_id": 2761369
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMBWF"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bundesministerium für Bildung, Wissenschaft und Forschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Ministry of Education, Science and Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Unterrichtsministerium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Bundes für Qualitätssicherung im österreichischen Schulwesen",
+      "type": "child",
+      "id": "https://ror.org/056wg7w27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

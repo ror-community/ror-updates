@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100003417"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424163.6"
+      ],
+      "preferred": "grid.424163.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 5850"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01agh0847",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dguv.de/de/index.jsp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.77538,
+        "lng": 7.197,
+        "name": "Sankt Augustin"
+      },
+      "geonames_id": 2841648
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DGUV"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutsche Gesetzliche Unfallversicherung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for Prevention and Occupational Medicine",
+      "type": "child",
+      "id": "https://ror.org/03jqa2c59"
+    },
+    {
+      "label": "DGUV Hochschule - Hochschule der Gesetzlichen Unfallversicherung (HGU)",
+      "type": "child",
+      "id": "https://ror.org/03pcpfy27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

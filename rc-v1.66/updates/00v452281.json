@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iarc.who.int"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "100008700"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.17703.32"
+      ],
+      "preferred": "grid.17703.32",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0598 0095"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q552168"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00v452281",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iarc.who.int"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/International_Agency_for_Research_on_Cancer"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIRC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre international de recherche sur le cancer"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IARC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "International Agency for Research on Cancer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "World Health Organization",
+      "type": "parent",
+      "id": "https://ror.org/01f80g185"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

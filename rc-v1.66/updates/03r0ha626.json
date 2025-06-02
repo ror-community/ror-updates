@@ -1,0 +1,167 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-05-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "utah.edu"
+  ],
+  "established": 1850,
+  "external_ids": [
+    {
+      "all": [
+        "100007747",
+        "100009963",
+        "100010573",
+        "100006415",
+        "100008236",
+        "100008235",
+        "100009263",
+        "100006042",
+        "100012664",
+        "100015085",
+        "100017094",
+        "100020321"
+      ],
+      "preferred": "100007747",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.223827.e"
+      ],
+      "preferred": "grid.223827.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2193 0096"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q168515"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03r0ha626",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utah.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Utah"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utah",
+        "lat": 40.76078,
+        "lng": -111.89105,
+        "name": "Salt Lake City"
+      },
+      "geonames_id": 5780993
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UU"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Utah"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Deseret"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Utah"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Utah Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/0028hgc48"
+    },
+    {
+      "label": "NSF CI Compass",
+      "type": "child",
+      "id": "https://ror.org/001zwgm84"
+    },
+    {
+      "label": "Utah System of Higher Education",
+      "type": "parent",
+      "id": "https://ror.org/02mv6r745"
+    },
+    {
+      "label": "Huntsman Cancer Institute",
+      "type": "related",
+      "id": "https://ror.org/03v7tx966"
+    },
+    {
+      "label": "Primary Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/053hkmn05"
+    },
+    {
+      "label": "University of Utah Health Care",
+      "type": "related",
+      "id": "https://ror.org/047s7ex42"
+    },
+    {
+      "label": "University of Utah Hospital",
+      "type": "related",
+      "id": "https://ror.org/03b436430"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    },
+    {
+      "label": "NSF-Simons AI Institute for Cosmic Origins",
+      "type": "child",
+      "id": "https://ror.org/0424mzx13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
