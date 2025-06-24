@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "osaka-u.ac.jp"
+  ],
+  "established": 1724,
+  "external_ids": [
+    {
+      "all": [
+        "501100004206"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.136593.b"
+      ],
+      "preferred": "grid.136593.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0373 3971"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q651233",
+        "Q39650724",
+        "Q11440159"
+      ],
+      "preferred": "Q651233",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035t8zc32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.osaka-u.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Osaka_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Osaka",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Osaka University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "The University of Osaka"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Ōsaka daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "大阪大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Spintronics Research Network of Japan",
+      "type": "child",
+      "id": "https://ror.org/03bbyax37"
+    },
+    {
+      "label": "Osaka University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05rnn8t74"
+    },
+    {
+      "label": "Osaka International Cancer Institute",
+      "type": "related",
+      "id": "https://ror.org/05xvwhv53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

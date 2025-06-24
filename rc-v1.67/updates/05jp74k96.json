@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kcmc.hosp.go.jp"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415611.6"
+      ],
+      "preferred": "grid.415611.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4674 3774"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05jp74k96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kcmc.hosp.go.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Osaka",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "NHO Kinki Chuo Chest Medical Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "NHO近畿中央呼吸器センター"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Hospital Organization Kinki-chuo Chest Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Kinki Chuo Hospital for Chest Disease"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立病院機構近畿中央胸部疾患センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

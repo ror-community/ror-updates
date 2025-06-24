@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-a.de",
+    "uni-augsburg.de"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.7307.3"
+      ],
+      "preferred": "grid.7307.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2108 9006"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q616905"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03p14d497",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-augsburg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Augsburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.37154,
+        "lng": 10.89851,
+        "name": "Augsburg"
+      },
+      "geonames_id": 2954172
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Augsburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Augsburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Hospital Augsburg",
+      "type": "related",
+      "id": "https://ror.org/03b0k9c14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}
