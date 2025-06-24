@@ -52,7 +52,18 @@
       "value": "Inria Paris Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Inria de Sorbonne Université",
+      "type": "child",
+      "id": "https://ror.org/03cjm2544"
+    },
+    {
+      "label": "Institut national de recherche en sciences et technologies du numérique",
+      "type": "parent",
+      "id": "https://ror.org/02kvxyf05"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

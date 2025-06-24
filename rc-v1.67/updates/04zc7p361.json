@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-kassel.de"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100012687"
+      ],
+      "preferred": "501100012687",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5155.4"
+      ],
+      "preferred": "grid.5155.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1089 1036"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q833822",
+        "Q17058439"
+      ],
+      "preferred": "Q833822",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04zc7p361",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-kassel.de/uni"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Kassel"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 51.31667,
+        "lng": 9.5,
+        "name": "Kassel"
+      },
+      "geonames_id": 2892518
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Kassel"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Kassel"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "kassel university press",
+      "type": "child",
+      "id": "https://ror.org/00gnnx384"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

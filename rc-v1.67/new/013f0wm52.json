@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Fundação Energias de Portugal"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Energias de Portugal (Portugal)",
+      "type": "parent",
+      "id": "https://ror.org/00praab34"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Centro de Reabilitação de Paralisia Cerebral Calouste Gulbenkian"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Santa Casa da Misericórdia de Lisboa",
+      "type": "parent",
+      "id": "https://ror.org/00dx9kg40"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

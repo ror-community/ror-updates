@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Instituto Superior de Saúde Centro Interdisciplinar em Ciências da Saúde"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Superior de Saúde do Alto Ave",
+      "type": "parent",
+      "id": "https://ror.org/05pv4tx93"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

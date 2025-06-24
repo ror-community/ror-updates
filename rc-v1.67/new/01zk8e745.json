@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Universidade Lusófona Cátedra UNESCO Educação Cidadania e Diversidade Cultural"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Lusófona",
+      "type": "parent",
+      "id": "https://ror.org/05xxfer42"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

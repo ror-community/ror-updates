@@ -74,7 +74,23 @@
       "value": "Stellantis North America (United States)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Stellantis Canada (Canada)",
+      "type": "child",
+      "id": "https://ror.org/056k09r13"
+    },
+    {
+      "label": "Fiat Chrysler Automobiles (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/03qxrge70"
+    },
+    {
+      "label": "Stellantis (Netherlands)",
+      "type": "parent",
+      "id": "https://ror.org/011wcsv83"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

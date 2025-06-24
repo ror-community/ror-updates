@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-13",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iseg.ulisboa.pt"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2193 3828"
+      ],
+      "preferred": "0000 0001 2193 3828",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2655186"
+      ],
+      "preferred": "Q2655186",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03k2k6011",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iseg.ulisboa.pt"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://pt.wikipedia.org/wiki/Instituto_Superior_de_Economia_e_Gest%C3%A3o"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.72635,
+        "lng": -9.14843,
+        "name": "Lisbon"
+      },
+      "geonames_id": 6458923
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "acronym"
+      ],
+      "value": "ISEG"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "ISEG - Instituto Superior de Economia e Gestão"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidade de Lisboa Instituto Superior de Economia e Gestao"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Lisbon Higher Institute of Economics and Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    },
+    {
+      "label": "Gabinete de História Económica e Social",
+      "type": "child",
+      "id": "https://ror.org/0537tge94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

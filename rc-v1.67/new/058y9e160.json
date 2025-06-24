@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -53,7 +53,13 @@
       "value": "Pólo da Madeira do Centro de Ciências do Mar e do Ambiente"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "MARE - Centro de Ciências do Mar e do Ambiente",
+      "type": "parent",
+      "id": "https://ror.org/03cvzf910"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

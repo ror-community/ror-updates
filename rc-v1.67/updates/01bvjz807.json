@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ips.pt"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "grid.421114.3"
+      ],
+      "preferred": "grid.421114.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2230 1638"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01bvjz807",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ips.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "15",
+        "country_subdivision_name": "Setúbal",
+        "lat": 38.5244,
+        "lng": -8.8882,
+        "name": "Setúbal"
+      },
+      "geonames_id": 2262963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPS"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Politecnico de Setubal"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Polytechnic Institute of Setúbal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro de Investigação em Energia e Ambiente",
+      "type": "child",
+      "id": "https://ror.org/03hdb9194"
+    },
+    {
+      "label": "Centro de Investigação em Ciências Empresariais",
+      "type": "child",
+      "id": "https://ror.org/048ank724"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

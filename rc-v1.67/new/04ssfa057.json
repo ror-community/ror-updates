@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Instituto Superior de Ciências da Saúde Egas Moniz Centro de Polímeros Biomédicos"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola Superior de Saúde Egas Moniz",
+      "type": "parent",
+      "id": "https://ror.org/01prbq409"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

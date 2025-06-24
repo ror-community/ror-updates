@@ -76,7 +76,18 @@
       "value": "Research Centre on Aging"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/020r51985"
+    },
+    {
+      "label": "Université de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/00kybxq39"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

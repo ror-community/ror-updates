@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-05-19",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "meteo.cat"
+  ],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2206 322X"
+      ],
+      "preferred": "0000 0001 2206 322X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11949463"
+      ],
+      "preferred": "Q11949463",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03hm91306",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.meteo.cat"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Meteorological_Service_of_Catalonia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.39942,
+        "lng": 2.12804,
+        "name": "Barcelona"
+      },
+      "geonames_id": 6356055
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Meteocat"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Meteorological Service of Catalonia"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "acronym"
+      ],
+      "value": "SMC"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Servei Meteorològic de Catalunya"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Generalitat de Catalunya",
+      "type": "parent",
+      "id": "https://ror.org/01bg62x04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

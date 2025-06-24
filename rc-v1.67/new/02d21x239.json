@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Instituto Superior Miguel Torga Gabinete de Projetos e Inovação"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Superior Miguel Torga",
+      "type": "parent",
+      "id": "https://ror.org/04xkdwy10"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

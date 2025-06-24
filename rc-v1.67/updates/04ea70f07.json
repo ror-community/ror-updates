@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipl.pt"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "501100022402"
+      ],
+      "preferred": "501100022402",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418858.8"
+      ],
+      "preferred": "grid.418858.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9084 0599"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1363371",
+        "Q6041530"
+      ],
+      "preferred": "Q1363371",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ea70f07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipl.pt"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Polytechnic_Institute_of_Lisbon"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPL"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Politécnico de Lisboa"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Superior de Engenharia de Lisboa"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Polytechnical Institute of Lisbon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro de Física do Instituto Politécnico de Lisboa",
+      "type": "child",
+      "id": "https://ror.org/019e4ht86"
+    },
+    {
+      "label": "Centro de Investigação em Modelação e Optimização de Sistemas Multifuncionais",
+      "type": "child",
+      "id": "https://ror.org/03twp6y34"
+    },
+    {
+      "label": "Centro de Investigação em Saúde e Tecnologia",
+      "type": "child",
+      "id": "https://ror.org/04gzz8859"
+    },
+    {
+      "label": "Centro Interdisciplinar de Estudos Educacionais",
+      "type": "child",
+      "id": "https://ror.org/0013hqd91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
