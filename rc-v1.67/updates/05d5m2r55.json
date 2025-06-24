@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ihes.fr"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100022300"
+      ],
+      "preferred": "501100022300",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425258.c"
+      ],
+      "preferred": "grid.425258.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9123 3862"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1156553"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05d5m2r55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ihes.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_des_Hautes_%C3%89tudes_Scientifiques"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.69981,
+        "lng": 2.17064,
+        "name": "Bures-sur-Yvette"
+      },
+      "geonames_id": 3029522
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IHÉS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut des Hautes Études Scientifiques"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Institut des hautes études scientifiques"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Advanced Scientific Studies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bibliothèque Jacques Hadamard",
+      "type": "child",
+      "id": "https://ror.org/04g0ktq11"
+    },
+    {
+      "label": "Laboratoire Alexander Grothendieck",
+      "type": "child",
+      "id": "https://ror.org/04wbdez64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

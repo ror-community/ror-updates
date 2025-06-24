@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Instituto Politécnico do Porto Centro de Investigação e Desenvolvimento em Engenharia Mecânica"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Polytechnic Institute of Porto",
+      "type": "parent",
+      "id": "https://ror.org/04988re48"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

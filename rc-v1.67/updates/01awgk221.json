@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "phzh.ch"
+  ],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483054.e"
+      ],
+      "preferred": "grid.483054.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9666 1858"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01awgk221",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://phzh.ch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.36667,
+        "lng": 8.55,
+        "name": "Zurich"
+      },
+      "geonames_id": 2657896
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Haute école pédagogique de Zurich"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "PH Zürich"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PHZH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Pädagogische Hochschule Zürich"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Zurich University of Teacher Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ZHAW Zurich University of Applied Sciences",
+      "type": "related",
+      "id": "https://ror.org/05pmsvm27"
+    },
+    {
+      "label": "Zürcher Fachhochschule",
+      "type": "predecessor",
+      "id": "https://ror.org/01sxmzj91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

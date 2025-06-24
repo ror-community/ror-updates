@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459396.4"
+      ],
+      "preferred": "grid.459396.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9924 8700"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05jw2mx52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bg-kliniken.de/klinikum-hamburg/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HH",
+        "country_subdivision_name": "Hamburg",
+        "lat": 53.55073,
+        "lng": 9.99302,
+        "name": "Hamburg"
+      },
+      "geonames_id": 2911298
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "BG Klinikum Hamburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Berufsgenossenschaftliches Unfallkrankenhaus Hamburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "BG Kliniken",
+      "type": "parent",
+      "id": "https://ror.org/054224v54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

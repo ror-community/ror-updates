@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Escola Universitária Vasco da Gama Centro Investigação Vasco da Gama"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola Universitária Vasco da Gama",
+      "type": "parent",
+      "id": "https://ror.org/01114f477"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

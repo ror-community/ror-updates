@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "501100020144"
+      ],
+      "preferred": "501100020144",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417133.3"
+      ],
+      "preferred": "grid.417133.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 8058"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6352502"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01a61tf67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wrha.mb.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Winnipeg_Regional_Health_Authority"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Office Régional de la Santé de Winnipeg"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WRHA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Winnipeg Regional Health Authority"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children's Hospital of Winnipeg",
+      "type": "child",
+      "id": "https://ror.org/02jzt8c33"
+    },
+    {
+      "label": "Health Sciences Centre",
+      "type": "child",
+      "id": "https://ror.org/05pr37258"
+    },
+    {
+      "label": "Seven Oaks General Hospital",
+      "type": "child",
+      "id": "https://ror.org/05f1g5a11"
+    },
+    {
+      "label": "Victoria General Hospital",
+      "type": "child",
+      "id": "https://ror.org/03wwbp431"
+    },
+    {
+      "label": "Shared Health Manitoba",
+      "type": "related",
+      "id": "https://ror.org/03rvea339"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

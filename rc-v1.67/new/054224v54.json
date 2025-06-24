@@ -80,7 +80,18 @@
       "value": "BG Kliniken – Klinikverbund der gesetzlichen Unfallversicherung gGmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "BG Klinikum Hamburg",
+      "type": "child",
+      "id": "https://ror.org/05jw2mx52"
+    },
+    {
+      "label": "Berufsgenossenschaftliche Unfallklinik Ludwigshafen",
+      "type": "child",
+      "id": "https://ror.org/02wfxqa76"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

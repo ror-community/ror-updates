@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Centro de Investigação Desenvolvimento e Inovação da Academia Militar"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Portuguese Military Academy",
+      "type": "parent",
+      "id": "https://ror.org/0245c5212"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

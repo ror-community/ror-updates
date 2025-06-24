@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unavarra.es"
+  ],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "501100007680"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410476.0"
+      ],
+      "preferred": "grid.410476.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2174 6440"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3179598"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02z0cah89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unavarra.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Public_University_of_Navarre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "Navarre",
+        "lat": 42.81687,
+        "lng": -1.64323,
+        "name": "Pamplona"
+      },
+      "geonames_id": 3114472
+    }
+  ],
+  "names": [
+    {
+      "lang": "eu",
+      "types": [
+        "label"
+      ],
+      "value": "Nafarroako Unibertsitate Publikoa"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Public University of Navarre"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPNA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Publica de Navarra"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Complejo Hospitalario de Navarra",
+      "type": "related",
+      "id": "https://ror.org/011787436"
+    },
+    {
+      "label": "Navarre Institute of Health Research",
+      "type": "related",
+      "id": "https://ror.org/023d5h353"
+    },
+    {
+      "label": "Institute for Advanced Materials and Mathematics",
+      "type": "child",
+      "id": "https://ror.org/01g16ph33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

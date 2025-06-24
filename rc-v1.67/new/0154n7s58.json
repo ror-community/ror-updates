@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "ISCTE-Instituto Universitário de Lisboa Escola de Sociologia e Políticas Públicas"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iscte – Instituto Universitário de Lisboa",
+      "type": "parent",
+      "id": "https://ror.org/014837179"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

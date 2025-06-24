@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Escola Superior Artística do Porto Centro de Estudos Arnaldo Araújo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola Superior Artística do Porto",
+      "type": "parent",
+      "id": "https://ror.org/01vgbcw83"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

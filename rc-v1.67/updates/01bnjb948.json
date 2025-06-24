@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tno.nl"
+  ],
+  "established": 1932,
+  "external_ids": [
+    {
+      "all": [
+        "501100019926"
+      ],
+      "preferred": "501100019926",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4858.1"
+      ],
+      "preferred": "grid.4858.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0208 7216"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1867222"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bnjb948",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tno.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Netherlands_Organisation_for_Applied_Scientific_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.00667,
+        "lng": 4.35556,
+        "name": "Delft"
+      },
+      "geonames_id": 2757345
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Nederlandse Organisatie voor Toegepast Natuurwetenschappelijk Onderzoek"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Netherlands Organisation for Applied Scientific Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TNO"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "QuTech",
+      "type": "child",
+      "id": "https://ror.org/04wf30j82"
+    },
+    {
+      "label": "Geological Survey of the Netherlands",
+      "type": "child",
+      "id": "https://ror.org/0264sz467"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

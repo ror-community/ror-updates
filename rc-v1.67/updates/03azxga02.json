@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.429696.6"
+      ],
+      "preferred": "grid.429696.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9827 4675"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6984753"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03azxga02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nebraskamed.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Nebraska_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 41.25626,
+        "lng": -95.94043,
+        "name": "Omaha"
+      },
+      "geonames_id": 5074472
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nebraska Health System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nebraska Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nebraska Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fred and Pamela Buffett Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/03n63wv08"
+    },
+    {
+      "label": "University of Nebraska Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00thqtb16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

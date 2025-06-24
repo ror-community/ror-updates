@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-04-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipfn.tecnico.ulisboa.pt"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0325 6333"
+      ],
+      "preferred": "0000 0001 0325 6333",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6041703"
+      ],
+      "preferred": "Q6041703",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008yzrs90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipfn.tecnico.ulisboa.pt"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Instituto_de_Plasmas_e_Fus%C3%A3o_Nuclear"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "acronym"
+      ],
+      "value": "IPFN"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Instituto de Plasmas e Fusão Nuclear"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    },
+    {
+      "label": "Grupo de Lasers e Plasmas",
+      "type": "child",
+      "id": "https://ror.org/03fjwmt07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

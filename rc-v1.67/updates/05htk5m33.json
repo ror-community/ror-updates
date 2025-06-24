@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hnu.edu.cn"
+  ],
+  "established": 976,
+  "external_ids": [
+    {
+      "all": [
+        "501100003824"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.67293.39"
+      ],
+      "preferred": "grid.67293.39",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q649868",
+        "Q17023539"
+      ],
+      "preferred": "Q649868",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05htk5m33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hnu.edu.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Hunan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "HN",
+        "country_subdivision_name": "Hunan",
+        "lat": 28.19874,
+        "lng": 112.97087,
+        "name": "Changsha"
+      },
+      "geonames_id": 1815577
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hunan University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Húnán Dàxué"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "湖南大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Advanced Design and Manufacturing of Automobile Body",
+      "type": "child",
+      "id": "https://ror.org/02xrb7c43"
+    },
+    {
+      "label": "State Key Laboratory of Chemobiosensing and Chemometrics",
+      "type": "child",
+      "id": "https://ror.org/05vg20182"
+    },
+    {
+      "label": "National Supercomputing Changsha Center",
+      "type": "child",
+      "id": "https://ror.org/05kvtff09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

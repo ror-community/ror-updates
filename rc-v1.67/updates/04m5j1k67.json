@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aau.dk"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "501100002702",
+        "501100022232"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5117.2"
+      ],
+      "preferred": "grid.5117.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0742 471X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q601956"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04m5j1k67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aau.dk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Aalborg_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "81",
+        "country_subdivision_name": "North Denmark",
+        "lat": 57.048,
+        "lng": 9.9187,
+        "name": "Aalborg"
+      },
+      "geonames_id": 2624886
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AAU"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "label"
+      ],
+      "value": "Aalborg Universitet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Aalborg University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aalborg University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02jk5qe80"
+    },
+    {
+      "label": "Aalborg Centre for Problem Based Learning in Engineering Science and Sustainability",
+      "type": "child",
+      "id": "https://ror.org/018n39k75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

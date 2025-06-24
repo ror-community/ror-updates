@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Hydro Aluminium Extrusion Portugal (Portugal)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Norsk Hydro (Norway)",
+      "type": "parent",
+      "id": "https://ror.org/03vx93323"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

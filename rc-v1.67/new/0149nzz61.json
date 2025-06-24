@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-06-15",
+      "date": "2025-06-24",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Instituto Piaget Centro Internacional de Investigação Epistemologia e Reflexão Transdisciplinar"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Piaget",
+      "type": "parent",
+      "id": "https://ror.org/044k31203"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

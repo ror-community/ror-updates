@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "501100004219"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5991.4"
+      ],
+      "preferred": "grid.5991.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1090 7501"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q351857"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03eh3y714",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.psi.ch/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Paul_Scherrer_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "AG",
+        "country_subdivision_name": "Aargau",
+        "lat": 47.52682,
+        "lng": 8.21486,
+        "name": "Villigen"
+      },
+      "geonames_id": 2658120
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Institut Paul Scherrer"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PSI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Paul Scherrer Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL",
+      "type": "child",
+      "id": "https://ror.org/021f7p178"
+    },
+    {
+      "label": "Swiss Light Source",
+      "type": "child",
+      "id": "https://ror.org/04xrb7c55"
+    },
+    {
+      "label": "Board of the Swiss Federal Institutes of Technology",
+      "type": "parent",
+      "id": "https://ror.org/01rvn4p91"
+    },
+    {
+      "label": "LEAPS",
+      "type": "related",
+      "id": "https://ror.org/04wcn4e27"
+    },
+    {
+      "label": "Joint Evaluated Fission and Fusion",
+      "type": "related",
+      "id": "https://ror.org/03g57ef97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
