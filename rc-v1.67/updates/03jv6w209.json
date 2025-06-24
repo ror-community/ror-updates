@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-02-17",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,35 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1997,
+  "established": 2011,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.503017.0"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.503017.0",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "Q51780617"
       ],
       "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q3214499"
-      ],
-      "preferred": "Q3214499",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/03jv6w209",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "https://mdls.fr"
     }
   ],
   "locations": [
@@ -48,40 +41,38 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.7326,
+        "lng": 2.16923,
+        "name": "Saclay"
       },
-      "geonames_id": 2990999
+      "geonames_id": 2982043
     }
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "fr",
       "types": [
-        "acronym"
+        "ror_display",
+        "label"
       ],
-      "value": "LORIA"
+      "value": "Maison de la Simulation"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "acronym"
       ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "label"
-      ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "MdlS"
     }
   ],
   "relationships": [
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
     {
       "label": "Institut national de recherche en sciences et technologies du numérique",
       "type": "parent",
@@ -93,14 +84,14 @@
       "id": "https://ror.org/04z22qz54"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
+      "id": "https://ror.org/03mkjjy25"
     },
     {
-      "label": "CentraleSupélec",
+      "label": "Université Paris-Saclay",
       "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/03xjwb503"
     }
   ],
   "status": "active",

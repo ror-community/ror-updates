@@ -1,8 +1,8 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
+      "date": "2024-10-13",
+      "schema_version": "2.0"
     },
     "last_modified": {
       "date": "2025-06-24",
@@ -10,28 +10,21 @@
     }
   },
   "domains": [],
-  "established": null,
+  "established": 2012,
   "external_ids": [
     {
       "all": [
-        "grid.457355.5"
+        "Q52606178"
       ],
-      "preferred": "grid.457355.5",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "Q18156000"
-      ],
-      "preferred": null,
+      "preferred": "Q52606178",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/0315e5x55",
+  "id": "https://ror.org/01rrvyp50",
   "links": [
     {
       "type": "website",
-      "value": "http://www.inria.fr/en/centre/saclay"
+      "value": "https://team.inria.fr/ouragan/"
     }
   ],
   "locations": [
@@ -43,49 +36,54 @@
         "country_name": "France",
         "country_subdivision_code": "IDF",
         "country_subdivision_name": "Île-de-France",
-        "lat": 48.71828,
-        "lng": 2.2498,
-        "name": "Palaiseau"
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 2988758
+      "geonames_id": 2988507
     }
   ],
   "names": [
     {
       "lang": "fr",
       "types": [
+        "acronym"
+      ],
+      "value": "OURAGAN"
+    },
+    {
+      "lang": "fr",
+      "types": [
         "label",
         "ror_display"
       ],
-      "value": "Inria Saclay - Île de France"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "label"
-      ],
-      "value": "Inria Saclay - Île-de-France Research Centre"
+      "value": "Outils de Résolution Algébriques pour la Géométrie et ses Applications"
     }
   ],
   "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
     {
       "label": "Institut national de recherche en sciences et technologies du numérique",
       "type": "parent",
       "id": "https://ror.org/02kvxyf05"
     },
     {
-      "label": "Centre Inria de l'Institut Polytechnique de Paris",
-      "type": "child",
-      "id": "https://ror.org/026839t73"
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
     },
     {
-      "label": "Centre Inria de l'Université Paris-Saclay",
-      "type": "child",
-      "id": "https://ror.org/040753f36"
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
     }
   ],
   "status": "active",
   "types": [
-    "government"
+    "facility"
   ]
 }

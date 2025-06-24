@@ -10,35 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1997,
+  "established": 2006,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.462496.b"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.462496.b",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "0000 0001 2302 4783"
       ],
       "preferred": null,
       "type": "isni"
-    },
-    {
-      "all": [
-        "Q3214499"
-      ],
-      "preferred": "Q3214499",
-      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/05m3r1b84",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "http://www.math.u-bordeaux1.fr/imb/spip.php"
     }
   ],
   "locations": [
@@ -48,13 +41,13 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.80849,
+        "lng": -0.58915,
+        "name": "Talence"
       },
-      "geonames_id": 2990999
+      "geonames_id": 2973495
     }
   ],
   "names": [
@@ -63,22 +56,15 @@
       "types": [
         "acronym"
       ],
-      "value": "LORIA"
+      "value": "IMB"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
-    },
-    {
-      "lang": "en",
-      "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "Institut de Mathématiques de Bordeaux"
     }
   ],
   "relationships": [
@@ -88,19 +74,24 @@
       "id": "https://ror.org/02kvxyf05"
     },
     {
-      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
       "type": "parent",
-      "id": "https://ror.org/04z22qz54"
+      "id": "https://ror.org/050jcm728"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "Institut Polytechnique de Bordeaux",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
+      "id": "https://ror.org/054qv7y42"
     },
     {
-      "label": "CentraleSupélec",
+      "label": "Université de Bordeaux",
       "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Société Arithmétique de Bordeaux",
+      "type": "related",
+      "id": "https://ror.org/034e9s822"
     }
   ],
   "status": "active",

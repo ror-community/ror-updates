@@ -10,35 +10,39 @@
     }
   },
   "domains": [],
-  "established": 1997,
+  "established": 2007,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.462707.0"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.462707.0",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "0000 0001 2286 4035"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q3214499"
+        "Q3214404"
       ],
-      "preferred": "Q3214499",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/01c8rcg82",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "https://www.liglab.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Laboratoire_d%27Informatique_de_Grenoble"
     }
   ],
   "locations": [
@@ -48,22 +52,29 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
       },
-      "geonames_id": 2990999
+      "geonames_id": 3014728
     }
   ],
   "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Grenoble Computer Science Laboratory"
+    },
     {
       "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LORIA"
+      "value": "LIG"
     },
     {
       "lang": "fr",
@@ -71,14 +82,7 @@
         "label",
         "ror_display"
       ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "label"
-      ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "Laboratoire d'Informatique de Grenoble"
     }
   ],
   "relationships": [
@@ -88,19 +92,19 @@
       "id": "https://ror.org/02kvxyf05"
     },
     {
+      "label": "Institut polytechnique de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
       "label": "Institut des Sciences de l'Information et de leurs Interactions",
       "type": "parent",
       "id": "https://ror.org/04z22qz54"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "Université Grenoble Alpes",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
-    },
-    {
-      "label": "CentraleSupélec",
-      "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/02rx3b187"
     }
   ],
   "status": "active",

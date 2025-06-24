@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-02-17",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,35 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1997,
+  "established": 1998,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.503141.2"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.503141.2",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "0000 0004 0368 4997"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q3214499"
+        "Q51781152"
       ],
-      "preferred": "Q3214499",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/05y6rqs46",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "https://www.di.ens.fr/"
     }
   ],
   "locations": [
@@ -48,13 +48,13 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 2990999
+      "geonames_id": 2988507
     }
   ],
   "names": [
@@ -63,22 +63,15 @@
       "types": [
         "acronym"
       ],
-      "value": "LORIA"
+      "value": "DI ENS"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
-    },
-    {
-      "lang": "en",
-      "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "Département d'Informatique"
     }
   ],
   "relationships": [
@@ -93,14 +86,9 @@
       "id": "https://ror.org/04z22qz54"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "École Normale Supérieure - PSL",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
-    },
-    {
-      "label": "CentraleSupélec",
-      "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/05a0dhs15"
     }
   ],
   "status": "active",

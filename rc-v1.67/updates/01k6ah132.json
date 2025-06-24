@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493279.2"
+      ],
+      "preferred": "grid.493279.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9176 1040"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01k6ah132",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ispc.gencat.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.54026,
+        "lng": 2.21306,
+        "name": "Mollet del Vallès"
+      },
+      "geonames_id": 3116553
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISPC"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Seguretat Pública de Catalunya"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Public Security of Catalonia"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto de Seguridad Pública de Cataluña"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Generalitat de Catalunya",
+      "type": "parent",
+      "id": "https://ror.org/01bg62x04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

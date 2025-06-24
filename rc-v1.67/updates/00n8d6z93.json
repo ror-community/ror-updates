@@ -10,28 +10,28 @@
     }
   },
   "domains": [],
-  "established": null,
+  "established": 1967,
   "external_ids": [
     {
       "all": [
-        "grid.457355.5"
+        "grid.457351.1"
       ],
-      "preferred": "grid.457355.5",
+      "preferred": "grid.457351.1",
       "type": "grid"
     },
     {
       "all": [
-        "Q18156000"
+        "Q30299481"
       ],
-      "preferred": null,
+      "preferred": "Q30299481",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/0315e5x55",
+  "id": "https://ror.org/00n8d6z93",
   "links": [
     {
       "type": "website",
-      "value": "http://www.inria.fr/en/centre/saclay"
+      "value": "https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes"
     }
   ],
   "locations": [
@@ -41,13 +41,13 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "IDF",
-        "country_subdivision_name": "Île-de-France",
-        "lat": 48.71828,
-        "lng": 2.2498,
-        "name": "Palaiseau"
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.22537,
+        "lng": 5.8017,
+        "name": "Montbonnot-Saint-Martin"
       },
-      "geonames_id": 2988758
+      "geonames_id": 2992908
     }
   ],
   "names": [
@@ -57,14 +57,21 @@
         "label",
         "ror_display"
       ],
-      "value": "Inria Saclay - Île de France"
+      "value": "Centre Inria de l'Université Grenoble Alpes"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de recherche Inria Grenoble - Rhône-Alpes"
     },
     {
       "lang": "en",
       "types": [
-        "label"
+        "alias"
       ],
-      "value": "Inria Saclay - Île-de-France Research Centre"
+      "value": "Inria Grenoble - Rhône-Alpes research centre"
     }
   ],
   "relationships": [
@@ -72,20 +79,10 @@
       "label": "Institut national de recherche en sciences et technologies du numérique",
       "type": "parent",
       "id": "https://ror.org/02kvxyf05"
-    },
-    {
-      "label": "Centre Inria de l'Institut Polytechnique de Paris",
-      "type": "child",
-      "id": "https://ror.org/026839t73"
-    },
-    {
-      "label": "Centre Inria de l'Université Paris-Saclay",
-      "type": "child",
-      "id": "https://ror.org/040753f36"
     }
   ],
   "status": "active",
   "types": [
-    "government"
+    "facility"
   ]
 }

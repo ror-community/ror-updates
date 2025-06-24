@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-02-17",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,35 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1997,
+  "established": 2017,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.503212.7"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.503212.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "Q30737807"
       ],
       "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q3214499"
-      ],
-      "preferred": "Q3214499",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/02snf8m58",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "https://www.ls2n.fr/"
     }
   ],
   "locations": [
@@ -48,13 +41,13 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
       },
-      "geonames_id": 2990999
+      "geonames_id": 2990969
     }
   ],
   "names": [
@@ -63,44 +56,42 @@
       "types": [
         "acronym"
       ],
-      "value": "LORIA"
+      "value": "LS2N"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
-    },
-    {
-      "lang": "en",
-      "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "Laboratoire des Sciences du Numérique de Nantes"
     }
   ],
   "relationships": [
+    {
+      "label": "Délégation Bretagne et Pays de la Loire",
+      "type": "parent",
+      "id": "https://ror.org/02t220m45"
+    },
     {
       "label": "Institut national de recherche en sciences et technologies du numérique",
       "type": "parent",
       "id": "https://ror.org/02kvxyf05"
     },
     {
-      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "label": "IMT Atlantique",
       "type": "parent",
-      "id": "https://ror.org/04z22qz54"
+      "id": "https://ror.org/030hj3061"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "Nantes Université",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
+      "id": "https://ror.org/03gnr7b55"
     },
     {
-      "label": "CentraleSupélec",
+      "label": "École Centrale de Nantes",
       "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/03nh7d505"
     }
   ],
   "status": "active",

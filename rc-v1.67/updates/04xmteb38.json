@@ -9,36 +9,38 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": 1997,
+  "domains": [
+    "ljll.fr"
+  ],
+  "established": 1969,
   "external_ids": [
     {
       "all": [
-        "grid.462764.5"
+        "grid.464004.2"
       ],
-      "preferred": "grid.462764.5",
+      "preferred": "grid.464004.2",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2179 5429"
+        "0000 0001 0174 8385"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q3214499"
+        "Q3214369"
       ],
-      "preferred": "Q3214499",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/02vnf0c38",
+  "id": "https://ror.org/04xmteb38",
   "links": [
     {
       "type": "website",
-      "value": "https://www.loria.fr"
+      "value": "https://www.ljll.fr"
     }
   ],
   "locations": [
@@ -48,37 +50,44 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "GES",
-        "country_subdivision_name": "Grand Est",
-        "lat": 48.68439,
-        "lng": 6.18496,
-        "name": "Nancy"
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 2990999
+      "geonames_id": 2988507
     }
   ],
   "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jacques-Louis Lions Laboratory"
+    },
     {
       "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LORIA"
+      "value": "LJLL"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "ror_display",
+        "label"
       ],
-      "value": "Laboratoire Lorrain de Recherche en Informatique et ses Applications"
+      "value": "Laboratoire Jacques-Louis Lions"
     },
     {
       "lang": "en",
       "types": [
-        "label"
+        "alias"
       ],
-      "value": "Lorraine Research Laboratory in Computer Science and its Applications"
+      "value": "Laboratory Jacques-Louis Lions"
     }
   ],
   "relationships": [
@@ -88,19 +97,19 @@
       "id": "https://ror.org/02kvxyf05"
     },
     {
-      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
       "type": "parent",
-      "id": "https://ror.org/04z22qz54"
+      "id": "https://ror.org/050jcm728"
     },
     {
-      "label": "Université de Lorraine",
+      "label": "Sorbonne Université",
       "type": "parent",
-      "id": "https://ror.org/04vfs2w97"
+      "id": "https://ror.org/02en5vm52"
     },
     {
-      "label": "CentraleSupélec",
+      "label": "Université Paris Cité",
       "type": "parent",
-      "id": "https://ror.org/019tcpt25"
+      "id": "https://ror.org/05f82e368"
     }
   ],
   "status": "active",
