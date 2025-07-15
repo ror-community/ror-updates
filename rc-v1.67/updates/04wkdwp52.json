@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "501100014550"
+      ],
+      "preferred": "501100014550",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22061.37"
+      ],
+      "preferred": "grid.22061.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9127 6969"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wkdwp52",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gencat.cat/ics/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICS"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Català de la Salut"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bellvitge University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00epner96"
+    },
+    {
+      "label": "Hospital Universitari Arnau de Vilanova",
+      "type": "child",
+      "id": "https://ror.org/01p3tpn79"
+    },
+    {
+      "label": "Hospital Universitari Germans Trias i Pujol",
+      "type": "child",
+      "id": "https://ror.org/04wxdxa47"
+    },
+    {
+      "label": "Hospital Universitari de Girona Doctor Josep Trueta",
+      "type": "child",
+      "id": "https://ror.org/04g27v387"
+    },
+    {
+      "label": "Hospital de Tortosa Verge de la Cinta",
+      "type": "child",
+      "id": "https://ror.org/046sqxa62"
+    },
+    {
+      "label": "Generalitat de Catalunya",
+      "type": "parent",
+      "id": "https://ror.org/01bg62x04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

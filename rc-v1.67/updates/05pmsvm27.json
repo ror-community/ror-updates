@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "zhaw.ch"
+  ],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100022500"
+      ],
+      "preferred": "501100022500",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.19739.35"
+      ],
+      "preferred": "grid.19739.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2229 1644"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2605554"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05pmsvm27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.zhaw.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Zurich_University_of_Applied_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.50564,
+        "lng": 8.72413,
+        "name": "Winterthur"
+      },
+      "geonames_id": 2657970
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ZHAW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ZHAW Zurich University of Applied Sciences"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "ZHAW Zürcher Hochschule für Angewandte Wissenschaften"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Zurich University of Teacher Education",
+      "type": "related",
+      "id": "https://ror.org/01awgk221"
+    },
+    {
+      "label": "Zurich University of the Arts",
+      "type": "related",
+      "id": "https://ror.org/05r0ap620"
+    },
+    {
+      "label": "Akademische Raumfahrt Initiative Schweiz",
+      "type": "related",
+      "id": "https://ror.org/00b78v464"
+    },
+    {
+      "label": "Zürcher Fachhochschule",
+      "type": "predecessor",
+      "id": "https://ror.org/01sxmzj91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100012353"
+      ],
+      "preferred": "501100012353",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7865 6683"
+      ],
+      "preferred": "0000 0004 7865 6683",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02pqn3g31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dktk.dkfz.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DKTK"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Das Deutsche Konsortium für translationale Krebsforschung"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Deutschen Konsortium für Translationale Krebsforschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "German Cancer Consortium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Deutsche Zentren der Gesundheitsforschung",
+      "type": "parent",
+      "id": "https://ror.org/044wq1q96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

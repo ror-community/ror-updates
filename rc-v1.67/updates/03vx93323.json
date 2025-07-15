@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "501100010055"
+      ],
+      "preferred": "501100010055",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425854.a"
+      ],
+      "preferred": "grid.425854.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0816 3232"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q511031"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03vx93323",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hydro.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Norsk_Hydro"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Oslo",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Hydro"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Norsk Hydro (Norway)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Norsk Hydro (Germany)",
+      "type": "child",
+      "id": "https://ror.org/04gcecg21"
+    },
+    {
+      "label": "Norsk Hydro (Slovakia)",
+      "type": "child",
+      "id": "https://ror.org/016svkp29"
+    },
+    {
+      "label": "Norsk Hydro (Sweden)",
+      "type": "child",
+      "id": "https://ror.org/03ckrc057"
+    },
+    {
+      "label": "Hydro Aluminium Extrusion Portugal (Portugal)",
+      "type": "child",
+      "id": "https://ror.org/055hegm02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

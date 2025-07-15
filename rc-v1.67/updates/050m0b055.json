@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100002912"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453702.7"
+      ],
+      "preferred": "grid.453702.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 4026"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/050m0b055",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gd.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "GD",
+        "country_subdivision_name": "Guangdong",
+        "lat": 23.11667,
+        "lng": 113.25,
+        "name": "Guangzhou"
+      },
+      "geonames_id": 1809858
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "People's Government of Guangdong Province"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Human Resources and Social Security Department of Guangdong Province",
+      "type": "child",
+      "id": "https://ror.org/046rtng78"
+    },
+    {
+      "label": "Department of Science and Technology of Guangdong Province",
+      "type": "child",
+      "id": "https://ror.org/00tjzgn92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

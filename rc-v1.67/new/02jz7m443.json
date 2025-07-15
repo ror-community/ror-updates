@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "idris.fr"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0618 0575"
+      ],
+      "preferred": "0000 0004 0618 0575",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152216"
+      ],
+      "preferred": "Q3152216",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jz7m443",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.idris.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.69806,
+        "lng": 2.1875,
+        "name": "Orsay"
+      },
+      "geonames_id": 6454880
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "IDRIS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut du développement et des ressources en informatique scientifique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Development and Resources in Intensive Scientific Computing"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAR 851"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

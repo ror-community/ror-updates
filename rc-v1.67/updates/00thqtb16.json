@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unmc.edu"
+  ],
+  "established": 1880,
+  "external_ids": [
+    {
+      "all": [
+        "100006518",
+        "100008291",
+        "100008339"
+      ],
+      "preferred": "100006518",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266813.8"
+      ],
+      "preferred": "grid.266813.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0666 4105"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895888"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00thqtb16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unmc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Nebraska_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 41.25626,
+        "lng": -95.94043,
+        "name": "Omaha"
+      },
+      "geonames_id": 5074472
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Centro Médico de la Universidad de Nebraska"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Nebraska Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Central States Center for Agricultural Safety and Health",
+      "type": "child",
+      "id": "https://ror.org/02b8e6n56"
+    },
+    {
+      "label": "University of Nebraska System",
+      "type": "parent",
+      "id": "https://ror.org/0238rvs44"
+    },
+    {
+      "label": "Children's Hospital & Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04j36h363"
+    },
+    {
+      "label": "Nebraska Orthopaedic Hospital",
+      "type": "related",
+      "id": "https://ror.org/03edgm225"
+    },
+    {
+      "label": "University of Nebraska at Omaha",
+      "type": "related",
+      "id": "https://ror.org/04yrkc140"
+    },
+    {
+      "label": "Nebraska Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03azxga02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare",
+    "education"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "100005115"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467311.6"
+      ],
+      "preferred": "grid.467311.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q29122922"
+      ],
+      "preferred": "Q29122922",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qxrge70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fcagroup.com/en-US/Pages/home.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fiat_Chrysler_Automobiles"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.68753,
+        "lng": -83.2341,
+        "name": "Auburn Hills"
+      },
+      "geonames_id": 4984565
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FCA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fiat Chrysler Automobiles (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Fiat Group Automobiles"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fiat Chrysler Automobiles (United Kingdom)",
+      "type": "parent",
+      "id": "https://ror.org/02we8vm03"
+    },
+    {
+      "label": "Stellantis North America (United States)",
+      "type": "successor",
+      "id": "https://ror.org/040d0cf15"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

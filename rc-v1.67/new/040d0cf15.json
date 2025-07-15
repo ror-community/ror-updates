@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 8823 9323"
+      ],
+      "preferred": "0000 0000 8823 9323",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q181114"
+      ],
+      "preferred": "Q181114",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040d0cf15",
+  "links": [
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Chrysler"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.68753,
+        "lng": -83.2341,
+        "name": "Auburn Hills"
+      },
+      "geonames_id": 4984565
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chrysler"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Stellantis North America"
+    },
+    {
+      "lang": null,
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Stellantis North America (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Stellantis Canada (Canada)",
+      "type": "child",
+      "id": "https://ror.org/056k09r13"
+    },
+    {
+      "label": "Fiat Chrysler Automobiles (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/03qxrge70"
+    },
+    {
+      "label": "Stellantis (Netherlands)",
+      "type": "parent",
+      "id": "https://ror.org/011wcsv83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

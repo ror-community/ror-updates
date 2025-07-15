@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cdrv.ca"
+  ],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1101 8959"
+      ],
+      "preferred": "0000 0005 1101 8959",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01bpsk167",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cdrv.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.40008,
+        "lng": -71.89908,
+        "name": "Sherbrooke"
+      },
+      "geonames_id": 6146143
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CdRV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de recherche sur le vieillissement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "RCA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Research Centre on Aging"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/020r51985"
+    },
+    {
+      "label": "Université de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/00kybxq39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

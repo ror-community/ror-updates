@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cancercare.mb.ca"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100009395"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419404.c"
+      ],
+      "preferred": "grid.419404.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0701 0170"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30282110"
+      ],
+      "preferred": "Q30282110",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005cmms77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cancercare.mb.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCMB "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CancerCare Manitoba"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Research Institute in Oncology and Hematology",
+      "type": "child",
+      "id": "https://ror.org/05qer3y84"
+    },
+    {
+      "label": "Shared Health Manitoba",
+      "type": "related",
+      "id": "https://ror.org/03rvea339"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

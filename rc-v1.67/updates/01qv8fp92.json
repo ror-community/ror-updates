@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lsuhsc.edu"
+  ],
+  "established": 1931,
+  "external_ids": [
+    {
+      "all": [
+        "100010519"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.279863.1"
+      ],
+      "preferred": "grid.279863.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8954 1233"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6460011"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01qv8fp92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lsuhsc.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/LSU_Health_Sciences_Center_New_Orleans"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "name": "New Orleans"
+      },
+      "geonames_id": 4335045
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LSUHSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Louisiana State University Health Sciences Center New Orleans"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Medical Center New Orleans",
+      "type": "child",
+      "id": "https://ror.org/02zrb2v54"
+    },
+    {
+      "label": "Louisiana State University System",
+      "type": "parent",
+      "id": "https://ror.org/022gnbj15"
+    },
+    {
+      "label": "Louisiana State University",
+      "type": "related",
+      "id": "https://ror.org/05ect4e57"
+    },
+    {
+      "label": "Ochsner Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0290qyp66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder",
+    "healthcare"
+  ]
+}

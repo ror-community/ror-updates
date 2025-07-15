@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ceps-paris-saclay.fr"
+  ],
+  "established": 2020,
+  "external_ids": [],
+  "id": "https://ror.org/04dkt3v19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ceps-paris-saclay.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.7017,
+        "lng": 2.1347,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 6446143
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CEPS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre d'Economie de l'ENS Paris-Saclay"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre for Economics at Paris-Saclay"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Centre d'études des politiques économiques",
+      "type": "parent",
+      "id": "https://ror.org/03hnm8b07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

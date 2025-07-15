@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "grid.421916.9"
+      ],
+      "preferred": "grid.421916.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2231 6231"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q14478377"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05xsb5925",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://usacac.army.mil/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Army_Combined_Arms_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "KS",
+        "country_subdivision_name": "Kansas",
+        "lat": 39.31111,
+        "lng": -94.92246,
+        "name": "Leavenworth"
+      },
+      "geonames_id": 4274305
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Combined Arms Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. Army Training and Doctrine Command",
+      "type": "parent",
+      "id": "https://ror.org/02t7y5s37"
+    },
+    {
+      "label": "U.S. Army Medical Center of Excellence",
+      "type": "child",
+      "id": "https://ror.org/01vpa2k04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

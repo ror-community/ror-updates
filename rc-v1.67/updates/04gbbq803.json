@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ggd.amsterdam.nl"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512910.e"
+      ],
+      "preferred": "grid.512910.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9418 9094"
+      ],
+      "preferred": "0000 0000 9418 9094",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04gbbq803",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ggd.amsterdam.nl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "North Holland",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "GGD Amsterdam"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Geneeskundige en Gezondheidsdienst Amsterdam"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Public Health Service of Amsterdam"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geneeskundige en Gezondheidsdienst",
+      "type": "parent",
+      "id": "https://ror.org/006xsx833"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

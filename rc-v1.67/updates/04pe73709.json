@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "salud.gob.sv"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.490695.7"
+      ],
+      "preferred": "grid.490695.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0521 0269"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04pe73709",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.salud.gob.sv"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "SV",
+        "country_name": "El Salvador",
+        "country_subdivision_code": "SS",
+        "country_subdivision_name": "San Salvador Department",
+        "lat": 13.68935,
+        "lng": -89.18718,
+        "name": "San Salvador"
+      },
+      "geonames_id": 3583361
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministerio de Salud"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministerio de Salud de El Salvador"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Health of El Salvador"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital El Salvador",
+      "type": "child",
+      "id": "https://ror.org/03m8e6y67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

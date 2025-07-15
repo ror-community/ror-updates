@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-10-13",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2021,
+  "external_ids": [],
+  "id": "https://ror.org/017vwpy33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inria.fr/fr/heka"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "HeKA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Méthodes basées sur les données et modèles en santé pour l'acquisition de connaissances"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Institut national de recherche en sciences et technologies du numérique",
+      "type": "parent",
+      "id": "https://ror.org/02kvxyf05"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
