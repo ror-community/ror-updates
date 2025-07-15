@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419409.1"
+      ],
+      "preferred": "grid.419409.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0109 1950"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q50839285",
+        "Q10926084",
+        "Q6144563"
+      ],
+      "preferred": "Q50839285",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002k3wk88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.nmpa.gov.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Medical_Products_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NMPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Medical Products Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institutes for Food and Drug Control",
+      "type": "related",
+      "id": "https://ror.org/041rdq190"
+    },
+    {
+      "label": "State Administration for Market Regulation",
+      "type": "parent",
+      "id": "https://ror.org/00aaqtw69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

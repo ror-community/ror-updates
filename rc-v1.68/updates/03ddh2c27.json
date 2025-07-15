@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100004118",
+        "501100017634"
+      ],
+      "preferred": "501100017634",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464630.3"
+      ],
+      "preferred": "grid.464630.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0696 9566"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q136778",
+        "Q486976",
+        "Q483006"
+      ],
+      "preferred": "Q136778",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ddh2c27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lge.co.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/LG_Corporation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "GoldStar"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "LG (South Korea)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LG Corporation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Lucky Goldstar"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "LG Chem (South Korea)",
+      "type": "child",
+      "id": "https://ror.org/04pjzv747"
+    },
+    {
+      "label": "LG (China)",
+      "type": "child",
+      "id": "https://ror.org/043h32y24"
+    },
+    {
+      "label": "LG (United States)",
+      "type": "child",
+      "id": "https://ror.org/02b948n83"
+    },
+    {
+      "label": "LG AI Research (South Korea)",
+      "type": "child",
+      "id": "https://ror.org/00nt82y31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

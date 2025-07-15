@@ -80,7 +80,18 @@
       "value": "한마음병원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hanmaeum Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/02rdw6h67"
+    },
+    {
+      "label": "Hanyang University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05tn05n57"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

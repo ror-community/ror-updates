@@ -80,7 +80,18 @@
       "value": "École nationale supérieure d'art Villa Arson"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de la Culture",
+      "type": "parent",
+      "id": "https://ror.org/017rnyz40"
+    },
+    {
+      "label": "Université Côte d'Azur",
+      "type": "related",
+      "id": "https://ror.org/019tgvf94"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

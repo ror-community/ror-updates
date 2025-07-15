@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "501100003847"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453403.5"
+      ],
+      "preferred": "grid.453403.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 3322"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/025ras206",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.ningbo.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "ZJ",
+        "country_subdivision_name": "Zhejiang",
+        "lat": 29.87819,
+        "lng": 121.54945,
+        "name": "Ningbo"
+      },
+      "geonames_id": 1799397
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ningbo Municipal People's Government"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ningbo Municipal Education Bureau",
+      "type": "child",
+      "id": "https://ror.org/016jygy11"
+    },
+    {
+      "label": "Ningbo Science and Technology Bureau",
+      "type": "child",
+      "id": "https://ror.org/00gskyj95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

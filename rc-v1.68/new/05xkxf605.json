@@ -69,7 +69,28 @@
       "value": "아주대학교의료원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ajou University",
+      "type": "parent",
+      "id": "https://ror.org/03tzb2h73"
+    },
+    {
+      "label": "Ajou University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/02qb91e52"
+    },
+    {
+      "label": "Ajou Research Institute for Innovative Medicine",
+      "type": "child",
+      "id": "https://ror.org/03k4zaw35"
+    },
+    {
+      "label": "Ajou University Intermediate Care Hospital",
+      "type": "child",
+      "id": "https://ror.org/05fqp8n03"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

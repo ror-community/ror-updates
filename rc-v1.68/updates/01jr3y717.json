@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1804,
+  "external_ids": [
+    {
+      "all": [
+        "100008076",
+        "100008941"
+      ],
+      "preferred": "100008076",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.20627.31"
+      ],
+      "preferred": "grid.20627.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0668 7841"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1075339"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jr3y717",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ohio.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ohio_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.32924,
+        "lng": -82.10126,
+        "name": "Athens"
+      },
+      "geonames_id": 4505542
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ohio University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Ohio"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'ohio"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ohio University Eastern",
+      "type": "child",
+      "id": "https://ror.org/006hbbw23"
+    },
+    {
+      "label": "Ohio University Chillicothe",
+      "type": "child",
+      "id": "https://ror.org/05fxqx152"
+    },
+    {
+      "label": "Ohio University Southern",
+      "type": "child",
+      "id": "https://ror.org/039eaqm23"
+    },
+    {
+      "label": "Ohio University Lancaster",
+      "type": "child",
+      "id": "https://ror.org/03kf4rc21"
+    },
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Ohio University Zanesville",
+      "type": "child",
+      "id": "https://ror.org/05qv7ha25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

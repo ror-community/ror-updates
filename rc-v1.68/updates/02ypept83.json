@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-08",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "Q55088961"
+      ],
+      "preferred": "Q55088961",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ypept83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.spaceforce.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Space_Force"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "name": "Arlington"
+      },
+      "geonames_id": 4744709
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Space Force"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USSF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Space Force"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Space Operations Command",
+      "type": "child",
+      "id": "https://ror.org/013yc5d80"
+    },
+    {
+      "label": "Space Development Agency",
+      "type": "child",
+      "id": "https://ror.org/03kz56x72"
+    },
+    {
+      "label": "United States Department of the Air Force",
+      "type": "parent",
+      "id": "https://ror.org/01973x930"
+    },
+    {
+      "label": "U.S. Air Force Space Command",
+      "type": "predecessor",
+      "id": "https://ror.org/00714tm23"
+    },
+    {
+      "label": "United States Space Force Space Systems Command",
+      "type": "child",
+      "id": "https://ror.org/04qymaz42"
+    },
+    {
+      "label": "United States Space Force Space Training and Readiness Command",
+      "type": "child",
+      "id": "https://ror.org/04yggzp50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

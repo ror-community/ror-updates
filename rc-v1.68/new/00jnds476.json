@@ -73,7 +73,23 @@
       "value": "경희대학교의료원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyung Hee University",
+      "type": "parent",
+      "id": "https://ror.org/01zqcg218"
+    },
+    {
+      "label": "Kyung Hee University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/01vbmek33"
+    },
+    {
+      "label": "Kyung Hee University Hospital at Gangdong",
+      "type": "child",
+      "id": "https://ror.org/05x9xyq11"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

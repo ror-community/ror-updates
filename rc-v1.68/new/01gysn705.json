@@ -80,7 +80,18 @@
       "value": "차병원바이오그룹"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CHA University",
+      "type": "child",
+      "id": "https://ror.org/04yka3j04"
+    },
+    {
+      "label": "CHA Medical Center",
+      "type": "child",
+      "id": "https://ror.org/000bmd763"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

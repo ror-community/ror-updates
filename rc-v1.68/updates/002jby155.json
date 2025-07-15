@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463809.0"
+      ],
+      "preferred": "grid.463809.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262198"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002jby155",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/centres/bourgogne-franche-comte"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Bourgogne-Franche-Comté"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre d'Economie et de Sociologie Appliquées à l'Agriculture et aux Espaces Ruraux",
+      "type": "child",
+      "id": "https://ror.org/0334tmt82"
+    },
+    {
+      "label": "Centre de Microbiologie du Sol et de l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/01c2t8448"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

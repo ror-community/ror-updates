@@ -80,7 +80,18 @@
       "value": "서울대학교병원운영 국립교통재활병원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Land, Infrastructure and Transport",
+      "type": "parent",
+      "id": "https://ror.org/04xt5aa77"
+    },
+    {
+      "label": "Seoul National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01z4nnt86"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414067.0"
+      ],
+      "preferred": "grid.414067.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 8419"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/035r7hb75",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://global.dsmc.or.kr/eng/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Daegu",
+        "lat": 35.87028,
+        "lng": 128.59111,
+        "name": "Daegu"
+      },
+      "geonames_id": 1835329
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DSMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dongsan Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Keimyung University Dongsan Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "계명대학교 동산의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Keimyung University",
+      "type": "related",
+      "id": "https://ror.org/00tjv0s33"
+    },
+    {
+      "label": "Keimyung University Gyeongju Dongsan Hospital",
+      "type": "child",
+      "id": "https://ror.org/0585jdm07"
+    },
+    {
+      "label": "Keimyung University Daegu Dongsan Hospital",
+      "type": "child",
+      "id": "https://ror.org/01jk65d91"
+    },
+    {
+      "label": "Keimyung University Dongsan Hospital",
+      "type": "child",
+      "id": "https://ror.org/04xxe0935"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

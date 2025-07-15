@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "501100004600"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411235.0"
+      ],
+      "preferred": "grid.411235.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 192X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q10855215"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qn0xg47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://eng.knuh.kr/main/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kyungpook_National_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Daegu",
+        "lat": 35.87028,
+        "lng": 128.59111,
+        "name": "Daegu"
+      },
+      "geonames_id": 1835329
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KNUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kyungpook National University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "경북대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyungpook National University",
+      "type": "related",
+      "id": "https://ror.org/040c17130"
+    },
+    {
+      "label": "Kyungpook National University Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/05mpvtx13"
+    },
+    {
+      "label": "Kyungpook National University Chilgok Hospital",
+      "type": "child",
+      "id": "https://ror.org/00hyr5m88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

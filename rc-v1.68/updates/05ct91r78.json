@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1929,
+  "external_ids": [
+    {
+      "all": [
+        "501100003075"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453222.0"
+      ],
+      "preferred": "grid.453222.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 9784"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05ct91r78",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.cq.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "CQ",
+        "country_subdivision_name": "Chongqing",
+        "lat": 29.56026,
+        "lng": 106.55771,
+        "name": "Chongqing"
+      },
+      "geonames_id": 1814906
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chongqing Municipal Government"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chongqing Municipal Health Commission",
+      "type": "child",
+      "id": "https://ror.org/04ce5fg13"
+    },
+    {
+      "label": "Chongqing Science and Technology Commission",
+      "type": "child",
+      "id": "https://ror.org/05w9erc61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

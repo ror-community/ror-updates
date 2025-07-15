@@ -54,7 +54,18 @@
       "value": "Nîmes Université"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Nîmes",
+      "type": "predecessor",
+      "id": "https://ror.org/044t4x544"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Nîmes",
+      "type": "related",
+      "id": "https://ror.org/0275ye937"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

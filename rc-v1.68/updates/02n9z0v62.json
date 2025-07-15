@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "amity.edu"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "501100001428",
+        "501100009374"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.444644.2"
+      ],
+      "preferred": "grid.444644.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1805 0217"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4746980"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02n9z0v62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.amity.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Amity_University,_Noida"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "UP",
+        "country_subdivision_name": "Uttar Pradesh",
+        "lat": 28.58,
+        "lng": 77.33,
+        "name": "Noida"
+      },
+      "geonames_id": 7279746
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Amity University"
+    },
+    {
+      "lang": "hi",
+      "types": [
+        "label"
+      ],
+      "value": "एमिटी विश्वविद्यालय"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Amity University",
+      "type": "child",
+      "id": "https://ror.org/02exxtn84"
+    },
+    {
+      "label": "Amity University Bengaluru",
+      "type": "child",
+      "id": "https://ror.org/04ygdhc67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

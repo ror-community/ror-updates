@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "501100002864"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411551.5"
+      ],
+      "preferred": "grid.411551.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 1516"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03by16w37",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cuh.co.kr/cuh/english/index.jsp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Jeollabuk-do",
+        "lat": 35.82194,
+        "lng": 127.14889,
+        "name": "Jeonju"
+      },
+      "geonames_id": 1845457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chonbuk National University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Jeonbuk National University",
+      "type": "related",
+      "id": "https://ror.org/05q92br09"
+    },
+    {
+      "label": "Jeonbuk National University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/034bxst58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

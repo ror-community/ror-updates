@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418037.9"
+      ],
+      "preferred": "grid.418037.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0641 1257"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q91994381"
+      ],
+      "preferred": "Q91994381",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00pjqzf38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cgfl.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CGFL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Georges François Leclerc"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Lutte contre le Cancer G.-F. Leclerc"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Lutte contre le Cancer Georges-Francois Leclerc"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Leclerc Cancer Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UniCancer Group",
+      "type": "parent",
+      "id": "https://ror.org/04vhgtv41"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "related",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "501100007631"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411665.1"
+      ],
+      "preferred": "grid.411665.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 2279"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04353mq94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnuh.co.kr/english/introduction/history.jsp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chungnam National University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chungnam National University",
+      "type": "related",
+      "id": "https://ror.org/0227as991"
+    },
+    {
+      "label": "Chungnam National University Sejong Hospital",
+      "type": "child",
+      "id": "https://ror.org/0466vx552"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

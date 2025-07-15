@@ -80,7 +80,18 @@
       "value": "한국국방연구원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of National Defense",
+      "type": "parent",
+      "id": "https://ror.org/05hfet039"
+    },
+    {
+      "label": "Agency for Defense Development",
+      "type": "related",
+      "id": "https://ror.org/05fhe0r85"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

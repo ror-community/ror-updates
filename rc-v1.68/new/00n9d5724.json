@@ -101,7 +101,18 @@
       "value": "Universidad Nacional Autónoma de México, Facultad de Estudios Superiores Cuautitlán"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Nacional Autónoma de México",
+      "type": "parent",
+      "id": "https://ror.org/01tmp8f25"
+    },
+    {
+      "label": "Facultad de Estudios Superiores Aragón",
+      "type": "related",
+      "id": "https://ror.org/00szdrw29"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

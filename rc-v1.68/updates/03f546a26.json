@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100019489"
+      ],
+      "preferred": "501100019489",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484632.f"
+      ],
+      "preferred": "grid.484632.f",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03f546a26",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.shaanxi.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Shaanxi",
+        "lat": 34.25833,
+        "lng": 108.92861,
+        "name": "Xi'an"
+      },
+      "geonames_id": 1790630
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "People's Government of Shaanxi Province"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "陕西省人民政府"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Health Commission of Shaanxi Province",
+      "type": "child",
+      "id": "https://ror.org/056wz7x19"
+    },
+    {
+      "label": "Department of Human Resources and Social Security Of Shaanxi Province",
+      "type": "child",
+      "id": "https://ror.org/00r5q6y06"
+    },
+    {
+      "label": "Education Department of Shaanxi Province",
+      "type": "child",
+      "id": "https://ror.org/00jb7xy46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

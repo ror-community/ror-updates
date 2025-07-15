@@ -59,7 +59,28 @@
       "value": "차 의료원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CHA University Healthcare Center",
+      "type": "child",
+      "id": "https://ror.org/03gs7jc26"
+    },
+    {
+      "label": "CHA Health Systems",
+      "type": "parent",
+      "id": "https://ror.org/01gysn705"
+    },
+    {
+      "label": "CHA Future Medicine Research Institute",
+      "type": "child",
+      "id": "https://ror.org/00jc3hw63"
+    },
+    {
+      "label": "CHA University Fertility Center",
+      "type": "child",
+      "id": "https://ror.org/013x1r993"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

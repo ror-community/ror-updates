@@ -52,7 +52,23 @@
       "value": "대구한의대학교 의료원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Daegu Haany University",
+      "type": "parent",
+      "id": "https://ror.org/045wr3278"
+    },
+    {
+      "label": "Pohang Oriental Medicine Hospital of Daegu Haany University",
+      "type": "child",
+      "id": "https://ror.org/00xdzs422"
+    },
+    {
+      "label": "Daegu Haany University Korean Medicine Hospital",
+      "type": "child",
+      "id": "https://ror.org/01wqj3451"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

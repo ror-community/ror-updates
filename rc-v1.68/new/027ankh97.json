@@ -66,7 +66,33 @@
       "value": "Université Toulouse Capitole"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    },
+    {
+      "label": "Toulouse School of Management Research",
+      "type": "child",
+      "id": "https://ror.org/036yvb369"
+    },
+    {
+      "label": "Laboratoire d'Économie des Ressources Naturelles",
+      "type": "child",
+      "id": "https://ror.org/05ev54a13"
+    },
+    {
+      "label": "Laboratoire d’Étude et de Recherche sur l’Économie, les Politiques et les Systèmes Sociaux",
+      "type": "child",
+      "id": "https://ror.org/05tcnbj64"
+    },
+    {
+      "label": "Institut de Mathématiques de Toulouse",
+      "type": "child",
+      "id": "https://ror.org/014vp6c30"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

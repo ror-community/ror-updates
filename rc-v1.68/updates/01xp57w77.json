@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017414"
+      ],
+      "preferred": "100017414",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484518.4"
+      ],
+      "preferred": "grid.484518.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01xp57w77",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ebeijing.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Beijing Municipal Government"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京市政府"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Beijing Administration Institute",
+      "type": "child",
+      "id": "https://ror.org/02mf18m55"
+    },
+    {
+      "label": "Beijing Municipal Health Commission",
+      "type": "child",
+      "id": "https://ror.org/0374a5s68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

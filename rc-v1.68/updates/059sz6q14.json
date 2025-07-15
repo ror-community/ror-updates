@@ -1,0 +1,150 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ciri.ens-lyon.fr"
+  ],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462394.e"
+      ],
+      "preferred": "grid.462394.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 6033"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261449"
+      ],
+      "preferred": "Q30261449",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059sz6q14",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ciri.ens-lyon.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIRI"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre International de Recherche en Infectiologie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm U1111"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "International Center for Infectiology Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5308"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5308"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Virologie et Pathologies Humaines",
+      "type": "child",
+      "id": "https://ror.org/031xg0236"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Hospices Civils de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/01502ca60"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
