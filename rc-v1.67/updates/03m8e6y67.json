@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-01-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 9340 3449"
+      ],
+      "preferred": "0000 0004 9340 3449",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q96650506"
+      ],
+      "preferred": "Q96650506",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03m8e6y67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hes.salud.gob.sv"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "SV",
+        "country_name": "El Salvador",
+        "country_subdivision_code": "SS",
+        "country_subdivision_name": "San Salvador Department",
+        "lat": 13.68935,
+        "lng": -89.18718,
+        "name": "San Salvador"
+      },
+      "geonames_id": 3583361
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HES"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital El Salvador"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital Nacional El Salvador"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Salud",
+      "type": "parent",
+      "id": "https://ror.org/04pe73709"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

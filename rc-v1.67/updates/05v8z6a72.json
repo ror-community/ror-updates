@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "moe.gov.my"
+  ],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "501100015515"
+      ],
+      "preferred": "501100015515",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.466843.b"
+      ],
+      "preferred": "grid.466843.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0775 6212"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3816079"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05v8z6a72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.moe.gov.my"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Education_(Malaysia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "16",
+        "country_subdivision_name": "Putrajaya",
+        "lat": 2.93527,
+        "lng": 101.69112,
+        "name": "Putrajaya"
+      },
+      "geonames_id": 6697380
+    }
+  ],
+  "names": [
+    {
+      "lang": "bm",
+      "types": [
+        "alias"
+      ],
+      "value": "Kementerian Pendidikan"
+    },
+    {
+      "lang": "bm",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Kementerian Pendidikan Malaysia"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Education Malaysia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kolej Matrikulasi Selangor",
+      "type": "child",
+      "id": "https://ror.org/010rgx680"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

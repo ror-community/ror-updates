@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "surf.nl"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425959.6"
+      ],
+      "preferred": "grid.425959.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0621 6574"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/009vhk114",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.surf.nl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utrecht",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "name": "Utrecht"
+      },
+      "geonames_id": 2745912
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SURF"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Netherlands eScience Center",
+      "type": "child",
+      "id": "https://ror.org/00rbjv475"
+    },
+    {
+      "label": "Knowledge Exchange",
+      "type": "related",
+      "id": "https://ror.org/025zn3p72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

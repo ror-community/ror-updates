@@ -1,0 +1,188 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-12",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100018613"
+      ],
+      "preferred": "100018613",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0383 3734"
+      ],
+      "preferred": "0000 0005 0383 3734",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17081140"
+      ],
+      "preferred": "Q17081140",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01yvark48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ioos.noaa.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Integrated_Ocean_Observing_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IOOS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Integrated Ocean Observing System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Integrated Ocean Observing System Program"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NOAA IOOS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Integrated Ocean Observing System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NOAA Integrated Ocean Observing System Program"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NOS Integrated Ocean Observing System Program"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Ocean Service Integrated Ocean Observing System Program"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Oceanic and Atmospheric Administration Integrated Ocean Observing System Program"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Integrated Ocean Observing System"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "US IOOS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Integrated Ocean Observing System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA National Ocean Service",
+      "type": "parent",
+      "id": "https://ror.org/02k4h0334"
+    },
+    {
+      "label": "Great Lakes Observing System",
+      "type": "related",
+      "id": "https://ror.org/036ftwn63"
+    },
+    {
+      "label": "Gulf of America Coastal Ocean Observing System",
+      "type": "related",
+      "id": "https://ror.org/024q01f72"
+    },
+    {
+      "label": "Southern California Coastal Ocean Observing System",
+      "type": "related",
+      "id": "https://ror.org/02g349121"
+    },
+    {
+      "label": "Northwest Association of Networked Ocean Observing Systems",
+      "type": "related",
+      "id": "https://ror.org/01a258x16"
+    },
+    {
+      "label": "Central and Northern California Ocean Observing System",
+      "type": "child",
+      "id": "https://ror.org/028paz341"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

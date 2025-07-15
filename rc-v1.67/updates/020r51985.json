@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411172.0"
+      ],
+      "preferred": "grid.411172.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0081 2808"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945773"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020r51985",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chus.qc.ca/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Centre_hospitalier_universitaire_de_Sherbrooke"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.40008,
+        "lng": -71.89908,
+        "name": "Sherbrooke"
+      },
+      "geonames_id": 6146143
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Sherbrooke"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Fleurimont",
+      "type": "child",
+      "id": "https://ror.org/00pthr413"
+    },
+    {
+      "label": "Université de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/00kybxq39"
+    },
+    {
+      "label": "Centre de recherche sur le vieillissement",
+      "type": "child",
+      "id": "https://ror.org/01bpsk167"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

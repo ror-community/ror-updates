@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "institut-rhodanien.com"
+  ],
+  "established": 2021,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 8756 2647"
+      ],
+      "preferred": "0000 0000 8756 2647",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q131222552"
+      ],
+      "preferred": "Q131222552",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03w0wfe93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.institut-rhodanien.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 44.1375,
+        "lng": 4.80889,
+        "name": "Orange"
+      },
+      "geonames_id": 6451580
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut Rhodanien"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut de Recherche et d’Expérimentation Viticole et OEnologique des Vins d’A.O.C de la Vallée du Rhône"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Français de la Vigne et du Vin",
+      "type": "related",
+      "id": "https://ror.org/03synvw58"
+    },
+    {
+      "label": "Syndicat des vignerons des Côtes du Rhône",
+      "type": "related",
+      "id": "https://ror.org/02e2xy827"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

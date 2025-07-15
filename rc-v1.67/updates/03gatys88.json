@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1936,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508033.d"
+      ],
+      "preferred": "grid.508033.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0453 6902"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q84498729"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03gatys88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mspbs.gov.py/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "PY",
+        "country_name": "Paraguay",
+        "country_subdivision_code": "ASU",
+        "country_subdivision_name": "Asunción",
+        "lat": -25.28646,
+        "lng": -57.647,
+        "name": "Asunción"
+      },
+      "geonames_id": 3439389
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Salud Pública y Bienestar Social"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Medicina Tropical",
+      "type": "child",
+      "id": "https://ror.org/01d540m14"
+    },
+    {
+      "label": "Centro Medico Nacional - Hospital Nacional",
+      "type": "child",
+      "id": "https://ror.org/03rggar28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

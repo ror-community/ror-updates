@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100010447"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452396.f"
+      ],
+      "preferred": "grid.452396.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5937 5237"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/031t5w623",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://dzhk.de/1/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "State of Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DZHK"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Zentrum für Herz-Kreislauf-Forschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Centre for Cardiovascular Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Deutsche Zentren der Gesundheitsforschung",
+      "type": "parent",
+      "id": "https://ror.org/044wq1q96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

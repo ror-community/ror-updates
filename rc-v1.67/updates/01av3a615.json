@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100009674"
+      ],
+      "preferred": "100009674",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420268.a"
+      ],
+      "preferred": "grid.420268.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4904 3503"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01av3a615",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iispv.cat/en_index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.11905,
+        "lng": 1.24544,
+        "name": "Tarragona"
+      },
+      "geonames_id": 3108288
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IISPV"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IISPV-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut d'Investigació Sanitària Pere Virgili"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pere Virgili Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Hospital de Tortosa Verge de la Cinta",
+      "type": "related",
+      "id": "https://ror.org/046sqxa62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

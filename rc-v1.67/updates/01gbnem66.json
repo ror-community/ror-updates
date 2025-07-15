@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2021,
+  "external_ids": [
+    {
+      "all": [
+        "501100019945"
+      ],
+      "preferred": "501100019945",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q107289836"
+      ],
+      "preferred": "Q107289836",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01gbnem66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://recercaiuniversitats.gencat.cat"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ca.wikipedia.org/wiki/Departament_de_Recerca_i_Universitats_de_la_Generalitat_de_Catalunya"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Departament de Recerca i Universitats"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "alias"
+      ],
+      "value": "Departament de Recerca i Universitats de la Generalitat de Catalunya"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Investigación y Universidades"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Research and Universities"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Generalitat de Catalunya",
+      "type": "parent",
+      "id": "https://ror.org/01bg62x04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

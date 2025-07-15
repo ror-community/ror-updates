@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bg-kliniken.de"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "Q27074262"
+      ],
+      "preferred": "Q27074262",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054224v54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bg-kliniken.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/BG_Kliniken"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "State of Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "BG Hospital Group"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "BG Hospitals"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "BG Kliniken"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "BG Kliniken – Klinikverbund der gesetzlichen Unfallversicherung gGmbH"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "BG Klinikum Hamburg",
+      "type": "child",
+      "id": "https://ror.org/05jw2mx52"
+    },
+    {
+      "label": "Berufsgenossenschaftliche Unfallklinik Ludwigshafen",
+      "type": "child",
+      "id": "https://ror.org/02wfxqa76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

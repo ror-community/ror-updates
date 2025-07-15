@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inserm-u1180.universite-paris-saclay.fr"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0443 4471"
+      ],
+      "preferred": "0000 0004 0443 4471",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51780281"
+      ],
+      "preferred": "Q51780281",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030sqvy05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inserm-u1180.universite-paris-saclay.fr/index.php/fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.69806,
+        "lng": 2.1875,
+        "name": "Orsay"
+      },
+      "geonames_id": 6454880
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CARPAT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Signalisation et Physiopathologie Cardiovasculaire"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Signalling and Cardiovascular Pathophysiology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SCPen"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Signalisation et physiopathologie cardiovasculaire"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "U769"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMRS1180"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "psu.edu"
+  ],
+  "established": 1855,
+  "external_ids": [
+    {
+      "all": [
+        "100008321",
+        "100009791",
+        "100008649",
+        "100007164",
+        "100006769",
+        "100013438",
+        "100011594",
+        "100011177",
+        "100011568",
+        "100011610",
+        "100011612",
+        "100016596",
+        "100020384",
+        "100020861"
+      ],
+      "preferred": "100008321",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.29857.31"
+      ],
+      "preferred": "grid.29857.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 4281",
+        "0000 0004 5907 5867"
+      ],
+      "preferred": "0000 0004 5907 5867",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q739627"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04p491231",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.psu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Pennsylvania_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.79339,
+        "lng": -77.86,
+        "name": "State College"
+      },
+      "geonames_id": 5213681
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Penn State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pennsylvania State University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Pensilvania"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de Pennsylvanie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Dielectrics & Piezoelectrics",
+      "type": "child",
+      "id": "https://ror.org/04nv7tt16"
+    },
+    {
+      "label": "Pennsylvania Sea Grant",
+      "type": "child",
+      "id": "https://ror.org/033r52n02"
+    },
+    {
+      "label": "Pennsylvania Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/0225cwm17"
+    },
+    {
+      "label": "Applied Research Laboratory at Penn State",
+      "type": "child",
+      "id": "https://ror.org/03jdj0g52"
+    },
+    {
+      "label": "Penn State Milton S. Hershey Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01h22ap11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

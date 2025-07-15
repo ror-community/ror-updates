@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uvic.ca"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "100008997",
+        "100008998",
+        "501100000078"
+      ],
+      "preferred": "100008997",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.143640.4"
+      ],
+      "preferred": "grid.143640.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9465"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1458113"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04s5mat29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uvic.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Victoria"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 48.4359,
+        "lng": -123.35155,
+        "name": "Victoria"
+      },
+      "geonames_id": 6174041
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Victoria"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de victoria"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Victoria College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bamfield Marine Sciences Centre",
+      "type": "child",
+      "id": "https://ror.org/039cthy03"
+    },
+    {
+      "label": "Ocean Networks Canada Society",
+      "type": "child",
+      "id": "https://ror.org/05gknh003"
+    },
+    {
+      "label": "Pacific Institute for Climate Solutions",
+      "type": "child",
+      "id": "https://ror.org/00hv6g197"
+    },
+    {
+      "label": "NorthEast Pacific Deep-sea Exploration Project",
+      "type": "related",
+      "id": "https://ror.org/01fkg1209"
+    },
+    {
+      "label": "Canadian-Pacific Robotic Ocean Observing Facility",
+      "type": "child",
+      "id": "https://ror.org/03c62s410"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

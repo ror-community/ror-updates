@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cesnet.cz"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.423953.a"
+      ],
+      "preferred": "grid.423953.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0506 9234"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5010371"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/050dkka69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cesnet.cz/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/CESNET"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "name": "Prague"
+      },
+      "geonames_id": 3067696
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESNET"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CESNET, zájmové sdružení právnických osob"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Czech Education and Scientific Network"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Sdružení CESNET"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Czech National Infrastructure for Biological Data",
+      "type": "child",
+      "id": "https://ror.org/0286qer95"
+    },
+    {
+      "label": "e-Infrastructure of the Czech Republic",
+      "type": "child",
+      "id": "https://ror.org/02h8zn861"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

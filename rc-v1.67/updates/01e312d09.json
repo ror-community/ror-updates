@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100018761"
+      ],
+      "preferred": "501100018761",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0269 1690"
+      ],
+      "preferred": "0000 0005 0269 1690",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01e312d09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.igstc.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "DL",
+        "country_subdivision_name": "Delhi",
+        "lat": 28.62137,
+        "lng": 77.2148,
+        "name": "New Delhi"
+      },
+      "geonames_id": 1261481
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGSTC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Indo-German Science & Technology Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Indo-German Science and Technology Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/03emtbt60"
+    },
+    {
+      "label": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+      "type": "parent",
+      "id": "https://ror.org/04pz7b180"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

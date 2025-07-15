@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "501100011168"
+      ],
+      "preferred": "501100011168",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458482.7"
+      ],
+      "preferred": "grid.458482.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1800 1474"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30259654"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012rct222",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.ciomp.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "JL",
+        "country_subdivision_name": "Jilin",
+        "lat": 43.88,
+        "lng": 125.32278,
+        "name": "Changchun"
+      },
+      "geonames_id": 2038180
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIOMP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Changchun Institute of Optics, Fine Mechanics and Physics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院长春光学精密机械与物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Laser and Matter Interaction",
+      "type": "child",
+      "id": "https://ror.org/03jhgk465"
+    },
+    {
+      "label": "State Key Laboratory of Applied Optics",
+      "type": "child",
+      "id": "https://ror.org/01ckt9009"
+    },
+    {
+      "label": "State Key Laboratory of Luminescence and Application",
+      "type": "child",
+      "id": "https://ror.org/05apcas97"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "Chang Guang Satellite Technology Co., Ltd.",
+      "type": "related",
+      "id": "https://ror.org/059btw256"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

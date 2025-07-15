@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-06-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "100008251",
+        "100008252"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413899.e"
+      ],
+      "preferred": "grid.413899.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0633 2743"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q14875035"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05pr37258",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hsc.mb.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Health_Sciences_Centre_(Winnipeg)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health Sciences Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Winnipeg Regional Health Authority",
+      "type": "parent",
+      "id": "https://ror.org/01a61tf67"
+    },
+    {
+      "label": "Shared Health Manitoba",
+      "type": "related",
+      "id": "https://ror.org/03rvea339"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}
