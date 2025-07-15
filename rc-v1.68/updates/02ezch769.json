@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uphf.fr"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "501100018693"
+      ],
+      "preferred": "501100018693",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12810.3a"
+      ],
+      "preferred": "grid.12810.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0790 1416"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1548539"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ezch769",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uphf.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Polytechnic_University_of_Hauts-de-France"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.35909,
+        "lng": 3.52506,
+        "name": "Valenciennes"
+      },
+      "geonames_id": 2971041
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Polytechnic University of Hauts-de-France"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPHF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Valenciennes and Hainaut-Cambrésis"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Université Polytechnique Hauts-de-France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut d'électronique de microélectronique et de nanotechnologie",
+      "type": "child",
+      "id": "https://ror.org/02q4res37"
+    },
+    {
+      "label": "Laboratoire d'Automatique, de Mécanique et d'Informatique Industrielles et Humaines",
+      "type": "child",
+      "id": "https://ror.org/006z7v557"
+    },
+    {
+      "label": "Maison Européenne des Sciences de l'Homme et de la Société",
+      "type": "child",
+      "id": "https://ror.org/00m090414"
+    },
+    {
+      "label": "INSA Hauts-de-France",
+      "type": "child",
+      "id": "https://ror.org/041rsh762"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
