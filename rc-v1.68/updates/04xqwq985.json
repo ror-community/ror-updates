@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inje.ac.kr"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "501100002636"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411612.1"
+      ],
+      "preferred": "grid.411612.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0470 5112"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q482659"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xqwq985",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inje.ac.kr/kor/main/main.asp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Inje_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "48",
+        "country_subdivision_name": "Gyeongsangnam-do",
+        "lat": 35.23417,
+        "lng": 128.88111,
+        "name": "Gimhae"
+      },
+      "geonames_id": 1842943
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Inje University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "인제대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inje University Busan Paik Hospital",
+      "type": "related",
+      "id": "https://ror.org/01pzf6r50"
+    },
+    {
+      "label": "Inje University Haeundae Paik Hospital",
+      "type": "related",
+      "id": "https://ror.org/019641589"
+    },
+    {
+      "label": "Inje University Ilsan Paik Hospital",
+      "type": "related",
+      "id": "https://ror.org/01zx5ww52"
+    },
+    {
+      "label": "Inje University Sanggye Paik Hospital",
+      "type": "related",
+      "id": "https://ror.org/027j9rp38"
+    },
+    {
+      "label": "Inje University Paik Hospital",
+      "type": "child",
+      "id": "https://ror.org/015471y74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

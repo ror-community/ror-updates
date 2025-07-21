@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nmsc.kma.go.kr"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "501100015772"
+      ],
+      "preferred": "501100015772",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 8010 4765"
+      ],
+      "preferred": "0000 0004 8010 4765",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12585592"
+      ],
+      "preferred": "Q12585592",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043zvrs33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nmsc.kma.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EA%B0%80%EA%B8%B0%EC%83%81%EC%9C%84%EC%84%B1%EC%84%BC%ED%84%B0"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "43",
+        "country_subdivision_name": "North Chungcheong",
+        "lat": 36.85667,
+        "lng": 127.44333,
+        "name": "Chinch'ŏn"
+      },
+      "geonames_id": 1846095
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NMSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Meteorological Satellite Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국가기상위성센터"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "기상청 국가기상위성센터"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Meteorological Administration",
+      "type": "parent",
+      "id": "https://ror.org/04nrmrg07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nafi.re.kr"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1487 1541"
+      ],
+      "preferred": "0000 0005 1487 1541",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/058s27532",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nafi.re.kr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NAFI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Assembly Futures Institute"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국회미래연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Assembly",
+      "type": "parent",
+      "id": "https://ror.org/05v6gdb70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "khuhs.or.kr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q12583942"
+      ],
+      "preferred": "Q12583942",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00jnds476",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.khuhs.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B2%BD%ED%9D%AC%EB%8C%80%ED%95%99%EA%B5%90%EC%9D%98%EB%A3%8C%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KHUHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Kyung Hee University Healthcare System"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "경희대학교의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyung Hee University",
+      "type": "parent",
+      "id": "https://ror.org/01zqcg218"
+    },
+    {
+      "label": "Kyung Hee University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/01vbmek33"
+    },
+    {
+      "label": "Kyung Hee University Hospital at Gangdong",
+      "type": "child",
+      "id": "https://ror.org/05x9xyq11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

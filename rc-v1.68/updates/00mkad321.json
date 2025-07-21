@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462299.2"
+      ],
+      "preferred": "grid.462299.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0445 7139"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261421"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00mkad321",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://umr-agroecologie.dijon.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Agroecology"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Agroécologie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Agro Dijon",
+      "type": "parent",
+      "id": "https://ror.org/03zek0r74"
+    },
+    {
+      "label": "CHU Dijon Bourgogne",
+      "type": "parent",
+      "id": "https://ror.org/0377z4z10"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "parent",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

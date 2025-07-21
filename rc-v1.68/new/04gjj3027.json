@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "anam.kumc.or.kr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100015825"
+      ],
+      "preferred": "501100015825",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0570 4162"
+      ],
+      "preferred": "0000 0004 0570 4162",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q85973142"
+      ],
+      "preferred": "Q85973142",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04gjj3027",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://anam.kumc.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90%EC%95%88%EC%95%94%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Korea University Anam Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "고대안암병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "고려대학교 안암병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea University Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/02cs2sd33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

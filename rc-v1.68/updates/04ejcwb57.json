@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463995.4"
+      ],
+      "preferred": "grid.463995.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2168 4745"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04ejcwb57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://msh-dijon.ube.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.31667,
+        "lng": 5.01667,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSH"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "MSH de Dijon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Maison des Sciences de l’Homme de Dijon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Maison des Sciences sociales et des Humanités de Dijon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "parent",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

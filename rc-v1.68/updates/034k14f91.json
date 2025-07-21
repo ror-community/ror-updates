@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100005090",
+        "501100005081",
+        "501100009592",
+        "501100004826",
+        "501100005089",
+        "501100012401"
+      ],
+      "preferred": "501100009592",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452958.7"
+      ],
+      "preferred": "grid.452958.7",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/034k14f91",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kw.beijing.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beijing Municipal Science & Technology Commision"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Beijing Municipal Science and Technology Commission"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京市科学技术委员会"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science and Technology of the People's Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/027s68j25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

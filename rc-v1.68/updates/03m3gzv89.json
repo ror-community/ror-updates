@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "envt.fr"
+  ],
+  "established": 1825,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418686.5"
+      ],
+      "preferred": "grid.418686.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2164 3505"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578275"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03m3gzv89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://envt.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_v%C3%A9t%C3%A9rinaire_de_Toulouse"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENVT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Vétérinaire de Toulouse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Digestive Health Research Institute",
+      "type": "child",
+      "id": "https://ror.org/034nb0f30"
+    },
+    {
+      "label": "Génétique Physiologie et Systèmes d'Elevage",
+      "type": "child",
+      "id": "https://ror.org/04gg6ne93"
+    },
+    {
+      "label": "Interaction Hôtes Agents Pathogènes",
+      "type": "child",
+      "id": "https://ror.org/041yk0b68"
+    },
+    {
+      "label": "Innovations thérapeutiques et résistances",
+      "type": "child",
+      "id": "https://ror.org/01shz5j60"
+    },
+    {
+      "label": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "type": "parent",
+      "id": "https://ror.org/029m96t80"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

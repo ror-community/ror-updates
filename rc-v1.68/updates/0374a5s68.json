@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wjw.beijing.gov.cn"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100005088",
+        "501100010270"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453748.9"
+      ],
+      "preferred": "grid.453748.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0530 7124"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30296878"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0374a5s68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://wjw.beijing.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beijing Municipal Health Bureau"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Beijing Municipal Health Commission"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京市卫生健康委员会"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Beijing Chao-Yang Hospital",
+      "type": "child",
+      "id": "https://ror.org/01eff5662"
+    },
+    {
+      "label": "Beijing HuiLongGuan Hospital",
+      "type": "child",
+      "id": "https://ror.org/03wgqqb38"
+    },
+    {
+      "label": "Beijing Municipal Government",
+      "type": "parent",
+      "id": "https://ror.org/01xp57w77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

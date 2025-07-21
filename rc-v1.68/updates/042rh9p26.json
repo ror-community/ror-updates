@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "grid.501738.8"
+      ],
+      "preferred": "grid.501738.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6108 4471"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q28494780"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042rh9p26",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://imt-nord-europe.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.37069,
+        "lng": 3.07922,
+        "name": "Douai"
+      },
+      "geonames_id": 3021000
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "IMT Lille Douai"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "IMT Nord Europe"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École Nationale Supérieure des Mines-Télécom Lille Douai"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Mines-Télécom",
+      "type": "parent",
+      "id": "https://ror.org/025vp2923"
+    },
+    {
+      "label": "Centre de Recherche en Informatique, Signal et Automatique de Lille",
+      "type": "related",
+      "id": "https://ror.org/05vrs3189"
+    },
+    {
+      "label": "Laboratoire de Génie Civil et Géo Environnement",
+      "type": "related",
+      "id": "https://ror.org/00fh1dw28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

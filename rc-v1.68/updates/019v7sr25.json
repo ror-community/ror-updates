@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-09-14",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "defe.fr"
+  ],
+  "established": 2020,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1122 6440"
+      ],
+      "preferred": "0000 0005 1122 6440",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/019v7sr25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defe.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DEFE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Développement Embryonnaire, Fertilité et Environnement"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA3496"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM U1203"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

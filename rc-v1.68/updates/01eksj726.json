@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411127.0"
+      ],
+      "preferred": "grid.411127.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0618 6707"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01eksj726",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kyuh.ac.kr/eng/index.asp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Konyang University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한양 대학교 병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Konyang University",
+      "type": "related",
+      "id": "https://ror.org/02v8yp068"
+    },
+    {
+      "label": "Konyang University Buyeo Hospital",
+      "type": "child",
+      "id": "https://ror.org/0437ap982"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

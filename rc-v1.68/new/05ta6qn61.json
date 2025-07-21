@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "demc.kr"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0618 6424"
+      ],
+      "preferred": "0000 0004 0618 6424",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5295695"
+      ],
+      "preferred": "Q5295695",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ta6qn61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.demc.kr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Busan",
+        "lat": 35.10168,
+        "lng": 129.03004,
+        "name": "Busan"
+      },
+      "geonames_id": 1838524
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DEMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Dong-Eui Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "동의의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dong-Eui University Korean Medicine Hospital",
+      "type": "child",
+      "id": "https://ror.org/04336k829"
+    },
+    {
+      "label": "Dong-Eui Hospital",
+      "type": "child",
+      "id": "https://ror.org/041hem229"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

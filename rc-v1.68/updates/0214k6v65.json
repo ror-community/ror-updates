@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lpca.in2p3.fr"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470921.9"
+      ],
+      "preferred": "grid.470921.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0623 3622"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0214k6v65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lpca.in2p3.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.75082,
+        "lng": 3.11078,
+        "name": "Aubière"
+      },
+      "geonames_id": 3036364
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "LPC Clermont"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LPCA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire de Physique Corpusculaire"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Physique de Clermont Auvergne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

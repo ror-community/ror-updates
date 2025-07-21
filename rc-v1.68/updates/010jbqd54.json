@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lancashire.ac.uk",
+    "uclan.ac.uk"
+  ],
+  "established": 1828,
+  "external_ids": [
+    {
+      "all": [
+        "100010044"
+      ],
+      "preferred": "100010044",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7943.9"
+      ],
+      "preferred": "grid.7943.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2167 3843"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1857773"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/010jbqd54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lancashire.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Lancashire"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.76282,
+        "lng": -2.70452,
+        "name": "Preston"
+      },
+      "geonames_id": 2639912
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lancashire Polytechnic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Preston Polytechnic"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCLan"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Central Lancashire"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "University of Lancashire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lancashire Teaching Hospitals NHS Foundation Trust",
+      "type": "related",
+      "id": "https://ror.org/02j7n9748"
+    },
+    {
+      "label": "University of Central Lancashire Cyprus",
+      "type": "child",
+      "id": "https://ror.org/020ps3a34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

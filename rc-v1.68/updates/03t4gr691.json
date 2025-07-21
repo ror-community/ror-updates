@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "amc.nl"
+  ],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "501100003180"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5650.6"
+      ],
+      "preferred": "grid.5650.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0465 4431"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2487297"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03t4gr691",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.amc.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Academic_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "North Holland",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "name": "Amsterdam"
+      },
+      "geonames_id": 2759794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Academic Medical Center"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Academisch Medisch Centrum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Amsterdam UMC Location University of Amsterdam"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Amsterdam Institute for Addiction Research",
+      "type": "child",
+      "id": "https://ror.org/022gvqh28"
+    },
+    {
+      "label": "Amsterdam University Medical Centers",
+      "type": "parent",
+      "id": "https://ror.org/05grdyy37"
+    },
+    {
+      "label": "University of Amsterdam",
+      "type": "related",
+      "id": "https://ror.org/04dkp9463"
+    },
+    {
+      "label": "Amsterdam University Medical Centers",
+      "type": "successor",
+      "id": "https://ror.org/05grdyy37"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

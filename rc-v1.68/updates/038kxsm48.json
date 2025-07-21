@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462490.d"
+      ],
+      "preferred": "grid.462490.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0556 944X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261470"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038kxsm48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.rennes.inrae.fr/igepp_eng/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.1019,
+        "lng": -1.79565,
+        "name": "Le Rheu"
+      },
+      "geonames_id": 3002351
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGEPP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de Génétique, Environnement et Protection des Plantes"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Genetics, Environment and Plant Protection"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1349"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR INRAE 1349"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Agro Rennes-Angers",
+      "type": "parent",
+      "id": "https://ror.org/01s3fs709"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
