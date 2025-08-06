@@ -54,7 +54,18 @@
       "value": "Mackay Hospital and Health Service"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Queensland Health",
+      "type": "parent",
+      "id": "https://ror.org/00c1dt378"
+    },
+    {
+      "label": "Mackay Base Hospital",
+      "type": "child",
+      "id": "https://ror.org/04frfb960"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -54,7 +54,23 @@
       "value": "Gravitational Wave Open Science Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "LIGO Scientific Collaboration",
+      "type": "parent",
+      "id": "https://ror.org/0518wrr32"
+    },
+    {
+      "label": "Virgo",
+      "type": "parent",
+      "id": "https://ror.org/02g61p297"
+    },
+    {
+      "label": "KAGRA",
+      "type": "parent",
+      "id": "https://ror.org/033tx3651"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
