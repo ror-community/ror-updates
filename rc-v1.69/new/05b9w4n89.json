@@ -54,7 +54,18 @@
       "value": "Laboratoire d'hématologie"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

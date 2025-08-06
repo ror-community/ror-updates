@@ -55,7 +55,23 @@
       "value": "Hôpitaux universitaires Paris Sud"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hôpital Paul-Brousse",
+      "type": "child",
+      "id": "https://ror.org/05n7yzd13"
+    },
+    {
+      "label": "Bicêtre Hospital",
+      "type": "child",
+      "id": "https://ror.org/05c9p1x46"
+    },
+    {
+      "label": "Hôpital Antoine-Béclère",
+      "type": "child",
+      "id": "https://ror.org/04sb8a726"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
