@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "uni-kiel.de"
-  ],
-  "established": 1665,
+  "domains": [],
+  "established": 1964,
   "external_ids": [
     {
       "all": [
-        "501100002869"
+        "501100004168"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.9764.c"
+        "grid.4562.5"
       ],
-      "preferred": "grid.9764.c",
+      "preferred": "grid.4562.5",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2153 9986"
+        "0000 0001 0057 2672"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q156737"
+        "Q317087"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/04v76ef78",
+  "id": "https://ror.org/00t3r8h32",
   "links": [
     {
       "type": "website",
-      "value": "https://www.uni-kiel.de"
+      "value": "http://www.uni-luebeck.de/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/University_of_Kiel"
+      "value": "http://en.wikipedia.org/wiki/University_of_L%C3%BCbeck"
     }
   ],
   "locations": [
@@ -63,57 +61,42 @@
         "country_name": "Germany",
         "country_subdivision_code": "SH",
         "country_subdivision_name": "Schleswig-Holstein",
-        "lat": 54.32133,
-        "lng": 10.13489,
-        "name": "Kiel"
+        "lat": 53.86893,
+        "lng": 10.68729,
+        "name": "Lübeck"
       },
-      "geonames_id": 2891122
+      "geonames_id": 2875601
     }
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "en",
       "types": [
-        "acronym"
+        "alias"
       ],
-      "value": "CAU"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Christian-Albrechts-Universität zu Kiel"
+      "value": "University of Luebeck"
     },
     {
       "lang": "en",
       "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Kiel University"
+      "value": "University of Lübeck"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität zu Lübeck"
     }
   ],
   "relationships": [
     {
-      "label": "Institute for Inclusive Education",
-      "type": "child",
-      "id": "https://ror.org/00vp8qm49"
-    },
-    {
-      "label": "Leibniz Institute for Science and Mathematics Education",
-      "type": "related",
-      "id": "https://ror.org/008n8dd57"
-    },
-    {
       "label": "University Hospital Schleswig-Holstein",
       "type": "related",
       "id": "https://ror.org/01tvm6f46"
-    },
-    {
-      "label": "Universitäts Hautklinik Kiel",
-      "type": "related",
-      "id": "https://ror.org/0248h4s70"
     }
   ],
   "status": "active",

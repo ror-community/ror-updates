@@ -10,48 +10,38 @@
     }
   },
   "domains": [
-    "uni-kiel.de"
+    "uksh.de"
   ],
-  "established": 1665,
+  "established": 2003,
   "external_ids": [
     {
       "all": [
-        "501100002869"
+        "grid.412468.d"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.9764.c"
-      ],
-      "preferred": "grid.9764.c",
+      "preferred": "grid.412468.d",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2153 9986"
+        "0000 0004 0646 2097"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q156737"
+        "Q2496401",
+        "Q30279564"
       ],
-      "preferred": null,
+      "preferred": "Q2496401",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/04v76ef78",
+  "id": "https://ror.org/01tvm6f46",
   "links": [
     {
       "type": "website",
-      "value": "https://www.uni-kiel.de"
-    },
-    {
-      "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/University_of_Kiel"
+      "value": "https://www.uksh.de"
     }
   ],
   "locations": [
@@ -76,49 +66,43 @@
       "types": [
         "acronym"
       ],
-      "value": "CAU"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Christian-Albrechts-Universität zu Kiel"
+      "value": "UKSH"
     },
     {
       "lang": "en",
       "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Kiel University"
+      "value": "University Hospital Schleswig-Holstein"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Schleswig-Holstein"
     }
   ],
   "relationships": [
     {
-      "label": "Institute for Inclusive Education",
+      "label": "Universitäres Kinderwunschzentrum Lübeck",
       "type": "child",
-      "id": "https://ror.org/00vp8qm49"
+      "id": "https://ror.org/010mck520"
     },
     {
-      "label": "Leibniz Institute for Science and Mathematics Education",
+      "label": "Kiel University",
       "type": "related",
-      "id": "https://ror.org/008n8dd57"
+      "id": "https://ror.org/04v76ef78"
     },
     {
-      "label": "University Hospital Schleswig-Holstein",
+      "label": "University of Lübeck",
       "type": "related",
-      "id": "https://ror.org/01tvm6f46"
-    },
-    {
-      "label": "Universitäts Hautklinik Kiel",
-      "type": "related",
-      "id": "https://ror.org/0248h4s70"
+      "id": "https://ror.org/00t3r8h32"
     }
   ],
   "status": "active",
   "types": [
-    "education",
-    "funder"
+    "healthcare"
   ]
 }
