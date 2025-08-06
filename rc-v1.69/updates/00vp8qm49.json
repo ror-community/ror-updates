@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-11-07",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -9,39 +9,22 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "uksh.de"
-  ],
-  "established": 2003,
+  "domains": [],
+  "established": 2013,
   "external_ids": [
     {
       "all": [
-        "grid.412468.d"
+        "grid.506548.a"
       ],
-      "preferred": "grid.412468.d",
+      "preferred": "grid.506548.a",
       "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 0646 2097"
-      ],
-      "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q2496401",
-        "Q30279564"
-      ],
-      "preferred": "Q2496401",
-      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/01tvm6f46",
+  "id": "https://ror.org/00vp8qm49",
   "links": [
     {
       "type": "website",
-      "value": "https://www.uksh.de"
+      "value": "https://inklusive-bildung.org"
     }
   ],
   "locations": [
@@ -62,11 +45,11 @@
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "de",
       "types": [
-        "acronym"
+        "label"
       ],
-      "value": "UKSH"
+      "value": "Institut für Inklusive Bildung"
     },
     {
       "lang": "en",
@@ -74,35 +57,18 @@
         "ror_display",
         "label"
       ],
-      "value": "University Hospital Schleswig-Holstein"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label"
-      ],
-      "value": "Universitätsklinikum Schleswig-Holstein"
+      "value": "Institute for Inclusive Education"
     }
   ],
   "relationships": [
     {
-      "label": "Universitäres Kinderwunschzentrum Lübeck",
-      "type": "child",
-      "id": "https://ror.org/010mck520"
-    },
-    {
       "label": "Christian-Albrechts-Universität zu Kiel",
-      "type": "related",
+      "type": "parent",
       "id": "https://ror.org/04v76ef78"
-    },
-    {
-      "label": "University of Lübeck",
-      "type": "related",
-      "id": "https://ror.org/00t3r8h32"
     }
   ],
   "status": "active",
   "types": [
-    "healthcare"
+    "nonprofit"
   ]
 }

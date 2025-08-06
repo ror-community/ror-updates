@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-02-17",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,39 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1962,
+  "established": 1921,
   "external_ids": [
     {
       "all": [
-        "grid.440541.0"
+        "grid.502117.0"
       ],
-      "preferred": "grid.440541.0",
+      "preferred": "grid.502117.0",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0730 4128"
+        "0000 0001 2293 4312"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1056113"
+        "Q9008789"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/03w6nzd18",
+  "id": "https://ror.org/0348f6e47",
   "links": [
     {
       "type": "website",
-      "value": "https://noirlab.edu/public/programs/ctio/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Cerro_Tololo_Inter-American_Observatory"
+      "value": "http://ravignani.institutos.filo.uba.ar/"
     }
   ],
   "locations": [
@@ -50,15 +46,15 @@
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
-        "country_code": "CL",
-        "country_name": "Chile",
-        "country_subdivision_code": "CO",
-        "country_subdivision_name": "Coquimbo Region",
-        "lat": -29.90591,
-        "lng": -71.25014,
-        "name": "La Serena"
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
       },
-      "geonames_id": 3884373
+      "geonames_id": 3435910
     }
   ],
   "names": [
@@ -67,27 +63,27 @@
       "types": [
         "acronym"
       ],
-      "value": "CTIO"
+      "value": "IHAYA"
     },
     {
-      "lang": "en",
+      "lang": "es",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Cerro Tololo Inter-American Observatory"
+      "value": "Instituto de Historia Argentina y Americana \"Dr. Emilio Ravignani\""
     }
   ],
   "relationships": [
     {
-      "label": "NSF NOIRLab",
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
       "type": "parent",
-      "id": "https://ror.org/03zmsge54"
+      "id": "https://ror.org/03cqe8w59"
     },
     {
-      "label": "Association of Universities for Research in Astronomy",
+      "label": "Universidad de Buenos Aires",
       "type": "parent",
-      "id": "https://ror.org/02y5f7c97"
+      "id": "https://ror.org/0081fs513"
     }
   ],
   "status": "active",

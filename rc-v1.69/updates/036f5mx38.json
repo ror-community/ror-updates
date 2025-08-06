@@ -9,40 +9,49 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": 1958,
+  "domains": [
+    "stsci.edu"
+  ],
+  "established": 1981,
   "external_ids": [
     {
       "all": [
-        "grid.248193.5"
+        "100013757"
       ],
-      "preferred": "grid.248193.5",
+      "preferred": "100013757",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419446.a"
+      ],
+      "preferred": "grid.419446.a",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 2152 854X"
+        "0000 0004 0591 6464"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q592248"
+        "Q1540619"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/0135fch82",
+  "id": "https://ror.org/036f5mx38",
   "links": [
     {
       "type": "website",
-      "value": "https://noirlab.edu/public/programs/kitt-peak-national-observatory/"
+      "value": "https://www.stsci.edu"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Kitt_Peak_National_Observatory"
+      "value": "https://en.wikipedia.org/wiki/Space_Telescope_Science_Institute"
     }
   ],
   "locations": [
@@ -52,13 +61,13 @@
         "continent_name": "North America",
         "country_code": "US",
         "country_name": "United States",
-        "country_subdivision_code": "AZ",
-        "country_subdivision_name": "Arizona",
-        "lat": 32.22174,
-        "lng": -110.92648,
-        "name": "Tucson"
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
       },
-      "geonames_id": 5318313
+      "geonames_id": 4347778
     }
   ],
   "names": [
@@ -67,7 +76,7 @@
       "types": [
         "acronym"
       ],
-      "value": "KPNO"
+      "value": "STSCI"
     },
     {
       "lang": "en",
@@ -75,30 +84,24 @@
         "ror_display",
         "label"
       ],
-      "value": "Kitt Peak National Observatory"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "label"
-      ],
-      "value": "Observatoire de Kitt Peak"
+      "value": "Space Telescope Science Institute"
     }
   ],
   "relationships": [
     {
-      "label": "NSF NOIRLab",
-      "type": "parent",
-      "id": "https://ror.org/03zmsge54"
-    },
-    {
       "label": "Association of Universities for Research in Astronomy",
       "type": "parent",
       "id": "https://ror.org/02y5f7c97"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "related",
+      "id": "https://ror.org/027ka1x80"
     }
   ],
   "status": "active",
   "types": [
-    "facility"
+    "facility",
+    "funder"
   ]
 }

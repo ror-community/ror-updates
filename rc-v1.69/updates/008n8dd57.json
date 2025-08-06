@@ -9,39 +9,22 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "uksh.de"
-  ],
-  "established": 2003,
+  "domains": [],
+  "established": 1966,
   "external_ids": [
     {
       "all": [
-        "grid.412468.d"
+        "grid.461789.5"
       ],
-      "preferred": "grid.412468.d",
+      "preferred": "grid.461789.5",
       "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 0646 2097"
-      ],
-      "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q2496401",
-        "Q30279564"
-      ],
-      "preferred": "Q2496401",
-      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/01tvm6f46",
+  "id": "https://ror.org/008n8dd57",
   "links": [
     {
       "type": "website",
-      "value": "https://www.uksh.de"
+      "value": "http://www.ipn.uni-kiel.de/en"
     }
   ],
   "locations": [
@@ -66,7 +49,7 @@
       "types": [
         "acronym"
       ],
-      "value": "UKSH"
+      "value": "IPN"
     },
     {
       "lang": "en",
@@ -74,35 +57,30 @@
         "ror_display",
         "label"
       ],
-      "value": "University Hospital Schleswig-Holstein"
+      "value": "Leibniz Institute for Science and Mathematics Education"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Universitätsklinikum Schleswig-Holstein"
+      "value": "Leibniz-Institut für die Pädagogik der Naturwissenschaften und Mathematik"
     }
   ],
   "relationships": [
     {
-      "label": "Universitäres Kinderwunschzentrum Lübeck",
-      "type": "child",
-      "id": "https://ror.org/010mck520"
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
     },
     {
       "label": "Christian-Albrechts-Universität zu Kiel",
       "type": "related",
       "id": "https://ror.org/04v76ef78"
-    },
-    {
-      "label": "University of Lübeck",
-      "type": "related",
-      "id": "https://ror.org/00t3r8h32"
     }
   ],
   "status": "active",
   "types": [
-    "healthcare"
+    "facility"
   ]
 }
