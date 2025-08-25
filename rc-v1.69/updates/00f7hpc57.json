@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fau.de"
+  ],
+  "established": 1742,
+  "external_ids": [
+    {
+      "all": [
+        "501100001652",
+        "501100007216",
+        "501100007947",
+        "501100009508"
+      ],
+      "preferred": "501100001652",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5330.5"
+      ],
+      "preferred": "grid.5330.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2107 3311"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q40025"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00f7hpc57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fau.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Erlangen-Nuremberg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.59099,
+        "lng": 11.00783,
+        "name": "Erlangen"
+      },
+      "geonames_id": 2929567
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FAU"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "FAU Erlangen-Nürnberg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Friedrich-Alexander-University Erlangen-Nürnberg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Erlangen-Nuremberg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bavarian Polymer Institute",
+      "type": "child",
+      "id": "https://ror.org/054zwas39"
+    },
+    {
+      "label": "International Audio Laboratories Erlangen",
+      "type": "child",
+      "id": "https://ror.org/02mkz3e80"
+    },
+    {
+      "label": "Bayreuth Medical Center",
+      "type": "related",
+      "id": "https://ror.org/034nz8723"
+    },
+    {
+      "label": "Universitätsklinikum Erlangen",
+      "type": "related",
+      "id": "https://ror.org/0030f2a11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

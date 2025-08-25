@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1872,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413030.5"
+      ],
+      "preferred": "grid.413030.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 8840"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7569946"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04wvkky61",
+  "links": [
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Southern_General_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.86515,
+        "lng": -4.25763,
+        "name": "Glasgow"
+      },
+      "geonames_id": 2648579
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SGH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern General Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NHS Greater Glasgow and Clyde",
+      "type": "parent",
+      "id": "https://ror.org/05kdz4d87"
+    },
+    {
+      "label": "University of Glasgow",
+      "type": "related",
+      "id": "https://ror.org/00vtgdb53"
+    },
+    {
+      "label": "Queen Elizabeth University Hospital",
+      "type": "successor",
+      "id": "https://ror.org/04y0x0x35"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

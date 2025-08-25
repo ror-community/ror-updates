@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503390.c"
+      ],
+      "preferred": "grid.503390.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0386 1359"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51780043"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04hd6wf14",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://pbs.univ-rouen.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NOR",
+        "country_subdivision_name": "Normandy",
+        "lat": 49.46307,
+        "lng": 1.09364,
+        "name": "Mont-Saint-Aignan"
+      },
+      "geonames_id": 2992003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PBS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Polymères, Biopolymères, Surfaces"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université de Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/03nhjew95"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

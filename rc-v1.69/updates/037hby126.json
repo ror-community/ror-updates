@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100010481"
+      ],
+      "preferred": "501100010481",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.443947.9"
+      ],
+      "preferred": "grid.443947.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9751 7639"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/037hby126",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.efs.sante.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EFS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Établissement Français du Sang"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Génétique, Génomique Fonctionnelle et Biotechnologies",
+      "type": "child",
+      "id": "https://ror.org/05xxb2f26"
+    },
+    {
+      "label": "Institut pour l'avancée des biosciences",
+      "type": "child",
+      "id": "https://ror.org/05kwbf598"
+    },
+    {
+      "label": "Microenvironment and B-cells: Immunopathology, Cell, Differentiation and Cancer",
+      "type": "child",
+      "id": "https://ror.org/05p7fmf80"
+    },
+    {
+      "label": "Biologie et pharmacologie des plaquettes sanguines : hémostase, thrombose, transfusion",
+      "type": "child",
+      "id": "https://ror.org/03qge6j93"
+    },
+    {
+      "label": "RESTORE",
+      "type": "child",
+      "id": "https://ror.org/00qhm9960"
+    },
+    {
+      "label": "Interactions Hôte-Greffon-Tumeur & Ingénierie Cellulaire et Génique",
+      "type": "child",
+      "id": "https://ror.org/05w3vvc59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

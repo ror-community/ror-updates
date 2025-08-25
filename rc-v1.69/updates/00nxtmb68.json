@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1811,
+  "external_ids": [
+    {
+      "all": [
+        "grid.472881.0"
+      ],
+      "preferred": "grid.472881.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1348 1753"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q623017"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00nxtmb68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.museum-joanneum.at/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Universalmuseum_Joanneum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "6",
+        "country_subdivision_name": "Styria",
+        "lat": 47.06667,
+        "lng": 15.45,
+        "name": "Graz"
+      },
+      "geonames_id": 2778067
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Landesmuseum Joanneum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universalmuseum Joanneum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kunsthaus Graz",
+      "type": "child",
+      "id": "https://ror.org/002ee1685"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

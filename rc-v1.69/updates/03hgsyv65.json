@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-02-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lte.observatoiredeparis.psl.eu"
+  ],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/03hgsyv65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lte.observatoiredeparis.psl.eu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DANOF"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire Temps Espace"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "SYRTE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Systèmes de référence spatio-temporels"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8630"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Laboratoire National de Métrologie et d'Essais",
+      "type": "parent",
+      "id": "https://ror.org/01ph39d13"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Systèmes de Référence Temps-Espace",
+      "type": "predecessor",
+      "id": "https://ror.org/03tdef037"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

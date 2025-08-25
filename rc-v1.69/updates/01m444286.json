@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.501739.9"
+      ],
+      "preferred": "grid.501739.9",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01m444286",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.inbirs.org.ar/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
+      },
+      "geonames_id": 3435910
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INBIRS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Investigaciones Biomédicas en Retrovirus y Sida"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "parent",
+      "id": "https://ror.org/03cqe8w59"
+    },
+    {
+      "label": "Universidad de Buenos Aires",
+      "type": "parent",
+      "id": "https://ror.org/0081fs513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

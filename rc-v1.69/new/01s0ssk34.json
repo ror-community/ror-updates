@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-08-06",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hopitaux-paris-sud.aphp.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q30103377"
+      ],
+      "preferred": "Q30103377",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01s0ssk34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hopitaux-paris-sud.aphp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.81471,
+        "lng": 2.36073,
+        "name": "Le Kremlin-Bicêtre"
+      },
+      "geonames_id": 3003737
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hôpitaux universitaires Paris Sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Paul-Brousse",
+      "type": "child",
+      "id": "https://ror.org/05n7yzd13"
+    },
+    {
+      "label": "Bicêtre Hospital",
+      "type": "child",
+      "id": "https://ror.org/05c9p1x46"
+    },
+    {
+      "label": "Hôpital Antoine-Béclère",
+      "type": "child",
+      "id": "https://ror.org/04sb8a726"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

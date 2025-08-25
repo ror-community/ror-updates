@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463799.6"
+      ],
+      "preferred": "grid.463799.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2326 1930"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wz9m339",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.arscan.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.89198,
+        "lng": 2.20675,
+        "name": "Nanterre"
+      },
+      "geonames_id": 2990970
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ArScAn"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Archéologies et Sciences de l’Antiquité"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Ministère de la Culture",
+      "type": "parent",
+      "id": "https://ror.org/017rnyz40"
+    },
+    {
+      "label": "Université Paris 1 Panthéon-Sorbonne",
+      "type": "parent",
+      "id": "https://ror.org/002t25c44"
+    },
+    {
+      "label": "Université Paris Nanterre",
+      "type": "parent",
+      "id": "https://ror.org/013bkhk48"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

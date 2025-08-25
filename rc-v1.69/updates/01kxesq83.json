@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463940.c"
+      ],
+      "preferred": "grid.463940.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0475 7658"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01kxesq83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www-subatech.in2p3.fr/fr/laboratoire/nos-activites/presentation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Physique Subatomique et des Technologies Associées"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SUBATECH"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "IMT Atlantique",
+      "type": "parent",
+      "id": "https://ror.org/030hj3061"
+    },
+    {
+      "label": "Institut National de Physique Nucléaire et de Physique des Particules",
+      "type": "parent",
+      "id": "https://ror.org/03fd77x13"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "Observatoire des Sciences de l'Univers Nantes Atlantique",
+      "type": "related",
+      "id": "https://ror.org/02w0vb190"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

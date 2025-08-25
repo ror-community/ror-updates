@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493248.0"
+      ],
+      "preferred": "grid.493248.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0383 2988"
+      ],
+      "preferred": "0000 0004 0383 2988",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01ekw7f87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://math.univ-lyon1.fr/icj/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.76601,
+        "lng": 4.8795,
+        "name": "Villeurbanne"
+      },
+      "geonames_id": 2968254
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Camille Jordan Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICJ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "institut Camille-Jordan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

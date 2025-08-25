@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462937.d"
+      ],
+      "preferred": "grid.462937.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 7037"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214424"
+      ],
+      "preferred": "Q3214424",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05g1zjw44",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lipn.univ-paris13.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.95833,
+        "lng": 2.34167,
+        "name": "Villetaneuse"
+      },
+      "geonames_id": 2968275
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIPN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire d'Informatique de Paris Nord"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Informatique de Paris-Nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université Sorbonne Paris Nord",
+      "type": "parent",
+      "id": "https://ror.org/0199hds37"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "health.gov.au"
+  ],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "501100001027",
+        "501100003921",
+        "501100001071",
+        "100007638",
+        "100008706"
+      ],
+      "preferred": "501100001027",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414102.2"
+      ],
+      "preferred": "grid.414102.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q4294371"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02swcnz29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.health.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Department_of_Health_(Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "ACT",
+        "country_subdivision_name": "Australian Capital Territory",
+        "lat": -35.28346,
+        "lng": 149.12807,
+        "name": "Canberra"
+      },
+      "geonames_id": 2172517
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Department of Health and Aged Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian Commission on Safety and Quality in Health Care",
+      "type": "child",
+      "id": "https://ror.org/00bm0qt52"
+    },
+    {
+      "label": "Australian Health Practitioner Regulation Agency",
+      "type": "child",
+      "id": "https://ror.org/00mffw377"
+    },
+    {
+      "label": "Australian Institute of Health and Welfare",
+      "type": "child",
+      "id": "https://ror.org/01972fe66"
+    },
+    {
+      "label": "Australian Sports Commission",
+      "type": "child",
+      "id": "https://ror.org/01e4w2966"
+    },
+    {
+      "label": "Cancer Australia",
+      "type": "child",
+      "id": "https://ror.org/00510tw04"
+    },
+    {
+      "label": "National Blood Authority",
+      "type": "child",
+      "id": "https://ror.org/05c196m06"
+    },
+    {
+      "label": "National Health and Medical Research Council",
+      "type": "child",
+      "id": "https://ror.org/011kf5r70"
+    },
+    {
+      "label": "Organ and Tissue Authority",
+      "type": "child",
+      "id": "https://ror.org/02w0m4735"
+    },
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "National Eating Disorders Collaboration",
+      "type": "related",
+      "id": "https://ror.org/04s6tej12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

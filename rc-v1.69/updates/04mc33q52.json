@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459278.5"
+      ],
+      "preferred": "grid.459278.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8062 4656"
+      ],
+      "preferred": "0000 0004 8062 4656",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04mc33q52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ciusss-centresudmtl.gouv.qc.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIUSSS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CIUSSS du Centre-Sud-de-l'Île-de-Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Intégré Universitaire de Santé et de Services Sociaux du Centre-Sud-de-l'Île-de-Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de recherche en santé publique",
+      "type": "child",
+      "id": "https://ror.org/02w5vxx03"
+    },
+    {
+      "label": "Institut universitaire sur les dépendances",
+      "type": "child",
+      "id": "https://ror.org/02ddgd424"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

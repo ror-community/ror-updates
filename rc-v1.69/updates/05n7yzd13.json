@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1844,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413133.7"
+      ],
+      "preferred": "grid.413133.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0206 8146"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q586694"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n7yzd13",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-paul-brousse.aphp.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/H%C3%B4pital_Paul-Brousse"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.7939,
+        "lng": 2.35992,
+        "name": "Villejuif"
+      },
+      "geonames_id": 2968705
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Paul-Brousse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de recherche en Epidémiologie et Santé des Populations",
+      "type": "child",
+      "id": "https://ror.org/01ed4t417"
+    },
+    {
+      "label": "Institut Biomédical du Val de Bièvre",
+      "type": "child",
+      "id": "https://ror.org/052rhgg57"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Hôpitaux universitaires Paris Sud",
+      "type": "parent",
+      "id": "https://ror.org/01s0ssk34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

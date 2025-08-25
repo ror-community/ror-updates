@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "100010000",
+        "501100001243",
+        "100012195"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1680.f"
+      ],
+      "preferred": "grid.1680.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0559 5189"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5260456"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/050khh066",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dpi.nsw.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Primary_Industries_(New_South_Wales)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.28397,
+        "lng": 149.10018,
+        "name": "Orange"
+      },
+      "geonames_id": 2154219
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "New South Wales Department of Primary Industries"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "WaterNSW",
+      "type": "child",
+      "id": "https://ror.org/02fqdw168"
+    },
+    {
+      "label": "Government of New South Wales",
+      "type": "parent",
+      "id": "https://ror.org/0067dvq63"
+    },
+    {
+      "label": "Animal Genetics and Breeding Unit",
+      "type": "child",
+      "id": "https://ror.org/03qbg0c93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

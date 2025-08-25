@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ijl.univ-lorraine.fr"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461892.0"
+      ],
+      "preferred": "grid.461892.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9407 7201"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261346"
+      ],
+      "preferred": "Q30261346",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05k1smh27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ijl.univ-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "name": "Nancy"
+      },
+      "geonames_id": 2990999
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IJL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Jean Lamour"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

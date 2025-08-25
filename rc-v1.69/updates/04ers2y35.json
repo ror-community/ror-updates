@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100007837"
+      ],
+      "preferred": "501100007837",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7704.4"
+      ],
+      "preferred": "grid.7704.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2297 4381"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q500692"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ers2y35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-bremen.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Bremen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HB",
+        "country_subdivision_name": "City state Bremen",
+        "lat": 53.07582,
+        "lng": 8.80717,
+        "name": "Bremen"
+      },
+      "geonames_id": 2944388
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitaet Bremen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Bremen"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Bremen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Staats- und Universitätsbibliothek Bremen",
+      "type": "child",
+      "id": "https://ror.org/04cwb1p56"
+    },
+    {
+      "label": "Faserinstitut Bremen",
+      "type": "child",
+      "id": "https://ror.org/02g130845"
+    },
+    {
+      "label": "Zentrum für Medien-, Kommunikations- und Informationsforschung",
+      "type": "child",
+      "id": "https://ror.org/027wh3z10"
+    },
+    {
+      "label": "Bremer Institut für Produktion und Logistik GmbH",
+      "type": "related",
+      "id": "https://ror.org/00j5we857"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2020,
+  "external_ids": [
+    {
+      "all": [
+        "Q725081"
+      ],
+      "preferred": "Q725081",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/033tx3651",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gwcenter.icrr.u-tokyo.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/KAGRA"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "21",
+        "country_subdivision_name": "Gifu",
+        "lat": 36.24483,
+        "lng": 137.17323,
+        "name": "Hida"
+      },
+      "geonames_id": 11611937
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "KAGRA"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "KAGRA 大型低温重力波望遠鏡"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kamioka Gravitational Wave Detector"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kamioka Observatory",
+      "type": "child",
+      "id": "https://ror.org/04djymq25"
+    },
+    {
+      "label": "Institute for Cosmic Ray Research",
+      "type": "parent",
+      "id": "https://ror.org/008td3p62"
+    },
+    {
+      "label": "Gravitational Wave Open Science Center",
+      "type": "child",
+      "id": "https://ror.org/00h761y79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

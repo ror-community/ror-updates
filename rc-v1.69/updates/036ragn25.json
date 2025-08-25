@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418187.3"
+      ],
+      "preferred": "grid.418187.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0493 9170"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1438161"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036ragn25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://fz-borstel.de/index.php/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Research_Center_Borstel"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Schleswig-Holstein",
+        "lat": 53.9675,
+        "lng": 9.79963,
+        "name": "Borstel"
+      },
+      "geonames_id": 2945988
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FZB"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Forschungszentrum Borstel - Leibniz Lungenzentrum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Research Center Borstel - Leibniz Lung Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Structural Systems Biology",
+      "type": "child",
+      "id": "https://ror.org/04fhwda97"
+    },
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

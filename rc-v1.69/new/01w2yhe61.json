@@ -1,0 +1,73 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-08-06",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "health.qld.gov.au"
+  ],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/01w2yhe61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mackay.health.qld.gov.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -21.08189,
+        "lng": 149.04265,
+        "name": "Mackay"
+      },
+      "geonames_id": 7839593
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MHHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Mackay Hospital and Health Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Queensland Health",
+      "type": "parent",
+      "id": "https://ror.org/00c1dt378"
+    },
+    {
+      "label": "Mackay Base Hospital",
+      "type": "child",
+      "id": "https://ror.org/04frfb960"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

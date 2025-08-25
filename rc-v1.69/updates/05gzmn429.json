@@ -1,0 +1,158 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "100011664"
+      ],
+      "preferred": "100011664",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.445003.6"
+      ],
+      "preferred": "grid.445003.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0725 7771"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q915217"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gzmn429",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.slac.stanford.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/SLAC_National_Accelerator_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.45383,
+        "lng": -122.18219,
+        "name": "Menlo Park"
+      },
+      "geonames_id": 5372223
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre de l'Accélérateur Linéaire de Stanford"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Science SLAC National Accelerator Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SLAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SLAC National Accelerator Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Stanford Linear Accelerator Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science SLAC National Accelerator Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kavli Institute for Particle Astrophysics and Cosmology",
+      "type": "child",
+      "id": "https://ror.org/00pwqz914"
+    },
+    {
+      "label": "Linac Coherent Light Source",
+      "type": "child",
+      "id": "https://ror.org/02vkaa689"
+    },
+    {
+      "label": "Stanford Synchrotron Radiation Lightsource",
+      "type": "child",
+      "id": "https://ror.org/02vzbm991"
+    },
+    {
+      "label": "Facility for Advanced Accelerator Experimental Tests-II",
+      "type": "child",
+      "id": "https://ror.org/023py8175"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "Stanford University",
+      "type": "parent",
+      "id": "https://ror.org/00f54p054"
+    },
+    {
+      "label": "NSF-DOE Vera C. Rubin Observatory",
+      "type": "child",
+      "id": "https://ror.org/048g3cy84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
