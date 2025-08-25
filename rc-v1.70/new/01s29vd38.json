@@ -62,7 +62,18 @@
       "value": "Institut de biologie François Jacob"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Direction de la Recherche Fondamentale",
+      "type": "parent",
+      "id": "https://ror.org/01yvj5k91"
+    },
+    {
+      "label": "Centre National de Recherche en Génomique Humaine",
+      "type": "child",
+      "id": "https://ror.org/004yvsb77"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

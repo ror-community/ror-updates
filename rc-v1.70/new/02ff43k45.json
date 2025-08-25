@@ -73,7 +73,18 @@
       "value": "هيئة الدواء المصرية"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Health and Population",
+      "type": "parent",
+      "id": "https://ror.org/04f90ax67"
+    },
+    {
+      "label": "National Organization for Drug Control and Research",
+      "type": "predecessor",
+      "id": "https://ror.org/0407ex783"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

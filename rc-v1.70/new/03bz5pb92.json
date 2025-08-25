@@ -82,7 +82,18 @@
       "value": "Observatory of Indoor Air Quality"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Scientifique et Technique du Bâtiment",
+      "type": "related",
+      "id": "https://ror.org/02fsd1928"
+    },
+    {
+      "label": "Agence Nationale de Sécurité Sanitaire de l’Alimentation, de l’Environnement et du Travail",
+      "type": "child",
+      "id": "https://ror.org/0471kz689"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

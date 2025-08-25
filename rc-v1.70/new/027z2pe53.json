@@ -83,7 +83,18 @@
       "value": "Equipe d'accueil 4132"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Conservatoire National des Arts et Métiers",
+      "type": "parent",
+      "id": "https://ror.org/0175hh227"
+    },
+    {
+      "label": "Centre d'études de l'emploi",
+      "type": "related",
+      "id": "https://ror.org/04jtw9y77"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
