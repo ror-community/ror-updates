@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413105.2"
+      ],
+      "preferred": "grid.413105.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8606 2560"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7595606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/001kjn539",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.svhm.org.au/Pages/Home.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/St_Vincent%27s_Hospital,_Melbourne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St Vincent's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "St Vincent's Hospital Melbourne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St Vincent's Health",
+      "type": "parent",
+      "id": "https://ror.org/012nkbb42"
+    },
+    {
+      "label": "St Vincents Institute of Medical Research",
+      "type": "related",
+      "id": "https://ror.org/02k3cxs74"
+    },
+    {
+      "label": "The University of Melbourne",
+      "type": "related",
+      "id": "https://ror.org/01ej9dk98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

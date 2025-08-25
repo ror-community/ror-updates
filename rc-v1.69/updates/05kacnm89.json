@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1721,
+  "external_ids": [
+    {
+      "all": [
+        "501100006434",
+        "501100009943"
+      ],
+      "preferred": "501100009943",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8171.f"
+      ],
+      "preferred": "grid.8171.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2155 0982"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q936476"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kacnm89",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ucv.ve/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Central_University_of_Venezuela"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "VE",
+        "country_name": "Venezuela",
+        "country_subdivision_code": "A",
+        "country_subdivision_name": "Distrito Federal",
+        "lat": 10.48801,
+        "lng": -66.87919,
+        "name": "Caracas"
+      },
+      "geonames_id": 3646738
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Central University of Venezuela"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCV"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Central de Venezuela"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Clínico Universitario de Caracas",
+      "type": "related",
+      "id": "https://ror.org/00vpxhq27"
+    },
+    {
+      "label": "Instituto de Zoología y Ecología Tropical",
+      "type": "child",
+      "id": "https://ror.org/0143dvz59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

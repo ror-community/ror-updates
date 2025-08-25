@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ptib.u-bordeaux.fr"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464047.5"
+      ],
+      "preferred": "grid.464047.5",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05367a632",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ptib.u-bordeaux.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.80565,
+        "lng": -0.6324,
+        "name": "Pessac"
+      },
+      "geonames_id": 2987805
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PTIB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Plateforme Technologique d'Innovation Biomédicale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/01hq89f96"
+    },
+    {
+      "label": "Délégation Aquitaine",
+      "type": "parent",
+      "id": "https://ror.org/05nfypp21"
+    },
+    {
+      "label": "Délégation Régionale Nouvelle-Aquitaine",
+      "type": "parent",
+      "id": "https://ror.org/044rb3f07"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "related",
+      "id": "https://ror.org/057qpr032"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

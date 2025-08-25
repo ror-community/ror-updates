@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503285.9"
+      ],
+      "preferred": "grid.503285.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 7103"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214405"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03pnp1a74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lamsade.dauphine.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire d'Analyse et de Modélisation des Systèmes pour l'Aide à la Décision"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lamsade"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université Paris Dauphine-PSL",
+      "type": "parent",
+      "id": "https://ror.org/052bz7812"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

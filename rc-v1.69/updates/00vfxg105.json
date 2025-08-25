@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464128.d"
+      ],
+      "preferred": "grid.464128.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0446 0776"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00vfxg105",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.bordeaux-aquitaine.inra.fr/sante-agroecologie-vignoble"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.77935,
+        "lng": -0.56707,
+        "name": "Villenave-d'Ornon"
+      },
+      "geonames_id": 2968620
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SAVE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Santé et Agroécologie du Vignoble"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Nouvelle Aquitaine-Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/00tebkv94"
+    },
+    {
+      "label": "École Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine",
+      "type": "parent",
+      "id": "https://ror.org/00har9915"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

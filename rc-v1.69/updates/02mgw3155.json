@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462282.8"
+      ],
+      "preferred": "grid.462282.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 0005"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02mgw3155",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.crcl.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CRCL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cancer Center of Lyon"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Cancer Research Center of Lyon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de Recherche en Cancérologie de Lyon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Léon Bérard",
+      "type": "parent",
+      "id": "https://ror.org/01cmnjq37"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463913.a"
+      ],
+      "preferred": "grid.463913.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9774 0814"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04g1hjn96",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.math.sciences.univ-nantes.fr/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LMJL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Mathématiques Jean Leray"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/050jcm728"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

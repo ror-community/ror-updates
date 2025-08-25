@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473800.8"
+      ],
+      "preferred": "grid.473800.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2201 3679"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/006z7v557",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uphf.fr/lamih"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.35909,
+        "lng": 3.52506,
+        "name": "Valenciennes"
+      },
+      "geonames_id": 2971041
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LAMIH"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire d'Automatique, de Mécanique et d'Informatique Industrielles et Humaines"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Industrial and Human Automation Control, Mechanical Engineering and Computer Science"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8201"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université Polytechnique Hauts-de-France",
+      "type": "parent",
+      "id": "https://ror.org/02ezch769"
+    },
+    {
+      "label": "INSA Hauts-de-France",
+      "type": "parent",
+      "id": "https://ror.org/041rsh762"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

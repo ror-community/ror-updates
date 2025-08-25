@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461905.f"
+      ],
+      "preferred": "grid.461905.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 9937"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00cqpd580",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cnrs-imn.fr/index.php?lang=fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut des Matériaux Jean Rouxel"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut des matériaux de Nantes Jean Rouxel"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Materials Jean Rouxel"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

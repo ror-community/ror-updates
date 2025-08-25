@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "itv.org"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "100015749"
+      ],
+      "preferred": "100015749",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.512416.5"
+      ],
+      "preferred": "grid.512416.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4670 7802"
+      ],
+      "preferred": "0000 0004 4670 7802",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05wnasr61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.itv.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pará",
+        "lat": -1.45583,
+        "lng": -48.50444,
+        "name": "Belém"
+      },
+      "geonames_id": 3405870
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ITV"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Tecnológico Vale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Vale Institute of Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias",
+        "ror_display"
+      ],
+      "value": "Vale Technological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MapBiomas",
+      "type": "related",
+      "id": "https://ror.org/021203s31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

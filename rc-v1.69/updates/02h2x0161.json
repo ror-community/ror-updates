@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "geomar.de"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100003153",
+        "501100003148"
+      ],
+      "preferred": "501100003153",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15649.3f"
+      ],
+      "preferred": "grid.15649.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9056 9663"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q323945"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h2x0161",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.geomar.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/GEOMAR_Helmholtz_Centre_for_Ocean_Research_Kiel"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Schleswig-Holstein",
+        "lat": 54.32133,
+        "lng": 10.13489,
+        "name": "Kiel"
+      },
+      "geonames_id": 2891122
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "GEOMAR Helmholtz Centre for Ocean Research Kiel"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IFM-GEOMAR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Leibniz Institute of Marine Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

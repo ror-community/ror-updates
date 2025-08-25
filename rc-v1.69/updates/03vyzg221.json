@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462314.6"
+      ],
+      "preferred": "grid.462314.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 1361"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03vyzg221",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.univ-reims.fr/site/laboratoire-labellise/groupe-de-spectrometrie-moleculaire-et-atmospherique-umr-cnrs-6089/actualites,9553.html?"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 49.26526,
+        "lng": 4.02853,
+        "name": "Reims"
+      },
+      "geonames_id": 2984114
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GSMA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Groupe de Spectrométrie Moléculaire et Atmosphérique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Molecular and Atmospheric Spectrometry Group"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Physique",
+      "type": "parent",
+      "id": "https://ror.org/00z54nq84"
+    },
+    {
+      "label": "Université de Reims Champagne-Ardenne",
+      "type": "parent",
+      "id": "https://ror.org/03hypw319"
+    },
+    {
+      "label": "ROMEO",
+      "type": "related",
+      "id": "https://ror.org/01k6wxv57"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

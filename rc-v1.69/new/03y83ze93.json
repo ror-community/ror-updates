@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-08-06",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "plts.edu"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 8686 6243"
+      ],
+      "preferred": "0000 0000 8686 6243",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17013367"
+      ],
+      "preferred": "Q17013367",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03y83ze93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.plts.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Pacific_Lutheran_Theological_Seminary"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.87159,
+        "lng": -122.27275,
+        "name": "Berkeley"
+      },
+      "geonames_id": 5327684
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "PLTS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Pacific Lutheran Theological Seminary"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California Lutheran University",
+      "type": "parent",
+      "id": "https://ror.org/05qpen692"
+    },
+    {
+      "label": "Graduate Theological Union",
+      "type": "related",
+      "id": "https://ror.org/00xs48965"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

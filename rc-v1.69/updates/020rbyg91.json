@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "501100018790"
+      ],
+      "preferred": "501100018790",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.482503.8"
+      ],
+      "preferred": "grid.482503.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5900 003X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q24067079",
+        "Q39022389"
+      ],
+      "preferred": "Q24067079",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020rbyg91",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.qst.go.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "12",
+        "country_subdivision_name": "Chiba",
+        "lat": 35.6,
+        "lng": 140.11667,
+        "name": "Chiba"
+      },
+      "geonames_id": 2113015
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Institutes for Quantum Science and Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Institutes for Quantum and Radiological Science and Technology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QST"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "量子科学技術研究開発機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Takasaki Advanced Radiation Research Institute",
+      "type": "child",
+      "id": "https://ror.org/04399kt07"
+    },
+    {
+      "label": "Kansai Institute for Photon Science",
+      "type": "child",
+      "id": "https://ror.org/05mzhke23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

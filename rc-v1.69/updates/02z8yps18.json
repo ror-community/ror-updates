@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lgp2.grenoble-inp.fr"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503355.5"
+      ],
+      "preferred": "grid.503355.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 3417"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784359"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02z8yps18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lgp2.grenoble-inp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LGP2"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire Génie des Procédés Papetiers"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de génie des procédés pour la bioraffinerie, les matériaux bio-sourcés et l’impression fonctionnelle"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory of Pulp and Paper Science and Graphic Arts"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut polytechnique de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

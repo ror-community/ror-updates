@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463825.e"
+      ],
+      "preferred": "grid.463825.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2150 9779"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03n91q085",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ceraps.univ-lille2.fr/en/home.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.63297,
+        "lng": 3.05858,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CERAPS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre d'Etudes et de Recherches Administratives, Politiques et Sociales"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Lille Center for European Research on Administration, Politics and Society"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

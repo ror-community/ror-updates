@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464061.1"
+      ],
+      "preferred": "grid.464061.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 3943"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03k9wer31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://pc2a.univ-lille1.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.61669,
+        "lng": 3.16664,
+        "name": "Villeneuve-d'Ascq"
+      },
+      "geonames_id": 6543862
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PC2A"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "PhysicoChimie des Processus de Combustion et de l'Atmosphère"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-04-30",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "100016232"
+      ],
+      "preferred": "100016232",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2222 5188"
+      ],
+      "preferred": "0000 0001 2222 5188",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04tmf0341",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iigg.sociales.uba.ar"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
+      },
+      "geonames_id": 3435910
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "IIGG"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Instituto de Investigaciones Gino Germani"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universidad de Buenos Aires",
+      "type": "parent",
+      "id": "https://ror.org/0081fs513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

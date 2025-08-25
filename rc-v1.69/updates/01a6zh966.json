@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462004.4"
+      ],
+      "preferred": "grid.462004.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0383 7404"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01a6zh966",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.incia.u-bordeaux1.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84044,
+        "lng": -0.5805,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCIA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Neurosciences Cognitives et Intégratives d’Aquitaine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

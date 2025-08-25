@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "phymedexp.com"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503383.e"
+      ],
+      "preferred": "grid.503383.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1778 0103"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782591"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003sscq03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.phymedexp.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PHYMEDEXP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Physiologie et Médecine Expérimentale du Coeur et des Muscles"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Physiology & Experimental Medicine of the Heart and Muscles"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Université de Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/051escj72"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Montpellier",
+      "type": "related",
+      "id": "https://ror.org/00mthsf17"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

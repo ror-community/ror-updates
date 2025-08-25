@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1922,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435915.f"
+      ],
+      "preferred": "grid.435915.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0454 7767"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6672308"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02rt3gt49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.memorialcare.org/locations/long-beach-medical-center"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Long_Beach_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.58844,
+        "lng": -73.65791,
+        "name": "Long Beach"
+      },
+      "geonames_id": 5125086
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Long Beach Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Long Beach Memorial Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MemorialCare Health System",
+      "type": "parent",
+      "id": "https://ror.org/02gpy3h79"
+    },
+    {
+      "label": "New York College of Podiatric Medicine",
+      "type": "related",
+      "id": "https://ror.org/004q7z165"
+    },
+    {
+      "label": "New York Institute of Technology",
+      "type": "related",
+      "id": "https://ror.org/01bghzb51"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

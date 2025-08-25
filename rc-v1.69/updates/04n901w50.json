@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bcchildrens.ca"
+  ],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "100012285"
+      ],
+      "preferred": "100012285",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414137.4"
+      ],
+      "preferred": "grid.414137.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0684 7788"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4969665"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04n901w50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bcchildrens.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/British_Columbia_Children's_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 49.24966,
+        "lng": -123.11934,
+        "name": "Vancouver"
+      },
+      "geonames_id": 6173331
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display"
+      ],
+      "value": "BC Children's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "British Columbia Children's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Simon Fraser University",
+      "type": "related",
+      "id": "https://ror.org/0213rcc28"
+    },
+    {
+      "label": "University of British Columbia",
+      "type": "related",
+      "id": "https://ror.org/03rmrcq20"
+    },
+    {
+      "label": "BC Children's Hospital Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01cvasn76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

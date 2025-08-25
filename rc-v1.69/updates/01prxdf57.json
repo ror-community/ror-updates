@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503347.6"
+      ],
+      "preferred": "grid.503347.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0382 9711"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781671"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01prxdf57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mines-stetienne.fr/lgf/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "name": "Saint-Etienne"
+      },
+      "geonames_id": 2980291
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Georges Friedel Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LGF"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire George Friedel"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Mines Saint-Étienne",
+      "type": "parent",
+      "id": "https://ror.org/05a1dws80"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

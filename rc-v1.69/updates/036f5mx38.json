@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "stsci.edu"
+  ],
+  "established": 1981,
+  "external_ids": [
+    {
+      "all": [
+        "100013757"
+      ],
+      "preferred": "100013757",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419446.a"
+      ],
+      "preferred": "grid.419446.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0591 6464"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1540619"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036f5mx38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.stsci.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Space_Telescope_Science_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
+      },
+      "geonames_id": 4347778
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "STSCI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Space Telescope Science Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Association of Universities for Research in Astronomy",
+      "type": "parent",
+      "id": "https://ror.org/02y5f7c97"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "related",
+      "id": "https://ror.org/027ka1x80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

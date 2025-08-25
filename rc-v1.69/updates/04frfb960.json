@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460765.6"
+      ],
+      "preferred": "grid.460765.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0430 0107"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6724277"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04frfb960",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.health.qld.gov.au/services/mackay/mackay_hosp.asp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mackay_Base_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -21.15345,
+        "lng": 149.16554,
+        "name": "Mackay"
+      },
+      "geonames_id": 2159220
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mackay Base Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Mackay District Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Queensland Health",
+      "type": "parent",
+      "id": "https://ror.org/00c1dt378"
+    },
+    {
+      "label": "Mackay Hospital and Health Service",
+      "type": "parent",
+      "id": "https://ror.org/01w2yhe61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

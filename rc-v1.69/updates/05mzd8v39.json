@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493299.c"
+      ],
+      "preferred": "grid.493299.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 2940"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05mzd8v39",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ilv.uvsq.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.80359,
+        "lng": 2.13424,
+        "name": "Versailles"
+      },
+      "geonames_id": 2969679
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ILV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Lavoisier de Versailles"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lavoisier Institute of Versailles"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8180"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "type": "parent",
+      "id": "https://ror.org/03mkjjy25"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

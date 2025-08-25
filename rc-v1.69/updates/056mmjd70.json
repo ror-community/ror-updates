@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503373.1"
+      ],
+      "preferred": "grid.503373.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0610 1048"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/056mmjd70",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sys2diag.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Modélisation et Ingénierie des Systèmes Complexes Biologiques pour le Diagnostic"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Sys2Diag"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alcen (France)",
+      "type": "parent",
+      "id": "https://ror.org/05qgpp431"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

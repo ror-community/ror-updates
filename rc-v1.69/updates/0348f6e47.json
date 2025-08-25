@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "grid.502117.0"
+      ],
+      "preferred": "grid.502117.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2293 4312"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9008789"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0348f6e47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ravignani.institutos.filo.uba.ar/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
+      },
+      "geonames_id": 3435910
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IHAYA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Historia Argentina y Americana \"Dr. Emilio Ravignani\""
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "parent",
+      "id": "https://ror.org/03cqe8w59"
+    },
+    {
+      "label": "Universidad de Buenos Aires",
+      "type": "parent",
+      "id": "https://ror.org/0081fs513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

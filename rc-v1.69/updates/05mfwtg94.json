@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503097.8"
+      ],
+      "preferred": "grid.503097.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 2891"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q52605711"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05mfwtg94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.jouy.inrae.fr/breed/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.75909,
+        "lng": 2.16966,
+        "name": "Jouy-en-Josas"
+      },
+      "geonames_id": 3012165
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BREED"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Biologie de la Reproduction, Environnement, Epigénétique et Développement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Biology of Reproduction, Environment, Epigenetics and Development"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1198"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Unit Biology of Reproduction, Environment, Epigenetics and Development"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Unité Mixte Biologie de la Reproduction, Environnement, Epigénétique et Développement"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Île-de-France - Jouy-en-Josas - Antony",
+      "type": "parent",
+      "id": "https://ror.org/00gtg0p11"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "École Nationale Vétérinaire d'Alfort",
+      "type": "parent",
+      "id": "https://ror.org/04k031t90"
+    },
+    {
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "type": "parent",
+      "id": "https://ror.org/03mkjjy25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

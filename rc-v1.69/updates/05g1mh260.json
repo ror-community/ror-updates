@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uas.edu.mx"
+  ],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "501100016234"
+      ],
+      "preferred": "501100016234",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412863.a"
+      ],
+      "preferred": "grid.412863.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2192 9271"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4826834"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05g1mh260",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uas.edu.mx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Autonomous_University_of_Sinaloa"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "SIN",
+        "country_subdivision_name": "Sinaloa",
+        "lat": 24.80209,
+        "lng": -107.39421,
+        "name": "Culiacán"
+      },
+      "geonames_id": 4012176
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Autonomous University of Sinaloa"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universidad Autónoma de Sinaloa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro de Innovación y Desarrollo Educativo",
+      "type": "child",
+      "id": "https://ror.org/04f921w28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

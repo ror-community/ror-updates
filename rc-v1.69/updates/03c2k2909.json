@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464188.7"
+      ],
+      "preferred": "grid.464188.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 4805"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03c2k2909",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://gpm.labos.univ-rouen.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NOR",
+        "country_subdivision_name": "Normandy",
+        "lat": 49.37794,
+        "lng": 1.10467,
+        "name": "Saint-Étienne-du-Rouvray"
+      },
+      "geonames_id": 2980236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GPM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Groupe de Physique des Matériaux"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "Institut de Physique",
+      "type": "parent",
+      "id": "https://ror.org/00z54nq84"
+    },
+    {
+      "label": "Université de Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/03nhjew95"
+    },
+    {
+      "label": "Électricité de France (France)",
+      "type": "parent",
+      "id": "https://ror.org/03wb8xz10"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

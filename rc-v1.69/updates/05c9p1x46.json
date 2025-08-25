@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1642,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413784.d"
+      ],
+      "preferred": "grid.413784.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2181 7253"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15217751"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05c9p1x46",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-bicetre.aphp.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bic%C3%AAtre_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.81471,
+        "lng": 2.36073,
+        "name": "Le Kremlin-Bicêtre"
+      },
+      "geonames_id": 3003737
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bicêtre Hospital"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Hospice de la Vieillesse Hommes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Biomédical du Val de Bièvre",
+      "type": "child",
+      "id": "https://ror.org/052rhgg57"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Hôpitaux universitaires Paris Sud",
+      "type": "parent",
+      "id": "https://ror.org/01s0ssk34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

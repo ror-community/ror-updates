@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462224.4"
+      ],
+      "preferred": "grid.462224.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2164 3230"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3151798"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vjdsn22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pprime.fr/?q=en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_Pprime"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 46.58261,
+        "lng": 0.34348,
+        "name": "Poitiers"
+      },
+      "geonames_id": 2986495
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut P'"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Pprime"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Poitiers",
+      "type": "parent",
+      "id": "https://ror.org/04xhy8q59"
+    },
+    {
+      "label": "École Nationale Supérieure de Mécanique et d'Aérotechnique",
+      "type": "parent",
+      "id": "https://ror.org/04jx68594"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

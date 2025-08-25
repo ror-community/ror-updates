@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "grid.511672.6"
+      ],
+      "preferred": "grid.511672.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5995 4917"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q98852445"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05a87zb20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uslcentro.toscana.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.93064,
+        "lng": 10.92365,
+        "name": "Pistoia"
+      },
+      "geonames_id": 3170621
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Usl Toscana Centro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale di Prato Santo Stefano",
+      "type": "child",
+      "id": "https://ror.org/05v48bz32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

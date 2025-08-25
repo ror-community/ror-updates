@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503218.d"
+      ],
+      "preferred": "grid.503218.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0383 1918"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782970"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00c3ta789",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hnhp.cnrs.fr/?lang=fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HNHP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Histoire Naturelle de l’Homme Préhistorique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Muséum national d'Histoire naturelle",
+      "type": "parent",
+      "id": "https://ror.org/03wkt5x30"
+    },
+    {
+      "label": "Université de Perpignan",
+      "type": "parent",
+      "id": "https://ror.org/03am2jy38"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

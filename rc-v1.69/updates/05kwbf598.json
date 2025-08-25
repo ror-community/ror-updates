@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418110.d"
+      ],
+      "preferred": "grid.418110.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0642 0153"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q19407044"
+      ],
+      "preferred": "Q19407044",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kwbf598",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iab-grenoble.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IAB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut Albert Bonniot"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut pour l'avancée des biosciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Advanced Biosciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/041rhpw39"
+    },
+    {
+      "label": "Délégation Alpes",
+      "type": "parent",
+      "id": "https://ror.org/04px4e658"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Établissement Français du Sang",
+      "type": "parent",
+      "id": "https://ror.org/037hby126"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503214.1"
+      ],
+      "preferred": "grid.503214.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 4909"
+      ],
+      "preferred": "0000 0004 0385 4909",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03x30hb31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gem.ec-nantes.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GeM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Recherche en Génie Civil et Mécanique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "École Centrale de Nantes",
+      "type": "parent",
+      "id": "https://ror.org/03nh7d505"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

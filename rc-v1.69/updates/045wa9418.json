@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-04-30",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/045wa9418",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hospitalcima.es/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "CIMA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital CIMA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hospital Sanitas CIMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Sanitas CIMA Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sanitas (Spain)",
+      "type": "parent",
+      "id": "https://ror.org/02vymnc26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-07",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "501100005624"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10423.34"
+      ],
+      "preferred": "grid.10423.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2342 8921"
+      ],
+      "preferred": "0000 0001 2342 8921",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q911561"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00f2yqf98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mhh.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Hannover_Medical_School"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 52.37052,
+        "lng": 9.73322,
+        "name": "Hanover"
+      },
+      "geonames_id": 2910831
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Hannover Medical School"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MHH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Med. HS Hannover"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medizinische Hochschule Hannover"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Individualised Infection Medicine",
+      "type": "child",
+      "id": "https://ror.org/04s99xz91"
+    },
+    {
+      "label": "Centre for Structural Systems Biology",
+      "type": "child",
+      "id": "https://ror.org/04fhwda97"
+    },
+    {
+      "label": "KRH Klinikum Nordstadt",
+      "type": "related",
+      "id": "https://ror.org/00tq6rn55"
+    },
+    {
+      "label": "CAIMed - Niedersächsisches Zentrum für KI und Kausale Methoden in der Medizin",
+      "type": "related",
+      "id": "https://ror.org/04n901n71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
