@@ -9,47 +9,50 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "esr.cri.nz",
+    "phfscience.nz"
+  ],
   "established": 1992,
   "external_ids": [
     {
       "all": [
-        "100008249"
+        "501100003961"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.419676.b"
+        "grid.419706.d"
       ],
-      "preferred": "grid.419676.b",
+      "preferred": "grid.419706.d",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9252 5808"
+        "0000 0001 2234 622X"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1466498"
+        "Q1665158"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/04hxcaz34",
+  "id": "https://ror.org/0405trq15",
   "links": [
     {
       "type": "website",
-      "value": "https://www.niwa.co.nz/"
+      "value": "https://www.phfscience.nz"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/National_Institute_of_Water_and_Atmospheric_Research"
+      "value": "https://en.wikipedia.org/wiki/Institute_of_Environmental_Science_and_Research"
     }
   ],
   "locations": [
@@ -59,13 +62,13 @@
         "continent_name": "Oceania",
         "country_code": "NZ",
         "country_name": "New Zealand",
-        "country_subdivision_code": "AUK",
-        "country_subdivision_name": "Auckland",
-        "lat": -36.84853,
-        "lng": 174.76349,
-        "name": "Auckland"
+        "country_subdivision_code": "WGN",
+        "country_subdivision_name": "Wellington Region",
+        "lat": -41.13333,
+        "lng": 174.85,
+        "name": "Porirua"
       },
-      "geonames_id": 2193733
+      "geonames_id": 2184397
     }
   ],
   "names": [
@@ -74,31 +77,32 @@
       "types": [
         "acronym"
       ],
-      "value": "NIWA"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "National Institute of Water and Atmospheric Research"
+      "value": "ESR"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Taihoro Nukurangi"
-    }
-  ],
-  "relationships": [
+      "value": "Institute of Environmental Science and Research"
+    },
     {
-      "label": "Earth Sciences New Zealand",
-      "type": "parent",
-      "id": "https://ror.org/02zww1c82"
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "New Zealand Institute for Public Health and Forensic Science"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "PHF Science"
     }
   ],
+  "relationships": [],
   "status": "active",
   "types": [
     "facility",

@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2022-08-03",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -14,42 +14,24 @@
   "external_ids": [
     {
       "all": [
-        "100022903"
+        "0000 0004 9527 8573"
       ],
-      "preferred": "100022903",
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.15638.39"
-      ],
-      "preferred": "grid.15638.39",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 0429 3066"
-      ],
-      "preferred": "0000 0004 0429 3066",
+      "preferred": "0000 0004 9527 8573",
       "type": "isni"
     },
     {
       "all": [
-        "Q935203"
+        "Q111449920"
       ],
-      "preferred": null,
+      "preferred": "Q111449920",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/03vaqfv64",
+  "id": "https://ror.org/04022gq47",
   "links": [
     {
       "type": "website",
-      "value": "http://www.gns.cri.nz/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/GNS_Science"
+      "value": "https://www.measurement.govt.nz"
     }
   ],
   "locations": [
@@ -70,38 +52,24 @@
   ],
   "names": [
     {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSL"
+    },
+    {
       "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "GNS Science"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "IGNS"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Institute of Geological and Nuclear Sciences"
+      "value": "Measurement Standards Laboratory of New Zealand"
     }
   ],
-  "relationships": [
-    {
-      "label": "Earth Sciences New Zealand",
-      "type": "parent",
-      "id": "https://ror.org/02zww1c82"
-    }
-  ],
+  "relationships": [],
   "status": "active",
   "types": [
-    "facility",
-    "funder"
+    "government"
   ]
 }

@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "kfri.re.kr"
-  ],
-  "established": 1987,
+  "domains": [],
+  "established": 1949,
   "external_ids": [
     {
       "all": [
-        "501100003712"
+        "501100002597"
       ],
-      "preferred": "501100003712",
+      "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.418974.7"
+        "grid.289247.2"
       ],
-      "preferred": "grid.418974.7",
+      "preferred": "grid.289247.2",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0573 0246"
+        "0000 0001 2171 7818"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q16167394"
+        "Q496536"
       ],
-      "preferred": "Q16167394",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/028jp5z02",
+  "id": "https://ror.org/01zqcg218",
   "links": [
     {
       "type": "website",
-      "value": "https://www.kfri.re.kr"
+      "value": "http://www.kyunghee.edu/"
     },
     {
       "type": "wikipedia",
-      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88%EC%97%B0%EA%B5%AC%EC%9B%90"
+      "value": "http://en.wikipedia.org/wiki/Kyung_Hee_University"
     }
   ],
   "locations": [
@@ -61,49 +59,47 @@
         "continent_name": "Asia",
         "country_code": "KR",
         "country_name": "South Korea",
-        "country_subdivision_code": "41",
-        "country_subdivision_name": "Gyeonggi-do",
-        "lat": 37.43861,
-        "lng": 127.13778,
-        "name": "Seongnam-si"
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
       },
-      "geonames_id": 1897000
+      "geonames_id": 1835848
     }
   ],
   "names": [
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "KFRI"
-    },
     {
       "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Korea Food Research Institute"
+      "value": "Kyung Hee University"
     },
     {
       "lang": "ko",
       "types": [
         "label"
       ],
-      "value": "한국식품연구원"
+      "value": "경희대학교"
     }
   ],
   "relationships": [
     {
-      "label": "National Research Council of Science and Technology",
-      "type": "parent",
-      "id": "https://ror.org/058rymf81"
+      "label": "Kyung Hee University Healthcare System",
+      "type": "child",
+      "id": "https://ror.org/00jnds476"
+    },
+    {
+      "label": "Kyung Hee University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01vbmek33"
     }
   ],
   "status": "active",
   "types": [
-    "facility",
+    "education",
     "funder"
   ]
 }

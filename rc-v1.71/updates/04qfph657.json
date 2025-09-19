@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "kfri.re.kr"
-  ],
-  "established": 1987,
+  "domains": [],
+  "established": 1989,
   "external_ids": [
     {
       "all": [
-        "501100003712"
+        "501100003695"
       ],
-      "preferred": "501100003712",
+      "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.418974.7"
+        "grid.454135.2"
       ],
-      "preferred": "grid.418974.7",
+      "preferred": "grid.454135.2",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0573 0246"
+        "0000 0000 9353 1134"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q16167394"
+        "Q495331"
       ],
-      "preferred": "Q16167394",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/028jp5z02",
+  "id": "https://ror.org/04qfph657",
   "links": [
     {
       "type": "website",
-      "value": "https://www.kfri.re.kr"
+      "value": "http://eng.kitech.re.kr/main/"
     },
     {
       "type": "wikipedia",
-      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88%EC%97%B0%EA%B5%AC%EC%9B%90"
+      "value": "https://en.wikipedia.org/wiki/Korea_Institute_of_Industrial_Technology"
     }
   ],
   "locations": [
@@ -61,13 +59,13 @@
         "continent_name": "Asia",
         "country_code": "KR",
         "country_name": "South Korea",
-        "country_subdivision_code": "41",
-        "country_subdivision_name": "Gyeonggi-do",
-        "lat": 37.43861,
-        "lng": 127.13778,
-        "name": "Seongnam-si"
+        "country_subdivision_code": "44",
+        "country_subdivision_name": "Chungcheongnam-do",
+        "lat": 36.8065,
+        "lng": 127.1522,
+        "name": "Cheonan"
       },
-      "geonames_id": 1897000
+      "geonames_id": 1845759
     }
   ],
   "names": [
@@ -76,7 +74,7 @@
       "types": [
         "acronym"
       ],
-      "value": "KFRI"
+      "value": "KITECH"
     },
     {
       "lang": "en",
@@ -84,26 +82,20 @@
         "ror_display",
         "label"
       ],
-      "value": "Korea Food Research Institute"
+      "value": "Korea Institute of Industrial Technology"
     },
     {
       "lang": "ko",
       "types": [
         "label"
       ],
-      "value": "한국식품연구원"
+      "value": "한국생산기술연구원"
     }
   ],
-  "relationships": [
-    {
-      "label": "National Research Council of Science and Technology",
-      "type": "parent",
-      "id": "https://ror.org/058rymf81"
-    }
-  ],
+  "relationships": [],
   "status": "active",
   "types": [
-    "facility",
-    "funder"
+    "funder",
+    "other"
   ]
 }

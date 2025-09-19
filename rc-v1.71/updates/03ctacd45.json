@@ -10,48 +10,48 @@
     }
   },
   "domains": [
-    "kfri.re.kr"
+    "keri.re.kr"
   ],
-  "established": 1987,
+  "established": 1976,
   "external_ids": [
     {
       "all": [
-        "501100003712"
+        "501100003703"
       ],
-      "preferred": "501100003712",
+      "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.418974.7"
+        "grid.249960.0"
       ],
-      "preferred": "grid.418974.7",
+      "preferred": "grid.249960.0",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0573 0246"
+        "0000 0001 2231 5220"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q16167394"
+        "Q6431622"
       ],
-      "preferred": "Q16167394",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/028jp5z02",
+  "id": "https://ror.org/03ctacd45",
   "links": [
     {
       "type": "website",
-      "value": "https://www.kfri.re.kr"
+      "value": "https://www.keri.re.kr"
     },
     {
       "type": "wikipedia",
-      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88%EC%97%B0%EA%B5%AC%EC%9B%90"
+      "value": "https://en.wikipedia.org/wiki/Korea_Electrotechnology_Research_Institute"
     }
   ],
   "locations": [
@@ -61,13 +61,13 @@
         "continent_name": "Asia",
         "country_code": "KR",
         "country_name": "South Korea",
-        "country_subdivision_code": "41",
-        "country_subdivision_name": "Gyeonggi-do",
-        "lat": 37.43861,
-        "lng": 127.13778,
-        "name": "Seongnam-si"
+        "country_subdivision_code": "48",
+        "country_subdivision_name": "Gyeongsangnam-do",
+        "lat": 35.22806,
+        "lng": 128.68111,
+        "name": "Changwon"
       },
-      "geonames_id": 1897000
+      "geonames_id": 1846326
     }
   ],
   "names": [
@@ -76,7 +76,7 @@
       "types": [
         "acronym"
       ],
-      "value": "KFRI"
+      "value": "KERI"
     },
     {
       "lang": "en",
@@ -84,26 +84,20 @@
         "ror_display",
         "label"
       ],
-      "value": "Korea Food Research Institute"
+      "value": "Korea Electrotechnology Research Institute"
     },
     {
       "lang": "ko",
       "types": [
         "label"
       ],
-      "value": "한국식품연구원"
+      "value": "한국전기연구원"
     }
   ],
-  "relationships": [
-    {
-      "label": "National Research Council of Science and Technology",
-      "type": "parent",
-      "id": "https://ror.org/058rymf81"
-    }
-  ],
+  "relationships": [],
   "status": "active",
   "types": [
-    "facility",
-    "funder"
+    "funder",
+    "nonprofit"
   ]
 }
