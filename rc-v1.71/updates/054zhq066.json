@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "501100007283",
+        "501100007285"
+      ],
+      "preferred": "501100007283",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.469360.e"
+      ],
+      "preferred": "grid.469360.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0621 9417"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q892659"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054zhq066",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.b-it-center.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
+      },
+      "geonames_id": 2946447
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "B-IT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bonn Aachen International Center for Information Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hochschule Bonn-Rhein-Sieg",
+      "type": "parent",
+      "id": "https://ror.org/04m2anh63"
+    },
+    {
+      "label": "Fraunhofer-Gesellschaft",
+      "type": "parent",
+      "id": "https://ror.org/05hkkdn48"
+    },
+    {
+      "label": "University of Bonn",
+      "type": "parent",
+      "id": "https://ror.org/041nas322"
+    },
+    {
+      "label": "RWTH Aachen University",
+      "type": "related",
+      "id": "https://ror.org/04xfq0f34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

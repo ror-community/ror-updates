@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0394 3506"
+      ],
+      "preferred": "0000 0004 0394 3506",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/042c8nz45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://smhs.health.wa.gov.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SMHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "South Metropolitan Area Health Service"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Metropolitan Health Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fiona Stanley Fremantle Hospitals Group",
+      "type": "child",
+      "id": "https://ror.org/03xba7c91"
+    },
+    {
+      "label": "Rockingham Peel Group",
+      "type": "child",
+      "id": "https://ror.org/04j413049"
+    },
+    {
+      "label": "Peel Health Campus",
+      "type": "child",
+      "id": "https://ror.org/01pqh8144"
+    },
+    {
+      "label": "Government of Western Australia Department of Health",
+      "type": "parent",
+      "id": "https://ror.org/01epcny94"
+    },
+    {
+      "label": "The Hospital Research Foundation Group",
+      "type": "related",
+      "id": "https://ror.org/054r0wx32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
