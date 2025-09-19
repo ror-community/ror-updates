@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python environment
         uses: actions/setup-python@v2
         with:
-          python-version: "3.8"
+          python-version: "3.9"
       - name: Get directory name
         if: "${{ github.event.inputs.directory-name != '' }}"
         run: echo "WORKING_DIR=${{ github.event.inputs.directory-name }}" >> $GITHUB_ENV
