@@ -10,35 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 2008,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "grid.469847.0"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "grid.469847.0",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0001 0131 7307"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q1452000"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/02h12bg79",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "https://www.enas.fraunhofer.de"
     }
   ],
   "locations": [
@@ -48,22 +48,29 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 50.8357,
+        "lng": 12.92922,
+        "name": "Chemnitz"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2940132
     }
   ],
   "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENAS"
+    },
     {
       "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "Fraunhofer ITWM"
+      "value": "Fraunhofer ENAS"
     },
     {
       "lang": "en",
@@ -71,21 +78,14 @@
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
+      "value": "Fraunhofer Institute for Electronic Nano Systems"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "ITWM"
+      "value": "Fraunhofer-Institut für Elektronische Nanosysteme"
     }
   ],
   "relationships": [
@@ -93,11 +93,6 @@
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
-    },
-    {
-      "label": "Math2Market GmbH (Germany)",
-      "type": "related",
-      "id": "https://ror.org/03d53rx88"
     }
   ],
   "status": "active",

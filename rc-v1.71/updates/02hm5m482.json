@@ -10,35 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 1974,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "grid.469866.3"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "grid.469866.3",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0004 0496 8414"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q1451973"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/02hm5m482",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "http://www.emft.fraunhofer.de/en.html"
     }
   ],
   "locations": [
@@ -48,22 +48,29 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2867714
     }
   ],
   "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMFT"
+    },
     {
       "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "Fraunhofer ITWM"
+      "value": "Fraunhofer EMFT"
     },
     {
       "lang": "en",
@@ -71,21 +78,14 @@
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
+      "value": "Fraunhofer Research Institution for Microsystems and Solid State Technologies"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "ITWM"
+      "value": "Fraunhofer-Einrichtung für Mikrosysteme und Festkörper-Technologien"
     }
   ],
   "relationships": [
@@ -93,11 +93,6 @@
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
-    },
-    {
-      "label": "Math2Market GmbH (Germany)",
-      "type": "related",
-      "id": "https://ror.org/03d53rx88"
     }
   ],
   "status": "active",

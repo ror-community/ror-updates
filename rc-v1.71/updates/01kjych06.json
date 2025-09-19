@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-11-07",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,35 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 2001,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "grid.506225.6"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "grid.506225.6",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0000 8517 4384"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q77075610"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/01kjych06",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "https://www.iuk.fraunhofer.de/"
     }
   ],
   "locations": [
@@ -48,44 +48,30 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2950159
     }
   ],
   "names": [
-    {
-      "lang": "de",
-      "types": [
-        "alias"
-      ],
-      "value": "Fraunhofer ITWM"
-    },
     {
       "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
+      "value": "Fraunhofer ICT Group"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "ITWM"
+      "value": "Fraunhofer-Verbund IUK-Technologie"
     }
   ],
   "relationships": [
@@ -93,15 +79,10 @@
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
-    },
-    {
-      "label": "Math2Market GmbH (Germany)",
-      "type": "related",
-      "id": "https://ror.org/03d53rx88"
     }
   ],
   "status": "active",
   "types": [
-    "facility"
+    "nonprofit"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2018-11-14",
+      "date": "2019-11-07",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,35 +10,35 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 2000,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "grid.506226.5"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "grid.506226.5",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0000 9396 6429"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q63861164"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/03tevfg71",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "https://www.igp.fraunhofer.de"
     }
   ],
   "locations": [
@@ -48,13 +48,13 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "MV",
+        "country_subdivision_name": "Mecklenburg-Vorpommern",
+        "lat": 54.0887,
+        "lng": 12.14049,
+        "name": "Rostock"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2844588
     }
   ],
   "names": [
@@ -63,7 +63,7 @@
       "types": [
         "alias"
       ],
-      "value": "Fraunhofer ITWM"
+      "value": "Fraunhofer IGP"
     },
     {
       "lang": "en",
@@ -71,21 +71,42 @@
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
+      "value": "Fraunhofer Institute for Large Structures in Production Engineering IGP"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Fraunhofer-Einrichtung für Großstrukturen in der Produktionstechnik"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Fraunhofer-Einrichtung für Großstrukturen in der Produktionstechnik IGP"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Fraunhofer-Institut für Großstrukturen in der Produktionstechnik"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
+      "value": "Fraunhofer-Institut für Großstrukturen in der Produktionstechnik IGP"
     },
     {
       "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ITWM"
+      "value": "IGP"
     }
   ],
   "relationships": [
@@ -93,11 +114,6 @@
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
-    },
-    {
-      "label": "Math2Market GmbH (Germany)",
-      "type": "related",
-      "id": "https://ror.org/03d53rx88"
     }
   ],
   "status": "active",

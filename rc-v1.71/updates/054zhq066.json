@@ -10,35 +10,43 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 2002,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "501100007283",
+        "501100007285"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "501100007283",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.469360.e"
+      ],
+      "preferred": "grid.469360.e",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0004 0621 9417"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q892659"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/054zhq066",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "http://www.b-it-center.de/"
     }
   ],
   "locations": [
@@ -48,22 +56,22 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2946447
     }
   ],
   "names": [
     {
-      "lang": "de",
+      "lang": null,
       "types": [
-        "alias"
+        "acronym"
       ],
-      "value": "Fraunhofer ITWM"
+      "value": "B-IT"
     },
     {
       "lang": "en",
@@ -71,37 +79,34 @@
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label"
-      ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "ITWM"
+      "value": "Bonn Aachen International Center for Information Technology"
     }
   ],
   "relationships": [
+    {
+      "label": "Hochschule Bonn-Rhein-Sieg",
+      "type": "parent",
+      "id": "https://ror.org/04m2anh63"
+    },
     {
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
     },
     {
-      "label": "Math2Market GmbH (Germany)",
+      "label": "University of Bonn",
+      "type": "parent",
+      "id": "https://ror.org/041nas322"
+    },
+    {
+      "label": "RWTH Aachen University",
       "type": "related",
-      "id": "https://ror.org/03d53rx88"
+      "id": "https://ror.org/04xfq0f34"
     }
   ],
   "status": "active",
   "types": [
-    "facility"
+    "facility",
+    "funder"
   ]
 }

@@ -10,35 +10,39 @@
     }
   },
   "domains": [],
-  "established": 1995,
+  "established": 1988,
   "external_ids": [
     {
       "all": [
-        "grid.461635.3"
+        "grid.469837.7"
       ],
-      "preferred": "grid.461635.3",
+      "preferred": "grid.469837.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0494 640X"
+        "0000 0000 9396 5928"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q1452034"
+        "Q1452018"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/019hjw009",
+  "id": "https://ror.org/00px80p03",
   "links": [
     {
       "type": "website",
-      "value": "http://www.itwm.fraunhofer.de/en/fraunhofer-itwm.html"
+      "value": "https://www.fokus.fraunhofer.de/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fraunhofer_Institute_for_Open_Communication_Systems"
     }
   ],
   "locations": [
@@ -48,22 +52,29 @@
         "continent_name": "Europe",
         "country_code": "DE",
         "country_name": "Germany",
-        "country_subdivision_code": "RP",
-        "country_subdivision_name": "Rheinland-Pfalz",
-        "lat": 49.443,
-        "lng": 7.77161,
-        "name": "Kaiserslautern"
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
       },
-      "geonames_id": 2894003
+      "geonames_id": 2950159
     }
   ],
   "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FOKUS"
+    },
     {
       "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "Fraunhofer ITWM"
+      "value": "Fraunhofer FOKUS"
     },
     {
       "lang": "en",
@@ -71,33 +82,26 @@
         "ror_display",
         "label"
       ],
-      "value": "Fraunhofer Institute for Industrial Mathematics"
+      "value": "Fraunhofer Institute for Open Communication Systems"
     },
     {
       "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Fraunhofer-Institut für Techno- und Wirtschaftsmathematik"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "ITWM"
+      "value": "Fraunhofer-Institut für Offene Kommunikationssysteme"
     }
   ],
   "relationships": [
     {
+      "label": "Weizenbaum Institute",
+      "type": "child",
+      "id": "https://ror.org/023kksk09"
+    },
+    {
       "label": "Fraunhofer-Gesellschaft",
       "type": "parent",
       "id": "https://ror.org/05hkkdn48"
-    },
-    {
-      "label": "Math2Market GmbH (Germany)",
-      "type": "related",
-      "id": "https://ror.org/03d53rx88"
     }
   ],
   "status": "active",
