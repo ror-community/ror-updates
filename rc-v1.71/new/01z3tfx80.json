@@ -59,7 +59,38 @@
       "value": "Office of Geostationary Earth Orbit Observations"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "NOAA Geostationary Operational Environmental Satellites",
+      "type": "child",
+      "id": "https://ror.org/02rcakp17"
+    },
+    {
+      "label": "NOAA Geostationary Operation Environmental Satellite-R Series",
+      "type": "child",
+      "id": "https://ror.org/02295tc31"
+    },
+    {
+      "label": "NOAA Geostationary Extended Observations",
+      "type": "child",
+      "id": "https://ror.org/005sm0w71"
+    },
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "related",
+      "id": "https://ror.org/007qwym43"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -59,7 +59,28 @@
       "value": "Office of Low Earth Orbit Observations"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "parent",
+      "id": "https://ror.org/007qwym43"
+    },
+    {
+      "label": "NOAA Near Earth Orbit Network",
+      "type": "child",
+      "id": "https://ror.org/023sgdn25"
+    },
+    {
+      "label": "NOAA Joint Polar Satellite System Program Office",
+      "type": "child",
+      "id": "https://ror.org/006p4kh13"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
