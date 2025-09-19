@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-03-26",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "persee.fr"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "Q133883688"
+      ],
+      "preferred": "Q133883688",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0200cc312",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.persee.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Pers%C3%A9e_(portail)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "PERiodiques Scientifiques en Édition Électronique"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Persée"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Portail Persée"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UAR 3602"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UAR3602"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

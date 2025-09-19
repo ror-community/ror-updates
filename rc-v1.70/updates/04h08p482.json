@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rolls-royce.com"
+  ],
+  "established": 1904,
+  "external_ids": [
+    {
+      "all": [
+        "501100000767"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1121.3"
+      ],
+      "preferred": "grid.1121.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0396 1069"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q243278"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04h08p482",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rolls-royce.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Rolls-Royce_Holdings"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Rolls-Royce"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rolls-Royce (United Kingdom)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rolls-Royce (Canada)",
+      "type": "child",
+      "id": "https://ror.org/01x3p5p96"
+    },
+    {
+      "label": "Rolls-Royce (Germany)",
+      "type": "child",
+      "id": "https://ror.org/05jeza980"
+    },
+    {
+      "label": "Rolls-Royce (Norway)",
+      "type": "child",
+      "id": "https://ror.org/018a0bk66"
+    },
+    {
+      "label": "Rolls-Royce (Sweden)",
+      "type": "child",
+      "id": "https://ror.org/055ef6019"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

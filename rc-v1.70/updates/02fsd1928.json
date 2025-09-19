@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cstb.fr"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100012518"
+      ],
+      "preferred": "501100012518",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423793.8"
+      ],
+      "preferred": "grid.423793.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2153 8043"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2946043"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02fsd1928",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cstb.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Scientific_and_Technical_Centre_for_Building"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85,
+        "lng": 2.6,
+        "name": "Champs-sur-Marne"
+      },
+      "geonames_id": 3027014
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSTB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre Scientifique et Technique du Bâtiment"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Scientific and Technical Center for Building"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère de la Transition écologique et de la Cohésion des territoires",
+      "type": "parent",
+      "id": "https://ror.org/00g8rx069"
+    },
+    {
+      "label": "OQEI - Observatoires de la qualité des environnements intérieurs",
+      "type": "related",
+      "id": "https://ror.org/03bz5pb92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473157.3"
+      ],
+      "preferred": "grid.473157.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9175 9928"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q34051"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e2tgs60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ldeo.columbia.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lamont%E2%80%93Doherty_Earth_Observatory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 41.03121,
+        "lng": -73.92708,
+        "name": "Sparkill"
+      },
+      "geonames_id": 5139097
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LDEO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lamont-Doherty Earth Observatory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Columbia University",
+      "type": "parent",
+      "id": "https://ror.org/00hj8s172"
+    },
+    {
+      "label": "Global Centroid-Moment-Tensor (CMT) Project",
+      "type": "child",
+      "id": "https://ror.org/04knth696"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

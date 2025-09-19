@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "huntington.northwell.edu"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512777.1"
+      ],
+      "preferred": "grid.512777.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0454 1285"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/039dabd75",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://huntington.northwell.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.86815,
+        "lng": -73.42568,
+        "name": "Huntington"
+      },
+      "geonames_id": 5121636
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Huntington Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Northwell Health",
+      "type": "parent",
+      "id": "https://ror.org/02bxt4m23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

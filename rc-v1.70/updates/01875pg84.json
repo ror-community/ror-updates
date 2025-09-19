@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "saintantoine.aphp.fr"
+  ],
+  "established": 1791,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412370.3"
+      ],
+      "preferred": "grid.412370.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 1100"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145207"
+      ],
+      "preferred": "Q3145207",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01875pg84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://saintantoine.aphp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Saint-Antoine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Saint Antoine Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "related",
+      "id": "https://ror.org/02en5vm52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

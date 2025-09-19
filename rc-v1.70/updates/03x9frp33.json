@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462192.a"
+      ],
+      "preferred": "grid.462192.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0520 8345"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261398"
+      ],
+      "preferred": "Q30261398",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03x9frp33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ifm-institute.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IFM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut du Fer à Moulin"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Neuro-SU",
+      "type": "successor",
+      "id": "https://ror.org/02pgsjq66"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

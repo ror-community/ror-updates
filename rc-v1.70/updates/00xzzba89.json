@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bordeaux-population-health.center"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508062.9"
+      ],
+      "preferred": "grid.508062.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8511 8605"
+      ],
+      "preferred": "0000 0004 8511 8605",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q52604477"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xzzba89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bordeaux-population-health.center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84044,
+        "lng": -0.5805,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BPH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bordeaux Population Health"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM U1219"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

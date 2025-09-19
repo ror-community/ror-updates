@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "anses.fr"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100007546"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15540.35"
+      ],
+      "preferred": "grid.15540.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0584 7022"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0471kz689",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.anses.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Agence_nationale_de_s%C3%A9curit%C3%A9_sanitaire_de_l'alimentation,_de_l'environnement_et_du_travail"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.81171,
+        "lng": 2.43945,
+        "name": "Maisons-Alfort"
+      },
+      "geonames_id": 2996568
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ANSES"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Agence Nationale de Sécurité Sanitaire de l’Alimentation, de l’Environnement et du Travail"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "French Agency for Food, Environmental and Occupational Health & Safety"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bipar",
+      "type": "child",
+      "id": "https://ror.org/027364b18"
+    },
+    {
+      "label": "Zone Atelier Moselle",
+      "type": "child",
+      "id": "https://ror.org/016vxbe23"
+    },
+    {
+      "label": "Epidémiosurveillance et circulation des parasites dans les environnements",
+      "type": "child",
+      "id": "https://ror.org/01dthb180"
+    },
+    {
+      "label": "Unité sous contrat Caractérisation et suivi des phénomènes d'évolution des résistances",
+      "type": "child",
+      "id": "https://ror.org/04ssf8c19"
+    },
+    {
+      "label": "OQEI - Observatoires de la qualité des environnements intérieurs",
+      "type": "parent",
+      "id": "https://ror.org/03bz5pb92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

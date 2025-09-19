@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dam.cea.fr"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457260.2"
+      ],
+      "preferred": "grid.457260.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q41566944"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01d5pah27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-dam.cea.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Direction_des_applications_militaires"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.58868,
+        "lng": 2.18991,
+        "name": "Bruyères-le-Châtel"
+      },
+      "geonames_id": 3029717
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEA DAM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CEA Direction des Applications Militaires"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DAM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Direction des Applications Militaires"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA Gramat",
+      "type": "child",
+      "id": "https://ror.org/00j8epd55"
+    },
+    {
+      "label": "CEA Le Ripault",
+      "type": "child",
+      "id": "https://ror.org/01hjhm267"
+    },
+    {
+      "label": "CEA Valduc",
+      "type": "child",
+      "id": "https://ror.org/03ze07515"
+    },
+    {
+      "label": "Centre d'Études Scientifiques et Techniques d'Aquitaine",
+      "type": "child",
+      "id": "https://ror.org/026ma2c10"
+    },
+    {
+      "label": "Atomic Energy and Alternative Energies Commission",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "CEA DAM Île-de-France",
+      "type": "child",
+      "id": "https://ror.org/00kn4eb29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

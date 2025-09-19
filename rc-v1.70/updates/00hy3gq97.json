@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100015550"
+      ],
+      "preferred": "501100015550",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415705.2"
+      ],
+      "preferred": "grid.415705.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q28223289"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00hy3gq97",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://health.go.ug/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Uganda)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "UG",
+        "country_name": "Uganda",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Central Region",
+        "lat": 0.31628,
+        "lng": 32.58219,
+        "name": "Kampala"
+      },
+      "geonames_id": 232422
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Uganda Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lira Hospital",
+      "type": "child",
+      "id": "https://ror.org/03f6y6166"
+    },
+    {
+      "label": "Uganda Heart Institute",
+      "type": "child",
+      "id": "https://ror.org/03r08g441"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

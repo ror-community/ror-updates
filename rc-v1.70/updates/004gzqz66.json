@@ -1,0 +1,145 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipgp.fr"
+  ],
+  "established": 1854,
+  "external_ids": [
+    {
+      "all": [
+        "501100010768"
+      ],
+      "preferred": "501100010768",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9489.c"
+      ],
+      "preferred": "grid.9489.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0675 8101"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152060"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004gzqz66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipgp.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_de_Physique_du_Globe_de_Paris"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPGP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de physique du globe de Paris"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Paris Institute of Earth Physics"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7154"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR-IPGP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7154"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
+      "type": "child",
+      "id": "https://ror.org/01w1erp60"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

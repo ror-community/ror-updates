@@ -1,0 +1,153 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kth.se"
+  ],
+  "established": 1827,
+  "external_ids": [
+    {
+      "all": [
+        "501100004270"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5037.1"
+      ],
+      "preferred": "grid.5037.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2158 1746"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q854280"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/026vcq606",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kth.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.m.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KTH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "KTH Royal Institute of Technology"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Kungliga Tekniska högskolan"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Kuninkaallinen teknillinen korkeakoulu"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal Institute of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bolin Centre for Climate Research",
+      "type": "child",
+      "id": "https://ror.org/058zxsr17"
+    },
+    {
+      "label": "Wallenberg Wood Science Center",
+      "type": "child",
+      "id": "https://ror.org/039qvmf95"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "National Microscopy Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/01mq2eh43"
+    },
+    {
+      "label": "Swedish National Data Service",
+      "type": "related",
+      "id": "https://ror.org/00ancw882"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    },
+    {
+      "label": "Digital Futures",
+      "type": "child",
+      "id": "https://ror.org/02ztymy03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

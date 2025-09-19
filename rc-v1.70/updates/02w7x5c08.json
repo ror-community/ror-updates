@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416224.7"
+      ],
+      "preferred": "grid.416224.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0417 0648"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7374889"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02w7x5c08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.royalsurrey.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Surrey_County_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.23536,
+        "lng": -0.57427,
+        "name": "Guildford"
+      },
+      "geonames_id": 2647793
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RSCH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Surrey County Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Surrey NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/050bd8661"
+    },
+    {
+      "label": "City St George's, University of London",
+      "type": "related",
+      "id": "https://ror.org/047ybhc09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kumamoto-u.ac.jp"
+  ],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "501100004091"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.274841.c"
+      ],
+      "preferred": "grid.274841.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0660 6749"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1148782"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02cgss904",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kumamoto-u.ac.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kumamoto_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "43",
+        "country_subdivision_name": "Kumamoto",
+        "lat": 32.80589,
+        "lng": 130.69181,
+        "name": "Kumamoto"
+      },
+      "geonames_id": 1858421
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kumamoto Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kumamoto University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "熊本大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kumamoto Chuo Hospital",
+      "type": "related",
+      "id": "https://ror.org/057g1dn72"
+    },
+    {
+      "label": "Kumamoto City Hospital",
+      "type": "related",
+      "id": "https://ror.org/007ge8322"
+    },
+    {
+      "label": "Kumamoto University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02vgs9327"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

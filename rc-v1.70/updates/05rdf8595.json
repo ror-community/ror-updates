@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uvigo.gal"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100006761",
+        "501100006762"
+      ],
+      "preferred": "501100006761",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6312.6"
+      ],
+      "preferred": "grid.6312.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 6738"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q666916"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05rdf8595",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uvigo.gal/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Vigo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Galicia",
+        "lat": 42.23282,
+        "lng": -8.72264,
+        "name": "Vigo"
+      },
+      "geonames_id": 3105976
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UVIGO"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Vigo"
+    },
+    {
+      "lang": "gl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidade de Vigo"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Universitat de Vigo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Vigo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "IESIDE Business School",
+      "type": "related",
+      "id": "https://ror.org/01rp06j36"
+    },
+    {
+      "label": "University Hospital Complex Of Vigo",
+      "type": "related",
+      "id": "https://ror.org/01ybfxd46"
+    },
+    {
+      "label": "European Marine Biological Resource Centre",
+      "type": "related",
+      "id": "https://ror.org/0038zss60"
+    },
+    {
+      "label": "Centro Universitario de la Defensa en la Escuela Naval Militar",
+      "type": "child",
+      "id": "https://ror.org/0596wkf93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

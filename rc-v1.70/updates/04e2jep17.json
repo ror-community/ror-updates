@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1885,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411616.5"
+      ],
+      "preferred": "grid.411616.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 7277"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5189706"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04e2jep17",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.croydonhealthservices.nhs.uk/patients-visitors/Croydon-University-Hospital.htm"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Croydon_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Croydon University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Mayday Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Croydon Health Services NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/00sh7p618"
+    },
+    {
+      "label": "King's College London",
+      "type": "related",
+      "id": "https://ror.org/0220mzb33"
+    },
+    {
+      "label": "City St George's, University of London",
+      "type": "related",
+      "id": "https://ror.org/047ybhc09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

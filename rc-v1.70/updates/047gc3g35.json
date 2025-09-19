@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "501100005853",
+        "501100005048",
+        "501100005854"
+      ],
+      "preferred": "501100005853",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.443909.3"
+      ],
+      "preferred": "grid.443909.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 4466"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q232141"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047gc3g35",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uchile.cl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Chile"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Chile"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Chile"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center of New Drugs for Hypertension",
+      "type": "child",
+      "id": "https://ror.org/00gpq1s11"
+    },
+    {
+      "label": "Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos",
+      "type": "child",
+      "id": "https://ror.org/02db2t754"
+    },
+    {
+      "label": "Advanced Mining Technology Center",
+      "type": "child",
+      "id": "https://ror.org/042ezq693"
+    },
+    {
+      "label": "Center for Mathematical Modeling",
+      "type": "child",
+      "id": "https://ror.org/00wz2vk41"
+    },
+    {
+      "label": "Hospital Clínico de la Universidad de Chile",
+      "type": "related",
+      "id": "https://ror.org/02xtpdq88"
+    },
+    {
+      "label": "Centro Sismológico Nacional",
+      "type": "child",
+      "id": "https://ror.org/02kqfwm03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

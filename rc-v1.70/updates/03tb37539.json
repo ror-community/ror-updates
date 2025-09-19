@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1805,
+  "external_ids": [
+    {
+      "all": [
+        "501100012617"
+      ],
+      "preferred": "501100012617",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.439257.e"
+      ],
+      "preferred": "grid.439257.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8726 5837"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1946861"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03tb37539",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.moorfields.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Moorfields_Eye_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Moorfields Eye Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Moorfields Eye Hospital NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/03zaddr67"
+    },
+    {
+      "label": "Queen Mary University of London",
+      "type": "related",
+      "id": "https://ror.org/026zzn846"
+    },
+    {
+      "label": "University College London",
+      "type": "related",
+      "id": "https://ror.org/02jx3x895"
+    },
+    {
+      "label": "City St George's, University of London",
+      "type": "related",
+      "id": "https://ror.org/047ybhc09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

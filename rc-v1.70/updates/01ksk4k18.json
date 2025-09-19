@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "edu.shandong.gov.cn"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100012906",
+        "501100010040",
+        "501100010029",
+        "100012620",
+        "501100015642",
+        "501100018627"
+      ],
+      "preferred": "100012906",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454884.1"
+      ],
+      "preferred": "grid.454884.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 9574"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30297427"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ksk4k18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://edu.shandong.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "Shandong",
+        "lat": 36.66833,
+        "lng": 116.99722,
+        "name": "Jinan"
+      },
+      "geonames_id": 1805753
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Education Shandong Province"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDPED"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Shandong Province Department of Education"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "山东省教育厅（省委教育工委）"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dongying Vocational Institute",
+      "type": "child",
+      "id": "https://ror.org/03kbxzp97"
+    },
+    {
+      "label": "Government of Shandong Province",
+      "type": "parent",
+      "id": "https://ror.org/03jjt8440"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

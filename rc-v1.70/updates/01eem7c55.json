@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ibrain.univ-tours.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462961.e"
+      ],
+      "preferred": "grid.462961.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 1326"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01eem7c55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ibrain.univ-tours.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.39484,
+        "lng": 0.70398,
+        "name": "Tours"
+      },
+      "geonames_id": 2972191
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Imagerie et Cerveau"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Imagerie, Cerveau et Neuropsychiatrie"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Imaging and Brain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Imaging, Brain, and Neuropsychiatry"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1253"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "iBraiN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Tours",
+      "type": "parent",
+      "id": "https://ror.org/02wwzvj46"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

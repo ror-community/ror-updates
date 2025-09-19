@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-20",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/029z02k15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://rutgershealth.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 40.73566,
+        "lng": -74.17237,
+        "name": "Newark"
+      },
+      "geonames_id": 5101798
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rutgers Biomedical and Health Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rutgers Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rutgers University Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rutgers Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/0060x3y55"
+    },
+    {
+      "label": "Rutgers New Jersey Medical School",
+      "type": "child",
+      "id": "https://ror.org/014ye1258"
+    },
+    {
+      "label": "Rutgers, The State University of New Jersey",
+      "type": "parent",
+      "id": "https://ror.org/05vt9qd57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-08-26",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462687.9"
+      ],
+      "preferred": "grid.462687.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 8928"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04q2bzq33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gustaveroussy.fr/fr/node/2288"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Physiologie et pathologie moléculaires des rétrovirus endogènes et infectieux"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Rétrovirus Endogènes et Eléments Rétroides des Eucaryotes Supérieurs"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 9196"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Gustave Roussy",
+      "type": "parent",
+      "id": "https://ror.org/0321g0743"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
