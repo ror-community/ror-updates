@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rda.go.kr"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "501100003627"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420186.9"
+      ],
+      "preferred": "grid.420186.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0636 2782"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11232895"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03xs9yg50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rda.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Rural_Development_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Jeollabuk-do",
+        "lat": 35.82194,
+        "lng": 127.14889,
+        "name": "Jeonju"
+      },
+      "geonames_id": 1845457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "RDA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rural Development Administration"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "농진청"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "농촌진흥청"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute of Horticultural and Herbal Science",
+      "type": "child",
+      "id": "https://ror.org/040ybh559"
+    },
+    {
+      "label": "National Institute of Crop Science",
+      "type": "child",
+      "id": "https://ror.org/011rp3b19"
+    },
+    {
+      "label": "Ministry of Agriculture, Food and Rural Affairs",
+      "type": "parent",
+      "id": "https://ror.org/009g8rq41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

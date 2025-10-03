@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "knu.ac.kr"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100002531"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.258803.4"
+      ],
+      "preferred": "grid.258803.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0661 1556"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q487841"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040c17130",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://knu.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kyungpook_National_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Daegu",
+        "lat": 35.87028,
+        "lng": 128.59111,
+        "name": "Daegu"
+      },
+      "geonames_id": 1835329
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KNU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kyungpook National University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "경북대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyungpook National University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/01acyer19"
+    },
+    {
+      "label": "Kyungpook National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/04qn0xg47"
+    },
+    {
+      "label": "Kyungpook National University Hospital",
+      "type": "child",
+      "id": "https://ror.org/04qn0xg47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

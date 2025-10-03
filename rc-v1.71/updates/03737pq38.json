@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kihasa.re.kr"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100003677"
+      ],
+      "preferred": "501100003677",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.496247.a"
+      ],
+      "preferred": "grid.496247.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2204 5654"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16192435"
+      ],
+      "preferred": "Q16192435",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03737pq38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kihasa.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B3%B4%EA%B1%B4%EC%82%AC%ED%9A%8C%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Sejong-si",
+        "lat": 36.59245,
+        "lng": 127.29223,
+        "name": "Sejong"
+      },
+      "geonames_id": 11523293
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KIHASA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym",
+        "alias"
+      ],
+      "value": "KIPH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Institute for Health and Social Affairs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Korea Institute for Population and Health"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국보건사회연구원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "한국인구보건연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Institute of Child Care & Education",
+      "type": "child",
+      "id": "https://ror.org/0525j5h19"
+    },
+    {
+      "label": "National Research Council for Economics Humanities and Social Science",
+      "type": "parent",
+      "id": "https://ror.org/012zp9903"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

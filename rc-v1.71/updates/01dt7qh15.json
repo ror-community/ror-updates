@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "areasciencepark.it"
+  ],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419994.8"
+      ],
+      "preferred": "grid.419994.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 4706"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q668385"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01dt7qh15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.areasciencepark.it"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/AREA_Science_Park"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "36",
+        "country_subdivision_name": "Friuli Venezia Giulia",
+        "lat": 45.64953,
+        "lng": 13.77678,
+        "name": "Trieste"
+      },
+      "geonames_id": 3165185
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "AREA Science Park"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Consortium of the Trieste Science and Technology Research Area"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Consorzio per l'AREA di Ricerca Scientifica e Tecnologica di Trieste"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biogem",
+      "type": "child",
+      "id": "https://ror.org/01ymr5447"
+    },
+    {
+      "label": "Cluster in Biomedicine",
+      "type": "child",
+      "id": "https://ror.org/017fdfe13"
+    },
+    {
+      "label": "Elettra-Sincrotrone Trieste S.C.p.A.",
+      "type": "child",
+      "id": "https://ror.org/01c3rrh15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

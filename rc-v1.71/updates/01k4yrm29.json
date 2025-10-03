@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kisti.re.kr"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "501100003708"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.249964.4"
+      ],
+      "preferred": "grid.249964.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0523 5253"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6431653"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01k4yrm29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kisti.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Korea_Institute_of_Science_and_Technology_Information"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KISTI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Institute of Science & Technology Information"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Korea Institute of Science and Technology Information"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국과학기술정보연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "KISTI National Supercomputing Center",
+      "type": "child",
+      "id": "https://ror.org/00cs28a13"
+    },
+    {
+      "label": "National Research Council of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/058rymf81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "100006162"
+      ],
+      "preferred": "100006162",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.431453.4"
+      ],
+      "preferred": "grid.431453.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1942 3343"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1133499"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01h04ms65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.eia.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Energy_Information_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EIA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "U.S. Energy Information Administration"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Energy Information Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Energy Analysis",
+      "type": "child",
+      "id": "https://ror.org/005jmje44"
+    },
+    {
+      "label": "Office of Energy Statistics",
+      "type": "child",
+      "id": "https://ror.org/03bx63127"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-12",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q122597481"
+      ],
+      "preferred": "Q122597481",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/023sgdn25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nesdis.noaa.gov/next-generation/near-earth-orbit-network-neon"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.00455,
+        "lng": -76.87553,
+        "name": "Greenbelt"
+      },
+      "geonames_id": 4356847
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NEON"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NOAA NEON"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Near Earth Orbit Network"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Oceanic and Atmospheric Administration Near Earth Orbit Network"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Near Earth Orbit Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "parent",
+      "id": "https://ror.org/007qwym43"
+    },
+    {
+      "label": "NOAA Office of Low Earth Orbit Observations",
+      "type": "parent",
+      "id": "https://ror.org/017z8h955"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

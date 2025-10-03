@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ajou.ac.kr"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100002619"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.251916.8"
+      ],
+      "preferred": "grid.251916.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0532 3933"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q491082"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03tzb2h73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ajou.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ajou_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.29111,
+        "lng": 127.00889,
+        "name": "Suwon"
+      },
+      "geonames_id": 1835553
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ajou University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "아주대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ajou University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05xkxf605"
+    },
+    {
+      "label": "Ajou University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01bzpky79"
+    },
+    {
+      "label": "Ajou University Hospital",
+      "type": "child",
+      "id": "https://ror.org/01bzpky79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

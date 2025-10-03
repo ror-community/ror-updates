@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uri.edu"
+  ],
+  "established": 1892,
+  "external_ids": [
+    {
+      "all": [
+        "100009614"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.20431.34"
+      ],
+      "preferred": "grid.20431.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0416 2242"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1641788"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013ckk937",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uri.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Rhode_Island"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "RI",
+        "country_subdivision_name": "Rhode Island",
+        "lat": 41.48038,
+        "lng": -71.52256,
+        "name": "Kingston"
+      },
+      "geonames_id": 5223006
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "URI"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Rhode Island"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rhode Island"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de rhode island"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rhode Island Sea Grant",
+      "type": "child",
+      "id": "https://ror.org/018nbcn37"
+    },
+    {
+      "label": "Rhode Island Agricultural Experiment Station",
+      "type": "child",
+      "id": "https://ror.org/00h739y88"
+    },
+    {
+      "label": "Rhode Island Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/05s9s1q23"
+    },
+    {
+      "label": "Providence VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/041m0cc93"
+    },
+    {
+      "label": "Moorea Coral Reef Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017vyhs10"
+    },
+    {
+      "label": "GSO/URI Marine Geological Samples Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01z83jn29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

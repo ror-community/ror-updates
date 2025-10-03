@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100007608"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417738.e"
+      ],
+      "preferred": "grid.417738.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 5328"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q389704"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0124gwh94",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.agresearch.co.nz/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/AgResearch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "CAN",
+        "country_subdivision_name": "Canterbury",
+        "lat": -43.65,
+        "lng": 172.48333,
+        "name": "Lincoln"
+      },
+      "geonames_id": 2188371
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "AgResearch"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Riddet Institute",
+      "type": "child",
+      "id": "https://ror.org/053336823"
+    },
+    {
+      "label": "Bioeconomy Science Institute",
+      "type": "parent",
+      "id": "https://ror.org/03j13xx78"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

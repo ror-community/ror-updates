@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mpva.go.kr"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "501100003568"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454165.7"
+      ],
+      "preferred": "grid.454165.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5896 9500"
+      ],
+      "preferred": "0000 0004 5896 9500",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q488980"
+      ],
+      "preferred": "Q488980",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qehyx72",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mpva.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EA%B5%AD%EA%B0%80%EB%B3%B4%ED%9B%88%EB%B6%80"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Sejong-si",
+        "lat": 36.59245,
+        "lng": 127.29223,
+        "name": "Sejong"
+      },
+      "geonames_id": 11523293
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MPVA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Patriots and Veterans Affairs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Patriots and Veterans Administration Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Soldiers' Affairs Agency"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국가보훈부"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "국가보훈처"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of the Republic of Korea",
+      "type": "parent",
+      "id": "https://ror.org/019xm3p48"
+    },
+    {
+      "label": "Veterans Health Service Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00xhz2q61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

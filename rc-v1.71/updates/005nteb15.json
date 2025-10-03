@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gilhospital.com"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100006107"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411653.4"
+      ],
+      "preferred": "grid.411653.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 2885"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12582491"
+      ],
+      "preferred": "Q12582491",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005nteb15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gilhospital.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Incheon",
+        "lat": 37.45646,
+        "lng": 126.70515,
+        "name": "Incheon"
+      },
+      "geonames_id": 1843564
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "GUHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Gachon University Gil Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gachon University Gil Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Gil Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "가천대 길병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "가천대학교 길병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias",
+        "label"
+      ],
+      "value": "길병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gachon University",
+      "type": "related",
+      "id": "https://ror.org/03ryywt80"
+    },
+    {
+      "label": "Gachon University",
+      "type": "parent",
+      "id": "https://ror.org/03ryywt80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

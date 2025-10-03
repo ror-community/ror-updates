@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "schmc.ac.kr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0634 1623"
+      ],
+      "preferred": "0000 0004 0634 1623",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7562698"
+      ],
+      "preferred": "Q7562698",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bj3z035",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://schmc.ac.kr/center/index.do"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%88%9C%EC%B2%9C%ED%96%A5%EB%8C%80%ED%95%99%EA%B5%90_%EC%A4%91%EC%95%99%EC%9D%98%EB%A3%8C%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Soonchunhyang University Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "순천향대학교 중앙의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Soonchunhyang University Hospital Gumi",
+      "type": "child",
+      "id": "https://ror.org/050ttrs82"
+    },
+    {
+      "label": "Soonchunhyang University",
+      "type": "parent",
+      "id": "https://ror.org/03qjsrb10"
+    },
+    {
+      "label": "Soonchunhyang University Hospital Seoul",
+      "type": "child",
+      "id": "https://ror.org/05eqxpf83"
+    },
+    {
+      "label": "Soonchunhyang University Hospital Cheonan",
+      "type": "child",
+      "id": "https://ror.org/04h8jph19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ncc.re.kr"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100003645"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410914.9"
+      ],
+      "preferred": "grid.410914.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0628 9810"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12585740"
+      ],
+      "preferred": "Q12585740",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02tsanh21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ncc.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%EC%95%94%EC%84%BC%ED%84%B0"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.65639,
+        "lng": 126.835,
+        "name": "Goyang-si"
+      },
+      "geonames_id": 1842485
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NCC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Cancer Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국립암센터"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Cancer Center Hospital",
+      "type": "child",
+      "id": "https://ror.org/05fgmqm64"
+    },
+    {
+      "label": "Ministry of Health and Welfare",
+      "type": "parent",
+      "id": "https://ror.org/00vxgjw72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

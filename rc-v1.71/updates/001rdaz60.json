@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1759,
+  "external_ids": [
+    {
+      "all": [
+        "501100007306"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423977.c"
+      ],
+      "preferred": "grid.423977.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0940 3517"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q684415"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/001rdaz60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://badw.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bavarian_Academy_of_Sciences_and_Humanities"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BADW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bavarian Academy of Sciences and Humanities"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bayerische Akademie der Wissenschaften"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bavarian Research Institute for Digital Transformation",
+      "type": "child",
+      "id": "https://ror.org/00h539j16"
+    },
+    {
+      "label": "Leibniz Supercomputing Centre",
+      "type": "child",
+      "id": "https://ror.org/05558nw16"
+    },
+    {
+      "label": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+      "type": "child",
+      "id": "https://ror.org/008ebma82"
+    },
+    {
+      "label": "Walther Meissner Institute",
+      "type": "child",
+      "id": "https://ror.org/01dex6p39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

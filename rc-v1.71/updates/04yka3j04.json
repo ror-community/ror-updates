@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "501100002581",
+        "501100009847"
+      ],
+      "preferred": "501100009847",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410886.3"
+      ],
+      "preferred": "grid.410886.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 3511"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04yka3j04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.cha.ac.kr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.43861,
+        "lng": 127.13778,
+        "name": "Seongnam-si"
+      },
+      "geonames_id": 1897000
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CHA University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "차의과학대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CHA Gumi Hospital",
+      "type": "child",
+      "id": "https://ror.org/03cbcg118"
+    },
+    {
+      "label": "CHA Health Systems",
+      "type": "parent",
+      "id": "https://ror.org/01gysn705"
+    },
+    {
+      "label": "CHA University Bundang Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04nbqb988"
+    },
+    {
+      "label": "CHA University Gangnam Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05rtdxx03"
+    },
+    {
+      "label": "CHA University Bundang Medical Center",
+      "type": "child",
+      "id": "https://ror.org/04nbqb988"
+    },
+    {
+      "label": "CHA University Gangnam Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05rtdxx03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

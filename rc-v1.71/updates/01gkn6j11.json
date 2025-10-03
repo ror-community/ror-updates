@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458472.8"
+      ],
+      "preferred": "grid.458472.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1798 1706"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01gkn6j11",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.whigg.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "HB",
+        "country_subdivision_name": "Hubei",
+        "lat": 30.58333,
+        "lng": 114.26667,
+        "name": "Wuhan"
+      },
+      "geonames_id": 1791247
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Geodesy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Geodesy and Geophysics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院测量与地球物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Geodesy and Earth's Dynamics",
+      "type": "child",
+      "id": "https://ror.org/051yfbn24"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "Institute Academy for Precision Measurment Science and Technology, CAS",
+      "type": "successor",
+      "id": "https://ror.org/05cy2r844"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

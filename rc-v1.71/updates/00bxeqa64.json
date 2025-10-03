@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kei.re.kr"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100003675"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453733.5"
+      ],
+      "preferred": "grid.453733.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9707 8947"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16171239"
+      ],
+      "preferred": "Q16171239",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00bxeqa64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kei.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%ED%99%98%EA%B2%BD%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KEI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Environment Institute"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국환경연구원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "한국환경정책평가연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council for Economics Humanities and Social Science",
+      "type": "parent",
+      "id": "https://ror.org/012zp9903"
+    },
+    {
+      "label": "Ministry of Environment",
+      "type": "related",
+      "id": "https://ror.org/04xmt0833"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

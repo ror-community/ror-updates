@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "501100002649"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413028.c"
+      ],
+      "preferred": "grid.413028.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0674 4447"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q56148"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05yc6p159",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.yu.ac.kr/en/main/index.php"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Yeungnam_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Daegu",
+        "lat": 35.87028,
+        "lng": 128.59111,
+        "name": "Daegu"
+      },
+      "geonames_id": 1835329
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "YU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yeungnam University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "영남대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yeungnam University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04ntyjt11"
+    },
+    {
+      "label": "Yeungnam University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/04ntyjt11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

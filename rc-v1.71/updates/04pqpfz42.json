@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nmc.or.kr"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100003648"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415619.e"
+      ],
+      "preferred": "grid.415619.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1773 6903"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12585766"
+      ],
+      "preferred": "Q12585766",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04pqpfz42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nmc.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EC%9D%98%EB%A3%8C%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "국립의료원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국립중앙의료원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "중앙의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health and Welfare",
+      "type": "parent",
+      "id": "https://ror.org/00vxgjw72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

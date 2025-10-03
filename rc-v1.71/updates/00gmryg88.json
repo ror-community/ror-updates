@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rra.go.kr"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100003656"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453235.6"
+      ],
+      "preferred": "grid.453235.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5897 0229"
+      ],
+      "preferred": "0000 0004 5897 0229",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30296612"
+      ],
+      "preferred": "Q30296612",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00gmryg88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rra.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%EC%A0%84%ED%8C%8C%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "46",
+        "country_subdivision_name": "Jeollanam-do",
+        "lat": 35.0292,
+        "lng": 126.7175,
+        "name": "Naju"
+      },
+      "geonames_id": 1840536
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Radio Research Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "RRA"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국립전파연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science and ICT",
+      "type": "parent",
+      "id": "https://ror.org/01wpjm123"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

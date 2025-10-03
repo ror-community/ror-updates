@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "501100009610",
+        "501100014581",
+        "501100016011"
+      ],
+      "preferred": "501100009610",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7870.8"
+      ],
+      "preferred": "grid.7870.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2157 0406"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1129925"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04teye511",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uc.cl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Pontifical_Catholic_University_of_Chile"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PUC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pontifical Catholic University of Chile"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pontificia Universidad Católica de Chile"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center of New Drugs for Hypertension",
+      "type": "child",
+      "id": "https://ror.org/00gpq1s11"
+    },
+    {
+      "label": "Millennium Institute for Subatomic Physics at High-Energy Frontier, Saphir",
+      "type": "child",
+      "id": "https://ror.org/00rbe2516"
+    },
+    {
+      "label": "Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos",
+      "type": "child",
+      "id": "https://ror.org/02db2t754"
+    },
+    {
+      "label": "Hospital Clínico de la Universidad Católica",
+      "type": "related",
+      "id": "https://ror.org/016v1bv58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "100008344"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1046.3"
+      ],
+      "preferred": "grid.1046.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0328 1619"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4824311"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03x57gn41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aims.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Australian_Institute_of_Marine_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -19.26639,
+        "lng": 146.80569,
+        "name": "Townsville"
+      },
+      "geonames_id": 2146142
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AIMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Australian Institute of Marine Science"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Climate Change, Energy, the Environment and Water",
+      "type": "parent",
+      "id": "https://ror.org/01db6n192"
+    },
+    {
+      "label": "Integrated Marine Observing System",
+      "type": "related",
+      "id": "https://ror.org/010x3gp67"
+    },
+    {
+      "label": "National Sea Simulator",
+      "type": "child",
+      "id": "https://ror.org/00nq2dx79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

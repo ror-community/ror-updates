@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100004663",
+        "501100001868",
+        "100020595"
+      ],
+      "preferred": "501100004663",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410767.3"
+      ],
+      "preferred": "grid.410767.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 9731"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11626123"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kv4zf79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nstc.gov.tw"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Science_and_Technology_(Taiwan)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Taiwan",
+        "lat": 25.05306,
+        "lng": 121.52639,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Science and Technology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Science Council"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Science and Technology Council"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "國科會"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institutes of Applied Research",
+      "type": "child",
+      "id": "https://ror.org/05wcstg80"
+    },
+    {
+      "label": "National Science and Technology Center for Disaster Reduction",
+      "type": "child",
+      "id": "https://ror.org/01stnk488"
+    },
+    {
+      "label": "National Synchrotron Radiation Research Center",
+      "type": "child",
+      "id": "https://ror.org/00k575643"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

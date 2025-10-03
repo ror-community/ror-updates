@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "seoul.hyumc.com"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412147.5"
+      ],
+      "preferred": "grid.412147.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 539X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30254021"
+      ],
+      "preferred": "Q30254021",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04n76mm80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://seoul.hyumc.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Hanyang University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hanyang University Seoul Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한양대학교병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한양대학교서울병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hanyang University International Hospital",
+      "type": "child",
+      "id": "https://ror.org/00v6w5255"
+    },
+    {
+      "label": "Hanyang University",
+      "type": "related",
+      "id": "https://ror.org/046865y68"
+    },
+    {
+      "label": "Hanyang University Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/05tn05n57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

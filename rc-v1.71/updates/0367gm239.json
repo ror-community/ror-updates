@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "emc.ac.kr"
+  ],
+  "established": 1981,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411061.3"
+      ],
+      "preferred": "grid.411061.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 205X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q27952693"
+      ],
+      "preferred": "Q27952693",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0367gm239",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.emc.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%A0%84%EC%9D%84%EC%A7%80%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Daejeon Eulji Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display"
+      ],
+      "value": "Daejeon Eulji Medical Center, Eulji University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Eulji University Daejeon Eulji Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "Eulji University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "을지대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Eulji University",
+      "type": "related",
+      "id": "https://ror.org/005bty106"
+    },
+    {
+      "label": "Eulji Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/059x9n677"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

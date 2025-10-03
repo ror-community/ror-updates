@@ -1,0 +1,146 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "501100001832",
+        "501100008459"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5590.9"
+      ],
+      "preferred": "grid.5590.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2293 1605"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q632004",
+        "Q2525766"
+      ],
+      "preferred": "Q632004",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016xsfp80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ru.nl/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Radboud_University_Nijmegen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Gelderland",
+        "lat": 51.8425,
+        "lng": 5.85278,
+        "name": "Nijmegen"
+      },
+      "geonames_id": 2750053
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Katholieke Universiteit Nijmegen"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Radboud Universiteit Nijmegen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Radboud University Nijmegen"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université Radboud de Nimègue"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "FELIX Laboratory",
+      "type": "child",
+      "id": "https://ror.org/03tkwyq76"
+    },
+    {
+      "label": "Radboud Institute for Molecular Life Sciences",
+      "type": "child",
+      "id": "https://ror.org/01yb10j39"
+    },
+    {
+      "label": "Catharina Ziekenhuis",
+      "type": "related",
+      "id": "https://ror.org/01qavk531"
+    },
+    {
+      "label": "Máxima Medisch Centrum",
+      "type": "related",
+      "id": "https://ror.org/02x6rcb77"
+    },
+    {
+      "label": "Radboud University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05wg1m734"
+    },
+    {
+      "label": "Donders Institute for Brain, Cognition and Behaviour",
+      "type": "child",
+      "id": "https://ror.org/053sba816"
+    },
+    {
+      "label": "Max Planck Institute for Psycholinguistics",
+      "type": "related",
+      "id": "https://ror.org/00671me87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

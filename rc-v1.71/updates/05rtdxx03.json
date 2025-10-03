@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gangnam.chamc.co.kr"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413793.b"
+      ],
+      "preferred": "grid.413793.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 2588"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05rtdxx03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gangnam.chamc.co.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B0%95%EB%82%A8%EC%B0%A8%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "CHA Gangnam Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CHA University Gangnam Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "강남차병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CHA University Gangnam Women's Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00rg6e542"
+    },
+    {
+      "label": "CHA University",
+      "type": "related",
+      "id": "https://ror.org/04yka3j04"
+    },
+    {
+      "label": "CHA University",
+      "type": "parent",
+      "id": "https://ror.org/04yka3j04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

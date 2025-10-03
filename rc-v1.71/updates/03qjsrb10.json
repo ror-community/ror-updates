@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1978,
+  "external_ids": [
+    {
+      "all": [
+        "501100002560"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412674.2"
+      ],
+      "preferred": "grid.412674.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1773 6524"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q484622"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qjsrb10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://homepage.sch.ac.kr/sch/index.jsp?epTicket=LOG"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Soonchunhyang_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SCH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Soonchunhyang University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "순천향대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Soonchunhyang University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/01bj3z035"
+    },
+    {
+      "label": "Soonchunhyang University Hospital Seoul",
+      "type": "related",
+      "id": "https://ror.org/05eqxpf83"
+    },
+    {
+      "label": "Soonchunhyang University Hospital Bucheon",
+      "type": "related",
+      "id": "https://ror.org/03wg7b808"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

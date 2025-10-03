@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-11-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pau-au.africa"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100022253"
+      ],
+      "preferred": "501100022253",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 9332 9605"
+      ],
+      "preferred": "0000 0004 9332 9605",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7129473"
+      ],
+      "preferred": "Q7129473",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r9gvy43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://pau-au.africa"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Pan-African_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "CM",
+        "country_name": "Cameroon",
+        "country_subdivision_code": "CE",
+        "country_subdivision_name": "Centre",
+        "lat": 3.86667,
+        "lng": 11.51667,
+        "name": "Yaoundé"
+      },
+      "geonames_id": 2220957
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PAU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Pan African University AUC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pan-African University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pan African University Institute for Governance, Humanities and Social Sciences",
+      "type": "child",
+      "id": "https://ror.org/02ysyhv70"
+    },
+    {
+      "label": "Pan African University Institute of Life and Earth Sciences",
+      "type": "child",
+      "id": "https://ror.org/03r5zvp34"
+    },
+    {
+      "label": "Pan African University Institute of Water and Energy Science",
+      "type": "child",
+      "id": "https://ror.org/04qe65e37"
+    },
+    {
+      "label": "African Union Commission",
+      "type": "parent",
+      "id": "https://ror.org/01jg4aw19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

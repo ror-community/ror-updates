@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "501100004390",
+        "501100009195"
+      ],
+      "preferred": "501100004390",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412687.e"
+      ],
+      "preferred": "grid.412687.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9606 5108"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145270"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03c62dg59",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ottawahospital.on.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/The_Ottawa_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "L'Hôpital d'Ottawa"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ottawa Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Ottawa Skills and Simulation Centre",
+      "type": "child",
+      "id": "https://ror.org/058rwr454"
+    },
+    {
+      "label": "Ottawa Hospital Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05jtef216"
+    },
+    {
+      "label": "University of Ottawa",
+      "type": "related",
+      "id": "https://ror.org/03c4mmv16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

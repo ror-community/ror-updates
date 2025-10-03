@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kumc.or.kr"
+  ],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "100016989"
+      ],
+      "preferred": "100016989",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411134.2"
+      ],
+      "preferred": "grid.411134.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0474 0479"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6431743"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02cs2sd33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kumc.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Korea_University_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KUMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea University Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "고려대학교 의료원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "고려대학교의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea University Guro Hospital",
+      "type": "child",
+      "id": "https://ror.org/0154bb690"
+    },
+    {
+      "label": "Korea University Ansan Hospital",
+      "type": "child",
+      "id": "https://ror.org/05yp5js06"
+    },
+    {
+      "label": "Korea University Anam Hospital",
+      "type": "child",
+      "id": "https://ror.org/04gjj3027"
+    },
+    {
+      "label": "Korea University",
+      "type": "related",
+      "id": "https://ror.org/047dqcg40"
+    },
+    {
+      "label": "Korea University",
+      "type": "parent",
+      "id": "https://ror.org/047dqcg40"
+    },
+    {
+      "label": "Woosuk University",
+      "type": "related",
+      "id": "https://ror.org/00emz0366"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

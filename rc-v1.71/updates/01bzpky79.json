@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hosp.ajoumc.or.kr"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411261.1"
+      ],
+      "preferred": "grid.411261.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0648 1036"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12605407"
+      ],
+      "preferred": "Q12605407",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bzpky79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hosp.ajoumc.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.29111,
+        "lng": 127.00889,
+        "name": "Suwon"
+      },
+      "geonames_id": 1835553
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ajou University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "아주대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ajou University",
+      "type": "related",
+      "id": "https://ror.org/03tzb2h73"
+    },
+    {
+      "label": "Ajou University",
+      "type": "parent",
+      "id": "https://ror.org/03tzb2h73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

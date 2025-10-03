@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "korea.ac.kr"
+  ],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "501100002642",
+        "501100006468",
+        "501100020855"
+      ],
+      "preferred": "501100002642",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.222754.4"
+      ],
+      "preferred": "grid.222754.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0840 2678"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q39997",
+        "Q39902748"
+      ],
+      "preferred": "Q39997",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047dqcg40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.korea.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Korea_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Bosung College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bosung Professional College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "고려대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/02cs2sd33"
+    },
+    {
+      "label": "Korea University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/02cs2sd33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

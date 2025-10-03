@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413040.2"
+      ],
+      "preferred": "grid.413040.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0570 1914"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04ntyjt11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://yumc.ac.kr/yumc/index.do"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Daegu",
+        "lat": 35.87028,
+        "lng": 128.59111,
+        "name": "Daegu"
+      },
+      "geonames_id": 1835329
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "YUMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yeungnam University Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "영남대학교병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "영남대학교의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yeungnam University Yeongcheon Hospital",
+      "type": "child",
+      "id": "https://ror.org/025d8rj75"
+    },
+    {
+      "label": "Yeungnam University",
+      "type": "related",
+      "id": "https://ror.org/05yc6p159"
+    },
+    {
+      "label": "Yeungnam University",
+      "type": "parent",
+      "id": "https://ror.org/05yc6p159"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mpi.nl"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "501100023341"
+      ],
+      "preferred": "501100023341",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419550.c"
+      ],
+      "preferred": "grid.419550.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0501 3839"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q832911"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00671me87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mpi.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Psycholinguistics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Gelderland",
+        "lat": 51.8425,
+        "lng": 5.85278,
+        "name": "Nijmegen"
+      },
+      "geonames_id": 2750053
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Psycholinguistics"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Max Planck Instituut voor Psycholinguïstiek"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Psycholinguistik"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Donders Institute for Brain, Cognition and Behaviour",
+      "type": "related",
+      "id": "https://ror.org/053sba816"
+    },
+    {
+      "label": "Center for Language Studies",
+      "type": "related",
+      "id": "https://ror.org/00gxyk415"
+    },
+    {
+      "label": "Radboud University Nijmegen",
+      "type": "related",
+      "id": "https://ror.org/016xsfp80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

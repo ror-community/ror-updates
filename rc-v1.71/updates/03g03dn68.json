@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nigt.re.kr"
+  ],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100003694"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454132.5"
+      ],
+      "preferred": "grid.454132.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4678 8657"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18999206"
+      ],
+      "preferred": "Q18999206",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03g03dn68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nigt.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EA%B0%80%EB%85%B9%EC%83%89%EA%B8%B0%EC%88%A0%EC%97%B0%EA%B5%AC%EC%86%8C"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "GTC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label",
+        "alias"
+      ],
+      "value": "Green Technology Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NIGT"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "국가녹색기술연구소"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "녹색기술센터"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/058rymf81"
+    },
+    {
+      "label": "Korea Institute of Science and Technology",
+      "type": "related",
+      "id": "https://ror.org/05kzfa883"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

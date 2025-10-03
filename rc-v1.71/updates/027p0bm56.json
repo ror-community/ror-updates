@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100017571"
+      ],
+      "preferred": "501100017571",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.459958.c"
+      ],
+      "preferred": "grid.459958.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4680 1997"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5451115"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/027p0bm56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://fsfhg.health.wa.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fiona_Stanley_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fiona Stanley Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fiona Stanley Fremantle Hospitals Group",
+      "type": "parent",
+      "id": "https://ror.org/03xba7c91"
+    },
+    {
+      "label": "Fiona Wood Foundation",
+      "type": "related",
+      "id": "https://ror.org/015zq0969"
+    },
+    {
+      "label": "The Hospital Research Foundation Group",
+      "type": "related",
+      "id": "https://ror.org/054r0wx32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

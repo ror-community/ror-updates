@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-greifswald.de"
+  ],
+  "established": 1456,
+  "external_ids": [
+    {
+      "all": [
+        "501100018934"
+      ],
+      "preferred": "501100018934",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5603.0"
+      ],
+      "preferred": "grid.5603.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2353 1531"
+      ],
+      "preferred": "0000 0001 2353 1531",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q165528"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00r1edq15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-greifswald.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Greifswald"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "MV",
+        "country_subdivision_name": "Mecklenburg-Vorpommern",
+        "lat": 54.08905,
+        "lng": 13.40244,
+        "name": "Greifswald"
+      },
+      "geonames_id": 2917788
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Ernst-Moritz-Arndt-Universität Greifswald"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Greifswald"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universität Greifswald"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut für Klimaschutz, Energie und Mobilität",
+      "type": "child",
+      "id": "https://ror.org/03rvn2t89"
+    },
+    {
+      "label": "Universitätsmedizin Greifswald",
+      "type": "related",
+      "id": "https://ror.org/025vngs54"
+    },
+    {
+      "label": "Stiftung Alfried Krupp Kolleg Greifswald",
+      "type": "related",
+      "id": "https://ror.org/036b8pc68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

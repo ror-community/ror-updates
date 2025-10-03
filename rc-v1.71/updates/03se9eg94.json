@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1944,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411074.7"
+      ],
+      "preferred": "grid.411074.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2297 2036"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5908682"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03se9eg94",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hc.fm.usp.br/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hospital_das_Cl%C3%ADnicas_da_Universidade_de_S%C3%A3o_Paulo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "SP",
+        "country_subdivision_name": "São Paulo",
+        "lat": -23.5475,
+        "lng": -46.63611,
+        "name": "São Paulo"
+      },
+      "geonames_id": 3448439
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital das Clínicas da FMUSP"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of São Paulo Faculty of Medicine Clinics Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universidade de São Paulo",
+      "type": "related",
+      "id": "https://ror.org/036rp1748"
+    },
+    {
+      "label": "Instituto do Coração - HCFMUSP",
+      "type": "child",
+      "id": "https://ror.org/00q3jak84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

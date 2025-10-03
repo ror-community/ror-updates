@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "omp.eu"
+  ],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440476.5"
+      ],
+      "preferred": "grid.440476.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0730 0223"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3348333"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030syve83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.omp.eu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OMP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire Midi-Pyrénées"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Télescope Bernard Lyot",
+      "type": "child",
+      "id": "https://ror.org/03wa9cd25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

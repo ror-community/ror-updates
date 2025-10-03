@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "100009501"
+      ],
+      "preferred": "100009501",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.41891.35"
+      ],
+      "preferred": "grid.41891.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2156 6108"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1861687"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02w0trx84",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.montana.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Montana_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MT",
+        "country_subdivision_name": "Montana",
+        "lat": 45.67965,
+        "lng": -111.03856,
+        "name": "Bozeman"
+      },
+      "geonames_id": 5641727
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Agricultural College of the State of Montana"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Montana State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Museum of the Rockies",
+      "type": "child",
+      "id": "https://ror.org/01ve2ed25"
+    },
+    {
+      "label": "Montana State University Foundation",
+      "type": "child",
+      "id": "https://ror.org/01bj4g149"
+    },
+    {
+      "label": "Montana State University System",
+      "type": "parent",
+      "id": "https://ror.org/0343myz07"
+    },
+    {
+      "label": "Rocky Mountain Advanced Computing Consortium",
+      "type": "related",
+      "id": "https://ror.org/019q0z051"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

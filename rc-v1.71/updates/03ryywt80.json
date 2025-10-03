@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1939,
+  "external_ids": [
+    {
+      "all": [
+        "501100002631"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.256155.0"
+      ],
+      "preferred": "grid.256155.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 2973"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q56147"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ryywt80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gachon.ac.kr/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Gachon_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.43861,
+        "lng": 127.13778,
+        "name": "Seongnam-si"
+      },
+      "geonames_id": 1897000
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gachon University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "가천대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gachon University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/02687b281"
+    },
+    {
+      "label": "Gachon University Gil Medical Center",
+      "type": "related",
+      "id": "https://ror.org/005nteb15"
+    },
+    {
+      "label": "Gachon University Gil Medical Center",
+      "type": "child",
+      "id": "https://ror.org/005nteb15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

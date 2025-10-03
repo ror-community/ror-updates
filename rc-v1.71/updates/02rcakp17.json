@@ -1,0 +1,78 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-12",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/02rcakp17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ospo.noaa.gov/Operations/GOES/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.00455,
+        "lng": -76.87553,
+        "name": "Greenbelt"
+      },
+      "geonames_id": 4356847
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GOES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Geostationary Operational Environmental Satellites"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Geostationary Operational Environmental Satellites"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "parent",
+      "id": "https://ror.org/007qwym43"
+    },
+    {
+      "label": "NOAA Office of Geostationary Earth Orbit Observations",
+      "type": "parent",
+      "id": "https://ror.org/01z3tfx80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

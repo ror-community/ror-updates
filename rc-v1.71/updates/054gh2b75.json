@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cnuhh.com"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100019780"
+      ],
+      "preferred": "501100019780",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411602.0"
+      ],
+      "preferred": "grid.411602.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 9534"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16099046"
+      ],
+      "preferred": "Q16099046",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054gh2b75",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnuhh.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%88%9C%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "46",
+        "country_subdivision_name": "Jeollanam-do",
+        "lat": 35.06125,
+        "lng": 126.98746,
+        "name": "Hwasun"
+      },
+      "geonames_id": 1843841
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CNUHH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chonnam National University Hwasun Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "화순전남대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chonnam National University",
+      "type": "related",
+      "id": "https://ror.org/05kzjxq56"
+    },
+    {
+      "label": "Chonnam National University Hospital",
+      "type": "parent",
+      "id": "https://ror.org/00f200z37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

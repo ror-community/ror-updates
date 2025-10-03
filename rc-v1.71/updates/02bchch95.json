@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "100011880"
+      ],
+      "preferred": "100011880",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.27859.31"
+      ],
+      "preferred": "grid.27859.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0372 2105"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1503201"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02bchch95",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.plantandfood.co.nz/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Plant_%26_Food_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "AUK",
+        "country_subdivision_name": "Auckland",
+        "lat": -36.84853,
+        "lng": 174.76349,
+        "name": "Auckland"
+      },
+      "geonames_id": 2193733
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Plant & Food Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rangahau Ahumāra Kai"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Riddet Institute",
+      "type": "child",
+      "id": "https://ror.org/053336823"
+    },
+    {
+      "label": "Kiwifruit Breeding Centre",
+      "type": "related",
+      "id": "https://ror.org/03e6tc838"
+    },
+    {
+      "label": "Bioeconomy Science Institute",
+      "type": "parent",
+      "id": "https://ror.org/03j13xx78"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100002701",
+        "501100004085",
+        "501100013391"
+      ],
+      "preferred": "501100002701",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452901.b"
+      ],
+      "preferred": "grid.452901.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q9404048"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01p262204",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.moe.go.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Education_(South_Korea)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Sejong-si",
+        "lat": 36.59245,
+        "lng": 127.29223,
+        "name": "Sejong"
+      },
+      "geonames_id": 11523293
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Education"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "대한민국 교육부"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Education and Research Information Service",
+      "type": "child",
+      "id": "https://ror.org/020r4p198"
+    },
+    {
+      "label": "Korean Educational Development Institute",
+      "type": "child",
+      "id": "https://ror.org/00ajg8t71"
+    },
+    {
+      "label": "National Institute for International Education",
+      "type": "child",
+      "id": "https://ror.org/04xbpez43"
+    },
+    {
+      "label": "Government of the Republic of Korea",
+      "type": "parent",
+      "id": "https://ror.org/019xm3p48"
+    },
+    {
+      "label": "Korean Educational Development Institute",
+      "type": "related",
+      "id": "https://ror.org/00ajg8t71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

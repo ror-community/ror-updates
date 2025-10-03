@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100001806"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468264.a"
+      ],
+      "preferred": "grid.468264.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1956 9422"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01jachm79",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iugg.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/International_Union_of_Geodesy_and_Geophysics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BB",
+        "country_subdivision_name": "Brandenburg",
+        "lat": 52.39886,
+        "lng": 13.06566,
+        "name": "Potsdam"
+      },
+      "geonames_id": 2852458
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IUGG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "International Union of Geodesy and Geophysics"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Union Géodésique et Géophysique Internationale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Association Internationale de Géomagnétisme et d’Aéronomie",
+      "type": "child",
+      "id": "https://ror.org/013ym9476"
+    },
+    {
+      "label": "International Association of Geodesy",
+      "type": "related",
+      "id": "https://ror.org/04a9s7v87"
+    },
+    {
+      "label": "World Glacier Monitoring Service",
+      "type": "related",
+      "id": "https://ror.org/01jtrvx49"
+    },
+    {
+      "label": "International Association of Seismology and Physics of the Earth's Interior",
+      "type": "child",
+      "id": "https://ror.org/02zxe8216"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

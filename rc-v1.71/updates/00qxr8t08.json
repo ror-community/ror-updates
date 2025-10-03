@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "100009837"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418040.9"
+      ],
+      "preferred": "grid.418040.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2177 1232"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2826578"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00qxr8t08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://inspection.canada.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Canadian_Food_Inspection_Agency"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Agence Canadienne d'Inspection des Aliments"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CFIA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Canadian Food Inspection Agency"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Centre for Foreign Animal Disease",
+      "type": "child",
+      "id": "https://ror.org/0294a3487"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

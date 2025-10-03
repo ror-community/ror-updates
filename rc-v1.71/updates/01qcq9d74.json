@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kimm.re.kr"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "501100003701"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410901.d"
+      ],
+      "preferred": "grid.410901.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2325 3578"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16192328"
+      ],
+      "preferred": "Q16192328",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01qcq9d74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kimm.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B8%B0%EA%B3%84%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KIMM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Korea Institute of Machinery & Materials"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Korea Institute of Machinery and Materials"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국기계연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science and ICT",
+      "type": "parent",
+      "id": "https://ror.org/01wpjm123"
+    },
+    {
+      "label": "National Research Council of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/058rymf81"
+    },
+    {
+      "label": "Korea Institute of Materials Science",
+      "type": "related",
+      "id": "https://ror.org/01rwkhb30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

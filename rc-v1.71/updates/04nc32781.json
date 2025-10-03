@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469822.3"
+      ],
+      "preferred": "grid.469822.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0374 2122"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04nc32781",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iais.fraunhofer.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.77538,
+        "lng": 7.197,
+        "name": "Sankt Augustin"
+      },
+      "geonames_id": 2841648
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Fraunhofer Institut Autonome Intelligente Systeme"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fraunhofer Institute for Intelligent Analysis and Information Systems"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IAIS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lamarr Institute for Machine Learning and Artificial Intelligence",
+      "type": "child",
+      "id": "https://ror.org/04s11ea33"
+    },
+    {
+      "label": "Fraunhofer-Gesellschaft",
+      "type": "parent",
+      "id": "https://ror.org/05hkkdn48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
