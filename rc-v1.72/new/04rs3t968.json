@@ -90,7 +90,18 @@
       "value": "Instituto de Educação da Universidade de Lisboa"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    },
+    {
+      "label": "Unidade de Investigação e Desenvolvimento em Educação e Formação",
+      "type": "child",
+      "id": "https://ror.org/03acp3c91"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

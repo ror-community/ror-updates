@@ -68,7 +68,33 @@
       "value": "Instituto de Investigación Sanitaria del Hospital Universitario de La Princesa"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hospital Universitario de La Princesa",
+      "type": "related",
+      "id": "https://ror.org/03cg5md32"
+    },
+    {
+      "label": "Hospital Universitario Santa Cristina",
+      "type": "related",
+      "id": "https://ror.org/01bynmm24"
+    },
+    {
+      "label": "Hospital Infantil Universitario Niño Jesús",
+      "type": "related",
+      "id": "https://ror.org/028brk668"
+    },
+    {
+      "label": "Universidad Autónoma de Madrid",
+      "type": "related",
+      "id": "https://ror.org/01cby8j38"
+    },
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -96,11 +96,6 @@
   ],
   "relationships": [
     {
-      "label": "Severance Hospital",
-      "type": "child",
-      "id": "https://ror.org/044kjp413"
-    },
-    {
       "label": "Yonsei University Dental Hospital",
       "type": "child",
       "id": "https://ror.org/02fzwdc59"
@@ -117,8 +112,13 @@
     },
     {
       "label": "Yonsei University",
-      "type": "related",
+      "type": "parent",
       "id": "https://ror.org/01wjejq96"
+    },
+    {
+      "label": "Severance Hospital",
+      "type": "child",
+      "id": "https://ror.org/044kjp413"
     }
   ],
   "status": "active",
