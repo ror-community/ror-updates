@@ -9,7 +9,9 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "lpens.ens.psl.eu"
+  ],
   "established": 2019,
   "external_ids": [
     {
@@ -31,7 +33,7 @@
   "links": [
     {
       "type": "website",
-      "value": "http://lpens.phys.ens.fr/"
+      "value": "https://www.lpens.ens.psl.eu"
     }
   ],
   "locations": [
@@ -61,7 +63,7 @@
     {
       "lang": "en",
       "types": [
-        "label"
+        "alias"
       ],
       "value": "LPENS Laboratory"
     },
@@ -70,6 +72,13 @@
       "types": [
         "ror_display",
         "label"
+      ],
+      "value": "Laboratoire de Physique de l'Ecole Normale Supérieure"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
       ],
       "value": "Laboratoire de Physique de l'ENS"
     },
