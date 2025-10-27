@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482824.0"
+      ],
+      "preferred": "grid.482824.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 8434"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30274423"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02eptjh02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lesia.obspm.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.81381,
+        "lng": 2.235,
+        "name": "Meudon"
+      },
+      "geonames_id": 2994144
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LESIA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d’études spatiales et d’instrumentation en astrophysique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory of Space Studies and Instrumentation in Astrophysics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8109"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8109"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Observatoire de Paris",
+      "type": "parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "LIRA - Laboratoire d'instrumentation et de recherche en astrophysique",
+      "type": "successor",
+      "id": "https://ror.org/017zz7s54"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "501100002583"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.256681.e"
+      ],
+      "preferred": "grid.256681.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0661 1492"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q487836"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00saywf64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://eng.gnu.ac.kr/main/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Gyeongsang_National_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "48",
+        "country_subdivision_name": "Gyeongsangnam-do",
+        "lat": 35.20445,
+        "lng": 128.12408,
+        "name": "Jinju-si"
+      },
+      "geonames_id": 1846050
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GNU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gyeongsang National University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "경상대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gyeongsang National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00gbcc509"
+    },
+    {
+      "label": "Gyeongsang National University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00gbcc509"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

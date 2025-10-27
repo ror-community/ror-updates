@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mun.ca"
+  ],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "501100005616",
+        "501100000084"
+      ],
+      "preferred": "501100005616",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.25055.37"
+      ],
+      "preferred": "grid.25055.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9130 6822"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1895354"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04haebc03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mun.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Memorial_University_of_Newfoundland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "NL",
+        "country_subdivision_name": "Newfoundland and Labrador",
+        "lat": 47.56494,
+        "lng": -52.70931,
+        "name": "St. John's"
+      },
+      "geonames_id": 6324733
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MUN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Memorial University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Memorial University of Newfoundland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Newfoundland and Labrador Centre for Applied Health Research",
+      "type": "child",
+      "id": "https://ror.org/03356tk08"
+    },
+    {
+      "label": "Saint John Regional Hospital",
+      "type": "related",
+      "id": "https://ror.org/05k4mr860"
+    },
+    {
+      "label": "Observatoire global du Saint-Laurent (OGSL)",
+      "type": "related",
+      "id": "https://ror.org/03wfagk22"
+    },
+    {
+      "label": "Ocean Frontier Institute",
+      "type": "related",
+      "id": "https://ror.org/048py7387"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

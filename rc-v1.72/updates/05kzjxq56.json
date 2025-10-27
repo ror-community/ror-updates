@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1952,
+  "external_ids": [
+    {
+      "all": [
+        "501100002456"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.14005.30"
+      ],
+      "preferred": "grid.14005.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0356 9399"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q494681"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kzjxq56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://global.jnu.ac.kr/jnumain.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Chonnam_National_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "29",
+        "country_subdivision_name": "Gwangju",
+        "lat": 35.15472,
+        "lng": 126.91556,
+        "name": "Gwangju"
+      },
+      "geonames_id": 1841811
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chonnam National University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "전남대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chonnam National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00f200z37"
+    },
+    {
+      "label": "Chonnam National University Hwasun Hospital",
+      "type": "related",
+      "id": "https://ror.org/054gh2b75"
+    },
+    {
+      "label": "Chonnam National University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00f200z37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

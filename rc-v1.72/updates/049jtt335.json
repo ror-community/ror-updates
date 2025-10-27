@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uqar.ca"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100009443"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265702.4"
+      ],
+      "preferred": "grid.265702.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2185 197X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q170288"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049jtt335",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uqar.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universit%C3%A9_du_Qu%C3%A9bec_%C3%A0_Rimouski"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 48.44879,
+        "lng": -68.52396,
+        "name": "Rimouski"
+      },
+      "geonames_id": 6354895
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UQAR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université du Québec à Rimouski"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Northern Studies",
+      "type": "child",
+      "id": "https://ror.org/01q8ytn75"
+    },
+    {
+      "label": "Institut des sciences de la mer",
+      "type": "child",
+      "id": "https://ror.org/05wn3mp32"
+    },
+    {
+      "label": "Université du Québec",
+      "type": "parent",
+      "id": "https://ror.org/010gxg263"
+    },
+    {
+      "label": "Observatoire global du Saint-Laurent (OGSL)",
+      "type": "related",
+      "id": "https://ror.org/03wfagk22"
+    },
+    {
+      "label": "Réseau Québec maritime",
+      "type": "related",
+      "id": "https://ror.org/05n25nw52"
+    },
+    {
+      "label": "Obvia",
+      "type": "related",
+      "id": "https://ror.org/05fdt6816"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

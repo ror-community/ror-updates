@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hopital-bretonneau.aphp.fr"
+  ],
+  "established": 1901,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411777.3"
+      ],
+      "preferred": "grid.411777.3",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/0146pps37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hopital-bretonneau.aphp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Bretonneau Hospital"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Bretonneau"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hôpital Bretonneau"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

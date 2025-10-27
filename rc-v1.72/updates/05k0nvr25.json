@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.432932.d"
+      ],
+      "preferred": "grid.432932.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2204 9698"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05k0nvr25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cerema.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.73865,
+        "lng": 4.91303,
+        "name": "Bron"
+      },
+      "geonames_id": 3029931
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Études et d'Expertise sur les Risques, l'Environnement, la Mobilité et l'Aménagement"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "Cerema"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Unité Mixte de Recherche en Acoustique Environnementale",
+      "type": "child",
+      "id": "https://ror.org/00tjzq647"
+    },
+    {
+      "label": "Mobilités, Aménagement, Transports, Risques et Société",
+      "type": "child",
+      "id": "https://ror.org/04rdbcq08"
+    },
+    {
+      "label": "Ministère de la Transition écologique et de la Cohésion des territoires",
+      "type": "parent",
+      "id": "https://ror.org/00g8rx069"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

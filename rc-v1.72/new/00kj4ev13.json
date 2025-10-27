@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-10-05",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "astursalud.es"
+  ],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 9504 3505"
+      ],
+      "preferred": "0000 0000 9504 3505",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9076467"
+      ],
+      "preferred": "Q9076467",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00kj4ev13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.astursalud.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Servicio_de_Salud_del_Principado_de_Asturias"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AS",
+        "country_subdivision_name": "Asturias",
+        "lat": 43.36029,
+        "lng": -5.84476,
+        "name": "Oviedo"
+      },
+      "geonames_id": 3114711
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "SESPA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Servicio de Salud del Principado de Asturias"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Central University Hospital of Asturias",
+      "type": "child",
+      "id": "https://ror.org/03v85ar63"
+    },
+    {
+      "label": "Hospital Universitario De Cabueñes",
+      "type": "child",
+      "id": "https://ror.org/03yw66316"
+    },
+    {
+      "label": "Hospital Valle del Nalón",
+      "type": "child",
+      "id": "https://ror.org/05x6qqf62"
+    },
+    {
+      "label": "Hospital San Agustin",
+      "type": "child",
+      "id": "https://ror.org/003zecf96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464059.a"
+      ],
+      "preferred": "grid.464059.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0367 0472"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3402795"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/046p9e825",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pps.univ-paris-diderot.fr/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratory Preuves, Programmes et Systèmes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PPS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7126"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7126"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut national de recherche en sciences et technologies du numérique",
+      "type": "parent",
+      "id": "https://ror.org/02kvxyf05"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

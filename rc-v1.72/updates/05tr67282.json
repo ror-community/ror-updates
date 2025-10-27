@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1778,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412134.1"
+      ],
+      "preferred": "grid.412134.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0593 9113"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145188"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05tr67282",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-necker.aphp.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Necker-Enfants_Malades_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Necker"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Necker-Enfants Malades"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Necker Hospital – Hospital for Sick Children"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Référence Déficits Immunitaires Héréditaires",
+      "type": "child",
+      "id": "https://ror.org/009p5nb11"
+    },
+    {
+      "label": "Hôpitaux Universitaires Paris-Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01v676463"
+    },
+    {
+      "label": "ERN Skin",
+      "type": "related",
+      "id": "https://ror.org/0446wcg70"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

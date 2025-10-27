@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mss.go.kr"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "501100003663"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453066.2"
+      ],
+      "preferred": "grid.453066.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7856 1326"
+      ],
+      "preferred": "0000 0004 7856 1326",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33390102"
+      ],
+      "preferred": "Q33390102",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022c4zk48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mss.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_SMEs_and_Startups"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Daejeon",
+        "lat": 36.34913,
+        "lng": 127.38493,
+        "name": "Daejeon"
+      },
+      "geonames_id": 1835235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministry of SMEs and Startups"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "SMBA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Small and Medium Business Administration"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "중소기업청"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "중소벤처기업부"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea SMEs and Startups Agency",
+      "type": "child",
+      "id": "https://ror.org/03kvhnf06"
+    },
+    {
+      "label": "Ministry of Trade, Industry and Energy",
+      "type": "parent",
+      "id": "https://ror.org/008nkqk13"
+    },
+    {
+      "label": "Government of the Republic of Korea",
+      "type": "parent",
+      "id": "https://ror.org/019xm3p48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

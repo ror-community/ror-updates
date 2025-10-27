@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1886,
+  "external_ids": [
+    {
+      "all": [
+        "501100002630"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255649.9"
+      ],
+      "preferred": "grid.255649.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2171 7754"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q41114"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/053fp5c05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ewha.ac.kr/mbs/ewhaen/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ewha_Womans_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ewha Womans University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "이화여자대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ewha Womans University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/03exgrk66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

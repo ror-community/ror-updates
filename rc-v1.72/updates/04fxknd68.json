@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cu.ac.kr"
+  ],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "501100002447"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.253755.3"
+      ],
+      "preferred": "grid.253755.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9370 7312"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q625961"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04fxknd68",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cu.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Catholic_University_of_Daegu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "47",
+        "country_subdivision_name": "Gyeongsangbuk-do",
+        "lat": 35.82333,
+        "lng": 128.73778,
+        "name": "Gyeongsan-si"
+      },
+      "geonames_id": 1841598
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Catholic University of Daegu"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Daegu Catholic University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "대구가톨릭대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Daegu Catholic University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00fd9sj13"
+    },
+    {
+      "label": "Daegu Catholic University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00fd9sj13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1651,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414435.3"
+      ],
+      "preferred": "grid.414435.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2200 9055"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02kxjxy06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ch-sainte-anne.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CH Sainte-Anne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CH Ste-Anne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Sainte-Anne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre hospitalier Ste-Anne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Paul Broca",
+      "type": "related",
+      "id": "https://ror.org/00earpg61"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

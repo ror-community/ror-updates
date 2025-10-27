@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413885.3"
+      ],
+      "preferred": "grid.413885.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9731 7223"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145150"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e9m1r40",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-corentincelton.aphp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.82104,
+        "lng": 2.27718,
+        "name": "Issy-les-Moulineaux"
+      },
+      "geonames_id": 3012649
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Corentin-Celton"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Corentin-Celton"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpitaux Universitaires Paris-Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01v676463"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "501100003562"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454204.3"
+      ],
+      "preferred": "grid.454204.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0642 3098"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q488961"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xmt0833",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://eng.me.go.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Environment_(South_Korea)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Environment"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "대한민국 환경부"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea National Park Service",
+      "type": "child",
+      "id": "https://ror.org/005gp3d85"
+    },
+    {
+      "label": "National Institute of Chemical Safety",
+      "type": "child",
+      "id": "https://ror.org/02x9xnh02"
+    },
+    {
+      "label": "Nakdonggang National Institute of Biological Resources",
+      "type": "child",
+      "id": "https://ror.org/04k7gvs40"
+    },
+    {
+      "label": "Korea Water Resources Corporation (South Korea)",
+      "type": "child",
+      "id": "https://ror.org/04dtgat87"
+    },
+    {
+      "label": "Korea Environment Institute",
+      "type": "related",
+      "id": "https://ror.org/00bxeqa64"
+    },
+    {
+      "label": "Korea Meteorological Administration",
+      "type": "child",
+      "id": "https://ror.org/04nrmrg07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

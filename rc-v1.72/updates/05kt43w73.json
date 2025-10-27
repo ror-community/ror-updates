@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464105.2"
+      ],
+      "preferred": "grid.464105.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262461"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kt43w73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.comete.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "COMETE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chimie Organique, Médicinale et Extractive et Toxicologie Expérimentale"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Synthèse et structure de molécule d'intérêt pharmacologique"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8638"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8638"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dapa.go.kr"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100003626"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453394.c"
+      ],
+      "preferred": "grid.453394.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q11232933"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bjg9m96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dapa.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Defense_Acquisition_Program_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DAPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Defense Acquisition Program Administration"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "방위사업청"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agency for Defense Development",
+      "type": "child",
+      "id": "https://ror.org/05fhe0r85"
+    },
+    {
+      "label": "Defense Agency for Technology and Quality",
+      "type": "child",
+      "id": "https://ror.org/05f1c3n42"
+    },
+    {
+      "label": "Ministry of National Defense",
+      "type": "parent",
+      "id": "https://ror.org/05hfet039"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

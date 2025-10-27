@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414205.6"
+      ],
+      "preferred": "grid.414205.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0273 556X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145177"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004nnf780",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-louis-mourier.aphp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.91882,
+        "lng": 2.25404,
+        "name": "Colombes"
+      },
+      "geonames_id": 3024266
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Louis-Mourier"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Louis-Mourier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

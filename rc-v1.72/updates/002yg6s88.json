@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "grid.500774.1"
+      ],
+      "preferred": "grid.500774.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2184 8738"
+      ],
+      "preferred": "0000 0001 2184 8738",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2931259"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002yg6s88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ceped.org/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEPED"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre Population et Développement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Population and Development Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMRD 196"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Ile-de-France Villejuif",
+      "type": "parent",
+      "id": "https://ror.org/008kn4z11"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05q3vnk25"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

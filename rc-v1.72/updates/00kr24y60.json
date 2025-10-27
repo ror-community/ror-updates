@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488846.e"
+      ],
+      "preferred": "grid.488846.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0369 8491"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3151760"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00kr24y60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.institut-langevin.espci.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Langevin"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Langevin Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7587"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7587"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Paris 5",
+      "type": "parent",
+      "id": "https://ror.org/02e0y6e06"
+    },
+    {
+      "label": "ESPCI Paris",
+      "type": "parent",
+      "id": "https://ror.org/03zx86w41"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0371 0374"
+      ],
+      "preferred": "0000 0004 0371 0374",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782443"
+      ],
+      "preferred": "Q51782443",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04yrrdj53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://map5.mi.parisdescartes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MAP5"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mathématiques Appliquées à Paris 5"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8145"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8145"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

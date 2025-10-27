@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "yuhs.severance.healthcare"
+  ],
+  "established": 1885,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413046.4"
+      ],
+      "preferred": "grid.413046.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0439 4086"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30254152"
+      ],
+      "preferred": "Q30254152",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04sze3c15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://yuhs.severance.healthcare"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90_%EC%9D%98%EB%A3%8C%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "YUHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yonsei University Health System"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "연세대학교 의료원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "연세의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yonsei University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/02fzwdc59"
+    },
+    {
+      "label": "Yongin Severance Hospital",
+      "type": "child",
+      "id": "https://ror.org/0357msq30"
+    },
+    {
+      "label": "Gangnam Severance Hospital",
+      "type": "child",
+      "id": "https://ror.org/04ajwkn20"
+    },
+    {
+      "label": "Yonsei University",
+      "type": "parent",
+      "id": "https://ror.org/01wjejq96"
+    },
+    {
+      "label": "Severance Hospital",
+      "type": "child",
+      "id": "https://ror.org/044kjp413"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

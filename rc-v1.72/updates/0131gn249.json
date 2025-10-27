@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hosp.chosun.ac.kr"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464555.3"
+      ],
+      "preferred": "grid.464555.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7934 9060"
+      ],
+      "preferred": "0000 0004 7934 9060",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12616752"
+      ],
+      "preferred": "Q12616752",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0131gn249",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hosp.chosun.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "29",
+        "country_subdivision_name": "Gwangju",
+        "lat": 35.16667,
+        "lng": 126.91667,
+        "name": "Gwangju"
+      },
+      "geonames_id": 1841808
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chosun University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "조선대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chosun University",
+      "type": "parent",
+      "id": "https://ror.org/01zt9a375"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

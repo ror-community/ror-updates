@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-04-02",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lira.obspm.fr",
+    "observatoiredeparis.psl.eu"
+  ],
+  "established": 2025,
+  "external_ids": [],
+  "id": "https://ror.org/017zz7s54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lira.obspm.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.81381,
+        "lng": 2.235,
+        "name": "Meudon"
+      },
+      "geonames_id": 2994144
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LIRA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "LIRA - Laboratoire d'instrumentation et de recherche en astrophysique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "LIRA - Laboratory for Instrumentation and Research in Astrophysics"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'instrumentation et de recherche en astrophysique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory for Instrumentation and Research in Astrophysics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8254"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8254"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Observatoire de Paris",
+      "type": "parent",
+      "id": "https://ror.org/029nkcm90"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dental.severance.healthcare"
+  ],
+  "established": 1915,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464717.7"
+      ],
+      "preferred": "grid.464717.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 4223"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262860"
+      ],
+      "preferred": "Q30262860",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02fzwdc59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dental.severance.healthcare"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "YUDH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yonsei University Dental Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "연세대학교 치과대학병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yonsei University Health System",
+      "type": "parent",
+      "id": "https://ror.org/04sze3c15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1901,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413235.2"
+      ],
+      "preferred": "grid.413235.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0589"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02dcqy320",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://robertdebre.aphp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Robert-Debré"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Robert-Debré"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "ERN ITHACA",
+      "type": "related",
+      "id": "https://ror.org/03va0yq34"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

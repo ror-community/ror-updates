@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unigoa.ac.in"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100018061"
+      ],
+      "preferred": "100018061",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411722.3"
+      ],
+      "preferred": "grid.411722.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0720 3108"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5575117"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030reqw53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unigoa.ac.in/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Goa_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Goa",
+        "lat": 15.46915,
+        "lng": 73.83285,
+        "name": "Taleigao"
+      },
+      "geonames_id": 1255131
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Goa University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Goa Dental College and Hospital",
+      "type": "related",
+      "id": "https://ror.org/05wnp6x23"
+    },
+    {
+      "label": "Goa Medical College",
+      "type": "related",
+      "id": "https://ror.org/0030d2559"
+    },
+    {
+      "label": "Goa College of Architecture",
+      "type": "child",
+      "id": "https://ror.org/010w12y08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

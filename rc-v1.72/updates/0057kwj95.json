@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2166 5528"
+      ],
+      "preferred": "0000 0001 2166 5528",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51785534"
+      ],
+      "preferred": "Q51785534",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0057kwj95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://larca.u-paris.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LARCA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Recherche sur les Cultures Anglophones"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8225"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8225"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

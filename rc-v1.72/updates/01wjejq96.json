@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "yonsei.ac.kr"
+  ],
+  "established": 1885,
+  "external_ids": [
+    {
+      "all": [
+        "501100002573",
+        "501100008005"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15444.30"
+      ],
+      "preferred": "grid.15444.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0470 5454"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q39988"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01wjejq96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.yonsei.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Yonsei_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yonsei University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "연세대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yonsei University College of Dentistry",
+      "type": "child",
+      "id": "https://ror.org/00tfaab58"
+    },
+    {
+      "label": "Yonsei University Mirae Campus",
+      "type": "child",
+      "id": "https://ror.org/0160gc229"
+    },
+    {
+      "label": "Gangnam Severance Hospital",
+      "type": "related",
+      "id": "https://ror.org/04ajwkn20"
+    },
+    {
+      "label": "Severance Hospital",
+      "type": "related",
+      "id": "https://ror.org/044kjp413"
+    },
+    {
+      "label": "Wonju Severance Christian Hospital",
+      "type": "related",
+      "id": "https://ror.org/01b346b72"
+    },
+    {
+      "label": "Yonsei University Health System",
+      "type": "child",
+      "id": "https://ror.org/04sze3c15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

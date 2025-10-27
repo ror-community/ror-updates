@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0623 6436"
+      ],
+      "preferred": "0000 0004 0623 6436",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781143"
+      ],
+      "preferred": "Q51781143",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05yqfzf35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://geographie-cites.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.91667,
+        "lng": 2.38333,
+        "name": "Aubervilliers"
+      },
+      "geonames_id": 3036386
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "GC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8504"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UMR Géographie-cités"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

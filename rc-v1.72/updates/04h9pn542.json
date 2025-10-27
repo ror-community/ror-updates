@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "snu.ac.kr"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100002551",
+        "501100020055"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.31501.36"
+      ],
+      "preferred": "grid.31501.36",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0470 5905"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q39913"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04h9pn542",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.snu.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Seoul_National_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SNU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Seoul Daehakgyo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Seoul National University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "서울대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Advanced Institute of Convergence Technology",
+      "type": "child",
+      "id": "https://ror.org/01w62yz22"
+    },
+    {
+      "label": "Seoul National University Bundang Hospital",
+      "type": "related",
+      "id": "https://ror.org/00cb3km46"
+    },
+    {
+      "label": "Seoul National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01z4nnt86"
+    },
+    {
+      "label": "Seoul National University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/0494zgc81"
+    },
+    {
+      "label": "Seoul National University Hospital",
+      "type": "child",
+      "id": "https://ror.org/01z4nnt86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

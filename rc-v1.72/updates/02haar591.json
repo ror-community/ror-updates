@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.423115.0"
+      ],
+      "preferred": "grid.423115.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9000 8794"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3151794"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02haar591",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipsl.fr/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_Pierre_Simon_Laplace"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPSL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Pierre-Simon Laplace"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Laboratoire de Météorologie Dynamique",
+      "type": "related",
+      "id": "https://ror.org/000ehr937"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

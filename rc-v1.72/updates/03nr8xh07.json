@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503136.2"
+      ],
+      "preferred": "grid.503136.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0366 9076"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782863"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03nr8xh07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ibpc.fr/UMR7099/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "BPM"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LBPCPM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Biologie Physico-Chimique des Protéines Membranaires"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory of Physical and Chemical Biology of Membrane Proteins"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7099"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7099"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

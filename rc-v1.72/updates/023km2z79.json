@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-04-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.510344.7"
+      ],
+      "preferred": "grid.510344.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1799 4996"
+      ],
+      "preferred": "0000 0004 1799 4996",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/023km2z79",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopital-vaugirard.aphp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Vaugirard-Gabriel Pallez"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital de Vaugirard-Gabriel Pallez"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpitaux Universitaires Paris-Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01v676463"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

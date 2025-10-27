@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1883,
+  "external_ids": [
+    {
+      "all": [
+        "100007237",
+        "100007040",
+        "100011069"
+      ],
+      "preferred": "100007237",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266862.e"
+      ],
+      "preferred": "grid.266862.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 8163"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q968559"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04a5szx83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://und.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_North_Dakota"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "ND",
+        "country_subdivision_name": "North Dakota",
+        "lat": 47.92526,
+        "lng": -97.03285,
+        "name": "Grand Forks"
+      },
+      "geonames_id": 5059429
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UND"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of North Dakota"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du dakota du nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "North Dakota Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/045fdzr53"
+    },
+    {
+      "label": "University of North Dakota Computational Research Center",
+      "type": "child",
+      "id": "https://ror.org/01sdmps70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

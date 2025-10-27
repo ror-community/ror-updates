@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "saint-venant-lab.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503289.5"
+      ],
+      "preferred": "grid.503289.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6816 612X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782900"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049yaph28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.saint-venant-lab.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.8898,
+        "lng": 2.15863,
+        "name": "Chatou"
+      },
+      "geonames_id": 3026033
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LHSV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Hydraulique Saint-Venant"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'Hydraulique St. Venant"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Saint-Venant Hydraulics Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "École nationale des ponts et chaussées",
+      "type": "parent",
+      "id": "https://ror.org/02nwvxz07"
+    },
+    {
+      "label": "Électricité de France (France)",
+      "type": "parent",
+      "id": "https://ror.org/03wb8xz10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

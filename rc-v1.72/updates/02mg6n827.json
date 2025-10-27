@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457348.9"
+      ],
+      "preferred": "grid.457348.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0630 1517"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2931224"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02mg6n827",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cea.fr/Pages/le-cea/les-centres-cea/grenoble.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CEA Grenoble"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CENG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre d'Études Nucléaires de Grenoble"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives centre de Grenoble"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Economie Appliquée de Grenoble",
+      "type": "child",
+      "id": "https://ror.org/00fwjkb59"
+    },
+    {
+      "label": "Laboratoire des Technologies de la Microélectronique",
+      "type": "child",
+      "id": "https://ror.org/036zswm25"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

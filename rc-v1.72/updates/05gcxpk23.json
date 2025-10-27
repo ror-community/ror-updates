@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "damc.or.kr"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412048.b"
+      ],
+      "preferred": "grid.412048.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0005 0353 4320"
+      ],
+      "preferred": "0000 0005 0353 4320",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15214634"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gcxpk23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.damc.or.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%84%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Busan",
+        "lat": 35.10168,
+        "lng": 129.03004,
+        "name": "Busan"
+      },
+      "geonames_id": 1838524
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DAMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dong-A University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "동아대학교병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "동아대학교의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dong-A University",
+      "type": "related",
+      "id": "https://ror.org/03qvtpc38"
+    },
+    {
+      "label": "Dong-A University",
+      "type": "parent",
+      "id": "https://ror.org/03qvtpc38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

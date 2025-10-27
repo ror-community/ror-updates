@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ensae.fr"
+  ],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454310.7"
+      ],
+      "preferred": "grid.454310.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1941 2281"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1275372"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fz7mn40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensae.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ENSAE_ParisTech"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "ENSAE Paris"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSAE ParisTech"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École Nationale de la Statistique et de l'Administration Économique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche en Économie et Statistique",
+      "type": "child",
+      "id": "https://ror.org/0449khs19"
+    },
+    {
+      "label": "Groupe des Écoles Nationales d'Économie et Statistique",
+      "type": "parent",
+      "id": "https://ror.org/01p6yxw64"
+    },
+    {
+      "label": "Institut Polytechnique de Paris",
+      "type": "parent",
+      "id": "https://ror.org/042tfbd02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

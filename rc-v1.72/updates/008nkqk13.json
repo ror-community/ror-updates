@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "501100003052",
+        "501100002994"
+      ],
+      "preferred": "501100003052",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452961.d"
+      ],
+      "preferred": "grid.452961.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q491047"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008nkqk13",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.motie.go.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Trade,_Industry_and_Energy_(South_Korea)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Sejong-si",
+        "lat": 36.59245,
+        "lng": 127.29223,
+        "name": "Sejong"
+      },
+      "geonames_id": 11523293
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOTIE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Trade, Industry and Energy"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "대한민국 산업통상자원부"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Electronics Technology Institute",
+      "type": "child",
+      "id": "https://ror.org/039k6f508"
+    },
+    {
+      "label": "Korea Evaluation Institute of Industrial Technology",
+      "type": "child",
+      "id": "https://ror.org/03z9cwa38"
+    },
+    {
+      "label": "Ministry of SMEs and Startups",
+      "type": "child",
+      "id": "https://ror.org/022c4zk48"
+    },
+    {
+      "label": "Korean Agency for Technology and Standards",
+      "type": "child",
+      "id": "https://ror.org/05cfy3e91"
+    },
+    {
+      "label": "Korea Carbon Industry Promotion Agency",
+      "type": "child",
+      "id": "https://ror.org/00qbxky68"
+    },
+    {
+      "label": "Government of the Republic of Korea",
+      "type": "parent",
+      "id": "https://ror.org/019xm3p48"
+    },
+    {
+      "label": "Korea District Heating Corporation",
+      "type": "child",
+      "id": "https://ror.org/02wg74v35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
