@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462182.b"
+      ],
+      "preferred": "grid.462182.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 8728"
+      ],
+      "preferred": "0000 0001 2287 8728",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578240"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059n54003",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ensta-bretagne.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_de_techniques_avanc%C3%A9es_Bretagne"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.39029,
+        "lng": -4.48628,
+        "name": "Brest"
+      },
+      "geonames_id": 3030300
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSIETA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSTA Bretagne"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Institute of Advanced Technologies of Brittany"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École nationale supérieure de techniques avancées Bretagne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Formation et apprentissages professionnels",
+      "type": "child",
+      "id": "https://ror.org/05k9wmt43"
+    },
+    {
+      "label": "Fédération française Matériaux sous hautes vitesses de déformation. Application aux matériaux en conditions extrêmes, Procédés et structures",
+      "type": "related",
+      "id": "https://ror.org/00hgbrg14"
+    },
+    {
+      "label": "École Nationale Supérieure de Techniques Avancées",
+      "type": "parent",
+      "id": "https://ror.org/0309cs235"
+    },
+    {
+      "label": "Institut de Recherche Dupuy de Lôme",
+      "type": "child",
+      "id": "https://ror.org/03011gg73"
+    },
+    {
+      "label": "Laboratoire des Sciences et Techniques de l’Information de la Communication et de la Connaissance",
+      "type": "child",
+      "id": "https://ror.org/0266kfd37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

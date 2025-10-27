@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "khmc.or.kr"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411231.4"
+      ],
+      "preferred": "grid.411231.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0357 1464"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30253910"
+      ],
+      "preferred": "Q30253910",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01vbmek33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.khmc.or.kr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "KHMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kyung Hee University Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "경희의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyung Hee University Korean Medicine Hospital",
+      "type": "child",
+      "id": "https://ror.org/02f33kj63"
+    },
+    {
+      "label": "Kyung Hee University Humanitas Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/036ktj817"
+    },
+    {
+      "label": "Kyung Hee University Healthcare System",
+      "type": "parent",
+      "id": "https://ror.org/00jnds476"
+    },
+    {
+      "label": "Kyung Hee University",
+      "type": "related",
+      "id": "https://ror.org/01zqcg218"
+    },
+    {
+      "label": "Kyung Hee University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/02ss0kx69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

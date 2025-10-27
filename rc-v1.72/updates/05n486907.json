@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cku.ac.kr"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "501100002523",
+        "501100009695"
+      ],
+      "preferred": "501100009695",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411199.5"
+      ],
+      "preferred": "grid.411199.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5312 6811"
+      ],
+      "preferred": "0000 0004 5312 6811",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q626458"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n486907",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cku.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Catholic_Kwandong_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "42",
+        "country_subdivision_name": "Gangwon-do",
+        "lat": 37.75266,
+        "lng": 128.87239,
+        "name": "Gangneung"
+      },
+      "geonames_id": 1843137
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CKU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Catholic Kwandong University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "가톨릭관동대학교"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "alias"
+      ],
+      "value": "관동대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Myongji Hospital",
+      "type": "related",
+      "id": "https://ror.org/03zn16x61"
+    },
+    {
+      "label": "Catholic Kwandong University International St. Mary's Hospital",
+      "type": "child",
+      "id": "https://ror.org/04apk3g44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

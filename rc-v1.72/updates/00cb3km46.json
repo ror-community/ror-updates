@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "100016275"
+      ],
+      "preferred": "100016275",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412480.b"
+      ],
+      "preferred": "grid.412480.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 3378"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7451677"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00cb3km46",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.snubh.org/dh/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Seoul_National_University_Bundang_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.43861,
+        "lng": 127.13778,
+        "name": "Seongnam-si"
+      },
+      "geonames_id": 1897000
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SNUBH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Seoul National University Bundang Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "분당 서울대병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "분당 서울대학교병원"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "분당서울대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Seoul National University Hospital",
+      "type": "parent",
+      "id": "https://ror.org/01z4nnt86"
+    },
+    {
+      "label": "Seoul National University",
+      "type": "related",
+      "id": "https://ror.org/04h9pn542"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

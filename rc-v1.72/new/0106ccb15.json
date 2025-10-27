@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-10-05",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ensta-paris.fr"
+  ],
+  "established": 1970,
+  "external_ids": [],
+  "id": "https://ror.org/0106ccb15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensta-paris.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSTA Paris"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ENSTA ParisTech"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "École Nationale Supérieure de Techniques Avancées Paris"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "École Nationale Supérieure de Techniques Avancées",
+      "type": "parent",
+      "id": "https://ror.org/0309cs235"
+    },
+    {
+      "label": "Institut des Sciences de la Mécanique et Applications Industrielles",
+      "type": "child",
+      "id": "https://ror.org/00nbx9b54"
+    },
+    {
+      "label": "Laboratoire Mécanique des Solides",
+      "type": "child",
+      "id": "https://ror.org/00xd1ek73"
+    },
+    {
+      "label": "Laboratoire d'Optique Appliquée",
+      "type": "child",
+      "id": "https://ror.org/03czns913"
+    },
+    {
+      "label": "Laboratoire de Synthèse Organique",
+      "type": "child",
+      "id": "https://ror.org/04qgfge56"
+    },
+    {
+      "label": "Fédération Francilienne de Mécanique - Matériaux, Structures, Procédés",
+      "type": "related",
+      "id": "https://ror.org/01bbf9m56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

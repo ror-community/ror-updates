@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jbuh.co.kr"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "501100002864"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411551.5"
+      ],
+      "preferred": "grid.411551.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 1516"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12615161"
+      ],
+      "preferred": "Q12615161",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03by16w37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jbuh.co.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90%EB%B3%91%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Jeollabuk-do",
+        "lat": 35.82194,
+        "lng": 127.14889,
+        "name": "Jeonju"
+      },
+      "geonames_id": 1845457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chonbuk National University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "JBUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Jeonbuk National University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "전북대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Jeonbuk National University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/034bxst58"
+    },
+    {
+      "label": "Jeonbuk National University",
+      "type": "parent",
+      "id": "https://ror.org/05q92br09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

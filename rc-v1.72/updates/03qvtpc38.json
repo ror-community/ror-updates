@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100002468"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255166.3"
+      ],
+      "preferred": "grid.255166.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2218 7142"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q626783"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qvtpc38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.donga.ac.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Dong-a_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Busan",
+        "lat": 35.10168,
+        "lng": 129.03004,
+        "name": "Busan"
+      },
+      "geonames_id": 1838524
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dong-A University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "동아대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dong-A University Hospital",
+      "type": "related",
+      "id": "https://ror.org/05gcxpk23"
+    },
+    {
+      "label": "Dong-A University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05gcxpk23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

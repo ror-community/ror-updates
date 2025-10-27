@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-07-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ch.cauhs.or.kr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q110117701"
+      ],
+      "preferred": "Q110117701",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05cxnr816",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ch.cauhs.or.kr/group"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99%EB%8C%80%ED%95%99%EA%B5%90%EC%9D%98%EB%A3%8C%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CAUHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Chung-Ang University Healthcare System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chung-Ang University Medical Center"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "중앙대학교의료원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chung-Ang University Gwangmyeong Hospital",
+      "type": "child",
+      "id": "https://ror.org/0582v6g41"
+    },
+    {
+      "label": "Chung-Ang University",
+      "type": "parent",
+      "id": "https://ror.org/01r024a98"
+    },
+    {
+      "label": "Chung-Ang University Hospital",
+      "type": "child",
+      "id": "https://ror.org/04gr4mh63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

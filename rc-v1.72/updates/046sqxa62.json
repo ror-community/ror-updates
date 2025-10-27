@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "icsebre.cat"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.490132.d"
+      ],
+      "preferred": "grid.490132.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 2890"
+      ],
+      "preferred": "0000 0004 1767 2890",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/046sqxa62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://icsebre.cat/web/htvc/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 40.81249,
+        "lng": 0.5216,
+        "name": "Tortosa"
+      },
+      "geonames_id": 3107677
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HTVC"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital Verge de la Cinta"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital Virgen de la Cinta"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital de Tortosa"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hospital de Tortosa Verge de la Cinta"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital de Tortosa Virgen de la Cinta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Català de la Salut",
+      "type": "parent",
+      "id": "https://ror.org/04wkdwp52"
+    },
+    {
+      "label": "Universitat Rovira i Virgili",
+      "type": "related",
+      "id": "https://ror.org/00g5sqv46"
+    },
+    {
+      "label": "Institut d'Investigació Sanitària Pere Virgili",
+      "type": "related",
+      "id": "https://ror.org/01av3a615"
+    },
+    {
+      "label": "Institut Universitari d'Investigació en Atenció Primària Jordi Gol",
+      "type": "related",
+      "id": "https://ror.org/0370bpp07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

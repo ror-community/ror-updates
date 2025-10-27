@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0640 6351"
+      ],
+      "preferred": "0000 0004 0640 6351",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q43305"
+      ],
+      "preferred": "Q43305",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05xvk4r52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.telecom-sudparis.eu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Telecom_SudParis"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.63389,
+        "lng": 2.44417,
+        "name": "Évry-Courcouronnes"
+      },
+      "geonames_id": 6454878
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "TSP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Telecom SudParis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Polytechnique de Paris",
+      "type": "parent",
+      "id": "https://ror.org/042tfbd02"
+    },
+    {
+      "label": "Institut Mines-Télécom",
+      "type": "parent",
+      "id": "https://ror.org/025vp2923"
+    },
+    {
+      "label": "Services répartis, Architectures, MOdélisation, Validation, Administration des Réseaux",
+      "type": "child",
+      "id": "https://ror.org/05d29yv45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2259 2690"
+      ],
+      "preferred": "0000 0001 2259 2690",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1714370"
+      ],
+      "preferred": "Q1714370",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056jxaa57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.theo.uni-trier.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Theologische_Fakult%C3%A4t_Trier"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "RP",
+        "country_subdivision_name": "Rheinland-Pfalz",
+        "lat": 49.75565,
+        "lng": 6.63935,
+        "name": "Trier"
+      },
+      "geonames_id": 2821164
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Theologische Fakultät Trier"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Theologische Fakultät der Universität Trier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cusanus Institut",
+      "type": "child",
+      "id": "https://ror.org/037tt6b65"
+    },
+    {
+      "label": "Universität Trier",
+      "type": "related",
+      "id": "https://ror.org/02778hg05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

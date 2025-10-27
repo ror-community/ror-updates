@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100002457"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254187.d"
+      ],
+      "preferred": "grid.254187.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9475 8840"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q56143"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01zt9a375",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://eng.chosun.ac.kr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Chosun_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "29",
+        "country_subdivision_name": "Gwangju",
+        "lat": 35.15472,
+        "lng": 126.91556,
+        "name": "Gwangju"
+      },
+      "geonames_id": 1841811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chosun University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "조선대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chosun University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/01p78w079"
+    },
+    {
+      "label": "Chosun University Dental Hospital",
+      "type": "related",
+      "id": "https://ror.org/01p78w079"
+    },
+    {
+      "label": "Chosun University Hospital",
+      "type": "child",
+      "id": "https://ror.org/0131gn249"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

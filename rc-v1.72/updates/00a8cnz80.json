@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503363.0"
+      ],
+      "preferred": "grid.503363.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q61933161"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00a8cnz80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/medicaments_technologies_sante/SPI/li2d.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LI2D"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire Innovations Technologiques pour la Détection et le Diagnostic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratory Technological Innovations for the Detection and Diagnosis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences du Vivant Frédéric Joliot",
+      "type": "parent",
+      "id": "https://ror.org/016pnwd02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

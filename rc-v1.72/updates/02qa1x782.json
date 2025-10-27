@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1868,
+  "external_ids": [
+    {
+      "all": [
+        "501100000041"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.23618.3e"
+      ],
+      "preferred": "grid.23618.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0449 2129"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q349666"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qa1x782",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dfo-mpo.gc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Fisheries_and_Oceans_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DFO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Fisheries and Oceans"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fisheries and Oceans Canada"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Pêches et Océans Canada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Canadian Hydrographic Service",
+      "type": "child",
+      "id": "https://ror.org/01dbm1232"
+    },
+    {
+      "label": "NorthEast Pacific Deep-sea Exploration Project",
+      "type": "child",
+      "id": "https://ror.org/01fkg1209"
+    },
+    {
+      "label": "Canadian Coast Guard",
+      "type": "child",
+      "id": "https://ror.org/01yzs6492"
+    },
+    {
+      "label": "Government of Canada",
+      "type": "parent",
+      "id": "https://ror.org/010q4q527"
+    },
+    {
+      "label": "Observatoire global du Saint-Laurent (OGSL)",
+      "type": "related",
+      "id": "https://ror.org/03wfagk22"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

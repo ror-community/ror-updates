@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uibk.ac.at"
+  ],
+  "established": 1669,
+  "external_ids": [
+    {
+      "all": [
+        "501100012163",
+        "501100016007"
+      ],
+      "preferred": "501100012163",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5771.4"
+      ],
+      "preferred": "grid.5771.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2151 8122"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q875788"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054pv6659",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uibk.ac.at"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Innsbruck"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "7",
+        "country_subdivision_name": "Tyrol",
+        "lat": 47.26266,
+        "lng": 11.39454,
+        "name": "Innsbruck"
+      },
+      "geonames_id": 2775220
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Leopold-Franzens-Universität Innsbruck"
+    },
+    {
+      "lang": "hr",
+      "types": [
+        "label"
+      ],
+      "value": "Sveučilište u Innsbrucku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Innsbruck"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universität Innsbruck"
+    },
+    {
+      "lang": "sl",
+      "types": [
+        "label"
+      ],
+      "value": "Univerza v Innsbrucku"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Austrian Drug Screening Institute (Austria)",
+      "type": "child",
+      "id": "https://ror.org/05e03wj43"
+    },
+    {
+      "label": "Universitäts- und Landesbibliothek Tirol",
+      "type": "child",
+      "id": "https://ror.org/01s0je147"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

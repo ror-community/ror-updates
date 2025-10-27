@@ -1,0 +1,143 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pusan.ac.kr"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100002543"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262229.f"
+      ],
+      "preferred": "grid.262229.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0719 8572"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q53122"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01an57a31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pusan.ac.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Pusan_National_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Busan",
+        "lat": 35.10168,
+        "lng": 129.03004,
+        "name": "Busan"
+      },
+      "geonames_id": 1838524
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Busan National University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Miryang National University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PNU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pusan National University"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "부산대학교"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pusan National University Korean Medicine Hospital",
+      "type": "child",
+      "id": "https://ror.org/01v1k9x08"
+    },
+    {
+      "label": "Pusan National University Hospital",
+      "type": "related",
+      "id": "https://ror.org/027zf7h57"
+    },
+    {
+      "label": "Pusan National University Yangsan Hospital",
+      "type": "related",
+      "id": "https://ror.org/04kgg1090"
+    },
+    {
+      "label": "Pusan National University Hospital",
+      "type": "child",
+      "id": "https://ror.org/027zf7h57"
+    },
+    {
+      "label": "Pusan National University Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/041baww89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

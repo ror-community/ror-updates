@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482806.0"
+      ],
+      "preferred": "grid.482806.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1799 4945"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30103341"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01v676463",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hopitaux-parisouest.aphp.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "GHU-Paris centre"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUPO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpitaux Universitaires Paris-Ouest"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Corentin-Celton",
+      "type": "child",
+      "id": "https://ror.org/02e9m1r40"
+    },
+    {
+      "label": "Hôpital Européen Georges-Pompidou",
+      "type": "child",
+      "id": "https://ror.org/016vx5156"
+    },
+    {
+      "label": "Hôpital Necker-Enfants Malades",
+      "type": "child",
+      "id": "https://ror.org/05tr67282"
+    },
+    {
+      "label": "Hôpital de Vaugirard-Gabriel Pallez",
+      "type": "child",
+      "id": "https://ror.org/023km2z79"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "related",
+      "id": "https://ror.org/05f82e368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

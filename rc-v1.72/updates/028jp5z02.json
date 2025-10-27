@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kfri.re.kr"
+  ],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "501100003712"
+      ],
+      "preferred": "501100003712",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418974.7"
+      ],
+      "preferred": "grid.418974.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0573 0246"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16167394"
+      ],
+      "preferred": "Q16167394",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028jp5z02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kfri.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.43861,
+        "lng": 127.13778,
+        "name": "Seongnam-si"
+      },
+      "geonames_id": 1897000
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KFRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Food Research Institute"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국식품연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/058rymf81"
+    },
+    {
+      "label": "World Institute of Kimchi",
+      "type": "related",
+      "id": "https://ror.org/01dcefd69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

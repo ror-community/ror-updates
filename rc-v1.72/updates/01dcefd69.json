@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-03-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100003722"
+      ],
+      "preferred": "501100003722",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 1786 4331"
+      ],
+      "preferred": "0000 0004 1786 4331",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12602186"
+      ],
+      "preferred": "Q12602186",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01dcefd69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wikim.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EA%B9%80%EC%B9%98%EC%97%B0%EA%B5%AC%EC%86%8C"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "29",
+        "country_subdivision_name": "Gwangju",
+        "lat": 35.15472,
+        "lng": 126.91556,
+        "name": "Gwangju"
+      },
+      "geonames_id": 1841811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "WiKim"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "World Institute of Kimchi"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "세계김치연구소"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/058rymf81"
+    },
+    {
+      "label": "Korea Food Research Institute",
+      "type": "related",
+      "id": "https://ror.org/028jp5z02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oceanexplorer.noaa.gov"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "100018611"
+      ],
+      "preferred": "100018611",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.474353.2"
+      ],
+      "preferred": "grid.474353.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q7079282"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05xqpda80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://oceanexplorer.noaa.gov/welcome.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Ocean_Exploration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display"
+      ],
+      "value": "NOAA Ocean Exploration"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NOAA Ocean Exploration and Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OE"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OER"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Ocean Exploration"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "Office of Ocean Exploration and Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

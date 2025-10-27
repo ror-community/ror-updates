@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1877,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411107.2"
+      ],
+      "preferred": "grid.411107.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 5442"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5902707"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028brk668",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.comunidad.madrid/hospital/ninojesus/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hospital_del_Ni%C3%B1o_Jes%C3%BAs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Infantil Universitario Niño Jesús"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    },
+    {
+      "label": "Universidad Autónoma de Madrid",
+      "type": "related",
+      "id": "https://ror.org/01cby8j38"
+    },
+    {
+      "label": "Instituto de Investigación Sanitaria del Hospital Universitario de La Princesa",
+      "type": "related",
+      "id": "https://ror.org/02zx68e15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

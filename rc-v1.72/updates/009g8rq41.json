@@ -1,0 +1,154 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mafra.go.kr"
+  ],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100003624",
+        "501100003952"
+      ],
+      "preferred": "501100003624",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419888.4"
+      ],
+      "preferred": "grid.419888.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5948 6949"
+      ],
+      "preferred": "0000 0004 5948 6949",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q624460"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009g8rq41",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mafra.go.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Agriculture,_Food_and_Rural_Affairs_(South_Korea)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Sejong-si",
+        "lat": 36.59245,
+        "lng": 127.29223,
+        "name": "Sejong"
+      },
+      "geonames_id": 11523293
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MAFRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Agriculture"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Agriculture, Food and Rural Affairs"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Nongnim Chucksan Sikpum-bu"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "농림축산식품부"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute of Fisheries Science",
+      "type": "child",
+      "id": "https://ror.org/02chzeh21"
+    },
+    {
+      "label": "Korea Seed & Variety Service",
+      "type": "child",
+      "id": "https://ror.org/044eq7773"
+    },
+    {
+      "label": "National Agricultural Products Quality Management Service",
+      "type": "child",
+      "id": "https://ror.org/025mxgc68"
+    },
+    {
+      "label": "Korea National College of Agriculture and Fisheries",
+      "type": "child",
+      "id": "https://ror.org/00vn4ec76"
+    },
+    {
+      "label": "Rural Development Administration",
+      "type": "child",
+      "id": "https://ror.org/03xs9yg50"
+    },
+    {
+      "label": "Government of the Republic of Korea",
+      "type": "parent",
+      "id": "https://ror.org/019xm3p48"
+    },
+    {
+      "label": "Korea Rural Economic Institute",
+      "type": "related",
+      "id": "https://ror.org/00avq9860"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
