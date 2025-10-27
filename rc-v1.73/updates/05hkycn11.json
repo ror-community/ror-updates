@@ -5,13 +5,11 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-10-24",
+      "date": "2025-10-27",
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "meeresmuseum.de"
-  ],
+  "domains": [],
   "established": 1951,
   "external_ids": [
     {
@@ -40,7 +38,7 @@
   "links": [
     {
       "type": "website",
-      "value": "https://www.deutsches-meeresmuseum.de/museumsstandorte/meeresmuseum/ihr-besuch"
+      "value": "https://www.meeresmuseum.de"
     },
     {
       "type": "wikipedia",
@@ -67,15 +65,15 @@
     {
       "lang": "de",
       "types": [
-        "label"
+        "label",
+        "ror_display"
       ],
       "value": "Deutsche Meeresmuseum"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
       ],
       "value": "German Oceanographic Museum"
     },
@@ -92,6 +90,13 @@
         "alias"
       ],
       "value": "Natural History Museum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ocean Museum Germany"
     }
   ],
   "relationships": [],

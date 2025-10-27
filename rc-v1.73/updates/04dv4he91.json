@@ -5,11 +5,13 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-27",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
+  "domains": [
+    "liris.cnrs.fr"
+  ],
   "established": 2003,
   "external_ids": [
     {
@@ -25,13 +27,20 @@
       ],
       "preferred": null,
       "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214426"
+      ],
+      "preferred": "Q3214426",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04dv4he91",
   "links": [
     {
       "type": "website",
-      "value": "https://liris.cnrs.fr/"
+      "value": "https://liris.cnrs.fr"
     }
   ],
   "locations": [
@@ -72,13 +81,6 @@
         "alias"
       ],
       "value": "UMR 5205"
-    },
-    {
-      "lang": null,
-      "types": [
-        "alias"
-      ],
-      "value": "UMR5205"
     }
   ],
   "relationships": [

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-10-24",
+      "date": "2025-10-27",
       "schema_version": "2.1"
     }
   },
@@ -34,13 +34,24 @@
       ],
       "preferred": null,
       "type": "isni"
+    },
+    {
+      "all": [
+        "Q13102615"
+      ],
+      "preferred": "Q13102615",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/039z13y21",
   "links": [
     {
       "type": "website",
-      "value": "https://www.fnr.lu/"
+      "value": "http://www.fnr.lu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://lb.wikipedia.org/wiki/Fonds_national_de_la_recherche"
     }
   ],
   "locations": [
@@ -52,8 +63,8 @@
         "country_name": "Luxembourg",
         "country_subdivision_code": "LU",
         "country_subdivision_name": "Luxembourg",
-        "lat": 49.60982,
-        "lng": 6.13268,
+        "lat": 49.61167,
+        "lng": 6.13,
         "name": "Luxembourg"
       },
       "geonames_id": 2960316
@@ -70,7 +81,6 @@
     {
       "lang": "fr",
       "types": [
-        "ror_display",
         "label"
       ],
       "value": "Fonds National de la Recherche"
@@ -78,7 +88,8 @@
     {
       "lang": "en",
       "types": [
-        "label"
+        "label",
+        "ror_display"
       ],
       "value": "National Research Fund Luxembourg"
     }
