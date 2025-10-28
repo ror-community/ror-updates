@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Instituto Universitário de Ciências Psicológicas Sociais e da Vida Centro de Investigação em Psicologia Aplicada Capacidades e Inclusão"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "ISPA - Instituto Universitário",
+      "type": "parent",
+      "id": "https://ror.org/019yg0716"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

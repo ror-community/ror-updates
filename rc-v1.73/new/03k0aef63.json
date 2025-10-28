@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Universidade Aberta Centro de Estudos Globais"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Aberta",
+      "type": "parent",
+      "id": "https://ror.org/02rv3w387"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Centre de Recherche Public de la Santé"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Luxembourg Institute of Health",
+      "type": "successor",
+      "id": "https://ror.org/012m8gv78"
+    }
+  ],
   "status": "inactive",
   "types": [
     "nonprofit"

@@ -1,0 +1,888 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-03-15",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inrae.fr"
+  ],
+  "established": 2020,
+  "external_ids": [
+    {
+      "all": [
+        "501100022077"
+      ],
+      "preferred": "501100022077",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507621.7"
+      ],
+      "preferred": "grid.507621.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q70571774"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003vg9w96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INRAE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Research Institute for Agriculture, Food and Environment"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AgroResonance Platform",
+      "type": "child",
+      "id": "https://ror.org/01wzg9f04"
+    },
+    {
+      "label": "Agroécologie",
+      "type": "child",
+      "id": "https://ror.org/00mkad321"
+    },
+    {
+      "label": "Architecture et Fonction des Macromolécules Biologiques",
+      "type": "child",
+      "id": "https://ror.org/04jm8zw14"
+    },
+    {
+      "label": "Institut des Sciences des Plantes de Montpellier",
+      "type": "child",
+      "id": "https://ror.org/05r332y60"
+    },
+    {
+      "label": "Biologie Fonctionnelle Insectes et Interactions",
+      "type": "child",
+      "id": "https://ror.org/03d1jma17"
+    },
+    {
+      "label": "Biologie des Oiseaux et Aviculture",
+      "type": "child",
+      "id": "https://ror.org/02y3mfk39"
+    },
+    {
+      "label": "Carnot Institute Qualiment",
+      "type": "child",
+      "id": "https://ror.org/032k75171"
+    },
+    {
+      "label": "Centre Bourgogne-Franche-Comté",
+      "type": "child",
+      "id": "https://ror.org/002jby155"
+    },
+    {
+      "label": "Centre Bretagne-Normandie",
+      "type": "child",
+      "id": "https://ror.org/01v6wmk25"
+    },
+    {
+      "label": "Centre Clermont-Auvergne-Rhône-Alpes",
+      "type": "child",
+      "id": "https://ror.org/04aqtsh50"
+    },
+    {
+      "label": "Centre INRAE Grand-Est - Colmar",
+      "type": "child",
+      "id": "https://ror.org/00zg31r41"
+    },
+    {
+      "label": "Centre Nouvelle Aquitaine-Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/00tebkv94"
+    },
+    {
+      "label": "Centre Occitanie-Montpellier",
+      "type": "child",
+      "id": "https://ror.org/03fkrcm40"
+    },
+    {
+      "label": "Centre Occitanie-Toulouse",
+      "type": "child",
+      "id": "https://ror.org/02sxjwh33"
+    },
+    {
+      "label": "Centre Pays de la Loire",
+      "type": "child",
+      "id": "https://ror.org/020jynt45"
+    },
+    {
+      "label": "Centre Provence-Alpes-Côte d'Azur",
+      "type": "child",
+      "id": "https://ror.org/03qbdej90"
+    },
+    {
+      "label": "Centre Régional d’Innovation et de Transferts Technologiques des Industries du Bois",
+      "type": "child",
+      "id": "https://ror.org/016crzw98"
+    },
+    {
+      "label": "Centre Val de Loire",
+      "type": "child",
+      "id": "https://ror.org/03ntmtb29"
+    },
+    {
+      "label": "Centre d'Écologie Fonctionnelle et Évolutive",
+      "type": "child",
+      "id": "https://ror.org/008rywf59"
+    },
+    {
+      "label": "Centre de Biologie et de Gestion des Populations",
+      "type": "child",
+      "id": "https://ror.org/05h7ddb14"
+    },
+    {
+      "label": "Centre de Corse",
+      "type": "child",
+      "id": "https://ror.org/04hrbdg71"
+    },
+    {
+      "label": "Centre de Recherche en Nutrition Humaine d'Auvergne",
+      "type": "child",
+      "id": "https://ror.org/03rzyjb72"
+    },
+    {
+      "label": "Centre des Sciences du Goût et de l'Alimentation",
+      "type": "child",
+      "id": "https://ror.org/05s1rff82"
+    },
+    {
+      "label": "Centre Île-de-France - Jouy-en-Josas - Antony",
+      "type": "child",
+      "id": "https://ror.org/00gtg0p11"
+    },
+    {
+      "label": "Centre Île-de-France - Versailles-Grignon",
+      "type": "child",
+      "id": "https://ror.org/02cbapb21"
+    },
+    {
+      "label": "Dynamique des Génomes et Adaptation Microbienne",
+      "type": "child",
+      "id": "https://ror.org/01gbppd30"
+    },
+    {
+      "label": "Département Alimentation Humaine",
+      "type": "child",
+      "id": "https://ror.org/00pgyqh43"
+    },
+    {
+      "label": "Département Biologie et Amélioration des Plantes",
+      "type": "child",
+      "id": "https://ror.org/05r63mf91"
+    },
+    {
+      "label": "Département Environnement et Agronomie",
+      "type": "child",
+      "id": "https://ror.org/01e7wth34"
+    },
+    {
+      "label": "Département Mathématiques et Informatique Appliquées",
+      "type": "child",
+      "id": "https://ror.org/011emb038"
+    },
+    {
+      "label": "Département Microbiologie et Chaîne Alimentaire",
+      "type": "child",
+      "id": "https://ror.org/03n4vkw74"
+    },
+    {
+      "label": "Département Physiologie Animale et Systèmes d’Élevage",
+      "type": "child",
+      "id": "https://ror.org/03tpcfk14"
+    },
+    {
+      "label": "Département Santé Animale",
+      "type": "child",
+      "id": "https://ror.org/024409k12"
+    },
+    {
+      "label": "Département Santé des Plantes et Environnement",
+      "type": "child",
+      "id": "https://ror.org/0455v8x20"
+    },
+    {
+      "label": "Département Sciences pour l’Action et le Développement",
+      "type": "child",
+      "id": "https://ror.org/03vxmn596"
+    },
+    {
+      "label": "Département Sciences sociales, agriculture et alimentation, espace et environnement",
+      "type": "child",
+      "id": "https://ror.org/012221e05"
+    },
+    {
+      "label": "Département Génétique Animale",
+      "type": "child",
+      "id": "https://ror.org/029xmsm82"
+    },
+    {
+      "label": "Département Écologie des Forêts, Prairies et Milieux Aquatiques",
+      "type": "child",
+      "id": "https://ror.org/00yv4p972"
+    },
+    {
+      "label": "Ecologie des Forêts de Guyane",
+      "type": "child",
+      "id": "https://ror.org/04q9vef57"
+    },
+    {
+      "label": "Field Observatory in Urban Hydrology",
+      "type": "child",
+      "id": "https://ror.org/05v3w8223"
+    },
+    {
+      "label": "Fish Physiology and Genomics Institute",
+      "type": "child",
+      "id": "https://ror.org/04xtaw673"
+    },
+    {
+      "label": "Fractionnation of AgroResources and Environment",
+      "type": "child",
+      "id": "https://ror.org/00136g547"
+    },
+    {
+      "label": "Genomics and Biotechnology of the Fruits Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01z0xsq42"
+    },
+    {
+      "label": "Gestion de l'Eau, Acteurs, Usages",
+      "type": "child",
+      "id": "https://ror.org/020g0rw41"
+    },
+    {
+      "label": "Grapevine Health and Wine Quality",
+      "type": "child",
+      "id": "https://ror.org/0291jbz11"
+    },
+    {
+      "label": "Laboratoire d'Economie Appliquée de Grenoble",
+      "type": "child",
+      "id": "https://ror.org/00fwjkb59"
+    },
+    {
+      "label": "Groupe de Recherche en Droit, Économie, Gestion",
+      "type": "child",
+      "id": "https://ror.org/00rfccx09"
+    },
+    {
+      "label": "Génétique Animale et Biologie Intégrative",
+      "type": "child",
+      "id": "https://ror.org/03rkgeb39"
+    },
+    {
+      "label": "Génétique Quantitative et Évolution Le Moulon",
+      "type": "child",
+      "id": "https://ror.org/012fqzm33"
+    },
+    {
+      "label": "Unité de Nutrition Humaine",
+      "type": "child",
+      "id": "https://ror.org/003qhrc72"
+    },
+    {
+      "label": "Infectiologie Animale et Santé Publique",
+      "type": "child",
+      "id": "https://ror.org/0454zjr22"
+    },
+    {
+      "label": "Innovation and Development in Agriculture and Food",
+      "type": "child",
+      "id": "https://ror.org/0262br971"
+    },
+    {
+      "label": "Institut Jean-Pierre Bourgin",
+      "type": "child",
+      "id": "https://ror.org/01wqd6v19"
+    },
+    {
+      "label": "Institut Sophia Agrobiotech",
+      "type": "child",
+      "id": "https://ror.org/04vj6zn89"
+    },
+    {
+      "label": "Institut de Génomique Fonctionnelle de Lyon",
+      "type": "child",
+      "id": "https://ror.org/038fcbc74"
+    },
+    {
+      "label": "Institut des Sciences des Plantes de Paris Saclay",
+      "type": "child",
+      "id": "https://ror.org/00ajjta07"
+    },
+    {
+      "label": "Institut de Génétique, Environnement et Protection des Plantes",
+      "type": "child",
+      "id": "https://ror.org/038kxsm48"
+    },
+    {
+      "label": "Institut d'écologie et des sciences de l'environnement de Paris",
+      "type": "child",
+      "id": "https://ror.org/02s56xp85"
+    },
+    {
+      "label": "Institut de Mécanique et d'Ingénierie de Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/00wrnm709"
+    },
+    {
+      "label": "Laboratoire CarMeN",
+      "type": "child",
+      "id": "https://ror.org/03bbjky47"
+    },
+    {
+      "label": "Laboratoire Physiologie Cellulaire & Végétale",
+      "type": "child",
+      "id": "https://ror.org/00jxe7243"
+    },
+    {
+      "label": "Laboratoire d'Ingénierie des Systèmes Biologiques et des Procédés",
+      "type": "child",
+      "id": "https://ror.org/01yypjb30"
+    },
+    {
+      "label": "Laboratoire de Biotechnologie de l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/022m8c549"
+    },
+    {
+      "label": "Laboratoire de Génétique Cellulaire",
+      "type": "child",
+      "id": "https://ror.org/05k317v03"
+    },
+    {
+      "label": "Laboratoire Reproduction et Développement des Plantes",
+      "type": "child",
+      "id": "https://ror.org/04w61vh47"
+    },
+    {
+      "label": "Laboratoire des Interactions Plantes Micro-Organismes",
+      "type": "child",
+      "id": "https://ror.org/02gwt2810"
+    },
+    {
+      "label": "Laboratoire Écologie Fonctionnelle et Environnement",
+      "type": "child",
+      "id": "https://ror.org/027rbaq21"
+    },
+    {
+      "label": "Montpellier Interdisciplinary center on Sustainable Agri-food systems: social and nutritional sciences",
+      "type": "child",
+      "id": "https://ror.org/011xg1225"
+    },
+    {
+      "label": "Ecologie Microbienne Lyon",
+      "type": "child",
+      "id": "https://ror.org/053vv7851"
+    },
+    {
+      "label": "Nutrition, Obésité et Risque Thrombotique",
+      "type": "child",
+      "id": "https://ror.org/05hqfh882"
+    },
+    {
+      "label": "Observatoire Aquitain des Sciences de l'Univers",
+      "type": "child",
+      "id": "https://ror.org/03qma7a12"
+    },
+    {
+      "label": "PhysioPathologie des Adaptations Nutritionnelles",
+      "type": "child",
+      "id": "https://ror.org/05vb5nm66"
+    },
+    {
+      "label": "Physiologie de la Reproduction et des Comportements",
+      "type": "child",
+      "id": "https://ror.org/02c6p9834"
+    },
+    {
+      "label": "Soil Agro and Hydrosystems Spatialization",
+      "type": "child",
+      "id": "https://ror.org/03k4s1p46"
+    },
+    {
+      "label": "Institut Cellule Souche et Cerveau",
+      "type": "child",
+      "id": "https://ror.org/03m0zs870"
+    },
+    {
+      "label": "Stress Abiotiques et Différenciation des Végétaux Cultivés",
+      "type": "child",
+      "id": "https://ror.org/03wzth680"
+    },
+    {
+      "label": "TRANSFORM",
+      "type": "child",
+      "id": "https://ror.org/00sxj6k90"
+    },
+    {
+      "label": "UMR BIOdiversity, GEnes & Communities",
+      "type": "child",
+      "id": "https://ror.org/033ebya06"
+    },
+    {
+      "label": "Territoires",
+      "type": "child",
+      "id": "https://ror.org/026tc4g97"
+    },
+    {
+      "label": "Unité Matériaux et Transformations",
+      "type": "child",
+      "id": "https://ror.org/03q99v794"
+    },
+    {
+      "label": "Unité Mixte de Recherche sur les Herbivores",
+      "type": "child",
+      "id": "https://ror.org/03yvemy54"
+    },
+    {
+      "label": "Unité de Glycobiologie Structurale et Fonctionnelle",
+      "type": "child",
+      "id": "https://ror.org/02g6y2720"
+    },
+    {
+      "label": "Unité de Recherche Pluridisciplinaire Prairies et Plantes Fourragères",
+      "type": "child",
+      "id": "https://ror.org/04247y265"
+    },
+    {
+      "label": "Zone Atelier Moselle",
+      "type": "child",
+      "id": "https://ror.org/016vxbe23"
+    },
+    {
+      "label": "UMR Transfrontalière BioEcoAgro",
+      "type": "child",
+      "id": "https://ror.org/032v67m28"
+    },
+    {
+      "label": "Nutrition, métabolismes et cancer",
+      "type": "child",
+      "id": "https://ror.org/03zb6nw87"
+    },
+    {
+      "label": "Unité Mixte de Recherche sur les Fromages",
+      "type": "child",
+      "id": "https://ror.org/01xbd2h58"
+    },
+    {
+      "label": "Observatoire des Sciences de l'Univers de Grenoble",
+      "type": "child",
+      "id": "https://ror.org/03vte9x46"
+    },
+    {
+      "label": "Agri Obtentions (France)",
+      "type": "child",
+      "id": "https://ror.org/04db8q179"
+    },
+    {
+      "label": "Agronomie",
+      "type": "child",
+      "id": "https://ror.org/02cptmd52"
+    },
+    {
+      "label": "Centre Alpin sur les Réseaux Trophiques et Ecosystèmes Lacustre",
+      "type": "child",
+      "id": "https://ror.org/037vdeb02"
+    },
+    {
+      "label": "Laboratoire d'Etude des Interactions entre Sol-Agrosystème-Hydrosystème",
+      "type": "child",
+      "id": "https://ror.org/05deqk823"
+    },
+    {
+      "label": "Modélisation Systémique Appliquée aux Ruminants",
+      "type": "child",
+      "id": "https://ror.org/0050cbz19"
+    },
+    {
+      "label": "PAnTher - Physiopathologie Animale et bioThérapie du muscle et du système nerveux",
+      "type": "child",
+      "id": "https://ror.org/05vex5m10"
+    },
+    {
+      "label": "Biomécanique et Pathologie Locomotrice du Cheval",
+      "type": "child",
+      "id": "https://ror.org/001rmv394"
+    },
+    {
+      "label": "Infections Virales et Pathologie Comparée",
+      "type": "child",
+      "id": "https://ror.org/015a85k79"
+    },
+    {
+      "label": "Paris Jourdan Sciences Economiques",
+      "type": "child",
+      "id": "https://ror.org/03vtagt31"
+    },
+    {
+      "label": "Dynamique Musculaire et Métabolisme",
+      "type": "child",
+      "id": "https://ror.org/00xffm983"
+    },
+    {
+      "label": "EMMAH - Environnement Méditerranéen et Modélisation des Agro-Hydrosystèmes",
+      "type": "child",
+      "id": "https://ror.org/048bnmc64"
+    },
+    {
+      "label": "GESTE - Gestion Territoriale de l'Eau et de l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/00pz29t13"
+    },
+    {
+      "label": "Laboratoire d'Ecophysiologie Végétale, Agronomie & nutritions N.C.S",
+      "type": "child",
+      "id": "https://ror.org/01s4cye48"
+    },
+    {
+      "label": "Laboratoire Agronomie et Environnement",
+      "type": "child",
+      "id": "https://ror.org/01dg9a450"
+    },
+    {
+      "label": "Virologie",
+      "type": "child",
+      "id": "https://ror.org/0318tzh81"
+    },
+    {
+      "label": "ITAP - Technologies et Méthodes pour les Agricultures de demain",
+      "type": "child",
+      "id": "https://ror.org/00ftatp57"
+    },
+    {
+      "label": "Ecologie Comportementale et Biologie des Populations de Poissons",
+      "type": "child",
+      "id": "https://ror.org/02brsbg31"
+    },
+    {
+      "label": "Dynamiques et écologie des paysages agriforestiers",
+      "type": "child",
+      "id": "https://ror.org/04wa4se75"
+    },
+    {
+      "label": "Territoires, Environnement, Télédétection et Information Spatiale",
+      "type": "child",
+      "id": "https://ror.org/0458hw939"
+    },
+    {
+      "label": "Biologie Epidémiologie et Analyse de Risque en santé animale",
+      "type": "child",
+      "id": "https://ror.org/059h64789"
+    },
+    {
+      "label": "Structures et Marchés Agricoles, Ressources et Territoires",
+      "type": "child",
+      "id": "https://ror.org/04fa3ke77"
+    },
+    {
+      "label": "Observatoire de Recherche Montpelliérain de l'Environnement OREME",
+      "type": "child",
+      "id": "https://ror.org/00cesps27"
+    },
+    {
+      "label": "Mathématiques et Informatique Appliquées",
+      "type": "child",
+      "id": "https://ror.org/00780az30"
+    },
+    {
+      "label": "Centre de Recherche Épidémiologie et Statistique",
+      "type": "child",
+      "id": "https://ror.org/00t9egj41"
+    },
+    {
+      "label": "France Génomique",
+      "type": "child",
+      "id": "https://ror.org/05k267t15"
+    },
+    {
+      "label": "Laboratoire Interdisciplinaire Sciences, Innovations, Sociétés",
+      "type": "child",
+      "id": "https://ror.org/007yrhe07"
+    },
+    {
+      "label": "Épidémiologie des maladies Animales et zoonotiques",
+      "type": "child",
+      "id": "https://ror.org/03e04sg66"
+    },
+    {
+      "label": "Unité Mixte de Recherche sur l'Ecosystème Prairial",
+      "type": "child",
+      "id": "https://ror.org/02c3c9255"
+    },
+    {
+      "label": "Biodiversité, Agroécologie et Aménagement du Paysage",
+      "type": "child",
+      "id": "https://ror.org/04byv8g40"
+    },
+    {
+      "label": "Biologie intégrée pour la valorisation de la diversité des arbres et de la forêt",
+      "type": "child",
+      "id": "https://ror.org/04f6qd925"
+    },
+    {
+      "label": "Center for Environmental Economics - Montpellier",
+      "type": "child",
+      "id": "https://ror.org/00rwjvc96"
+    },
+    {
+      "label": "Innovations thérapeutiques et résistances",
+      "type": "child",
+      "id": "https://ror.org/01shz5j60"
+    },
+    {
+      "label": "SayFood - Food and Bioproduct Engineering",
+      "type": "child",
+      "id": "https://ror.org/03gmkya61"
+    },
+    {
+      "label": "Laboratoire d'Excellence TULIP",
+      "type": "child",
+      "id": "https://ror.org/03j65n394"
+    },
+    {
+      "label": "Virologie et Immunologie Moléculaires",
+      "type": "child",
+      "id": "https://ror.org/01jvz7e61"
+    },
+    {
+      "label": "Unité de Recherche Agrosystèmes tropicaux",
+      "type": "child",
+      "id": "https://ror.org/00vxck708"
+    },
+    {
+      "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
+      "type": "child",
+      "id": "https://ror.org/01w1erp60"
+    },
+    {
+      "label": "Bioinformatique Moléculaire",
+      "type": "child",
+      "id": "https://ror.org/02r1kz177"
+    },
+    {
+      "label": "Observatoire des sciences de l'Univers Paris-Centre Ecce Terra",
+      "type": "child",
+      "id": "https://ror.org/01365h357"
+    },
+    {
+      "label": "Paris School of Economics",
+      "type": "child",
+      "id": "https://ror.org/01qtp1053"
+    },
+    {
+      "label": "Etude et Compréhension de la biodiversité",
+      "type": "child",
+      "id": "https://ror.org/042w6m452"
+    },
+    {
+      "label": "Centre d'Études Spatiales de la Biosphère",
+      "type": "child",
+      "id": "https://ror.org/01225hq90"
+    },
+    {
+      "label": "Plant Health Institute de Montpellier",
+      "type": "child",
+      "id": "https://ror.org/05y5s3h28"
+    },
+    {
+      "label": "ABSys",
+      "type": "child",
+      "id": "https://ror.org/00n2c0309"
+    },
+    {
+      "label": "Observatoire des Sciences de l'Environnement de Rennes",
+      "type": "child",
+      "id": "https://ror.org/05pwkex33"
+    },
+    {
+      "label": "Laboratoire EcoSystèmes et Sociétés En Montagne",
+      "type": "child",
+      "id": "https://ror.org/01a0ez112"
+    },
+    {
+      "label": "Groupe de Recherche en Management",
+      "type": "child",
+      "id": "https://ror.org/023cs7p87"
+    },
+    {
+      "label": "Genetic Improvement and Adaptation of Mediterranean and Tropical Plants",
+      "type": "child",
+      "id": "https://ror.org/02w4exq36"
+    },
+    {
+      "label": "Biologie et Gestion des Risques en Agriculture",
+      "type": "child",
+      "id": "https://ror.org/049q30t56"
+    },
+    {
+      "label": "Bureau d'Economie Théorique et Appliquée",
+      "type": "child",
+      "id": "https://ror.org/05em8ne27"
+    },
+    {
+      "label": "Physiologie de la Nutrition et du Comportement Alimentaire",
+      "type": "child",
+      "id": "https://ror.org/043f5vc59"
+    },
+    {
+      "label": "Paris-Saclay Applied Economics",
+      "type": "child",
+      "id": "https://ror.org/01p9mtd45"
+    },
+    {
+      "label": "Laboratoire de Chimie Agro-Industrielle",
+      "type": "child",
+      "id": "https://ror.org/035emn182"
+    },
+    {
+      "label": "Centre d'Economie et de Sociologie Appliquées à l'Agriculture et aux Espaces Ruraux",
+      "type": "child",
+      "id": "https://ror.org/0334tmt82"
+    },
+    {
+      "label": "Procédés Alimentaires et Microbiologiques",
+      "type": "child",
+      "id": "https://ror.org/00zgas264"
+    },
+    {
+      "label": "Sciences pour l’action et le développement - Activités, produits, territoires",
+      "type": "child",
+      "id": "https://ror.org/01cmdgj85"
+    },
+    {
+      "label": "Institut Pytheas",
+      "type": "child",
+      "id": "https://ror.org/00f945z63"
+    },
+    {
+      "label": "Centre de Recherche et d’Enseignement de Géosciences de l’Environnement",
+      "type": "child",
+      "id": "https://ror.org/01pa4h393"
+    },
+    {
+      "label": "UAR Data Terra",
+      "type": "child",
+      "id": "https://ror.org/0518tra10"
+    },
+    {
+      "label": "Centre pour la Communication Scientifique Directe",
+      "type": "child",
+      "id": "https://ror.org/00680hx61"
+    },
+    {
+      "label": "Unité sous contrat Caractérisation et suivi des phénomènes d'évolution des résistances",
+      "type": "child",
+      "id": "https://ror.org/04ssf8c19"
+    },
+    {
+      "label": "Diversité, génomes et interactions micro-organismes-insectes",
+      "type": "child",
+      "id": "https://ror.org/03q1qx424"
+    },
+    {
+      "label": "Marine Biodiversity Exploitation and Conservation",
+      "type": "child",
+      "id": "https://ror.org/049dk3691"
+    },
+    {
+      "label": "Maladies Infectieuses et Vecteurs: Écologie, Génétique, Évolution et Contrôle",
+      "type": "child",
+      "id": "https://ror.org/00357kh21"
+    },
+    {
+      "label": "Institut de Recherche en Horticulture et Semences",
+      "type": "child",
+      "id": "https://ror.org/02xq0x374"
+    },
+    {
+      "label": "Ingénierie des Agropolymères et Technologies Emergentes",
+      "type": "child",
+      "id": "https://ror.org/0000n5x09"
+    },
+    {
+      "label": "FC3R - Groupement d’Intérêt Scientifique French Center 3R",
+      "type": "child",
+      "id": "https://ror.org/02gz6nd21"
+    },
+    {
+      "label": "PHOTOSYNTHESE",
+      "type": "related",
+      "id": "https://ror.org/05hb8m595"
+    },
+    {
+      "label": "Microscopie Fonctionnelle du Vivant",
+      "type": "related",
+      "id": "https://ror.org/01sgwka45"
+    },
+    {
+      "label": "Fédération Ile de France de recherche sur l'environnement",
+      "type": "related",
+      "id": "https://ror.org/03qgfy688"
+    },
+    {
+      "label": "Nutrition Metabolism Aquaculture",
+      "type": "child",
+      "id": "https://ror.org/021wgs783"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

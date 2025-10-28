@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Universidade de Lisboa Instituto de Histologia e Biologia do Desenvolvimento"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "İzmir Biyotıp ve Genom Merkezi"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dokuz Eylül University",
+      "type": "parent",
+      "id": "https://ror.org/00dbd8b73"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

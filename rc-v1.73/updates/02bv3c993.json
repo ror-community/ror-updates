@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1951,
+  "external_ids": [
+    {
+      "all": [
+        "501100011345"
+      ],
+      "preferred": "501100011345",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410740.6"
+      ],
+      "preferred": "grid.410740.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1803 4911"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q10872936"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02bv3c993",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bmi.ac.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Academy_of_Military_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Academy of Military Medical Sciences"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国人民解放军军事医学科学院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Pathogenic Microorganism Biosafety",
+      "type": "child",
+      "id": "https://ror.org/02kdgk225"
+    },
+    {
+      "label": "State Key Laboratory of Proteomics",
+      "type": "child",
+      "id": "https://ror.org/019bev041"
+    },
+    {
+      "label": "307th Hospital of Chinese People’s Liberation Army",
+      "type": "related",
+      "id": "https://ror.org/00vrd0936"
+    },
+    {
+      "label": "Beijing Institute of Microbiology and Epidemiology",
+      "type": "child",
+      "id": "https://ror.org/03w50ns22"
+    },
+    {
+      "label": "Institute of Health Service and Transfusion Medicine",
+      "type": "child",
+      "id": "https://ror.org/0586n4j57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

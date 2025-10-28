@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Logan & Beaudesert Health Service - MSH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Metro South Health",
+      "type": "parent",
+      "id": "https://ror.org/016gd3115"
+    },
+    {
+      "label": "Logan Hospital",
+      "type": "child",
+      "id": "https://ror.org/0082dha77"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

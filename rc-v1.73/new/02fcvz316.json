@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "Alexandria National University"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alexandria University",
+      "type": "parent",
+      "id": "https://ror.org/00mzz1w90"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

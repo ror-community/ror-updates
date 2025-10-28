@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "qut.edu.au"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "501100001793",
+        "501100006104",
+        "501100018856"
+      ],
+      "preferred": "501100001793",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1024.7"
+      ],
+      "preferred": "grid.1024.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8915 0953"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1144750"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03pnv4752",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.qut.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Queensland_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -27.46794,
+        "lng": 153.02809,
+        "name": "Brisbane"
+      },
+      "geonames_id": 2174003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QUT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Queensland University of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ARC Centre of Excellence for the Digital Child",
+      "type": "child",
+      "id": "https://ror.org/01h55za35"
+    },
+    {
+      "label": "ARC Centre of Excellence for Plant Success in Nature and Agriculture",
+      "type": "child",
+      "id": "https://ror.org/058xdtn86"
+    },
+    {
+      "label": "Metro South Health",
+      "type": "related",
+      "id": "https://ror.org/016gd3115"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

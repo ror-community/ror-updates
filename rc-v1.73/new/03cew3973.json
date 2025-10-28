@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "The Jackson Laboratory for Genomic Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Jackson Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/021sy4w91"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

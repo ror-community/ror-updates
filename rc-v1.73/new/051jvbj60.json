@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "Lifespan Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Life Extension Advocacy Foundation",
+      "type": "predecessor",
+      "id": "https://ror.org/02tfp8194"
+    },
+    {
+      "label": "SENS Research Foundation",
+      "type": "predecessor",
+      "id": "https://ror.org/04k41b912"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

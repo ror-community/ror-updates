@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "चिकित्साशास्त्र अध्ययन संस्थान"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tribhuvan University",
+      "type": "parent",
+      "id": "https://ror.org/02rg1r889"
+    },
+    {
+      "label": "Maharajgunj Medical Campus",
+      "type": "child",
+      "id": "https://ror.org/00bzk5h02"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

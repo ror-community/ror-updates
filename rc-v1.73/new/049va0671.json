@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -89,7 +89,13 @@
       "value": "Інститут аграрних ресурсів та регіонального розвитку, Національна академія аграрних наук"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Agrarian Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/001040111"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Regional Hospital of Scranton"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Community Health Systems Professional Services Corporation (DBA Community Health Systems)",
+      "type": "parent",
+      "id": "https://ror.org/01ja0g918"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

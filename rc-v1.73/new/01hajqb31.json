@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Laboratoire Activité Physique, Performance et Santé"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mouvement, Equilibre, Performance, Santé",
+      "type": "successor",
+      "id": "https://ror.org/033e5bj62"
+    },
+    {
+      "label": "Université de Pau et des Pays de l'Adour",
+      "type": "parent",
+      "id": "https://ror.org/01frn9647"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"

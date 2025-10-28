@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "سیدو طبی کالج"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saidu Teaching Hospital",
+      "type": "related",
+      "id": "https://ror.org/01absdg22"
+    },
+    {
+      "label": "Khyber Medical University",
+      "type": "related",
+      "id": "https://ror.org/00nv6q035"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

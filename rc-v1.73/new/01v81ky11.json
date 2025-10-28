@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Association of Flight Attendants-CWA"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Communications Workers of America",
+      "type": "parent",
+      "id": "https://ror.org/04yyr1g80"
+    },
+    {
+      "label": "American Federation of Labor and Congress of Industrial Organizations",
+      "type": "related",
+      "id": "https://ror.org/00z39za88"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

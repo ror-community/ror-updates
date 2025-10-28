@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "Luxembourg Centre for European Law"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Luxembourg",
+      "type": "parent",
+      "id": "https://ror.org/036x5ad56"
+    },
+    {
+      "label": "Max Planck Institute Luxemburg for International, European and Regulatory Procedural Law",
+      "type": "predecessor",
+      "id": "https://ror.org/04ys0ah18"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

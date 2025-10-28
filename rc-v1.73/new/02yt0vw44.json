@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Kavli Institute for Theoretical Physics"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of California, Santa Barbara",
+      "type": "parent",
+      "id": "https://ror.org/02t274463"
+    },
+    {
+      "label": "The Kavli Foundation",
+      "type": "related",
+      "id": "https://ror.org/00kztt736"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

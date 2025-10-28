@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Göttingen Campus Institute for Dynamics of Biological Networks"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Göttingen",
+      "type": "parent",
+      "id": "https://ror.org/01y9bpm73"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

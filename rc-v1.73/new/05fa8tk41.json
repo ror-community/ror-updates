@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "University of Coimbra Centro de Estudos de Direito do Ordenamento do Urbanismo e do Ambiente"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Coimbra",
+      "type": "parent",
+      "id": "https://ror.org/04z8k9a98"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

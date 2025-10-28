@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Universidade Lusófona Centro de Investigação em Política Economia e Sociedade"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Lusófona",
+      "type": "parent",
+      "id": "https://ror.org/05xxfer42"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

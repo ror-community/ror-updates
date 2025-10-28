@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Secretaria de Ciência, Tecnologia e Inovação e do Complexo Econômico-Industrial da Saúde"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministério da Saúde",
+      "type": "parent",
+      "id": "https://ror.org/02y7p0749"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Water Laboratory of the Alentejo Coast"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto de Soldadura e Qualidade",
+      "type": "parent",
+      "id": "https://ror.org/03jpkw355"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

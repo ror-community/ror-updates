@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "SVKM's Narsee Monjee College of Commerce and Economics"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Mumbai",
+      "type": "related",
+      "id": "https://ror.org/032hdk172"
+    },
+    {
+      "label": "Shri Vile Parle Kelavani Mandal",
+      "type": "child",
+      "id": "https://ror.org/03ddhrn22"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

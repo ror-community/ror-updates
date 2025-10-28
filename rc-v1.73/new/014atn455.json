@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "CELESTE: statistique mathématique et apprentissage"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Inria Saclay - Île de France",
+      "type": "parent",
+      "id": "https://ror.org/0315e5x55"
+    },
+    {
+      "label": "Centre Inria de l'Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/040753f36"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

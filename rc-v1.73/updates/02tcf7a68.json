@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100015722"
+      ],
+      "preferred": "501100015722",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411163.0"
+      ],
+      "preferred": "grid.411163.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0639 4151"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02tcf7a68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chu-clermontferrand.fr/internet/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Clermont-Ferrand"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "related",
+      "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Fédération de Recherche Spectroscopies de Photoémission",
+      "type": "related",
+      "id": "https://ror.org/01x6z5t49"
+    },
+    {
+      "label": "Institut de Chimie de Clermont-Ferrand",
+      "type": "child",
+      "id": "https://ror.org/045qszf23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

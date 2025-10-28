@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Ospedale di Castel San Giovanni"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Azienda Unità Sanitaria Locale Piacenza",
+      "type": "parent",
+      "id": "https://ror.org/01j1w4v71"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

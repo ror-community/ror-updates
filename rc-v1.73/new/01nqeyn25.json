@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,38 @@
       "value": "Northern Care Alliance NHS Foundation Trust"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fairfield General Hospital",
+      "type": "child",
+      "id": "https://ror.org/03tv0az53"
+    },
+    {
+      "label": "Rochdale Infirmary",
+      "type": "child",
+      "id": "https://ror.org/00twjye57"
+    },
+    {
+      "label": "Royal Oldham Hospital",
+      "type": "child",
+      "id": "https://ror.org/030d91z44"
+    },
+    {
+      "label": "Salford Royal Hospital",
+      "type": "child",
+      "id": "https://ror.org/027rkpb34"
+    },
+    {
+      "label": "Pennine Acute Hospitals NHS Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/05ga8m074"
+    },
+    {
+      "label": "Salford Royal NHS Foundation Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/019j78370"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

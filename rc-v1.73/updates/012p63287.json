@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1614,
+  "external_ids": [
+    {
+      "all": [
+        "501100001721",
+        "501100001903"
+      ],
+      "preferred": "501100001721",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4830.f"
+      ],
+      "preferred": "grid.4830.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0407 1981"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q850730",
+        "Q2303629"
+      ],
+      "preferred": "Q850730",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012p63287",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.rug.nl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Groningen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "GR",
+        "country_subdivision_name": "Groningen",
+        "lat": 53.21917,
+        "lng": 6.56667,
+        "name": "Groningen"
+      },
+      "geonames_id": 2755251
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Academia Groningana"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Rijksuniversiteit Groningen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Groningen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Netherlands Interdisciplinary Demographic Institute",
+      "type": "child",
+      "id": "https://ror.org/04kf5kc54"
+    },
+    {
+      "label": "University Medical Center Groningen",
+      "type": "related",
+      "id": "https://ror.org/03cv38k47"
+    },
+    {
+      "label": "Lifelines",
+      "type": "related",
+      "id": "https://ror.org/01ja6ps71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

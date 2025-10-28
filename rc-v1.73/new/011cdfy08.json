@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,18 @@
       "value": "Instituto de Investigaciones en Energía no Convencional"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National University of Salta",
+      "type": "parent",
+      "id": "https://ror.org/00htwgm11"
+    },
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "parent",
+      "id": "https://ror.org/03cqe8w59"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

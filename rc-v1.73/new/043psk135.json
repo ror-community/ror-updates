@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Universidad Andina Simón Bolívar, Sede Ecuador"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Andina Simón Bolívar",
+      "type": "related",
+      "id": "https://ror.org/03jrrzr69"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

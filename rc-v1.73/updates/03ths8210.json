@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uc3m.es"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "501100006318"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7840.b"
+      ],
+      "preferred": "grid.7840.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2168 9183"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1247135"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ths8210",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uc3m.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Charles_III_University_of_Madrid"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Carlos III University of Madrid"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UC3M"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Carlos III de Madrid"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Interuniversitario de Investigación Avanzada sobre Evaluación de la Ciencia y la Universidad",
+      "type": "child",
+      "id": "https://ror.org/004aqbt71"
+    },
+    {
+      "label": "OpenScienceLab",
+      "type": "child",
+      "id": "https://ror.org/010gh8f20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

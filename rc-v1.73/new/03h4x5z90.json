@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "Department of Work, Economy, Science, Innovation and Social Economy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Flemish Government",
+      "type": "parent",
+      "id": "https://ror.org/04qxsrb28"
+    },
+    {
+      "label": "Departement Economie, Wetenschap & Innovatie",
+      "type": "predecessor",
+      "id": "https://ror.org/01g94x362"
+    },
+    {
+      "label": "Departement Werk en Sociale Economie",
+      "type": "predecessor",
+      "id": "https://ror.org/0538xdp23"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

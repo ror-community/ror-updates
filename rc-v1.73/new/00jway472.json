@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -104,7 +104,13 @@
       "value": "Water Resources Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Water and Irrigation",
+      "type": "parent",
+      "id": "https://ror.org/04b6chq95"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

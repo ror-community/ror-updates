@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -84,7 +84,13 @@
       "value": "Sonangol, Research and Innovation Department of the Center, Angola"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sonangol",
+      "type": "parent",
+      "id": "https://ror.org/059bevx75"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

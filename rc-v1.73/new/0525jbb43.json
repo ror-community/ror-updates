@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Universidade da Beira Interior Centro de Tecnologia da Linguagem Humana e Bioinformática"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Beira Interior",
+      "type": "parent",
+      "id": "https://ror.org/03nf36p02"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

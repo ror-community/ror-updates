@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Erhvervsakademi København"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Copenhagen Business Academy",
+      "type": "predecessor",
+      "id": "https://ror.org/02gg57z81"
+    },
+    {
+      "label": "Copenhagen School of Design and Technology",
+      "type": "predecessor",
+      "id": "https://ror.org/00j1xwp39"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

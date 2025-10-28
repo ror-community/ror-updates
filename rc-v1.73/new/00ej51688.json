@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,28 @@
       "value": "Fédération des Sciences Archéologiques de Bordeaux"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Université Bordeaux Montaigne",
+      "type": "parent",
+      "id": "https://ror.org/03pbgwk21"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Ministère de la Culture",
+      "type": "parent",
+      "id": "https://ror.org/017rnyz40"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

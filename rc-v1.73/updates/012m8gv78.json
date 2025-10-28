@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Luxembourg Institute of Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Integrated Biobank of Luxembourg",
+      "type": "child",
+      "id": "https://ror.org/04wm8ce51"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

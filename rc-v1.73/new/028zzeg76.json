@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Fakulteta za industrijski inženiring Novo mesto"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Univerzitetno Središče Novo mesto",
+      "type": "parent",
+      "id": "https://ror.org/04k7cwk28"
+    },
+    {
+      "label": "School Center Novo mesto",
+      "type": "parent",
+      "id": "https://ror.org/051qxpt90"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

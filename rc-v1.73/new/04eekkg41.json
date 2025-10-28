@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Under Secretary of War for Acquisition & Sustainment"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of the Assistant Secretary of Defense for Energy, Installations, and Environment",
+      "type": "child",
+      "id": "https://ror.org/034krhd70"
+    },
+    {
+      "label": "Office of the Secretary of Defense",
+      "type": "parent",
+      "id": "https://ror.org/00q4sx826"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

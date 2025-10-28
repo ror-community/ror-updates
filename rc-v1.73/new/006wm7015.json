@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Федеральный исследовательский центр «Информатика и управление» РАН"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Ministry of Education and Science of the Russian Federation",
+      "type": "child",
+      "id": "https://ror.org/00ghqgy32"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

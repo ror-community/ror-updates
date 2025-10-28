@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Saidu College of Dentistry Swat"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saidu Teaching Hospital",
+      "type": "related",
+      "id": "https://ror.org/01absdg22"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

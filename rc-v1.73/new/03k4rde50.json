@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Universidade Fernando Pessoa Unidade de Investigacao UFP em Energia Ambiente e Saude"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fernando Pessoa University",
+      "type": "parent",
+      "id": "https://ror.org/04h8e7606"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

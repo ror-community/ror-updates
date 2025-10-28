@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-19",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Universidade da Madeira Grupo de Astronomia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade da Madeira",
+      "type": "parent",
+      "id": "https://ror.org/0442zbe52"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-10-27",
+      "date": "2025-10-28",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "OpenScienceLab"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Carlos III de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/03ths8210"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
