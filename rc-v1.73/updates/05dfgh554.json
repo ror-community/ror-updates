@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "knmi.nl"
+  ],
+  "established": 1854,
+  "external_ids": [
+    {
+      "all": [
+        "501100014353"
+      ],
+      "preferred": "501100014353",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8653.8"
+      ],
+      "preferred": "grid.8653.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2285 1082"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q516346"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05dfgh554",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.knmi.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_Netherlands_Meteorological_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utrecht",
+        "lat": 52.11,
+        "lng": 5.18056,
+        "name": "De Bilt"
+      },
+      "geonames_id": 2757783
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KNMI"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Koninklijk Nederlands Meteorologisch Instituut"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Netherlands Meteorological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Infrastructure and Water Management",
+      "type": "parent",
+      "id": "https://ror.org/056a6x975"
+    },
+    {
+      "label": "EC-Earth Consortium",
+      "type": "related",
+      "id": "https://ror.org/010bg5245"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

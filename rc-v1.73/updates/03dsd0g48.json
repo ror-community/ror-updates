@@ -9,38 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "icsm.fr"
-  ],
-  "established": 2007,
+  "domains": [],
+  "established": 2010,
   "external_ids": [
     {
       "all": [
-        "grid.462049.d"
+        "grid.457340.1"
       ],
-      "preferred": "grid.462049.d",
+      "preferred": "grid.457340.1",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0384 1091"
+        "0000 0001 0584 9722"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q30261373"
+        "Q3214491"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/04fr7pd94",
+  "id": "https://ror.org/03dsd0g48",
   "links": [
     {
       "type": "website",
-      "value": "https://www.icsm.fr"
+      "value": "https://www.lsce.ipsl.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Laboratoire_des_sciences_du_climat_et_de_l%27environnement"
     }
   ],
   "locations": [
@@ -50,58 +52,65 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "OCC",
-        "country_subdivision_name": "Occitanie",
-        "lat": 44.16259,
-        "lng": 4.61974,
-        "name": "Bagnols-sur-Cèze"
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
       },
-      "geonames_id": 3035396
+      "geonames_id": 3016078
     }
   ],
   "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Climate and Environmental Sciences Laboratory"
+    },
     {
       "lang": "fr",
       "types": [
         "acronym"
       ],
-      "value": "ICSM"
+      "value": "LSCE"
     },
     {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "ror_display",
+        "label"
       ],
-      "value": "Institut de Chimie Séparative de Marcoule"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Institute for the Separation Chemistry in Marcoule"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Marcoule Institute for Separation Chemistry"
+      "value": "Laboratoire des Sciences du Climat et de l'Environnement"
     },
     {
       "lang": null,
       "types": [
         "alias"
       ],
-      "value": "UMR 5257"
+      "value": "UMR 8212"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LSCE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR Laboratoire des Sciences du Climat et de l'Environnement"
     },
     {
       "lang": null,
       "types": [
         "alias"
       ],
-      "value": "UMR5257"
+      "value": "UMR8212"
     }
   ],
   "relationships": [
@@ -111,19 +120,14 @@
       "id": "https://ror.org/00jjx8s55"
     },
     {
-      "label": "Institut de Chimie",
+      "label": "Institut National des Sciences de l'Univers",
       "type": "parent",
-      "id": "https://ror.org/02cte4b68"
+      "id": "https://ror.org/04kdfz702"
     },
     {
-      "label": "Université de Montpellier",
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
       "type": "parent",
-      "id": "https://ror.org/051escj72"
-    },
-    {
-      "label": "École Nationale Supérieure de Chimie de Montpellier",
-      "type": "parent",
-      "id": "https://ror.org/03sgyqj04"
+      "id": "https://ror.org/03mkjjy25"
     },
     {
       "label": "Centre National de la Recherche Scientifique",
@@ -134,11 +138,6 @@
       "label": "Direction de la Recherche Fondamentale",
       "type": "parent",
       "id": "https://ror.org/01yvj5k91"
-    },
-    {
-      "label": "Direction des Energies",
-      "type": "parent",
-      "id": "https://ror.org/03cwzta72"
     }
   ],
   "status": "active",

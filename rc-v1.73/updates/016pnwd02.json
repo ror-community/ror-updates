@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503140.3"
+      ],
+      "preferred": "grid.503140.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q61933008"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016pnwd02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://joliot.cea.fr/drf/joliot"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.79325,
+        "lng": 2.29275,
+        "name": "Fontenay-aux-Roses"
+      },
+      "geonames_id": 3017924
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Frédéric Joliot Institute for Life Sciences"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut des Sciences du Vivant Frédéric Joliot"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Innovations Technologiques pour la Détection et le Diagnostic",
+      "type": "child",
+      "id": "https://ror.org/00a8cnz80"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Direction de la Recherche Fondamentale",
+      "type": "parent",
+      "id": "https://ror.org/01yvj5k91"
+    },
+    {
+      "label": "Centre Hospitalier d'Orsay",
+      "type": "related",
+      "id": "https://ror.org/01bchmt70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

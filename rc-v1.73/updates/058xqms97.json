@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483650.c"
+      ],
+      "preferred": "grid.483650.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7471 7741"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121555"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/058xqms97",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ifis.santafe-conicet.gov.ar/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "S",
+        "country_subdivision_name": "Santa Fe",
+        "lat": -31.64881,
+        "lng": -60.70868,
+        "name": "Santa Fe"
+      },
+      "geonames_id": 3836277
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IFIS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "IFIS Litoral"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Física del Litoral"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico - Santa Fe",
+      "type": "parent",
+      "id": "https://ror.org/003vet424"
+    },
+    {
+      "label": "Universidad Nacional del Litoral",
+      "type": "parent",
+      "id": "https://ror.org/00pt8r998"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

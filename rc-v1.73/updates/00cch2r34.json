@@ -9,26 +9,38 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": 2015,
+  "domains": [
+    "iramis.cea.fr"
+  ],
+  "established": 2008,
   "external_ids": [
     {
       "all": [
-        "grid.457338.e"
+        "grid.457336.0"
       ],
-      "preferred": "grid.457338.e",
+      "preferred": "grid.457336.0",
       "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0373 4042"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30299471"
+      ],
+      "preferred": "Q30299471",
+      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/058rvd314",
+  "id": "https://ror.org/00cch2r34",
   "links": [
     {
       "type": "website",
-      "value": "https://www.ipht.fr"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://fr.wikipedia.org/wiki/Institut_de_physique_th%C3%A9orique_-_IPhT_Saclay"
+      "value": "https://iramis.cea.fr"
     }
   ],
   "locations": [
@@ -53,7 +65,7 @@
       "types": [
         "acronym"
       ],
-      "value": "IPhT"
+      "value": "IRAMIS"
     },
     {
       "lang": "fr",
@@ -61,38 +73,36 @@
         "ror_display",
         "label"
       ],
-      "value": "Institut de Physique Théorique"
+      "value": "Institut Rayonnement-Matière de Saclay"
     },
     {
-      "lang": null,
+      "lang": "en",
       "types": [
-        "alias"
+        "label"
       ],
-      "value": "UMR 3681"
-    },
-    {
-      "lang": null,
-      "types": [
-        "alias"
-      ],
-      "value": "UMR3681"
+      "value": "Saclay Institute of Matter and Radiation"
     }
   ],
   "relationships": [
     {
+      "label": "Laboratoire Interactions, Dynamiques et Lasers",
+      "type": "child",
+      "id": "https://ror.org/04dy97z61"
+    },
+    {
+      "label": "Laboratoire Léon Brillouin",
+      "type": "child",
+      "id": "https://ror.org/029rmm934"
+    },
+    {
+      "label": "Service de Physique de l'État Condensé",
+      "type": "child",
+      "id": "https://ror.org/0247p4w70"
+    },
+    {
       "label": "Direction de la Recherche Fondamentale",
       "type": "parent",
       "id": "https://ror.org/01yvj5k91"
-    },
-    {
-      "label": "Institut de Physique",
-      "type": "parent",
-      "id": "https://ror.org/00z54nq84"
-    },
-    {
-      "label": "Centre National de la Recherche Scientifique",
-      "type": "parent",
-      "id": "https://ror.org/02feahw73"
     },
     {
       "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",

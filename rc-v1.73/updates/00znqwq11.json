@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100009012"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410371.0"
+      ],
+      "preferred": "grid.410371.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0419 2708"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00znqwq11",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sandiego.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VA San Diego Healthcare System"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VASDHS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VA Desert Pacific Healthcare Network",
+      "type": "parent",
+      "id": "https://ror.org/031qpfn56"
+    },
+    {
+      "label": "University of California San Diego",
+      "type": "related",
+      "id": "https://ror.org/0168r3w48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}
