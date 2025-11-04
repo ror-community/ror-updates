@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463920.a"
+      ],
+      "preferred": "grid.463920.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2301 1931"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05sd5r855",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://math.univ-bpclermont.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.75082,
+        "lng": 3.11078,
+        "name": "Aubière"
+      },
+      "geonames_id": 3036364
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Mathématiques"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6620"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6620"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/050jcm728"
+    },
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

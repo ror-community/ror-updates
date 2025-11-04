@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462875.a"
+      ],
+      "preferred": "grid.462875.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1882 3513"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0003ege03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cermav.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17997,
+        "lng": 5.78935,
+        "name": "Gières"
+      },
+      "geonames_id": 3016089
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CERMAV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Recherches sur les Macromolécules Végétales"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UPR 5301"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UPR5301"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

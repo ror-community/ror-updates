@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462886.6"
+      ],
+      "preferred": "grid.462886.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 7229"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04ysg2a58",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sciences.univ-nantes.fr/CEISAM/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEISAM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Chemistry And Interdisciplinarité, Synthesis, Analyze, Modeling"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Chimie et Interdisciplinarité, Synthèse, Analyse, Modélisation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6230"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR CNRS 6230"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6230"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

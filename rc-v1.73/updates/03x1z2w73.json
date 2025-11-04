@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462909.0"
+      ],
+      "preferred": "grid.462909.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0609 8934"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03x1z2w73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://leca.osug.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LECA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Écologie Alpine"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5553"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5553"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Université Savoie Mont Blanc",
+      "type": "parent",
+      "id": "https://ror.org/04gqg1a07"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

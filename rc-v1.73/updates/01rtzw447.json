@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462228.8"
+      ],
+      "preferred": "grid.462228.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 384X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261404"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rtzw447",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lcc-toulouse.fr/lcc/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LCC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Chimie de Coordination"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UPR 8241"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UPR8241"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "École Nationale Supérieure des Ingénieurs en Arts Chimiques et Technologiques",
+      "type": "parent",
+      "id": "https://ror.org/013948m30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503300.5"
+      ],
+      "preferred": "grid.503300.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0073 3771"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51780518"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036j0y719",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://math.univ-angers.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.47156,
+        "lng": -0.55202,
+        "name": "Angers"
+      },
+      "geonames_id": 3037656
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LAREMA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Angevin de Recherche en Mathématiques"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6093"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6093"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/050jcm728"
+    },
+    {
+      "label": "Université d'Angers",
+      "type": "parent",
+      "id": "https://ror.org/04yrqp957"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

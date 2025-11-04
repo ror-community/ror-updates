@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462043.7"
+      ],
+      "preferred": "grid.462043.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0367 5054"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00se7bf12",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://institut-chimie.unistra.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Chimie de Strasbourg"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7177"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7177"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/00pg6eq24"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

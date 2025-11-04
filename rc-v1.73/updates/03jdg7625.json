@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483086.1"
+      ],
+      "preferred": "grid.483086.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1955 4183"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03jdg7625",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.isp.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.89198,
+        "lng": 2.20675,
+        "name": "Nanterre"
+      },
+      "geonames_id": 2990970
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut des Sciences Sociales du Politique"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7220"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7220"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Université Paris Nanterre",
+      "type": "parent",
+      "id": "https://ror.org/013bkhk48"
+    },
+    {
+      "label": "École Normale Supérieure Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/00hx6zz33"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

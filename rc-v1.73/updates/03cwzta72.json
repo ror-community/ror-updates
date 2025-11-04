@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2020,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457258.9"
+      ],
+      "preferred": "grid.457258.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 4137"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30299415"
+      ],
+      "preferred": "Q30299415",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cwzta72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cea.fr/Pages/domaines-recherche/energies.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Direction_des_%C3%A9nergies"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEA DEN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CEA Direction des énergies"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DEN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Direction de L'Énergie Nucléaire"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Direction des Energies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d’Innovation pour les Technologies des Énergies Nouvelles et les nanomatériaux",
+      "type": "child",
+      "id": "https://ror.org/01mbz8562"
+    },
+    {
+      "label": "Institut de Chimie Séparative de Marcoule",
+      "type": "child",
+      "id": "https://ror.org/04fr7pd94"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

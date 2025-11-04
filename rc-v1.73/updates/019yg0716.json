@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ispa.pt"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410954.d"
+      ],
+      "preferred": "grid.410954.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2237 5901"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/019yg0716",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ispa.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.72509,
+        "lng": -9.1498,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISPA"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "ISPA - Instituto Universitário"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Instituto Universitário de Ciências Psicológicas, Sociais e da Vida"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MARE - Centro de Ciências do Mar e do Ambiente",
+      "type": "child",
+      "id": "https://ror.org/03cvzf910"
+    },
+    {
+      "label": "Centro de Investigação em Educação",
+      "type": "child",
+      "id": "https://ror.org/00mbmxf83"
+    },
+    {
+      "label": "Centro de Investigação em Psicologia Aplicada Capacidades e Inclusão",
+      "type": "child",
+      "id": "https://ror.org/015h41091"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "klinikum-magdeburg.de"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473621.5"
+      ],
+      "preferred": "grid.473621.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2072 3087"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01trdns33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.klinikum-magdeburg.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "ST",
+        "country_subdivision_name": "Saxony-Anhalt",
+        "lat": 52.12773,
+        "lng": 11.62916,
+        "name": "Magdeburg"
+      },
+      "geonames_id": 2874545
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Eigenbetrieb Municipal Hospital Magdeburg"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KMD"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Klinikum Magdeburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Otto-von-Guericke University Magdeburg",
+      "type": "related",
+      "id": "https://ror.org/00ggpsq73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

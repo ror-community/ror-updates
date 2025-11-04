@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0370 7968"
+      ],
+      "preferred": "0000 0004 0370 7968",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784594"
+      ],
+      "preferred": "Q51784594",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04k5jw363",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lmv.math.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.80359,
+        "lng": 2.13424,
+        "name": "Versailles"
+      },
+      "geonames_id": 2969679
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LMV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Mathématiques de Versailles"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8100"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8100"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "type": "parent",
+      "id": "https://ror.org/03mkjjy25"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

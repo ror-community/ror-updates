@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cmls.ip-paris.fr"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463843.e"
+      ],
+      "preferred": "grid.463843.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0944 436X"
+      ],
+      "preferred": "0000 0001 0944 436X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16008923"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00b7djk73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cmls.ip-paris.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CMLS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Mathématiques Laurent Schwartz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Mathématiques de l'École polytechnique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laurent Schwartz Center for Mathematics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7640"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7640"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/050jcm728"
+    },
+    {
+      "label": "École Polytechnique",
+      "type": "parent",
+      "id": "https://ror.org/05hy3tk52"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512075.4"
+      ],
+      "preferred": "grid.512075.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0373 0754"
+      ],
+      "preferred": "0000 0004 0373 0754",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784392"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05xxb2f26",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.univ-brest.fr/umr1078/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.39029,
+        "lng": -4.48628,
+        "name": "Brest"
+      },
+      "geonames_id": 3030300
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Genetics, Functional Genomics and Biotechnology"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Génétique, Génomique Fonctionnelle et Biotechnologies"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1078"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR1078"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Régional Universitaire de Brest",
+      "type": "parent",
+      "id": "https://ror.org/03evbwn87"
+    },
+    {
+      "label": "Délégation Régionale Grand Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01qa4rf46"
+    },
+    {
+      "label": "Établissement Français du Sang",
+      "type": "parent",
+      "id": "https://ror.org/037hby126"
+    },
+    {
+      "label": "Université de Bretagne Occidentale",
+      "type": "parent",
+      "id": "https://ror.org/0372th171"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

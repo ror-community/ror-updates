@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415406.2"
+      ],
+      "preferred": "grid.415406.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0449 3121"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7439197"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04k4h9k07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.scripps.org/locations/hospitals__scripps-mercy-hospital"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Scripps_Mercy_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Scripps Mercy Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Scripps Health",
+      "type": "parent",
+      "id": "https://ror.org/05bhsww40"
+    },
+    {
+      "label": "University of California San Diego",
+      "type": "related",
+      "id": "https://ror.org/0168r3w48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

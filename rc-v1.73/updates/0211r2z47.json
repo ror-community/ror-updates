@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469497.1"
+      ],
+      "preferred": "grid.469497.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30264842"
+      ],
+      "preferred": "Q30264842",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0211r2z47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ismo.universite-paris-saclay.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.69572,
+        "lng": 2.18727,
+        "name": "Orsay"
+      },
+      "geonames_id": 2989204
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISMO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut des Sciences Moléculaires d'Orsay"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Molecular Sciences of Orsay"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8214"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8214"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

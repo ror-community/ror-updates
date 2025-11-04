@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lab-cobra.fr"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463703.5"
+      ],
+      "preferred": "grid.463703.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0623 3403"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04e8pda19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lab-cobra.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NOR",
+        "country_subdivision_name": "Normandy",
+        "lat": 49.46307,
+        "lng": 1.09364,
+        "name": "Mont-Saint-Aignan"
+      },
+      "geonames_id": 2992003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "COBRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "COBRA Laboratory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Chimie organique, Bioorganique, Réactivité et Analyse"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias",
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire COBRA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire de Chimie Organique et Analytique"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Organic and Analytical Chemistry Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6014"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6014"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Université de Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/03nhjew95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

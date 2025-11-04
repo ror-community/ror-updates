@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503098.7"
+      ],
+      "preferred": "grid.503098.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8623 6807"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51783633"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bg5j190",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ctad.parisnanterre.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.89198,
+        "lng": 2.20675,
+        "name": "Nanterre"
+      },
+      "geonames_id": 2990970
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CTAD"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Théorie et Analyse du Droit"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7074"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7074"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de recherches et d’études sur les droits fondamentaux",
+      "type": "child",
+      "id": "https://ror.org/059z28h12"
+    },
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Université Paris Nanterre",
+      "type": "parent",
+      "id": "https://ror.org/013bkhk48"
+    },
+    {
+      "label": "École Normale Supérieure - PSL",
+      "type": "parent",
+      "id": "https://ror.org/05a0dhs15"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

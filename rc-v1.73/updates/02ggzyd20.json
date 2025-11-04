@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457262.0"
+      ],
+      "preferred": "grid.457262.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7473 7929"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30299418"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ggzyd20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://talentimpulse.cea.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CEA DRT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DRT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Direction de la Recherche Technologique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Électronique des Technologies de l'Information",
+      "type": "child",
+      "id": "https://ror.org/04mf0wv34"
+    },
+    {
+      "label": "Laboratoire d'Intégration des Systèmes et des Technologies",
+      "type": "child",
+      "id": "https://ror.org/000dbcc61"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

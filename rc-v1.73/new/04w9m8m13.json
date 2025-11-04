@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-10-27",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "water.ca.gov"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100004813"
+      ],
+      "preferred": "100004813",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0627 618X"
+      ],
+      "preferred": "0000 0004 0627 618X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5020440"
+      ],
+      "preferred": "Q5020440",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04w9m8m13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://water.ca.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/California_Department_of_Water_Resources"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 38.58157,
+        "lng": -121.4944,
+        "name": "Sacramento"
+      },
+      "geonames_id": 5389489
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CDWR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "California Department of Water Resources"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DWR"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California Natural Resources Agency",
+      "type": "parent",
+      "id": "https://ror.org/0115n5160"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

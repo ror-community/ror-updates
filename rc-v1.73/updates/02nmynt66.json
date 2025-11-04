@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fac.mil.co"
+  ],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508593.2"
+      ],
+      "preferred": "grid.508593.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0709 3287"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q500407"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02nmynt66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fac.mil.co/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Colombian_Air_Force"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "Bogota D.C.",
+        "lat": 4.60971,
+        "lng": -74.08175,
+        "name": "Bogotá"
+      },
+      "geonames_id": 3688689
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Colombian Air Force"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FAC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Fuerza Aérea Colombiana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Escuela Militar de Aviación",
+      "type": "child",
+      "id": "https://ror.org/05y4eg947"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "501100002913",
+        "501100011878"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453158.e"
+      ],
+      "preferred": "grid.453158.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2174 3776"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1186029"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qxsrb28",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.flanders.be/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Flemish_Government"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "BRU",
+        "country_subdivision_name": "Brussels Capital",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "name": "Brussels"
+      },
+      "geonames_id": 2800866
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Flemish Government"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Flämische Regierung"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Gouvernement flamand"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Vlaamse Overheid"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Flanders Environment Agency",
+      "type": "child",
+      "id": "https://ror.org/04f41jv37"
+    },
+    {
+      "label": "Departement Omgeving",
+      "type": "child",
+      "id": "https://ror.org/0558ewf28"
+    },
+    {
+      "label": "Departement Werk, Economie, Wetenschap, Innovatie en Sociale Economie",
+      "type": "child",
+      "id": "https://ror.org/03h4x5z90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

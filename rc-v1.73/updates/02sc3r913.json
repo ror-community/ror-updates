@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "griffith.edu.au"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100001791",
+        "100008763",
+        "501100003450",
+        "501100014673"
+      ],
+      "preferred": "501100001791",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1022.1"
+      ],
+      "preferred": "grid.1022.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0437 5432"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1202292"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02sc3r913",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.griffith.edu.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Griffith_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -27.46794,
+        "lng": 153.02809,
+        "name": "Brisbane"
+      },
+      "geonames_id": 2174003
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Griffith University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gold Coast Hospital",
+      "type": "related",
+      "id": "https://ror.org/05eq01d13"
+    },
+    {
+      "label": "Robina Hospital",
+      "type": "related",
+      "id": "https://ror.org/0257s2812"
+    },
+    {
+      "label": "Sunshine Coast University Hospital",
+      "type": "related",
+      "id": "https://ror.org/017ay4a94"
+    },
+    {
+      "label": "Metro South Health",
+      "type": "related",
+      "id": "https://ror.org/016gd3115"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

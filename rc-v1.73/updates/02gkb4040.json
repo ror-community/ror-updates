@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "100015447",
+        "100016557"
+      ],
+      "preferred": "100015447",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414057.3"
+      ],
+      "preferred": "grid.414057.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0042 379X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q24189683"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02gkb4040",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.adhb.govt.nz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "AUK",
+        "country_subdivision_name": "Auckland",
+        "lat": -36.84853,
+        "lng": 174.76349,
+        "name": "Auckland"
+      },
+      "geonames_id": 2193733
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ADHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Auckland DHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Auckland District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Auckland City Hospital",
+      "type": "child",
+      "id": "https://ror.org/05e8jge82"
+    },
+    {
+      "label": "Greenlane Clinical Centre",
+      "type": "child",
+      "id": "https://ror.org/00envkz24"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

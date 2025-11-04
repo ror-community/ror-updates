@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462773.3"
+      ],
+      "preferred": "grid.462773.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 7995"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05qsp5m64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.loma.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.80849,
+        "lng": -0.58915,
+        "name": "Talence"
+      },
+      "geonames_id": 2973495
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LOMA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Ondes et Matière d'Aquitaine"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5798"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5798"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Physique",
+      "type": "parent",
+      "id": "https://ror.org/00z54nq84"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

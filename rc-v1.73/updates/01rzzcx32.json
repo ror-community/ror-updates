@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482723.8"
+      ],
+      "preferred": "grid.482723.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 1565"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01rzzcx32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cercrid.univ-st-etienne.fr/fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "name": "Saint-Etienne"
+      },
+      "geonames_id": 2980291
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CERCRID"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Recherches Critiques sur le Droit"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5137"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5137"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Lumière Lyon 2",
+      "type": "parent",
+      "id": "https://ror.org/03rth4p18"
+    },
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

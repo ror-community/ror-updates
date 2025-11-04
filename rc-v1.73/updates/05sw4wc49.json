@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unios.hr"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100009390"
+      ],
+      "preferred": "501100009390",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412680.9"
+      ],
+      "preferred": "grid.412680.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1015 399X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1708709"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05sw4wc49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unios.hr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Osijek"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "County of Osijek-Baranja",
+        "lat": 45.55111,
+        "lng": 18.69389,
+        "name": "Osijek"
+      },
+      "geonames_id": 3193935
+    }
+  ],
+  "names": [
+    {
+      "lang": "hr",
+      "types": [
+        "alias"
+      ],
+      "value": "Josip Juraj Strossmayer University of Osijek"
+    },
+    {
+      "lang": "hr",
+      "types": [
+        "alias"
+      ],
+      "value": "Sveučilište J.J. Strossmayera"
+    },
+    {
+      "lang": "hr",
+      "types": [
+        "label"
+      ],
+      "value": "Sveučilište Josipa Jurja Strossmayera u Osijeku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Osijek"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Andrija Stampar Teaching Institute of Public Health",
+      "type": "child",
+      "id": "https://ror.org/046g5hb52"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-10-27",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "northerncarealliance.nhs.uk"
+  ],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7239 8310"
+      ],
+      "preferred": "0000 0004 7239 8310",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q87764345"
+      ],
+      "preferred": "Q87764345",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01nqeyn25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.northerncarealliance.nhs.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Northern_Care_Alliance_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.48771,
+        "lng": -2.29042,
+        "name": "Salford"
+      },
+      "geonames_id": 2638671
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NCA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Northern Care Alliance NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fairfield General Hospital",
+      "type": "child",
+      "id": "https://ror.org/03tv0az53"
+    },
+    {
+      "label": "Rochdale Infirmary",
+      "type": "child",
+      "id": "https://ror.org/00twjye57"
+    },
+    {
+      "label": "Royal Oldham Hospital",
+      "type": "child",
+      "id": "https://ror.org/030d91z44"
+    },
+    {
+      "label": "Salford Royal Hospital",
+      "type": "child",
+      "id": "https://ror.org/027rkpb34"
+    },
+    {
+      "label": "Pennine Acute Hospitals NHS Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/05ga8m074"
+    },
+    {
+      "label": "Salford Royal NHS Foundation Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/019j78370"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

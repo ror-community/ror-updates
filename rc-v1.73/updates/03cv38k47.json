@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umcg.nl"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100005075"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4494.d"
+      ],
+      "preferred": "grid.4494.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9558 4598"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2057113"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cv38k47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umcg.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Medical_Center_Groningen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "GR",
+        "country_subdivision_name": "Groningen",
+        "lat": 53.21917,
+        "lng": 6.56667,
+        "name": "Groningen"
+      },
+      "geonames_id": 2755251
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Groningen University Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMCG"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universitair Medisch Centrum Groningen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Medical Center Groningen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Beatrix Kinderziekenhuis",
+      "type": "child",
+      "id": "https://ror.org/02zyr1680"
+    },
+    {
+      "label": "University of Groningen",
+      "type": "related",
+      "id": "https://ror.org/012p63287"
+    },
+    {
+      "label": "Parkinson Platform Noord Nederland",
+      "type": "related",
+      "id": "https://ror.org/02j8tjh47"
+    },
+    {
+      "label": "Lifelines",
+      "type": "child",
+      "id": "https://ror.org/01ja6ps71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

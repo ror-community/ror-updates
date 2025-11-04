@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464170.0"
+      ],
+      "preferred": "grid.464170.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0382 7652"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05afmzm11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-verimag.imag.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17997,
+        "lng": 5.78935,
+        "name": "Gières"
+      },
+      "geonames_id": 3016089
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire Verimag"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5104"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5104"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Verimag"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Verimag Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut polytechnique de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

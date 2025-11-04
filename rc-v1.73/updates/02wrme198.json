@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462938.2"
+      ],
+      "preferred": "grid.462938.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1882 3396"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02wrme198",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gipsa-lab.grenoble-inp.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GIPSA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "GIPSA-Lab"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Grenoble Images Parole Signal Automatique"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5216"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5216"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut polytechnique de Grenoble",
+      "type": "parent",
+      "id": "https://ror.org/05sbt2524"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503321.6"
+      ],
+      "preferred": "grid.503321.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0561 3840"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01215r597",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.i3s.unice.fr/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.63292,
+        "lng": 6.99911,
+        "name": "Valbonne"
+      },
+      "geonames_id": 2971117
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "I3S"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7271"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7271"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut national de recherche en sciences et technologies du numérique",
+      "type": "parent",
+      "id": "https://ror.org/02kvxyf05"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université Côte d'Azur",
+      "type": "parent",
+      "id": "https://ror.org/019tgvf94"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

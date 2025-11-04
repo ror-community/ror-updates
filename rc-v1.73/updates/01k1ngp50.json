@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462587.a"
+      ],
+      "preferred": "grid.462587.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 3263"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01k1ngp50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.coria.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NOR",
+        "country_subdivision_name": "Normandy",
+        "lat": 49.37794,
+        "lng": 1.10467,
+        "name": "Saint-Étienne-du-Rouvray"
+      },
+      "geonames_id": 2980236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CORIA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Complexe de Recherche Interprofessionnel en Aérothermochimie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6614"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6614"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences Appliquées Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/020ws7586"
+    },
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Rouen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/03nhjew95"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

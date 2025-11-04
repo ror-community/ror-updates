@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.497646.e"
+      ],
+      "preferred": "grid.497646.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q51783360"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vb5nm66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.angers-nantes.inrae.fr/phan"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "PhAN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "PhysioPathologie des Adaptations Nutritionnelles"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1280"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR1280"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    },
+    {
+      "label": "Structure Fédérative de Recherche Bonamy",
+      "type": "related",
+      "id": "https://ror.org/03p6ach34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

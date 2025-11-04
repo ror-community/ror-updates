@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503157.5"
+      ],
+      "preferred": "grid.503157.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q51781079"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02baj6743",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cic-rennes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "CIC 1414"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CIC Rennes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "CIC-1414"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "CIC1414"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre d'Investigation Clinique de Rennes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM 1414"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM1414"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/05qec5a53"
+    },
+    {
+      "label": "Délégation Régionale Grand Ouest",
+      "type": "parent",
+      "id": "https://ror.org/01qa4rf46"
+    },
+    {
+      "label": "Université de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

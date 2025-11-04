@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463896.6"
+      ],
+      "preferred": "grid.463896.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1758 9034"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262278"
+      ],
+      "preferred": "Q30262278",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04yc2e502",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://imopa.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.66115,
+        "lng": 6.17114,
+        "name": "Vandœuvre-lès-Nancy"
+      },
+      "geonames_id": 2970797
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMOPA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ingénierie Moléculaire et Physiopathologie Articulaire"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7365"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7365"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Régional et Universitaire de Nancy",
+      "type": "parent",
+      "id": "https://ror.org/016ncsr12"
+    },
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

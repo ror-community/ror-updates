@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "501100011731"
+      ],
+      "preferred": "501100011731",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.457346.7"
+      ],
+      "preferred": "grid.457346.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9207 3565"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945234"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/026ma2c10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-dam.cea.fr/cesta/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_d%27%C3%A9tudes_scientifiques_et_techniques_d%27Aquitaine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.60784,
+        "lng": -0.77318,
+        "name": "Le Barp"
+      },
+      "geonames_id": 3005360
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "CEA CESTA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CEA Centre d'Études Scientifiques et Techniques d'Aquitaine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CESTA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Center for Scientific and Technical Study of Aquitaine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre d'Études Scientifiques et Techniques d'Aquitaine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA DAM Île-de-France",
+      "type": "parent",
+      "id": "https://ror.org/00kn4eb29"
+    },
+    {
+      "label": "Direction des Applications Militaires",
+      "type": "parent",
+      "id": "https://ror.org/01d5pah27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder",
+    "government"
+  ]
+}

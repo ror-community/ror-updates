@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2021,
+  "external_ids": [
+    {
+      "all": [
+        "Q109620676"
+      ],
+      "preferred": "Q109620676",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rd81916",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lisn.upsaclay.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LISN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Interdisciplinaire des Sciences du Numérique"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 9015"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR9015"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AVIZ: Analyse et visualisation",
+      "type": "child",
+      "id": "https://ror.org/01z2f0n71"
+    },
+    {
+      "label": "EX-SITU: Interaction Située Extrême",
+      "type": "child",
+      "id": "https://ror.org/037zfay27"
+    },
+    {
+      "label": "ILDA: Interacting with Large Data",
+      "type": "child",
+      "id": "https://ror.org/00jy6y646"
+    },
+    {
+      "label": "TAU: IA : vers des problèmes mieux posés",
+      "type": "child",
+      "id": "https://ror.org/031y5kf09"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

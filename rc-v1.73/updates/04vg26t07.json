@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463992.3"
+      ],
+      "preferred": "grid.463992.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262362"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vg26t07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://iramis.cea.fr/nimbe/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIMBE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nanosciences et Innovation pour les Matériaux, la Biomédecine et l'Énergie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 3685"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR3685"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Archéomatériaux et Prévision de l'Altération",
+      "type": "child",
+      "id": "https://ror.org/01xpreq28"
+    },
+    {
+      "label": "Laboratoire Structure et Dynamique par Résonance Magnétique",
+      "type": "child",
+      "id": "https://ror.org/0378sf364"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

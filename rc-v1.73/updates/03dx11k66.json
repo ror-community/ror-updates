@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dzl.de"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100010564"
+      ],
+      "preferred": "501100010564",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452624.3"
+      ],
+      "preferred": "grid.452624.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q1206129"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03dx11k66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dzl.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.58727,
+        "lng": 8.67554,
+        "name": "Giessen"
+      },
+      "geonames_id": 2920512
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DZL"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Zentrum für Lungenforschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Center for Lung Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Deutsche Zentren der Gesundheitsforschung",
+      "type": "parent",
+      "id": "https://ror.org/044wq1q96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

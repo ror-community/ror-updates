@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463949.5"
+      ],
+      "preferred": "grid.463949.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0382 2739"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/011907q25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lgpc.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.76601,
+        "lng": 4.8795,
+        "name": "Villeurbanne"
+      },
+      "geonames_id": 2968254
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LGPC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Génie des Procédés Catalytiques"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5285"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5285"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences de l'Ingénierie et des Systèmes",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "École d'Ingénieurs en Chimie et Sciences du Numérique",
+      "type": "parent",
+      "id": "https://ror.org/01cbtr271"
+    },
+    {
+      "label": "Catalyse, Polymérisation, Procédés et Matériaux",
+      "type": "successor",
+      "id": "https://ror.org/02f6tst70"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

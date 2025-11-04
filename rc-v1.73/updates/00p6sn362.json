@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lrgp-nancy.cnrs.fr"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463734.1"
+      ],
+      "preferred": "grid.463734.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9563 0857"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262136"
+      ],
+      "preferred": "Q30262136",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00p6sn362",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lrgp-nancy.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "name": "Nancy"
+      },
+      "geonames_id": 2990999
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LRGP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Réactions et Génie des Procédés"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Reactions and Chemical Engineering Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7274"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR CNRS 7274"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7274"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

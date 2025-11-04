@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1872,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464101.6"
+      ],
+      "preferred": "grid.464101.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2203 0006"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1323056"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03s0pzj56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sb-roscoff.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Station_biologique_de_Roscoff"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.72381,
+        "lng": -3.98709,
+        "name": "Roscoff"
+      },
+      "geonames_id": 2982809
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "FR 2424"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "FR2424"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Roscoff Marine Station"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SBR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Station Biologique de Roscoff"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire de Biologie Intégrative des Modèles Marins",
+      "type": "child",
+      "id": "https://ror.org/001c8pb03"
+    },
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "European Marine Biological Resource Centre",
+      "type": "related",
+      "id": "https://ror.org/0038zss60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

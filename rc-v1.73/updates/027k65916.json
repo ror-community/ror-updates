@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jpl.nasa.gov"
+  ],
+  "established": 1936,
+  "external_ids": [
+    {
+      "all": [
+        "100006196"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.211367.0"
+      ],
+      "preferred": "grid.211367.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0637 6500"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q189325"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/027k65916",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jpl.nasa.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.14778,
+        "lng": -118.14452,
+        "name": "Pasadena"
+      },
+      "geonames_id": 5381396
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JPL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jet Propulsion Lab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jet Propulsion Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jet Propulsion Laboratory, California Institute of Technology"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratorio de Propulsión a Chorro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Keck Institute for Space Studies",
+      "type": "child",
+      "id": "https://ror.org/05xkke381"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "California Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/05dxps055"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

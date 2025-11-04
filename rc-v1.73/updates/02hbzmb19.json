@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493842.0"
+      ],
+      "preferred": "grid.493842.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8752 8000"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02hbzmb19",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://certop.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CERTOP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Étude et de Recherche Travail Organisation Pouvoir"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5044"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5044"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Midi Pyrénées",
+      "type": "parent",
+      "id": "https://ror.org/042t83k43"
+    },
+    {
+      "label": "Université Toulouse III - Paul Sabatier",
+      "type": "parent",
+      "id": "https://ror.org/02v6kpv12"
+    },
+    {
+      "label": "Université Toulouse - Jean Jaurès",
+      "type": "parent",
+      "id": "https://ror.org/04ezk3x31"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

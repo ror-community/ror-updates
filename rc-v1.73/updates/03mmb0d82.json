@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503076.7"
+      ],
+      "preferred": "grid.503076.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9512 5922"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781276"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03mmb0d82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://bcl.cnrs.fr/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.70313,
+        "lng": 7.26608,
+        "name": "Nice"
+      },
+      "geonames_id": 2990440
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BCL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bases, Corpus, Langage"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7320"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7320"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Université Côte d'Azur",
+      "type": "parent",
+      "id": "https://ror.org/019tgvf94"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503168.9"
+      ],
+      "preferred": "grid.503168.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1898 0762"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q47008408"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ahza989",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://citeres.univ-tours.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.39484,
+        "lng": 0.70398,
+        "name": "Tours"
+      },
+      "geonames_id": 2972191
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CITERES"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CItés, Territoires, Environnement et Sociétés"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7324"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7324"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Équipe Monde Arabe Méditerranée",
+      "type": "child",
+      "id": "https://ror.org/008p7mq56"
+    },
+    {
+      "label": "Université de Tours",
+      "type": "parent",
+      "id": "https://ror.org/02wwzvj46"
+    },
+    {
+      "label": "Institut National de Recherches Archéologiques Préventives",
+      "type": "parent",
+      "id": "https://ror.org/04andmq85"
+    },
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

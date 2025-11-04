@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2201 8779"
+      ],
+      "preferred": "0000 0001 2201 8779",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784552"
+      ],
+      "preferred": "Q51784552",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00b1crx81",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://cren.univ-nantes.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CREN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Recherche en Éducation de Nantes"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA 2661"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA2661"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Le Mans Université",
+      "type": "parent",
+      "id": "https://ror.org/01mtcc283"
+    },
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

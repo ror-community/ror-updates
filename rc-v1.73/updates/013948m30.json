@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ensiacet.fr"
+  ],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434212.2"
+      ],
+      "preferred": "grid.434212.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9898 4327"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578248"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013948m30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensiacet.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_Nationale_Sup%C3%A9rieure_des_Ing%C3%A9nieurs_en_Arts_Chimiques_et_Technologiques"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INP-ENSIACET"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure des Ingénieurs en Arts Chimiques et Technologiques"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire de Chimie Agro-Industrielle",
+      "type": "child",
+      "id": "https://ror.org/035emn182"
+    },
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "Centre Interuniversitaire de Recherche et d’Ingénierie des Matériaux",
+      "type": "child",
+      "id": "https://ror.org/03xhggy77"
+    },
+    {
+      "label": "Laboratoire de Chimie de Coordination",
+      "type": "child",
+      "id": "https://ror.org/01rtzw447"
+    },
+    {
+      "label": "Laboratoire de Génie Chimique",
+      "type": "child",
+      "id": "https://ror.org/003jnac13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

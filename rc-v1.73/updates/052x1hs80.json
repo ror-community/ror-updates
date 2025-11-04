@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pbl.nl"
+  ],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "501100022080"
+      ],
+      "preferred": "501100022080",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.437426.0"
+      ],
+      "preferred": "grid.437426.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0616 8355"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2367258"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/052x1hs80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pbl.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Netherlands_Environmental_Assessment_Agency"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.07667,
+        "lng": 4.29861,
+        "name": "The Hague"
+      },
+      "geonames_id": 2747373
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Netherlands Environmental Assessment Agency"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PBL"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Planbureau voor de Leefomgeving"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Infrastructure and Water Management",
+      "type": "parent",
+      "id": "https://ror.org/056a6x975"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

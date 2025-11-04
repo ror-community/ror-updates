@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "swinburne.edu.au"
+  ],
+  "established": 1908,
+  "external_ids": [
+    {
+      "all": [
+        "501100001781",
+        "501100007916",
+        "501100001135"
+      ],
+      "preferred": "501100001781",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1027.4"
+      ],
+      "preferred": "grid.1027.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0409 2862"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q787234"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/031rekg67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.swinburne.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Swinburne_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Swinburne"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swinburne University of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Swinburne University of Technology Sarawak Campus",
+      "type": "child",
+      "id": "https://ror.org/014cjmc76"
+    },
+    {
+      "label": "Stawell Underground Physics Laboratory",
+      "type": "related",
+      "id": "https://ror.org/01az7g189"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

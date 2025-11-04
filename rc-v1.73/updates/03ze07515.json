@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457345.4"
+      ],
+      "preferred": "grid.457345.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0648 0308"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3553525"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ze07515",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-dam.cea.fr/valduc/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/CEA_Valduc"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.5267,
+        "lng": 5.10649,
+        "name": "Is-sur-Tille"
+      },
+      "geonames_id": 3012652
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CEA Valduc"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Valduc"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Valduc Centre for Nuclear Studies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA DAM Île-de-France",
+      "type": "parent",
+      "id": "https://ror.org/00kn4eb29"
+    },
+    {
+      "label": "Direction des Applications Militaires",
+      "type": "parent",
+      "id": "https://ror.org/01d5pah27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

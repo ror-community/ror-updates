@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 9831 039X"
+      ],
+      "preferred": "0000 0000 9831 039X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781445"
+      ],
+      "preferred": "Q51781445",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05079x435",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mshparisnord.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.93564,
+        "lng": 2.35387,
+        "name": "Saint-Denis"
+      },
+      "geonames_id": 2980916
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSHPN"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maison des Sciences de l'Homme Paris Nord"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "USR 3258"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "USR3258"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Sorbonne Paris Nord",
+      "type": "parent",
+      "id": "https://ror.org/0199hds37"
+    },
+    {
+      "label": "Université Paris 8",
+      "type": "parent",
+      "id": "https://ror.org/04wez5e68"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

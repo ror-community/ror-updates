@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2106 1732"
+      ],
+      "preferred": "0000 0001 2106 1732",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781268"
+      ],
+      "preferred": "Q51781268",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rxdng69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.u-picardie.fr/curapp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 49.9,
+        "lng": 2.3,
+        "name": "Amiens"
+      },
+      "geonames_id": 3037854
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CURAPP-ESS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre universitaire de recherches sur l'Action Publique et le Politique Épistémologie & Sciences Sociales"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7319"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7319"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Picardie Jules Verne",
+      "type": "parent",
+      "id": "https://ror.org/01gyxrk03"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

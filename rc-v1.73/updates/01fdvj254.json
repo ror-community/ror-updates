@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434192.9"
+      ],
+      "preferred": "grid.434192.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8728 5432"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578096"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fdvj254",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.enit.fr/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27ing%C3%A9nieurs_de_Tarbes"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.23407,
+        "lng": 0.07139,
+        "name": "Tarbes"
+      },
+      "geonames_id": 2973385
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENIT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale d'Ingénieurs de Tarbes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Génie de Production",
+      "type": "child",
+      "id": "https://ror.org/039aqbp11"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

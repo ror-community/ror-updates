@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2166 5798"
+      ],
+      "preferred": "0000 0001 2166 5798",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51780312"
+      ],
+      "preferred": "Q51780312",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021hb4c69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://creg.univ-tlse2.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CREG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Recherche et d'Études Germaniques"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA 4151"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA4151"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Toulouse - Jean Jaurès",
+      "type": "parent",
+      "id": "https://ror.org/04ezk3x31"
+    },
+    {
+      "label": "Université de Montpellier Paul-Valéry",
+      "type": "parent",
+      "id": "https://ror.org/05pbb8783"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

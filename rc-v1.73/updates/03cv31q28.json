@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463834.e"
+      ],
+      "preferred": "grid.463834.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2196 6515"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03cv31q28",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cesr.cnrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.39484,
+        "lng": 0.70398,
+        "name": "Tours"
+      },
+      "geonames_id": 2972191
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Etudes Supérieures de la Renaissance"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7323"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7323"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Tours",
+      "type": "parent",
+      "id": "https://ror.org/02wwzvj46"
+    },
+    {
+      "label": "Institut des Sciences Humaines et Sociales",
+      "type": "parent",
+      "id": "https://ror.org/04b0z7q78"
+    },
+    {
+      "label": "Ministère de la Culture",
+      "type": "parent",
+      "id": "https://ror.org/017rnyz40"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

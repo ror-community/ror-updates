@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ggdghor.nl"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416278.e"
+      ],
+      "preferred": "grid.416278.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q87838553"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006xsx833",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ggdghor.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Municipal_Health_Service"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utrecht",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "name": "Utrecht"
+      },
+      "geonames_id": 2745912
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Gemeentelijke geneeskundige dienst"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Geneeskundige en Gezondheidsdienst"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "GGD Amsterdam",
+      "type": "child",
+      "id": "https://ror.org/04gbbq803"
+    },
+    {
+      "label": "GGD Brabant-Zuidoost",
+      "type": "child",
+      "id": "https://ror.org/00cjb8p81"
+    },
+    {
+      "label": "GGD Hart voor Brabant",
+      "type": "child",
+      "id": "https://ror.org/05dzd9d14"
+    },
+    {
+      "label": "GGD Rotterdam-Rijnmond",
+      "type": "child",
+      "id": "https://ror.org/00dkp4z50"
+    },
+    {
+      "label": "GGD West-Brabant",
+      "type": "child",
+      "id": "https://ror.org/02kj9za59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

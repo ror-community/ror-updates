@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503345.4"
+      ],
+      "preferred": "grid.503345.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7695 2999"
+      ],
+      "preferred": "0000 0004 7695 2999",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q61933155"
+      ],
+      "preferred": "Q61933155",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02fv42846",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.college-de-france.fr/fr/recherche/laboratoire-de-chimie-des-processus-biologiques"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de chimie des processus biologiques"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8229"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8229"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Collège de France",
+      "type": "parent",
+      "id": "https://ror.org/04ex24z53"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

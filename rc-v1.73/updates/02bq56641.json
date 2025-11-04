@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "arar.mom.fr"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463755.6"
+      ],
+      "preferred": "grid.463755.6",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/02bq56641",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.arar.mom.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ARAR"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Archéologie et Archéométrie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire ArAr"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5138"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5138"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Université Lumière Lyon 2",
+      "type": "parent",
+      "id": "https://ror.org/03rth4p18"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

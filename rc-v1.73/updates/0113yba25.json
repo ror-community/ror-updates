@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100012746"
+      ],
+      "preferred": "100012746",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416904.e"
+      ],
+      "preferred": "grid.416904.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9566 8206"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0113yba25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.waitematadhb.govt.nz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "AUK",
+        "country_subdivision_name": "Auckland",
+        "lat": -36.84853,
+        "lng": 174.76349,
+        "name": "Auckland"
+      },
+      "geonames_id": 2193733
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Waitemata DHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Waitemata District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "North Shore Hospital",
+      "type": "child",
+      "id": "https://ror.org/03yvcww04"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464166.7"
+      ],
+      "preferred": "grid.464166.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0387 2111"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/031xg0236",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.virpath.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.74846,
+        "lng": 4.84671,
+        "name": "Lyon"
+      },
+      "geonames_id": 2996944
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA 4610"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA4610"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "VirPath"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Virologie et Pathologies Humaines"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Virology and Human Pathology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Délégation Rhône Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/00bjjqs38"
+    },
+    {
+      "label": "Délégation Régionale Auvergne-Rhône-Alpes",
+      "type": "parent",
+      "id": "https://ror.org/0530j9m17"
+    },
+    {
+      "label": "Hospices Civils de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/01502ca60"
+    },
+    {
+      "label": "Centre International de Recherche en Infectiologie",
+      "type": "parent",
+      "id": "https://ror.org/059sz6q14"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

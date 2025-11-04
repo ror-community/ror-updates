@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503362.1"
+      ],
+      "preferred": "grid.503362.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 816X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781582"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wsemq03",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lacy.univ-reunion.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "RE",
+        "country_name": "Réunion",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Réunion",
+        "lat": -20.88231,
+        "lng": 55.4504,
+        "name": "Saint-Denis"
+      },
+      "geonames_id": 935264
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LACy"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de l'Atmosphère et des Cyclones"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8105"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LACy"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8105"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Météo-France",
+      "type": "parent",
+      "id": "https://ror.org/0233st365"
+    },
+    {
+      "label": "University of Reunion Island",
+      "type": "parent",
+      "id": "https://ror.org/005ypkf75"
+    },
+    {
+      "label": "Observatoire des Sciences de l'Univers de la Réunion",
+      "type": "parent",
+      "id": "https://ror.org/05mv3tj33"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

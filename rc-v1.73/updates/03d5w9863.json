@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ensat.fr"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508777.a"
+      ],
+      "preferred": "grid.508777.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2182 8729"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578172"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03d5w9863",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ensat.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_Nationale_Sup%C3%A9rieure_Agronomique_de_Toulouse"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure Agronomique de Toulouse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "Centre de Recherche sur la Biodiversité et l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/03v2c3v44"
+    },
+    {
+      "label": "Laboratoire de Recherche en Sciences Végétales",
+      "type": "child",
+      "id": "https://ror.org/047z5as19"
+    },
+    {
+      "label": "Génétique Physiologie et Systèmes d'Elevage",
+      "type": "child",
+      "id": "https://ror.org/04gg6ne93"
+    },
+    {
+      "label": "AGroecologies, Innovations & Ruralities",
+      "type": "child",
+      "id": "https://ror.org/01sjmsj73"
+    },
+    {
+      "label": "Laboratoire de Génie Chimique",
+      "type": "child",
+      "id": "https://ror.org/003jnac13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

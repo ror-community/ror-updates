@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hkbu.edu.hk"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "501100001747"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.221309.b"
+      ],
+      "preferred": "grid.221309.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1764 5980"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q603686"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0145fw131",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hkbu.edu.hk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Hong_Kong_Baptist_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "country_subdivision_code": null,
+        "country_subdivision_name": null,
+        "lat": 22.27832,
+        "lng": 114.17469,
+        "name": "Hong Kong"
+      },
+      "geonames_id": 1819729
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HKBU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Hong Kong Baptist College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hong Kong Baptist University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Molecular Functional Materials",
+      "type": "child",
+      "id": "https://ror.org/00qfke340"
+    },
+    {
+      "label": "Beijing Normal-Hong Kong Baptist University",
+      "type": "related",
+      "id": "https://ror.org/04snvc712"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.428958.a"
+      ],
+      "preferred": "grid.428958.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 5960"
+      ],
+      "preferred": "0000 0004 0385 5960",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30287552"
+      ],
+      "preferred": "Q30287552",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01mhd9b84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inem.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.90289,
+        "lng": 1.90389,
+        "name": "Orléans"
+      },
+      "geonames_id": 2989317
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INEM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Immunologie et Neurogénétique Expérimentales et Moléculaires"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7355"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7355"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Université d'Orléans",
+      "type": "parent",
+      "id": "https://ror.org/014zrew76"
+    },
+    {
+      "label": "Centre hospitalier universitaire d'Orléans",
+      "type": "parent",
+      "id": "https://ror.org/04yvax419"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

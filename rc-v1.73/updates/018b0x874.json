@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462927.c"
+      ],
+      "preferred": "grid.462927.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0614 9607"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261601"
+      ],
+      "preferred": "Q30261601",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/018b0x874",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ladhyx.polytechnique.fr/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'Hydrodynamique"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire d'Hydrodynamique de l'École polytechnique"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "LadHyX"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7646"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7646"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "École Polytechnique",
+      "type": "parent",
+      "id": "https://ror.org/05hy3tk52"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

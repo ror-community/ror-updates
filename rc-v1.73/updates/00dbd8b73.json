@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "deu.edu.tr"
+  ],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "501100005771"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.21200.31"
+      ],
+      "preferred": "grid.21200.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2183 9022"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1235258"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00dbd8b73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deu.edu.tr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Dokuz_Eyl%C3%BCl_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TR",
+        "country_name": "Türkiye",
+        "country_subdivision_code": "35",
+        "country_subdivision_name": "İzmir Province",
+        "lat": 38.41273,
+        "lng": 27.13838,
+        "name": "Izmir"
+      },
+      "geonames_id": 311046
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DEÜ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dokuz Eylül University"
+    },
+    {
+      "lang": "tr",
+      "types": [
+        "label"
+      ],
+      "value": "Dokuz Eylül Üniversitesi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dokuz Eylül Üniversitesi Hastanesi",
+      "type": "related",
+      "id": "https://ror.org/02d1ved90"
+    },
+    {
+      "label": "Izmir Biomedicine and Genome Center",
+      "type": "child",
+      "id": "https://ror.org/04n6j6456"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

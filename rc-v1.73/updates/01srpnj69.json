@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wellesley.edu"
+  ],
+  "established": 1873,
+  "external_ids": [
+    {
+      "all": [
+        "100005484"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268091.4"
+      ],
+      "preferred": "grid.268091.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9561"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q49205"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01srpnj69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wellesley.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Wellesley_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.29649,
+        "lng": -71.29256,
+        "name": "Wellesley"
+      },
+      "geonames_id": 4954738
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wellesley College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    },
+    {
+      "label": "Wellesley Centers for Women",
+      "type": "child",
+      "id": "https://ror.org/05bc1rm89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

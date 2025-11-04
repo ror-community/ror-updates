@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483425.c"
+      ],
+      "preferred": "grid.483425.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 8827"
+      ],
+      "preferred": "0000 0004 0638 8827",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01qfab443",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.institutnicod.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Jean Nicod"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8129"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8129"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Paris B",
+      "type": "parent",
+      "id": "https://ror.org/04tnvnq52"
+    },
+    {
+      "label": "École Normale Supérieure - PSL",
+      "type": "parent",
+      "id": "https://ror.org/05a0dhs15"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

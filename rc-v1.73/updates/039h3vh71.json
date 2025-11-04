@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1847,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413379.b"
+      ],
+      "preferred": "grid.413379.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0244 0702"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/039h3vh71",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ccdhb.org.nz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "WGN",
+        "country_subdivision_name": "Wellington Region",
+        "lat": -41.28664,
+        "lng": 174.77557,
+        "name": "Wellington"
+      },
+      "geonames_id": 2179537
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCDHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Capital and Coast District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wellington Hospital",
+      "type": "child",
+      "id": "https://ror.org/007n45g27"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

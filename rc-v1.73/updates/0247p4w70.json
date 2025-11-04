@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462531.7"
+      ],
+      "preferred": "grid.462531.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0369 6154"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261484"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0247p4w70",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iramis.cea.fr/spec/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SPEC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Service de Physique de l'État Condensé"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 3680"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR3680"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de Physique",
+      "type": "parent",
+      "id": "https://ror.org/00z54nq84"
+    },
+    {
+      "label": "Institut Rayonnement-Matière de Saclay",
+      "type": "parent",
+      "id": "https://ror.org/00cch2r34"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

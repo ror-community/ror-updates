@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473801.9"
+      ],
+      "preferred": "grid.473801.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 1049"
+      ],
+      "preferred": "0000 0004 0452 1049",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/051f3f740",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ebi.labo.univ-poitiers.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 46.58261,
+        "lng": 0.34348,
+        "name": "Poitiers"
+      },
+      "geonames_id": 2986495
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EBI"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7267"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7267"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Écologie et Biologie des Interactions"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Université de Poitiers",
+      "type": "parent",
+      "id": "https://ror.org/04xhy8q59"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

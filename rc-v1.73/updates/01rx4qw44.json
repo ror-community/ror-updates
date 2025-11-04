@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "irit.fr"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454304.2"
+      ],
+      "preferred": "grid.454304.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2192 7225"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01rx4qw44",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.irit.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRIT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de Recherche en Informatique de Toulouse"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Toulouse Institute of Computer Science Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5505"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5505"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",
+      "type": "parent",
+      "id": "https://ror.org/05wfw4946"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

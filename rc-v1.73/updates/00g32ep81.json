@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 1931 4294"
+      ],
+      "preferred": "0000 0001 1931 4294",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51782200"
+      ],
+      "preferred": "Q51782200",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g32ep81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://chj-cnrs.univ-lille.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.63391,
+        "lng": 3.05512,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHJ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'Histoire Judiciaire"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8025"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8025"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "srft.nhs.uk"
+  ],
+  "established": 1882,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415721.4"
+      ],
+      "preferred": "grid.415721.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8535 2371"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/027rkpb34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.northerncarealliance.nhs.uk/salford"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.48771,
+        "lng": -2.29042,
+        "name": "Salford"
+      },
+      "geonames_id": 2638671
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Hope Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Salford Royal Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Manchester",
+      "type": "related",
+      "id": "https://ror.org/027m9bs27"
+    },
+    {
+      "label": "Northern Care Alliance NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/01nqeyn25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

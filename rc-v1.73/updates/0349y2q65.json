@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tbs-education.com"
+  ],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "grid.469181.3"
+      ],
+      "preferred": "grid.469181.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9455 3423"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3117393"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0349y2q65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tbs-education.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Toulouse_Business_School"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "oc",
+      "types": [
+        "alias"
+      ],
+      "value": "Escòla Superiora de Comèrci de Tolosa"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TBS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "TBS Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Toulouse Business School"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École Supérieure de Commerce de Toulouse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d’Étude et de Recherche sur l’Économie, les Politiques et les Systèmes Sociaux",
+      "type": "child",
+      "id": "https://ror.org/05tcnbj64"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

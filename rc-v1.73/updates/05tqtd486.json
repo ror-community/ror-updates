@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100006571"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410864.f"
+      ],
+      "preferred": "grid.410864.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0040 0934"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05tqtd486",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cdhb.health.nz/Pages/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "CAN",
+        "country_subdivision_name": "Canterbury",
+        "lat": -43.89834,
+        "lng": 171.73011,
+        "name": "Ashburton"
+      },
+      "geonames_id": 6217081
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CDHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Canterbury District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Burwood Hospital",
+      "type": "child",
+      "id": "https://ror.org/017c9f638"
+    },
+    {
+      "label": "Christchurch Hospital",
+      "type": "child",
+      "id": "https://ror.org/003nvpm64"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

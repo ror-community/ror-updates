@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "incdpm.ro"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425467.6"
+      ],
+      "preferred": "grid.425467.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 9301"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18540952"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00w603c79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.incdpm.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RO",
+        "country_name": "Romania",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "București",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "name": "Bucharest"
+      },
+      "geonames_id": 683506
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCDPM"
+    },
+    {
+      "lang": "ro",
+      "types": [
+        "label"
+      ],
+      "value": "Institutul Național de Cercetare-Dezvoltare Pentru Protecția Mediului"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute for Research and Development in Environmental Protection"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Danube Delta National Institute for Research and Development",
+      "type": "child",
+      "id": "https://ror.org/00hdnr317"
+    },
+    {
+      "label": "Institutul Naţional de Cercetare Dezvoltare Marină Grigore Antipa",
+      "type": "child",
+      "id": "https://ror.org/04bb70w76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

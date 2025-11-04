@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "zcu.cz"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "100009056"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22557.37"
+      ],
+      "preferred": "grid.22557.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0176 7631"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1973888"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040t43x18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.zcu.cz/cs/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_West_Bohemia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "32",
+        "country_subdivision_name": "Plzeň Region",
+        "lat": 49.74747,
+        "lng": 13.37759,
+        "name": "Pilsen"
+      },
+      "geonames_id": 3068160
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of West Bohemia"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Západočeská Univerzita v Plzni"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Západočeská univerzita v Plzni"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ZČU"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Digital Research Infrastructure for Language Technologies, Arts and Humanities",
+      "type": "child",
+      "id": "https://ror.org/00dd4fz34"
+    },
+    {
+      "label": "Czech National Infrastructure for Biological Data",
+      "type": "child",
+      "id": "https://ror.org/0286qer95"
+    },
+    {
+      "label": "Research Infrastructure for Experiments at CERN",
+      "type": "child",
+      "id": "https://ror.org/01t0a1151"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

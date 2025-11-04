@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440225.5"
+      ],
+      "preferred": "grid.440225.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4682 0178"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30293431"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00d2ka202",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chedv.min-saude.pt/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "01",
+        "country_subdivision_name": "Aveiro",
+        "lat": 40.93057,
+        "lng": -8.24488,
+        "name": "Arouca"
+      },
+      "geonames_id": 2742700
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHEDV"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Centro Hospitalar de Entre o Douro e Vouga E.P.E."
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Unidade Local de Saúde de Entre Douro e Vouga"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital de São Sebastião",
+      "type": "child",
+      "id": "https://ror.org/05j4pfa30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

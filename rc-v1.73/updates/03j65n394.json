@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100018956"
+      ],
+      "preferred": "100018956",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0389 9194"
+      ],
+      "preferred": "0000 0005 0389 9194",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03j65n394",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.labex-tulip.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.5159,
+        "lng": 1.4986,
+        "name": "Castanet-Tolosan"
+      },
+      "geonames_id": 3028409
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Labex TULIP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Excellence TULIP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory of Excellence TULIP"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TULIP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "TULIP LabEx"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université Toulouse III - Paul Sabatier",
+      "type": "parent",
+      "id": "https://ror.org/02v6kpv12"
+    },
+    {
+      "label": "Université de Perpignan",
+      "type": "parent",
+      "id": "https://ror.org/03am2jy38"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

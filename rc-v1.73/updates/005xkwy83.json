@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tokyo-mc.hosp.go.jp"
+  ],
+  "established": 1884,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416239.b"
+      ],
+      "preferred": "grid.416239.b",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/005xkwy83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tokyo-mc.hosp.go.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tokyo Medical Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "独立行政法人国立病院機構東京医療センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

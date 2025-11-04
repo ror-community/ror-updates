@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100003443",
+        "501100007152",
+        "501100012190"
+      ],
+      "preferred": "501100003443",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452946.8"
+      ],
+      "preferred": "grid.452946.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2625105"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ghqgy32",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://xn--80abucjiibhv9a.xn--p1ai/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Education_and_Science_(Russia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Minobrnauki of Russia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The Ministry of Education and Science of the Russian Federation"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Министерство образования и науки Российской Федерации"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Federal Institute for Education Development",
+      "type": "child",
+      "id": "https://ror.org/02gfzp482"
+    },
+    {
+      "label": "Federal Research Center “Computer Science and Control” of the Russian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/006wm7015"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

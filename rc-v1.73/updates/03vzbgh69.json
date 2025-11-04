@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1457,
+  "external_ids": [
+    {
+      "all": [
+        "grid.7708.8"
+      ],
+      "preferred": "grid.7708.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9428 7911"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q127773"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03vzbgh69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uniklinik-freiburg.de/en/uniklinikum.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_Medical_Center_Freiburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 47.9959,
+        "lng": 7.85222,
+        "name": "Freiburg im Breisgau"
+      },
+      "geonames_id": 2925177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Medical Center Freiburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Freiburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klinik für Frauenheilkunde",
+      "type": "child",
+      "id": "https://ror.org/00a0bqh48"
+    },
+    {
+      "label": "Klinik für Neuropädiatrie und Muskelerkrankungen",
+      "type": "child",
+      "id": "https://ror.org/03cba0s60"
+    },
+    {
+      "label": "University of Freiburg",
+      "type": "related",
+      "id": "https://ror.org/0245cg223"
+    },
+    {
+      "label": "Universitäts-Herzzentrum Freiburg-Bad Krozingen",
+      "type": "child",
+      "id": "https://ror.org/02w6m7e50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

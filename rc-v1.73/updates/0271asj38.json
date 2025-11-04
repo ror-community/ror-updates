@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sfi.ie"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "501100001602"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.437854.9"
+      ],
+      "preferred": "grid.437854.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 5752"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3475731"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0271asj38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sfi.ie/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Science_Foundation_Ireland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "L",
+        "country_subdivision_name": "Leinster",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "name": "Dublin"
+      },
+      "geonames_id": 2964574
+    }
+  ],
+  "names": [
+    {
+      "lang": "ga",
+      "types": [
+        "label"
+      ],
+      "value": "Fondúireacht Eolaíochta Éireann"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SFI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Science Foundation Ireland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Irish Research eLibrary",
+      "type": "related",
+      "id": "https://ror.org/05c347015"
+    },
+    {
+      "label": "Taighde Éireann - Research Ireland",
+      "type": "successor",
+      "id": "https://ror.org/010t7sr36"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

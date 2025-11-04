@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "list.cea.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457331.7"
+      ],
+      "preferred": "grid.457331.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0405 1788"
+      ],
+      "preferred": "0000 0004 0405 1788",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/000dbcc61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://list.cea.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CEA LIST"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LIST"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire d'Intégration des Systèmes et des Technologies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Direction de la Recherche Technologique",
+      "type": "parent",
+      "id": "https://ror.org/02ggzyd20"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

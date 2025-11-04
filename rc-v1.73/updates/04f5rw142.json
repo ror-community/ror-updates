@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7775 6949"
+      ],
+      "preferred": "0000 0004 7775 6949",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04f5rw142",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://lamcube.univ-lille.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.61669,
+        "lng": 3.16664,
+        "name": "Villeneuve-d'Ascq"
+      },
+      "geonames_id": 6543862
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LaMCUBE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Mécanique, Multiphysique, Multiéchelle"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 9013"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR9013"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Centrale de Lille",
+      "type": "parent",
+      "id": "https://ror.org/01x441g73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417424.0"
+      ],
+      "preferred": "grid.417424.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9021 6470"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/032d3jq51",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.waikatodhb.health.nz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "WKO",
+        "country_subdivision_name": "Waikato Region",
+        "lat": -37.78333,
+        "lng": 175.28333,
+        "name": "Hamilton"
+      },
+      "geonames_id": 2190324
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Waikato DHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Waikato District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Waikato Hospital",
+      "type": "child",
+      "id": "https://ror.org/002zf4a56"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

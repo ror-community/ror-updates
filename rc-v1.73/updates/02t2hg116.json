@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0609 5792"
+      ],
+      "preferred": "0000 0004 0609 5792",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51781713"
+      ],
+      "preferred": "Q51781713",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02t2hg116",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.isto-orleans.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.90289,
+        "lng": 1.90389,
+        "name": "Orléans"
+      },
+      "geonames_id": 2989317
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "ISTO"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut des Sciences de la Terre d'Orléans"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7327"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR ISTO"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7327"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Université d'Orléans",
+      "type": "parent",
+      "id": "https://ror.org/014zrew76"
+    },
+    {
+      "label": "Bureau de Recherches Géologiques et Minières",
+      "type": "parent",
+      "id": "https://ror.org/05hnb7x64"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

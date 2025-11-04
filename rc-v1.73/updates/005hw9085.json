@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2375 994X"
+      ],
+      "preferred": "0000 0001 2375 994X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945232"
+      ],
+      "preferred": "Q2945232",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005hw9085",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://cescm.labo.univ-poitiers.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 46.58261,
+        "lng": 0.34348,
+        "name": "Poitiers"
+      },
+      "geonames_id": 2986495
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESCM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'études supérieures de civilisation médiévale"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7302"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7302"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Poitiers",
+      "type": "parent",
+      "id": "https://ror.org/04xhy8q59"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

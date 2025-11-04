@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kdi.re.kr"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100003672"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.444082.e"
+      ],
+      "preferred": "grid.444082.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 4821"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q626288"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h7vzs32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kdi.re.kr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B0%9C%EB%B0%9C%EC%97%B0%EA%B5%AC%EC%9B%90"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Seoul",
+        "lat": 37.566,
+        "lng": 126.9784,
+        "name": "Seoul"
+      },
+      "geonames_id": 1835848
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KDI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Development Institute"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "한국개발연구원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "KDI School of Public Policy and Management",
+      "type": "child",
+      "id": "https://ror.org/035g89j34"
+    },
+    {
+      "label": "National Research Council for Economics Humanities and Social Science",
+      "type": "parent",
+      "id": "https://ror.org/012zp9903"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

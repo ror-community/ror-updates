@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457344.5"
+      ],
+      "preferred": "grid.457344.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0623 4385"
+      ],
+      "preferred": "0000 0004 0623 4385",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30299477"
+      ],
+      "preferred": "Q30299477",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00j8epd55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-dam.cea.fr/gramat/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 44.77942,
+        "lng": 1.72469,
+        "name": "Gramat"
+      },
+      "geonames_id": 3015386
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CEA Gramat"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Gramat"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA DAM Île-de-France",
+      "type": "parent",
+      "id": "https://ror.org/00kn4eb29"
+    },
+    {
+      "label": "Direction des Applications Militaires",
+      "type": "parent",
+      "id": "https://ror.org/01d5pah27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

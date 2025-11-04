@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "moh.gov.rw"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.421714.5"
+      ],
+      "preferred": "grid.421714.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q5421497"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05prysf28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.moh.gov.rw/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Rwanda)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "RW",
+        "country_name": "Rwanda",
+        "country_subdivision_code": "01",
+        "country_subdivision_name": "Kigali",
+        "lat": -1.94995,
+        "lng": 30.05885,
+        "name": "Kigali"
+      },
+      "geonames_id": 202061
+    }
+  ],
+  "names": [
+    {
+      "lang": "rw",
+      "types": [
+        "label"
+      ],
+      "value": "Minisiteri y'Ubuzima"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Ministère de la Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Hospitalier Universitaire de Kigali",
+      "type": "child",
+      "id": "https://ror.org/038vngd42"
+    },
+    {
+      "label": "Rwanda Biomedical Center",
+      "type": "child",
+      "id": "https://ror.org/03jggqf79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

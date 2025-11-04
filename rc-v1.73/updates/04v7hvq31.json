@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "grid.217200.6"
+      ],
+      "preferred": "grid.217200.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0627 2787"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q604029"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v7hvq31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://scripps.ucsd.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Scripps_Institution_of_Oceanography"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.84727,
+        "lng": -117.2742,
+        "name": "La Jolla"
+      },
+      "geonames_id": 5363943
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Scripps"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Scripps Institution of Oceanography"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Scripps Oceanography"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California Current Ecosystem Long Term Ecological Research",
+      "type": "child",
+      "id": "https://ror.org/010dcp921"
+    },
+    {
+      "label": "California Cooperative Oceanic Fisheries Investigations",
+      "type": "child",
+      "id": "https://ror.org/04c3j6v84"
+    },
+    {
+      "label": "University of California San Diego",
+      "type": "parent",
+      "id": "https://ror.org/0168r3w48"
+    },
+    {
+      "label": "Moorea Coral Reef Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/017vyhs10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

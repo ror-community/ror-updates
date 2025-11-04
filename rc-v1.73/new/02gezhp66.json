@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-10-27",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bricbordeaux.com"
+  ],
+  "established": 2022,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1091 2713"
+      ],
+      "preferred": "0000 0005 1091 2713",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02gezhp66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bricbordeaux.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "BRIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "BoRdeaux Institute of onCology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm U1312"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1312"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR1312"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457347.6"
+      ],
+      "preferred": "grid.457347.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1956 9481"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2931222"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00kn4eb29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www-dam.cea.fr/damidf/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_CEA_de_Bruy%C3%A8res-le-Ch%C3%A2tel"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.58868,
+        "lng": 2.18991,
+        "name": "Bruyères-le-Châtel"
+      },
+      "geonames_id": 3029717
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "CEA DAM Île-de-France"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEA DIF"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "DAM Île-de-France"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "DIF"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Direction des Applications Militaires Île-de-France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA Gramat",
+      "type": "child",
+      "id": "https://ror.org/00j8epd55"
+    },
+    {
+      "label": "CEA Le Ripault",
+      "type": "child",
+      "id": "https://ror.org/01hjhm267"
+    },
+    {
+      "label": "CEA Valduc",
+      "type": "child",
+      "id": "https://ror.org/03ze07515"
+    },
+    {
+      "label": "CEA CESTA",
+      "type": "child",
+      "id": "https://ror.org/026ma2c10"
+    },
+    {
+      "label": "Direction des Applications Militaires",
+      "type": "parent",
+      "id": "https://ror.org/01d5pah27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

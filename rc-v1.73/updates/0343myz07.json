@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mus.edu"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460394.c"
+      ],
+      "preferred": "grid.460394.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8816 451X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0343myz07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mus.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MT",
+        "country_subdivision_name": "Montana",
+        "lat": 46.59271,
+        "lng": -112.03611,
+        "name": "Helena"
+      },
+      "geonames_id": 5656882
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Montana State University System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Montana State University",
+      "type": "child",
+      "id": "https://ror.org/02w0trx84"
+    },
+    {
+      "label": "Montana State University Billings",
+      "type": "child",
+      "id": "https://ror.org/01tj58m37"
+    },
+    {
+      "label": "Montana State University–Northern",
+      "type": "child",
+      "id": "https://ror.org/04ygywa46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

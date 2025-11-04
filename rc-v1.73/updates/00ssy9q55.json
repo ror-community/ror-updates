@@ -1,0 +1,132 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100013387"
+      ],
+      "preferred": "501100013387",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.463707.1"
+      ],
+      "preferred": "grid.463707.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0614 7900"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ssy9q55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lam.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LAM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d’Astrophysique de Marseille"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7326"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR LAM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR Laboratoire d’Astrophysique de Marseille"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7326"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aix-Marseille Université",
+      "type": "parent",
+      "id": "https://ror.org/035xkbk20"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Centre National d'Études Spatiales",
+      "type": "parent",
+      "id": "https://ror.org/04h1h0y33"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

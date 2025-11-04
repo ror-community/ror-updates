@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-12-09",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sns.gov.pt"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 5914 2951"
+      ],
+      "preferred": "0000 0004 5914 2951",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/020j5zv28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sns.gov.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Lisbon",
+        "lat": 38.72509,
+        "lng": -9.1498,
+        "name": "Lisbon"
+      },
+      "geonames_id": 2267057
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "acronym"
+      ],
+      "value": "SNS"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Serviço Nacional de Saúde"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Santa Maria Maior EPE",
+      "type": "child",
+      "id": "https://ror.org/01ba0qf36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

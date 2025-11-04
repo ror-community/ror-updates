@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kreftforeningen.no"
+  ],
+  "established": 1938,
+  "external_ids": [
+    {
+      "all": [
+        "100008730"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454853.b"
+      ],
+      "preferred": "grid.454853.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9990 0607"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4591909"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01925vb10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kreftforeningen.no"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Norwegian_Cancer_Society"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Oslo",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Kreftforeningen"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Norsk Forening til Kreftens Bekjempelse"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Norwegian Cancer Society"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Stiftelsen Dam",
+      "type": "child",
+      "id": "https://ror.org/02esmmc86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

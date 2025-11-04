@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463975.a"
+      ],
+      "preferred": "grid.463975.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6003 953X"
+      ],
+      "preferred": "0000 0004 6003 953X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262347"
+      ],
+      "preferred": "Q30262347",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vd6h165",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chimie.ens.fr/recherche/laboratoire-lbm/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LBM Laboratory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire LBM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire des Biomolécules"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7203"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7203"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Institut de Chimie",
+      "type": "parent",
+      "id": "https://ror.org/02cte4b68"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "École Normale Supérieure - PSL",
+      "type": "parent",
+      "id": "https://ror.org/05a0dhs15"
+    },
+    {
+      "label": "Chimie Physique et Chimie du Vivant",
+      "type": "successor",
+      "id": "https://ror.org/05ebxsr90"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dzif.de"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "100009139"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452463.2"
+      ],
+      "preferred": "grid.452463.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/028s4q594",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dzif.de/de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 52.26594,
+        "lng": 10.52673,
+        "name": "Braunschweig"
+      },
+      "geonames_id": 2945024
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DZIF"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Zentrum für Infektionsforschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Center for Infection Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Deutsche Zentren der Gesundheitsforschung",
+      "type": "parent",
+      "id": "https://ror.org/044wq1q96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450330.1"
+      ],
+      "preferred": "grid.450330.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2276 7382"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214403"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049nhh297",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lapp.in2p3.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Laboratoire_d'Annecy-le-Vieux_de_physique_des_particules"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.90878,
+        "lng": 6.12565,
+        "name": "Annecy"
+      },
+      "geonames_id": 3037543
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Annecy-le-Vieux Particle Physics Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LAPP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'Annecy-le-Vieux de Physique des Particules"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d’Annecy de Physique des Particules"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5814"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5814"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Physique Nucléaire et de Physique des Particules",
+      "type": "parent",
+      "id": "https://ror.org/03fd77x13"
+    },
+    {
+      "label": "Université Savoie Mont Blanc",
+      "type": "parent",
+      "id": "https://ror.org/04gqg1a07"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

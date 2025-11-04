@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100007196",
+        "501100016993"
+      ],
+      "preferred": "501100016993",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425715.0"
+      ],
+      "preferred": "grid.425715.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2188136"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056a6x975",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.07667,
+        "lng": 4.29861,
+        "name": "The Hague"
+      },
+      "geonames_id": 2747373
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "acronym"
+      ],
+      "value": "IenM"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministerie van Infrastructuur en Milieu"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Ministerie van Infrastructuur en Waterstaat"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias",
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministry of Infrastructure and Water Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Netherlands Environmental Assessment Agency",
+      "type": "child",
+      "id": "https://ror.org/052x1hs80"
+    },
+    {
+      "label": "Royal Netherlands Meteorological Institute",
+      "type": "child",
+      "id": "https://ror.org/05dfgh554"
+    },
+    {
+      "label": "Rijkswaterstaat",
+      "type": "child",
+      "id": "https://ror.org/0355ahf06"
+    },
+    {
+      "label": "Kennisinstituut voor Mobiliteitsbeleid",
+      "type": "child",
+      "id": "https://ror.org/038fyf011"
+    },
+    {
+      "label": "Government of Netherlands",
+      "type": "parent",
+      "id": "https://ror.org/045vgz384"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

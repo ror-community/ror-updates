@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ubfc.fr"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.493090.7"
+      ],
+      "preferred": "grid.493090.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4910 6615"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02dn7x778",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ubfc.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.24878,
+        "lng": 6.01815,
+        "name": "Besançon"
+      },
+      "geonames_id": 3033123
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UBFC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Université Bourgogne Franche-Comté"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Presses Universitaires de Franche-Comté",
+      "type": "child",
+      "id": "https://ror.org/03k2z9h56"
+    },
+    {
+      "label": "Université Marie et Louis Pasteur",
+      "type": "successor",
+      "id": "https://ror.org/04asdee31"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "successor",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "irfu.cea.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457342.3"
+      ],
+      "preferred": "grid.457342.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q19945100"
+      ],
+      "preferred": "Q19945100",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05k705z76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://irfu.cea.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institut_de_recherche_sur_les_lois_fondamentales_de_l%27Univers"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "IRFU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut de Recherche sur les Lois Fondamentales de l'Univers"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Research into the Fundamental Laws of the Universe"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Direction de la Recherche Fondamentale",
+      "type": "parent",
+      "id": "https://ror.org/01yvj5k91"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

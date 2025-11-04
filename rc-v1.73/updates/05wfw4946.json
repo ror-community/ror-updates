@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-06-22",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 1456 6679"
+      ],
+      "preferred": "0000 0001 1456 6679",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05wfw4946",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enseeiht.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSEEIHT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Escuela Nacional Superior de Electrotécnica, Electrónica, Informática, Hidráulica y Telecomunicaciones de Toulouse"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INP-ENSEEIHT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute of Electrical Engineering, Electronics, Computer Science,Fluid Mechanics & Telecommunications and Networks"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    },
+    {
+      "label": "Institut de Mécanique des Fluides de Toulouse",
+      "type": "child",
+      "id": "https://ror.org/025nmxp11"
+    },
+    {
+      "label": "Institut de Recherche en Informatique de Toulouse",
+      "type": "child",
+      "id": "https://ror.org/01rx4qw44"
+    },
+    {
+      "label": "Laboratoire d'Analyse et d'Architecture des Systèmes",
+      "type": "child",
+      "id": "https://ror.org/03vcm6439"
+    },
+    {
+      "label": "Laboratoire Plasma et Conversion d'Energie",
+      "type": "child",
+      "id": "https://ror.org/02w5mvk98"
+    },
+    {
+      "label": "TéSA",
+      "type": "related",
+      "id": "https://ror.org/01zgcd031"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ganil-spiral2.eu"
+  ],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "grid.72943.3b"
+      ],
+      "preferred": "grid.72943.3b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0000 1888"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1137800"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042dc0x18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ganil-spiral2.eu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Grand_acc%C3%A9l%C3%A9rateur_national_d%27ions_lourds"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NOR",
+        "country_subdivision_name": "Normandy",
+        "lat": 49.18585,
+        "lng": -0.35912,
+        "name": "Caen"
+      },
+      "geonames_id": 3029241
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "GANIL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "GANIL SPIRAL2"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "GANIL SPIRAL2: Grand Accélérateur National d'Ions Lourds"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "GANIL: Grand Accélérateur National d'Ions Lourds"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Grand Accélérateur National d'Ions Lourds"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Large Heavy Ion National Accelerator"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Direction de la Recherche Fondamentale",
+      "type": "parent",
+      "id": "https://ror.org/01yvj5k91"
+    },
+    {
+      "label": "Institut National de Physique Nucléaire et de Physique des Particules",
+      "type": "parent",
+      "id": "https://ror.org/03fd77x13"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Système de Production d’Ions Radioactifs Accélérés en Ligne",
+      "type": "related",
+      "id": "https://ror.org/02fjdfm19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100006681",
+        "501100006682"
+      ],
+      "preferred": "501100006681",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10821.3a"
+      ],
+      "preferred": "grid.10821.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0490 9553"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6979266"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00htwgm11",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unsa.edu.ar/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_University_of_Salta"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "A",
+        "country_subdivision_name": "Salta",
+        "lat": -24.80645,
+        "lng": -65.41999,
+        "name": "Salta"
+      },
+      "geonames_id": 3838233
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University of Salta"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNSa"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Nacional de Salta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico Salta - Jujuy",
+      "type": "related",
+      "id": "https://ror.org/04tpkqz22"
+    },
+    {
+      "label": "Instituto de Investigaciones en Energía no Convencional",
+      "type": "child",
+      "id": "https://ror.org/011cdfy08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

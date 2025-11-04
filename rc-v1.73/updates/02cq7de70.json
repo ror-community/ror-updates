@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413188.7"
+      ],
+      "preferred": "grid.413188.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0098 1855"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02cq7de70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.countiesmanukau.health.nz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "NZ",
+        "country_name": "New Zealand",
+        "country_subdivision_code": "AUK",
+        "country_subdivision_name": "Auckland",
+        "lat": -36.84853,
+        "lng": 174.76349,
+        "name": "Auckland"
+      },
+      "geonames_id": 2193733
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "CM Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Counties Manukau District Health Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Middlemore Hospital",
+      "type": "child",
+      "id": "https://ror.org/055d6gv91"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

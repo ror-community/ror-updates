@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2161 4640"
+      ],
+      "preferred": "0000 0001 2161 4640",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01ja5aj48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://halma.univ-lille.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.61669,
+        "lng": 3.16664,
+        "name": "Villeneuve-d'Ascq"
+      },
+      "geonames_id": 6543862
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de recherche HALMA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HALMA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Histoire, Archéologie et Littérature des Mondes Anciens"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8164"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8164"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut National de Recherches Archéologiques Préventives",
+      "type": "parent",
+      "id": "https://ror.org/04andmq85"
+    },
+    {
+      "label": "Ministère de la Culture",
+      "type": "parent",
+      "id": "https://ror.org/017rnyz40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

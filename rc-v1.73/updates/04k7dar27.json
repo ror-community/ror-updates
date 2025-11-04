@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fws.gov"
+  ],
+  "established": 1940,
+  "external_ids": [
+    {
+      "all": [
+        "100000202"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.462979.7"
+      ],
+      "preferred": "grid.462979.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2287 7477"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q674113"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04k7dar27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fws.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Fish_and_Wildlife_Service"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FWS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Servicio de Pesca y Vida Silvestre de los Estados Unidos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USFWS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Fish and Wildlife Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of the Interior",
+      "type": "parent",
+      "id": "https://ror.org/03v0pmy70"
+    },
+    {
+      "label": "NOAA RESTORE Science Program",
+      "type": "related",
+      "id": "https://ror.org/0042xzm63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

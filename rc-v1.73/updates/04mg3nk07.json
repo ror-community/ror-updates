@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-10-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100016353"
+      ],
+      "preferred": "100016353",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419957.7"
+      ],
+      "preferred": "grid.419957.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3947008"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mg3nk07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sdsc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/San_Diego_Supercomputer_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "San Diego Supercomputer Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "OpenTopography",
+      "type": "child",
+      "id": "https://ror.org/01m10e879"
+    },
+    {
+      "label": "University of California San Diego",
+      "type": "parent",
+      "id": "https://ror.org/0168r3w48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
