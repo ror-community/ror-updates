@@ -10,37 +10,48 @@
     }
   },
   "domains": [
-    "metabolon.com"
+    "dominican.edu"
   ],
-  "established": 2000,
+  "established": 1890,
   "external_ids": [
     {
       "all": [
-        "grid.429438.0"
+        "100011637"
       ],
-      "preferred": "grid.429438.0",
+      "preferred": "100011637",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.255148.f"
+      ],
+      "preferred": "grid.255148.f",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0402 1933"
+        "0000 0000 9826 3546"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q30287950"
+        "Q5290855"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/033qhvk72",
+  "id": "https://ror.org/056d3gw71",
   "links": [
     {
       "type": "website",
-      "value": "https://www.metabolon.com"
+      "value": "https://www.dominican.eduu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Dominican_University_of_California"
     }
   ],
   "locations": [
@@ -50,28 +61,36 @@
         "continent_name": "North America",
         "country_code": "US",
         "country_name": "United States",
-        "country_subdivision_code": "NC",
-        "country_subdivision_name": "North Carolina",
-        "lat": 35.82348,
-        "lng": -78.82556,
-        "name": "Morrisville"
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.97353,
+        "lng": -122.53109,
+        "name": "San Rafael"
       },
-      "geonames_id": 4480285
+      "geonames_id": 5392567
     }
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dominican College"
+    },
+    {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Metabolon (United States)"
+      "value": "Dominican University of California"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
-    "company"
+    "education",
+    "funder"
   ]
 }
