@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,28 @@
       "value": "Department for Business and Trade"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department for Business, Energy and Industrial Strategy",
+      "type": "predecessor",
+      "id": "https://ror.org/019ya6433"
+    },
+    {
+      "label": "Department for International Trade",
+      "type": "predecessor",
+      "id": "https://ror.org/01bgmsb44"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "Office for Product Safety and Standards",
+      "type": "child",
+      "id": "https://ror.org/02fvybm75"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

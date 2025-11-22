@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "MINT Memory Clinic"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre for Family Medicine",
+      "type": "parent",
+      "id": "https://ror.org/059d8kr95"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

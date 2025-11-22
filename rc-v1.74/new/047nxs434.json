@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Office of Population Affairs"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of the Assistant Secretary for Health",
+      "type": "parent",
+      "id": "https://ror.org/00r348449"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

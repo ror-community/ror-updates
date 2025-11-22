@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Alberta Student Aid"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Alberta",
+      "type": "parent",
+      "id": "https://ror.org/006b2g567"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

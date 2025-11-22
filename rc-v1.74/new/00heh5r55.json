@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Institute of Evolution"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "HUN-REN Centre for Ecological Research",
+      "type": "parent",
+      "id": "https://ror.org/04bhfmv97"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

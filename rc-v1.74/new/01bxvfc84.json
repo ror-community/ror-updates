@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,13 @@
       "value": "중소기업청"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of SMEs and Startups",
+      "type": "successor",
+      "id": "https://ror.org/022c4zk48"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

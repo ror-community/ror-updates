@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,13 @@
       "value": "Instituto Tecnológico de Ciudad Madero"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tecnológico Nacional de México",
+      "type": "parent",
+      "id": "https://ror.org/00davry38"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

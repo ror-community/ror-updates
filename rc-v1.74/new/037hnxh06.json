@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,43 @@
       "value": "The Texas Medical Center Library"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Texas Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/00dqsbj20"
+    },
+    {
+      "label": "Prairie View A&M University",
+      "type": "related",
+      "id": "https://ror.org/0449kf092"
+    },
+    {
+      "label": "Texas Southern University",
+      "type": "related",
+      "id": "https://ror.org/05ch0aw77"
+    },
+    {
+      "label": "Houston Community College System",
+      "type": "related",
+      "id": "https://ror.org/034nqjm29"
+    },
+    {
+      "label": "Baylor College of Medicine",
+      "type": "related",
+      "id": "https://ror.org/02pttbw34"
+    },
+    {
+      "label": "The University of Texas Health Science Center at Houston",
+      "type": "related",
+      "id": "https://ror.org/03gds6c39"
+    },
+    {
+      "label": "The University of Texas MD Anderson Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/04twxam07"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

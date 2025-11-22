@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Centro de Ciencias Ambientales EULA-Chile de la Universidad de Concepción"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Concepción",
+      "type": "parent",
+      "id": "https://ror.org/0460jpj73"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

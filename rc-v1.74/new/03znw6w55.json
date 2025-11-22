@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Scientific Research Center of Yucatan"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Secretaría de Ciencia, Humanidades, Tecnología e Innovación",
+      "type": "parent",
+      "id": "https://ror.org/059ex5q34"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

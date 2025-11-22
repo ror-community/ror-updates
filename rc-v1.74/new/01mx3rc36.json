@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Empresas CMPC S.A."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CMPC (United States)",
+      "type": "parent",
+      "id": "https://ror.org/018v9ga43"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

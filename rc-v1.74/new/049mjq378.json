@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "Sous-direction des systèmes d'information et des études statistiques"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de l’Enseignement Supérieur et de la Recherche",
+      "type": "parent",
+      "id": "https://ror.org/03sjk9a61"
+    },
+    {
+      "label": "Institut National de la Statistique et des Etudes Economiques",
+      "type": "parent",
+      "id": "https://ror.org/03v6yxf25"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

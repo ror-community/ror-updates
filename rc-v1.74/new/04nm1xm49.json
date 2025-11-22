@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -88,7 +88,13 @@
       "value": "海南省卫生厅"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hainan Center for Disease Control & Prevention",
+      "type": "child",
+      "id": "https://ror.org/02yr91f43"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

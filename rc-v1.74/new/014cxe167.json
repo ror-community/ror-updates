@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Univ. Grenoble Alpes, Fonds de Dotation Clinatec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Clinatec",
+      "type": "child",
+      "id": "https://ror.org/02dpnb389"
+    },
+    {
+      "label": "Brain Tech Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01027m165"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

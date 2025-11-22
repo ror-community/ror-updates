@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Addiction and Mental Health Services - MSH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Metro South Health",
+      "type": "parent",
+      "id": "https://ror.org/016gd3115"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

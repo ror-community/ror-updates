@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Purwokerto Telkom Institute of Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Telkom University",
+      "type": "successor",
+      "id": "https://ror.org/0004wsx81"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

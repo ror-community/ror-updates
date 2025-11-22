@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "ACTRIS-IT"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "ACTRIS ERIC - Aerosol, Cloud and Trace Gases Research Infrastructure",
+      "type": "parent",
+      "id": "https://ror.org/051j1ed22"
+    },
+    {
+      "label": "National Research Council - Institute of Methodologies for Environmental Analysis",
+      "type": "related",
+      "id": "https://ror.org/024ye7w89"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

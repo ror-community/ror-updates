@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "MTI-BKCD"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Khyber Medical University",
+      "type": "related",
+      "id": "https://ror.org/00nv6q035"
+    },
+    {
+      "label": "Mardan Medical Complex, Mardan",
+      "type": "related",
+      "id": "https://ror.org/00rq9ec10"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

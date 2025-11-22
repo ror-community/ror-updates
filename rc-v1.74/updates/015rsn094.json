@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "Romanian Academy, Cluj-Napoca Branch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Romanian Academy",
+      "type": "parent",
+      "id": "https://ror.org/0561n6946"
+    },
+    {
+      "label": "Tiberiu Popoviciu Institute of Numerical Analysis",
+      "type": "child",
+      "id": "https://ror.org/054w8cm30"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

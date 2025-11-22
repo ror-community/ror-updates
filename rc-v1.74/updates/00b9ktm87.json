@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Amazon.com"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Amazon (United States)",
+      "type": "parent",
+      "id": "https://ror.org/04mv4n011"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

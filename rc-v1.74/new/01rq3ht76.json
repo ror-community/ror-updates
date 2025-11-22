@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Institute of International Studies at the University of California, Berkeley"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of California, Berkeley",
+      "type": "parent",
+      "id": "https://ror.org/01an7q238"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

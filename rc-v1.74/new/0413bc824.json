@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Centre Azrieli de recherche sur l'autisme"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Montreal Neurological Institute and Hospital",
+      "type": "parent",
+      "id": "https://ror.org/05ghs6f64"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

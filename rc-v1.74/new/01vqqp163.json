@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,28 @@
       "value": "Western Sydney Local Health District"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Blacktown & Mount Druitt Hospital",
+      "type": "child",
+      "id": "https://ror.org/017bddy38"
+    },
+    {
+      "label": "Auburn Hospital",
+      "type": "child",
+      "id": "https://ror.org/04dk1kp26"
+    },
+    {
+      "label": "Westmead Hospital",
+      "type": "child",
+      "id": "https://ror.org/04gp5yv64"
+    },
+    {
+      "label": "Cumberland Hospital",
+      "type": "child",
+      "id": "https://ror.org/0405gx254"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

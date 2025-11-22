@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Jordan University College of Morogoro"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "St. Augustine University of Tanzania",
+      "type": "parent",
+      "id": "https://ror.org/00p8msr48"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

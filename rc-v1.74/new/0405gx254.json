@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "Cumberland Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Western Sydney Local Health District",
+      "type": "parent",
+      "id": "https://ror.org/01vqqp163"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

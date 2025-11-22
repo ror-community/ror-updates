@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,23 @@
       "value": "XU LCRC"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Xavier University of Louisiana",
+      "type": "parent",
+      "id": "https://ror.org/0085d9t86"
+    },
+    {
+      "label": "Tulane University",
+      "type": "parent",
+      "id": "https://ror.org/04vmvtb21"
+    },
+    {
+      "label": "Louisiana Cancer Research Center",
+      "type": "related",
+      "id": "https://ror.org/04f6dw135"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Department of Higher Education and Training"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of South Africa",
+      "type": "parent",
+      "id": "https://ror.org/01gwm7a05"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

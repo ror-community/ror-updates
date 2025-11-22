@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -95,7 +95,13 @@
       "value": "Ulster University, Magee Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Ulster",
+      "type": "parent",
+      "id": "https://ror.org/01yp9g959"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "Department for Energy Security and Net Zero"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department for Business, Energy and Industrial Strategy",
+      "type": "predecessor",
+      "id": "https://ror.org/019ya6433"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "United Kingdom Atomic Energy Authority",
+      "type": "child",
+      "id": "https://ror.org/0361bwx64"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -99,7 +99,13 @@
       "value": "Office on Violence Against Women"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

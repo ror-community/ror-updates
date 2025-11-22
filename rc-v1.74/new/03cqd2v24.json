@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Council of Thailand",
+      "type": "child",
+      "id": "https://ror.org/018wfhg78"
+    },
+    {
+      "label": "Office of the Higher Education Commission",
+      "type": "child",
+      "id": "https://ror.org/05m5t2b63"
+    },
+    {
+      "label": "Ministry of Science and Technology",
+      "type": "predecessor",
+      "id": "https://ror.org/02b207r52"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

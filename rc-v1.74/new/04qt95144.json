@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2025-11-21",
+      "date": "2025-11-22",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Rathinam College of Arts and Science"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Bharathiar University",
+      "type": "related",
+      "id": "https://ror.org/04fht8c22"
+    },
+    {
+      "label": "Rathinam College of Physiotherapy",
+      "type": "related",
+      "id": "https://ror.org/05w4mb976"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
