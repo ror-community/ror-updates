@@ -20,6 +20,14 @@ on:
         required: false
         type: boolean
         default: false
+      model:
+        description: 'AI model to use for formatting (gemini or openai)'
+        required: false
+        type: choice
+        options:
+          - gemini
+          - openai
+        default: gemini
 
 permissions:
   issues: write
@@ -92,6 +100,7 @@ jobs:
           START_ISSUE: ${{ github.event.inputs.start_issue }}
           END_ISSUE: ${{ github.event.inputs.end_issue }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
+          MODEL: ${{ github.event.inputs.model }}
           PYTHON_PATH_DEBUG: $(python -c "import sys; print(':'.join(sys.path))")
         run: |
           echo "--- Debugging Environment Variables ---"
@@ -100,6 +109,7 @@ jobs:
           echo "START_ISSUE: $START_ISSUE"
           echo "END_ISSUE: $END_ISSUE"
           echo "DRY_RUN: $DRY_RUN"
+          echo "MODEL: $MODEL"
           echo "Python from setup: ${{ steps.setup_python.outputs.python-path }}"
           echo "Python version: $(python --version)"
           echo "--- sys.path from Python interpreter: ---"
