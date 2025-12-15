@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417988.b"
+      ],
+      "preferred": "grid.417988.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9503 7068"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01yezas83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.centre-eugene-marquis.fr/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BRE",
+        "country_subdivision_name": "Brittany",
+        "lat": 48.11198,
+        "lng": -1.67429,
+        "name": "Rennes"
+      },
+      "geonames_id": 2983990
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Eugène Marquis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oncogenesis Stress Signaling",
+      "type": "child",
+      "id": "https://ror.org/00bf6bf92"
+    },
+    {
+      "label": "Neurinfo",
+      "type": "child",
+      "id": "https://ror.org/05twhbr06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

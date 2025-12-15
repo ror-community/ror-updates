@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100007481",
+        "501100007868"
+      ],
+      "preferred": "501100007481",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412226.1"
+      ],
+      "preferred": "grid.412226.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8046 1202"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q796023"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0002pcv65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unrc.edu.ar/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_University_of_R%C3%ADo_Cuarto"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "X",
+        "country_subdivision_name": "Cordoba",
+        "lat": -31.4135,
+        "lng": -64.18105,
+        "name": "Córdoba"
+      },
+      "geonames_id": 3860259
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University of Río Cuarto"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNRC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Nacional de Río Cuarto"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Biotecnología Ambiental y Salud",
+      "type": "child",
+      "id": "https://ror.org/02xar8d89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

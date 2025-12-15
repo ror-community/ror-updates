@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-09-19",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sspa.juntadeandalucia.es"
+  ],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/01qv3r395",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/agsemaxarquia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AN",
+        "country_subdivision_name": "Andalusia",
+        "lat": 36.76071,
+        "lng": -4.12321,
+        "name": "Vélez-Málaga"
+      },
+      "geonames_id": 6359498
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "AGSEMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Eastern Malaga-Axarquia Health Management Area"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Área de Gestión Sanitaria Este de Málaga-Axarquía"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Andalusian Health Service",
+      "type": "parent",
+      "id": "https://ror.org/03q4c3e69"
+    },
+    {
+      "label": "Hospital San Agustín",
+      "type": "child",
+      "id": "https://ror.org/05sqaff46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

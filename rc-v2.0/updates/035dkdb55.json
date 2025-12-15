@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "turing.ac.uk"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "100012338"
+      ],
+      "preferred": "100012338",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.499548.d"
+      ],
+      "preferred": "grid.499548.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5903 3632"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16826821"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035dkdb55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.turing.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Alan_Turing_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The Alan Turing Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Ada Lovelace Institute",
+      "type": "related",
+      "id": "https://ror.org/0381mtn47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

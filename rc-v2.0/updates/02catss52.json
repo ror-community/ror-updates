@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ebi.ac.uk"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100012116"
+      ],
+      "preferred": "100012116",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.225360.0"
+      ],
+      "preferred": "grid.225360.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9709 7726"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1341845"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02catss52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ebi.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/European_Bioinformatics_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "EBI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EBI Cambridge"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBL UK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBL-EBI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMBL-EBI Cambridge"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Bioinformatics Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/03mstc592"
+    },
+    {
+      "label": "ELIXIR",
+      "type": "related",
+      "id": "https://ror.org/044rwnt51"
+    },
+    {
+      "label": "The Uniprot Consortium",
+      "type": "related",
+      "id": "https://ror.org/017yq1n41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

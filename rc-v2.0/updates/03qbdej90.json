@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462205.7"
+      ],
+      "preferred": "grid.462205.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2205 3937"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261401"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qbdej90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/centres/provence-alpes-cote-dazur/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.94834,
+        "lng": 4.80892,
+        "name": "Avignon"
+      },
+      "geonames_id": 3035681
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Provence-Alpes-Côte d'Azur"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de Recherche PACA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PACA"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biostatistique et Processus Spatiaux",
+      "type": "child",
+      "id": "https://ror.org/02d898a89"
+    },
+    {
+      "label": "Biodiversité et Biotechnologie Fongiques",
+      "type": "child",
+      "id": "https://ror.org/021x7r354"
+    },
+    {
+      "label": "Genetics and Improvement of Fruit and Vegetables",
+      "type": "child",
+      "id": "https://ror.org/03kk92g72"
+    },
+    {
+      "label": "Sécurité et Qualité des Produits d'Origine Végétale",
+      "type": "child",
+      "id": "https://ror.org/01xdxaz62"
+    },
+    {
+      "label": "Écologie des Forêts Méditerranéennes",
+      "type": "child",
+      "id": "https://ror.org/02gg8z294"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Unité Expérimentale de Recherches Intégrées en Arboriculture Fruitière",
+      "type": "child",
+      "id": "https://ror.org/05jr56v21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

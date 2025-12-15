@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uniri.hr"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100023652"
+      ],
+      "preferred": "501100023652",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22939.33"
+      ],
+      "preferred": "grid.22939.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2236 1630"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q787388"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05r8dqr10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uniri.hr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Rijeka"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "country_subdivision_code": "08",
+        "country_subdivision_name": "Primorje-Gorski Kotar",
+        "lat": 45.32673,
+        "lng": 14.44241,
+        "name": "Rijeka"
+      },
+      "geonames_id": 3191648
+    }
+  ],
+  "names": [
+    {
+      "lang": "hr",
+      "types": [
+        "label"
+      ],
+      "value": "Sveučilište u Rijeci"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rijeka"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klinički Bolnički Centar Rijeka",
+      "type": "related",
+      "id": "https://ror.org/027wyhf03"
+    },
+    {
+      "label": "MAGIC Telescopes",
+      "type": "related",
+      "id": "https://ror.org/02w0r2764"
+    },
+    {
+      "label": "Akademija primijenjenih umjetnosti u Rijeci",
+      "type": "child",
+      "id": "https://ror.org/0425xqc10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

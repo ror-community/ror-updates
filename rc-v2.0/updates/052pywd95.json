@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-12-15",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "Q115768947"
+      ],
+      "preferred": "Q115768947",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/052pywd95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://oss.research.noaa.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NOAA OSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Office of Science Support"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Oceanic and Atmospheric Administration Office of Science Support"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Science Support"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "parent",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "NOAA Library",
+      "type": "child",
+      "id": "https://ror.org/02c23kc81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "501100011698"
+      ],
+      "preferred": "501100011698",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454818.4"
+      ],
+      "preferred": "grid.454818.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2198 1344"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3113875"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jv91m18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jccm.es/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Regional_Government_of_Castile-La_Mancha"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CM",
+        "country_subdivision_name": "Castille-La Mancha",
+        "lat": 40.62862,
+        "lng": -3.16185,
+        "name": "Guadalajara"
+      },
+      "geonames_id": 3121070
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Junta de Comunidades de Castilla-La Mancha"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Regional Government of Castile-La Mancha"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Investigación en Recursos Cinegéticos",
+      "type": "child",
+      "id": "https://ror.org/0140hpe71"
+    },
+    {
+      "label": "Instituto Regional de Investigación y Desarrollo Agroalimentario y Forestal de Castilla-La Mancha",
+      "type": "child",
+      "id": "https://ror.org/029sr0q57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

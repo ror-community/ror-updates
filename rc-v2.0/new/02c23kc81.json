@@ -94,7 +94,23 @@
       "value": "NOAA Library"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "parent",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "NOAA Office of Science Support",
+      "type": "parent",
+      "id": "https://ror.org/052pywd95"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -68,7 +68,28 @@
       "value": "National Geophysical Facility"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Division of Earth Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05v01mk25"
+    },
+    {
+      "label": "EarthScope Consortium",
+      "type": "parent",
+      "id": "https://ror.org/04danrt76"
+    },
+    {
+      "label": "Geodetic Facility for the Advancement of Geoscience",
+      "type": "related",
+      "id": "https://ror.org/03c1c5b19"
+    },
+    {
+      "label": "Seismological Facility for the Advancement of Geoscience",
+      "type": "related",
+      "id": "https://ror.org/057py8t43"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
