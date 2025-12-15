@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413358.8"
+      ],
+      "preferred": "grid.413358.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 5987"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16576124"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003zecf96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanidad.gob.es/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=330100"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "AS",
+        "country_subdivision_name": "Asturias",
+        "lat": 43.55473,
+        "lng": -5.92483,
+        "name": "Avilés"
+      },
+      "geonames_id": 3129135
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "HUSA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital San Agustín"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hospital Universitario San Agustín"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital Universitario San Agustín de Avilés"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Servicio de Salud del Principado de Asturias",
+      "type": "parent",
+      "id": "https://ror.org/00kj4ev13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

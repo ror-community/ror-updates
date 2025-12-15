@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ienergy.kiev.ua"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512587.c"
+      ],
+      "preferred": "grid.512587.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6023 5637"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03dez2856",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ienergy.kiev.ua"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Kyiv City",
+        "lat": 50.45466,
+        "lng": 30.5238,
+        "name": "Kyiv"
+      },
+      "geonames_id": 703448
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "General Energy Institute of National Academy of Sciences of Ukraine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of General Energy of the National Academy of Sciences of Ukraine"
+    },
+    {
+      "lang": "uk",
+      "types": [
+        "label"
+      ],
+      "value": "Інститут загальної енергетики НАН України"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Институт Общей Энергетики НАН Украины"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Academy of Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/00je4t102"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

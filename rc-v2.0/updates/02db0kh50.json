@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "irsa.cnr.it"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435629.f"
+      ],
+      "preferred": "grid.435629.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1755 3971"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02db0kh50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.irsa.cnr.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "62",
+        "country_subdivision_name": "Lazio",
+        "lat": 42.05159,
+        "lng": 12.61969,
+        "name": "Monterotondo"
+      },
+      "geonames_id": 3172768
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRSA"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto di Ricerca sulle Acque"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Water Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
