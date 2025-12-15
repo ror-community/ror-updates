@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100020367"
+      ],
+      "preferred": "100020367",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/0034k2773",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "name": "New Orleans"
+      },
+      "geonames_id": 4335045
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "LCRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Louisiana Cancer Research Consortium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "XU LCRC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Xavier University of Louisiana",
+      "type": "parent",
+      "id": "https://ror.org/0085d9t86"
+    },
+    {
+      "label": "Tulane University",
+      "type": "parent",
+      "id": "https://ror.org/04vmvtb21"
+    },
+    {
+      "label": "Louisiana Cancer Research Center",
+      "type": "related",
+      "id": "https://ror.org/04f6dw135"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

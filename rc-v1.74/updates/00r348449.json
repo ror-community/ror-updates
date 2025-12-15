@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "100005234",
+        "100006438"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453185.e"
+      ],
+      "preferred": "grid.453185.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0613 662X",
+        "0000 0004 5897 7981"
+      ],
+      "preferred": "0000 0004 5897 7981",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7079296"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00r348449",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hhs.gov/ash/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Public_Health_and_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OASH"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OPHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Public Health and Science"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of the Assistant Secretary for Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/033jnv181"
+    },
+    {
+      "label": "Office of Population Affairs",
+      "type": "child",
+      "id": "https://ror.org/047nxs434"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

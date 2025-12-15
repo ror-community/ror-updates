@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fhsu.edu"
+  ],
+  "established": 1902,
+  "external_ids": [
+    {
+      "all": [
+        "grid.256032.0"
+      ],
+      "preferred": "grid.256032.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2285 6924"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q591426"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00rwzgx62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fhsu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Fort_Hays_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "KS",
+        "country_subdivision_name": "Kansas",
+        "lat": 38.87918,
+        "lng": -99.32677,
+        "name": "Hays"
+      },
+      "geonames_id": 4272782
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FHSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fort Hays State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fort Hays Tech North Central",
+      "type": "child",
+      "id": "https://ror.org/05kqjmn09"
+    },
+    {
+      "label": "Fort Hays Tech Northwest",
+      "type": "child",
+      "id": "https://ror.org/03xjfrn37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

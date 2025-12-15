@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gov.uk"
+  ],
+  "established": 2023,
+  "external_ids": [
+    {
+      "all": [
+        "100031279"
+      ],
+      "preferred": "100031279",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q116726347"
+      ],
+      "preferred": "Q116726347",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030tdpg67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gov.uk/government/organisations/department-for-business-and-trade"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_for_Business_and_Trade"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DBT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department for Business & Trade"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Department for Business and Trade"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department for Business, Energy and Industrial Strategy",
+      "type": "predecessor",
+      "id": "https://ror.org/019ya6433"
+    },
+    {
+      "label": "Department for International Trade",
+      "type": "predecessor",
+      "id": "https://ror.org/01bgmsb44"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "Office for Product Safety and Standards",
+      "type": "child",
+      "id": "https://ror.org/02fvybm75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

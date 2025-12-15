@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tulane.edu"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "100007875",
+        "100007876"
+      ],
+      "preferred": "100007875",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265219.b"
+      ],
+      "preferred": "grid.265219.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2217 8588"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1193547"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vmvtb21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tulane.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Tulane_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "name": "New Orleans"
+      },
+      "geonames_id": 4335045
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tulane University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "East Jefferson General Hospital",
+      "type": "related",
+      "id": "https://ror.org/03dkpj951"
+    },
+    {
+      "label": "Our Lady of the Lake Regional Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01y9s4r06"
+    },
+    {
+      "label": "Tulane Lakeside Hospital",
+      "type": "related",
+      "id": "https://ror.org/03r7eh333"
+    },
+    {
+      "label": "Tulane Medical Center",
+      "type": "related",
+      "id": "https://ror.org/031w3f751"
+    },
+    {
+      "label": "Louisiana Cancer Research Consortium",
+      "type": "child",
+      "id": "https://ror.org/0034k2773"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

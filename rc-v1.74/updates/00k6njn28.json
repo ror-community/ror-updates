@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ieec.cat"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435450.3"
+      ],
+      "preferred": "grid.435450.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1784 9780"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q20105088"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00k6njn28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ieec.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.27794,
+        "lng": 1.97033,
+        "name": "Castelldefels"
+      },
+      "geonames_id": 3125897
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IEEC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IEEC-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut d'Estudis Espacials de Catalunya"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Space Studies of Catalonia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    },
+    {
+      "label": "Institut de Ciències del Cosmos",
+      "type": "related",
+      "id": "https://ror.org/044fgj614"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

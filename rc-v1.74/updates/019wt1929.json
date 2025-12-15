@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "shu.ac.uk"
+  ],
+  "established": 1843,
+  "external_ids": [
+    {
+      "all": [
+        "100010035"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5884.1"
+      ],
+      "preferred": "grid.5884.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0303 540X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1752117"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/019wt1929",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.shu.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Sheffield_Hallam_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.38297,
+        "lng": -1.4659,
+        "name": "Sheffield"
+      },
+      "geonames_id": 2638077
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SHU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sheffield Hallam University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chesterfield College",
+      "type": "child",
+      "id": "https://ror.org/01wwv2135"
+    },
+    {
+      "label": "Northern General Hospital",
+      "type": "related",
+      "id": "https://ror.org/05r409z22"
+    },
+    {
+      "label": "Royal Hallamshire Hospital",
+      "type": "related",
+      "id": "https://ror.org/00514rc81"
+    },
+    {
+      "label": "Sheffield Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/05mshxb09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ip-paris.fr"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508893.f"
+      ],
+      "preferred": "grid.508893.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0005 0271 7600"
+      ],
+      "preferred": "0000 0005 0271 7600",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q48759778"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042tfbd02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ip-paris.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Polytechnic_Institute_of_Paris"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71828,
+        "lng": 2.2498,
+        "name": "Palaiseau"
+      },
+      "geonames_id": 2988758
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "IP Paris"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "IPP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Polytechnique de Paris"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "École Nationale Supérieure de Techniques Avancées",
+      "type": "child",
+      "id": "https://ror.org/0309cs235"
+    },
+    {
+      "label": "École Polytechnique",
+      "type": "child",
+      "id": "https://ror.org/05hy3tk52"
+    },
+    {
+      "label": "Telecom SudParis",
+      "type": "child",
+      "id": "https://ror.org/05xvk4r52"
+    },
+    {
+      "label": "ENSAE Paris",
+      "type": "child",
+      "id": "https://ror.org/01fz7mn40"
+    },
+    {
+      "label": "Télécom Paris",
+      "type": "child",
+      "id": "https://ror.org/01naq7912"
+    },
+    {
+      "label": "École nationale des ponts et chaussées",
+      "type": "child",
+      "id": "https://ror.org/02nwvxz07"
+    },
+    {
+      "label": "Institut Mines-Télécom",
+      "type": "related",
+      "id": "https://ror.org/025vp2923"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

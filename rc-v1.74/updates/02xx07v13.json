@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neurocentre-magendie.fr"
+  ],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419954.4"
+      ],
+      "preferred": "grid.419954.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0622 825X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02xx07v13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://neurocentre-magendie.fr/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Neurocentre Magendie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

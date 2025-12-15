@@ -1,0 +1,166 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1930,
+  "external_ids": [
+    {
+      "all": [
+        "100000738",
+        "100000176",
+        "100007496",
+        "100006379"
+      ],
+      "preferred": "100000738",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418356.d"
+      ],
+      "preferred": "grid.418356.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0478 7015"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q592576"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05rsv9s98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.va.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DVA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Asuntos de los Veteranos de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département des anciens combattants des États-unis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Veterans Affairs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of Veterans Affairs"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VA "
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Center for PTSD",
+      "type": "child",
+      "id": "https://ror.org/01dbbht76"
+    },
+    {
+      "label": "Office of Diversity and Inclusion",
+      "type": "child",
+      "id": "https://ror.org/04s3dsz85"
+    },
+    {
+      "label": "Seattle Epidemiologic Information and Research Center",
+      "type": "child",
+      "id": "https://ror.org/0155sw530"
+    },
+    {
+      "label": "Veterans Health Administration",
+      "type": "child",
+      "id": "https://ror.org/05eq41471"
+    },
+    {
+      "label": "William C. Tallent Outpatient Clinic",
+      "type": "child",
+      "id": "https://ror.org/027w0yp05"
+    },
+    {
+      "label": "Office of Academic Affiliations",
+      "type": "child",
+      "id": "https://ror.org/0442kw503"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    },
+    {
+      "label": "Office of Rural Health",
+      "type": "child",
+      "id": "https://ror.org/03ydjzz16"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

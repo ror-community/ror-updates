@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "senacyt.gob.pa"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100007061",
+        "501100017486"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467839.7"
+      ],
+      "preferred": "grid.467839.7",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03gat5t60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.senacyt.gob.pa/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "PA",
+        "country_name": "Panama",
+        "country_subdivision_code": "8",
+        "country_subdivision_name": "Panamá",
+        "lat": 8.9936,
+        "lng": -79.51973,
+        "name": "Panama City"
+      },
+      "geonames_id": 3703443
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SENACYT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Secretaría Nacional de Ciencia, Tecnología e Innovación"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro de Investigación Educativa",
+      "type": "child",
+      "id": "https://ror.org/04t12kd43"
+    },
+    {
+      "label": "Panamanian Association for the Advancement of Science",
+      "type": "related",
+      "id": "https://ror.org/05mhn0t19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

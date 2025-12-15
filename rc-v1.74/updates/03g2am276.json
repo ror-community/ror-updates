@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nkfih.gov.hu"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100003827",
+        "501100011019",
+        "501100012550",
+        "501100018818"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436388.2"
+      ],
+      "preferred": "grid.436388.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03g2am276",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nkfih.gov.hu/palyazoknak"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "BU",
+        "country_subdivision_name": "Budapest",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "name": "Budapest"
+      },
+      "geonames_id": 3054643
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NKFIH"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NRDI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Research, Development and Innovation Office"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal "
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European X-Ray Free-Electron Laser",
+      "type": "child",
+      "id": "https://ror.org/01wp2jz98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

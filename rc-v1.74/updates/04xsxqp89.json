@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "alliancebioversityciat.org"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100004454",
+        "501100001683",
+        "501100025072"
+      ],
+      "preferred": "100004454",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425219.9"
+      ],
+      "preferred": "grid.425219.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0411 7847"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q864909"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xsxqp89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://alliancebioversityciat.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bioversity_International"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "62",
+        "country_subdivision_name": "Lazio",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Alliance Bioversity International"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Alliance Bioversity International - CIAT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bioversity International"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPGRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute for Plant Genetic Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bioversity International",
+      "type": "child",
+      "id": "https://ror.org/01a15g348"
+    },
+    {
+      "label": "CGIAR",
+      "type": "parent",
+      "id": "https://ror.org/04c4bm785"
+    },
+    {
+      "label": "International Center for Tropical Agriculture",
+      "type": "related",
+      "id": "https://ror.org/037wny167"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

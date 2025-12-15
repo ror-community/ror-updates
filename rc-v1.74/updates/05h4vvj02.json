@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1788,
+  "external_ids": [
+    {
+      "all": [
+        "100006637"
+      ],
+      "preferred": "100006637",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0434 8629"
+      ],
+      "preferred": "0000 0004 0434 8629",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5589247"
+      ],
+      "preferred": "Q5589247",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05h4vvj02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mass.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Government_of_Massachusetts"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Commonwealth of MA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Commonwealth of Massachusetts"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State of Massachusetts"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Massachusetts Gaming Commission",
+      "type": "child",
+      "id": "https://ror.org/04baade76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "100008516"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9689.e"
+      ],
+      "preferred": "grid.9689.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0683 2623"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q615775"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0361bwx64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gov.uk/government/organisations/uk-atomic-energy-authority"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/United_Kingdom_Atomic_Energy_Authority"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.67109,
+        "lng": -1.28278,
+        "name": "Abingdon"
+      },
+      "geonames_id": 2657780
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKAEA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United Kingdom Atomic Energy Authority"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Culham Centre for Fusion Energy",
+      "type": "child",
+      "id": "https://ror.org/05nmyph15"
+    },
+    {
+      "label": "Joint Evaluated Fission and Fusion",
+      "type": "related",
+      "id": "https://ror.org/03g57ef97"
+    },
+    {
+      "label": "Department for Energy Security and Net Zero",
+      "type": "parent",
+      "id": "https://ror.org/01s5a4v70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

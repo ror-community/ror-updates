@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ruralhealth.va.gov"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100019294"
+      ],
+      "preferred": "100019294",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/03ydjzz16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ruralhealth.va.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "ORH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Office of Rural Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "VHA Office of Rural Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Veterans Health Administration Office of Rural Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Veterans Affairs",
+      "type": "parent",
+      "id": "https://ror.org/05rsv9s98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

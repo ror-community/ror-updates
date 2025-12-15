@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mdanderson.org"
+  ],
+  "established": 1876,
+  "external_ids": [
+    {
+      "all": [
+        "100007313",
+        "100007314"
+      ],
+      "preferred": "100007313",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.240145.6"
+      ],
+      "preferred": "grid.240145.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2291 4776"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1525831"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04twxam07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mdanderson.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Texas_MD_Anderson_Cancer_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The University of Texas MD Anderson Cancer Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The University of Texas System",
+      "type": "parent",
+      "id": "https://ror.org/01gek1696"
+    },
+    {
+      "label": "Baylor College of Medicine",
+      "type": "related",
+      "id": "https://ror.org/02pttbw34"
+    },
+    {
+      "label": "Ben Taub Hospital",
+      "type": "related",
+      "id": "https://ror.org/042ze4p12"
+    },
+    {
+      "label": "Texas A&M University",
+      "type": "related",
+      "id": "https://ror.org/01f5ytq51"
+    },
+    {
+      "label": "Baptist MD Anderson Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/01xxxmv75"
+    },
+    {
+      "label": "Texas Medical Center Library",
+      "type": "related",
+      "id": "https://ror.org/037hnxh06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}
