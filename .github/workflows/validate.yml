@@ -37,7 +37,7 @@ jobs:
         with:
           repository: ror-community/validation-suite
           path: validation-suite
-          ref: 20250919-validation-suite-fixes
+          ref: fix-geonames-adminCodes-keyerror
       - name: Get directory name
         if: "${{ github.event.inputs.directory-name != '' }}"
         run: echo "WORKING_DIR=${{ github.event.inputs.directory-name }}" >> $GITHUB_ENV

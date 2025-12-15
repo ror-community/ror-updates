@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459157.b"
+      ],
+      "preferred": "grid.459157.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0389 7802"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12009548"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wgsrq67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.vestreviken.no/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Vestre_Viken_Hospital_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "06",
+        "country_subdivision_name": "Buskerud",
+        "lat": 59.74389,
+        "lng": 10.20449,
+        "name": "Drammen"
+      },
+      "geonames_id": 3159016
+    }
+  ],
+  "names": [
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Vestre Viken HF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vestre Viken Hospital Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bærum Sykehus",
+      "type": "child",
+      "id": "https://ror.org/010gpfc02"
+    },
+    {
+      "label": "Drammen Hospital",
+      "type": "child",
+      "id": "https://ror.org/059yvz347"
+    },
+    {
+      "label": "Kongsberg sykehus",
+      "type": "child",
+      "id": "https://ror.org/039g88209"
+    },
+    {
+      "label": "Martina Hansens Hospital",
+      "type": "child",
+      "id": "https://ror.org/00a2gj556"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

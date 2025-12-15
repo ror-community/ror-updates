@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "embl.org"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "grid.4709.a"
+      ],
+      "preferred": "grid.4709.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0495 846X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q695267"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03mstc592",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.embl.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/European_Molecular_Biology_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMBL Heidelberg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Molecular Biology Laboratory"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Europäisches Laboratorium für Molekularbiologie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European Bioinformatics Institute",
+      "type": "child",
+      "id": "https://ror.org/02catss52"
+    },
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01zjc6908"
+    },
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01yr73893"
+    },
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "child",
+      "id": "https://ror.org/050589e39"
+    },
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "child",
+      "id": "https://ror.org/010jaxs89"
+    },
+    {
+      "label": "EMBL Australia",
+      "type": "related",
+      "id": "https://ror.org/00yx5cw48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

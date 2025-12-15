@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415014.5"
+      ],
+      "preferred": "grid.415014.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0575 3669"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2890053"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00t0n9020",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://hospitals.clalit.co.il/Hospitals/kaplan/he-il/Pages/HomePage.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kaplan_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IL",
+        "country_name": "Israel",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Central District",
+        "lat": 31.89421,
+        "lng": 34.81199,
+        "name": "Rehovot"
+      },
+      "geonames_id": 293725
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kaplan Medical Center"
+    },
+    {
+      "lang": "he",
+      "types": [
+        "label"
+      ],
+      "value": "מרכז רפואי קפלן"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clalit Health Services",
+      "type": "parent",
+      "id": "https://ror.org/04zjvnp94"
+    },
+    {
+      "label": "Hebrew University of Jerusalem",
+      "type": "related",
+      "id": "https://ror.org/03qxff017"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

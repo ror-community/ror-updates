@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1876,
+  "external_ids": [
+    {
+      "all": [
+        "grid.262103.4"
+      ],
+      "preferred": "grid.262103.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0456 3986"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3306469"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0449kf092",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pvamu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Prairie_View_A%26M_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 30.09327,
+        "lng": -95.98773,
+        "name": "Prairie View"
+      },
+      "geonames_id": 4720493
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PVAMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Prairie View A&M University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Texas A&M University System",
+      "type": "parent",
+      "id": "https://ror.org/0034eay46"
+    },
+    {
+      "label": "Texas Medical Center Library",
+      "type": "related",
+      "id": "https://ror.org/037hnxh06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uthsc.edu"
+  ],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "100007271",
+        "100009872",
+        "100006582"
+      ],
+      "preferred": "100007271",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267301.1"
+      ],
+      "preferred": "grid.267301.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0386 9246"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896420"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0011qv509",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uthsc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Tennessee_Health_Science_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TN",
+        "country_subdivision_name": "Tennessee",
+        "lat": 35.14953,
+        "lng": -90.04898,
+        "name": "Memphis"
+      },
+      "geonames_id": 4641239
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTHSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Tennessee Health Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Tennessee System",
+      "type": "parent",
+      "id": "https://ror.org/00xzqjh13"
+    },
+    {
+      "label": "Le Bonheur Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/056wg8a82"
+    },
+    {
+      "label": "Memphis VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/000vjzq57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

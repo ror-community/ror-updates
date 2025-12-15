@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fonds-clinatec.fr"
+  ],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7643 7567"
+      ],
+      "preferred": "0000 0004 7643 7567",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/014cxe167",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://fonds-clinatec.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Rhône-Alpes",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "name": "Grenoble"
+      },
+      "geonames_id": 3014728
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Clinatec Endowment Fund"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "FDD"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Fonds de Dotation Clinatec"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Univ. Grenoble Alpes, Fonds de Dotation Clinatec"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clinatec",
+      "type": "child",
+      "id": "https://ror.org/02dpnb389"
+    },
+    {
+      "label": "Brain Tech Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01027m165"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

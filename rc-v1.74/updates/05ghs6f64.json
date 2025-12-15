@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1934,
+  "external_ids": [
+    {
+      "all": [
+        "100015318"
+      ],
+      "preferred": "100015318",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416102.0"
+      ],
+      "preferred": "grid.416102.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0646 3639"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152227"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ghs6f64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mcgill.ca/neuro/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Montreal_Neurological_Institute_and_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Institut et hôpital neurologiques de montréal"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MNI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Montreal Neurological Institute and Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Neuro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Centre Azrieli de recherche sur l'autisme",
+      "type": "child",
+      "id": "https://ror.org/0413bc824"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

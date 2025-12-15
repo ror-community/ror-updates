@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mhesi.go.th"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "501100016204"
+      ],
+      "preferred": "501100016204",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q63555964"
+      ],
+      "preferred": "Q63555964",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cqd2v24",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mhesi.go.th"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Higher_Education%2C_Science%2C_Research_and_Innovation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Bangkok",
+        "lat": 13.759,
+        "lng": 100.53358,
+        "name": "Ratchathewi"
+      },
+      "geonames_id": 7026885
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MHESI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministry of Higher Education, Science, Research and Innovation"
+    },
+    {
+      "lang": "th",
+      "types": [
+        "label"
+      ],
+      "value": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council of Thailand",
+      "type": "child",
+      "id": "https://ror.org/018wfhg78"
+    },
+    {
+      "label": "Office of the Higher Education Commission",
+      "type": "child",
+      "id": "https://ror.org/05m5t2b63"
+    },
+    {
+      "label": "Ministry of Science and Technology",
+      "type": "predecessor",
+      "id": "https://ror.org/02b207r52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

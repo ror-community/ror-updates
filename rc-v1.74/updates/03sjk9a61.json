@@ -1,0 +1,135 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "enseignementsup-recherche.gouv.fr"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100004792",
+        "501100004562",
+        "501100004793",
+        "501100011045",
+        "100012948"
+      ],
+      "preferred": "501100004792",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425729.f"
+      ],
+      "preferred": "grid.425729.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2369 5464"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2726949"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03sjk9a61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enseignementsup-recherche.gouv.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Higher_Education_and_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MESR"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Ministeri d'Educació Superior i Recerca francès"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Higher Education and Research"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministère de l’Enseignement Supérieur et de la Recherche"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Compétences NanoSciences Ile-de-France",
+      "type": "child",
+      "id": "https://ror.org/027defw95"
+    },
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "child",
+      "id": "https://ror.org/05q3vnk25"
+    },
+    {
+      "label": "Agence Bibliographique de l'Enseignement Supérieur",
+      "type": "child",
+      "id": "https://ror.org/027xymc69"
+    },
+    {
+      "label": "Sous-direction des systèmes d'information et des études statistiques",
+      "type": "child",
+      "id": "https://ror.org/049mjq378"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

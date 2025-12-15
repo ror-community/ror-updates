@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lifbi.de"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100021553"
+      ],
+      "preferred": "501100021553",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.461788.4"
+      ],
+      "preferred": "grid.461788.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4684 7709"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04c14rw28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lifbi.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.89873,
+        "lng": 10.90067,
+        "name": "Bamberg"
+      },
+      "geonames_id": 2952984
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIfBi"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Institute for Educational Trajectories"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Institut für Bildungsverläufe e.V."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

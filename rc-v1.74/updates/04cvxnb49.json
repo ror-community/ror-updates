@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-frankfurt.de"
+  ],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "501100005687"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7839.5"
+      ],
+      "preferred": "grid.7839.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9721"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q50662"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04cvxnb49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-frankfurt.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Goethe_University_Frankfurt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.11552,
+        "lng": 8.68417,
+        "name": "Frankfurt am Main"
+      },
+      "geonames_id": 2925533
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Goethe University Frankfurt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Goethe-Universität Frankfurt am Main"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Johann Wolfgang Goethe-Universität Frankfurt am Main"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cardio-Pulmonary Institute",
+      "type": "child",
+      "id": "https://ror.org/04ckbty56"
+    },
+    {
+      "label": "Universitätsbibliothek Johann Christian Senckenberg",
+      "type": "child",
+      "id": "https://ror.org/02dcqxm65"
+    },
+    {
+      "label": "University Hospital Frankfurt",
+      "type": "related",
+      "id": "https://ror.org/03f6n9m15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

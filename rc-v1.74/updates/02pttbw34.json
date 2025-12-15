@@ -1,0 +1,173 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bcm.edu"
+  ],
+  "established": 1900,
+  "external_ids": [
+    {
+      "all": [
+        "100007856",
+        "100007857",
+        "100006442",
+        "100007915",
+        "100021338"
+      ],
+      "preferred": "100007856",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.39382.33"
+      ],
+      "preferred": "grid.39382.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2160 926X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2892284"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02pttbw34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bcm.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Baylor_College_of_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BCM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Baylor College of Medicine"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Escuela de Medicina de Baylor"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Theoretical Biological Physics",
+      "type": "child",
+      "id": "https://ror.org/04hfg7v94"
+    },
+    {
+      "label": "Dan L Duncan Comprehensive Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/02nre0x31"
+    },
+    {
+      "label": "Harris Health System",
+      "type": "parent",
+      "id": "https://ror.org/04m8z4n60"
+    },
+    {
+      "label": "Ben Taub Hospital",
+      "type": "related",
+      "id": "https://ror.org/042ze4p12"
+    },
+    {
+      "label": "Houston Methodist",
+      "type": "related",
+      "id": "https://ror.org/027zt9171"
+    },
+    {
+      "label": "Kelsey-Seybold Clinic",
+      "type": "related",
+      "id": "https://ror.org/0499w7e46"
+    },
+    {
+      "label": "Memorial Hermann Institute for Rehabilitation and Research Foundation",
+      "type": "related",
+      "id": "https://ror.org/037v8w471"
+    },
+    {
+      "label": "Michael E. DeBakey VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/052qqbc08"
+    },
+    {
+      "label": "Texas Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/05cz92x43"
+    },
+    {
+      "label": "Texas Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00dqsbj20"
+    },
+    {
+      "label": "The University of Texas MD Anderson Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/04twxam07"
+    },
+    {
+      "label": "Carl R. Darnall Army Medical Center",
+      "type": "related",
+      "id": "https://ror.org/02zda6x08"
+    },
+    {
+      "label": "Texas Medical Center Library",
+      "type": "related",
+      "id": "https://ror.org/037hnxh06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "elte.hu"
+  ],
+  "established": 1635,
+  "external_ids": [
+    {
+      "all": [
+        "501100009934"
+      ],
+      "preferred": "501100009934",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5591.8"
+      ],
+      "preferred": "grid.5591.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2294 6276"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q390287"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jsq2704",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.elte.hu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/E%C3%B6tv%C3%B6s_Lor%C3%A1nd_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "BU",
+        "country_subdivision_name": "Budapest",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "name": "Budapest"
+      },
+      "geonames_id": 3054643
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ELTE"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Eötvös Loránd Tudományegyetem"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eötvös Loránd University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Pázmány Péter University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal University of Pest"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Budapest"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ELTE Centre for Economic and Regional Studies",
+      "type": "child",
+      "id": "https://ror.org/051ea1411"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

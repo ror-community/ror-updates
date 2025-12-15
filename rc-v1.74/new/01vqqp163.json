@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wslhd.health.nsw.gov.au"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100014467"
+      ],
+      "preferred": "100014467",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0000 8968 0567"
+      ],
+      "preferred": "0000 0000 8968 0567",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01vqqp163",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wslhd.health.nsw.gov.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.80383,
+        "lng": 150.98768,
+        "name": "Westmead"
+      },
+      "geonames_id": 2143973
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SWAHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Sydney West Area Health Service"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "WSLHD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Western Sydney Local Health District"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Blacktown & Mount Druitt Hospital",
+      "type": "child",
+      "id": "https://ror.org/017bddy38"
+    },
+    {
+      "label": "Auburn Hospital",
+      "type": "child",
+      "id": "https://ror.org/04dk1kp26"
+    },
+    {
+      "label": "Westmead Hospital",
+      "type": "child",
+      "id": "https://ror.org/04gp5yv64"
+    },
+    {
+      "label": "Cumberland Hospital",
+      "type": "child",
+      "id": "https://ror.org/0405gx254"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

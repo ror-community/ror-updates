@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "udec.cl"
+  ],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100006255"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5380.e"
+      ],
+      "preferred": "grid.5380.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2298 9663"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q199948"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0460jpj73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.udec.cl/pexterno/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Concepci%C3%B3n"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "BI",
+        "country_subdivision_name": "Biobío",
+        "lat": -36.82699,
+        "lng": -73.04977,
+        "name": "Concepción"
+      },
+      "geonames_id": 3893894
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UdeC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Concepción"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Concepción"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos",
+      "type": "child",
+      "id": "https://ror.org/02db2t754"
+    },
+    {
+      "label": "Instituto Profesional Virginio Gómez",
+      "type": "child",
+      "id": "https://ror.org/01jmj5g35"
+    },
+    {
+      "label": "Centro de Ciencias Ambientales EULA-Chile de la Universidad de Concepción",
+      "type": "child",
+      "id": "https://ror.org/02v5jxh60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

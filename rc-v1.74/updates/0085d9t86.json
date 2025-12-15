@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1915,
+  "external_ids": [
+    {
+      "all": [
+        "100010933"
+      ],
+      "preferred": "100010933",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268355.f"
+      ],
+      "preferred": "grid.268355.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9679 3586"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q390087"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0085d9t86",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.xula.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Xavier_University_of_Louisiana"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "name": "New Orleans"
+      },
+      "geonames_id": 4335045
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "XULA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Xavier University of Louisiana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Louisiana Cancer Research Consortium",
+      "type": "child",
+      "id": "https://ror.org/0034k2773"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

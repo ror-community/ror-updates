@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "zas.be"
+  ],
+  "established": 2024,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1486 9660"
+      ],
+      "preferred": "0000 0005 1486 9660",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q118105315"
+      ],
+      "preferred": "Q118105315",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/050d0xx93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.zas.be"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://nl.wikipedia.org/wiki/Ziekenhuis_aan_de_Stroom"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "VLG",
+        "country_subdivision_name": "Flanders",
+        "lat": 51.22047,
+        "lng": 4.40026,
+        "name": "Antwerp"
+      },
+      "geonames_id": 2803138
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "acronym"
+      ],
+      "value": "ZAS"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "ZAS Antwerpen"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "ZAS vzw"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ziekenhuis aan de Stroom"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Ziekenhuis aan de Stroom vzw"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ziekenhuisnetwerk Antwerpen Stuivenberg",
+      "type": "predecessor",
+      "id": "https://ror.org/05dpzfc16"
+    },
+    {
+      "label": "GZA Ziekenhuizen Campus Sint-Augustinus",
+      "type": "predecessor",
+      "id": "https://ror.org/00kss4e25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

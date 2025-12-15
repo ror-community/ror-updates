@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "100013200",
+        "100013199"
+      ],
+      "preferred": "100013200",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484182.3"
+      ],
+      "preferred": "grid.484182.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 5283"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/006b2g567",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.alberta.ca/index.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 53.55014,
+        "lng": -113.46871,
+        "name": "Edmonton"
+      },
+      "geonames_id": 5946768
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Alberta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alberta Student Aid",
+      "type": "child",
+      "id": "https://ror.org/05h37g806"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

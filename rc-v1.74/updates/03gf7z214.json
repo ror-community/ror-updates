@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iucpq.ca"
+  ],
+  "established": 1918,
+  "external_ids": [
+    {
+      "all": [
+        "100012727"
+      ],
+      "preferred": "100012727",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421142.0"
+      ],
+      "preferred": "grid.421142.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8521 1798"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152655"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03gf7z214",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.iucpq.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IUCPQ"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut universitaire de cardiologie et de pneumologie de Québec"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut universitaire de cardiologie et de pneumologie de Québec – Université Laval"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

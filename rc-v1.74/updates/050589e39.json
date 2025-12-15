@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "100013060"
+      ],
+      "preferred": "100013060",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.475756.2"
+      ],
+      "preferred": "grid.475756.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0444 5410"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/050589e39",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.embl-hamburg.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/European_Molecular_Biology_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HH",
+        "country_subdivision_name": "Hamburg",
+        "lat": 53.55073,
+        "lng": 9.99302,
+        "name": "Hamburg"
+      },
+      "geonames_id": 2911298
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMBL Hamburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Molecular Biology Laboratory"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Europäisches Laboratorium für Molekularbiologie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Structural Systems Biology",
+      "type": "child",
+      "id": "https://ror.org/04fhwda97"
+    },
+    {
+      "label": "European Molecular Biology Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/03mstc592"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

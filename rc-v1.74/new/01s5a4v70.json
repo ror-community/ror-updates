@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-11-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gov.uk"
+  ],
+  "established": 2023,
+  "external_ids": [
+    {
+      "all": [
+        "100031277"
+      ],
+      "preferred": "100031277",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q116825523"
+      ],
+      "preferred": "Q116825523",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01s5a4v70",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_for_Energy_Security_and_Net_Zero"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DESNZ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department for Energy Security & Net Zero"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Department for Energy Security and Net Zero"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department for Business, Energy and Industrial Strategy",
+      "type": "predecessor",
+      "id": "https://ror.org/019ya6433"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "United Kingdom Atomic Energy Authority",
+      "type": "child",
+      "id": "https://ror.org/0361bwx64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-11-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1789,
+  "external_ids": [
+    {
+      "all": [
+        "100000194",
+        "100010463"
+      ],
+      "preferred": "100000194",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419451.c"
+      ],
+      "preferred": "grid.419451.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0403 9883"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q789915"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03vvynj75",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.state.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_State"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DOS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Estado de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département d'État des États-unis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State Department"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of State"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bureau of Educational and Cultural Affairs",
+      "type": "child",
+      "id": "https://ror.org/01nbmrk54"
+    },
+    {
+      "label": "Foreign Service Institute",
+      "type": "child",
+      "id": "https://ror.org/05hb6w248"
+    },
+    {
+      "label": "U.S. Embassy and Consulates in India",
+      "type": "child",
+      "id": "https://ror.org/05mc17455"
+    },
+    {
+      "label": "Bureau of International Narcotics and Law Enforcement Affairs",
+      "type": "child",
+      "id": "https://ror.org/01k32vr40"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
