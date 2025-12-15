@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2025-12-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464139.d"
+      ],
+      "preferred": "grid.464139.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0502 3906"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262493"
+      ],
+      "preferred": "Q30262493",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ccpdp17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://eng-bfp.bordeaux-aquitaine.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.77935,
+        "lng": -0.56707,
+        "name": "Villenave-d'Ornon"
+      },
+      "geonames_id": 2968620
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BFP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Biologie du Fruit et Pathologie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR1332"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "EMERGREEN",
+      "type": "child",
+      "id": "https://ror.org/020dmyn61"
+    },
+    {
+      "label": "Centre Nouvelle Aquitaine-Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/00tebkv94"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
