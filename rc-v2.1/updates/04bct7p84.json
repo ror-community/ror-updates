@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1930,
+  "external_ids": [
+    {
+      "all": [
+        "grid.189509.c"
+      ],
+      "preferred": "grid.189509.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0024 1216"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5312894"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bct7p84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dukehealth.org/hospitals/duke-university-hospital/home"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Duke_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.99403,
+        "lng": -78.89862,
+        "name": "Durham"
+      },
+      "geonames_id": 4464368
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Duke Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Duke University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Duke Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/03njmea73"
+    },
+    {
+      "label": "Duke University Health System",
+      "type": "parent",
+      "id": "https://ror.org/03wfqwh68"
+    },
+    {
+      "label": "Duke University",
+      "type": "related",
+      "id": "https://ror.org/00py81415"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

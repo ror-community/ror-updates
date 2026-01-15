@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "100014570"
+      ],
+      "preferred": "100014570",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.76978.37"
+      ],
+      "preferred": "grid.76978.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2296 6998"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q45820"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03gq8fr08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ukri.org/who-we-are/stfc/facilities/rutherford-appleton-laboratory/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Rutherford_Appleton_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.60928,
+        "lng": -1.24214,
+        "name": "Didcot"
+      },
+      "geonames_id": 2651269
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RAL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rutherford Appleton Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Science and Technology Facilities Council",
+      "type": "parent",
+      "id": "https://ror.org/057g20z61"
+    },
+    {
+      "label": "Central Laser Facility",
+      "type": "related",
+      "id": "https://ror.org/05efe5r97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

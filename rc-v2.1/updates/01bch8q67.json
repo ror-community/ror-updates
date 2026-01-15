@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1876,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483612.a"
+      ],
+      "preferred": "grid.483612.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0941 6043"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01bch8q67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://opgc.uca.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.75082,
+        "lng": 3.11078,
+        "name": "Aubière"
+      },
+      "geonames_id": 3036364
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OPGC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU OPGC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Observatoire de Physique du Globe de Clermont-Ferrand"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Universe Sciences Observatory of Clermont-Ferrand"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire de Météorologie Physique",
+      "type": "child",
+      "id": "https://ror.org/03gz4y884"
+    },
+    {
+      "label": "Laboratoire Magmas et Volcans",
+      "type": "child",
+      "id": "https://ror.org/02vnq7240"
+    },
+    {
+      "label": "Institut National des Sciences de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/04kdfz702"
+    },
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "facility"
+  ]
+}

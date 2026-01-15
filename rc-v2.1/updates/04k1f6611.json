@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "maccabi4u.co.il"
+  ],
+  "established": 1941,
+  "external_ids": [
+    {
+      "all": [
+        "501100006297"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416216.6"
+      ],
+      "preferred": "grid.416216.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0622 7775"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2907040"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04k1f6611",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maccabi4u.co.il"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Maccabi_Healthcare_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IL",
+        "country_name": "Israel",
+        "country_subdivision_code": "TA",
+        "country_subdivision_name": "Tel Aviv",
+        "lat": 32.08088,
+        "lng": 34.78057,
+        "name": "Tel Aviv"
+      },
+      "geonames_id": 293397
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Maccabi Fund for the Ill"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Maccabi Healthcare Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bayit Balev Rehabilitation Hospital",
+      "type": "child",
+      "id": "https://ror.org/05qph7t17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

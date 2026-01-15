@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neurodol.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503334.2"
+      ],
+      "preferred": "grid.503334.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q51781159"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028m9sy08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://neurodol.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Neuro-Dol"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Physiopathologie et pharmacologie de la douleur et de la migraine"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1107"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Délégation Régionale Auvergne-Rhône-Alpes",
+      "type": "parent",
+      "id": "https://ror.org/0530j9m17"
+    },
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

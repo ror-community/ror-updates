@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463861.e"
+      ],
+      "preferred": "grid.463861.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8863 9896"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00e4pqm50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://geolab.uca.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    },
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 45.83362,
+        "lng": 1.24759,
+        "name": "Limoges"
+      },
+      "geonames_id": 2998286
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GEOLAB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Géographie Physique et Environnementale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut Écologie et Environnement",
+      "type": "parent",
+      "id": "https://ror.org/01q76b368"
+    },
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    },
+    {
+      "label": "Université de Limoges",
+      "type": "parent",
+      "id": "https://ror.org/02cp04407"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

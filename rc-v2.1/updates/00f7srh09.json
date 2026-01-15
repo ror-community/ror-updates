@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "xlim.fr"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462736.2"
+      ],
+      "preferred": "grid.462736.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0597 7726"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261539"
+      ],
+      "preferred": "Q30261539",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00f7srh09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.xlim.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 45.83362,
+        "lng": 1.24759,
+        "name": "Limoges"
+      },
+      "geonames_id": 2998286
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 7252"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR CNRS 7252"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR7252"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "X-LIM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "XLIM"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CNRS Ingénierie",
+      "type": "parent",
+      "id": "https://ror.org/00s19x989"
+    },
+    {
+      "label": "Université de Limoges",
+      "type": "parent",
+      "id": "https://ror.org/02cp04407"
+    },
+    {
+      "label": "Université de Poitiers",
+      "type": "parent",
+      "id": "https://ror.org/04xhy8q59"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

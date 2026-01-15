@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unh.clermont.hub.inrae.fr"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462642.0"
+      ],
+      "preferred": "grid.462642.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0502 1580"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261518"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003qhrc72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://unh.clermont.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Human Nutrition Unit"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1019"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNH"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Unité de Nutrition Humaine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Université Clermont Auvergne",
+      "type": "parent",
+      "id": "https://ror.org/01a8ajp46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
