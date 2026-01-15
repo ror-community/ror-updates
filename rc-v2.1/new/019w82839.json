@@ -73,7 +73,28 @@
       "value": "Unité Mixte de Recherche « Stabilité Génétique, Cellules Souches et Radiations"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de Radiobiologie Cellulaire et Moléculaire",
+      "type": "parent",
+      "id": "https://ror.org/04ef91678"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "related",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

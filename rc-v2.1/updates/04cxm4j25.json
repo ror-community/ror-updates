@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100000990"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411958.0"
+      ],
+      "preferred": "grid.411958.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2194 1270"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q781371"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04cxm4j25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.acu.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Australian_Catholic_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -27.46794,
+        "lng": 153.02809,
+        "name": "Brisbane"
+      },
+      "geonames_id": 2174003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ACU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Australian Catholic University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Calvary Hospital",
+      "type": "related",
+      "id": "https://ror.org/041c7s516"
+    },
+    {
+      "label": "Sydney College of Divinity",
+      "type": "related",
+      "id": "https://ror.org/00p6her27"
+    },
+    {
+      "label": "Nursing Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01vcx5m72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

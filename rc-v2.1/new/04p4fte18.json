@@ -68,7 +68,13 @@
       "value": "NHS Wales Informatics Service (NWIS)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Health Service Wales",
+      "type": "parent",
+      "id": "https://ror.org/04a496k07"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

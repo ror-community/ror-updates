@@ -67,7 +67,23 @@
       "value": "Particle Physics Division"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de Recherche sur les Lois Fondamentales de l'Univers",
+      "type": "parent",
+      "id": "https://ror.org/05k705z76"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "related",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

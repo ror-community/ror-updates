@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "montpellier.archi.fr"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466326.3"
+      ],
+      "preferred": "grid.466326.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2114 8395"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/008axfh28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.montpellier.archi.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSAM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National School of Architecture of Montpellier"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "École Nationale Supérieure d'Architecture Montpellier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Interdisciplinaire Formes Architectures Milieux",
+      "type": "child",
+      "id": "https://ror.org/056z2b508"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

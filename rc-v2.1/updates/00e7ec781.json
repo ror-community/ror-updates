@@ -1,0 +1,72 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.510894.1"
+      ],
+      "preferred": "grid.510894.1",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00e7ec781",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.climatehubs.usda.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of Agriculture Climate Hubs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Agriculture",
+      "type": "parent",
+      "id": "https://ror.org/01na82s61"
+    },
+    {
+      "label": "USDA California Climate Hub",
+      "type": "child",
+      "id": "https://ror.org/024q3f615"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

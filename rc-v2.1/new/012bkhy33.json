@@ -67,7 +67,28 @@
       "value": "Molecular Imaging Research Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03xjwb503"
+    },
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Institut de biologie François Jacob",
+      "type": "parent",
+      "id": "https://ror.org/01s29vd38"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "related",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -1,0 +1,158 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1870,
+  "external_ids": [
+    {
+      "all": [
+        "100000074",
+        "100005196",
+        "100007236"
+      ],
+      "preferred": "100000074",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423379.8"
+      ],
+      "preferred": "grid.423379.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2197 809X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1553390"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02916qm60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.justice.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_Justice"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DOJ"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Justicia de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département de la justice des États-unis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Justice Department"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of Justice"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Drug Enforcement Administration",
+      "type": "child",
+      "id": "https://ror.org/0568dpm54"
+    },
+    {
+      "label": "Federal Bureau of Investigation",
+      "type": "child",
+      "id": "https://ror.org/00ta5r839"
+    },
+    {
+      "label": "National Institute of Justice",
+      "type": "child",
+      "id": "https://ror.org/00v8p7w89"
+    },
+    {
+      "label": "Office of Juvenile Justice and Delinquency Prevention",
+      "type": "child",
+      "id": "https://ror.org/05335sh79"
+    },
+    {
+      "label": "Bureau of Justice Statistics",
+      "type": "child",
+      "id": "https://ror.org/0006s4z66"
+    },
+    {
+      "label": "Office on Violence Against Women",
+      "type": "child",
+      "id": "https://ror.org/032jvkt14"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    },
+    {
+      "label": "Office for Victims of Crime",
+      "type": "child",
+      "id": "https://ror.org/04sqfaq74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
