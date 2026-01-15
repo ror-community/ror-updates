@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100010771"
+      ],
+      "preferred": "501100010771",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423734.5"
+      ],
+      "preferred": "grid.423734.5",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01526pb12",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ble.de/EN/00_Home/homepage_node.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
+      },
+      "geonames_id": 2946447
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BLE"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bundesanstalt für Landwirtschaft und Ernährung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Office for Food and Agriculture"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "type": "parent",
+      "id": "https://ror.org/04jw21793"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
