@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "501100007559",
+        "501100001190",
+        "501100002325",
+        "100012888"
+      ],
+      "preferred": "100012888",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468062.e"
+      ],
+      "preferred": "grid.468062.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4907 4051"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03e0qa028",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://economicdevelopment.vic.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DEDJTR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Economic Development Jobs Transport and Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VicRoads",
+      "type": "child",
+      "id": "https://ror.org/01z7m4762"
+    },
+    {
+      "label": "Government of Victoria",
+      "type": "parent",
+      "id": "https://ror.org/02xvc5r05"
+    },
+    {
+      "label": "Department of Jobs, Precincts and Regions",
+      "type": "successor",
+      "id": "https://ror.org/02mzvf848"
+    },
+    {
+      "label": "Department of Transport and Planning",
+      "type": "successor",
+      "id": "https://ror.org/00ftv3450"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

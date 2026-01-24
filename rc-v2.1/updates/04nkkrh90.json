@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512807.9"
+      ],
+      "preferred": "grid.512807.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9874 2651"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q101378234"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04nkkrh90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lwl-uk-bochum.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.48165,
+        "lng": 7.21648,
+        "name": "Bochum"
+      },
+      "geonames_id": 2947416
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "LWL-Universitätsklinikum Bochum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitätsklinikum der Ruhr-Universität Bochum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landschaftsverband Westfalen-Lippe",
+      "type": "parent",
+      "id": "https://ror.org/03cdgfs84"
+    },
+    {
+      "label": "University Hospitals of the Ruhr-University of Bochum",
+      "type": "parent",
+      "id": "https://ror.org/03zcpvf19"
+    },
+    {
+      "label": "LWL-Klinikum Gütersloh",
+      "type": "related",
+      "id": "https://ror.org/017vk0a74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.423585.d"
+      ],
+      "preferred": "grid.423585.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2248 0509"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04jtw9y77",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cee-recherche.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.84979,
+        "lng": 2.56266,
+        "name": "Noisy-le-Grand"
+      },
+      "geonames_id": 2990189
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre d'études de l'emploi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire interdisciplinaire de recherches en sciences de l'action",
+      "type": "child",
+      "id": "https://ror.org/05mdg8117"
+    },
+    {
+      "label": "Centre de recherche sur le travail et le développement",
+      "type": "related",
+      "id": "https://ror.org/027z2pe53"
+    },
+    {
+      "label": "Modélisation, épidémiologie et surveillance des risques sanitaires",
+      "type": "related",
+      "id": "https://ror.org/00fmavj37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

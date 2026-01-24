@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-03-15",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lpens.ens.psl.eu"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507635.2"
+      ],
+      "preferred": "grid.507635.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q90407706"
+      ],
+      "preferred": "Q90407706",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03a26mh11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lpens.ens.psl.eu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPENS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LPENS Laboratory"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire de Physique de l'ENS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Physique de l'Ecole Normale Supérieure"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 8023"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR8023"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Normale Supérieure - PSL",
+      "type": "parent",
+      "id": "https://ror.org/05a0dhs15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

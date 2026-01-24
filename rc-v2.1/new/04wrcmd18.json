@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mannheim.dhbw.de"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 1103 911X"
+      ],
+      "preferred": "0000 0001 1103 911X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1262608"
+      ],
+      "preferred": "Q1262608",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04wrcmd18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mannheim.dhbw.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Duale_Hochschule_Baden-W%C3%BCrttemberg_Mannheim"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.4891,
+        "lng": 8.46694,
+        "name": "Mannheim"
+      },
+      "geonames_id": 2873891
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Baden-Wuerttemberg Cooperative State University Mannheim"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Berufsakademie Mannheim"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "DHBW Mannheim"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Duale Hochschule Baden Württemberg Mannheim"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Baden-Wuerttemberg Cooperative State University",
+      "type": "parent",
+      "id": "https://ror.org/02xdzy536"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "devinci.fr"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463777.6"
+      ],
+      "preferred": "grid.463777.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2105 3900"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02setav13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.devinci.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.89672,
+        "lng": 2.25666,
+        "name": "Courbevoie"
+      },
+      "geonames_id": 3023141
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "DVHE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "De Vinci Higher Education"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Pôle Léonard de Vinci"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Pôle Universitaire Léonard de Vinci"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ecole Supérieure d'Ingénieurs Léonard de Vinci",
+      "type": "child",
+      "id": "https://ror.org/04sgy3p75"
+    },
+    {
+      "label": "Ecole de Commerce et de Management à Paris",
+      "type": "child",
+      "id": "https://ror.org/03ghpfq38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inm.cnam.fr"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0645 4441"
+      ],
+      "preferred": "0000 0004 0645 4441",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152415"
+      ],
+      "preferred": "Q3152415",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01atqpz53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://inm.cnam.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Institut_national_de_m%C3%A9trologie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.90851,
+        "lng": 2.36379,
+        "name": "La Plaine-Saint-Denis"
+      },
+      "geonames_id": 3007263
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "INM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut national de métrologie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LCM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LNE-Cnam"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "LNE-INM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire commun de métrologie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire commun de métrologie LNE-Cnam"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'essais du Conservatoire national des arts et métiers"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire d'essais mécaniques, physiques, chimiques et de machines"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire National de Métrologie et d'Essais",
+      "type": "parent",
+      "id": "https://ror.org/01ph39d13"
+    },
+    {
+      "label": "Conservatoire National des Arts et Métiers",
+      "type": "parent",
+      "id": "https://ror.org/0175hh227"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ucas.ac.cn"
+  ],
+  "established": 1978,
+  "external_ids": [
+    {
+      "all": [
+        "501100011332",
+        "501100015361"
+      ],
+      "preferred": "501100011332",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410726.6"
+      ],
+      "preferred": "grid.410726.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1797 8419"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6544465"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05qbk4x57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucas.ac.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Chinese Academy of Sciences"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Centre for Theoretical Physics Asia-Pacific",
+      "type": "child",
+      "id": "https://ror.org/01z2px678"
+    },
+    {
+      "label": "Kavli Institute for Theoretical Sciences",
+      "type": "child",
+      "id": "https://ror.org/01kv3wg35"
+    },
+    {
+      "label": "Ningbo No. 2 Hospital",
+      "type": "child",
+      "id": "https://ror.org/01apc5d07"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

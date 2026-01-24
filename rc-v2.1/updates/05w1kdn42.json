@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1951,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512813.c"
+      ],
+      "preferred": "grid.512813.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q18410588"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05w1kdn42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lwl-uk-hamm.de/de/unsere-klinik/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.68033,
+        "lng": 7.82089,
+        "name": "Hamm"
+      },
+      "geonames_id": 2911240
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "LWL-Universitätsklinik Hamm"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitätsklinik der Ruhr-Universität Bochum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landschaftsverband Westfalen-Lippe",
+      "type": "parent",
+      "id": "https://ror.org/03cdgfs84"
+    },
+    {
+      "label": "University Hospitals of the Ruhr-University of Bochum",
+      "type": "parent",
+      "id": "https://ror.org/03zcpvf19"
+    },
+    {
+      "label": "LWL-Klinikum Gütersloh",
+      "type": "related",
+      "id": "https://ror.org/017vk0a74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

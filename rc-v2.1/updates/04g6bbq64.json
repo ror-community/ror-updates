@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "amu.edu.pl"
+  ],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100013920",
+        "100016906",
+        "501100013959"
+      ],
+      "preferred": "501100013920",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5633.3"
+      ],
+      "preferred": "grid.5633.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 3545"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q348402"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04g6bbq64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://amu.edu.pl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Adam_Mickiewicz_University_in_Pozna%C5%84"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Greater Poland",
+        "lat": 52.40692,
+        "lng": 16.92993,
+        "name": "Poznan"
+      },
+      "geonames_id": 3088171
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "AMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Adam Mickiewicz University in Poznań"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UAM"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Uniwersytet im. Adama Mickiewicza w Poznaniu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Collegium Polonicum",
+      "type": "child",
+      "id": "https://ror.org/03v4vk244"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

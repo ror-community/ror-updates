@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "grid.300637.1"
+      ],
+      "preferred": "grid.300637.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2149 9144"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896641"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05mdm7050",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uwex.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Extension"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WI",
+        "country_subdivision_name": "Wisconsin",
+        "lat": 43.07305,
+        "lng": -89.40123,
+        "name": "Madison"
+      },
+      "geonames_id": 5261457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UW–Extension"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Wisconsin–Extension"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wisconsin Geological and Natural History Survey",
+      "type": "child",
+      "id": "https://ror.org/02kj3rm24"
+    },
+    {
+      "label": "University of Wisconsin System",
+      "type": "parent",
+      "id": "https://ror.org/03ydkyb10"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education"
+  ]
+}

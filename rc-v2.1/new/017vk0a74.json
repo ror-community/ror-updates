@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-01-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lwl-klinikum-guetersloh.de",
+    "lwl.org"
+  ],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 0834 9757"
+      ],
+      "preferred": "0000 0005 0834 9757",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1798472"
+      ],
+      "preferred": "Q1798472",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017vk0a74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lwl-klinikum-guetersloh.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/LWL-Klinikum_G%C3%BCtersloh"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.90693,
+        "lng": 8.37853,
+        "name": "Gütersloh"
+      },
+      "geonames_id": 2913366
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "LWL-Klinikum Gütersloh"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LWL-hospital Gütersloh"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Landschaftsverband Westfalen-Lippe Hospital Gütersloh"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Landschaftsverband Westfalen-Lippe Klinikum Gütersloh"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landschaftsverband Westfalen-Lippe",
+      "type": "related",
+      "id": "https://ror.org/03cdgfs84"
+    },
+    {
+      "label": "LWL-Universitätsklinik Hamm",
+      "type": "related",
+      "id": "https://ror.org/05w1kdn42"
+    },
+    {
+      "label": "LWL-Universitätsklinikum Bochum",
+      "type": "related",
+      "id": "https://ror.org/04nkkrh90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
