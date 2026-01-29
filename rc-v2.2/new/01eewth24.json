@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Michigan Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Western Michigan University",
+      "type": "parent",
+      "id": "https://ror.org/04j198w64"
+    },
+    {
+      "label": "Michigan Department of Environment, Great Lakes, and Energy",
+      "type": "parent",
+      "id": "https://ror.org/03sy3av50"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

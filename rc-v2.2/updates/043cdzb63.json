@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dnr.sc.gov"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "100010242"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.448411.c"
+      ],
+      "preferred": "grid.448411.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0377 1855"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7566572"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043cdzb63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dnr.sc.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/South_Carolina_Department_of_Natural_Resources"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SC",
+        "country_subdivision_name": "South Carolina",
+        "lat": 34.00071,
+        "lng": -81.03481,
+        "name": "Columbia"
+      },
+      "geonames_id": 4575352
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DNR"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SCDNR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Carolina Department of Natural Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Carolina Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/0320vkk33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

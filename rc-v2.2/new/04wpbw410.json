@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,28 @@
       "value": "Secretaria de Estado de Saúde do Rio de Janeiro"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Estadual de Diabetes e Endocrinologia Luiz Capriglione",
+      "type": "child",
+      "id": "https://ror.org/0539xgm86"
+    },
+    {
+      "label": "Hemorio",
+      "type": "child",
+      "id": "https://ror.org/003mvv560"
+    },
+    {
+      "label": "Instituto Estadual do Cérebro Paulo Niemeyer",
+      "type": "child",
+      "id": "https://ror.org/01k79ja28"
+    },
+    {
+      "label": "Governo do Estado do Rio de Janeiro",
+      "type": "parent",
+      "id": "https://ror.org/04pnpc024"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

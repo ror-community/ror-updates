@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Baycrest Centre for Geriatric Care"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Toronto",
+      "type": "related",
+      "id": "https://ror.org/03dbr7087"
+    },
+    {
+      "label": "Baycrest Hospital",
+      "type": "parent",
+      "id": "https://ror.org/03gp5b411"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

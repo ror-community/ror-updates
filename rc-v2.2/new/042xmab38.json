@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Institute for Educational Planning and Administration"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Cape Coast",
+      "type": "parent",
+      "id": "https://ror.org/0492nfe34"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

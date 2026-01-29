@@ -1,0 +1,152 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wmich.edu"
+  ],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "100007159"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268187.2"
+      ],
+      "preferred": "grid.268187.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0672 1122"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1546191"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04j198w64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://wmich.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Western_Michigan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.29171,
+        "lng": -85.58723,
+        "name": "Kalamazoo"
+      },
+      "geonames_id": 4997787
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de western michigan"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Western Michigan College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Western Michigan College of Education"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Western Michigan University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Western State Normal School"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Western State Teachers College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Evaluation Center",
+      "type": "child",
+      "id": "https://ror.org/03a1q3q78"
+    },
+    {
+      "label": "Bronson Methodist Hospital",
+      "type": "related",
+      "id": "https://ror.org/032zc6m47"
+    },
+    {
+      "label": "West Michigan Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/05rzk0426"
+    },
+    {
+      "label": "Michigan Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/01eewth24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

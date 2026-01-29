@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1732,
+  "external_ids": [
+    {
+      "all": [
+        "100019147"
+      ],
+      "preferred": "100019147",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411984.1"
+      ],
+      "preferred": "grid.411984.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0482 5331"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2496408"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021ft0n22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umg.eu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 51.53443,
+        "lng": 9.93228,
+        "name": "Göttingen"
+      },
+      "geonames_id": 2918632
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Medical Center Göttingen"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitätsmedizin Göttingen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klinikum Bremen-Mitte",
+      "type": "related",
+      "id": "https://ror.org/05j1w2b44"
+    },
+    {
+      "label": "University of Göttingen",
+      "type": "related",
+      "id": "https://ror.org/01y9bpm73"
+    },
+    {
+      "label": "CAIMed - Niedersächsisches Zentrum für KI und Kausale Methoden in der Medizin",
+      "type": "related",
+      "id": "https://ror.org/04n901n71"
+    },
+    {
+      "label": "Else Kröner Fresenius Center for Optogenetic Therapies",
+      "type": "child",
+      "id": "https://ror.org/03vwt8p73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

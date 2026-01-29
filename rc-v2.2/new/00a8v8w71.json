@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Institut für deutsche Kultur und Geschichte Südosteuropas an der Ludwig-Maximilians-Universität München"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ludwig-Maximilians-Universität München",
+      "type": "parent",
+      "id": "https://ror.org/05591te55"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Massachusetts Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Massachusetts Amherst",
+      "type": "parent",
+      "id": "https://ror.org/0072zz521"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

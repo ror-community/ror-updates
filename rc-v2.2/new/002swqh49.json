@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Mar Gregorios College of Arts and Science, Chennai"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Madras",
+      "type": "related",
+      "id": "https://ror.org/04jmt9361"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

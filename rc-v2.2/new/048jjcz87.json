@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "UR6301"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Tours",
+      "type": "parent",
+      "id": "https://ror.org/02wwzvj46"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

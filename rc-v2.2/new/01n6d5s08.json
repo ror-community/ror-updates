@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Ghana Space Science and Technology Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ghana Atomic Energy Commission",
+      "type": "parent",
+      "id": "https://ror.org/010w37e28"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

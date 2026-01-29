@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Government Degree College Bemina"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cluster University Srinagar",
+      "type": "related",
+      "id": "https://ror.org/0127tex41"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

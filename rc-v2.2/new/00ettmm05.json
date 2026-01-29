@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Umjetnička akademija u Splitu"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Split",
+      "type": "parent",
+      "id": "https://ror.org/00m31ft63"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

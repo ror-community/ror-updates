@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Oklahoma Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Oklahoma",
+      "type": "parent",
+      "id": "https://ror.org/02aqsxs83"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

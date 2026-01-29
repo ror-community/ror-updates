@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,23 @@
       "value": "SUNY ESF Newcomb Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "SUNY College of Environmental Science and Forestry",
+      "type": "parent",
+      "id": "https://ror.org/00qv0tw17"
+    },
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    },
+    {
+      "label": "Research Foundation for the State University of New York",
+      "type": "related",
+      "id": "https://ror.org/01sfc5174"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

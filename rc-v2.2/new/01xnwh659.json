@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Ottawa Heart Institute Research Corporation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ottawa Heart Institute",
+      "type": "related",
+      "id": "https://ror.org/00h533452"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

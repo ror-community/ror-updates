@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Dauphine Recherches Juridiques"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris Dauphine-PSL",
+      "type": "parent",
+      "id": "https://ror.org/052bz7812"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

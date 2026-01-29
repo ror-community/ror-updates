@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Ponce Health Sciences University, St. Louis"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ponce Health Sciences University",
+      "type": "parent",
+      "id": "https://ror.org/0022qva30"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

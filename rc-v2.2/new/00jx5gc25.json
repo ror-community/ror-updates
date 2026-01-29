@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Instituto Experimental de Biología “Luis Adam Briançon”"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Saint Francis Xavier",
+      "type": "parent",
+      "id": "https://ror.org/039fm7e11"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

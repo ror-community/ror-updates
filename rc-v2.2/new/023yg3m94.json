@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Wangari Maathai Institute for Peace and Environmental Studies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Nairobi",
+      "type": "parent",
+      "id": "https://ror.org/02y9nww90"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

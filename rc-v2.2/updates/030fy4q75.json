@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100006144",
+        "501100006143"
+      ],
+      "preferred": "501100006144",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453720.7"
+      ],
+      "preferred": "grid.453720.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0379 5273"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6393416"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030fy4q75",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kscste.kerala.gov.in/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kerala_State_Council_for_Science,_Technology_and_Environment"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "KL",
+        "country_subdivision_name": "Kerala",
+        "lat": 8.4855,
+        "lng": 76.94924,
+        "name": "Thiruvananthapuram"
+      },
+      "geonames_id": 1254163
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KSCSTE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kerala State Council for Science, Technology and Environment"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kerala Forest Research Institute",
+      "type": "child",
+      "id": "https://ror.org/02gg6pa94"
+    },
+    {
+      "label": "KSCSTE - Institute for Climate Change Studies",
+      "type": "child",
+      "id": "https://ror.org/02grjkp95"
+    },
+    {
+      "label": "KSCSTE-Srinivasa Ramanujan Institute for Basic Sciences",
+      "type": "child",
+      "id": "https://ror.org/05kp6mq50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

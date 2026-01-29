@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,23 @@
       "value": "中山大学附属第一医院广西医院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Health Commission of Guangxi Zhuang Autonomous Region",
+      "type": "related",
+      "id": "https://ror.org/01x9sys47"
+    },
+    {
+      "label": "The First Affiliated Hospital, Sun Yat-sen University",
+      "type": "related",
+      "id": "https://ror.org/037p24858"
+    },
+    {
+      "label": "The People's Hospital of Guangxi Zhuang Autonomous Region",
+      "type": "related",
+      "id": "https://ror.org/02aa8kj12"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

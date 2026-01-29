@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Far Eastern University-Dr. Nicanor Reyes Medical Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Far Eastern University",
+      "type": "related",
+      "id": "https://ror.org/01cg6kh39"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

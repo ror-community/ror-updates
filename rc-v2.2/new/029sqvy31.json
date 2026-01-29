@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Laboratorio de Geotecnologías"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico - Bahía Blanca",
+      "type": "parent",
+      "id": "https://ror.org/03efzvv60"
+    },
+    {
+      "label": "Universidad Nacional del Sur",
+      "type": "parent",
+      "id": "https://ror.org/028crwz56"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

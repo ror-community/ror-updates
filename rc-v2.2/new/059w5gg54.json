@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Ghana Wildlife Division"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Forestry Commission of Ghana",
+      "type": "parent",
+      "id": "https://ror.org/04w49p241"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

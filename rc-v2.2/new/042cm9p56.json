@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "University of Ottawa Institute of Mental Health Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Ottawa",
+      "type": "parent",
+      "id": "https://ror.org/03c4mmv16"
+    },
+    {
+      "label": "Royal Ottawa Mental Health Centre",
+      "type": "related",
+      "id": "https://ror.org/056vnsb08"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

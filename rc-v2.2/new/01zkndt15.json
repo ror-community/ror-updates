@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Maine Geological Survey"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Maine Department of Agriculture Conservation and Forestry",
+      "type": "parent",
+      "id": "https://ror.org/03pptns37"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

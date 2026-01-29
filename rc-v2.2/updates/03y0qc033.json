@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454311.6"
+      ],
+      "preferred": "grid.454311.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4685 0174"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03y0qc033",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.insa-centrevaldeloire.fr/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.59432,
+        "lng": 1.32912,
+        "name": "Blois"
+      },
+      "geonames_id": 3032213
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INSA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "INSA Centre Val de Loire"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut National des Sciences Appliquées Centre Val de Loire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Pluridisciplinaire de Recherche en Ingénierie des Systèmes, Mécanique et Energétique",
+      "type": "child",
+      "id": "https://ror.org/00sbth994"
+    },
+    {
+      "label": "Laboratoire d'Informatique Fondamentale d'Orléans",
+      "type": "child",
+      "id": "https://ror.org/01nr3td38"
+    },
+    {
+      "label": "Laboratoire de Mécanique Gabriel Lamé",
+      "type": "child",
+      "id": "https://ror.org/04f9thq51"
+    },
+    {
+      "label": "GREMAN, Matériaux, Microélectronique, Acoustique, Nanotechnologies",
+      "type": "child",
+      "id": "https://ror.org/051qnm298"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100004840",
+        "100004841",
+        "100004842"
+      ],
+      "preferred": "100004840",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419989.4"
+      ],
+      "preferred": "grid.419989.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0509 3365"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17091547"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042few790",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nj.gov/dep/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/New_Jersey_Department_of_Environmental_Protection"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 40.21705,
+        "lng": -74.74294,
+        "name": "Trenton"
+      },
+      "geonames_id": 5105496
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département de la protection de l'environnement du new jersey"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NJDEP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "New Jersey Department of Environmental Protection"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "New Jersey Geological and Water Survey",
+      "type": "child",
+      "id": "https://ror.org/05t0bww53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

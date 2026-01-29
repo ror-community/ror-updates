@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "schema_version": "2.1"
     }
   },
@@ -101,7 +101,13 @@
       "value": "California Life Company"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alphabet (United States)",
+      "type": "related",
+      "id": "https://ror.org/02e9yx751"
+    }
+  ],
   "status": "active",
   "types": [
     "company",
