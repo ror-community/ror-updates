@@ -1,0 +1,106 @@
+name: Generate Record Metadata CSVs
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch to add files to'
+        required: true
+        type: string
+      issue_type:
+        description: 'Type of records to generate'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - new
+          - update
+
+jobs:
+  generate-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch }}
+          token: ${{ secrets.BOT_TOKEN }}
+
+      - name: Checkout curation_ops scripts
+        uses: actions/checkout@v6
+        with:
+          repository: ror-community/curation_ops
+          path: curation_ops
+          sparse-checkout: |
+            get_record_metadata.py
+            github_project_issues.py
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install aiohttp requests
+
+      - name: Create output directory
+        run: mkdir -p "${{ inputs.target_branch }}/input_files"
+
+      - name: Generate metadata CSVs
+        id: generate
+        env:
+          GITHUB_TOKEN_PERSONAL: ${{ secrets.BOT_TOKEN }}
+        run: |
+          cd curation_ops
+
+          if [ "${{ inputs.issue_type }}" = "all" ]; then
+            python get_record_metadata.py -t new -f "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" || true
+            NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+
+            python get_record_metadata.py -t update -f "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" || true
+            UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+
+            if [ "${NEW_COUNT:-0}" -eq 0 ] && [ "${UPDATE_COUNT:-0}" -eq 0 ]; then
+              echo "::error::No issues found for either new or update records"
+              exit 1
+            fi
+
+            [ "${NEW_COUNT:-0}" -eq 0 ] && echo "::warning::No new record issues found"
+            [ "${UPDATE_COUNT:-0}" -eq 0 ] && echo "::warning::No update record issues found"
+
+          else
+            python get_record_metadata.py -t ${{ inputs.issue_type }} -f "../${{ inputs.target_branch }}/input_files/${{ inputs.issue_type }}_records_metadata.csv"
+            NEW_COUNT=0
+            UPDATE_COUNT=0
+            if [ "${{ inputs.issue_type }}" = "new" ]; then
+              NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" | wc -l | tr -d ' ')
+            else
+              UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" | wc -l | tr -d ' ')
+            fi
+          fi
+
+          echo "new_count=${NEW_COUNT:-0}" >> $GITHUB_OUTPUT
+          echo "update_count=${UPDATE_COUNT:-0}" >> $GITHUB_OUTPUT
+
+      - name: Commit and push CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ inputs.target_branch }}/input_files/"
+
+          NEW_COUNT=${{ steps.generate.outputs.new_count }}
+          UPDATE_COUNT=${{ steps.generate.outputs.update_count }}
+
+          if [ "$NEW_COUNT" -gt 0 ] && [ "$UPDATE_COUNT" -gt 0 ]; then
+            MSG="Add metadata CSVs ($NEW_COUNT new, $UPDATE_COUNT update records) from workflow run #${{ github.run_number }}"
+          elif [ "$NEW_COUNT" -gt 0 ]; then
+            MSG="Add metadata CSVs ($NEW_COUNT new records) from workflow run #${{ github.run_number }}"
+          else
+            MSG="Add metadata CSVs ($UPDATE_COUNT update records) from workflow run #${{ github.run_number }}"
+          fi
+
+          git commit -m "$MSG"
+          git push
