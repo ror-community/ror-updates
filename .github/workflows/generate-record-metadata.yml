@@ -91,6 +91,11 @@ jobs:
 
           git add "${{ inputs.target_branch }}/input_files/"
 
+          if git diff --staged --quiet; then
+            echo "::notice::No changes to commit - files are identical to existing"
+            exit 0
+          fi
+
           NEW_COUNT=${{ steps.generate.outputs.new_count }}
           UPDATE_COUNT=${{ steps.generate.outputs.update_count }}
 
