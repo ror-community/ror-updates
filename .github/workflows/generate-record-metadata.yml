@@ -56,11 +56,11 @@ jobs:
           cd curation_ops/get_record_metadata
 
           if [ "${{ inputs.issue_type }}" = "all" ]; then
-            python get_record_metadata.py -t new -f "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" || true
-            NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+            python get_record_metadata.py -t new -f "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" || true
+            NEW_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
 
-            python get_record_metadata.py -t update -f "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" || true
-            UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+            python get_record_metadata.py -t update -f "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" || true
+            UPDATE_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
 
             if [ "${NEW_COUNT:-0}" -eq 0 ] && [ "${UPDATE_COUNT:-0}" -eq 0 ]; then
               echo "::error::No issues found for either new or update records"
@@ -71,13 +71,13 @@ jobs:
             [ "${UPDATE_COUNT:-0}" -eq 0 ] && echo "::warning::No update record issues found"
 
           else
-            python get_record_metadata.py -t ${{ inputs.issue_type }} -f "../${{ inputs.target_branch }}/input_files/${{ inputs.issue_type }}_records_metadata.csv"
+            python get_record_metadata.py -t ${{ inputs.issue_type }} -f "../../${{ inputs.target_branch }}/input_files/${{ inputs.issue_type }}_records_metadata.csv"
             NEW_COUNT=0
             UPDATE_COUNT=0
             if [ "${{ inputs.issue_type }}" = "new" ]; then
-              NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" | wc -l | tr -d ' ')
+              NEW_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" | wc -l | tr -d ' ')
             else
-              UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" | wc -l | tr -d ' ')
+              UPDATE_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" | wc -l | tr -d ' ')
             fi
           fi
 
