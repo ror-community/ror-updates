@@ -48,6 +48,13 @@ jobs:
       - name: Create output directory
         run: mkdir -p "${{ inputs.target_branch }}/input_files"
 
+      - name: Test token
+        env:
+          GITHUB_TOKEN_PERSONAL: ${{ secrets.BOT_TOKEN }}
+        run: |
+          echo "Token length: ${#GITHUB_TOKEN_PERSONAL}"
+          curl -s -H "Authorization: Bearer $GITHUB_TOKEN_PERSONAL" https://api.github.com/user | head -3
+
       - name: Generate metadata CSVs
         id: generate
         env:
