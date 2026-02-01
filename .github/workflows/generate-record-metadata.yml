@@ -20,12 +20,16 @@ on:
 jobs:
   generate-metadata:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: read
+      repository-projects: read
     steps:
       - name: Checkout target branch
         uses: actions/checkout@v6
         with:
           ref: ${{ inputs.target_branch }}
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout curation_ops scripts
         uses: actions/checkout@v6
@@ -51,7 +55,7 @@ jobs:
       - name: Generate metadata CSVs
         id: generate
         env:
-          GITHUB_TOKEN_PERSONAL: ${{ secrets.BOT_TOKEN }}
+          GITHUB_TOKEN_PERSONAL: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd curation_ops/get_record_metadata
 
