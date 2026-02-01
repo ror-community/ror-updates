@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100006282"
+      ],
+      "preferred": "100006282",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.461951.e"
+      ],
+      "preferred": "grid.461951.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 994X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q335357"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05q0y0j38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.faa.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Federal_Aviation_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Administración Federal de Aviación"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FAA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Aviation Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Civil Aerospace Medical Institute",
+      "type": "child",
+      "id": "https://ror.org/043e04s74"
+    },
+    {
+      "label": "United States Department of Transportation",
+      "type": "parent",
+      "id": "https://ror.org/02xfw2e90"
+    },
+    {
+      "label": "Civil Aeronautics Authority",
+      "type": "predecessor",
+      "id": "https://ror.org/0581dw191"
+    },
+    {
+      "label": "William J. Hughes Technical Center for Advanced Aerospace",
+      "type": "related",
+      "id": "https://ror.org/05awn1872"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "elixir-europe.org"
+  ],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "Q12269561"
+      ],
+      "preferred": "Q12269561",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/044rwnt51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://elixir-europe.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ELIXIR"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.08529,
+        "lng": 0.18198,
+        "name": "Hinxton"
+      },
+      "geonames_id": 2646840
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ELIXIR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "European Life-Sciences Infrastructure for Biological Information"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "child",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "ELIXIR Germany",
+      "type": "child",
+      "id": "https://ror.org/056mykw55"
+    },
+    {
+      "label": "European Bioinformatics Institute",
+      "type": "related",
+      "id": "https://ror.org/02catss52"
+    },
+    {
+      "label": "Czech National Infrastructure for Biological Data",
+      "type": "related",
+      "id": "https://ror.org/0286qer95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

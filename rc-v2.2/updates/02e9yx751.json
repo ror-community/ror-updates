@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.497059.6"
+      ],
+      "preferred": "grid.497059.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4908 7370"
+      ],
+      "preferred": "0000 0004 4908 7370",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02e9yx751",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://abc.xyz/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Alphabet_Inc."
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.38605,
+        "lng": -122.08385,
+        "name": "Mountain View"
+      },
+      "geonames_id": 5375480
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alphabet (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "DeepMind (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00971b260"
+    },
+    {
+      "label": "Google (United States)",
+      "type": "child",
+      "id": "https://ror.org/00njsd438"
+    },
+    {
+      "label": "Calico Life Sciences",
+      "type": "related",
+      "id": "https://ror.org/00mrxhs61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

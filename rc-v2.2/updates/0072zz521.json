@@ -1,0 +1,145 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umass.edu"
+  ],
+  "established": 1863,
+  "external_ids": [
+    {
+      "all": [
+        "100008975",
+        "100010496",
+        "100008974",
+        "100007919",
+        "100013647"
+      ],
+      "preferred": "100008975",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266683.f"
+      ],
+      "preferred": "grid.266683.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2166 5835"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15142"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0072zz521",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umass.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.37537,
+        "lng": -72.51925,
+        "name": "Amherst Center"
+      },
+      "geonames_id": 4929023
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UMass Amherst"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Massachusetts Amherst"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Massachusetts Amherst"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du massachusetts à amherst"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Massachusetts System",
+      "type": "parent",
+      "id": "https://ror.org/0260j1g46"
+    },
+    {
+      "label": "Center for Hierarchical Manufacturing",
+      "type": "related",
+      "id": "https://ror.org/043trmd87"
+    },
+    {
+      "label": "Beaufort Lagoon Ecosystems Long Term Ecological Research Network",
+      "type": "related",
+      "id": "https://ror.org/055a54548"
+    },
+    {
+      "label": "Central Arizona–Phoenix Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/020zjmd13"
+    },
+    {
+      "label": "Five Colleges",
+      "type": "related",
+      "id": "https://ror.org/006e48x19"
+    },
+    {
+      "label": "Massachusetts Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/04wdrdw47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

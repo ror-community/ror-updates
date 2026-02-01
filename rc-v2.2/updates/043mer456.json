@@ -1,0 +1,137 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "100008114",
+        "100010509",
+        "100009493",
+        "100011141",
+        "100013235",
+        "100013670",
+        "100020491"
+      ],
+      "preferred": "100008114",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.24434.35"
+      ],
+      "preferred": "grid.24434.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0060"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1353679"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043mer456",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unl.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Nebraska%E2%80%93Lincoln"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 40.8,
+        "lng": -96.66696,
+        "name": "Lincoln"
+      },
+      "geonames_id": 5072006
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NU"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNL "
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de Nebraska-Lincoln"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Nebraska–Lincoln"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du nebraska à lincoln"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Agriculture and Natural Resources",
+      "type": "child",
+      "id": "https://ror.org/05mqqqg72"
+    },
+    {
+      "label": "University of Nebraska System",
+      "type": "parent",
+      "id": "https://ror.org/0238rvs44"
+    },
+    {
+      "label": "University of Nebraska Conservation and Survey Division",
+      "type": "child",
+      "id": "https://ror.org/04xkhhw36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

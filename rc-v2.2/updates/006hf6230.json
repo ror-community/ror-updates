@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "utwente.nl"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "501100001834",
+        "501100007661",
+        "501100009404"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6214.1"
+      ],
+      "preferred": "grid.6214.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0399 8953"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1547084"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006hf6230",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.utwente.nl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Twente"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "OV",
+        "country_subdivision_name": "Overijssel",
+        "lat": 52.21833,
+        "lng": 6.89583,
+        "name": "Enschede"
+      },
+      "geonames_id": 2756071
+    }
+  ],
+  "names": [
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit Twente"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Twente"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck University of Twente Center for Complex Fluid Dynamics",
+      "type": "child",
+      "id": "https://ror.org/02n9d1732"
+    },
+    {
+      "label": "4TU",
+      "type": "related",
+      "id": "https://ror.org/03rsncr94"
+    },
+    {
+      "label": "Thermoplastic Composites Research Center",
+      "type": "related",
+      "id": "https://ror.org/04zr1vg95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

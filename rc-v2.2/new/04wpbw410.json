@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-01-28",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rj.gov.br"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0481 8205"
+      ],
+      "preferred": "0000 0004 0481 8205",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wpbw410",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rj.gov.br/saude/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://pt.wikipedia.org/wiki/Secretaria_de_Estado_de_Sa%C3%BAde_(Rio_de_Janeiro)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "RJ",
+        "country_subdivision_name": "Rio de Janeiro",
+        "lat": -22.90642,
+        "lng": -43.18223,
+        "name": "Rio de Janeiro"
+      },
+      "geonames_id": 3451190
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rio de Janeiro State Department of Health"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "acronym"
+      ],
+      "value": "SES-RJ"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Secretaria de Estado de Saúde do Rio de Janeiro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Estadual de Diabetes e Endocrinologia Luiz Capriglione",
+      "type": "child",
+      "id": "https://ror.org/0539xgm86"
+    },
+    {
+      "label": "Hemorio",
+      "type": "child",
+      "id": "https://ror.org/003mvv560"
+    },
+    {
+      "label": "Instituto Estadual do Cérebro Paulo Niemeyer",
+      "type": "child",
+      "id": "https://ror.org/01k79ja28"
+    },
+    {
+      "label": "Governo do Estado do Rio de Janeiro",
+      "type": "parent",
+      "id": "https://ror.org/04pnpc024"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

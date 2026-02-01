@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017690"
+      ],
+      "preferred": "100017690",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.426698.7"
+      ],
+      "preferred": "grid.426698.7",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03pptns37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www1.maine.gov/dacf/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "ME",
+        "country_subdivision_name": "Maine",
+        "lat": 44.31062,
+        "lng": -69.77949,
+        "name": "Augusta"
+      },
+      "geonames_id": 4957003
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DACF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Maine DACF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maine Department of Agriculture Conservation and Forestry"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Maine Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/01zkndt15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

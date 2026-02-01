@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "concern.net"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "grid.428246.e"
+      ],
+      "preferred": "grid.428246.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0070 5121"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5158451"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004qxjv96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.concern.net/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Concern_Worldwide"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "L",
+        "country_subdivision_name": "Leinster",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "name": "Dublin"
+      },
+      "geonames_id": 2964574
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Concern"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Concern Worldwide"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Concern Worldwide UK",
+      "type": "child",
+      "id": "https://ror.org/01yxxqf96"
+    },
+    {
+      "label": "Concern Worldwide US",
+      "type": "child",
+      "id": "https://ror.org/05pe87g24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

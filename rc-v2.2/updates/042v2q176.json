@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "floridadep.gov"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434146.0"
+      ],
+      "preferred": "grid.434146.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0509 5272"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q730654"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/042v2q176",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://floridadep.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Florida_Department_of_Environmental_Protection"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 30.43826,
+        "lng": -84.28073,
+        "name": "Tallahassee"
+      },
+      "geonames_id": 4174715
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FDEP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Florida Department of Environmental Protection"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Florida Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/02hr2bm48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

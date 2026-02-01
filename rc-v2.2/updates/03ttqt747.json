@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mtech.edu"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "100011496"
+      ],
+      "preferred": "100011496",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.282852.7"
+      ],
+      "preferred": "grid.282852.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2199 4372"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6904341"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ttqt747",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mtech.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Montana_Tech_of_the_University_of_Montana"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MT",
+        "country_subdivision_name": "Montana",
+        "lat": 46.00382,
+        "lng": -112.53474,
+        "name": "Butte"
+      },
+      "geonames_id": 5642934
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Montana State School of Mines"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Montana Tech"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Montana Tech of the University of Montana"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Montana Technological University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Montana University System",
+      "type": "parent",
+      "id": "https://ror.org/052msxy68"
+    },
+    {
+      "label": "Montana Bureau of Mines and Geology",
+      "type": "child",
+      "id": "https://ror.org/03db6jy14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

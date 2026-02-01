@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-01-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "earthscope.org"
+  ],
+  "established": 2023,
+  "external_ids": [],
+  "id": "https://ror.org/04danrt76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.earthscope.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EarthScope"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "EarthScope Consortium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geodetic Facility for the Advancement of Geoscience",
+      "type": "child",
+      "id": "https://ror.org/03c1c5b19"
+    },
+    {
+      "label": "Seismological Facility for the Advancement of Geoscience",
+      "type": "child",
+      "id": "https://ror.org/057py8t43"
+    },
+    {
+      "label": "NSF National Geophysical Facility",
+      "type": "child",
+      "id": "https://ror.org/049an7s37"
+    },
+    {
+      "label": "OpenTopography",
+      "type": "child",
+      "id": "https://ror.org/01m10e879"
+    },
+    {
+      "label": "Incorporated Research Institutions For Seismology",
+      "type": "predecessor",
+      "id": "https://ror.org/05xkn9s74"
+    },
+    {
+      "label": "UNAVCO",
+      "type": "predecessor",
+      "id": "https://ror.org/02n9tn974"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

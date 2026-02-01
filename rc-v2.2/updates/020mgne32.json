@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ncc.se"
+  ],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425609.c"
+      ],
+      "preferred": "grid.425609.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q558699"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020mgne32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ncc.se"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/NCC_(company)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.36004,
+        "lng": 18.00086,
+        "name": "Solna"
+      },
+      "geonames_id": 2675397
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NCC (Sweden)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NCC (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/02ft67b52"
+    },
+    {
+      "label": "NCC (Norway)",
+      "type": "child",
+      "id": "https://ror.org/03ejke973"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

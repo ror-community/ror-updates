@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-01-29",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "havochvatten.se"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100009486"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.450777.6"
+      ],
+      "preferred": "grid.450777.6",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00ht4dp10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.havochvatten.se/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "O",
+        "country_subdivision_name": "Västra Götaland",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "name": "Gothenburg"
+      },
+      "geonames_id": 2711537
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HaV"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Havs- och Vattenmyndigheten"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SwAM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish Agency for Marine and Water Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Swedish National Board of Fisheries",
+      "type": "child",
+      "id": "https://ror.org/000ncdv93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
