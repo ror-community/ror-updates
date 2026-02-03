@@ -39,9 +39,6 @@ jobs:
         with:
           repository: ror-community/curation_ops
           path: curation_ops
-          sparse-checkout: |
-            tests/validate_input_csvs/
-          sparse-checkout-cone-mode: true
 
       - name: Set up Python
         uses: actions/setup-python@v6
