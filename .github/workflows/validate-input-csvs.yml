@@ -48,6 +48,7 @@ jobs:
         with:
           python-version: '3.13'
           cache: pip
+          cache-dependency-path: curation_ops/tests/validate_input_csvs/pyproject.toml
 
       - name: Install validation tool
         run: pip install -e curation_ops/tests/validate_input_csvs
