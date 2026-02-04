@@ -121,6 +121,5 @@ jobs:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           gh workflow run validate-input-csvs.yml \
-            --ref ${{ inputs.target_branch }} \
             -f target_branch=${{ inputs.target_branch }} \
             && echo "::notice::Validation workflow triggered for branch ${{ inputs.target_branch }}"
