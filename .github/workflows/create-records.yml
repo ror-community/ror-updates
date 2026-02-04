@@ -24,7 +24,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install create-ror-records
-        run: pip install git+https://${{ secrets.BOT_TOKEN }}@github.com/ror-community/create-ror-records.git
+        run: pip install --no-cache-dir --upgrade git+https://${{ secrets.BOT_TOKEN }}@github.com/ror-community/create-ror-records.git
 
       - name: Detect input CSVs
         id: detect
