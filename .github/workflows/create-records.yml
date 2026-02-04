@@ -1,0 +1,27 @@
+name: Create Records
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch containing CSVs to process'
+        required: true
+        type: string
+
+jobs:
+  create-records:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch }}
+          token: ${{ secrets.BOT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install create-ror-records
+        run: pip install git+https://github.com/ror-community/create-ror-records.git
