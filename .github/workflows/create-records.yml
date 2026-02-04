@@ -204,3 +204,42 @@ jobs:
               print("::error::No records were created or updated")
               sys.exit(1)
           PYTHON_SCRIPT
+
+      - name: Commit and push records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ inputs.target_branch }}/new/" || true
+          git add "${{ inputs.target_branch }}/updates/" || true
+          git add "${{ inputs.target_branch }}/validation/create/" || true
+
+          if git diff --staged --quiet; then
+            echo "::notice::No changes to commit"
+            exit 0
+          fi
+
+          NEW_COUNT=${{ steps.process.outputs.new_count }}
+          UPDATE_COUNT=${{ steps.process.outputs.update_count }}
+          RELATED_COUNT=${{ steps.process.outputs.related_count }}
+
+          # Build commit message
+          PARTS=""
+          if [ "$NEW_COUNT" -gt 0 ]; then
+            PARTS="$NEW_COUNT new"
+          fi
+          if [ "$UPDATE_COUNT" -gt 0 ]; then
+            if [ -n "$PARTS" ]; then
+              PARTS="$PARTS, $UPDATE_COUNT updates"
+            else
+              PARTS="$UPDATE_COUNT updates"
+            fi
+          fi
+          if [ "$RELATED_COUNT" -gt 0 ]; then
+            PARTS="$PARTS (+$RELATED_COUNT related)"
+          fi
+
+          MSG="Add records ($PARTS) from workflow run #${{ github.run_number }}"
+
+          git commit -m "$MSG"
+          git push
