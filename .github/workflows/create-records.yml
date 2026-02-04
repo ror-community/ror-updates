@@ -243,3 +243,15 @@ jobs:
 
           git commit -m "$MSG"
           git push
+
+      - name: Trigger JSON validation
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          gh workflow run validate.yml \
+            --ref ${{ inputs.target_branch }} \
+            -f schema-version=v2 \
+            -f with-relationship=true \
+            -f directory-name=${{ inputs.target_branch }}
+
+          echo "::notice::Triggered validate.yml for branch ${{ inputs.target_branch }}"
