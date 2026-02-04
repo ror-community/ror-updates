@@ -59,6 +59,14 @@ jobs:
           mkdir -p "${{ inputs.target_branch }}/updates"
           mkdir -p "${{ inputs.target_branch }}/validation/create"
 
+      - name: Clean previous output files
+        run: |
+          # Remove previously generated files to prevent duplicates on re-run
+          rm -f "${{ inputs.target_branch }}/new/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/updates/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/validation/create/"*.csv 2>/dev/null || true
+          echo "Cleaned previous output files"
+
       - name: Process CSVs and create records
         id: process
         env:
@@ -251,7 +259,7 @@ jobs:
           gh workflow run validate.yml \
             --ref ${{ inputs.target_branch }} \
             -f schema-version=v2 \
-            -f with-relationship=true \
+            -f with-relationship=false \
             -f directory-name=${{ inputs.target_branch }}
 
           echo "::notice::Triggered validate.yml for branch ${{ inputs.target_branch }}"
