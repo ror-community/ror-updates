@@ -7,6 +7,11 @@ on:
         description: 'Branch containing CSVs to process'
         required: true
         type: string
+      run_validation:
+        description: 'Trigger validation workflow after creating records'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   create-records:
@@ -253,6 +258,7 @@ jobs:
           git push
 
       - name: Trigger JSON validation
+        if: ${{ inputs.run_validation }}
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
