@@ -7,6 +7,11 @@ on:
         description: 'Branch containing CSVs to process'
         required: true
         type: string
+      run_validation:
+        description: 'Trigger validation workflow after creating records'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   create-records:
@@ -58,6 +63,14 @@ jobs:
           mkdir -p "${{ inputs.target_branch }}/new"
           mkdir -p "${{ inputs.target_branch }}/updates"
           mkdir -p "${{ inputs.target_branch }}/validation/create"
+
+      - name: Clean previous output files
+        run: |
+          # Remove previously generated files to prevent duplicates on re-run
+          rm -f "${{ inputs.target_branch }}/new/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/updates/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/validation/create/"*.csv 2>/dev/null || true
+          echo "Cleaned previous output files"
 
       - name: Process CSVs and create records
         id: process
@@ -245,6 +258,7 @@ jobs:
           git push
 
       - name: Trigger JSON validation
+        if: ${{ inputs.run_validation }}
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
