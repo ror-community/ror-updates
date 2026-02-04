@@ -52,3 +52,9 @@ jobs:
 
           echo "has_new=$HAS_NEW" >> $GITHUB_OUTPUT
           echo "has_update=$HAS_UPDATE" >> $GITHUB_OUTPUT
+
+      - name: Create output directories
+        run: |
+          mkdir -p "${{ inputs.target_branch }}/new"
+          mkdir -p "${{ inputs.target_branch }}/updates"
+          mkdir -p "${{ inputs.target_branch }}/validation/create"
