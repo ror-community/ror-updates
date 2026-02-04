@@ -25,3 +25,30 @@ jobs:
 
       - name: Install create-ror-records
         run: pip install git+https://github.com/ror-community/create-ror-records.git
+
+      - name: Detect input CSVs
+        id: detect
+        run: |
+          NEW_CSV="${{ inputs.target_branch }}/input_files/new_records_metadata.csv"
+          UPDATE_CSV="${{ inputs.target_branch }}/input_files/update_records_metadata.csv"
+
+          HAS_NEW="false"
+          HAS_UPDATE="false"
+
+          if [ -f "$NEW_CSV" ]; then
+            HAS_NEW="true"
+            echo "Found: $NEW_CSV"
+          fi
+
+          if [ -f "$UPDATE_CSV" ]; then
+            HAS_UPDATE="true"
+            echo "Found: $UPDATE_CSV"
+          fi
+
+          if [ "$HAS_NEW" = "false" ] && [ "$HAS_UPDATE" = "false" ]; then
+            echo "::error::No input CSVs found in ${{ inputs.target_branch }}/input_files/"
+            exit 1
+          fi
+
+          echo "has_new=$HAS_NEW" >> $GITHUB_OUTPUT
+          echo "has_update=$HAS_UPDATE" >> $GITHUB_OUTPUT
