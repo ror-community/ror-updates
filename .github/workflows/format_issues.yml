@@ -1,6 +1,9 @@
 name: Format Issues
 
 on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at 00:00 UTC
+
   workflow_dispatch:
     inputs:
       issue_number:
@@ -70,9 +73,23 @@ jobs:
             exit 1
           fi
 
-      - name: Validate Inputs
+      - name: Get issues to process (scheduled runs)
+        if: github.event_name == 'schedule'
+        id: get-issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
-          # Input validation logic (as before)
+          pip install aiohttp
+          ISSUES=$(python get_issues_for_processing/get_issues_for_processing.py \
+            --repo "${{ github.repository }}" \
+            --required-label "triage-needed" \
+            --exclude-label "auto-formatted")
+          echo "issues=$ISSUES" >> $GITHUB_OUTPUT
+          echo "Found issues: $ISSUES"
+
+      - name: Validate Inputs
+        if: github.event_name == 'workflow_dispatch'
+        run: |
           if [[ -n "${{ github.event.inputs.issue_number }}" && ( -n "${{ github.event.inputs.start_issue }}" || -n "${{ github.event.inputs.end_issue }}" ) ]]; then
             echo "Error: Cannot specify both single issue and issue range."
             exit 1
@@ -91,31 +108,48 @@ jobs:
           fi
           echo "Input validation passed."
 
-      - name: Run Issue Formatting Script
+      - name: Process issues
         env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           REPO_PATH: ${{ github.repository }}
-          ISSUE_NUMBER: ${{ github.event.inputs.issue_number }}
-          START_ISSUE: ${{ github.event.inputs.start_issue }}
-          END_ISSUE: ${{ github.event.inputs.end_issue }}
-          DRY_RUN: ${{ github.event.inputs.dry_run }}
-          MODEL: ${{ github.event.inputs.model }}
-          PYTHON_PATH_DEBUG: $(python -c "import sys; print(':'.join(sys.path))")
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          MODEL: ${{ github.event.inputs.model || 'gemini' }}
         run: |
-          echo "--- Debugging Environment Variables ---"
-          echo "Target REPO_PATH for issue processing: $REPO_PATH"
-          echo "ISSUE_NUMBER: $ISSUE_NUMBER"
-          echo "START_ISSUE: $START_ISSUE"
-          echo "END_ISSUE: $END_ISSUE"
-          echo "DRY_RUN: $DRY_RUN"
-          echo "MODEL: $MODEL"
-          echo "Python from setup: ${{ steps.setup_python.outputs.python-path }}"
-          echo "Python version: $(python --version)"
-          echo "--- sys.path from Python interpreter: ---"
-          python -c "import sys; import pprint; pprint.pprint(sys.path)"
-          echo "--- Listing installed packages (pip list) ---"
-          python -m pip list
-          echo "--- Attempting to run Python script: format_issues/format_issues.py ---"
-          python format_issues/format_issues.py
+          # Determine which issues to process
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ISSUES="${{ steps.get-issues.outputs.issues }}"
+            if [ -z "$ISSUES" ]; then
+              echo "No issues to process from scheduled query"
+              exit 0
+            fi
+          elif [ -n "${{ github.event.inputs.issue_number }}" ]; then
+            ISSUES="${{ github.event.inputs.issue_number }}"
+          else
+            ISSUES=$(seq ${{ github.event.inputs.start_issue }} ${{ github.event.inputs.end_issue }})
+          fi
+
+          echo "Processing issues: $ISSUES"
+
+          for ISSUE in $ISSUES; do
+            echo ""
+            echo "========================================"
+            echo "Processing issue #$ISSUE"
+            echo "========================================"
+
+            # Run formatting script for single issue
+            ISSUE_NUMBER=$ISSUE python format_issues/format_issues.py
+
+            # Add label on success
+            if [ $? -eq 0 ]; then
+              gh issue edit $ISSUE --add-label "auto-formatted" --repo ${{ github.repository }}
+              echo "Added auto-formatted label to issue #$ISSUE"
+            else
+              echo "::warning::Failed to process issue #$ISSUE"
+            fi
+          done
+
+          echo ""
+          echo "Processing complete"
