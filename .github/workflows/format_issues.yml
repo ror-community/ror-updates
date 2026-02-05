@@ -2,7 +2,7 @@ name: Format Issues
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at 00:00 UTC
+    - cron: '45 2 * * *'  # Temporary: testing at 02:45 UTC
 
   workflow_dispatch:
     inputs:
@@ -82,7 +82,7 @@ jobs:
           pip install aiohttp
           ISSUES=$(python get_issues_for_processing/get_issues_for_processing.py \
             --repo "${{ github.repository }}" \
-            --required-label "triage-needed" \
+            --required-label "triage needed" \
             --exclude-label "auto-formatted")
           echo "issues=$ISSUES" >> $GITHUB_OUTPUT
           echo "Found issues: $ISSUES"

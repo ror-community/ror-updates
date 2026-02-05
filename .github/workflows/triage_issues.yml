@@ -2,7 +2,7 @@ name: Triage Issues
 
 on:
   schedule:
-    - cron: '30 0 * * *'  # Daily at 00:30 UTC (30 min after format)
+    - cron: '47 2 * * *'  # Temporary: testing at 02:47 UTC
 
   workflow_dispatch:
     inputs:
@@ -56,7 +56,7 @@ jobs:
           pip install aiohttp
           ISSUES=$(python get_issues_for_processing/get_issues_for_processing.py \
             --repo "${{ github.repository }}" \
-            --required-label "triage-needed" \
+            --required-label "triage needed" \
             --exclude-label "auto-triaged")
           echo "issues=$ISSUES" >> $GITHUB_OUTPUT
           echo "Found issues: $ISSUES"
