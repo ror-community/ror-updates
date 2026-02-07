@@ -1,0 +1,271 @@
+name: Create Records
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch containing CSVs to process'
+        required: true
+        type: string
+      run_validation:
+        description: 'Trigger validation workflow after creating records'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  create-records:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch }}
+          token: ${{ secrets.BOT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install create-ror-records
+        run: pip install --no-cache-dir --upgrade git+https://${{ secrets.BOT_TOKEN }}@github.com/ror-community/create-ror-records.git
+
+      - name: Detect input CSVs
+        id: detect
+        run: |
+          NEW_CSV="${{ inputs.target_branch }}/input_files/new_records_metadata.csv"
+          UPDATE_CSV="${{ inputs.target_branch }}/input_files/update_records_metadata.csv"
+
+          HAS_NEW="false"
+          HAS_UPDATE="false"
+
+          if [ -f "$NEW_CSV" ]; then
+            HAS_NEW="true"
+            echo "Found: $NEW_CSV"
+          fi
+
+          if [ -f "$UPDATE_CSV" ]; then
+            HAS_UPDATE="true"
+            echo "Found: $UPDATE_CSV"
+          fi
+
+          if [ "$HAS_NEW" = "false" ] && [ "$HAS_UPDATE" = "false" ]; then
+            echo "::error::No input CSVs found in ${{ inputs.target_branch }}/input_files/"
+            exit 1
+          fi
+
+          echo "has_new=$HAS_NEW" >> $GITHUB_OUTPUT
+          echo "has_update=$HAS_UPDATE" >> $GITHUB_OUTPUT
+
+      - name: Create output directories
+        run: |
+          mkdir -p "${{ inputs.target_branch }}/new"
+          mkdir -p "${{ inputs.target_branch }}/updates"
+          mkdir -p "${{ inputs.target_branch }}/validation/create"
+
+      - name: Clean previous output files
+        run: |
+          # Remove previously generated files to prevent duplicates on re-run
+          rm -f "${{ inputs.target_branch }}/new/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/updates/"*.json 2>/dev/null || true
+          rm -f "${{ inputs.target_branch }}/validation/create/"*.csv 2>/dev/null || true
+          echo "Cleaned previous output files"
+
+      - name: Process CSVs and create records
+        id: process
+        env:
+          TARGET_BRANCH: ${{ inputs.target_branch }}
+          HAS_NEW: ${{ steps.detect.outputs.has_new }}
+          HAS_UPDATE: ${{ steps.detect.outputs.has_update }}
+        run: |
+          python << 'PYTHON_SCRIPT'
+          import csv
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          from create_ror_records import RecordProcessor, ParsingError, ValidationError
+
+          target_branch = os.environ["TARGET_BRANCH"]
+          has_new = os.environ["HAS_NEW"] == "true"
+          has_update = os.environ["HAS_UPDATE"] == "true"
+
+          input_dir = Path(target_branch) / "input_files"
+          new_dir = Path(target_branch) / "new"
+          updates_dir = Path(target_branch) / "updates"
+          validation_dir = Path(target_branch) / "validation" / "create"
+
+          processor = RecordProcessor()
+
+          new_count = 0
+          update_count = 0
+          related_count = 0
+          skipped_rows = []
+          new_records_with_ids = []
+
+          # Process new records
+          if has_new:
+              new_csv = input_dir / "new_records_metadata.csv"
+              with open(new_csv, "r", encoding="utf-8") as f:
+                  reader = csv.DictReader(f)
+                  fieldnames = reader.fieldnames
+
+                  for row_num, row in enumerate(reader, start=2):
+                      try:
+                          record = processor.create_record(row)
+
+                          # Write JSON file
+                          json_path = new_dir / f"{record.short_id}.json"
+                          with open(json_path, "w", encoding="utf-8") as jf:
+                              json.dump(record.data, jf, indent=2, ensure_ascii=False)
+
+                          # Track for new_records_with_ids.csv
+                          row_with_id = dict(row)
+                          row_with_id["id"] = record.ror_id
+                          new_records_with_ids.append(row_with_id)
+
+                          new_count += 1
+                          print(f"Created: {record.ror_id}")
+
+                      except (ParsingError, ValidationError) as e:
+                          skipped_rows.append({
+                              "source_file": "new_records_metadata.csv",
+                              "row_number": row_num,
+                              "error": str(e),
+                              **row
+                          })
+                          print(f"::warning::Row {row_num} skipped: {e}")
+
+          # Process update records
+          if has_update:
+              update_csv = input_dir / "update_records_metadata.csv"
+              with open(update_csv, "r", encoding="utf-8") as f:
+                  reader = csv.DictReader(f)
+
+                  for row_num, row in enumerate(reader, start=2):
+                      try:
+                          record, related_updates = processor.update_record(row)
+
+                          # Write main update JSON
+                          json_path = updates_dir / f"{record.short_id}.json"
+                          with open(json_path, "w", encoding="utf-8") as jf:
+                              json.dump(record.data, jf, indent=2, ensure_ascii=False)
+
+                          update_count += 1
+                          print(f"Updated: {record.ror_id}")
+
+                          # Write related updates
+                          for related in related_updates:
+                              related_path = updates_dir / f"{related.short_id}.json"
+                              with open(related_path, "w", encoding="utf-8") as jf:
+                                  json.dump(related.data, jf, indent=2, ensure_ascii=False)
+                              related_count += 1
+                              print(f"Related update: {related.ror_id}")
+
+                      except (ParsingError, ValidationError) as e:
+                          skipped_rows.append({
+                              "source_file": "update_records_metadata.csv",
+                              "row_number": row_num,
+                              "error": str(e),
+                              **row
+                          })
+                          print(f"::warning::Row {row_num} skipped: {e}")
+
+          # Write skipped_rows.csv if any
+          if skipped_rows:
+              skipped_path = validation_dir / "skipped_rows.csv"
+              all_keys = set()
+              for row in skipped_rows:
+                  all_keys.update(row.keys())
+              # Put source_file, row_number, error first
+              ordered_keys = ["source_file", "row_number", "error"] + sorted(all_keys - {"source_file", "row_number", "error"})
+
+              with open(skipped_path, "w", newline="", encoding="utf-8") as f:
+                  writer = csv.DictWriter(f, fieldnames=ordered_keys)
+                  writer.writeheader()
+                  writer.writerows(skipped_rows)
+              print(f"Wrote {len(skipped_rows)} skipped rows to {skipped_path}")
+
+          # Write new_records_with_ids.csv if any new records
+          if new_records_with_ids:
+              ids_path = validation_dir / "new_records_with_ids.csv"
+              # Use original fieldnames plus id at the beginning
+              id_fieldnames = ["id"] + [f for f in fieldnames if f != "id"]
+
+              with open(ids_path, "w", newline="", encoding="utf-8") as f:
+                  writer = csv.DictWriter(f, fieldnames=id_fieldnames)
+                  writer.writeheader()
+                  writer.writerows(new_records_with_ids)
+              print(f"Wrote {len(new_records_with_ids)} records with IDs to {ids_path}")
+
+          # Output counts for GitHub Actions
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"new_count={new_count}\n")
+              f.write(f"update_count={update_count}\n")
+              f.write(f"related_count={related_count}\n")
+              f.write(f"skipped_count={len(skipped_rows)}\n")
+
+          print(f"\n=== Summary ===")
+          print(f"New records created: {new_count}")
+          print(f"Records updated: {update_count}")
+          print(f"Related updates: {related_count}")
+          print(f"Rows skipped: {len(skipped_rows)}")
+
+          if new_count == 0 and update_count == 0:
+              print("::error::No records were created or updated")
+              sys.exit(1)
+          PYTHON_SCRIPT
+
+      - name: Commit and push records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ inputs.target_branch }}/new/" || true
+          git add "${{ inputs.target_branch }}/updates/" || true
+          git add "${{ inputs.target_branch }}/validation/create/" || true
+
+          if git diff --staged --quiet; then
+            echo "::notice::No changes to commit"
+            exit 0
+          fi
+
+          NEW_COUNT=${{ steps.process.outputs.new_count }}
+          UPDATE_COUNT=${{ steps.process.outputs.update_count }}
+          RELATED_COUNT=${{ steps.process.outputs.related_count }}
+
+          # Build commit message
+          PARTS=""
+          if [ "$NEW_COUNT" -gt 0 ]; then
+            PARTS="$NEW_COUNT new"
+          fi
+          if [ "$UPDATE_COUNT" -gt 0 ]; then
+            if [ -n "$PARTS" ]; then
+              PARTS="$PARTS, $UPDATE_COUNT updates"
+            else
+              PARTS="$UPDATE_COUNT updates"
+            fi
+          fi
+          if [ "$RELATED_COUNT" -gt 0 ]; then
+            PARTS="$PARTS (+$RELATED_COUNT related)"
+          fi
+
+          MSG="Add records ($PARTS) from workflow run #${{ github.run_number }}"
+
+          git commit -m "$MSG"
+          git push
+
+      - name: Trigger JSON validation
+        if: ${{ inputs.run_validation }}
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          gh workflow run validate.yml \
+            --ref ${{ inputs.target_branch }} \
+            -f schema-version=v2 \
+            -f with-relationship=false \
+            -f directory-name=${{ inputs.target_branch }}
+
+          echo "::notice::Triggered validate.yml for branch ${{ inputs.target_branch }}"

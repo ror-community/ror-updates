@@ -1,6 +1,9 @@
 name: Triage Issues
 
 on:
+  schedule:
+    - cron: '47 2 * * *'  # Temporary: testing at 02:47 UTC
+
   workflow_dispatch:
     inputs:
       issue_number:
@@ -44,7 +47,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r triage_issues/requirements.txt
 
+      - name: Get issues to process (scheduled runs)
+        if: github.event_name == 'schedule'
+        id: get-issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          pip install aiohttp
+          ISSUES=$(python get_issues_for_processing/get_issues_for_processing.py \
+            --repo "${{ github.repository }}" \
+            --required-label "triage needed" \
+            --exclude-label "auto-triaged")
+          echo "issues=$ISSUES" >> $GITHUB_OUTPUT
+          echo "Found issues: $ISSUES"
+
       - name: Validate inputs
+        if: github.event_name == 'workflow_dispatch'
         run: |
           if [[ -n "${{ github.event.inputs.issue_number }}" && ( -n "${{ github.event.inputs.start_issue }}" || -n "${{ github.event.inputs.end_issue }}" ) ]]; then
             echo "Error: Cannot specify both single issue and issue range"
@@ -55,21 +73,46 @@ jobs:
             exit 1
           fi
 
-      - name: Run Triage Script
+      - name: Process issues
         env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ISSUE_NUMBER: ${{ github.event.inputs.issue_number }}
-          START_ISSUE: ${{ github.event.inputs.start_issue }}
-          END_ISSUE: ${{ github.event.inputs.end_issue }}
-          SKIP_COMMENTED: ${{ github.event.inputs.skip_commented }}
+          SKIP_COMMENTED: ${{ github.event.inputs.skip_commented || 'true' }}
         run: |
-          echo "--- Debugging Environment Variables ---"
-          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
-          echo "ISSUE_NUMBER: $ISSUE_NUMBER"
-          echo "START_ISSUE: $START_ISSUE"
-          echo "END_ISSUE: $END_ISSUE"
-          echo "SKIP_COMMENTED: $SKIP_COMMENTED"
-          echo "Running Python script: triage_issues/triage_issues_action.py"
-          python triage_issues/triage_issues_action.py
+          # Determine which issues to process
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ISSUES="${{ steps.get-issues.outputs.issues }}"
+            if [ -z "$ISSUES" ]; then
+              echo "No issues to process from scheduled query"
+              exit 0
+            fi
+          elif [ -n "${{ github.event.inputs.issue_number }}" ]; then
+            ISSUES="${{ github.event.inputs.issue_number }}"
+          else
+            ISSUES=$(seq ${{ github.event.inputs.start_issue }} ${{ github.event.inputs.end_issue }})
+          fi
+
+          echo "Processing issues: $ISSUES"
+
+          for ISSUE in $ISSUES; do
+            echo ""
+            echo "========================================"
+            echo "Processing issue #$ISSUE"
+            echo "========================================"
+
+            # Run triage script for single issue
+            ISSUE_NUMBER=$ISSUE python triage_issues/triage_issues_action.py
+
+            # Add label on success
+            if [ $? -eq 0 ]; then
+              gh issue edit $ISSUE --add-label "auto-triaged" --repo ${{ github.repository }}
+              echo "Added auto-triaged label to issue #$ISSUE"
+            else
+              echo "::warning::Failed to process issue #$ISSUE"
+            fi
+          done
+
+          echo ""
+          echo "Processing complete"

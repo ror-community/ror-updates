@@ -16,6 +16,11 @@ on:
           - all
           - new
           - update
+      run_validation:
+        description: 'Run validation after generating CSVs'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   generate-metadata:
@@ -33,8 +38,8 @@ jobs:
           repository: ror-community/curation_ops
           path: curation_ops
           sparse-checkout: |
-            get_record_metadata.py
-            github_project_issues.py
+            get_record_metadata/get_record_metadata.py
+            get_record_metadata/github_project_issues.py
           sparse-checkout-cone-mode: false
 
       - name: Set up Python
@@ -51,16 +56,16 @@ jobs:
       - name: Generate metadata CSVs
         id: generate
         env:
-          GITHUB_TOKEN_PERSONAL: ${{ secrets.BOT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
-          cd curation_ops
+          cd curation_ops/get_record_metadata
 
           if [ "${{ inputs.issue_type }}" = "all" ]; then
-            python get_record_metadata.py -t new -f "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" || true
-            NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+            python get_record_metadata.py -t new -f "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" || true
+            NEW_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
 
-            python get_record_metadata.py -t update -f "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" || true
-            UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
+            python get_record_metadata.py -t update -f "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" || true
+            UPDATE_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" 2>/dev/null | wc -l | tr -d ' ')
 
             if [ "${NEW_COUNT:-0}" -eq 0 ] && [ "${UPDATE_COUNT:-0}" -eq 0 ]; then
               echo "::error::No issues found for either new or update records"
@@ -71,13 +76,13 @@ jobs:
             [ "${UPDATE_COUNT:-0}" -eq 0 ] && echo "::warning::No update record issues found"
 
           else
-            python get_record_metadata.py -t ${{ inputs.issue_type }} -f "../${{ inputs.target_branch }}/input_files/${{ inputs.issue_type }}_records_metadata.csv"
+            python get_record_metadata.py -t ${{ inputs.issue_type }} -f "../../${{ inputs.target_branch }}/input_files/${{ inputs.issue_type }}_records_metadata.csv"
             NEW_COUNT=0
             UPDATE_COUNT=0
             if [ "${{ inputs.issue_type }}" = "new" ]; then
-              NEW_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" | wc -l | tr -d ' ')
+              NEW_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/new_records_metadata.csv" | wc -l | tr -d ' ')
             else
-              UPDATE_COUNT=$(tail -n +2 "../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" | wc -l | tr -d ' ')
+              UPDATE_COUNT=$(tail -n +2 "../../${{ inputs.target_branch }}/input_files/update_records_metadata.csv" | wc -l | tr -d ' ')
             fi
           fi
 
@@ -90,6 +95,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add "${{ inputs.target_branch }}/input_files/"
+
+          if git diff --staged --quiet; then
+            echo "::notice::No changes to commit - files are identical to existing"
+            exit 0
+          fi
 
           NEW_COUNT=${{ steps.generate.outputs.new_count }}
           UPDATE_COUNT=${{ steps.generate.outputs.update_count }}
@@ -104,3 +114,12 @@ jobs:
 
           git commit -m "$MSG"
           git push
+
+      - name: Trigger validation workflow
+        if: ${{ inputs.run_validation }}
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          gh workflow run validate-input-csvs.yml \
+            -f target_branch=${{ inputs.target_branch }} \
+            && echo "::notice::Validation workflow triggered for branch ${{ inputs.target_branch }}"

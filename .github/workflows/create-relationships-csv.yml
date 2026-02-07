@@ -1,0 +1,100 @@
+name: Create Relationships CSV
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch to add files to'
+        required: true
+        type: string
+      column_name:
+        description: 'Project board column name'
+        required: false
+        default: 'Ready for production release'
+        type: string
+
+jobs:
+  create-relationships:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch }}
+          token: ${{ secrets.BOT_TOKEN }}
+
+      - name: Checkout curation_ops scripts
+        uses: actions/checkout@v6
+        with:
+          repository: ror-community/curation_ops
+          path: curation_ops
+          sparse-checkout: |
+            create_relationships_from_github/create_relationships.py
+            create_relationships_from_github/github_project_issues.py
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install aiohttp requests
+
+      - name: Validate input file
+        run: |
+          INPUT_FILE="${{ inputs.target_branch }}/validation/create/new_records_with_ids.csv"
+          if [ ! -f "$INPUT_FILE" ]; then
+            echo "::error::Input file not found: $INPUT_FILE"
+            echo "::error::Ensure the validation workflow has run and produced new_records_with_ids.csv"
+            exit 1
+          fi
+          ROW_COUNT=$(tail -n +2 "$INPUT_FILE" | wc -l | tr -d ' ')
+          echo "::notice::Input file found with $ROW_COUNT data rows"
+
+      - name: Create relationships CSV
+        id: create
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          cd curation_ops/create_relationships_from_github
+
+          INPUT_FILE="../../${{ inputs.target_branch }}/validation/create/new_records_with_ids.csv"
+          OUTPUT_FILE="../../${{ inputs.target_branch }}/relationships.csv"
+
+          python create_relationships.py \
+            -i "$INPUT_FILE" \
+            -o "$OUTPUT_FILE" \
+            -c "${{ inputs.column_name }}"
+
+          if [ ! -f "$OUTPUT_FILE" ]; then
+            echo "::error::Output file was not created"
+            exit 1
+          fi
+
+          ROW_COUNT=$(tail -n +2 "$OUTPUT_FILE" | wc -l | tr -d ' ')
+          echo "row_count=${ROW_COUNT}" >> $GITHUB_OUTPUT
+
+          if [ "$ROW_COUNT" -eq 0 ]; then
+            echo "::warning::No relationships found - CSV contains only headers"
+          else
+            echo "::notice::Generated $ROW_COUNT relationship rows"
+          fi
+
+      - name: Commit and push relationships CSV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ inputs.target_branch }}/relationships.csv"
+
+          if git diff --staged --quiet; then
+            echo "::notice::No changes to commit - relationships.csv is identical to existing"
+            exit 0
+          fi
+
+          ROW_COUNT=${{ steps.create.outputs.row_count }}
+          MSG="Add relationships CSV ($ROW_COUNT relationships) from workflow run #${{ github.run_number }}"
+
+          git commit -m "$MSG"
+          git push
