@@ -1,12 +1,6 @@
 name: Validate Input CSVs
 
 on:
-  workflow_run:
-    workflows:
-      - "Generate Record Metadata CSVs"
-      - "Create Records"
-    types: [completed]
-
   workflow_dispatch:
     inputs:
       target_branch:
@@ -26,28 +20,13 @@ on:
 jobs:
   validate-csvs:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event_name == 'workflow_dispatch' &&
-       (inputs.validation_mode == 'csv' || inputs.validation_mode == 'both'))
-      ||
-      (github.event_name == 'workflow_run' &&
-       github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.name == 'Generate Record Metadata CSVs')
+    if: inputs.validation_mode == 'csv' || inputs.validation_mode == 'both'
 
     steps:
-      - name: Determine target branch
-        id: branch
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "target=${{ inputs.target_branch }}" >> $GITHUB_OUTPUT
-          else
-            echo "target=${{ github.event.workflow_run.head_branch }}" >> $GITHUB_OUTPUT
-          fi
-
       - name: Checkout target branch
         uses: actions/checkout@v6
         with:
-          ref: ${{ steps.branch.outputs.target }}
+          ref: ${{ inputs.target_branch }}
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: Checkout validation tool from curation_ops
@@ -67,7 +46,7 @@ jobs:
       - name: Detect and validate CSVs
         id: validate
         env:
-          TARGET_BRANCH: ${{ steps.branch.outputs.target }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
           INPUT_DIR="${TARGET_BRANCH}/input_files"
           OUTPUT_DIR="${TARGET_BRANCH}/validation/csvs"
@@ -107,7 +86,7 @@ jobs:
       - name: Commit validation reports
         if: ${{ steps.validate.outputs.found == 'true' }}
         env:
-          TARGET_BRANCH: ${{ steps.branch.outputs.target }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -123,33 +102,18 @@ jobs:
           ISSUE_COUNT=$(find "${TARGET_BRANCH}/validation/csvs" -name "*.csv" -exec tail -n +2 {} \; 2>/dev/null | wc -l | tr -d ' ')
 
           git commit -m "Add CSV validation reports (${ISSUE_COUNT} issues found) from workflow run #${{ github.run_number }}"
-          git pull --rebase origin "${{ steps.branch.outputs.target }}"
+          git pull --rebase origin "${TARGET_BRANCH}"
           git push
 
   validate-json:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event_name == 'workflow_dispatch' &&
-       (inputs.validation_mode == 'json' || inputs.validation_mode == 'both'))
-      ||
-      (github.event_name == 'workflow_run' &&
-       github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.name == 'Create Records')
+    if: inputs.validation_mode == 'json' || inputs.validation_mode == 'both'
 
     steps:
-      - name: Determine target branch
-        id: branch
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "target=${{ inputs.target_branch }}" >> $GITHUB_OUTPUT
-          else
-            echo "target=${{ github.event.workflow_run.head_branch }}" >> $GITHUB_OUTPUT
-          fi
-
       - name: Checkout target branch
         uses: actions/checkout@v6
         with:
-          ref: ${{ steps.branch.outputs.target }}
+          ref: ${{ inputs.target_branch }}
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: Checkout validation tool from curation_ops
@@ -169,7 +133,7 @@ jobs:
       - name: Validate new records
         id: validate_new
         env:
-          TARGET_BRANCH: ${{ steps.branch.outputs.target }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
           NEW_CSV="${TARGET_BRANCH}/validation/create/new_records_with_ids.csv"
           NEW_JSON_DIR="${TARGET_BRANCH}/new"
@@ -204,7 +168,7 @@ jobs:
       - name: Validate update records
         id: validate_updates
         env:
-          TARGET_BRANCH: ${{ steps.branch.outputs.target }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
           UPDATE_CSV="${TARGET_BRANCH}/input_files/update_records_metadata.csv"
           UPDATE_JSON_DIR="${TARGET_BRANCH}/updates"
@@ -241,7 +205,7 @@ jobs:
           steps.validate_new.outputs.found_new == 'true' ||
           steps.validate_updates.outputs.found_updates == 'true'
         env:
-          TARGET_BRANCH: ${{ steps.branch.outputs.target }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -257,5 +221,5 @@ jobs:
           ISSUE_COUNT=$(find "${TARGET_BRANCH}/validation/json" -name "*.csv" -exec tail -n +2 {} \; 2>/dev/null | wc -l | tr -d ' ')
 
           git commit -m "Add JSON validation reports (${ISSUE_COUNT} issues found) from workflow run #${{ github.run_number }}"
-          git pull --rebase origin "${{ steps.branch.outputs.target }}"
+          git pull --rebase origin "${TARGET_BRANCH}"
           git push
