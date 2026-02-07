@@ -274,4 +274,4 @@ jobs:
             -f target_branch=${{ inputs.target_branch }} \
             -f validation_mode=json
 
-          echo "::notice::Triggered validate.yml and validate-input-csvs.yml for branch ${{ inputs.target_branch }}"
+          echo "::notice::Triggered validate.yml and curation-validation.yml for branch ${{ inputs.target_branch }}"

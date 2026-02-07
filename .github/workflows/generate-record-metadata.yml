@@ -120,6 +120,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
-          gh workflow run validate-input-csvs.yml \
+          gh workflow run curation-validation.yml \
             -f target_branch=${{ inputs.target_branch }} \
+            -f validation_mode=csv \
             && echo "::notice::Validation workflow triggered for branch ${{ inputs.target_branch }}"
