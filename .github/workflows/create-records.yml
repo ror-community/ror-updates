@@ -257,15 +257,21 @@ jobs:
           git commit -m "$MSG"
           git push
 
-      - name: Trigger JSON validation
+      - name: Trigger validation workflows
         if: ${{ inputs.run_validation }}
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
+          # Schema validation
           gh workflow run validate.yml \
             --ref ${{ inputs.target_branch }} \
             -f schema-version=v2 \
             -f with-relationship=false \
             -f directory-name=${{ inputs.target_branch }}
 
-          echo "::notice::Triggered validate.yml for branch ${{ inputs.target_branch }}"
+          # JSON content validation
+          gh workflow run curation-validation.yml \
+            -f target_branch=${{ inputs.target_branch }} \
+            -f validation_mode=json
+
+          echo "::notice::Triggered validate.yml and validate-input-csvs.yml for branch ${{ inputs.target_branch }}"
