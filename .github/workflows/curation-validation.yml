@@ -1,4 +1,4 @@
-name: Validate Input CSVs
+name: Run Curation Validation
 
 on:
   workflow_dispatch:
@@ -42,6 +42,13 @@ jobs:
 
       - name: Install validation tool
         run: pip install -e curation_ops/curation_validation
+
+      - name: Clean previous CSV validation reports
+        env:
+          TARGET_BRANCH: ${{ inputs.target_branch }}
+        run: |
+          rm -rf "${TARGET_BRANCH}/validation/csvs/" 2>/dev/null || true
+          echo "Cleaned previous CSV validation reports"
 
       - name: Detect and validate CSVs
         id: validate
@@ -129,6 +136,13 @@ jobs:
 
       - name: Install validation tool
         run: pip install -e curation_ops/curation_validation
+
+      - name: Clean previous JSON validation reports
+        env:
+          TARGET_BRANCH: ${{ inputs.target_branch }}
+        run: |
+          rm -rf "${TARGET_BRANCH}/validation/json/" 2>/dev/null || true
+          echo "Cleaned previous JSON validation reports"
 
       - name: Validate new records
         id: validate_new
