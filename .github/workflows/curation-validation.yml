@@ -149,7 +149,6 @@ jobs:
         env:
           TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
-          NEW_CSV="${TARGET_BRANCH}/validation/create/new_records_with_ids.csv"
           NEW_JSON_DIR="${TARGET_BRANCH}/new"
           OUTPUT_DIR="${TARGET_BRANCH}/validation/json/new_records"
 
@@ -157,21 +156,12 @@ jobs:
             echo "found_new=true" >> $GITHUB_OUTPUT
             mkdir -p "$OUTPUT_DIR"
 
-            echo "::group::Validating new records (JSON + cross-format)"
+            echo "::group::Validating new records (JSON)"
 
-            if [ -f "$NEW_CSV" ]; then
-              curation-validation \
-                -c "$NEW_CSV" \
-                -j "$NEW_JSON_DIR" \
-                -o "$OUTPUT_DIR" \
-                -u "${{ secrets.GEONAMES_USER }}" || true
-            else
-              echo "::warning::new_records_with_ids.csv not found, running JSON-only validation"
-              curation-validation \
-                -j "$NEW_JSON_DIR" \
-                -o "$OUTPUT_DIR" \
-                -u "${{ secrets.GEONAMES_USER }}" || true
-            fi
+            curation-validation \
+              -j "$NEW_JSON_DIR" \
+              -o "$OUTPUT_DIR" \
+              -u "${{ secrets.GEONAMES_USER }}" || true
 
             echo "::endgroup::"
           else
@@ -184,7 +174,6 @@ jobs:
         env:
           TARGET_BRANCH: ${{ inputs.target_branch }}
         run: |
-          UPDATE_CSV="${TARGET_BRANCH}/input_files/update_records_metadata.csv"
           UPDATE_JSON_DIR="${TARGET_BRANCH}/updates"
           OUTPUT_DIR="${TARGET_BRANCH}/validation/json/update_records"
 
@@ -192,21 +181,12 @@ jobs:
             echo "found_updates=true" >> $GITHUB_OUTPUT
             mkdir -p "$OUTPUT_DIR"
 
-            echo "::group::Validating update records (JSON + cross-format)"
+            echo "::group::Validating update records (JSON)"
 
-            if [ -f "$UPDATE_CSV" ]; then
-              curation-validation \
-                -c "$UPDATE_CSV" \
-                -j "$UPDATE_JSON_DIR" \
-                -o "$OUTPUT_DIR" \
-                -u "${{ secrets.GEONAMES_USER }}" || true
-            else
-              echo "::warning::update_records_metadata.csv not found, running JSON-only validation"
-              curation-validation \
-                -j "$UPDATE_JSON_DIR" \
-                -o "$OUTPUT_DIR" \
-                -u "${{ secrets.GEONAMES_USER }}" || true
-            fi
+            curation-validation \
+              -j "$UPDATE_JSON_DIR" \
+              -o "$OUTPUT_DIR" \
+              -u "${{ secrets.GEONAMES_USER }}" || true
 
             echo "::endgroup::"
           else
