@@ -1,0 +1,19 @@
+record1_display_name,record1_url,record2_display_name,record2_url,match_type,similarity_score
+,replace==https://www.nsf.gov/edu/dge,,replace==https://www.nsf.gov/eng/cmmi,url,100
+replace==École supérieure des agricultures*fr,replace==https://www.groupe-esa.com,replace==École supérieure des agricultures*fr,,name_exact,100
+replace==École supérieure des agricultures*fr,replace==https://www.groupe-esa.com,replace==École supérieure des agricultures*fr,,name_fuzzy,95
+replace==École supérieure des agricultures*fr,replace==https://www.groupe-esa.com,replace==École supérieure des agricultures*fr,,name_exact,100
+replace==Hochschule für Angewandte Wissenschaften Kiel*de,replace==https://www.haw-kiel.de,replace==Rheinische Hochschule Köln*de,replace==https://rh-koeln.de,name_fuzzy,85
+,,,,name_exact,100
+,replace==https://csh.ac.at,replace==Complexity Science Hub*en,replace==https://csh.ac.at,url,100
+,,replace==Infectiologie et Santé Publique*fr,replace==https://infectiologie-santepublique.val-de-loire.hub.inrae.fr,name_fuzzy,88
+,,,replace==https://egfv.bordeaux-aquitaine.hub.inrae.fr,name_fuzzy,89
+,replace==https://www.imn-bordeaux.org,,,name_fuzzy,90
+,replace==https://www.imn-bordeaux.org,,,name_fuzzy,88
+,,,,name_fuzzy,89
+,replace==https://incia.u-bordeaux.fr,,replace==https://egfv.bordeaux-aquitaine.hub.inrae.fr,name_fuzzy,89
+,replace==https://www.ibgc.cnrs.fr;replace==ibgc.cnrs.fr,,,name_fuzzy,89
+replace==Institut de recherche Robert-Sauvé en santé et en sécurité du travail*fr,replace==https://www.irsst.qc.ca,replace==Institut de recherche Robert-Sauve*fr,replace==https://www.irsst.qc.ca,url,100
+replace==Institut de recherche Robert-Sauvé en santé et en sécurité du travail*fr,replace==https://www.irsst.qc.ca,replace==Institut de recherche Robert-Sauve*fr,replace==https://www.irsst.qc.ca,name_exact,100
+,replace==https://www.rcjy.edu.sa/en/colleges-and-institutes-in-yanbu/yanbu-industrial-college/,,replace==https://www.rcjy.edu.sa/en/colleges-and-institutes-in-yanbu/yanbu-industrial-college/,url,100
+replace==Beykoz Üniversitesi*tr,replace==https://www.beykoz.edu.tr,replace==Yozgat Bozok Üniversitesi*tr,replace==https://www.bozok.edu.tr,name_fuzzy,86
