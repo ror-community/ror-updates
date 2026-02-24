@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "501100006556"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411175.7"
+      ],
+      "preferred": "grid.411175.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1457 2980"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945774"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017h5q109",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-toulouse.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU de Toulouse"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Toulouse"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Larrey",
+      "type": "child",
+      "id": "https://ror.org/03471w967"
+    },
+    {
+      "label": "Hôpital Paule de Viguier",
+      "type": "child",
+      "id": "https://ror.org/057vt8c33"
+    },
+    {
+      "label": "Hôpital Purpan",
+      "type": "child",
+      "id": "https://ror.org/03vcx3f97"
+    },
+    {
+      "label": "Hôpital Rangueil",
+      "type": "child",
+      "id": "https://ror.org/034zn5b34"
+    },
+    {
+      "label": "Hôpital de La Grave",
+      "type": "child",
+      "id": "https://ror.org/05x8jna23"
+    },
+    {
+      "label": "Hôpital des Enfants",
+      "type": "child",
+      "id": "https://ror.org/044hb6b32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

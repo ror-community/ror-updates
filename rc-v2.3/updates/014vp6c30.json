@@ -10,57 +10,49 @@
     }
   },
   "domains": [],
-  "established": 2009,
+  "established": 2006,
   "external_ids": [
     {
       "all": [
-        "grid.462694.b"
+        "100016843"
       ],
-      "preferred": "grid.462694.b",
+      "preferred": "100016843",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.462146.3"
+      ],
+      "preferred": "grid.462146.3",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0369 2620"
+        "0000 0004 0383 6348"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q13421865",
-        "Q39912770"
+        "Q277888"
       ],
-      "preferred": "Q13421865",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/045ktmd28",
+  "id": "https://ror.org/014vp6c30",
   "links": [
     {
       "type": "website",
-      "value": "https://lncmi.cnrs.fr"
+      "value": "https://www.math.univ-toulouse.fr/?lang=en"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/LNCMI"
+      "value": "https://en.wikipedia.org/wiki/Institut_de_Math%C3%A9matiques_de_Toulouse"
     }
   ],
   "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "FR",
-        "country_name": "France",
-        "country_subdivision_code": "ARA",
-        "country_subdivision_name": "Rhône-Alpes",
-        "lat": 45.17869,
-        "lng": 5.71479,
-        "name": "Grenoble"
-      },
-      "geonames_id": 3014728
-    },
     {
       "geonames_details": {
         "continent_code": "EU",
@@ -78,33 +70,26 @@
   ],
   "names": [
     {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "French National High Magnetic Field Laboratory"
-    },
-    {
       "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LNCMI"
+      "value": "IMT"
     },
     {
       "lang": "fr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Laboratoire National des Champs Magnétiques Intenses"
+      "value": "Institut de Mathématiques de Toulouse"
     },
     {
       "lang": "en",
       "types": [
-        "alias"
+        "label"
       ],
-      "value": "National Laboratory for Intense Magnetic Fields"
+      "value": "Toulouse Mathematics Institute"
     }
   ],
   "relationships": [
@@ -114,19 +99,19 @@
       "id": "https://ror.org/01h8pf755"
     },
     {
-      "label": "Institut de Physique",
+      "label": "Institut National des Sciences Mathématiques et de leurs Interactions",
       "type": "parent",
-      "id": "https://ror.org/00z54nq84"
+      "id": "https://ror.org/050jcm728"
     },
     {
-      "label": "Fédération de recherche Matière et Interactions",
+      "label": "Université Toulouse - Jean Jaurès",
       "type": "parent",
-      "id": "https://ror.org/02wq1s711"
+      "id": "https://ror.org/04ezk3x31"
     },
     {
-      "label": "Université Grenoble Alpes",
+      "label": "Université Toulouse Capitole",
       "type": "parent",
-      "id": "https://ror.org/02rx3b187"
+      "id": "https://ror.org/027ankh97"
     },
     {
       "label": "Centre National de la Recherche Scientifique",
@@ -136,6 +121,7 @@
   ],
   "status": "active",
   "types": [
-    "facility"
+    "facility",
+    "funder"
   ]
 }

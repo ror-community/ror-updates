@@ -10,57 +10,42 @@
     }
   },
   "domains": [],
-  "established": 2009,
+  "established": 1968,
   "external_ids": [
     {
       "all": [
-        "grid.462694.b"
+        "grid.462430.7"
       ],
-      "preferred": "grid.462694.b",
+      "preferred": "grid.462430.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0369 2620"
+        "0000 0001 2188 216X"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q13421865",
-        "Q39912770"
+        "Q3214408"
       ],
-      "preferred": "Q13421865",
+      "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/045ktmd28",
+  "id": "https://ror.org/03vcm6439",
   "links": [
     {
       "type": "website",
-      "value": "https://lncmi.cnrs.fr"
+      "value": "https://www.laas.fr/public/en"
     },
     {
       "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/LNCMI"
+      "value": "https://en.wikipedia.org/wiki/Laboratory_for_Analysis_and_Architecture_of_Systems"
     }
   ],
   "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "FR",
-        "country_name": "France",
-        "country_subdivision_code": "ARA",
-        "country_subdivision_name": "Rhône-Alpes",
-        "lat": 45.17869,
-        "lng": 5.71479,
-        "name": "Grenoble"
-      },
-      "geonames_id": 3014728
-    },
     {
       "geonames_details": {
         "continent_code": "EU",
@@ -78,33 +63,26 @@
   ],
   "names": [
     {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "French National High Magnetic Field Laboratory"
-    },
-    {
       "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LNCMI"
+      "value": "LAAS"
     },
     {
       "lang": "fr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Laboratoire National des Champs Magnétiques Intenses"
+      "value": "Laboratoire d'Analyse et d'Architecture des Systèmes"
     },
     {
       "lang": "en",
       "types": [
-        "alias"
+        "label"
       ],
-      "value": "National Laboratory for Intense Magnetic Fields"
+      "value": "Laboratory for Analysis and Architecture of Systems"
     }
   ],
   "relationships": [
@@ -114,24 +92,29 @@
       "id": "https://ror.org/01h8pf755"
     },
     {
-      "label": "Institut de Physique",
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
       "type": "parent",
-      "id": "https://ror.org/00z54nq84"
+      "id": "https://ror.org/04z22qz54"
     },
     {
-      "label": "Fédération de recherche Matière et Interactions",
+      "label": "CNRS Ingénierie",
       "type": "parent",
-      "id": "https://ror.org/02wq1s711"
+      "id": "https://ror.org/00s19x989"
     },
     {
-      "label": "Université Grenoble Alpes",
+      "label": "Institut National Polytechnique de Toulouse",
       "type": "parent",
-      "id": "https://ror.org/02rx3b187"
+      "id": "https://ror.org/033p9g875"
     },
     {
       "label": "Centre National de la Recherche Scientifique",
       "type": "parent",
       "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",
+      "type": "parent",
+      "id": "https://ror.org/05wfw4946"
     }
   ],
   "status": "active",

@@ -10,21 +10,39 @@
     }
   },
   "domains": [],
-  "established": null,
+  "established": 1975,
   "external_ids": [
     {
       "all": [
-        "grid.457354.4"
+        "grid.420225.3"
       ],
-      "preferred": "grid.457354.4",
+      "preferred": "grid.420225.3",
       "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2298 7270"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152091"
+      ],
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/04040yw90",
+  "id": "https://ror.org/00myn0z94",
   "links": [
     {
       "type": "website",
-      "value": "http://www.inria.fr/centre/rennes"
+      "value": "https://www.irisa.fr/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Research_Institute_of_Computer_Science_and_Random_Systems"
     }
   ],
   "locations": [
@@ -45,33 +63,54 @@
   ],
   "names": [
     {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRISA"
+    },
+    {
       "lang": "fr",
       "types": [
-        "label",
-        "ror_display"
+        "ror_display",
+        "label"
       ],
-      "value": "Centre Inria de l'Université de Rennes"
+      "value": "Institut de Recherche en Informatique et Systèmes Aléatoires"
     },
     {
       "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Inria Centre at Rennes University"
+      "value": "Institute for Research in IT and Random Systems"
     },
     {
-      "lang": "fr",
+      "lang": null,
       "types": [
         "alias"
       ],
-      "value": "Inria Rennes - Bretagne Atlantique"
+      "value": "UMR 6074"
     },
     {
-      "lang": "en",
+      "lang": null,
       "types": [
         "alias"
       ],
-      "value": "Inria Rennes - Bretagne Atlantique Research Centre"
+      "value": "UMR CNRS 6074"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR-6074"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6074"
     }
   ],
   "relationships": [
@@ -146,29 +185,9 @@
       "id": "https://ror.org/05pj0t051"
     },
     {
-      "label": "ODYSSEY: Océan Dynamique Observations Analyse",
-      "type": "child",
-      "id": "https://ror.org/00w25wb51"
-    },
-    {
-      "label": "SAIRPICO: Imagerie Spatio-Temporelle, Intelligence Artificielle et Calcul Numérique pour la Biologie Cellulaire et Chemobiologie",
-      "type": "child",
-      "id": "https://ror.org/03fedwt95"
-    },
-    {
       "label": "PACAP: Pushing Architecture and Compilation for Application Performance",
       "type": "child",
       "id": "https://ror.org/059z1ye11"
-    },
-    {
-      "label": "MINGUS: Schémas numériques géométriques multi-échelles",
-      "type": "child",
-      "id": "https://ror.org/03856b930"
-    },
-    {
-      "label": "SIMSMART: SIMulation pARTiculaire de Modèles Stochastiques",
-      "type": "child",
-      "id": "https://ror.org/015b80x98"
     },
     {
       "label": "COMBO: Biomécanique et Méthodes Numériques pour l'analyse de l'interaction humain-systèmes hors du laboratoire",
@@ -176,19 +195,9 @@
       "id": "https://ror.org/03p3amd86"
     },
     {
-      "label": "STACK: Pile logicielle pour les infrastructures massivement géo distribuées",
-      "type": "child",
-      "id": "https://ror.org/03wt8n129"
-    },
-    {
       "label": "COMPACT: Compression de donn'ees visuelles massives",
       "type": "child",
       "id": "https://ror.org/05v2cwj11"
-    },
-    {
-      "label": "I4S: Inférence pour les InfraStructures Intelligentes et Instrumentées",
-      "type": "child",
-      "id": "https://ror.org/00c9pnr51"
     },
     {
       "label": "WIDE: le monde est distribué - Vers une exploration des tensions entre grande échelle et coordination",
@@ -221,11 +230,6 @@
       "id": "https://ror.org/043ja9593"
     },
     {
-      "label": "GALLINETTE: Gallinette : vers une nouvelle génération d'assistant à la preuve",
-      "type": "child",
-      "id": "https://ror.org/01gamk045"
-    },
-    {
       "label": "GENSCALE: Algorithmes pour les données génomiques : passage à l'échelle, précision, frugalité",
       "type": "child",
       "id": "https://ror.org/00rttk466"
@@ -246,9 +250,34 @@
       "id": "https://ror.org/02kvxyf05"
     },
     {
-      "label": "AIMOKA: Advanced and Innovative MOdeling for percutaneous Cancer tumor Ablation",
-      "type": "related",
-      "id": "https://ror.org/057ne8428"
+      "label": "IMT Atlantique",
+      "type": "parent",
+      "id": "https://ror.org/030hj3061"
+    },
+    {
+      "label": "Institut National des Sciences Appliquées de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/04xaa4j22"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "Université de Rennes",
+      "type": "parent",
+      "id": "https://ror.org/015m7wh34"
+    },
+    {
+      "label": "Université de Bretagne Sud",
+      "type": "parent",
+      "id": "https://ror.org/04ed7fw48"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
     }
   ],
   "status": "active",
