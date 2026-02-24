@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "100007144"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.187082.4"
+      ],
+      "preferred": "grid.187082.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8526 4902"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q569446"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040vwpm13",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uhsystem.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Houston_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Houston System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Houston",
+      "type": "child",
+      "id": "https://ror.org/048sx0r50"
+    },
+    {
+      "label": "University of Houston - Clear Lake",
+      "type": "child",
+      "id": "https://ror.org/01t817z14"
+    },
+    {
+      "label": "University of Houston - Downtown",
+      "type": "child",
+      "id": "https://ror.org/05mj6fy81"
+    },
+    {
+      "label": "Texas A&M University-Victoria",
+      "type": "child",
+      "id": "https://ror.org/01khwek78"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

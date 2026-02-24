@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "501100006413"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.33235.34"
+      ],
+      "preferred": "grid.33235.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0643 6243"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0581esp57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fmsh.fr/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FMSH"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fondation Maison des Sciences de l'Homme"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "GERFLINT",
+      "type": "child",
+      "id": "https://ror.org/02fek2d03"
+    },
+    {
+      "label": "Établissement public Campus Condorcet",
+      "type": "related",
+      "id": "https://ror.org/00cd48p72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

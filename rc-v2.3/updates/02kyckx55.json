@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1870,
+  "external_ids": [
+    {
+      "all": [
+        "100008875",
+        "100005419",
+        "100008876"
+      ],
+      "preferred": "100008875",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.265881.0"
+      ],
+      "preferred": "grid.265881.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2186 8990"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1346135"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kyckx55",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uakron.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Akron"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.08144,
+        "lng": -81.51901,
+        "name": "Akron"
+      },
+      "geonames_id": 5145476
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Akron"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Akron Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/0107t3e14"
+    },
+    {
+      "label": "Cleveland Clinic Akron General",
+      "type": "related",
+      "id": "https://ror.org/059xepj08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

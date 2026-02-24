@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100020025"
+      ],
+      "preferred": "100020025",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.493870.1"
+      ],
+      "preferred": "grid.493870.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0057 9452"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1005545"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03z6hnk02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.baw.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Bundesanstalt_f%C3%BCr_Wasserbau"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.00937,
+        "lng": 8.40444,
+        "name": "Karlsruhe"
+      },
+      "geonames_id": 2892794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BAW"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bundesanstalt für Wasserbau"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Federal Waterways Engineering and Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bundesministerium für Verkehr",
+      "type": "parent",
+      "id": "https://ror.org/00e3ns026"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
