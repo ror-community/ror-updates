@@ -59,7 +59,18 @@
       "value": "Sidama Regional Health Bureau"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Federal Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/017yk1e31"
+    },
+    {
+      "label": "Hawela Tula General Hospital",
+      "type": "child",
+      "id": "https://ror.org/05754mh78"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

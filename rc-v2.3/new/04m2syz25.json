@@ -56,7 +56,18 @@
       "value": "University of Sherbrooke Cancer Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/00kybxq39"
+    },
+    {
+      "label": "Centre intégré de santé et de services sociaux de la Montérégie-Centre",
+      "type": "related",
+      "id": "https://ror.org/04qekdn52"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

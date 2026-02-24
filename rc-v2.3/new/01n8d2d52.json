@@ -73,7 +73,28 @@
       "value": "Office of Justice Programs"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    },
+    {
+      "label": "National Institute of Justice",
+      "type": "child",
+      "id": "https://ror.org/00v8p7w89"
+    },
+    {
+      "label": "Bureau of Justice Statistics",
+      "type": "child",
+      "id": "https://ror.org/0006s4z66"
+    },
+    {
+      "label": "Office of Juvenile Justice and Delinquency Prevention",
+      "type": "child",
+      "id": "https://ror.org/05335sh79"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

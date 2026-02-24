@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.451079.e"
+      ],
+      "preferred": "grid.451079.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 0265"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17016212"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/023e5m798",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nelft.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/North_East_London_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NELFT"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NELMHT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "North East London Mental Health Trust"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North East London NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Barking Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/00hwjda20"
+    },
+    {
+      "label": "Goodmayes Hospital",
+      "type": "child",
+      "id": "https://ror.org/00x0j8257"
+    },
+    {
+      "label": "Grays Court Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/058tjhm78"
+    },
+    {
+      "label": "Thurrock Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/01q5d1g38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

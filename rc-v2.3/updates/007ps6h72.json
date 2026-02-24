@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "100005895"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.270240.3"
+      ],
+      "preferred": "grid.270240.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 1622"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1452369"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007ps6h72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fredhutch.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fred_Hutchinson_Cancer_Research_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FHCRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fred Hutch"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fred Hutch Cancer Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fred Hutchinson Cancer Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Hutch"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cape Town HVTN Immunology Laboratory / Hutchinson Centre Research Institute of South Africa",
+      "type": "child",
+      "id": "https://ror.org/00wdsp051"
+    },
+    {
+      "label": "Hutchinson Centre Research Institute in Uganda",
+      "type": "related",
+      "id": "https://ror.org/018f2hw88"
+    },
+    {
+      "label": "Cancer Consortium",
+      "type": "related",
+      "id": "https://ror.org/009tqys91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

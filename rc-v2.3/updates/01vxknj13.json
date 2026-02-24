@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "501100006339"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424262.4"
+      ],
+      "preferred": "grid.424262.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0536 2334"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q297879"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01vxknj13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.asml.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ASML_Holding"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "NB",
+        "country_subdivision_name": "North Brabant",
+        "lat": 51.41833,
+        "lng": 5.40278,
+        "name": "Veldhoven"
+      },
+      "geonames_id": 2745706
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ASML (Netherlands)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ASML (United States)",
+      "type": "child",
+      "id": "https://ror.org/00gtpjy03"
+    },
+    {
+      "label": "Advanced Research Center for Nanolithography (Netherlands)",
+      "type": "child",
+      "id": "https://ror.org/04xe7ws48"
+    },
+    {
+      "label": "ASM International (Netherlands)",
+      "type": "parent",
+      "id": "https://ror.org/002yxfz10"
+    },
+    {
+      "label": "Philips (Netherlands)",
+      "type": "related",
+      "id": "https://ror.org/02p2bgp27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

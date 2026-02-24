@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-06-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0563 8855"
+      ],
+      "preferred": "0000 0004 0563 8855",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q81933223"
+      ],
+      "preferred": "Q81933223",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/054xx3904",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.vhio.net"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ca.wikipedia.org/wiki/Vall_d%27Hebron_Institut_d%27Oncologia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VHIO"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VHIO-CERCA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vall d'Hebron Institute of Oncology"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "label"
+      ],
+      "value": "Vall d’Hebron Institut d’Oncologia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    },
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    },
+    {
+      "label": "Vall d'Hebron Institut de Recerca",
+      "type": "related",
+      "id": "https://ror.org/01d5vx451"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

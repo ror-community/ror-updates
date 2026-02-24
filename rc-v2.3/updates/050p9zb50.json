@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "501100008487"
+      ],
+      "preferred": "501100008487",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484127.c"
+      ],
+      "preferred": "grid.484127.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0409 6556"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q10672883"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/050p9zb50",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://stm.fi/en/frontpage"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Social_Affairs_and_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Social Affairs and Health"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Social- och hälsovårdsministeriet"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "sosiaali- ja terveysministeriö"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Finnish Medicines Agency Fimea",
+      "type": "child",
+      "id": "https://ror.org/04mjpp490"
+    },
+    {
+      "label": "Kanta-Hämeen hyvinvointialue",
+      "type": "child",
+      "id": "https://ror.org/04vk7n713"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466712.0"
+      ],
+      "preferred": "grid.466712.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0726 9975"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05jr4a171",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defensa.gob.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Spain)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MINISDEF"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Defensa"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Defence"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Central de la Defensa Gómez Ulla",
+      "type": "child",
+      "id": "https://ror.org/050qbxj48"
+    },
+    {
+      "label": "Instituto Español de Estudios Estratégicos",
+      "type": "child",
+      "id": "https://ror.org/00mpvse27"
+    },
+    {
+      "label": "Government of Spain",
+      "type": "parent",
+      "id": "https://ror.org/038jjxj40"
+    },
+    {
+      "label": "Centro Superior de Estudios de la Defensa Nacional",
+      "type": "child",
+      "id": "https://ror.org/02rpjjj48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

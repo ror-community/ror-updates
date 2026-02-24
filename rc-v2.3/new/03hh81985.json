@@ -71,7 +71,18 @@
       "value": "Pharmacology Institute of Sherbrooke"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/00kybxq39"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/020r51985"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

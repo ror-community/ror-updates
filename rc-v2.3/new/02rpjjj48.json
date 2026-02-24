@@ -80,7 +80,18 @@
       "value": "Higher Center for National Defence Studies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministerio de Defensa",
+      "type": "parent",
+      "id": "https://ror.org/05jr4a171"
+    },
+    {
+      "label": "Instituto Español de Estudios Estratégicos",
+      "type": "child",
+      "id": "https://ror.org/00mpvse27"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

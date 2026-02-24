@@ -124,7 +124,23 @@
       "value": "Федеральный научно-клинический центр медицинской реабилитации и курортологии ФМБА России"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Federal Medical-Biological Agency",
+      "type": "parent",
+      "id": "https://ror.org/052ay8m85"
+    },
+    {
+      "label": "Tomsk Scientific Research Institute of Balneology and Physiotherapy",
+      "type": "child",
+      "id": "https://ror.org/00gy54m79"
+    },
+    {
+      "label": "Pyatigorsk State Scientific Research Institute of Balneology",
+      "type": "child",
+      "id": "https://ror.org/03np7fg50"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

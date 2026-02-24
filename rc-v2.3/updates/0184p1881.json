@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410400.1"
+      ],
+      "preferred": "grid.410400.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0639 8881"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16921009"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0184p1881",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://dhhs.nv.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Nevada_Department_of_Health_and_Human_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NV",
+        "country_subdivision_name": "Nevada",
+        "lat": 39.1638,
+        "lng": -119.7674,
+        "name": "Carson City"
+      },
+      "geonames_id": 5501344
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nevada Department of Health and Human Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nevada Division of Public and Behavioral Health",
+      "type": "child",
+      "id": "https://ror.org/04s1s3432"
+    },
+    {
+      "label": "State of Nevada",
+      "type": "parent",
+      "id": "https://ror.org/05n3rrk65"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

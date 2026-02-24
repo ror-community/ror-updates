@@ -1,0 +1,150 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "100000038",
+        "100010628"
+      ],
+      "preferred": "100000038",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417587.8"
+      ],
+      "preferred": "grid.417587.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2243 3366"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q204711"
+      ],
+      "preferred": "Q204711",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/034xvzb47",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fda.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FDA "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Food and Drug Administration"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USFDA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Food and Drug Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Biologics Evaluation and Research",
+      "type": "child",
+      "id": "https://ror.org/02nr3fr97"
+    },
+    {
+      "label": "Center for Devices and Radiological Health",
+      "type": "child",
+      "id": "https://ror.org/007x9se63"
+    },
+    {
+      "label": "Center for Drug Evaluation and Research",
+      "type": "child",
+      "id": "https://ror.org/00yf3tm42"
+    },
+    {
+      "label": "Center for Food Safety and Applied Nutrition",
+      "type": "child",
+      "id": "https://ror.org/05hzdft06"
+    },
+    {
+      "label": "Center for Veterinary Medicine",
+      "type": "child",
+      "id": "https://ror.org/02y55wr53"
+    },
+    {
+      "label": "National Center for Toxicological Research",
+      "type": "child",
+      "id": "https://ror.org/05jmhh281"
+    },
+    {
+      "label": "United States Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/033jnv181"
+    },
+    {
+      "label": "Center for Tobacco Products",
+      "type": "child",
+      "id": "https://ror.org/04c42gq36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100014974"
+      ],
+      "preferred": "501100014974",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418856.6"
+      ],
+      "preferred": "grid.418856.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1792 5640"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6039949"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01tyv8576",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.ibp.cas.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Institute_of_Biophysics,_Chinese_Academy_of_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beijing Experimental Biology Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Biophysics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院生物物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Brain and Cognitive Science",
+      "type": "child",
+      "id": "https://ror.org/048wy7h78"
+    },
+    {
+      "label": "State Key Laboratory of Biomacromolecules",
+      "type": "child",
+      "id": "https://ror.org/03twns208"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "IBP-Sinovac Joint Laboratory of Cutting-edge Technologies and Vaccine & Drug Development",
+      "type": "child",
+      "id": "https://ror.org/02tg2vb79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}
