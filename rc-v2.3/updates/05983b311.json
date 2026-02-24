@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.419865.7"
       ],
-      "preferred": "grid.419865.7"
+      "preferred": "grid.419865.7",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0663 4408"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q11432687"
       ],
-      "preferred": "Q11432687"
+      "preferred": "Q11432687",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05983b311",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1857751,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -56,31 +55,32 @@
         "lat": 37.75,
         "lng": 138.88333,
         "name": "Maki"
-      }
+      },
+      "geonames_id": 1857751
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "National Institute of Technology, Oita College",
-      "lang": "en"
+      "value": "National Institute of Technology, Oita College"
     },
     {
+      "lang": "ja",
       "types": [
         "alias"
       ],
-      "value": "おおいたこうぎょうこうとうせんもんがっこう",
-      "lang": "ja"
+      "value": "おおいたこうぎょうこうとうせんもんがっこう"
     },
     {
+      "lang": "ja",
       "types": [
         "label"
       ],
-      "value": "大分工業高等専門学校",
-      "lang": "ja"
+      "value": "大分工業高等専門学校"
     }
   ],
   "relationships": [],

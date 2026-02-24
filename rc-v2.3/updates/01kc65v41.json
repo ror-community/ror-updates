@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1952,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.28403.3d"
       ],
-      "preferred": "grid.28403.3d"
+      "preferred": "grid.28403.3d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1758 521X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q5464994"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01kc65v41",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3169070,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,24 +59,25 @@
         "lat": 41.89193,
         "lng": 12.51133,
         "name": "Rome"
-      }
+      },
+      "geonames_id": 3169070
     }
   ],
   "names": [
     {
+      "lang": "it",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Fondazione \"Ugo Bordoni\"",
-      "lang": "it"
+      "value": "Fondazione \"Ugo Bordoni\""
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Ugo Bordoni Foundation",
-      "lang": "en"
+      "value": "Ugo Bordoni Foundation"
     }
   ],
   "relationships": [],

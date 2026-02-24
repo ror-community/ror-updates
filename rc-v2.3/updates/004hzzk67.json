@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1917,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100004063"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.453057.0"
       ],
-      "preferred": "grid.453057.0"
+      "preferred": "grid.453057.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 5900 9894"
       ],
-      "preferred": "0000 0004 5900 9894"
+      "preferred": "0000 0004 5900 9894",
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/004hzzk67",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2673730,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -58,24 +57,25 @@
         "lat": 59.32938,
         "lng": 18.06871,
         "name": "Stockholm"
-      }
+      },
+      "geonames_id": 2673730
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Knut and Alice Wallenberg Foundation",
-      "lang": "en"
+      "value": "Knut and Alice Wallenberg Foundation"
     },
     {
+      "lang": "sv",
       "types": [
         "alias"
       ],
-      "value": "Knut och Alice Wallenbergs Stiftelse",
-      "lang": "sv"
+      "value": "Knut och Alice Wallenbergs Stiftelse"
     }
   ],
   "relationships": [

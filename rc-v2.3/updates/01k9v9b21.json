@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1964,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.488027.1"
       ],
-      "preferred": "grid.488027.1"
+      "preferred": "grid.488027.1",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9881 1186"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q2229222"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01k9v9b21",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 4259418,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,25 +59,26 @@
         "lat": 39.76838,
         "lng": -86.15804,
         "name": "Indianapolis"
-      }
+      },
+      "geonames_id": 4259418
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label",
         "alias"
       ],
-      "value": "Indianapolis Zoo",
-      "lang": "en"
+      "value": "Indianapolis Zoo"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Indianapolis Zoological Society, Inc.",
-      "lang": "en"
+      "value": "Indianapolis Zoological Society, Inc."
     }
   ],
   "relationships": [],

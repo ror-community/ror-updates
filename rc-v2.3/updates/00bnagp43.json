@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1990,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.419120.f"
       ],
-      "preferred": "grid.419120.f"
+      "preferred": "grid.419120.f",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0388 6652"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q30281996"
       ],
-      "preferred": "Q30281996"
+      "preferred": "Q30281996",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00bnagp43",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3114711,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -54,31 +53,32 @@
         "lat": 43.36029,
         "lng": -5.84476,
         "name": "Oviedo"
-      }
+      },
+      "geonames_id": 3114711
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Dairy Institute of Asturias",
-      "lang": "en"
+      "value": "Dairy Institute of Asturias"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "IPLA",
-      "lang": null
+      "value": "IPLA"
     },
     {
+      "lang": "es",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Instituto de Productos Lácteos de Asturias",
-      "lang": "es"
+      "value": "Instituto de Productos Lácteos de Asturias"
     }
   ],
   "relationships": [

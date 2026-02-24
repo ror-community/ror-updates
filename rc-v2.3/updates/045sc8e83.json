@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 2014,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465959.2"
       ],
-      "preferred": "grid.465959.2"
+      "preferred": "grid.465959.2",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/045sc8e83",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 524901,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -42,51 +41,52 @@
         "lat": 55.75222,
         "lng": 37.61556,
         "name": "Moscow"
-      }
+      },
+      "geonames_id": 524901
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Federal Center Research Fundamentals of Biotechnology",
-      "lang": "en"
+      "value": "Federal Center Research Fundamentals of Biotechnology"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
+        "label",
+        "ror_display"
+      ],
+      "value": "Federal Research Centre «Fundamentals of Biotechnology» of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Research Center of Biotechnology RAS"
+    },
+    {
+      "lang": "ru",
+      "types": [
         "label"
       ],
-      "value": "Federal Research Centre «Fundamentals of Biotechnology» of the Russian Academy of Sciences",
-      "lang": "en"
+      "value": "Федеральный исследовательский центр «Фундаментальные основы биотехнологии»"
     },
     {
+      "lang": "ru",
       "types": [
         "alias"
       ],
-      "value": "Research Center of Biotechnology RAS",
-      "lang": "en"
-    },
-    {
-      "types": [
-        "label"
-      ],
-      "value": "Федеральный исследовательский центр «Фундаментальные основы биотехнологии»",
-      "lang": "ru"
-    },
-    {
-      "types": [
-        "alias"
-      ],
-      "value": "Федеральный исследовательский центр Фундаментальные основы биотехнологии",
-      "lang": "ru"
+      "value": "Федеральный исследовательский центр Фундаментальные основы биотехнологии"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Department of Biological Sciences",
+      "type": "parent",
       "id": "https://ror.org/038rjvd86"
     }
   ],

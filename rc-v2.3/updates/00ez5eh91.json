@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,11 +13,11 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.509941.0"
       ],
-      "preferred": "grid.509941.0"
+      "preferred": "grid.509941.0",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/00ez5eh91",
@@ -29,7 +29,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3172394,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -40,30 +39,31 @@
         "lat": 40.85216,
         "lng": 14.26811,
         "name": "Naples"
-      }
+      },
+      "geonames_id": 3172394
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CABHC",
-      "lang": null
+      "value": "CABHC"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Center for Advanced Biomaterials for Healthcare",
-      "lang": "en"
+      "value": "Center for Advanced Biomaterials for Healthcare"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Italian Institute of Technology",
+      "type": "parent",
       "id": "https://ror.org/042t93s57"
     }
   ],

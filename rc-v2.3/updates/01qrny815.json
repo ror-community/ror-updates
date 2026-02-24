@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1944,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.435652.3"
       ],
-      "preferred": "grid.435652.3"
+      "preferred": "grid.435652.3",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8571 1418"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q30290189"
       ],
-      "preferred": "Q30290189"
+      "preferred": "Q30290189",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01qrny815",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5145476,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,38 +59,39 @@
         "lat": 41.08144,
         "lng": -81.51901,
         "name": "Akron"
-      }
+      },
+      "geonames_id": 5145476
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "ICWU",
-      "lang": "en"
+      "value": "ICWU"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ICWUC",
-      "lang": null
+      "value": "ICWUC"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "International Chemical Workers Union",
-      "lang": "en"
+      "value": "International Chemical Workers Union"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "International Chemical Workers Union Council",
-      "lang": "en"
+      "value": "International Chemical Workers Union Council"
     }
   ],
   "relationships": [],

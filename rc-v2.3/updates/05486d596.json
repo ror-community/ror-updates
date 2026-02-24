@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1992,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.446099.6"
       ],
-      "preferred": "grid.446099.6"
+      "preferred": "grid.446099.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0448 0013"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q6514765"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05486d596",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3143244,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,31 +59,32 @@
         "lat": 59.91273,
         "lng": 10.74609,
         "name": "Oslo"
-      }
+      },
+      "geonames_id": 3143244
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Norwegian Police University College",
-      "lang": "en"
+      "value": "Norwegian Police University College"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "PHS",
-      "lang": null
+      "value": "PHS"
     },
     {
+      "lang": "no",
       "types": [
         "label"
       ],
-      "value": "Politihøgskolen",
-      "lang": "no"
+      "value": "Politihøgskolen"
     }
   ],
   "relationships": [],

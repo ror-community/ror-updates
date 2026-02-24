@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1859,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.480666.a"
       ],
-      "preferred": "grid.480666.a"
+      "preferred": "grid.480666.a",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8722 5149"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q220057"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/019950a73",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2618425,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,24 +59,25 @@
         "lat": 55.67594,
         "lng": 12.56553,
         "name": "Copenhagen"
-      }
+      },
+      "geonames_id": 2618425
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Copenhagen Zoo",
-      "lang": "en"
+      "value": "Copenhagen Zoo"
     },
     {
+      "lang": "da",
       "types": [
         "label"
       ],
-      "value": "København Zoo",
-      "lang": "da"
+      "value": "København Zoo"
     }
   ],
   "relationships": [],

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,11 +13,11 @@
   "established": 2003,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.506181.b"
       ],
-      "preferred": "grid.506181.b"
+      "preferred": "grid.506181.b",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/0006e6p34",
@@ -29,7 +29,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2875115,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -40,31 +39,32 @@
         "lat": 53.2509,
         "lng": 10.41409,
         "name": "Lüneburg"
-      }
+      },
+      "geonames_id": 2875115
     }
   ],
   "names": [
     {
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "ECOLOG",
-      "lang": "de"
+      "value": "ECOLOG"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "ECOLOG Institute for Social-Ecological Research and Education",
-      "lang": "en"
+      "value": "ECOLOG Institute for Social-Ecological Research and Education"
     },
     {
+      "lang": "de",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "ECOLOG-Institut für sozial-ökologische Forschung und Bildung",
-      "lang": "de"
+      "value": "ECOLOG-Institut für sozial-ökologische Forschung und Bildung"
     }
   ],
   "relationships": [],

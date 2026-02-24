@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "isni",
       "all": [
         "0000 0004 1807 2950"
       ],
-      "preferred": "0000 0004 1807 2950"
+      "preferred": "0000 0004 1807 2950",
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1054243"
       ],
-      "preferred": "Q1054243"
+      "preferred": "Q1054243",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02g3h9440",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3169070,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -47,45 +46,46 @@
         "lat": 41.89193,
         "lng": 12.51133,
         "name": "Rome"
-      }
+      },
+      "geonames_id": 3169070
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CASD",
-      "lang": null
+      "value": "CASD"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Centre for Higher Defense Studies",
-      "lang": "en"
+      "value": "Centre for Higher Defense Studies"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Centre for Higher Defense Studies (CASD)",
-      "lang": "en"
+      "value": "Centre for Higher Defense Studies (CASD)"
     },
     {
+      "lang": "it",
       "types": [
         "alias"
       ],
-      "value": "Centro Alti Studi per la Difesa",
-      "lang": "it"
+      "value": "Centro Alti Studi per la Difesa"
     },
     {
+      "lang": "it",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Centro Alti Studi per la Difesa (CASD)",
-      "lang": "it"
+      "value": "Centro Alti Studi per la Difesa (CASD)"
     }
   ],
   "relationships": [],

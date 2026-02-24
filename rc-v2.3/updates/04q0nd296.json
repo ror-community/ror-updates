@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1919,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.462209.b"
       ],
-      "preferred": "grid.462209.b"
+      "preferred": "grid.462209.b",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0624 0187"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1275285"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04q0nd296",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2973783,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,17 +59,18 @@
         "lat": 48.58392,
         "lng": 7.74553,
         "name": "Strasbourg"
-      }
+      },
+      "geonames_id": 2973783
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "EM Strasbourg Business School",
-      "lang": "en"
+      "value": "EM Strasbourg Business School"
     }
   ],
   "relationships": [],

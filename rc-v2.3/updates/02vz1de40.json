@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1925,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100009143"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.467280.f"
       ],
-      "preferred": "grid.467280.f"
+      "preferred": "grid.467280.f",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0728 3830"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/02vz1de40",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2174003,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -56,17 +55,18 @@
         "lat": -27.46794,
         "lng": 153.02809,
         "name": "Brisbane"
-      }
+      },
+      "geonames_id": 2174003
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Canegrowers (Australia)",
-      "lang": null
+      "value": "Canegrowers (Australia)"
     }
   ],
   "relationships": [],

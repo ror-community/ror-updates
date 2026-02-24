@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1970,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.468886.c"
       ],
-      "preferred": "grid.468886.c"
+      "preferred": "grid.468886.c",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0683 0038"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q11347596"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04dvezj25",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5393212,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,52 +59,53 @@
         "lat": 34.01949,
         "lng": -118.49138,
         "name": "Santa Monica"
-      }
+      },
+      "geonames_id": 5393212
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Frederick S. Pardee RAND Graduate School",
-      "lang": "en"
+      "value": "Frederick S. Pardee RAND Graduate School"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Pardee RAND",
-      "lang": "en"
+      "value": "Pardee RAND"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Pardee RAND Graduate School",
-      "lang": "en"
+      "value": "Pardee RAND Graduate School"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "RAND Graduate Institute",
-      "lang": "en"
+      "value": "RAND Graduate Institute"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "RAND School of Public Policy",
-      "lang": "en"
+      "value": "RAND School of Public Policy"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "RGI",
-      "lang": null
+      "value": "RGI"
     }
   ],
   "relationships": [],

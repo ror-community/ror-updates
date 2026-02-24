@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1972,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.466839.6"
       ],
-      "preferred": "grid.466839.6"
+      "preferred": "grid.466839.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1776 922X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q5917852"
       ],
-      "preferred": "Q5917852"
+      "preferred": "Q5917852",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02zmh8h66",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3998655,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -56,45 +55,46 @@
         "lat": 21.12908,
         "lng": -101.67374,
         "name": "León"
-      }
+      },
+      "geonames_id": 3998655
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ITL",
-      "lang": null
+      "value": "ITL"
     },
     {
+      "lang": "es",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Instituto Tecnológico de León",
-      "lang": "es"
+      "value": "Instituto Tecnológico de León"
     },
     {
+      "lang": "es",
       "types": [
         "alias"
       ],
-      "value": "TecNM Campus León",
-      "lang": "es"
+      "value": "TecNM Campus León"
     },
     {
+      "lang": "es",
       "types": [
         "alias"
       ],
-      "value": "TecNM León",
-      "lang": "es"
+      "value": "TecNM León"
     },
     {
+      "lang": "es",
       "types": [
         "alias"
       ],
-      "value": "Tecnológico Nacional de México Campus León",
-      "lang": "es"
+      "value": "Tecnológico Nacional de México Campus León"
     }
   ],
   "relationships": [],

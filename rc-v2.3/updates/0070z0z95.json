@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2006,
   "external_ids": [
     {
-      "type": "isni",
       "all": [
         "0000 0000 9600 5690"
       ],
-      "preferred": "0000 0000 9600 5690"
+      "preferred": "0000 0000 9600 5690",
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q2430947"
       ],
-      "preferred": "Q2430947"
+      "preferred": "Q2430947",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/0070z0z95",
@@ -42,7 +42,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2812482,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -53,38 +52,39 @@
         "lat": 50.9803,
         "lng": 11.32903,
         "name": "Weimar"
-      }
+      },
+      "geonames_id": 2812482
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "TLDA",
-      "lang": null
+      "value": "TLDA"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Thuringian State Office for Heritage Management and Archaeology",
-      "lang": "en"
+      "value": "Thuringian State Office for Heritage Management and Archaeology"
     },
     {
+      "lang": "de",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Thüringer Landesamt für Denkmalpflege und Archäologie",
-      "lang": "de"
+      "value": "Thüringer Landesamt für Denkmalpflege und Archäologie"
     },
     {
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "Thüringisches Landesamt für Denkmalpflege und Archäologie",
-      "lang": "de"
+      "value": "Thüringisches Landesamt für Denkmalpflege und Archäologie"
     }
   ],
   "relationships": [],

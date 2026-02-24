@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.488441.5"
       ],
-      "preferred": "grid.488441.5"
+      "preferred": "grid.488441.5",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q43896399"
       ],
-      "preferred": "Q43896399"
+      "preferred": "Q43896399",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/009tqys91",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5809844,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -47,38 +46,39 @@
         "lat": 47.60621,
         "lng": -122.33207,
         "name": "Seattle"
-      }
+      },
+      "geonames_id": 5809844
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Cancer Consortium",
-      "lang": "en"
+      "value": "Cancer Consortium"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium",
-      "lang": "en"
+      "value": "Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Fred Hutchinson/University of Washington Cancer Consortium",
-      "lang": "en"
+      "value": "Fred Hutchinson/University of Washington Cancer Consortium"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Fred Hutchinson/University of Washington/Seattle Children’s Cancer Consortium",
-      "lang": "en"
+      "value": "Fred Hutchinson/University of Washington/Seattle Children’s Cancer Consortium"
     }
   ],
   "relationships": [],

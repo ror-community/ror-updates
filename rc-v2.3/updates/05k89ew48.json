@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,34 +15,34 @@
   "established": 1962,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100005712",
         "100007776",
         "501100021772"
       ],
-      "preferred": "501100005712"
+      "preferred": "501100005712",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.9670.8"
       ],
-      "preferred": "grid.9670.8"
+      "preferred": "grid.9670.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2174 4509"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q610253"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05k89ew48",
@@ -58,7 +58,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 250441,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -69,38 +68,39 @@
         "lat": 31.95522,
         "lng": 35.94503,
         "name": "Amman"
-      }
+      },
+      "geonames_id": 250441
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Jordan University",
-      "lang": "en"
+      "value": "Jordan University"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UJ",
-      "lang": null
+      "value": "UJ"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "University of Jordan",
-      "lang": "en"
+      "value": "University of Jordan"
     },
     {
+      "lang": "ar",
       "types": [
         "label"
       ],
-      "value": "الجامعة الأردنية",
-      "lang": "ar"
+      "value": "الجامعة الأردنية"
     }
   ],
   "relationships": [],

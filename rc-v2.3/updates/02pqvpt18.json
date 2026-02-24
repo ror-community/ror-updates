@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 2006,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.498259.b"
       ],
-      "preferred": "grid.498259.b"
+      "preferred": "grid.498259.b",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q56584509"
       ],
-      "preferred": "Q56584509"
+      "preferred": "Q56584509",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02pqvpt18",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2653941,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -47,24 +46,25 @@
         "lat": 52.2,
         "lng": 0.11667,
         "name": "Cambridge"
-      }
+      },
+      "geonames_id": 2653941
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "alias"
       ],
-      "value": "Cambridge IP",
-      "lang": null
+      "value": "Cambridge IP"
     },
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Cambridge Intellectual Property (United Kingdom)",
-      "lang": null
+      "value": "Cambridge Intellectual Property (United Kingdom)"
     }
   ],
   "relationships": [],

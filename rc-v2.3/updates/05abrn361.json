@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1985,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100002831"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.468578.0"
       ],
-      "preferred": "grid.468578.0"
+      "preferred": "grid.468578.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 1009 2998"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/05abrn361",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2659496,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,31 +55,32 @@
         "lat": 46.99179,
         "lng": 6.931,
         "name": "Neuchâtel"
-      }
+      },
+      "geonames_id": 2659496
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CSCF",
-      "lang": null
+      "value": "CSCF"
     },
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Centre Suisse de Cartographie de la Faune",
-      "lang": "fr"
+      "value": "Centre Suisse de Cartographie de la Faune"
     },
     {
+      "lang": null,
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "info fauna",
-      "lang": null
+      "value": "info fauna"
     }
   ],
   "relationships": [],

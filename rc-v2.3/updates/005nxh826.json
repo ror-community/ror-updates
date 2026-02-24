@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2011,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.449563.9"
       ],
-      "preferred": "grid.449563.9"
+      "preferred": "grid.449563.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 6654 9135"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7410732"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/005nxh826",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2327517,
       "geonames_details": {
         "continent_code": "AF",
         "continent_name": "Africa",
@@ -60,38 +59,39 @@
         "lat": 6.50639,
         "lng": 6.21109,
         "name": "Ogwa"
-      }
+      },
+      "geonames_id": 2327517
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Glorious Vision University",
-      "lang": "en"
+      "value": "Glorious Vision University"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Glorious Vision University, Ogwa, Edo State",
-      "lang": "en"
+      "value": "Glorious Vision University, Ogwa, Edo State"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SAU",
-      "lang": null
+      "value": "SAU"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Samuel Adegboyega University",
-      "lang": "en"
+      "value": "Samuel Adegboyega University"
     }
   ],
   "relationships": [],

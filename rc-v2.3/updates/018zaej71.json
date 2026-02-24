@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,11 +13,11 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.417121.0"
       ],
-      "preferred": "grid.417121.0"
+      "preferred": "grid.417121.0",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/018zaej71",
@@ -29,7 +29,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3168429,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -40,17 +39,18 @@
         "lat": 45.63019,
         "lng": 12.5681,
         "name": "San Donà di Piave"
-      }
+      },
+      "geonames_id": 3168429
     }
   ],
   "names": [
     {
+      "lang": "it",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Ospedale di San Donà di Piave",
-      "lang": "it"
+      "value": "Ospedale di San Donà di Piave"
     }
   ],
   "relationships": [],

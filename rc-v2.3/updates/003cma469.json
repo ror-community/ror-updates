@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1863,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100005894"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.468103.8"
       ],
-      "preferred": "grid.468103.8"
+      "preferred": "grid.468103.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2110 0658"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/003cma469",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2687700,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,31 +55,32 @@
         "lat": 58.753,
         "lng": 17.00788,
         "name": "Nyköping"
-      }
+      },
+      "geonames_id": 2687700
     }
   ],
   "names": [
     {
+      "lang": "sv",
       "types": [
         "alias"
       ],
-      "value": "Landstinget Sörmland",
-      "lang": "sv"
+      "value": "Landstinget Sörmland"
     },
     {
+      "lang": "sv",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Region Sörmland",
-      "lang": "sv"
+      "value": "Region Sörmland"
     },
     {
+      "lang": "sv",
       "types": [
         "alias"
       ],
-      "value": "Södermanlands läns landsting",
-      "lang": "sv"
+      "value": "Södermanlands läns landsting"
     }
   ],
   "relationships": [],

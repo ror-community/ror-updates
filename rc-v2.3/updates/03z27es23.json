@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1832,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.10491.3d"
       ],
-      "preferred": "grid.10491.3d"
+      "preferred": "grid.10491.3d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2176 4059"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1767912"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03z27es23",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3919968,
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
@@ -57,27 +56,35 @@
         "country_name": "Bolivia",
         "country_subdivision_code": "C",
         "country_subdivision_name": "Cochabamba",
-        "lat": -17.3895,
-        "lng": -66.1568,
+        "lat": -17.38195,
+        "lng": -66.15995,
         "name": "Cochabamba"
-      }
+      },
+      "geonames_id": 3919968
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UMSS",
-      "lang": null
+      "value": "UMSS"
     },
     {
+      "lang": "es",
       "types": [
         "label",
         "ror_display"
       ],
-      "value": "Universidad Mayor de San Simón",
-      "lang": "es"
+      "value": "Universidad Mayor de San Simón"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of San Simón"
     }
   ],
   "relationships": [],

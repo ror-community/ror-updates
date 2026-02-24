@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 1934,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100004734"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.414980.0"
       ],
-      "preferred": "grid.414980.0"
+      "preferred": "grid.414980.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9401 2774"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3145341"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/056jjra10",
@@ -54,7 +54,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6077243,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -65,38 +64,39 @@
         "lat": 45.50884,
         "lng": -73.58781,
         "name": "Montreal"
-      }
+      },
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Centre Intégré Universitaire en Santé et Services Sociaux de Centre-Ouest-de-L'ile-de-Montreal-Jewish General",
-      "lang": "fr"
+      "value": "Centre Intégré Universitaire en Santé et Services Sociaux de Centre-Ouest-de-L'ile-de-Montreal-Jewish General"
     },
     {
+      "lang": "fr",
       "types": [
         "label"
       ],
-      "value": "Hôpital général juif",
-      "lang": "fr"
+      "value": "Hôpital général juif"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Jewish General Hospital",
-      "lang": "en"
+      "value": "Jewish General Hospital"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Sir Mortimer B. Davis Jewish General Hospital",
-      "lang": "en"
+      "value": "Sir Mortimer B. Davis Jewish General Hospital"
     }
   ],
   "relationships": [

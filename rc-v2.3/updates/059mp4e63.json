@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 1949,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.459461.b"
       ],
-      "preferred": "grid.459461.b"
+      "preferred": "grid.459461.b",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12153734"
       ],
-      "preferred": "Q12153734"
+      "preferred": "Q12153734",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/059mp4e63",
@@ -42,7 +42,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 693468,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -53,24 +52,25 @@
         "lat": 48.84974,
         "lng": 37.59739,
         "name": "Sloviansk"
-      }
+      },
+      "geonames_id": 693468
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Donbas State Pedagogical University",
-      "lang": "en"
+      "value": "Donbas State Pedagogical University"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Донбаський державний педагогічний університет",
-      "lang": "uk"
+      "value": "Донбаський державний педагогічний університет"
     }
   ],
   "relationships": [],

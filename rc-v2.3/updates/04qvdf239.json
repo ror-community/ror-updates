@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 2006,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100006564"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.411743.4"
       ],
-      "preferred": "grid.411743.4"
+      "preferred": "grid.411743.4",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0369 8360"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q6085866"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04qvdf239",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 296562,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -67,38 +66,39 @@
         "lat": 39.82,
         "lng": 34.80444,
         "name": "Yozgat"
-      }
+      },
+      "geonames_id": 296562
     }
   ],
   "names": [
     {
+      "lang": "tr",
       "types": [
         "alias"
       ],
-      "value": "Bozok Universitesi",
-      "lang": "tr"
+      "value": "Bozok Universitesi"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Bozok University",
-      "lang": "en"
+      "value": "Bozok University"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Yozgat Bozok University",
-      "lang": "en"
+      "value": "Yozgat Bozok University"
     },
     {
+      "lang": "tr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Yozgat Bozok Üniversitesi",
-      "lang": "tr"
+      "value": "Yozgat Bozok Üniversitesi"
     }
   ],
   "relationships": [],

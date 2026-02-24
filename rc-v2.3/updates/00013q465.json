@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 1917,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100011871"
       ],
-      "preferred": "501100011871"
+      "preferred": "501100011871",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.440592.e"
       ],
-      "preferred": "grid.440592.e"
+      "preferred": "grid.440592.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2288 3308"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q200601"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00013q465",
@@ -54,7 +54,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3936456,
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
@@ -65,24 +64,32 @@
         "lat": -12.04318,
         "lng": -77.02824,
         "name": "Lima"
-      }
+      },
+      "geonames_id": 3936456
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "PUCP",
-      "lang": null
+      "value": "PUCP"
     },
     {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pontifical Catholic University of Peru"
+    },
+    {
+      "lang": "es",
       "types": [
         "label",
         "ror_display"
       ],
-      "value": "Pontificia Universidad Católica del Perú",
-      "lang": "es"
+      "value": "Pontificia Universidad Católica del Perú"
     }
   ],
   "relationships": [],

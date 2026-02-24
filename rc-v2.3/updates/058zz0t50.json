@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1978,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.454694.e"
       ],
-      "preferred": "grid.454694.e"
+      "preferred": "grid.454694.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0423 252X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q5020984"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/058zz0t50",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5289282,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,31 +59,32 @@
         "lat": 33.30616,
         "lng": -111.84125,
         "name": "Chandler"
-      }
+      },
+      "geonames_id": 5289282
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "California Southern University",
-      "lang": "en"
+      "value": "California Southern University"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SCUPS",
-      "lang": null
+      "value": "SCUPS"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Southern California University for Professional Studies",
-      "lang": "en"
+      "value": "Southern California University for Professional Studies"
     }
   ],
   "relationships": [],

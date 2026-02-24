@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 1969,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465852.8"
       ],
-      "preferred": "grid.465852.8"
+      "preferred": "grid.465852.8",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/0374drm04",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3175121,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -42,24 +41,25 @@
         "lat": 42.35055,
         "lng": 13.39954,
         "name": "L’Aquila"
-      }
+      },
+      "geonames_id": 3175121
     }
   ],
   "names": [
     {
+      "lang": "it",
       "types": [
         "acronym"
       ],
-      "value": "ABAQ",
-      "lang": "it"
+      "value": "ABAQ"
     },
     {
+      "lang": "it",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Accademia di Belle Arti dell'Aquila",
-      "lang": "it"
+      "value": "Accademia di Belle Arti dell'Aquila"
     }
   ],
   "relationships": [],

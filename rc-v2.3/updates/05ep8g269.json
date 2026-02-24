@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1997,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.16058.3a"
       ],
-      "preferred": "grid.16058.3a"
+      "preferred": "grid.16058.3a",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2325 2233"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q663984"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05ep8g269",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2659769,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,31 +59,32 @@
         "lat": 46.02885,
         "lng": 8.91824,
         "name": "Manno"
-      }
+      },
+      "geonames_id": 2659769
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SUPSI",
-      "lang": null
+      "value": "SUPSI"
     },
     {
+      "lang": "it",
       "types": [
         "label"
       ],
-      "value": "Scuola Universitaria Professionale della Svizzera Italiana",
-      "lang": "it"
+      "value": "Scuola Universitaria Professionale della Svizzera Italiana"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "University of Applied Sciences and Arts of Southern Switzerland",
-      "lang": "en"
+      "value": "University of Applied Sciences and Arts of Southern Switzerland"
     }
   ],
   "relationships": [

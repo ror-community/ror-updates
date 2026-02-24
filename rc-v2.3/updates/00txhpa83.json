@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1971,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.466095.8"
       ],
-      "preferred": "grid.466095.8"
+      "preferred": "grid.466095.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 4687 4408"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1245583"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00txhpa83",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2886242,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,38 +55,39 @@
         "lat": 50.93333,
         "lng": 6.95,
         "name": "Cologne"
-      }
+      },
+      "geonames_id": 2886242
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "RFH",
-      "lang": null
+      "value": "RFH"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "RFH - University of Applied Sciences Cologne",
-      "lang": "en"
+      "value": "RFH - University of Applied Sciences Cologne"
     },
     {
+      "lang": "de",
       "types": [
         "alias"
       ],
-      "value": "Rheinische Fachhochschule Köln",
-      "lang": "de"
+      "value": "Rheinische Fachhochschule Köln"
     },
     {
+      "lang": "de",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Rheinische Hochschule Köln",
-      "lang": "de"
+      "value": "Rheinische Hochschule Köln"
     }
   ],
   "relationships": [],

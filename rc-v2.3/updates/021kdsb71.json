@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1971,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.466375.5"
       ],
-      "preferred": "grid.466375.5"
+      "preferred": "grid.466375.5",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2108 415X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3578188"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/021kdsb71",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2980291,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,24 +55,25 @@
         "lat": 45.43389,
         "lng": 4.39,
         "name": "Saint-Etienne"
-      }
+      },
+      "geonames_id": 2980291
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ENSASE",
-      "lang": null
+      "value": "ENSASE"
     },
     {
+      "lang": "fr",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "École Nationale Supérieure d'Architecture de Saint-Étienne",
-      "lang": "fr"
+      "value": "École Nationale Supérieure d'Architecture de Saint-Étienne"
     }
   ],
   "relationships": [],

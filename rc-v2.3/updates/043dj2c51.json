@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 2002,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.493049.3"
       ],
-      "preferred": "grid.493049.3"
+      "preferred": "grid.493049.3",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/043dj2c51",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2070830,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -42,24 +41,25 @@
         "lat": -34.98079,
         "lng": 138.515,
         "name": "Glenelg"
-      }
+      },
+      "geonames_id": 2070830
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SARLAC",
-      "lang": null
+      "value": "SARLAC"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "South Australian Rock Lobster Advisory Council",
-      "lang": "en"
+      "value": "South Australian Rock Lobster Advisory Council"
     }
   ],
   "relationships": [],

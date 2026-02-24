@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1930,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.446053.0"
       ],
-      "preferred": "grid.446053.0"
+      "preferred": "grid.446053.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9736 9242"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q4186920"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04qst5w65",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 687700,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,59 +59,60 @@
         "lat": 47.85167,
         "lng": 35.11714,
         "name": "Zaporizhzhya"
-      }
+      },
+      "geonames_id": 687700
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ZNU",
-      "lang": null
+      "value": "ZNU"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Zaporizhzhia National University",
-      "lang": "en"
+      "value": "Zaporizhzhia National University"
     },
     {
-      "types": [
-        "alias"
-      ],
-      "value": "Zaporizhzhya National University",
-      "lang": "en"
-    },
-    {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Zaporizhzhya National University of the Ministry of Education, Youth and Sports of Ukraine",
-      "lang": "en"
+      "value": "Zaporizhzhya National University"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Zaporozhye State Pedagogical Institute",
-      "lang": "en"
+      "value": "Zaporizhzhya National University of the Ministry of Education, Youth and Sports of Ukraine"
     },
     {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Zaporozhye State Pedagogical Institute"
+    },
+    {
+      "lang": "ru",
       "types": [
         "label"
       ],
-      "value": "Запорожский национальный университет",
-      "lang": "ru"
+      "value": "Запорожский национальный университет"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Запорізький національний університет",
-      "lang": "uk"
+      "value": "Запорізький національний університет"
     }
   ],
   "relationships": [],

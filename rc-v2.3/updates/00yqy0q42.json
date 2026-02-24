@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2002,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100010408"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.478737.8"
       ],
-      "preferred": "grid.478737.8"
+      "preferred": "grid.478737.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0558 9088"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/00yqy0q42",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6183235,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -56,45 +55,46 @@
         "lat": 49.8844,
         "lng": -97.14704,
         "name": "Winnipeg"
-      }
+      },
+      "geonames_id": 6183235
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "DSM",
-      "lang": null
+      "value": "DSM"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Diagnostic Services Manitoba",
-      "lang": "en"
+      "value": "Diagnostic Services Manitoba"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Shared Health",
-      "lang": "en"
+      "value": "Shared Health"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Shared Health Manitoba",
-      "lang": "en"
+      "value": "Shared Health Manitoba"
     },
     {
+      "lang": "fr",
       "types": [
         "label"
       ],
-      "value": "Soins communs",
-      "lang": "fr"
+      "value": "Soins communs"
     }
   ],
   "relationships": [],

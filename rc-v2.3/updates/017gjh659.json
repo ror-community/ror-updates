@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.490690.2"
       ],
-      "preferred": "grid.490690.2"
+      "preferred": "grid.490690.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0682 106X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12002700"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/017gjh659",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3143244,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,52 +59,53 @@
         "lat": 59.91273,
         "lng": 10.74609,
         "name": "Oslo"
-      }
+      },
+      "geonames_id": 3143244
     }
   ],
   "names": [
     {
+      "lang": "no",
       "types": [
         "acronym"
       ],
-      "value": "DMP",
-      "lang": "no"
+      "value": "DMP"
     },
     {
+      "lang": "no",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Direktoratet for medisinske produkter",
-      "lang": "no"
+      "value": "Direktoratet for medisinske produkter"
     },
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "NOMA",
-      "lang": "en"
+      "value": "NOMA"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Norwegian Medical Products Agency",
-      "lang": "en"
+      "value": "Norwegian Medical Products Agency"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Norwegian Medicines Agency",
-      "lang": "en"
+      "value": "Norwegian Medicines Agency"
     },
     {
+      "lang": "no",
       "types": [
         "alias"
       ],
-      "value": "Statens Legemiddelverk",
-      "lang": "no"
+      "value": "Statens Legemiddelverk"
     }
   ],
   "relationships": [],

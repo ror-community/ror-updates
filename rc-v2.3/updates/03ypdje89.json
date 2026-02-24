@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 2004,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100008895"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.420703.2"
       ],
-      "preferred": "grid.420703.2"
+      "preferred": "grid.420703.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2152 7731"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q30282707"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03ypdje89",
@@ -50,7 +50,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6077243,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -61,24 +60,25 @@
         "lat": 45.50884,
         "lng": -73.58781,
         "name": "Montreal"
-      }
+      },
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CSSS",
-      "lang": null
+      "value": "CSSS"
     },
     {
+      "lang": "fr",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Centre de Santé et de Services Sociaux Cavendish",
-      "lang": "fr"
+      "value": "Centre de Santé et de Services Sociaux Cavendish"
     }
   ],
   "relationships": [],

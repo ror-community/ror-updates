@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 2003,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.493014.b"
       ],
-      "preferred": "grid.493014.b"
+      "preferred": "grid.493014.b",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/047hbnr51",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2174933,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -42,31 +41,32 @@
         "lat": -27.08367,
         "lng": 153.15942,
         "name": "Bongaree"
-      }
+      },
+      "geonames_id": 2174933
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "DigsFish Services",
-      "lang": "en"
+      "value": "DigsFish Services"
     },
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "DigsFish Services (Australia)",
-      "lang": null
+      "value": "DigsFish Services (Australia)"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "DigsFish Services Pty Ltd",
-      "lang": "en"
+      "value": "DigsFish Services Pty Ltd"
     }
   ],
   "relationships": [],

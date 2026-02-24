@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 1967,
   "external_ids": [
     {
-      "type": "wikidata",
       "all": [
         "Q48837331"
       ],
-      "preferred": "Q48837331"
+      "preferred": "Q48837331",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/011ywze69",
@@ -35,7 +35,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3169070,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -46,38 +45,39 @@
         "lat": 41.89193,
         "lng": 12.51133,
         "name": "Rome"
-      }
+      },
+      "geonames_id": 3169070
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Roman Society of Natural Science",
-      "lang": "en"
+      "value": "Roman Society of Natural Science"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SRSN",
-      "lang": null
+      "value": "SRSN"
     },
     {
+      "lang": "it",
       "types": [
         "alias"
       ],
-      "value": "Società Romana di Scienze Naturali",
-      "lang": "it"
+      "value": "Società Romana di Scienze Naturali"
     },
     {
+      "lang": "it",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Società Romana di Scienze Naturali ETS",
-      "lang": "it"
+      "value": "Società Romana di Scienze Naturali ETS"
     }
   ],
   "relationships": [],

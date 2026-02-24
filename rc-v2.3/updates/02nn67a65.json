@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1998,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.440861.f"
       ],
-      "preferred": "grid.440861.f"
+      "preferred": "grid.440861.f",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1762 5306"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q6156697"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02nn67a65",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3660689,
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
@@ -56,31 +55,32 @@
         "lat": -1.24908,
         "lng": -78.61675,
         "name": "Ambato"
-      }
+      },
+      "geonames_id": 3660689
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UTI",
-      "lang": null
+      "value": "UTI"
     },
     {
+      "lang": "es",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Universidad Indoamérica",
-      "lang": "es"
+      "value": "Universidad Indoamérica"
     },
     {
+      "lang": "es",
       "types": [
         "alias"
       ],
-      "value": "Universidad Tecnológica Indoamérica",
-      "lang": "es"
+      "value": "Universidad Tecnológica Indoamérica"
     }
   ],
   "relationships": [],

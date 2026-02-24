@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1959,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001403"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.417965.8"
       ],
-      "preferred": "grid.417965.8"
+      "preferred": "grid.417965.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8702 0100"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q782682"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05pjsgx75",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1267995,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -67,73 +66,74 @@
         "lat": 26.46523,
         "lng": 80.34975,
         "name": "Kanpur"
-      }
+      },
+      "geonames_id": 1267995
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "alias"
       ],
-      "value": "IIT Kanpur",
-      "lang": null
+      "value": "IIT Kanpur"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "IITK",
-      "lang": null
+      "value": "IITK"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Indian Institute of Technology Kanpur",
-      "lang": "en"
+      "value": "Indian Institute of Technology Kanpur"
     },
     {
+      "lang": "fr",
       "types": [
         "label"
       ],
-      "value": "Institut indien de technologie de kanpur",
-      "lang": "fr"
+      "value": "Institut indien de technologie de kanpur"
     },
     {
+      "lang": "mr",
       "types": [
         "label"
       ],
-      "value": "भारतीय तंत्रज्ञान संस्था, कानपूर",
-      "lang": "mr"
+      "value": "भारतीय तंत्रज्ञान संस्था, कानपूर"
     },
     {
+      "lang": "hi",
       "types": [
         "label"
       ],
-      "value": "भारतीय प्रौद्योगिकी संस्थान कानपुर",
-      "lang": "hi"
+      "value": "भारतीय प्रौद्योगिकी संस्थान कानपुर"
     },
     {
+      "lang": "bn",
       "types": [
         "label"
       ],
-      "value": "আইআইটি কানপুর",
-      "lang": "bn"
+      "value": "আইআইটি কানপুর"
     },
     {
+      "lang": "ta",
       "types": [
         "label"
       ],
-      "value": "இந்திய தொழில்நுட்பக் கழகம் கான்பூர்",
-      "lang": "ta"
+      "value": "இந்திய தொழில்நுட்பக் கழகம் கான்பூர்"
     },
     {
+      "lang": "ml",
       "types": [
         "label"
       ],
-      "value": "ഇന്ത്യൻ ഇൻസ്റ്റിറ്റ്യൂട്ട് ഓഫ് ടെക്നോളജി കാൺപൂർ",
-      "lang": "ml"
+      "value": "ഇന്ത്യൻ ഇൻസ്റ്റിറ്റ്യൂട്ട് ഓഫ് ടെക്നോളജി കാൺപൂർ"
     }
   ],
   "relationships": [],

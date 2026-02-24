@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2010,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100016981"
       ],
-      "preferred": "501100016981"
+      "preferred": "501100016981",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.411124.3"
       ],
-      "preferred": "grid.411124.3"
+      "preferred": "grid.411124.3",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1769 6008"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/013s3zh21",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 306571,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -56,31 +55,32 @@
         "lat": 37.87135,
         "lng": 32.48464,
         "name": "Konya"
-      }
+      },
+      "geonames_id": 306571
     }
   ],
   "names": [
     {
+      "lang": "tr",
       "types": [
         "alias"
       ],
-      "value": "Konya Üniversitesi",
-      "lang": "tr"
+      "value": "Konya Üniversitesi"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Necmettin Erbakan University",
-      "lang": "en"
+      "value": "Necmettin Erbakan University"
     },
     {
+      "lang": "tr",
       "types": [
         "label"
       ],
-      "value": "Necmettin Erbakan Üniversitesi",
-      "lang": "tr"
+      "value": "Necmettin Erbakan Üniversitesi"
     }
   ],
   "relationships": [],

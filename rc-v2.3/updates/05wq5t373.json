@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1946,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100010403"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.478339.2"
       ],
-      "preferred": "grid.478339.2"
+      "preferred": "grid.478339.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0632 468X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/05wq5t373",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2154912,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -60,24 +59,25 @@
         "lat": -37.79798,
         "lng": 144.94512,
         "name": "North Melbourne"
-      }
+      },
+      "geonames_id": 2154912
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "AASW",
-      "lang": null
+      "value": "AASW"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Australian Association of Social Workers",
-      "lang": "en"
+      "value": "Australian Association of Social Workers"
     }
   ],
   "relationships": [],

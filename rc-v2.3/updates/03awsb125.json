@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 2009,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100013483"
       ],
-      "preferred": "100013483"
+      "preferred": "100013483",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.440486.a"
       ],
-      "preferred": "grid.440486.a"
+      "preferred": "grid.440486.a",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8958 011X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q4898241"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03awsb125",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2656397,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -67,24 +66,25 @@
         "lat": 53.22752,
         "lng": -4.12936,
         "name": "Bangor"
-      }
+      },
+      "geonames_id": 2656397
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Betsi Cadwaladr University Health Board",
-      "lang": "en"
+      "value": "Betsi Cadwaladr University Health Board"
     },
     {
+      "lang": "cy",
       "types": [
         "label"
       ],
-      "value": "Bwrdd Iechyd Prifysgol Betsi Cadwaladr",
-      "lang": "cy"
+      "value": "Bwrdd Iechyd Prifysgol Betsi Cadwaladr"
     }
   ],
   "relationships": [

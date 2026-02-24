@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 1977,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.437425.3"
       ],
-      "preferred": "grid.437425.3"
+      "preferred": "grid.437425.3",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2270 9668"
       ],
-      "preferred": "0000 0001 2270 9668"
+      "preferred": "0000 0001 2270 9668",
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/034t1zf11",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2995469,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -49,17 +48,18 @@
         "lat": 43.29695,
         "lng": 5.38107,
         "name": "Marseille"
-      }
+      },
+      "geonames_id": 2995469
     }
   ],
   "names": [
     {
+      "lang": "fr",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Plan Bleu",
-      "lang": "fr"
+      "value": "Plan Bleu"
     }
   ],
   "relationships": [],

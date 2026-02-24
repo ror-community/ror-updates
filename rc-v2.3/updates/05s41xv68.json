@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 1964,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.512659.c"
       ],
-      "preferred": "grid.512659.c"
+      "preferred": "grid.512659.c",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12074669"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05s41xv68",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 702550,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -49,44 +48,45 @@
         "lat": 49.83826,
         "lng": 24.02324,
         "name": "Lviv"
-      }
+      },
+      "geonames_id": 702550
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Dolishniy Institute of Regional Research of NAS of Ukraine",
-      "lang": "en"
+      "value": "Dolishniy Institute of Regional Research of NAS of Ukraine"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Dolishniy Institute of Regional Research of the National Academy of Sciences of Ukraine of Ukraine",
-      "lang": "en"
+      "value": "Dolishniy Institute of Regional Research of the National Academy of Sciences of Ukraine of Ukraine"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Інститут регіональних досліджень ім. М. І. Долішнього НАН України",
-      "lang": "uk"
+      "value": "Інститут регіональних досліджень ім. М. І. Долішнього НАН України"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "Інститут регіональних досліджень ім. М. І. Долішнього НАН УкраїниІнститут регіональних досліджень ім. М. І. Долішнього НАН України",
-      "lang": "uk"
+      "value": "Інститут регіональних досліджень ім. М. І. Долішнього НАН УкраїниІнститут регіональних досліджень ім. М. І. Долішнього НАН України"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "National Academy of Sciences of Ukraine",
+      "type": "parent",
       "id": "https://ror.org/00je4t102"
     }
   ],

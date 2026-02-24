@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 1996,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.476537.4"
       ],
-      "preferred": "grid.476537.4"
+      "preferred": "grid.476537.4",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0489 7871"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/01psm3828",
@@ -40,7 +40,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 293397,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -51,23 +50,24 @@
         "lat": 32.08088,
         "lng": 34.78057,
         "name": "Tel Aviv"
-      }
+      },
+      "geonames_id": 293397
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Novartis (Israel)",
-      "lang": null
+      "value": "Novartis (Israel)"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Novartis (Switzerland)",
+      "type": "parent",
       "id": "https://ror.org/02f9zrr09"
     }
   ],

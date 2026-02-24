@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1955,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100007733"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.467159.8"
       ],
-      "preferred": "grid.467159.8"
+      "preferred": "grid.467159.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 4654 8784"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/02q931085",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5385941,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -54,24 +53,25 @@
         "lat": 38.58907,
         "lng": -121.30273,
         "name": "Rancho Cordova"
-      }
+      },
+      "geonames_id": 5385941
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "AFC",
-      "lang": null
+      "value": "AFC"
     },
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "AMPAC Fine Chemicals (United States)",
-      "lang": null
+      "value": "AMPAC Fine Chemicals (United States)"
     }
   ],
   "relationships": [],

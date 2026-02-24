@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1804,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.445512.3"
       ],
-      "preferred": "grid.445512.3"
+      "preferred": "grid.445512.3",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 6091 1068"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q56803"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00gjv5s24",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 706483,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -55,41 +54,42 @@
         "country_name": "Ukraine",
         "country_subdivision_code": "63",
         "country_subdivision_name": "Kharkivs’ka Oblast’",
-        "lat": 49.98081,
-        "lng": 36.25272,
+        "lat": 49.98177,
+        "lng": 36.25475,
         "name": "Kharkiv"
-      }
+      },
+      "geonames_id": 706483
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "H.S. Skovoroda Kharkiv National Pedagogical University",
-      "lang": "en"
+      "value": "H.S. Skovoroda Kharkiv National Pedagogical University"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "ХНПУ імені Г.С. Сковороди",
-      "lang": "uk"
+      "value": "ХНПУ імені Г.С. Сковороди"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Харківський національний педагогічний університет імені Г.С. Сковороди",
-      "lang": "uk"
+      "value": "Харківський національний педагогічний університет імені Г.С. Сковороди"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "Харківський національний педагогічний університет імені Григорія Сковороди",
-      "lang": "uk"
+      "value": "Харківський національний педагогічний університет імені Григорія Сковороди"
     }
   ],
   "relationships": [],

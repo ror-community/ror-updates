@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1980,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100002343"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.416702.6"
       ],
-      "preferred": "grid.416702.6"
+      "preferred": "grid.416702.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2186 6071"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3152075"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04e4jbv10",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6077243,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -67,38 +66,39 @@
         "lat": 45.50884,
         "lng": -73.58781,
         "name": "Montreal"
-      }
+      },
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "IRSST",
-      "lang": null
+      "value": "IRSST"
     },
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Institut de recherche Robert-Sauve",
-      "lang": "fr"
+      "value": "Institut de recherche Robert-Sauve"
     },
     {
+      "lang": "fr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Institut de recherche Robert-Sauvé en santé et en sécurité du travail",
-      "lang": "fr"
+      "value": "Institut de recherche Robert-Sauvé en santé et en sécurité du travail"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Robert Sauvé Occupational Health and Safety Research Institute",
-      "lang": "en"
+      "value": "Robert Sauvé Occupational Health and Safety Research Institute"
     }
   ],
   "relationships": [],

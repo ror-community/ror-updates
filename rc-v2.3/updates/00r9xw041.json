@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1985,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100004200"
       ],
-      "preferred": "501100004200"
+      "preferred": "501100004200",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.484551.9"
       ],
-      "preferred": "grid.484551.9"
+      "preferred": "grid.484551.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 5899 938X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/00r9xw041",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2673730,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -54,17 +53,18 @@
         "lat": 59.32938,
         "lng": 18.06871,
         "name": "Stockholm"
-      }
+      },
+      "geonames_id": 2673730
     }
   ],
   "names": [
     {
+      "lang": "sv",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Stiftelsen Olle Engkvist Byggmästare",
-      "lang": "sv"
+      "value": "Stiftelsen Olle Engkvist Byggmästare"
     }
   ],
   "relationships": [],

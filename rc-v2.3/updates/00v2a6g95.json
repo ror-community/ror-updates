@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1984,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100005581"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.453856.9"
       ],
-      "preferred": "grid.453856.9"
+      "preferred": "grid.453856.9",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1861089"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00v2a6g95",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5409260,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -58,24 +57,25 @@
         "lat": 33.59891,
         "lng": -117.28004,
         "name": "Wildomar"
-      }
+      },
+      "geonames_id": 5409260
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "CPC",
-      "lang": null
+      "value": "CPC"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Center for Plant Conservation",
-      "lang": "en"
+      "value": "Center for Plant Conservation"
     }
   ],
   "relationships": [],

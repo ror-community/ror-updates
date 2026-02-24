@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 2009,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001189"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.468059.6"
       ],
-      "preferred": "grid.468059.6"
+      "preferred": "grid.468059.6",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q5260183"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03dmtvy82",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2172517,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -58,30 +57,31 @@
         "lat": -35.28346,
         "lng": 149.12807,
         "name": "Canberra"
-      }
+      },
+      "geonames_id": 2172517
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Department of Commerce",
-      "lang": "en"
+      "value": "Department of Commerce"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Department of Consumer and Employment Protection",
-      "lang": "en"
+      "value": "Department of Consumer and Employment Protection"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Government of Western Australia",
+      "type": "parent",
       "id": "https://ror.org/00wqdbc63"
     }
   ],

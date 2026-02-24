@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1993,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.445591.8"
       ],
-      "preferred": "grid.445591.8"
+      "preferred": "grid.445591.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2180 5981"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q9380819"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00rq40n03",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 756135,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,59 +55,60 @@
         "lat": 52.22977,
         "lng": 21.01178,
         "name": "Warsaw"
-      }
+      },
+      "geonames_id": 756135
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Janusz Korczak Pedagogical University in Warsaw",
-      "lang": "en"
+      "value": "Janusz Korczak Pedagogical University in Warsaw"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Korczak University",
-      "lang": "en"
+      "value": "Korczak University"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Korczak University – Academy of Applied Sciences",
-      "lang": "en"
+      "value": "Korczak University – Academy of Applied Sciences"
     },
     {
+      "lang": "pl",
       "types": [
         "alias"
       ],
-      "value": "Uczelnia Korczaka",
-      "lang": "pl"
+      "value": "Uczelnia Korczaka"
     },
     {
+      "lang": "pl",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Uczelnia Korczaka – Akademia Nauk Stosowanych",
-      "lang": "pl"
+      "value": "Uczelnia Korczaka – Akademia Nauk Stosowanych"
     },
     {
-      "types": [
-        "alias"
-      ],
-      "value": "Wyższa Szkoła Pedagogiczna Towarzystwa Wiedzy Powszechnej w Warszawie",
-      "lang": "pl"
-    },
-    {
+      "lang": "pl",
       "types": [
         "alias"
       ],
-      "value": "Wyższa Szkoła Pedagogiczna im. Janusza Korczaka w Warszawie",
-      "lang": "pl"
+      "value": "Wyższa Szkoła Pedagogiczna Towarzystwa Wiedzy Powszechnej w Warszawie"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "alias"
+      ],
+      "value": "Wyższa Szkoła Pedagogiczna im. Janusza Korczaka w Warszawie"
     }
   ],
   "relationships": [],

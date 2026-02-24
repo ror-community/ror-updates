@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 1986,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.446267.5"
       ],
-      "preferred": "grid.446267.5"
+      "preferred": "grid.446267.5",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12139846"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01p07y544",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 703448,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -47,38 +46,39 @@
         "lat": 50.45466,
         "lng": 30.5238,
         "name": "Kyiv"
-      }
+      },
+      "geonames_id": 703448
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "HSUP",
-      "lang": null
+      "value": "HSUP"
     },
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Hryhorii Skovoroda University in Pereiaslav",
-      "lang": null
+      "value": "Hryhorii Skovoroda University in Pereiaslav"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "Переяслав-Хмельницький державний педагогічний університет імені Григорія Сковороди",
-      "lang": "uk"
+      "value": "Переяслав-Хмельницький державний педагогічний університет імені Григорія Сковороди"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Університет Григорія Сковороди в Переяславі",
-      "lang": "uk"
+      "value": "Університет Григорія Сковороди в Переяславі"
     }
   ],
   "relationships": [],

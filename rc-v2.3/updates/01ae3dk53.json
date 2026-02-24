@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1967,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100022436"
       ],
-      "preferred": "501100022436"
+      "preferred": "501100022436",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.474146.4"
       ],
-      "preferred": "grid.474146.4"
+      "preferred": "grid.474146.4",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0665 0803"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q6974770"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01ae3dk53",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2147714,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -67,31 +66,32 @@
         "lat": -33.86785,
         "lng": 151.20732,
         "name": "Sydney"
-      }
+      },
+      "geonames_id": 2147714
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "NPWS",
-      "lang": null
+      "value": "NPWS"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "NSW National Parks and Wildlife Service",
-      "lang": "en"
+      "value": "NSW National Parks and Wildlife Service"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "National Parks and Wildlife Service",
-      "lang": "en"
+      "value": "National Parks and Wildlife Service"
     }
   ],
   "relationships": [],

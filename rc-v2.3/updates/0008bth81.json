@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2013,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.493023.f"
       ],
-      "preferred": "grid.493023.f"
+      "preferred": "grid.493023.f",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q50039917"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/0008bth81",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2158177,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -49,17 +48,18 @@
         "lat": -37.814,
         "lng": 144.96332,
         "name": "Melbourne"
-      }
+      },
+      "geonames_id": 2158177
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Mezo Research (Australia)",
-      "lang": null
+      "value": "Mezo Research (Australia)"
     }
   ],
   "relationships": [],

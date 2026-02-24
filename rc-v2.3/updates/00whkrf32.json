@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100000082"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.457801.f"
       ],
-      "preferred": "grid.457801.f"
+      "preferred": "grid.457801.f",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/00whkrf32",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 4744091,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -47,24 +46,25 @@
         "lat": 38.80484,
         "lng": -77.04692,
         "name": "Alexandria"
-      }
+      },
+      "geonames_id": 4744091
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Division of Graduate Education",
-      "lang": "en"
+      "value": "Division of Graduate Education"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "NSF DGE",
-      "lang": null
+      "value": "NSF DGE"
     }
   ],
   "relationships": [

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 1879,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.413268.a"
       ],
-      "preferred": "grid.413268.a"
+      "preferred": "grid.413268.a",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q5025477"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00j8ram51",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2657540,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -47,17 +46,18 @@
         "lat": 51.24827,
         "lng": -0.76389,
         "name": "Aldershot"
-      }
+      },
+      "geonames_id": 2657540
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Cambridge Military Hospital",
-      "lang": "en"
+      "value": "Cambridge Military Hospital"
     }
   ],
   "relationships": [],

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.431749.c"
       ],
-      "preferred": "grid.431749.c"
+      "preferred": "grid.431749.c",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0605 4587"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q30289645"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03qraer96",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6174041,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -54,38 +53,39 @@
         "lat": 48.4359,
         "lng": -123.35155,
         "name": "Victoria"
-      }
+      },
+      "geonames_id": 6174041
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "COPPUL",
-      "lang": null
+      "value": "COPPUL"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "COPUL",
-      "lang": null
+      "value": "COPUL"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Council of Prairie UniversityLibraries",
-      "lang": "en"
+      "value": "Council of Prairie UniversityLibraries"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Council of Prairie and Pacific University Libraries",
-      "lang": "en"
+      "value": "Council of Prairie and Pacific University Libraries"
     }
   ],
   "relationships": [],

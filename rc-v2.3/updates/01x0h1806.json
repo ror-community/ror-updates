@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1991,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001149"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.468620.e"
       ],
-      "preferred": "grid.468620.e"
+      "preferred": "grid.468620.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0643 9938"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q844329"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01x0h1806",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2147714,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -67,24 +66,25 @@
         "lat": -33.86785,
         "lng": 151.20732,
         "name": "Sydney"
-      }
+      },
+      "geonames_id": 2147714
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ANMM",
-      "lang": null
+      "value": "ANMM"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Australian National Maritime Museum",
-      "lang": "en"
+      "value": "Australian National Maritime Museum"
     }
   ],
   "relationships": [

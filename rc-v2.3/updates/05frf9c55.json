@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 1989,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.420016.1"
       ],
-      "preferred": "grid.420016.1"
+      "preferred": "grid.420016.1",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/05frf9c55",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2173739,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -42,24 +41,25 @@
         "lat": -37.77255,
         "lng": 144.97241,
         "name": "Brunswick East"
-      }
+      },
+      "geonames_id": 2173739
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "MCMC",
-      "lang": null
+      "value": "MCMC"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Merri Creek Management Committee",
-      "lang": "en"
+      "value": "Merri Creek Management Committee"
     }
   ],
   "relationships": [],

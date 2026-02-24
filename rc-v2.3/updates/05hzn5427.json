@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 1962,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100017533"
       ],
-      "preferred": "100017533"
+      "preferred": "100017533",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.444848.0"
       ],
-      "preferred": "grid.444848.0"
+      "preferred": "grid.444848.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 4911 9563"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q10829131"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05hzn5427",
@@ -54,63 +54,63 @@
   ],
   "locations": [
     {
-      "geonames_id": 1566083,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
         "country_code": "VN",
         "country_name": "Vietnam",
-        "country_subdivision_code": "SG",
-        "country_subdivision_name": "Ho Chi Minh",
+        "country_subdivision_code": "61",
+        "country_subdivision_name": "Ho Chi Minh City (HCMC)",
         "lat": 10.82302,
         "lng": 106.62965,
         "name": "Ho Chi Minh City"
-      }
+      },
+      "geonames_id": 1566083
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "HCMC University of Technology and Education",
-      "lang": "en"
+      "value": "HCMC University of Technology and Education"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "HCMUTE",
-      "lang": null
+      "value": "HCMUTE"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Ho Chi Minh City University of Technology and Education",
-      "lang": "en"
+      "value": "Ho Chi Minh City University of Technology and Education"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
+        "label",
+        "ror_display"
+      ],
+      "value": "Ho Chi Minh City University of Technology and Engineering"
+    },
+    {
+      "lang": "vi",
+      "types": [
         "label"
       ],
-      "value": "Ho Chi Minh City University of Technology and Engineering",
-      "lang": "en"
+      "value": "Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh"
     },
     {
-      "types": [
-        "label"
-      ],
-      "value": "Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh",
-      "lang": "vi"
-    },
-    {
+      "lang": "vi",
       "types": [
         "alias"
       ],
-      "value": "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh",
-      "lang": "vi"
+      "value": "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh"
     }
   ],
   "relationships": [],

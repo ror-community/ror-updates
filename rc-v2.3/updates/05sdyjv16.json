@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1999,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100014435"
       ],
-      "preferred": "501100014435"
+      "preferred": "501100014435",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.440603.5"
       ],
-      "preferred": "grid.440603.5"
+      "preferred": "grid.440603.5",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2301 5211"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1416331"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05sdyjv16",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 756135,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -67,38 +66,39 @@
         "lat": 52.22977,
         "lng": 21.01178,
         "name": "Warsaw"
-      }
+      },
+      "geonames_id": 756135
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Cardinal Stefan Wyszynski University in Warsaw",
-      "lang": "en"
+      "value": "Cardinal Stefan Wyszynski University in Warsaw"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Cardinal Stefan Wyszyński University in Warsaw",
-      "lang": "en"
+      "value": "Cardinal Stefan Wyszyński University in Warsaw"
     },
     {
+      "lang": "pl",
       "types": [
         "acronym"
       ],
-      "value": "UKSW",
-      "lang": "pl"
+      "value": "UKSW"
     },
     {
+      "lang": "pl",
       "types": [
         "label"
       ],
-      "value": "Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie",
-      "lang": "pl"
+      "value": "Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie"
     }
   ],
   "relationships": [

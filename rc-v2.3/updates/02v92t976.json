@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.440346.1"
       ],
-      "preferred": "grid.440346.1"
+      "preferred": "grid.440346.1",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0628 2838"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/02v92t976",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 649360,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -49,17 +48,18 @@
         "lat": 60.98267,
         "lng": 25.66151,
         "name": "Lahti"
-      }
+      },
+      "geonames_id": 649360
     }
   ],
   "names": [
     {
+      "lang": "fi",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Päijät-Hämeen Keskussairaala",
-      "lang": "fi"
+      "value": "Päijät-Hämeen Keskussairaala"
     }
   ],
   "relationships": [],

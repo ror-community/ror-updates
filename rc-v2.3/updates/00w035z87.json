@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 1905,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.475503.0"
       ],
-      "preferred": "grid.475503.0"
+      "preferred": "grid.475503.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8523 8210"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/00w035z87",
@@ -40,7 +40,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5750162,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -51,31 +50,32 @@
         "lat": 44.9429,
         "lng": -123.0351,
         "name": "Salem"
-      }
+      },
+      "geonames_id": 5750162
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Oregon Library Commission",
-      "lang": "en"
+      "value": "Oregon Library Commission"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Oregon State Library",
-      "lang": "en"
+      "value": "Oregon State Library"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "State Library of Oregon",
-      "lang": "en"
+      "value": "State Library of Oregon"
     }
   ],
   "relationships": [],

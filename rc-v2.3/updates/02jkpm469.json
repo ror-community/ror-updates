@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,26 +15,26 @@
   "established": 2018,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100012041",
         "501100000341"
       ],
-      "preferred": "501100012041"
+      "preferred": "501100012041",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.507369.e"
       ],
-      "preferred": "grid.507369.e"
+      "preferred": "grid.507369.e",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q4797635"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02jkpm469",
@@ -50,7 +50,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2643743,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -61,24 +60,25 @@
         "lat": 51.50853,
         "lng": -0.12574,
         "name": "London"
-      }
+      },
+      "geonames_id": 2643743
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Arthritis UK",
-      "lang": "en"
+      "value": "Arthritis UK"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Versus Arthritis",
-      "lang": "en"
+      "value": "Versus Arthritis"
     }
   ],
   "relationships": [

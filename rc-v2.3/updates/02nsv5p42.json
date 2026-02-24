@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 2007,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.449189.9"
       ],
-      "preferred": "grid.449189.9"
+      "preferred": "grid.449189.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1756 5243"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7130652"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02nsv5p42",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1271715,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -58,52 +57,53 @@
         "lat": 23.21667,
         "lng": 72.68333,
         "name": "Gandhinagar"
-      }
+      },
+      "geonames_id": 1271715
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "PDEU",
-      "lang": "en"
+      "value": "PDEU"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "PDPU",
-      "lang": null
+      "value": "PDPU"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Pandit Deendayal Energy University",
-      "lang": "en"
+      "value": "Pandit Deendayal Energy University"
     },
     {
-      "types": [
-        "alias"
-      ],
-      "value": "Pandit Deendayal Petroleum University",
-      "lang": "en"
-    },
-    {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "पंडित दीनदयाल पेट्रोलियम यूनिवर्सिटी",
-      "lang": "hi"
+      "value": "Pandit Deendayal Petroleum University"
     },
     {
+      "lang": "hi",
       "types": [
         "alias"
       ],
-      "value": "પંડિત દીનદયાળ પેટ્રોલિયમ યુનિવર્સિટી",
-      "lang": "gu"
+      "value": "पंडित दीनदयाल पेट्रोलियम यूनिवर्सिटी"
+    },
+    {
+      "lang": "gu",
+      "types": [
+        "alias"
+      ],
+      "value": "પંડિત દીનદયાળ પેટ્રોલિયમ યુનિવર્સિટી"
     }
   ],
   "relationships": [],

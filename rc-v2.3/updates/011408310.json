@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 1955,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.435063.7"
       ],
-      "preferred": "grid.435063.7"
+      "preferred": "grid.435063.7",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/011408310",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 706483,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -39,68 +38,69 @@
         "country_name": "Ukraine",
         "country_subdivision_code": "63",
         "country_subdivision_name": "Kharkivs’ka Oblast’",
-        "lat": 49.98081,
-        "lng": 36.25272,
+        "lat": 49.98177,
+        "lng": 36.25475,
         "name": "Kharkiv"
-      }
+      },
+      "geonames_id": 706483
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Institute for Single Crystals of National Academy of Sciences of Ukraine",
-      "lang": "en"
+      "value": "Institute for Single Crystals of National Academy of Sciences of Ukraine"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Institute for Single Crystals of the NAS of Ukraine",
-      "lang": "en"
+      "value": "Institute for Single Crystals of the NAS of Ukraine"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "SSI Institute for Single Crystals of the NAS of Ukraine",
-      "lang": "en"
+      "value": "SSI Institute for Single Crystals of the NAS of Ukraine"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
+        "label",
+        "ror_display"
+      ],
+      "value": "State Scientific Institution “Institute for Single Crystals” of National Academy of Sciences of Ukraine"
+    },
+    {
+      "lang": "uk",
+      "types": [
+        "alias"
+      ],
+      "value": "Інститут монокристалів"
+    },
+    {
+      "lang": "uk",
+      "types": [
         "label"
       ],
-      "value": "State Scientific Institution “Institute for Single Crystals” of National Academy of Sciences of Ukraine",
-      "lang": "en"
+      "value": "Науково-технологічний комплекс “Інститут монокристалів” Національної академії наук України"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "Інститут монокристалів",
-      "lang": "uk"
-    },
-    {
-      "types": [
-        "label"
-      ],
-      "value": "Науково-технологічний комплекс “Інститут монокристалів” Національної академії наук України",
-      "lang": "uk"
-    },
-    {
-      "types": [
-        "alias"
-      ],
-      "value": "“Інститут монокристалів” Національної академії наук України",
-      "lang": "uk"
+      "value": "“Інститут монокристалів” Національної академії наук України"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "National Academy of Sciences of Ukraine",
+      "type": "parent",
       "id": "https://ror.org/00je4t102"
     }
   ],

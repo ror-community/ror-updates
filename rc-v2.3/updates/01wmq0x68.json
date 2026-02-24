@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2008,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465842.9"
       ],
-      "preferred": "grid.465842.9"
+      "preferred": "grid.465842.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0475 140X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/01wmq0x68",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 745044,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -49,38 +48,39 @@
         "lat": 41.01384,
         "lng": 28.94966,
         "name": "Istanbul"
-      }
+      },
+      "geonames_id": 745044
     }
   ],
   "names": [
     {
+      "lang": "tr",
       "types": [
         "alias"
       ],
-      "value": "Beykoz Lojistik Meslek Yüksekokulu",
-      "lang": "tr"
+      "value": "Beykoz Lojistik Meslek Yüksekokulu"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Beykoz University",
-      "lang": "en"
+      "value": "Beykoz University"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Beykoz Vocational School of Logistics",
-      "lang": "en"
+      "value": "Beykoz Vocational School of Logistics"
     },
     {
+      "lang": "tr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Beykoz Üniversitesi",
-      "lang": "tr"
+      "value": "Beykoz Üniversitesi"
     }
   ],
   "relationships": [],

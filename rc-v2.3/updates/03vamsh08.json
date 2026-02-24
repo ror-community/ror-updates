@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,26 +13,26 @@
   "established": 2007,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100009213",
         "100009214"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.412907.9"
       ],
-      "preferred": "grid.412907.9"
+      "preferred": "grid.412907.9",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7894770"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03vamsh08",
@@ -48,7 +48,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2651513,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -59,58 +58,59 @@
         "lat": 54.52429,
         "lng": -1.55039,
         "name": "Darlington"
-      }
+      },
+      "geonames_id": 2651513
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "County Durham and Darlington NHS Foundation Trust",
-      "lang": "en"
+      "value": "County Durham and Darlington NHS Foundation Trust"
     }
   ],
   "relationships": [
     {
-      "type": "child",
       "label": "Bishop Auckland Hospital",
+      "type": "child",
       "id": "https://ror.org/0457avm18"
     },
     {
-      "type": "child",
       "label": "Chester le Street Community Hospital",
+      "type": "child",
       "id": "https://ror.org/01j9fyk40"
     },
     {
-      "type": "child",
       "label": "Darlington Memorial Hospital",
+      "type": "child",
       "id": "https://ror.org/00vwfb160"
     },
     {
-      "type": "child",
       "label": "Hundens Lane Day Hospital",
+      "type": "child",
       "id": "https://ror.org/051s9as34"
     },
     {
-      "type": "child",
       "label": "Richardson Hospital",
+      "type": "child",
       "id": "https://ror.org/02pc4ce72"
     },
     {
-      "type": "child",
       "label": "Sedgefield Community Hospital",
+      "type": "child",
       "id": "https://ror.org/01d97fd71"
     },
     {
-      "type": "child",
       "label": "Shotley Bridge Hospital",
+      "type": "child",
       "id": "https://ror.org/02q97rh88"
     },
     {
-      "type": "child",
       "label": "University Hospital of North Durham",
+      "type": "child",
       "id": "https://ror.org/04qgcgz06"
     }
   ],

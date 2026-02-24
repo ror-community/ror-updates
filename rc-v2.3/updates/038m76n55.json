@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2000,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100006402"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.468392.2"
       ],
-      "preferred": "grid.468392.2"
+      "preferred": "grid.468392.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 5899 1804"
       ],
-      "preferred": "0000 0004 5899 1804"
+      "preferred": "0000 0004 5899 1804",
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/038m76n55",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 4945055,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -56,31 +55,32 @@
         "lat": 42.28343,
         "lng": -71.23283,
         "name": "Needham"
-      }
+      },
+      "geonames_id": 4945055
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "ALS Therapy Alliance",
-      "lang": "en"
+      "value": "ALS Therapy Alliance"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "ALS Therapy Development Institute",
-      "lang": "en"
+      "value": "ALS Therapy Development Institute"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ATA",
-      "lang": null
+      "value": "ATA"
     }
   ],
   "relationships": [],

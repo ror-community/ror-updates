@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1998,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100020589"
       ],
-      "preferred": "501100020589"
+      "preferred": "501100020589",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.464957.d"
       ],
-      "preferred": "grid.464957.d"
+      "preferred": "grid.464957.d",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3351035"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05af1fm66",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1253367,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -60,52 +59,53 @@
         "lat": 15.39585,
         "lng": 73.81568,
         "name": "Vasco"
-      }
+      },
+      "geonames_id": 1253367
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "NCAOR",
-      "lang": null
+      "value": "NCAOR"
     },
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "NCPOR",
-      "lang": "en"
+      "value": "NCPOR"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "National Centre for Antarctic and Ocean Research",
-      "lang": "en"
+      "value": "National Centre for Antarctic and Ocean Research"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "National Centre for Polar and Ocean Research",
-      "lang": "en"
+      "value": "National Centre for Polar and Ocean Research"
     },
     {
+      "lang": "hi",
       "types": [
         "alias"
       ],
-      "value": "राष्ट्रीय अंटार्कटिक एवं समुद्री अनुसंधान केंद्र",
-      "lang": "hi"
+      "value": "राष्ट्रीय अंटार्कटिक एवं समुद्री अनुसंधान केंद्र"
     },
     {
+      "lang": "hi",
       "types": [
         "label"
       ],
-      "value": "राष्ट्रीय ध्रुवीय एवं समुद्री अनुसंधान केन्द्र",
-      "lang": "hi"
+      "value": "राष्ट्रीय ध्रुवीय एवं समुद्री अनुसंधान केन्द्र"
     }
   ],
   "relationships": [

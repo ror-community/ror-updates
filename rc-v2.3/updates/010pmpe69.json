@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,33 +13,33 @@
   "established": 1755,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100016971"
       ],
-      "preferred": "501100016971"
+      "preferred": "501100016971",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.14476.30"
       ],
-      "preferred": "grid.14476.30"
+      "preferred": "grid.14476.30",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2342 9668"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q13164",
         "Q1853182"
       ],
-      "preferred": "Q13164"
+      "preferred": "Q13164",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/010pmpe69",
@@ -55,7 +55,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 524901,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -66,45 +65,46 @@
         "lat": 55.75222,
         "lng": 37.61556,
         "name": "Moscow"
-      }
+      },
+      "geonames_id": 524901
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Lomonosov Moscow State University",
-      "lang": "en"
+      "value": "Lomonosov Moscow State University"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "MSU",
-      "lang": null
+      "value": "MSU"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Moscow State University",
-      "lang": "en"
+      "value": "Moscow State University"
     },
     {
+      "lang": "ru",
       "types": [
         "alias"
       ],
-      "value": "Московский государственный университет",
-      "lang": "ru"
+      "value": "Московский государственный университет"
     },
     {
+      "lang": "ru",
       "types": [
         "label"
       ],
-      "value": "Московский государственный университет имени М.В. Ломоносова",
-      "lang": "ru"
+      "value": "Московский государственный университет имени М.В. Ломоносова"
     }
   ],
   "relationships": [],

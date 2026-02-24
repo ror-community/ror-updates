@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1964,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.421394.9"
       ],
-      "preferred": "grid.421394.9"
+      "preferred": "grid.421394.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0013 674X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7046262"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01shj3957",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6118158,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,38 +59,39 @@
         "lat": 52.26682,
         "lng": -113.802,
         "name": "Red Deer"
-      }
+      },
+      "geonames_id": 6118158
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "RDC ",
-      "lang": null
+      "value": "RDC "
     },
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "RDP",
-      "lang": "en"
+      "value": "RDP"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Red Deer College",
-      "lang": "en"
+      "value": "Red Deer College"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Red Deer Polytechnic",
-      "lang": "en"
+      "value": "Red Deer Polytechnic"
     }
   ],
   "relationships": [],

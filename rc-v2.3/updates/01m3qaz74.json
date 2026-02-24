@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2009,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100011089"
       ],
-      "preferred": "501100011089"
+      "preferred": "501100011089",
+      "type": "fundref"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q11822164"
       ],
-      "preferred": "Q11822164"
+      "preferred": "Q11822164",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01m3qaz74",
@@ -42,7 +42,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3094802,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -53,31 +52,32 @@
         "lat": 50.06143,
         "lng": 19.93658,
         "name": "Krakow"
-      }
+      },
+      "geonames_id": 3094802
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "PLGrid",
-      "lang": "en"
+      "value": "PLGrid"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "PLGrid Infrastructure",
-      "lang": "en"
+      "value": "PLGrid Infrastructure"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Polish Grid Infrastructure",
-      "lang": "en"
+      "value": "Polish Grid Infrastructure"
     }
   ],
   "relationships": [],

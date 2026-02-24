@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 1853,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.474235.3"
       ],
-      "preferred": "grid.474235.3"
+      "preferred": "grid.474235.3",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/0500yaj74",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 7521471,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -42,23 +41,24 @@
         "lat": -37.8149,
         "lng": 144.95052,
         "name": "Docklands"
-      }
+      },
+      "geonames_id": 7521471
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Victoria Police",
-      "lang": "en"
+      "value": "Victoria Police"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Government of Victoria",
+      "type": "parent",
       "id": "https://ror.org/02xvc5r05"
     }
   ],

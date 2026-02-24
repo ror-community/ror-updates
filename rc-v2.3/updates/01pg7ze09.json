@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2005,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465810.e"
       ],
-      "preferred": "grid.465810.e"
+      "preferred": "grid.465810.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 1485 6561"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/01pg7ze09",
@@ -42,7 +42,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3067696,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -53,45 +52,46 @@
         "lat": 50.08804,
         "lng": 14.42076,
         "name": "Prague"
-      }
+      },
+      "geonames_id": 3067696
     }
   ],
   "names": [
     {
+      "lang": "cs",
       "types": [
         "alias"
       ],
-      "value": "CEVRO Institut",
-      "lang": "cs"
+      "value": "CEVRO Institut"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "CEVRO Institute",
-      "lang": "en"
+      "value": "CEVRO Institute"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "CEVRO University",
-      "lang": "en"
+      "value": "CEVRO University"
     },
     {
-      "types": [
-        "label"
-      ],
-      "value": "CEVRO Univerzita",
-      "lang": "cs"
-    },
-    {
+      "lang": "cs",
       "types": [
         "label"
       ],
-      "value": "CEVRO Univerzita, z.ú.",
-      "lang": "cs"
+      "value": "CEVRO Univerzita"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "CEVRO Univerzita, z.ú."
     }
   ],
   "relationships": [],

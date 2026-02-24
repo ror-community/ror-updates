@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1992,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100009381"
       ],
-      "preferred": "501100009381"
+      "preferred": "501100009381",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.411729.8"
       ],
-      "preferred": "grid.411729.8"
+      "preferred": "grid.411729.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8946 5787"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12712164"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04d4wjw61",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1735161,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -67,38 +66,39 @@
         "lat": 3.1412,
         "lng": 101.68653,
         "name": "Kuala Lumpur"
-      }
+      },
+      "geonames_id": 1735161
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "IMU",
-      "lang": null
+      "value": "IMU"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "IMU University",
-      "lang": "en"
+      "value": "IMU University"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "International Medical University",
-      "lang": "en"
+      "value": "International Medical University"
     },
     {
+      "lang": "ms",
       "types": [
         "label"
       ],
-      "value": "Universiti Perubatan Antarabangsa",
-      "lang": "ms"
+      "value": "Universiti Perubatan Antarabangsa"
     }
   ],
   "relationships": [],

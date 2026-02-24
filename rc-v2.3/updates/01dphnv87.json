@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.506036.6"
       ],
-      "preferred": "grid.506036.6"
+      "preferred": "grid.506036.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1773 3876"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q16939054"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01dphnv87",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1279233,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -60,45 +59,46 @@
         "lat": 23.02579,
         "lng": 72.58727,
         "name": "Ahmedabad"
-      }
+      },
+      "geonames_id": 1279233
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "NIPER",
-      "lang": null
+      "value": "NIPER"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "NIPER Ahmedabad",
-      "lang": "en"
+      "value": "NIPER Ahmedabad"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "National Institute of Pharmaceutical Education and Research",
-      "lang": "en"
+      "value": "National Institute of Pharmaceutical Education and Research"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "National Institute of Pharmaceutical Education and Research (NIPER) - Ahmedabad",
-      "lang": "en"
+      "value": "National Institute of Pharmaceutical Education and Research (NIPER) - Ahmedabad"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "National Institute of Pharmaceutical Education and Research, Ahmedabad",
-      "lang": "en"
+      "value": "National Institute of Pharmaceutical Education and Research, Ahmedabad"
     }
   ],
   "relationships": [],

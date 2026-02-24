@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": 1979,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.425113.0"
       ],
-      "preferred": "grid.425113.0"
+      "preferred": "grid.425113.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0669 2165"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/03jp3w522",
@@ -36,7 +36,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 756135,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -47,31 +46,32 @@
         "lat": 52.22977,
         "lng": 21.01178,
         "name": "Warsaw"
-      }
+      },
+      "geonames_id": 756135
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ITME",
-      "lang": null
+      "value": "ITME"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Institute of Electronic Materials Technology",
-      "lang": "en"
+      "value": "Institute of Electronic Materials Technology"
     },
     {
+      "lang": "pl",
       "types": [
         "alias"
       ],
-      "value": "Instytut Technologii Materiałów Elektronicznych",
-      "lang": "pl"
+      "value": "Instytut Technologii Materiałów Elektronicznych"
     }
   ],
   "relationships": [],

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2013,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.414725.1"
       ],
-      "preferred": "grid.414725.1"
+      "preferred": "grid.414725.1",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0368 8146"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q97387503"
       ],
-      "preferred": "Q97387503"
+      "preferred": "Q97387503",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04n1xa154",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2759821,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,17 +55,18 @@
         "lat": 52.155,
         "lng": 5.3875,
         "name": "Amersfoort"
-      }
+      },
+      "geonames_id": 2759821
     }
   ],
   "names": [
     {
+      "lang": "nl",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Meander Medisch Centrum",
-      "lang": "nl"
+      "value": "Meander Medisch Centrum"
     }
   ],
   "relationships": [],

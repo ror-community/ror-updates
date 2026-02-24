@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,11 +13,11 @@
   "established": 2019,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100017170"
       ],
-      "preferred": "501100017170"
+      "preferred": "501100017170",
+      "type": "fundref"
     }
   ],
   "id": "https://ror.org/000025p04",
@@ -29,7 +29,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1609350,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -40,31 +39,32 @@
         "lat": 13.75398,
         "lng": 100.50144,
         "name": "Bangkok"
-      }
+      },
+      "geonames_id": 1609350
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "TSRI",
-      "lang": null
+      "value": "TSRI"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Thailand Science Research and Innovation",
-      "lang": "en"
+      "value": "Thailand Science Research and Innovation"
     },
     {
+      "lang": "th",
       "types": [
         "label"
       ],
-      "value": "สำนักงานคณะกรรมการส่งเสริมวิทยาศาสตร์ วิจัยและนวัตกรรม",
-      "lang": "th"
+      "value": "สำนักงานคณะกรรมการส่งเสริมวิทยาศาสตร์ วิจัยและนวัตกรรม"
     }
   ],
   "relationships": [

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1926,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.439918.e"
       ],
-      "preferred": "grid.439918.e"
+      "preferred": "grid.439918.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0149 9956"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q4063387"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00mn36586",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5913490,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,45 +59,46 @@
         "lat": 51.05011,
         "lng": -114.08529,
         "name": "Calgary"
-      }
+      },
+      "geonames_id": 5913490
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "ACAD",
-      "lang": null
+      "value": "ACAD"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "AUArts",
-      "lang": "en"
+      "value": "AUArts"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Alberta College of Art + Design",
-      "lang": "en"
+      "value": "Alberta College of Art + Design"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Alberta College of Art and Design",
-      "lang": "en"
+      "value": "Alberta College of Art and Design"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Alberta University of the Arts",
-      "lang": "en"
+      "value": "Alberta University of the Arts"
     }
   ],
   "relationships": [],

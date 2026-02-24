@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1946,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100011749"
       ],
-      "preferred": "501100011749"
+      "preferred": "501100011749",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.412527.7"
       ],
-      "preferred": "grid.412527.7"
+      "preferred": "grid.412527.7",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 1941 7306"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1537436"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02qztda51",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3652462,
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
@@ -67,31 +66,32 @@
         "lat": -0.22985,
         "lng": -78.52495,
         "name": "Quito"
-      }
+      },
+      "geonames_id": 3652462
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "PUCE",
-      "lang": null
+      "value": "PUCE"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Pontifical Catholic University of Ecuador",
-      "lang": "en"
+      "value": "Pontifical Catholic University of Ecuador"
     },
     {
+      "lang": "es",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Pontificia Universidad Católica del Ecuador",
-      "lang": "es"
+      "value": "Pontificia Universidad Católica del Ecuador"
     }
   ],
   "relationships": [],

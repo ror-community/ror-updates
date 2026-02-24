@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,18 +13,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.458527.9"
       ],
-      "preferred": "grid.458527.9"
+      "preferred": "grid.458527.9",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0545 8141"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/058jrcm27",
@@ -40,7 +40,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3162955,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -51,24 +50,25 @@
         "lat": 58.46151,
         "lng": 8.77253,
         "name": "Arendal"
-      }
+      },
+      "geonames_id": 3162955
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Aust-Agder County Municipality",
-      "lang": "en"
+      "value": "Aust-Agder County Municipality"
     },
     {
+      "lang": "no",
       "types": [
         "alias"
       ],
-      "value": "Aust-Agder fylkeskommune",
-      "lang": "no"
+      "value": "Aust-Agder fylkeskommune"
     }
   ],
   "relationships": [],

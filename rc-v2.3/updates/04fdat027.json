@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1998,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465812.c"
       ],
-      "preferred": "grid.465812.c"
+      "preferred": "grid.465812.c",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0643 2365"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1667281"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04fdat027",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2929670,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,31 +59,32 @@
         "lat": 50.9787,
         "lng": 11.03283,
         "name": "Erfurt"
-      }
+      },
+      "geonames_id": 2929670
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "IU International University of Applied Sciences",
-      "lang": "en"
+      "value": "IU International University of Applied Sciences"
     },
     {
+      "lang": "de",
       "types": [
         "label"
       ],
-      "value": "IU Internationale Hochschule",
-      "lang": "de"
+      "value": "IU Internationale Hochschule"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "IUBH",
-      "lang": null
+      "value": "IUBH"
     }
   ],
   "relationships": [],

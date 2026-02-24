@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 1994,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001796"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.1034.6"
       ],
-      "preferred": "grid.1034.6"
+      "preferred": "grid.1034.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 1555 3415"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1423677"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/016gb9e15",
@@ -54,7 +54,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 10630449,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -65,31 +64,32 @@
         "lat": -26.65682,
         "lng": 153.07955,
         "name": "Sunshine Coast"
-      }
+      },
+      "geonames_id": 10630449
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "USC",
-      "lang": "en"
+      "value": "USC"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UniSC",
-      "lang": null
+      "value": "UniSC"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "University of the Sunshine Coast",
-      "lang": "en"
+      "value": "University of the Sunshine Coast"
     }
   ],
   "relationships": [

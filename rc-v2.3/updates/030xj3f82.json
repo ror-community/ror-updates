@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 1813,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.503011.6"
       ],
-      "preferred": "grid.503011.6"
+      "preferred": "grid.503011.6",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q10894049"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/030xj3f82",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1807566,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -49,31 +48,32 @@
         "lat": 25.09617,
         "lng": 104.90639,
         "name": "Xingyi"
-      }
+      },
+      "geonames_id": 1807566
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Minzu Normal University of Xingyi",
-      "lang": "en"
+      "value": "Minzu Normal University of Xingyi"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Xingyi Normal University for Nationalities",
-      "lang": "en"
+      "value": "Xingyi Normal University for Nationalities"
     },
     {
+      "lang": "zh",
       "types": [
         "label"
       ],
-      "value": "兴义民族师范学院",
-      "lang": "zh"
+      "value": "兴义民族师范学院"
     }
   ],
   "relationships": [],

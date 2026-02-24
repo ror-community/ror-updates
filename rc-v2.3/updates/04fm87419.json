@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 1857,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100007700"
       ],
-      "preferred": "501100007700"
+      "preferred": "501100007700",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.8194.4"
       ],
-      "preferred": "grid.8194.4"
+      "preferred": "grid.8194.4",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9828 7548"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1916637"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04fm87419",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 683506,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -67,24 +66,25 @@
         "lat": 44.43225,
         "lng": 26.10626,
         "name": "Bucharest"
-      }
+      },
+      "geonames_id": 683506
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Carol Davila University of Medicine and Pharmacy",
-      "lang": "en"
+      "value": "Carol Davila University of Medicine and Pharmacy"
     },
     {
+      "lang": "ro",
       "types": [
         "label"
       ],
-      "value": "Universitatea de Medicină și Farmacie Carol Davila",
-      "lang": "ro"
+      "value": "Universitatea de Medicină și Farmacie Carol Davila"
     }
   ],
   "relationships": [],

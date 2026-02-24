@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 1991,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.458961.7"
       ],
-      "preferred": "grid.458961.7"
+      "preferred": "grid.458961.7",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0681 8434"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/00hgq1a05",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3133895,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -49,24 +48,25 @@
         "lat": 69.6489,
         "lng": 18.95508,
         "name": "Tromsø"
-      }
+      },
+      "geonames_id": 3133895
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "AMAP",
-      "lang": null
+      "value": "AMAP"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Arctic Monitoring And Assessment Programme",
-      "lang": "en"
+      "value": "Arctic Monitoring And Assessment Programme"
     }
   ],
   "relationships": [],

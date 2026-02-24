@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1921,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.445866.d"
       ],
-      "preferred": "grid.445866.d"
+      "preferred": "grid.445866.d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0446 7628"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12132951"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/004ezwb23",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 707565,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -54,52 +53,53 @@
         "lat": 50.52175,
         "lng": 30.25055,
         "name": "Irpin"
-      }
+      },
+      "geonames_id": 707565
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "STU",
-      "lang": "en"
+      "value": "STU"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "State Tax University",
-      "lang": "en"
+      "value": "State Tax University"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UFSU",
-      "lang": null
+      "value": "UFSU"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "University of the State Fiscal Service of Ukraine",
-      "lang": "en"
+      "value": "University of the State Fiscal Service of Ukraine"
     },
     {
+      "lang": "uk",
       "types": [
         "label"
       ],
-      "value": "Державний податковий університет",
-      "lang": "uk"
+      "value": "Державний податковий університет"
     },
     {
+      "lang": "uk",
       "types": [
         "alias"
       ],
-      "value": "Національний університет державної податкової служби України",
-      "lang": "uk"
+      "value": "Національний університет державної податкової служби України"
     }
   ],
   "relationships": [],

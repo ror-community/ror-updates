@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2018,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.509259.2"
       ],
-      "preferred": "grid.509259.2"
+      "preferred": "grid.509259.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 7221 6011"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q52236613"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05mskc574",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 323786,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -60,53 +59,54 @@
         "lat": 39.91987,
         "lng": 32.85427,
         "name": "Ankara"
-      }
+      },
+      "geonames_id": 323786
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "AHBV",
-      "lang": null
+      "value": "AHBV"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Ankara HBV University",
-      "lang": "en"
+      "value": "Ankara HBV University"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Ankara Haci Bayram Veli University",
-      "lang": "en"
+      "value": "Ankara Haci Bayram Veli University"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label",
         "alias"
       ],
-      "value": "Ankara Hacı Bayram Veli University",
-      "lang": "en"
+      "value": "Ankara Hacı Bayram Veli University"
     },
     {
+      "lang": "tr",
       "types": [
         "label"
       ],
-      "value": "Ankara Hacı Bayram Veli Üniversitesi",
-      "lang": "tr"
+      "value": "Ankara Hacı Bayram Veli Üniversitesi"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "HBV University",
-      "lang": "en"
+      "value": "HBV University"
     }
   ],
   "relationships": [],

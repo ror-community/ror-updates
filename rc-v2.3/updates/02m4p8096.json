@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1977,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.200773.1"
       ],
-      "preferred": "grid.200773.1"
+      "preferred": "grid.200773.1",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9807 4884"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q1622115"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02m4p8096",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2891621,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -60,24 +59,25 @@
         "lat": 47.72674,
         "lng": 10.31389,
         "name": "Kempten (Allgäu)"
-      }
+      },
+      "geonames_id": 2891621
     }
   ],
   "names": [
     {
+      "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Hochschule Kempten",
-      "lang": "de"
+      "value": "Hochschule Kempten"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Kempten University of Applied Sciences",
-      "lang": "en"
+      "value": "Kempten University of Applied Sciences"
     }
   ],
   "relationships": [],

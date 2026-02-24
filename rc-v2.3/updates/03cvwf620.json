@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,11 +13,11 @@
   "established": 2018,
   "external_ids": [
     {
-      "type": "wikidata",
       "all": [
         "Q52607370"
       ],
-      "preferred": "Q52607370"
+      "preferred": "Q52607370",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/03cvwf620",
@@ -29,7 +29,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2972191,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -40,45 +39,46 @@
         "lat": 47.39484,
         "lng": 0.70398,
         "name": "Tours"
-      }
+      },
+      "geonames_id": 2972191
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LNOx",
-      "lang": null
+      "value": "LNOx"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Leukemic Niche & redOx metabolism",
-      "lang": "en"
+      "value": "Leukemic Niche & redOx metabolism"
     },
     {
+      "lang": "fr",
       "types": [
         "label"
       ],
-      "value": "Niche Leucémique et Métabolisme Oxydatif",
-      "lang": "fr"
+      "value": "Niche Leucémique et Métabolisme Oxydatif"
     },
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Niche Leucémique et métabolisme redOx",
-      "lang": "fr"
+      "value": "Niche Leucémique et métabolisme redOx"
     },
     {
+      "lang": "fr",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Niche leucémique et métabolisme oxydatif",
-      "lang": "fr"
+      "value": "Niche leucémique et métabolisme oxydatif"
     }
   ],
   "relationships": [

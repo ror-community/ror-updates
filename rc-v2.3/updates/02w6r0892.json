@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1970,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.418555.8"
       ],
-      "preferred": "grid.418555.8"
+      "preferred": "grid.418555.8",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9945 6454"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3151792"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02w6r0892",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6077243,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -58,31 +57,32 @@
         "lat": 45.50884,
         "lng": -73.58781,
         "name": "Montreal"
-      }
+      },
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Institut Philippe Pinel de Montréal",
-      "lang": "fr"
+      "value": "Institut Philippe Pinel de Montréal"
     },
     {
+      "lang": "fr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Institut national de psychiatrie légale Philippe-Pinel",
-      "lang": "fr"
+      "value": "Institut national de psychiatrie légale Philippe-Pinel"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Philippe Pinel Institute",
-      "lang": "en"
+      "value": "Philippe Pinel Institute"
     }
   ],
   "relationships": [],

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.442568.9"
       ],
-      "preferred": "grid.442568.9"
+      "preferred": "grid.442568.9",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q12185356"
       ],
-      "preferred": "Q12185356"
+      "preferred": "Q12185356",
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/002a29y03",
@@ -42,7 +42,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2210247,
       "geonames_details": {
         "continent_code": "AF",
         "continent_name": "Africa",
@@ -53,52 +52,53 @@
         "lat": 32.88743,
         "lng": 13.18733,
         "name": "Tripoli"
-      }
+      },
+      "geonames_id": 2210247
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "LOU",
-      "lang": "en"
+      "value": "LOU"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
+        "label",
+        "ror_display"
+      ],
+      "value": "Libya Open University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Libyan Open University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Open University of Libya"
+    },
+    {
+      "lang": "ar",
+      "types": [
         "label"
       ],
-      "value": "Libya Open University",
-      "lang": "en"
+      "value": "الجامعة المفتوحة - ليبيا"
     },
     {
+      "lang": "ar",
       "types": [
         "alias"
       ],
-      "value": "Libyan Open University",
-      "lang": "en"
-    },
-    {
-      "types": [
-        "alias"
-      ],
-      "value": "Open University of Libya",
-      "lang": "en"
-    },
-    {
-      "types": [
-        "label"
-      ],
-      "value": "الجامعة المفتوحة - ليبيا",
-      "lang": "ar"
-    },
-    {
-      "types": [
-        "alias"
-      ],
-      "value": "جامعة ليبيا المفتوحة",
-      "lang": "ar"
+      "value": "جامعة ليبيا المفتوحة"
     }
   ],
   "relationships": [],

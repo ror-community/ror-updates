@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 1873,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100002823"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.414210.2"
       ],
-      "preferred": "grid.414210.2"
+      "preferred": "grid.414210.2",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2321 7657"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q25038"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02twt6343",
@@ -54,7 +54,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 6077243,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -65,32 +64,33 @@
         "lat": 45.50884,
         "lng": -73.58781,
         "name": "Montreal"
-      }
+      },
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "CIUSSS de l'Est-de-l'lle-de-Montréal-Santé Mentale",
-      "lang": "fr"
+      "value": "CIUSSS de l'Est-de-l'lle-de-Montréal-Santé Mentale"
     },
     {
+      "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Hôpital Louis-H Lafontaine",
-      "lang": "fr"
+      "value": "Hôpital Louis-H Lafontaine"
     },
     {
+      "lang": "fr",
       "types": [
         "alias",
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Institut universitaire en santé mentale de Montréal",
-      "lang": "fr"
+      "value": "Institut universitaire en santé mentale de Montréal"
     }
   ],
   "relationships": [],

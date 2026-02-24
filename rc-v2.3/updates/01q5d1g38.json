@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": null,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.439907.0"
       ],
-      "preferred": "grid.439907.0"
+      "preferred": "grid.439907.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1772 7345"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q30293229"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01q5d1g38",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2648182,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -54,23 +53,24 @@
         "lat": 51.47566,
         "lng": 0.32521,
         "name": "Grays"
-      }
+      },
+      "geonames_id": 2648182
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Thurrock Community Hospital",
-      "lang": "en"
+      "value": "Thurrock Community Hospital"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "South Essex Partnership University Foundation NHS Trust",
+      "type": "parent",
       "id": "https://ror.org/05v823t63"
     }
   ],

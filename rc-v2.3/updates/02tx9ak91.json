@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1983,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001064"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.453647.7"
       ],
-      "preferred": "grid.453647.7"
+      "preferred": "grid.453647.7",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 5900 0283"
       ],
-      "preferred": "0000 0004 5900 0283"
+      "preferred": "0000 0004 5900 0283",
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/02tx9ak91",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2070830,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -56,17 +55,18 @@
         "lat": -34.98079,
         "lng": 138.515,
         "name": "Glenelg"
-      }
+      },
+      "geonames_id": 2070830
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Epilepsy Society of Australia",
-      "lang": "en"
+      "value": "Epilepsy Society of Australia"
     }
   ],
   "relationships": [],

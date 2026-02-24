@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 2006,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.415588.5"
       ],
-      "preferred": "grid.415588.5"
+      "preferred": "grid.415588.5",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0400 4455"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7270013"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02rnep118",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2639192,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -58,28 +57,29 @@
         "lat": 51.57515,
         "lng": 0.18582,
         "name": "Romford"
-      }
+      },
+      "geonames_id": 2639192
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Queen's Hospital",
-      "lang": "en"
+      "value": "Queen's Hospital"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Barking, Havering And Redbridge University Hospitals NHS Trust",
+      "type": "parent",
       "id": "https://ror.org/03xnr5143"
     },
     {
-      "type": "related",
       "label": "Queen Mary University of London",
+      "type": "related",
       "id": "https://ror.org/026zzn846"
     }
   ],

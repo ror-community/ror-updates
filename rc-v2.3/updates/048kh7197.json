@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,33 +13,33 @@
   "established": null,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100001342",
         "100016962"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.424109.a"
       ],
-      "preferred": "grid.424109.a"
+      "preferred": "grid.424109.a",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0648 3402"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q4294475"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/048kh7197",
@@ -55,7 +55,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 964137,
       "geonames_details": {
         "continent_code": "AF",
         "continent_name": "Africa",
@@ -66,38 +65,39 @@
         "lat": -25.74486,
         "lng": 28.18783,
         "name": "Pretoria"
-      }
+      },
+      "geonames_id": 964137
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "DST",
-      "lang": null
+      "value": "DST"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Department of Science and Innovation",
-      "lang": "en"
+      "value": "Department of Science and Innovation"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Department of Science and Technology",
-      "lang": "en"
+      "value": "Department of Science and Technology"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Department of Science,Technology and Innovation",
-      "lang": "en"
+      "value": "Department of Science,Technology and Innovation"
     }
   ],
   "relationships": [

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1970,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100000942"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.478505.b"
       ],
-      "preferred": "grid.478505.b"
+      "preferred": "grid.478505.b",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 5899 6154"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     }
   ],
   "id": "https://ror.org/01e3kxx79",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2171707,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -56,17 +55,18 @@
         "lat": -33.8,
         "lng": 151.18333,
         "name": "Chatswood"
-      }
+      },
+      "geonames_id": 2171707
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Brain Foundation",
-      "lang": "en"
+      "value": "Brain Foundation"
     }
   ],
   "relationships": [],

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 2000,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.444596.e"
       ],
-      "preferred": "grid.444596.e"
+      "preferred": "grid.444596.e",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1800 6216"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q6733318"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/034h2va53",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1262180,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -60,31 +59,32 @@
         "lat": 21.14631,
         "lng": 79.08491,
         "name": "Nagpur"
-      }
+      },
+      "geonames_id": 1262180
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "MAFSU",
-      "lang": null
+      "value": "MAFSU"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Maharashtra Animal and Fishery Sciences University",
-      "lang": "en"
+      "value": "Maharashtra Animal and Fishery Sciences University"
     },
     {
+      "lang": "mr",
       "types": [
         "label"
       ],
-      "value": "महाराष्ट्र पशु व मत्स्य विज्ञान विद्यापीठ, नागपूर",
-      "lang": "mr"
+      "value": "महाराष्ट्र पशु व मत्स्य विज्ञान विद्यापीठ, नागपूर"
     }
   ],
   "relationships": [],

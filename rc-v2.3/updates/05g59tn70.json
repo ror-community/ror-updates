@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,18 +15,18 @@
   "established": 2007,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.465977.e"
       ],
-      "preferred": "grid.465977.e"
+      "preferred": "grid.465977.e",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q19613831"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/05g59tn70",
@@ -38,7 +38,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 311046,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -49,38 +48,39 @@
         "lat": 38.41273,
         "lng": 27.13838,
         "name": "Izmir"
-      }
+      },
+      "geonames_id": 311046
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Izmir Kavram Vocational School",
-      "lang": "en"
+      "value": "Izmir Kavram Vocational School"
     },
     {
+      "lang": "tr",
       "types": [
         "alias"
       ],
-      "value": "İzmir Kavram MYO",
-      "lang": "tr"
+      "value": "İzmir Kavram MYO"
     },
     {
+      "lang": "tr",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "İzmir Kavram Meslek Yüksekokulu",
-      "lang": "tr"
+      "value": "İzmir Kavram Meslek Yüksekokulu"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "İzmir Kavram Vocational School",
-      "lang": "en"
+      "value": "İzmir Kavram Vocational School"
     }
   ],
   "relationships": [],

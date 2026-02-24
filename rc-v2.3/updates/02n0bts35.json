@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,32 +13,32 @@
   "established": 2004,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100010109"
       ],
-      "preferred": "501100010109"
+      "preferred": "501100010109",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.11598.34"
       ],
-      "preferred": "grid.11598.34"
+      "preferred": "grid.11598.34",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 8988 2476"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q872543"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02n0bts35",
@@ -54,7 +54,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2778067,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -62,34 +61,35 @@
         "country_name": "Austria",
         "country_subdivision_code": "6",
         "country_subdivision_name": "Styria",
-        "lat": 47.06667,
-        "lng": 15.45,
+        "lat": 47.06733,
+        "lng": 15.44197,
         "name": "Graz"
-      }
+      },
+      "geonames_id": 2778067
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Med Uni Graz",
-      "lang": "en"
+      "value": "Med Uni Graz"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Medical University of Graz",
-      "lang": "en"
+      "value": "Medical University of Graz"
     },
     {
+      "lang": "de",
       "types": [
         "label"
       ],
-      "value": "Medizinische Universität Graz",
-      "lang": "de"
+      "value": "Medizinische Universität Graz"
     }
   ],
   "relationships": [

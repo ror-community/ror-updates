@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1973,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.462948.5"
       ],
-      "preferred": "grid.462948.5"
+      "preferred": "grid.462948.5",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0000 9341 8350"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q7895510"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/01khwek78",
@@ -49,7 +49,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 4739157,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -60,44 +59,45 @@
         "lat": 28.80527,
         "lng": -97.0036,
         "name": "Victoria"
-      }
+      },
+      "geonames_id": 4739157
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "acronym"
       ],
-      "value": "TAMUV",
-      "lang": "en"
+      "value": "TAMUV"
     },
     {
+      "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Texas A&M University-Victoria",
-      "lang": "en"
+      "value": "Texas A&M University-Victoria"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UHV",
-      "lang": null
+      "value": "UHV"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "University of Houston - Victoria",
-      "lang": "en"
+      "value": "University of Houston - Victoria"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "University of Houston System",
+      "type": "parent",
       "id": "https://ror.org/040vwpm13"
     }
   ],

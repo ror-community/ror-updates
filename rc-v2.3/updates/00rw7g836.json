@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 2008,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "100009023"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.467613.1"
       ],
-      "preferred": "grid.467613.1"
+      "preferred": "grid.467613.1",
+      "type": "grid"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q43894835"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/00rw7g836",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 2151682,
       "geonames_details": {
         "continent_code": "OC",
         "continent_name": "Oceania",
@@ -58,30 +57,31 @@
         "lat": -33.82663,
         "lng": 151.0881,
         "name": "Rhodes"
-      }
+      },
+      "geonames_id": 2151682
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Suez (Australia)",
-      "lang": null
+      "value": "Suez (Australia)"
     },
     {
+      "lang": null,
       "types": [
         "alias"
       ],
-      "value": "Suez Environnement",
-      "lang": null
+      "value": "Suez Environnement"
     }
   ],
   "relationships": [
     {
-      "type": "parent",
       "label": "Suez (France)",
+      "type": "parent",
       "id": "https://ror.org/0475zhg63"
     }
   ],

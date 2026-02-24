@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1968,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.507294.d"
       ],
-      "preferred": "grid.507294.d"
+      "preferred": "grid.507294.d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0478 7795"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q14195799"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/049p34y91",
@@ -43,7 +43,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3060972,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -54,24 +53,25 @@
         "lat": 48.14816,
         "lng": 17.10674,
         "name": "Bratislava"
-      }
+      },
+      "geonames_id": 3060972
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "SMU",
-      "lang": null
+      "value": "SMU"
     },
     {
+      "lang": "sk",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Slovenský Metrologický Ústav",
-      "lang": "sk"
+      "value": "Slovenský Metrologický Ústav"
     }
   ],
   "relationships": [],

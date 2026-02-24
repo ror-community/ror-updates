@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,32 +15,32 @@
   "established": 2007,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100013306"
       ],
-      "preferred": "501100013306"
+      "preferred": "501100013306",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.419643.d"
       ],
-      "preferred": "grid.419643.d"
+      "preferred": "grid.419643.d",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 1764 227X"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q3595326"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/02r2k1c68",
@@ -56,7 +56,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 1275817,
       "geonames_details": {
         "continent_code": "AS",
         "continent_name": "Asia",
@@ -67,45 +66,46 @@
         "lat": 20.27241,
         "lng": 85.83385,
         "name": "Bhubaneswar"
-      }
+      },
+      "geonames_id": 1275817
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "NISER",
-      "lang": null
+      "value": "NISER"
     },
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "National Institute of Science Education and Research",
-      "lang": "en"
+      "value": "National Institute of Science Education and Research"
     },
     {
+      "lang": "hi",
       "types": [
         "label"
       ],
-      "value": "राष्ट्रीय विज्ञान शिक्षा एवं अनुसंधान संस्थान",
-      "lang": "hi"
+      "value": "राष्ट्रीय विज्ञान शिक्षा एवं अनुसंधान संस्थान"
     },
     {
+      "lang": "or",
       "types": [
         "label"
       ],
-      "value": "ଜାତୀୟ ବିଜ୍ଞାନ ଶିକ୍ଷା ଏବଂ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ",
-      "lang": "or"
+      "value": "ଜାତୀୟ ବିଜ୍ଞାନ ଶିକ୍ଷା ଏବଂ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ"
     },
     {
+      "lang": "ml",
       "types": [
         "label"
       ],
-      "value": "നൈസർ",
-      "lang": "ml"
+      "value": "നൈസർ"
     }
   ],
   "relationships": [

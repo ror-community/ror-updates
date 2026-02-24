@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,33 +13,33 @@
   "established": 1891,
   "external_ids": [
     {
-      "type": "fundref",
       "all": [
         "501100004688",
         "501100004689"
       ],
-      "preferred": "501100004688"
+      "preferred": "501100004688",
+      "type": "fundref"
     },
     {
-      "type": "grid",
       "all": [
         "grid.411267.7"
       ],
-      "preferred": "grid.411267.7"
+      "preferred": "grid.411267.7",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 2168 1114"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q192539"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/04vy5s568",
@@ -55,7 +55,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 3633009,
       "geonames_details": {
         "continent_code": "SA",
         "continent_name": "South America",
@@ -63,40 +62,41 @@
         "country_name": "Venezuela",
         "country_subdivision_code": "V",
         "country_subdivision_name": "Zulia",
-        "lat": 10.66663,
-        "lng": -71.61245,
+        "lat": 10.64232,
+        "lng": -71.61089,
         "name": "Maracaibo"
-      }
+      },
+      "geonames_id": 3633009
     }
   ],
   "names": [
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "LUZ",
-      "lang": null
+      "value": "LUZ"
     },
     {
+      "lang": "es",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Universidad del Zulia",
-      "lang": "es"
+      "value": "Universidad del Zulia"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "University of Zulia",
-      "lang": "en"
+      "value": "University of Zulia"
     }
   ],
   "relationships": [
     {
-      "type": "child",
       "label": "Hospital Universitario de Maracaibo",
+      "type": "child",
       "id": "https://ror.org/016qd7r37"
     }
   ],

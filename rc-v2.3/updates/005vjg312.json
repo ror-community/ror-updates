@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,25 +15,25 @@
   "established": 1995,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.445535.6"
       ],
-      "preferred": "grid.445535.6"
+      "preferred": "grid.445535.6",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0004 0371 1553"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q9380733"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/005vjg312",
@@ -45,7 +45,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 756135,
       "geonames_details": {
         "continent_code": "EU",
         "continent_name": "Europe",
@@ -56,45 +55,46 @@
         "lat": 52.22977,
         "lng": 21.01178,
         "name": "Warsaw"
-      }
+      },
+      "geonames_id": 756135
     }
   ],
   "names": [
     {
+      "lang": "pl",
       "types": [
         "acronym"
       ],
-      "value": "ATA",
-      "lang": "pl"
+      "value": "ATA"
     },
     {
+      "lang": "pl",
       "types": [
-        "ror_display",
-        "label"
+        "label",
+        "ror_display"
       ],
-      "value": "Akademia Techniczno-Artystyczna Nauk Stosowanych w Warszawie",
-      "lang": "pl"
+      "value": "Akademia Techniczno-Artystyczna Nauk Stosowanych w Warszawie"
     },
     {
+      "lang": null,
       "types": [
         "acronym"
       ],
-      "value": "UE&M",
-      "lang": null
+      "value": "UE&M"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "University of Ecology and Management in Warsaw",
-      "lang": "en"
+      "value": "University of Ecology and Management in Warsaw"
     },
     {
+      "lang": "pl",
       "types": [
         "alias"
       ],
-      "value": "Wyższa Szkoła Ekologii i Zarządzania w Warszawie",
-      "lang": "pl"
+      "value": "Wyższa Szkoła Ekologii i Zarządzania w Warszawie"
     }
   ],
   "relationships": [],

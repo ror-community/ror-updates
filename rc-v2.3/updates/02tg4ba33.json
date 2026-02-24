@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -15,11 +15,11 @@
   "established": 2013,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.504063.4"
       ],
-      "preferred": "grid.504063.4"
+      "preferred": "grid.504063.4",
+      "type": "grid"
     }
   ],
   "id": "https://ror.org/02tg4ba33",
@@ -31,7 +31,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 4931972,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -42,17 +41,18 @@
         "lat": 42.3751,
         "lng": -71.10561,
         "name": "Cambridge"
-      }
+      },
+      "geonames_id": 4931972
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Aarno Labs",
-      "lang": "en"
+      "value": "Aarno Labs"
     }
   ],
   "relationships": [],

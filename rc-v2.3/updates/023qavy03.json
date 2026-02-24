@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-02-23",
+      "date": "2026-02-24",
       "schema_version": "2.1"
     }
   },
@@ -13,25 +13,25 @@
   "established": 1968,
   "external_ids": [
     {
-      "type": "grid",
       "all": [
         "grid.252858.0"
       ],
-      "preferred": "grid.252858.0"
+      "preferred": "grid.252858.0",
+      "type": "grid"
     },
     {
-      "type": "isni",
       "all": [
         "0000 0001 0742 7937"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "isni"
     },
     {
-      "type": "wikidata",
       "all": [
         "Q809633"
       ],
-      "preferred": null
+      "preferred": null,
+      "type": "wikidata"
     }
   ],
   "id": "https://ror.org/023qavy03",
@@ -47,7 +47,6 @@
   ],
   "locations": [
     {
-      "geonames_id": 5128581,
       "geonames_details": {
         "continent_code": "NA",
         "continent_name": "North America",
@@ -58,31 +57,32 @@
         "lat": 40.71427,
         "lng": -74.00597,
         "name": "New York"
-      }
+      },
+      "geonames_id": 5128581
     }
   ],
   "names": [
     {
+      "lang": "en",
       "types": [
         "ror_display",
         "label"
       ],
-      "value": "Baruch College",
-      "lang": "en"
+      "value": "Baruch College"
     },
     {
+      "lang": "en",
       "types": [
         "label"
       ],
-      "value": "Baruch College, CUNY",
-      "lang": "en"
+      "value": "Baruch College, CUNY"
     },
     {
+      "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Bernard M. Baruch College of the City University of New York",
-      "lang": "en"
+      "value": "Bernard M. Baruch College of the City University of New York"
     }
   ],
   "relationships": [
