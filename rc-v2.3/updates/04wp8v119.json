@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0041 6530"
+      ],
+      "preferred": "0000 0001 0041 6530",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wp8v119",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usgs.gov/centers/central-plains-water-science-center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "KS",
+        "country_subdivision_name": "Kansas",
+        "lat": 38.97167,
+        "lng": -95.23525,
+        "name": "Lawrence"
+      },
+      "geonames_id": 4274277
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Central Plains Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Kansas Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Geological Survey Kansas Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "USGS Kansas Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Geological Survey Kansas Water Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Geological Survey",
+      "type": "parent",
+      "id": "https://ror.org/035a68863"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

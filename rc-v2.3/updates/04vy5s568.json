@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1891,
+  "external_ids": [
+    {
+      "all": [
+        "501100004688",
+        "501100004689"
+      ],
+      "preferred": "501100004688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411267.7"
+      ],
+      "preferred": "grid.411267.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2168 1114"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q192539"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vy5s568",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.luz.edu.ve/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Zulia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "VE",
+        "country_name": "Venezuela",
+        "country_subdivision_code": "V",
+        "country_subdivision_name": "Zulia",
+        "lat": 10.64232,
+        "lng": -71.61089,
+        "name": "Maracaibo"
+      },
+      "geonames_id": 3633009
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LUZ"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universidad del Zulia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of Zulia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Universitario de Maracaibo",
+      "type": "child",
+      "id": "https://ror.org/016qd7r37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

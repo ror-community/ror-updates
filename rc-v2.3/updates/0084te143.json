@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chu-besancon.fr"
+  ],
+  "established": 1686,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411158.8"
+      ],
+      "preferred": "grid.411158.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 9213"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145168"
+      ],
+      "preferred": "Q3145168",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0084te143",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-besancon.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne-Franche-Comté",
+        "lat": 47.24878,
+        "lng": 6.01815,
+        "name": "Besançon"
+      },
+      "geonames_id": 3033123
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Jean Minjoz"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU de Besançon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Besançon"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Hôpital Jean Minjoz"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jean Minjoz Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Saint-Jacques",
+      "type": "child",
+      "id": "https://ror.org/03n6qxm88"
+    },
+    {
+      "label": "Methodology and Quality of Life Unit in Oncology",
+      "type": "child",
+      "id": "https://ror.org/00n1qg914"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

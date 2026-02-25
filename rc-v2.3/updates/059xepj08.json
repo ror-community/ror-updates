@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413482.8"
+      ],
+      "preferred": "grid.413482.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9346 2378"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30254305"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059xepj08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://my.clevelandclinic.org/locations/akron-general"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.08144,
+        "lng": -81.51901,
+        "name": "Akron"
+      },
+      "geonames_id": 5145476
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Akron General"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Akron General Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "CCAG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Cleveland Clinic Akron General"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cleveland Clinic",
+      "type": "related",
+      "id": "https://ror.org/03xjacd83"
+    },
+    {
+      "label": "University of Akron",
+      "type": "related",
+      "id": "https://ror.org/02kyckx55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

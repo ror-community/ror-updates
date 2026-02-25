@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ojp.gov"
+  ],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0406 1871"
+      ],
+      "preferred": "0000 0004 0406 1871",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4476399"
+      ],
+      "preferred": "Q4476399",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01n8d2d52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ojp.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Justice_Programs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "OJP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Office of Justice Programs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    },
+    {
+      "label": "National Institute of Justice",
+      "type": "child",
+      "id": "https://ror.org/00v8p7w89"
+    },
+    {
+      "label": "Bureau of Justice Statistics",
+      "type": "child",
+      "id": "https://ror.org/0006s4z66"
+    },
+    {
+      "label": "Office of Juvenile Justice and Delinquency Prevention",
+      "type": "child",
+      "id": "https://ror.org/05335sh79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder"
+  ]
+}

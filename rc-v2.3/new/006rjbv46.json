@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rochester.edu"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2111 6211"
+      ],
+      "preferred": "0000 0001 2111 6211",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6467294"
+      ],
+      "preferred": "Q6467294",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006rjbv46",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lle.rochester.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Laboratory_for_Laser_Energetics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.68059,
+        "lng": -83.13382,
+        "name": "Rochester"
+      },
+      "geonames_id": 5007400
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "LLE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratory for Laser Energetics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratory for Laser Energetics, University of Rochester"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UR Laboratory for Laser Energetics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "URLLE"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Rochester",
+      "type": "parent",
+      "id": "https://ror.org/022kthw22"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

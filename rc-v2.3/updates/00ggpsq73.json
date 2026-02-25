@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ovgu.de"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "501100012320"
+      ],
+      "preferred": "501100012320",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5807.a"
+      ],
+      "preferred": "grid.5807.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1018 4307"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q655866"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ggpsq73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ovgu.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Otto-von-Guericke_University_Magdeburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "ST",
+        "country_subdivision_name": "Saxony-Anhalt",
+        "lat": 52.12773,
+        "lng": 11.62916,
+        "name": "Magdeburg"
+      },
+      "geonames_id": 2874545
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OVGU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Otto von Guericke University Magdeburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Otto-von-Guericke University Magdeburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Otto-von-Guericke-Universität Magdeburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "An-Institut für Qualitätssicherung in der operativen Medizin",
+      "type": "child",
+      "id": "https://ror.org/05tma9m39"
+    },
+    {
+      "label": "International Max Planck Research School for Advanced Methods in Process and Systems Engineering",
+      "type": "child",
+      "id": "https://ror.org/04hazks31"
+    },
+    {
+      "label": "Center for Behavioral Brain Sciences",
+      "type": "child",
+      "id": "https://ror.org/03d1zwe41"
+    },
+    {
+      "label": "Klinikum Magdeburg",
+      "type": "related",
+      "id": "https://ror.org/01trdns33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

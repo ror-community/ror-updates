@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tu-darmstadt.de"
+  ],
+  "established": 1877,
+  "external_ids": [
+    {
+      "all": [
+        "501100005714",
+        "501100003072"
+      ],
+      "preferred": "501100005714",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6546.1"
+      ],
+      "preferred": "grid.6546.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0940 1669"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q310695"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n911h24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tu-darmstadt.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Technische_Universit%C3%A4t_Darmstadt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 49.87167,
+        "lng": 8.65027,
+        "name": "Darmstadt"
+      },
+      "geonames_id": 2938913
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "TU Darmstadt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "alias"
+      ],
+      "value": "Technical University of Darmstadt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Technische Universität Darmstadt"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hessian Center for Artificial Intelligence",
+      "type": "child",
+      "id": "https://ror.org/014ybqb54"
+    },
+    {
+      "label": "Zentrum verantwortungsbewusste Digitalisierung",
+      "type": "child",
+      "id": "https://ror.org/04ms06f06"
+    },
+    {
+      "label": "TU9",
+      "type": "related",
+      "id": "https://ror.org/02nx8n605"
+    },
+    {
+      "label": "Universitäts- und Landesbibliothek Darmstadt",
+      "type": "child",
+      "id": "https://ror.org/041ypg504"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

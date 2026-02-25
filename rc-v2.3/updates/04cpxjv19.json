@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "100014131"
+      ],
+      "preferred": "100014131",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.63984.30"
+      ],
+      "preferred": "grid.63984.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9064 4811"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q602748"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04cpxjv19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://muhc.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/McGill_University_Health_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre universitaire de santé McGill"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MUHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "McGill University Health Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lachine Hospital",
+      "type": "child",
+      "id": "https://ror.org/053wt0478"
+    },
+    {
+      "label": "Montreal General Hospital",
+      "type": "child",
+      "id": "https://ror.org/04gbhgc79"
+    },
+    {
+      "label": "Royal Victoria Hospital",
+      "type": "child",
+      "id": "https://ror.org/00arwy491"
+    },
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Research Institute of the McGill University Health Centre",
+      "type": "child",
+      "id": "https://ror.org/04pemf943"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

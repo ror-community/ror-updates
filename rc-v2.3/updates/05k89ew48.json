@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ju.edu.jo"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "501100005712",
+        "100007776",
+        "501100021772"
+      ],
+      "preferred": "501100005712",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9670.8"
+      ],
+      "preferred": "grid.9670.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2174 4509"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q610253"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05k89ew48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ju.edu.jo/home.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Jordan"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JO",
+        "country_name": "Jordan",
+        "country_subdivision_code": "AM",
+        "country_subdivision_name": "Amman",
+        "lat": 31.95522,
+        "lng": 35.94503,
+        "name": "Amman"
+      },
+      "geonames_id": 250441
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Jordan University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UJ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Jordan"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "الجامعة الأردنية"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "King Hussein Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/0564xsr50"
+    },
+    {
+      "label": "Jordan Media Institute",
+      "type": "related",
+      "id": "https://ror.org/012shwn84"
+    },
+    {
+      "label": "National Center for Diabetes, Endocrinology and Genetic Diseases",
+      "type": "child",
+      "id": "https://ror.org/03x7rhv94"
+    },
+    {
+      "label": "Jordan University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05fr27x71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

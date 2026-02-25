@@ -1,0 +1,155 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bmv.de"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "100008383",
+        "100008384"
+      ],
+      "preferred": "100008383",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425108.a"
+      ],
+      "preferred": "grid.425108.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2285 4304"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q491637"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00e3ns026",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bmv.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Federal_Ministry_of_Transport_and_Digital_Infrastructure"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "State of Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "acronym"
+      ],
+      "value": "BMV"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMVBS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMVI"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Bundesministerium für Verkehr"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Bundesministerium für Verkehr und digitale Infrastruktur"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Bundesministeriums für Verkehr, Bau und Stadtentwicklung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Federal Ministry of Transport"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal Ministry of Transport and Digital Infrastructure"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bundesanstalt für Wasserbau",
+      "type": "child",
+      "id": "https://ror.org/03z6hnk02"
+    },
+    {
+      "label": "Federal Railway Authority",
+      "type": "child",
+      "id": "https://ror.org/0392kk689"
+    },
+    {
+      "label": "Generaldirektion Wasserstraßen und Schifffahrt",
+      "type": "child",
+      "id": "https://ror.org/0581em797"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

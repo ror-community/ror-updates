@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488493.a"
+      ],
+      "preferred": "grid.488493.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0383 684X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q43896471"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04hw9c755",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www6.bordeaux-aquitaine.inra.fr/nutrineuro"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire de Nutrition et Neurobiologie Intégrée"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NutriNeuro"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 1286"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR1286"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Nouvelle Aquitaine-Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/00tebkv94"
+    },
+    {
+      "label": "Institut Polytechnique de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/054qv7y42"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

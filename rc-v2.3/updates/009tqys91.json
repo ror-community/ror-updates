@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488441.5"
+      ],
+      "preferred": "grid.488441.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q43896399"
+      ],
+      "preferred": "Q43896399",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009tqys91",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cancerconsortium.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cancer Consortium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fred Hutch/University of Washington/Seattle Children’s Cancer Consortium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fred Hutchinson/University of Washington Cancer Consortium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fred Hutchinson/University of Washington/Seattle Children’s Cancer Consortium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fred Hutch Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/007ps6h72"
+    },
+    {
+      "label": "Seattle Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/01njes783"
+    },
+    {
+      "label": "University of Washington",
+      "type": "related",
+      "id": "https://ror.org/00cvxb145"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "capsbe.cat"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507077.2"
+      ],
+      "preferred": "grid.507077.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6420 3085"
+      ],
+      "preferred": "0000 0004 6420 3085",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q77082410"
+      ],
+      "preferred": "Q77082410",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00sfd8n43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.capsbe.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CAPSBE"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Consorci d’Atenció Primària de Salut Barcelona Esquerra"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fundació de Recerca Clínic Barcelona-Institut d’Investigacions Biomèdiques August Pi i Sunyer",
+      "type": "related",
+      "id": "https://ror.org/041gvmd67"
+    },
+    {
+      "label": "Universitat de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/021018s57"
+    },
+    {
+      "label": "Institut Català de la Salut",
+      "type": "parent",
+      "id": "https://ror.org/04wkdwp52"
+    },
+    {
+      "label": "Hospital Clínic de Barcelona",
+      "type": "parent",
+      "id": "https://ror.org/02a2kzf50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

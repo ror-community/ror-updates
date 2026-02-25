@@ -1,0 +1,75 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usherbrooke.ca"
+  ],
+  "established": 2021,
+  "external_ids": [],
+  "id": "https://ror.org/04m2syz25",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.40008,
+        "lng": -71.89908,
+        "name": "Sherbrooke"
+      },
+      "geonames_id": 6146143
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "IRCUS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de recherche sur le cancer de l'Université de Sherbrooke"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Sherbrooke Cancer Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Sherbrooke",
+      "type": "parent",
+      "id": "https://ror.org/00kybxq39"
+    },
+    {
+      "label": "Centre intégré de santé et de services sociaux de la Montérégie-Centre",
+      "type": "related",
+      "id": "https://ror.org/04qekdn52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

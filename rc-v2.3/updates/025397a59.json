@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "501100010574"
+      ],
+      "preferred": "501100010574",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464215.0"
+      ],
+      "preferred": "grid.464215.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0243 138X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5099557"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025397a59",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cast.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/China_Academy_of_Space_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CAST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "China Academy of Space Technology"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国空间技术研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "China Aerospace Science and Technology Corporation",
+      "type": "parent",
+      "id": "https://ror.org/01z8tr155"
+    },
+    {
+      "label": "Beijing Institute of Control Engineering",
+      "type": "child",
+      "id": "https://ror.org/01qx47e88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

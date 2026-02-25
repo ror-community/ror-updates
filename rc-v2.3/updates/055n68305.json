@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1937,
+  "external_ids": [
+    {
+      "all": [
+        "501100021671"
+      ],
+      "preferred": "501100021671",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419166.d"
+      ],
+      "preferred": "grid.419166.d",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/055n68305",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gov.br/inca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "RJ",
+        "country_subdivision_name": "Rio de Janeiro",
+        "lat": -22.90642,
+        "lng": -43.18223,
+        "name": "Rio de Janeiro"
+      },
+      "geonames_id": 3451190
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Brazilian National Cancer Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Brazilian National Cancer Institute (INCA)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCA"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Instituto Nacional de Câncer - INCA"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Instituto Nacional do Câncer"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital do Câncer III",
+      "type": "child",
+      "id": "https://ror.org/00prgcp98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

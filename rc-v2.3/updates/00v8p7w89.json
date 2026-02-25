@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nij.ojp.gov"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "100005289"
+      ],
+      "preferred": "100005289",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484220.8"
+      ],
+      "preferred": "grid.484220.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0437 2485"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11054570"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00v8p7w89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nij.ojp.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Institute_of_Justice"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIJ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute of Justice"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    },
+    {
+      "label": "Office of Justice Programs",
+      "type": "parent",
+      "id": "https://ror.org/01n8d2d52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440053.6"
+      ],
+      "preferred": "grid.440053.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5929 2386"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16959841"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gknh003",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.oceannetworks.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ocean_Networks_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 48.4359,
+        "lng": -123.35155,
+        "name": "Victoria"
+      },
+      "geonames_id": 6174041
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ONC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ocean Networks Canada Society"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Victoria",
+      "type": "parent",
+      "id": "https://ror.org/04s5mat29"
+    },
+    {
+      "label": "NorthEast Pacific Deep-sea Exploration Project",
+      "type": "related",
+      "id": "https://ror.org/01fkg1209"
+    },
+    {
+      "label": "Canadian Integrated Ocean Observing System, Pacific Region",
+      "type": "child",
+      "id": "https://ror.org/00vz8a291"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "crefre-inserm.fr"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1235 7186"
+      ],
+      "preferred": "0000 0005 1235 7186",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/053zfjn49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.crefre-inserm.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CREFRE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre régional d’exploration fonctionnelle et ressources expérimentales"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Regional Center for Functional Exploration and Experimental Resources"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMS006"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "related",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "related",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "arthritis-uk.org"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "501100012041",
+        "501100000341"
+      ],
+      "preferred": "501100012041",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507369.e"
+      ],
+      "preferred": "grid.507369.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q4797635"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jkpm469",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.arthritis-uk.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Versus_Arthritis"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Arthritis UK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Versus Arthritis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Epidemiology Versus Arthritis",
+      "type": "child",
+      "id": "https://ror.org/05eev2q71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

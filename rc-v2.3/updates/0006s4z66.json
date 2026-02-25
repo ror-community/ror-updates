@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-03-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "100013173"
+      ],
+      "preferred": "100013173",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7754 4970"
+      ],
+      "preferred": "0000 0004 7754 4970",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3791513"
+      ],
+      "preferred": "Q3791513",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0006s4z66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bjs.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bureau_of_Justice_Statistics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BJS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bureau of Justice Statistics"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    },
+    {
+      "label": "Office of Justice Programs",
+      "type": "parent",
+      "id": "https://ror.org/01n8d2d52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

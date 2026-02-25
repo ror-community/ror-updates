@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/03a470182",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usgs.gov/centers/nebraska-water-science-center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 40.8,
+        "lng": -96.66696,
+        "name": "Lincoln"
+      },
+      "geonames_id": 5072006
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nebraska Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Geological Survey Nebraska Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "USGS Nebraska Water Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Geological Survey Nebraska Water Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Geological Survey",
+      "type": "parent",
+      "id": "https://ror.org/035a68863"
+    },
+    {
+      "label": "Central Plains Water Science Center",
+      "type": "successor",
+      "id": "https://ror.org/04wp8v119"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility",
+    "government"
+  ]
+}

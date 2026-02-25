@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "smhc.qc.ca"
+  ],
+  "established": 1924,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416526.2"
+      ],
+      "preferred": "grid.416526.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2945713"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03s3dhf22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.smhc.qc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/St._Mary's_Hospital_(Montreal)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre Intégré Universitaire en Santé et Services Sociaux de l'Ouest-de-l'Île-de-Montréal-St. Mary"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre hospitalier de St. Mary"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St Mary's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "St Mary's Hospital Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

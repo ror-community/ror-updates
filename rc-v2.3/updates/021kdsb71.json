@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "st-etienne.archi.fr"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466375.5"
+      ],
+      "preferred": "grid.466375.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2108 415X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578188"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021kdsb71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.st-etienne.archi.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Auvergne-Rhône-Alpes",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "name": "Saint-Etienne"
+      },
+      "geonames_id": 2980291
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENSASE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale Supérieure d'Architecture de Saint-Étienne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

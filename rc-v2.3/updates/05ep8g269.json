@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "supsi.ch"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.16058.3a"
+      ],
+      "preferred": "grid.16058.3a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2325 2233"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q663984"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ep8g269",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.supsi.ch"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/SUPSI"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "TI",
+        "country_subdivision_name": "Ticino",
+        "lat": 46.02885,
+        "lng": 8.91824,
+        "name": "Manno"
+      },
+      "geonames_id": 2659769
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SUPSI"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Scuola Universitaria Professionale della Svizzera Italiana"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Applied Sciences and Arts of Southern Switzerland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dalle Molle Institute for Artificial Intelligence Research",
+      "type": "child",
+      "id": "https://ror.org/013355g38"
+    },
+    {
+      "label": "Swiss Distance University of Applied Sciences",
+      "type": "related",
+      "id": "https://ror.org/01t75ff47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

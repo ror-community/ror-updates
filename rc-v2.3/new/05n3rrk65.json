@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nv.gov"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100023102"
+      ],
+      "preferred": "100023102",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0406 6058"
+      ],
+      "preferred": "0000 0004 0406 6058",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5589268"
+      ],
+      "preferred": "Q5589268",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n3rrk65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nv.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Government_of_Nevada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NV",
+        "country_subdivision_name": "Nevada",
+        "lat": 39.1638,
+        "lng": -119.7674,
+        "name": "Carson City"
+      },
+      "geonames_id": 5501344
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Government of Nevada"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NV Government"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "State of Nevada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nevada Department of Health and Human Services",
+      "type": "child",
+      "id": "https://ror.org/0184p1881"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

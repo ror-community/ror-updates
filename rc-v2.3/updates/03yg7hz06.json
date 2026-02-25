@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-02-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470344.0"
+      ],
+      "preferred": "grid.470344.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 082X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03yg7hz06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.centreforcancerbiology.org.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "SA",
+        "country_subdivision_name": "South Australia",
+        "lat": -34.92866,
+        "lng": 138.59863,
+        "name": "Adelaide"
+      },
+      "geonames_id": 2078025
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre for Cancer Biology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Australia Pathology",
+      "type": "parent",
+      "id": "https://ror.org/01kvtm035"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
