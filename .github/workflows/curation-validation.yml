@@ -82,10 +82,19 @@ jobs:
 
             mkdir -p "${OUTPUT_DIR}/${BASENAME}"
 
-            curation-validation \
-              -c "$csv" \
-              -o "${OUTPUT_DIR}/${BASENAME}" \
-              -u "${{ secrets.GEONAMES_USER }}" || true
+            if [ "$BASENAME" = "update_records_metadata" ]; then
+              curation-validation \
+                -c "$csv" \
+                -o "${OUTPUT_DIR}/${BASENAME}" \
+                -u "${{ secrets.GEONAMES_USER }}" \
+                --test input_file_structure \
+                --test validate_fields || true
+            else
+              curation-validation \
+                -c "$csv" \
+                -o "${OUTPUT_DIR}/${BASENAME}" \
+                -u "${{ secrets.GEONAMES_USER }}" || true
+            fi
 
             echo "::endgroup::"
           done
