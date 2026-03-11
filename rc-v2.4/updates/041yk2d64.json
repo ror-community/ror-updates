@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-11",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1895,
+  "external_ids": [
+    {
+      "all": [
+        "501100004909",
+        "501100007184"
+      ],
+      "preferred": "501100004909",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8532.c"
+      ],
+      "preferred": "grid.8532.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2200 7498"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q766447"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041yk2d64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ufrgs.br"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universidade_Federal_do_Rio_Grande_do_Sul"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "RS",
+        "country_subdivision_name": "Rio Grande do Sul",
+        "lat": -30.03283,
+        "lng": -51.23019,
+        "name": "Porto Alegre"
+      },
+      "geonames_id": 3452925
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Federal University of Rio Grande do Sul"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UFRGS"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidade Federal do Rio Grande do Sul"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Nacional de Ciência e Tecnologia Translacional em Medicina",
+      "type": "child",
+      "id": "https://ror.org/01vt9w950"
+    },
+    {
+      "label": "Hospital de Clínicas de Porto Alegre",
+      "type": "related",
+      "id": "https://ror.org/010we4y38"
+    },
+    {
+      "label": "MapBiomas",
+      "type": "related",
+      "id": "https://ror.org/021203s31"
+    },
+    {
+      "label": "TelessaúdeRS",
+      "type": "child",
+      "id": "https://ror.org/00g229b55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

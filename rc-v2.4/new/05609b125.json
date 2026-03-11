@@ -54,7 +54,23 @@
       "value": "Arkansas Children's Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arkansas Children's Hospital",
+      "type": "parent",
+      "id": "https://ror.org/01t33qq42"
+    },
+    {
+      "label": "Arkansas Children’s Foundation",
+      "type": "parent",
+      "id": "https://ror.org/057hv3t60"
+    },
+    {
+      "label": "Arkansas Children's Nutrition Center",
+      "type": "related",
+      "id": "https://ror.org/03vvhya80"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

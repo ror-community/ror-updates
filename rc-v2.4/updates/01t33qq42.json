@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-11",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1912,
+  "external_ids": [
+    {
+      "all": [
+        "grid.239305.e"
+      ],
+      "preferred": "grid.239305.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2157 2081"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4791755"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01t33qq42",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.archildrens.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Arkansas_Children%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AR",
+        "country_subdivision_name": "Arkansas",
+        "lat": 34.74648,
+        "lng": -92.28959,
+        "name": "Little Rock"
+      },
+      "geonames_id": 4119403
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ACH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Arkansas Children's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Arkansas at Little Rock",
+      "type": "related",
+      "id": "https://ror.org/04fttyv97"
+    },
+    {
+      "label": "University of Arkansas for Medical Sciences",
+      "type": "related",
+      "id": "https://ror.org/00xcryt71"
+    },
+    {
+      "label": "Arkansas Children's Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05609b125"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

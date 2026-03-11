@@ -79,7 +79,18 @@
       "value": "Institut Supérieur des Professions Infirmières et Techniques de Santé de Casablanca"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de la Santé",
+      "type": "parent",
+      "id": "https://ror.org/01m2sr579"
+    },
+    {
+      "label": "Instituts Supérieurs des Professions Infirmières et Techniques de Santé",
+      "type": "related",
+      "id": "https://ror.org/007h8y788"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
