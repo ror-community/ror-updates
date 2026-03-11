@@ -1,79 +1,79 @@
 {
-    "admin": {
-        "created": {
-            "date": "2018-11-14",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-03-11",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "domains": [],
-    "established": null,
-    "external_ids": [
-        {
-            "all": [
-                "grid.463809.0"
-            ],
-            "preferred": "grid.463809.0",
-            "type": "grid"
-        },
-        {
-            "all": [
-                "Q30262198"
-            ],
-            "preferred": null,
-            "type": "wikidata"
-        }
-    ],
-    "id": "https://ror.org/002jby155",
-    "links": [
-        {
-            "type": "website",
-            "value": "https://www.inrae.fr/centres/bourgogne-franche-comte"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": "EU",
-                "continent_name": "Europe",
-                "country_code": "FR",
-                "country_name": "France",
-                "country_subdivision_code": "BFC",
-                "country_subdivision_name": "Bourgogne",
-                "lat": 47.31344,
-                "lng": 5.01391,
-                "name": "Dijon"
-            },
-            "geonames_id": 3021372
-        }
-    ],
-    "names": [
-        {
-            "lang": "fr",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "Centre Bourgogne-Franche-Comté"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "Centre de Microbiologie du Sol et de l'Environnement",
-            "type": "child",
-            "id": "https://ror.org/01c2t8448"
-        },
-        {
-            "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
-            "type": "parent",
-            "id": "https://ror.org/003vg9w96"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "facility"
-    ]
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463809.0"
+      ],
+      "preferred": "grid.463809.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262198"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002jby155",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/centres/bourgogne-franche-comte"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne",
+        "lat": 47.31344,
+        "lng": 5.01391,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Bourgogne-Franche-Comté"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Microbiologie du Sol et de l'Environnement",
+      "type": "child",
+      "id": "https://ror.org/01c2t8448"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
 }
