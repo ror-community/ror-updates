@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-11",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503093.c"
+      ],
+      "preferred": "grid.503093.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8298 7418"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784596"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006fhby04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://umr-astre.cirad.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ASTRE"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Animal, Santé, Territoires, Risques et Ecosystèmes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Occitanie-Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/03fkrcm40"
+    },
+    {
+      "label": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05kpkpg04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

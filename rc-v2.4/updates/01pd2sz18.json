@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-11",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503406.4"
+      ],
+      "preferred": "grid.503406.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0458 7507"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51778778"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01pd2sz18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mistea.montpellier.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "name": "Montpellier"
+      },
+      "geonames_id": 2992166
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MISTEA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mathématiques, Informatique et Statistique pour l'Environnement et l'Agronomie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR MISTEA"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Occitanie-Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/03fkrcm40"
+    },
+    {
+      "label": "Département Mathématiques et Informatique Appliquées",
+      "type": "parent",
+      "id": "https://ror.org/011emb038"
+    },
+    {
+      "label": "Institut Agro Montpellier",
+      "type": "parent",
+      "id": "https://ror.org/03rnk6m14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
