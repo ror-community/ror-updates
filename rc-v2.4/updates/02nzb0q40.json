@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503224.2"
+      ],
+      "preferred": "grid.503224.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8762 7703"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51778828"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02nzb0q40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://secalim.angers-nantes.hub.inrae.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "name": "Nantes"
+      },
+      "geonames_id": 2990969
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SECALIM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "SECurité des ALIments et Microbiologie"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "UMR INRAE Oniris SECALIM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR SECALIM"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre Pays de la Loire",
+      "type": "parent",
+      "id": "https://ror.org/020jynt45"
+    },
+    {
+      "label": "Oniris",
+      "type": "parent",
+      "id": "https://ror.org/05q0ncs32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

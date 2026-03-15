@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2020,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7406 9449"
+      ],
+      "preferred": "0000 0004 7406 9449",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q107611919"
+      ],
+      "preferred": "Q107611919",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wxgxz56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hospitaluniversitariodetoledo.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Hospital_Universitario_de_Toledo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CM",
+        "country_subdivision_name": "Castille-La Mancha",
+        "lat": 39.8581,
+        "lng": -4.02263,
+        "name": "Toledo"
+      },
+      "geonames_id": 2510409
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Universitario de Toledo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital of Toledo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Virgen de la Salud",
+      "type": "predecessor",
+      "id": "https://ror.org/0289cxp23"
+    },
+    {
+      "label": "Complejo Hospitalario Universitario de Toledo",
+      "type": "parent",
+      "id": "https://ror.org/04q4ppz72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

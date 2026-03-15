@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100013380"
+      ],
+      "preferred": "501100013380",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7780 7814"
+      ],
+      "preferred": "0000 0004 7780 7814",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04rm7h526",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gwf.usask.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "SK",
+        "country_subdivision_name": "Saskatchewan",
+        "lat": 52.13238,
+        "lng": -106.66892,
+        "name": "Saskatoon"
+      },
+      "geonames_id": 6141256
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GWF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Global Water Futures"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Saskatchewan",
+      "type": "parent",
+      "id": "https://ror.org/010x8gc63"
+    },
+    {
+      "label": "Global Water Futures Observatories",
+      "type": "successor",
+      "id": "https://ror.org/028n22487"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

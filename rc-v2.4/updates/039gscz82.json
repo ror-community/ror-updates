@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2025,
+  "external_ids": [
+    {
+      "all": [
+        "grid.511304.2"
+      ],
+      "preferred": "grid.511304.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q107518509"
+      ],
+      "preferred": "Q107518509",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/039gscz82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.metabohub.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "MetaboHUB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "MetaboHUB-Core"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+      "type": "parent",
+      "id": "https://ror.org/00jjx8s55"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

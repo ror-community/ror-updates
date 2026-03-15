@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457959.3"
+      ],
+      "preferred": "grid.457959.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30259279"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05r63mf91",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrae.fr/departements/bap"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.80359,
+        "lng": 2.13424,
+        "name": "Versailles"
+      },
+      "geonames_id": 2969679
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "BAP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Département Biologie et Amélioration des Plantes"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ecophysiologie et Génomique Fonctionnelle de la Vigne",
+      "type": "child",
+      "id": "https://ror.org/004q3z910"
+    },
+    {
+      "label": "Genomics and Biotechnology of the Fruits Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01z0xsq42"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

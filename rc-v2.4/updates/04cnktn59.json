@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pan.olsztyn.pl"
+  ],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "501100004383"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.433017.2"
+      ],
+      "preferred": "grid.433017.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1091 0698"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04cnktn59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://pan.olsztyn.pl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Warmia-Masuria",
+        "lat": 53.78376,
+        "lng": 20.49272,
+        "name": "Olsztyn"
+      },
+      "geonames_id": 763166
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "InLife Institute of Animal Reproduction and Food Research, Polish Academy of Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "InLife Instytut Rozrodu Zwierząt i Badań Żywności Polskiej Akademii Nauk"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Animal Reproduction and Food Research"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "alias"
+      ],
+      "value": "Instytut Rozrodu Zwierza̜t i Badań Żywności PAN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

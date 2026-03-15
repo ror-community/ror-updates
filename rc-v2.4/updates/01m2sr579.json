@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434766.4"
+      ],
+      "preferred": "grid.434766.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0391 3171"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01m2sr579",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sante.gov.ma/Pages/Accueil.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "country_subdivision_code": "04",
+        "country_subdivision_name": "Rabat-Salé-Kénitra",
+        "lat": 34.01325,
+        "lng": -6.83255,
+        "name": "Rabat"
+      },
+      "geonames_id": 2538475
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministère de la Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Direction de l’Epidémiologie et de Lutte contre les Maladies",
+      "type": "child",
+      "id": "https://ror.org/008mypn13"
+    },
+    {
+      "label": "Institut National d'Hygiène du Maroc",
+      "type": "child",
+      "id": "https://ror.org/01ptsgx95"
+    },
+    {
+      "label": "Institut Supérieur des Professions Infirmières et Techniques de Santé de Casablanca",
+      "type": "child",
+      "id": "https://ror.org/01wcdkp35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

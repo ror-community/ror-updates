@@ -1,0 +1,140 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unthealth.edu"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100017787"
+      ],
+      "preferred": "100017787",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266871.c"
+      ],
+      "preferred": "grid.266871.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9765 6057"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895977"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05msxaq47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unthealth.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_North_Texas_Health_Science_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.72541,
+        "lng": -97.32085,
+        "name": "Fort Worth"
+      },
+      "geonames_id": 4691930
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre des Sciences de Santé de l'Université du Texas du Nord"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UNT Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UNT Health Fort Worth"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UNT Health Science Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNTHSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of North Texas Health Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "John Peter Smith Hospital",
+      "type": "child",
+      "id": "https://ror.org/01cx85066"
+    },
+    {
+      "label": "University of North Texas System",
+      "type": "parent",
+      "id": "https://ror.org/03qbxj466"
+    },
+    {
+      "label": "VA North Texas Health Care System",
+      "type": "related",
+      "id": "https://ror.org/01nzxq896"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

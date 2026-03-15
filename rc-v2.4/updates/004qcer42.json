@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-12",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "100005310"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453448.a"
+      ],
+      "preferred": "grid.453448.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5902 9780"
+      ],
+      "preferred": "0000 0004 5902 9780",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/004qcer42",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://klarmanfoundation.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Klarman Family Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klarman Cell Observatory",
+      "type": "child",
+      "id": "https://ror.org/02p827605"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}
