@@ -88,7 +88,8 @@ jobs:
                 -o "${OUTPUT_DIR}/${BASENAME}" \
                 -u "${{ secrets.GEONAMES_USER }}" \
                 --test input_file_structure \
-                --test validate_fields || true
+                --test validate_fields \
+                --test duplicate-domains || true
             else
               curation-validation \
                 -c "$csv" \
