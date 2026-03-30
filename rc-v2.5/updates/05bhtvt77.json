@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "enim.fr"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462895.4"
+      ],
+      "preferred": "grid.462895.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0551 7349"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578090"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05bhtvt77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.enim.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 49.11911,
+        "lng": 6.17269,
+        "name": "Metz"
+      },
+      "geonames_id": 2994160
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENIM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale d'Ingénieurs de Metz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Étude des Microstructures et de Mécanique des Matériaux",
+      "type": "child",
+      "id": "https://ror.org/01nyrrx14"
+    },
+    {
+      "label": "Laboratoire de Génie Informatique, de Production et de Maintenance",
+      "type": "child",
+      "id": "https://ror.org/04xykxd72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100020811"
+      ],
+      "preferred": "501100020811",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418855.5"
+      ],
+      "preferred": "grid.418855.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0631 2857"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11712976"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ejdtr48",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://portal.ichb.pl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Greater Poland",
+        "lat": 52.40692,
+        "lng": 16.92993,
+        "name": "Poznan"
+      },
+      "geonames_id": 3088171
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBCH PAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Bioorganic Chemistry, Polish Academy of Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "alias"
+      ],
+      "value": "Instytut Chemii Bioorganicznej PAN"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Chemii Bioorganicznej Polskiej Akademii Nauk"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Poznan Supercomputing and Networking Center",
+      "type": "child",
+      "id": "https://ror.org/025cj6e44"
+    },
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

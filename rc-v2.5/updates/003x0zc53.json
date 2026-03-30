@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-03-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aei.gob.es"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "501100011033"
+      ],
+      "preferred": "501100011033",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q32826443"
+      ],
+      "preferred": "Q32826443",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003x0zc53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aei.gob.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Agencia_Estatal_de_Investigaci%C3%B3n"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AEI"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agencia Estatal de Investigación"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Spanish Agencia Estatal de Investigación"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Spanish State Research Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State Research Agency of Spain"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Ciencia, Innovación y Universidades",
+      "type": "parent",
+      "id": "https://ror.org/05r0vyz12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

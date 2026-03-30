@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jst.go.jp"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "501100002241",
+        "501100004696",
+        "501100001695",
+        "501100003382",
+        "501100009037",
+        "501100020963",
+        "501100020964",
+        "501100020959",
+        "501100009023"
+      ],
+      "preferred": "501100002241",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419082.6"
+      ],
+      "preferred": "grid.419082.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1754 9200",
+        "0000 0001 2285 0987"
+      ],
+      "preferred": "0000 0001 2285 0987",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11595927"
+      ],
+      "preferred": "Q11595927",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00097mb19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jst.go.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Japan Science and Technology Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Japanese Science and Technology Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Science and Technology Agency of Japan"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "科学技術振興機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Japan Link Center",
+      "type": "child",
+      "id": "https://ror.org/056cwrs58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

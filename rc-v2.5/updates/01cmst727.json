@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "100000893",
+        "100014370",
+        "100015985"
+      ],
+      "preferred": "100000893",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.430264.7"
+      ],
+      "preferred": "grid.430264.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1940 4804"
+      ],
+      "preferred": "0000 0001 1940 4804",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q28148561"
+      ],
+      "preferred": "Q28148561",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01cmst727",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.simonsfoundation.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Simons Foundation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Simons Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clinical Research Associates",
+      "type": "child",
+      "id": "https://ror.org/04nydew61"
+    },
+    {
+      "label": "Flatiron Institute",
+      "type": "child",
+      "id": "https://ror.org/00sekdz59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

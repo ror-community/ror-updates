@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "anid.cl"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "501100002848",
+        "501100002850",
+        "501100002849",
+        "501100020884",
+        "501100008736",
+        "501100018735"
+      ],
+      "preferred": "501100002848",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424112.0"
+      ],
+      "preferred": "grid.424112.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 9683"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q60169264"
+      ],
+      "preferred": "Q60169264",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ap3w078",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.anid.cl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ANID"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "ANID Chile"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agencia Nacional de Investigación y Desarrollo"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chilean National Agency for Research and Development"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Agency for Research and Development"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Agency for Research and Development of Chile"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico de Valparaíso",
+      "type": "child",
+      "id": "https://ror.org/00m0k5p91"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

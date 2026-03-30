@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100002341",
+        "501100005876",
+        "501100005877",
+        "501100005878",
+        "501100005875"
+      ],
+      "preferred": "501100002341",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15098.35"
+      ],
+      "preferred": "grid.15098.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 6886"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q414422"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05k73zm37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aka.fi"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Academy_of_Finland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Academy of Finland"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Finlands Akademi"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Finnish Research Council"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Research Council of Finland"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Suomen Akatemia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Strategisen Tutkimuksen Neuvosto",
+      "type": "child",
+      "id": "https://ror.org/02vtq1a86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

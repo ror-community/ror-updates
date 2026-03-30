@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "100011038",
+        "100011040"
+      ],
+      "preferred": "100011038",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.488591.9"
+      ],
+      "preferred": "grid.488591.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6003 7139"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q22222677",
+        "Q1154057"
+      ],
+      "preferred": "Q22222677",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01v3fsc55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.odni.gov/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.93428,
+        "lng": -77.17748,
+        "name": "McLean"
+      },
+      "geonames_id": 4772354
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ODNI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of the Director of National Intelligence"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Counterterrorism Center",
+      "type": "child",
+      "id": "https://ror.org/0376wcg10"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
