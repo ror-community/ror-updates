@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100019256"
+      ],
+      "preferred": "501100019256",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0281 4363"
+      ],
+      "preferred": "0000 0005 0281 4363",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/033rx1153",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gosh.nhs.uk/our-research/our-research-infrastructure/nihr-great-ormond-street-hospital-brc/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIHR GOSH BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Great Ormond Street Hospital Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Great Ormond Street Hospital",
+      "type": "parent",
+      "id": "https://ror.org/00zn2c847"
+    },
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

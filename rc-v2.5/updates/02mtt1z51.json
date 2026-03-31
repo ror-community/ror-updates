@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100015250"
+      ],
+      "preferred": "100015250",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.511076.4"
+      ],
+      "preferred": "grid.511076.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/02mtt1z51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bristolbrc.nihr.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.45523,
+        "lng": -2.59665,
+        "name": "Bristol"
+      },
+      "geonames_id": 2654675
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Bristol Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "University of Bristol",
+      "type": "parent",
+      "id": "https://ror.org/0524sp257"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

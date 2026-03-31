@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100012618"
+      ],
+      "preferred": "501100012618",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.512112.4"
+      ],
+      "preferred": "grid.512112.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/004hydx84",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.moorfieldsbrc.nihr.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Moorfields Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Moorfields Eye Hospital NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/03zaddr67"
+    },
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "University College London",
+      "type": "parent",
+      "id": "https://ror.org/02jx3x895"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

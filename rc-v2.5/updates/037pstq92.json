@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-02-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100010688"
+      ],
+      "preferred": "501100010688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7773 247X"
+      ],
+      "preferred": "0000 0004 7773 247X",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/037pstq92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ufrgs.br/inctcriosfera/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "RS",
+        "country_subdivision_name": "Rio Grande do Sul",
+        "lat": -30.03283,
+        "lng": -51.23019,
+        "name": "Porto Alegre"
+      },
+      "geonames_id": 3452925
+    }
+  ],
+  "names": [
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "INCT da Criosfera"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Ciência e Tecnologia da Criosfera"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute of Science and Technology of the Cryosphere"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "type": "parent",
+      "id": "https://ror.org/03swz6y49"
+    },
+    {
+      "label": "Institutos Nacionais de Ciência e Tecnologia",
+      "type": "parent",
+      "id": "https://ror.org/045ydbe97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

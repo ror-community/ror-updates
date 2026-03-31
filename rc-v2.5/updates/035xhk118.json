@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414059.d"
+      ],
+      "preferred": "grid.414059.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0617 9080"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16162720"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035xhk118",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.southtexas.va.gov/locations/directions.asp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Audie_L._Murphy_Memorial_VA_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "name": "San Antonio"
+      },
+      "geonames_id": 4726206
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Audie L. Murphy Memorial VA Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Audie L. Murphy VA Medical Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "STVHCS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Texas Veterans Health Care System",
+      "type": "parent",
+      "id": "https://ror.org/03n2ay196"
+    },
+    {
+      "label": "The University of Texas at San Antonio Health Science Center",
+      "type": "related",
+      "id": "https://ror.org/02f6dcw23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100018956"
+      ],
+      "preferred": "501100018956",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 8340 8617"
+      ],
+      "preferred": "0000 0004 8340 8617",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121816"
+      ],
+      "preferred": "Q33121816",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05m8dr349",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cambridgebrc.nihr.ac.uk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cambridge Biomedical Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NIHR Cambridge BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Cambridge Biomedical Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Institute for Health Research Cambridge Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "University of Cambridge",
+      "type": "parent",
+      "id": "https://ror.org/013meh722"
+    },
+    {
+      "label": "Cambridge University Hospitals NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/04v54gj93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

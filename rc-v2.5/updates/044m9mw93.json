@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100012295"
+      ],
+      "preferred": "501100012295",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454379.8"
+      ],
+      "preferred": "grid.454379.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/044m9mw93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ageingresearch.org/bru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 54.97328,
+        "lng": -1.61396,
+        "name": "Newcastle upon Tyne"
+      },
+      "geonames_id": 2641673
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NIHR Newcastle BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Newcastle Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "Newcastle University",
+      "type": "related",
+      "id": "https://ror.org/01kj2bm70"
+    },
+    {
+      "label": "Newcastle upon Tyne Hospitals NHS Foundation Trust",
+      "type": "related",
+      "id": "https://ror.org/05p40t847"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

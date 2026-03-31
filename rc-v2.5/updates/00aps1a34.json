@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100013373"
+      ],
+      "preferred": "501100013373",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454382.c"
+      ],
+      "preferred": "grid.454382.c",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00aps1a34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://oxfordbrc.nihr.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NIHR Oxford Musculoskeletal Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "Oxford University Hospitals NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/03h2bh287"
+    },
+    {
+      "label": "University of Oxford",
+      "type": "related",
+      "id": "https://ror.org/052gg0110"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
