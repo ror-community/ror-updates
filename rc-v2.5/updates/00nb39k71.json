@@ -1,100 +1,100 @@
 {
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-03-31",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-03-31",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [],
-  "established": 2014,
-  "external_ids": [
-    {
-      "all": [
-        "grid.460797.b"
-      ],
-      "preferred": "grid.460797.b",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "Q16682067"
-      ],
-      "preferred": null,
-      "type": "wikidata"
-    }
-  ],
-  "id": "https://ror.org/00nb39k71",
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.univ-guyane.fr/"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/University_of_French_Guiana"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "SA",
-        "continent_name": "South America",
-        "country_code": "GF",
-        "country_name": "French Guiana",
-        "country_subdivision_code": null,
-        "country_subdivision_name": "Guyane",
-        "lat": 4.93333,
-        "lng": -52.33333,
-        "name": "Cayenne"
-      },
-      "geonames_id": 3382160
-    }
-  ],
-  "names": [
-    {
-      "lang": "en",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "University of French Guiana"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "label"
-      ],
-      "value": "Université de Guyane"
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Ecologie des Forêts de Guyane",
-      "type": "child",
-      "id": "https://ror.org/04q9vef57"
-    },
-    {
-      "label": "UMR Espace-Dev",
-      "type": "child",
-      "id": "https://ror.org/01z485314"
-    },
-    {
-      "label": "Laboratoire écologie, évolution, interactions des systèmes amazoniens",
-      "type": "child",
-      "id": "https://ror.org/00gj7r351"
-    },
-    {
-      "label": "University of the French West Indies and Guiana",
-      "type": "predecessor",
-      "id": "https://ror.org/017nssj40"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "education"
-  ]
+    "domains": [],
+    "established": 2014,
+    "external_ids": [
+        {
+            "all": [
+                "grid.460797.b"
+            ],
+            "preferred": "grid.460797.b",
+            "type": "grid"
+        },
+        {
+            "all": [
+                "Q16682067"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+        }
+    ],
+    "id": "https://ror.org/00nb39k71",
+    "links": [
+        {
+            "type": "website",
+            "value": "http://www.univ-guyane.fr/"
+        },
+        {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/University_of_French_Guiana"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "SA",
+                "continent_name": "South America",
+                "country_code": "GF",
+                "country_name": "French Guiana",
+                "country_subdivision_code": null,
+                "country_subdivision_name": "Guyane",
+                "lat": 4.9381,
+                "lng": -52.33455,
+                "name": "Cayenne"
+            },
+            "geonames_id": 3382160
+        }
+    ],
+    "names": [
+        {
+            "lang": "en",
+            "types": [
+                "ror_display",
+                "label"
+            ],
+            "value": "University of French Guiana"
+        },
+        {
+            "lang": "fr",
+            "types": [
+                "label"
+            ],
+            "value": "Université de Guyane"
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Ecologie des Forêts de Guyane",
+            "type": "child",
+            "id": "https://ror.org/04q9vef57"
+        },
+        {
+            "label": "UMR Espace-Dev",
+            "type": "child",
+            "id": "https://ror.org/01z485314"
+        },
+        {
+            "label": "Laboratoire écologie, évolution, interactions des systèmes amazoniens",
+            "type": "child",
+            "id": "https://ror.org/00gj7r351"
+        },
+        {
+            "label": "University of the French West Indies and Guiana",
+            "type": "predecessor",
+            "id": "https://ror.org/017nssj40"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "education"
+    ]
 }
