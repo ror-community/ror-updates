@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,18 @@
       "value": "UMR1295"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Laboratoire Epidémiologie et Analyses en Santé Publique : Risques, Maladies Chroniques et Handicaps",
+      "type": "predecessor",
+      "id": "https://ror.org/02ywmqv15"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

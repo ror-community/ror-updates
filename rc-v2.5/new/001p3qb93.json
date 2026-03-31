@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "University of Wisconsin–Madison Space Science and Engineering Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Wisconsin–Madison",
+      "type": "parent",
+      "id": "https://ror.org/01y2jtd41"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

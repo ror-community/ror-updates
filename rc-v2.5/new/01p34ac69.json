@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "UMR-TSE R"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Toulouse School of Economics",
+      "type": "parent",
+      "id": "https://ror.org/00ff5f522"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

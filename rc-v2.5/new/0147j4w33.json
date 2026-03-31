@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "cTRL Tx"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Moffitt Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/01xf75524"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

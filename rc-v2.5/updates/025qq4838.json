@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100017266"
+      ],
+      "preferred": "501100017266",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424222.0"
+      ],
+      "preferred": "grid.424222.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2242 5374"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/025qq4838",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navarra.es/home_es/Gobierno+de+Navarra/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "Navarre",
+        "lat": 42.81687,
+        "lng": -1.64323,
+        "name": "Pamplona"
+      },
+      "geonames_id": 3114472
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Comunidad Foral de Navarra"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gobierno de Navarra"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agrobiotechnology Institute",
+      "type": "child",
+      "id": "https://ror.org/0526wrz79"
+    },
+    {
+      "label": "Servicio Navarro de Salud",
+      "type": "parent",
+      "id": "https://ror.org/005dknr06"
+    },
+    {
+      "label": "Orekan - Gestión Ambiental de Navarra",
+      "type": "child",
+      "id": "https://ror.org/036tx8b84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

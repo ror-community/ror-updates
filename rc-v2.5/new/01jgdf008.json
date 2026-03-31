@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Scottish Agricultural College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Scotland's Rural College",
+      "type": "successor",
+      "id": "https://ror.org/044e2ja82"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

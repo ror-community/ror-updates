@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Télécom Lille 1"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "IMT Nord Europe",
+      "type": "successor",
+      "id": "https://ror.org/042rh9p26"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

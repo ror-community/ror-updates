@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1978,
+  "external_ids": [
+    {
+      "all": [
+        "501100010801"
+      ],
+      "preferred": "501100010801",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.439220.e"
+      ],
+      "preferred": "grid.439220.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2325 4490"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1779601"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0181xnw06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.xunta.es/portada"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Xunta_de_Galicia"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Galicia",
+        "lat": 42.88052,
+        "lng": -8.54569,
+        "name": "Santiago de Compostela"
+      },
+      "geonames_id": 3109642
+    }
+  ],
+  "names": [
+    {
+      "lang": "gl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Xunta de Galicia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Consellería de Cultura, Educación, Formación Profesional e Universidades",
+      "type": "child",
+      "id": "https://ror.org/03gq5rs15"
+    },
+    {
+      "label": "Instituto de Estudios Gallegos Padre Sarmiento",
+      "type": "child",
+      "id": "https://ror.org/00ae13b94"
+    },
+    {
+      "label": "Consorcio Interuniversitario do Sistema Universitario de Galicia (CISUG)",
+      "type": "related",
+      "id": "https://ror.org/019z56k76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

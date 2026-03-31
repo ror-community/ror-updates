@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "École pratique de service social"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CY Cergy Paris Université",
+      "type": "parent",
+      "id": "https://ror.org/043htjv09"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

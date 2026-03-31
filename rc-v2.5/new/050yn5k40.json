@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,28 @@
       "value": "International Liaison Committee on Resuscitation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "American Heart Association",
+      "type": "related",
+      "id": "https://ror.org/013kjyp64"
+    },
+    {
+      "label": "European Resuscitation Council",
+      "type": "related",
+      "id": "https://ror.org/05s6r7486"
+    },
+    {
+      "label": "Heart and Stroke Foundation",
+      "type": "related",
+      "id": "https://ror.org/00qbpyp73"
+    },
+    {
+      "label": "International Federation of Red Cross and Red Crescent Societies",
+      "type": "related",
+      "id": "https://ror.org/040at4140"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

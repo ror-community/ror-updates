@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 5938 4379"
+      ],
+      "preferred": "0000 0004 5938 4379",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30260211"
+      ],
+      "preferred": "Q30260211",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03zyxxj44",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ciusss-estmtl.gouv.qc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_int%C3%A9gr%C3%A9_de_sant%C3%A9_et_de_services_sociaux"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CIUSSS de l'Est-de-l'Île-de-Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre intégré universitaire de santé et de services sociaux de l'Est-de-l'Île-de-Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Santa Cabrini",
+      "type": "child",
+      "id": "https://ror.org/02dfjrv41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

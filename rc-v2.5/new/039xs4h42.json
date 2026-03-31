@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Instituto de Investigación Multidisciplinar en Biología Aplicada"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Publica de Navarra",
+      "type": "parent",
+      "id": "https://ror.org/02z0cah89"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

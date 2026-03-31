@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "grid.42475.30"
+      ],
+      "preferred": "grid.42475.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 769X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q185800"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00tw3jy02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.mrc-lmb.cam.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Laboratory_of_Molecular_Biology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LMB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "MRC Laboratory of Molecular Biology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    },
+    {
+      "label": "Molecular Immunity Unit",
+      "type": "related",
+      "id": "https://ror.org/004d5qr63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

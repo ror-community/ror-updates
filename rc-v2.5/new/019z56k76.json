@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,28 @@
       "value": "Consorcio Interuniversitario do Sistema Universitario de Galicia (CISUG)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade da Coruña",
+      "type": "related",
+      "id": "https://ror.org/01qckj285"
+    },
+    {
+      "label": "Universidade de Santiago de Compostela",
+      "type": "related",
+      "id": "https://ror.org/030eybx10"
+    },
+    {
+      "label": "Universidade de Vigo",
+      "type": "related",
+      "id": "https://ror.org/05rdf8595"
+    },
+    {
+      "label": "Xunta de Galicia",
+      "type": "related",
+      "id": "https://ror.org/0181xnw06"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

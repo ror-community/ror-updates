@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Institute of Computational Biology (ICB)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Helmholtz Zentrum München",
+      "type": "parent",
+      "id": "https://ror.org/00cfam450"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

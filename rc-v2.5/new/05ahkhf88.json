@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Інститут психології імені Г.С. Костюка Національної академії педагогічних наук України"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Educational Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/05h1pdj54"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

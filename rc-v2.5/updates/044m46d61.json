@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -99,7 +99,13 @@
       "value": "Τεχνολογικό Εκπαιδευτικό Ίδρυμα Αθήνας"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of West Attica",
+      "type": "successor",
+      "id": "https://ror.org/00r2r5k05"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

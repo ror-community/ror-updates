@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,13 @@
       "value": "ΤΕΙ Πελοποννήσου"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Peloponnese",
+      "type": "successor",
+      "id": "https://ror.org/04d4d3c02"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

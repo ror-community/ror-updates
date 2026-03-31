@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Université Nancy-II"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Lorraine",
+      "type": "successor",
+      "id": "https://ror.org/04vfs2w97"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

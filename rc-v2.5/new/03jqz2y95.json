@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Beijing Institute for Stem Cell and Regenerative Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

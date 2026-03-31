@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Candel Therapeutics (United States)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Advantagene (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/03mante79"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

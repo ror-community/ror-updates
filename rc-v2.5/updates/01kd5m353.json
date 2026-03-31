@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -85,7 +85,13 @@
       "value": "Vinnova"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Climate and Enterprise",
+      "type": "parent",
+      "id": "https://ror.org/03wt3br81"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "Araris Biotech AG (Switzerland)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Paul Scherrer Institute",
+      "type": "related",
+      "id": "https://ror.org/03eh3y714"
+    },
+    {
+      "label": "ETH Zurich",
+      "type": "related",
+      "id": "https://ror.org/05a28rw58"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

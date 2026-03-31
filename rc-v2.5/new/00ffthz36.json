@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,68 @@
       "value": "Fédération de recherche André-Marie Ampère"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "École Normale Supérieure de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/04zmssz18"
+    },
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    },
+    {
+      "label": "École Centrale de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/05s6rge65"
+    },
+    {
+      "label": "Institut National des Sciences Appliquées de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/050jn9y42"
+    },
+    {
+      "label": "Centre de Recherche Astrophysique de Lyon",
+      "type": "child",
+      "id": "https://ror.org/0084x3h80"
+    },
+    {
+      "label": "Institut de Physique des 2 Infinis de Lyon",
+      "type": "child",
+      "id": "https://ror.org/02avf8f85"
+    },
+    {
+      "label": "Institut des Nanotechnologies de Lyon",
+      "type": "child",
+      "id": "https://ror.org/04jsk0b74"
+    },
+    {
+      "label": "Institut Lumière Matière",
+      "type": "child",
+      "id": "https://ror.org/0323bey33"
+    },
+    {
+      "label": "Laboratoire de Physique de l'ENS de Lyon",
+      "type": "child",
+      "id": "https://ror.org/00w5ay796"
+    },
+    {
+      "label": "Laboratoire Hubert Curien",
+      "type": "child",
+      "id": "https://ror.org/0028p8r67"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

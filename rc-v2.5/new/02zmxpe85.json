@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "九州大学 生体防御医学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyushu University",
+      "type": "related",
+      "id": "https://ror.org/00p4k0j84"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,23 @@
       "value": "ONERA/ENAC/ISAE-SUPAERO Research Federation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut Superieur de l'Aeronautique et de l'Espace (ISAE-SUPAERO)",
+      "type": "parent",
+      "id": "https://ror.org/04gyj6s21"
+    },
+    {
+      "label": "Office National d'Études et de Recherches Aérospatiales",
+      "type": "parent",
+      "id": "https://ror.org/005y2ap84"
+    },
+    {
+      "label": "École Nationale de l’Aviation Civile",
+      "type": "parent",
+      "id": "https://ror.org/022zdgq74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

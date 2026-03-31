@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "École supérieure d’ingénieurs et de techniciens pour l’agriculture"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "UniLaSalle",
+      "type": "successor",
+      "id": "https://ror.org/05wy89733"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

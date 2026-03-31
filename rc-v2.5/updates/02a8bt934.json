@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "501100004224"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1055.1"
+      ],
+      "preferred": "grid.1055.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0397 8434"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7175569"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02a8bt934",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.petermac.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Peter_MacCallum_Cancer_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Peter Mac"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Peter MacCallum Cancer Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Peter MacCallum Cancer Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Victorian Centre for Functional Genomics",
+      "type": "child",
+      "id": "https://ror.org/05nq3sz50"
+    },
+    {
+      "label": "Australian Drosophila Transgenic Facility",
+      "type": "child",
+      "id": "https://ror.org/03cfaj272"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

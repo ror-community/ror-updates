@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Olivia Newton-John Cancer Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "La Trobe University",
+      "type": "parent",
+      "id": "https://ror.org/01rxfrp27"
+    },
+    {
+      "label": "Olivia Newton-John Cancer Wellness & Research Centre",
+      "type": "parent",
+      "id": "https://ror.org/04t908e09"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

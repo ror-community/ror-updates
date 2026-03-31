@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "501100001215"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1018.8"
+      ],
+      "preferred": "grid.1018.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2342 0938"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1478723"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rxfrp27",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.latrobe.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/La_Trobe_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "La Trobe University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Austin Hospital",
+      "type": "related",
+      "id": "https://ror.org/010mv7n52"
+    },
+    {
+      "label": "Box Hill Hospital",
+      "type": "related",
+      "id": "https://ror.org/0484pjq71"
+    },
+    {
+      "label": "Royal Women's Hospital",
+      "type": "related",
+      "id": "https://ror.org/03grnna41"
+    },
+    {
+      "label": "Olivia Newton-John Cancer Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05yncf830"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

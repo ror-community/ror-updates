@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "京都大学福井謙一記念研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto University",
+      "type": "parent",
+      "id": "https://ror.org/02kpeqv85"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

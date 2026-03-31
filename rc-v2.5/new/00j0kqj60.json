@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "มหาวิทยาลัยซีเอ็มเคแอล"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Carnegie Mellon University",
+      "type": "related",
+      "id": "https://ror.org/05x2bcf33"
+    },
+    {
+      "label": "King Mongkut's Institute of Technology Ladkrabang",
+      "type": "related",
+      "id": "https://ror.org/055mf0v62"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Národní pedagogický institut České republiky"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Národní Ústav pro Vzdělávání",
+      "type": "predecessor",
+      "id": "https://ror.org/03enrvz51"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

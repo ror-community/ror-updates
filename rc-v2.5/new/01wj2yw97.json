@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Технічний центр Національної академії наук України"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/00je4t102"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

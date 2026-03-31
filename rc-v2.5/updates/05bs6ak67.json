@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1877,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450697.9"
+      ],
+      "preferred": "grid.450697.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 8650"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05bs6ak67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.galliera.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "42",
+        "country_subdivision_name": "Liguria",
+        "lat": 44.40478,
+        "lng": 8.94439,
+        "name": "Genoa"
+      },
+      "geonames_id": 3176219
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ente Ospedaliero Ospedali Galliera"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "ospedale Galliera"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "IRCCS Azienda Ospedaliera Metropolitana",
+      "type": "parent",
+      "id": "https://ror.org/02skabv63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

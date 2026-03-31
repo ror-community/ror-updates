@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -101,7 +101,18 @@
       "value": "డాన్ బాస్కో ఇన్స్టిట్యూట్ ఆఫ్ టెక్నాలజీ, ముంబై"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Visvesvaraya Technological University",
+      "type": "related",
+      "id": "https://ror.org/00ha14p11"
+    },
+    {
+      "label": "University of Mumbai",
+      "type": "related",
+      "id": "https://ror.org/032hdk172"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

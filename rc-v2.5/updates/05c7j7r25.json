@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -110,7 +110,13 @@
       "value": "Peruvian National Council of Science, Technology and Technological Innovation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "PROCIENCIA",
+      "type": "child",
+      "id": "https://ror.org/05pap9b79"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "University of Cambridge Department of Medicine Molecular Immunity Unit"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    },
+    {
+      "label": "MRC Laboratory of Molecular Biology",
+      "type": "related",
+      "id": "https://ror.org/00tw3jy02"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

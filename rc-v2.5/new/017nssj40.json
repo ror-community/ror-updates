@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,18 @@
       "value": "University of the French West Indies and Guiana"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université des Antilles",
+      "type": "successor",
+      "id": "https://ror.org/02ryfmr77"
+    },
+    {
+      "label": "University of French Guiana",
+      "type": "successor",
+      "id": "https://ror.org/00nb39k71"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

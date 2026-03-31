@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Barts Cancer Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Queen Mary University of London",
+      "type": "parent",
+      "id": "https://ror.org/026zzn846"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

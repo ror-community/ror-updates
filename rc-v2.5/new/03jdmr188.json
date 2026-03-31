@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,18 @@
       "value": "ಫಾದರ್ ಮುಲ್ಲರ್ ಕಾಲೇಜ್ ಆಫ್ ನರ್ಸಿಂಗ್"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Father Muller Charitable Institutions",
+      "type": "parent",
+      "id": "https://ror.org/04dwb2s30"
+    },
+    {
+      "label": "Rajiv Gandhi University of Health Sciences",
+      "type": "related",
+      "id": "https://ror.org/0157vkf66"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

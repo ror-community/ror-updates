@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.452695.9"
+      ],
+      "preferred": "grid.452695.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2201 1649"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00scbd467",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nbpgr.ernet.in/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "DL",
+        "country_subdivision_name": "Delhi",
+        "lat": 28.62137,
+        "lng": 77.2148,
+        "name": "New Delhi"
+      },
+      "geonames_id": 1261481
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NBPGR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Bureau of Plant Genetic Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Indian Council of Agricultural Research",
+      "type": "parent",
+      "id": "https://ror.org/04fw54a43"
+    },
+    {
+      "label": "ICAR - National Bureau of Plant Genetic Resources Regional Station, Akola",
+      "type": "child",
+      "id": "https://ror.org/05095qt40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

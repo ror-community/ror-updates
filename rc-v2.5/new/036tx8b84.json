@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,13 @@
       "value": "Orekan - Gestión Ambiental de Navarra"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gobierno de Navarra",
+      "type": "parent",
+      "id": "https://ror.org/025qq4838"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

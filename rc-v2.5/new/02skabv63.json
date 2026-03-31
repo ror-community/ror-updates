@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "IRCCS Azienda Ospedaliera Metropolitana"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ospedale Policlinico San Martino",
+      "type": "child",
+      "id": "https://ror.org/04d7es448"
+    },
+    {
+      "label": "Ente Ospedaliero Ospedali Galliera",
+      "type": "child",
+      "id": "https://ror.org/05bs6ak67"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
