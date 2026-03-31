@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-03-31",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457379.b"
+      ],
+      "preferred": "grid.457379.b",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03xssrp53",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.occitanie-pyrenees.inserm.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Régionale Occitanie Pyrénées"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm DR Midi-Pyrénées, Limousin"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Digestive Health Research Institute",
+      "type": "child",
+      "id": "https://ror.org/034nb0f30"
+    },
+    {
+      "label": "Institut d’Epidémiologie Neurologique et de Neurologie Tropicale",
+      "type": "child",
+      "id": "https://ror.org/0529q4s79"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}
