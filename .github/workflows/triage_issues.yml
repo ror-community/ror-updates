@@ -79,6 +79,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           SKIP_COMMENTED: ${{ github.event.inputs.skip_commented || 'true' }}
         run: |
           # Determine which issues to process
