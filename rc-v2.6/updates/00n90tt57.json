@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-13",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2021,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1235 7143"
+      ],
+      "preferred": "0000 0005 1235 7143",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q121599461"
+      ],
+      "preferred": "Q121599461",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00n90tt57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.infinity.inserm.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM UMR 1291"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "INSERM UMR1291"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Infinity"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Toulousain des Maladies Infectieuses et Inflammatoires"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Toulouse Institute for Infectious and Inflammatory Diseases"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

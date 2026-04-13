@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-13",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "purpan.fr"
+  ],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466448.c"
+      ],
+      "preferred": "grid.466448.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1908 541X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3577767"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008bwpw24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.purpan.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_d'ing%C3%A9nieurs_de_Purpan"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "EI PURPAN"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ESAP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display"
+      ],
+      "value": "Ecole d'Ingénieurs de PURPAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Purpan Engineering School"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Toxicologie Alimentaire",
+      "type": "child",
+      "id": "https://ror.org/0111a5077"
+    },
+    {
+      "label": "Physiologie Pathologie et Génétique Végétales",
+      "type": "child",
+      "id": "https://ror.org/05bs6ge88"
+    },
+    {
+      "label": "Oxydation, Conservation, Caractérisation & Innovation des Aliments",
+      "type": "child",
+      "id": "https://ror.org/01tg4md27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

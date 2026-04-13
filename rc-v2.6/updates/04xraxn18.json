@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-13",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fondazionetelethon.it"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100002426"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.11492.3f"
+      ],
+      "preferred": "grid.11492.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 4683"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30252801"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xraxn18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fondazionetelethon.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "62",
+        "country_subdivision_name": "Lazio",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Fondazione Telethon"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Telethon Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dulbecco Telethon Institute",
+      "type": "child",
+      "id": "https://ror.org/00f7kfd14"
+    },
+    {
+      "label": "The San Raffaele Telethon Institute for Gene Therapy",
+      "type": "child",
+      "id": "https://ror.org/036jn4298"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}
