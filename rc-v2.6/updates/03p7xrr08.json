@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pharmadev.ird.fr"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464142.1"
+      ],
+      "preferred": "grid.464142.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0490 5384"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262496"
+      ],
+      "preferred": "Q30262496",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03p7xrr08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pharmadev.ird.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PHARMA-DEV"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Pharmacochemistry and Biology for Development"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Pharmacochimie et Biologie pour le Développement"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Pharmacochimie et Pharmacologie pour le Développement"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 152"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR152"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Recherche pour le Développement",
+      "type": "parent",
+      "id": "https://ror.org/05q3vnk25"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

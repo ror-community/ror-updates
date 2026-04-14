@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-03-30",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aomliguria.it"
+  ],
+  "established": 2016,
+  "external_ids": [],
+  "id": "https://ror.org/02skabv63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aomliguria.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "42",
+        "country_subdivision_name": "Liguria",
+        "lat": 44.40478,
+        "lng": 8.94439,
+        "name": "Genoa"
+      },
+      "geonames_id": 3176219
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "acronym"
+      ],
+      "value": "AOM"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Azienda Ospedaliera Metropolitana"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "IRCCS Azienda Ospedaliera Metropolitana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Policlinico San Martino",
+      "type": "child",
+      "id": "https://ror.org/04d7es448"
+    },
+    {
+      "label": "Ente Ospedaliero Ospedali Galliera",
+      "type": "child",
+      "id": "https://ror.org/05bs6ak67"
+    },
+    {
+      "label": "Ospedale Villa Scassi",
+      "type": "child",
+      "id": "https://ror.org/00mk34t10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

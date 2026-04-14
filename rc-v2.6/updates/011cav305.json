@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1943,
+  "external_ids": [
+    {
+      "all": [
+        "501100008485"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.481266.f"
+      ],
+      "preferred": "grid.481266.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0941 5307"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/011cav305",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.samw.ch/en.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Bern",
+        "lat": 46.94809,
+        "lng": 7.44744,
+        "name": "Bern"
+      },
+      "geonames_id": 2661552
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SAMW"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Schweizerische Akademie der Medizinischen Wissenschaften"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swiss Academy of Medical Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Swiss Academies of Arts and Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05b2r4b98"
+    },
+    {
+      "label": "Stiftung für Technologiefolgen-Abschätzung",
+      "type": "related",
+      "id": "https://ror.org/02shtak05"
+    },
+    {
+      "label": "Swiss Personalized Health Network (SPHN)",
+      "type": "related",
+      "id": "https://ror.org/050zyz368"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-01-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1233 2456"
+      ],
+      "preferred": "0000 0005 1233 2456",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00j50jx72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.l2it.in2p3.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "L2IT"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire des 2 Infinis Toulouse"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Laboratoire des deux infinis de Toulouse"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5033"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5033"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut National de Physique Nucléaire et de Physique des Particules",
+      "type": "parent",
+      "id": "https://ror.org/03fd77x13"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/01ahyrz84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
