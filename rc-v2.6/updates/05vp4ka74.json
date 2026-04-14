@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "501100003107",
+        "501100003108"
+      ],
+      "preferred": "501100003107",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.432880.5"
+      ],
+      "preferred": "grid.432880.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 9550"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q491566"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vp4ka74",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bmg.bund.de/en.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Federal_Ministry_of_Health_(Germany)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "name": "Bonn"
+      },
+      "geonames_id": 2946447
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMG"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bundesministerium für Gesundheit"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bundesinstitut für Öffentliche Gesundheit",
+      "type": "child",
+      "id": "https://ror.org/054c9y537"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
