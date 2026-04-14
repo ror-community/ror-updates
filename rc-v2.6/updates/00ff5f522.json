@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-04-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100021539"
+      ],
+      "preferred": "501100021539",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424401.7"
+      ],
+      "preferred": "grid.424401.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0384 0611"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3532921"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ff5f522",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tse-fr.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Toulouse_School_of_Economics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TSE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Toulouse School of Economics"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire d'Économie des Ressources Naturelles",
+      "type": "child",
+      "id": "https://ror.org/05ev54a13"
+    },
+    {
+      "label": "Toulouse School of Economics Research",
+      "type": "child",
+      "id": "https://ror.org/01p34ac69"
+    },
+    {
+      "label": "Institut de Mathématiques de Toulouse",
+      "type": "child",
+      "id": "https://ror.org/014vp6c30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
