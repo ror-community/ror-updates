@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,28 @@
       "value": "International Crops Research Institute for the Semi-Arid Tropics"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CGIAR",
+      "type": "parent",
+      "id": "https://ror.org/04c4bm785"
+    },
+    {
+      "label": "International Crops Research Institute for the Semi-Arid Tropics",
+      "type": "related",
+      "id": "https://ror.org/02g43d244"
+    },
+    {
+      "label": "International Crops Research Institute for the Semi-Arid Tropics",
+      "type": "related",
+      "id": "https://ror.org/01tapgj66"
+    },
+    {
+      "label": "International Crops Research Institute for the Semi-Arid Tropics",
+      "type": "related",
+      "id": "https://ror.org/0541a3n79"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -88,7 +88,13 @@
       "value": "University of the Federal District"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Escola Superior de Ciências da Saúde",
+      "type": "child",
+      "id": "https://ror.org/04qjmsq15"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

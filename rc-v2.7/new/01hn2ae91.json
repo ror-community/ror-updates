@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Investigación en Comunicación Educativa"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad de Granada",
+      "type": "parent",
+      "id": "https://ror.org/04njjy449"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

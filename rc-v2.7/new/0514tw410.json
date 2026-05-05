@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Научни институт за прехрамбене технологије"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Novi Sad",
+      "type": "parent",
+      "id": "https://ror.org/00xa57a59"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

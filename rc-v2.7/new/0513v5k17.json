@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,18 @@
       "value": "Medical Research Future Fund"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Health and Aged Care",
+      "type": "parent",
+      "id": "https://ror.org/02swcnz29"
+    },
+    {
+      "label": "National Health and Medical Research Council",
+      "type": "related",
+      "id": "https://ror.org/011kf5r70"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

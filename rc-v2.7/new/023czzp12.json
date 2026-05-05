@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "UR-CST"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Rwanda",
+      "type": "parent",
+      "id": "https://ror.org/00286hs46"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

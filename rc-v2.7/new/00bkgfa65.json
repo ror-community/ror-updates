@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Piaget Research Center for Ecological Human Development"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Piaget",
+      "type": "parent",
+      "id": "https://ror.org/044k31203"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

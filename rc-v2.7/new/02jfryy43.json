@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -58,7 +58,13 @@
       "value": "Republic of Türkiye - Ministry of Trade"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture and Forestry",
+      "type": "related",
+      "id": "https://ror.org/00tmg5839"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

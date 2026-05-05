@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Empresa Brasileira de Pesquisa Agropecuária Arroz e Feijão"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Brazilian Agricultural Research Corporation",
+      "type": "parent",
+      "id": "https://ror.org/0482b5b22"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

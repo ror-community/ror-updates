@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "Centre for Public Mental Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Cape Town",
+      "type": "parent",
+      "id": "https://ror.org/03p74gp79"
+    },
+    {
+      "label": "Stellenbosch University",
+      "type": "parent",
+      "id": "https://ror.org/05bk57929"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

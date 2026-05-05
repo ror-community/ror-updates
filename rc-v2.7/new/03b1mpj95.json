@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Malaysian Timber Industry Board"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Malaysia",
+      "type": "parent",
+      "id": "https://ror.org/03y315f21"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Bloorview Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Holland Bloorview Kids Rehabilitation Hospital",
+      "type": "parent",
+      "id": "https://ror.org/03qea8398"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Asiera (Ireland)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "HEAnet",
+      "type": "predecessor",
+      "id": "https://ror.org/04hxxzz17"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

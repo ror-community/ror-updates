@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Postgraduate Institute for Advanced Medical Research and Training"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Ibadan",
+      "type": "parent",
+      "id": "https://ror.org/03wx2rr30"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

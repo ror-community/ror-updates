@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -109,7 +109,13 @@
       "value": "京都大学複合原子力科学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto University",
+      "type": "parent",
+      "id": "https://ror.org/02kpeqv85"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

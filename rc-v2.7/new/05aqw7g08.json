@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "NUTRISS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "parent",
+      "id": "https://ror.org/04sjchr03"
+    },
+    {
+      "label": "Institut sur la nutrition et les aliments fonctionnels (INAF)",
+      "type": "related",
+      "id": "https://ror.org/03re3pg25"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

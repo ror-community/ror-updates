@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Merck Healthcare Germany GmbH (Germany)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Merck KGaA, Darmstadt (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/04b2dty93"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

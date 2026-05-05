@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "National Agricultural Extension, Research and Liaison Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Federal Government of Nigeria",
+      "type": "parent",
+      "id": "https://ror.org/02zteat75"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

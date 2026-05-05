@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Superintendencia Nacional de Salud"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/04gq6mn61"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

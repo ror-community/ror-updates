@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,23 @@
       "value": "WP-Med"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Global Water Partnership West Africa",
+      "type": "related",
+      "id": "https://ror.org/03vk3dn23"
+    },
+    {
+      "label": "Mediterranean Information Office for Environment Culture and Sustainable Development",
+      "type": "related",
+      "id": "https://ror.org/00dcstt96"
+    },
+    {
+      "label": "Global Water Partnership",
+      "type": "parent",
+      "id": "https://ror.org/03tm2mq64"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

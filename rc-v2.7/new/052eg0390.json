@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "পর্যটন মন্ত্রণালয়"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of India",
+      "type": "parent",
+      "id": "https://ror.org/036h6g940"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

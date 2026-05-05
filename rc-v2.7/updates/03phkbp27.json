@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Wolters Kluwer Health (New Zealand)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Wolters Kluwer (Netherlands)",
+      "type": "parent",
+      "id": "https://ror.org/03qemwx69"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

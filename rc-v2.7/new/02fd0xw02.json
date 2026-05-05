@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Rebagliati"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "EsSALUD",
+      "type": "related",
+      "id": "https://ror.org/0232mk144"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

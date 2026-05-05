@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "U.S. Naval Observatory Flagstaff Station, U.S. Naval Observatory"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Naval Observatory",
+      "type": "parent",
+      "id": "https://ror.org/048s2rn92"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

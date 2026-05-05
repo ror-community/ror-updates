@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "National Drug Authority"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Uganda",
+      "type": "parent",
+      "id": "https://ror.org/04c4jf131"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

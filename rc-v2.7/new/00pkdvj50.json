@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Australian Defence Force Malaria and Infectious Disease Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Defence",
+      "type": "parent",
+      "id": "https://ror.org/051wnqr14"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

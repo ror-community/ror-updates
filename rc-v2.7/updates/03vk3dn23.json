@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,18 @@
       "value": "Global Water Partnership West Africa"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Global Water Partnership-Mediterranean",
+      "type": "related",
+      "id": "https://ror.org/049g3s072"
+    },
+    {
+      "label": "Global Water Partnership",
+      "type": "parent",
+      "id": "https://ror.org/03tm2mq64"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

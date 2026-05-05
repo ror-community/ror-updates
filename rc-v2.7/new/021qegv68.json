@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -65,7 +65,13 @@
       "value": "Tuanku Bainun Campus Teacher Education Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kementerian Pendidikan Malaysia",
+      "type": "related",
+      "id": "https://ror.org/05v8z6a72"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

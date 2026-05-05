@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Medicover Hospitals, India"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medicover",
+      "type": "parent",
+      "id": "https://ror.org/03zrqt452"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
