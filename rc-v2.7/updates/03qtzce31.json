@@ -14,28 +14,33 @@
   "external_ids": [
     {
       "all": [
-        "grid.498797.c"
+        "100011100",
+        "100013690",
+        "100013688"
       ],
-      "preferred": "grid.498797.c",
+      "preferred": "100013688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451075.2"
+      ],
+      "preferred": "grid.451075.2",
       "type": "grid"
     },
     {
       "all": [
-        "Q3315198"
+        "0000 0004 6432 598X"
       ],
-      "preferred": null,
-      "type": "wikidata"
+      "preferred": "0000 0004 6432 598X",
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/01p73k589",
+  "id": "https://ror.org/03qtzce31",
   "links": [
     {
       "type": "website",
-      "value": "https://www.quebec.ca/gouvernement/ministeres-organismes/emploi-solidarite-sociale"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/Ministry_of_Employment_and_Social_Solidarity"
+      "value": "https://www.economie.gouv.qc.ca"
     }
   ],
   "locations": [
@@ -47,59 +52,50 @@
         "country_name": "Canada",
         "country_subdivision_code": "QC",
         "country_subdivision_name": "Quebec",
-        "lat": 46.81228,
-        "lng": -71.21454,
-        "name": "Québec"
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
       },
-      "geonames_id": 6325494
+      "geonames_id": 6077243
     }
   ],
   "names": [
     {
-      "lang": null,
+      "lang": "en",
       "types": [
-        "acronym"
+        "alias"
       ],
-      "value": "MTESS"
+      "value": "Ministery of Economy, Innovation and Exports"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Ministry of Employment and Social Solidarity"
+      "value": "Ministry of Economy, Science and Innovation"
     },
     {
-      "lang": "en",
+      "lang": "fr",
       "types": [
+        "ror_display",
         "label"
       ],
-      "value": "Ministry of Employment and Social Solidarity (Quebec)"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "Ministry of Labour, Employment and Social Solidarity"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Ministère de l’Emploi et de la Solidarité Sociale (Québec)"
+      "value": "Ministère de l'Économie, de l'Innovation et de l'Énergie"
     },
     {
       "lang": "fr",
       "types": [
         "alias"
       ],
-      "value": "Ministère du Travail, de l’Emploi et de la Solidarité Sociale"
+      "value": "Ministère de l'Économie, de la Science et de l'Innovation"
     }
   ],
   "relationships": [
+    {
+      "label": "Commission de l'Ethique en Science et en Technologie",
+      "type": "child",
+      "id": "https://ror.org/00acpf703"
+    },
     {
       "label": "Gouvernement du Québec",
       "type": "parent",
@@ -108,6 +104,7 @@
   ],
   "status": "active",
   "types": [
+    "funder",
     "government"
   ]
 }

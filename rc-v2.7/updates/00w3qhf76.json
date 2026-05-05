@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-01-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100020951",
+        "501100014556"
+      ],
+      "preferred": "501100020951",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 8076 5870",
+        "0000 0005 0383 7436"
+      ],
+      "preferred": "0000 0004 8076 5870",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q111530697"
+      ],
+      "preferred": "Q111530697",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00w3qhf76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://frq.gouv.qc.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fonds de recherche du Québec"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Quebec Research Fund"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fonds de Recherche du Québec - Santé",
+      "type": "child",
+      "id": "https://ror.org/02eqrsj93"
+    },
+    {
+      "label": "Fonds de Recherche du Québec – Nature et Technologies",
+      "type": "child",
+      "id": "https://ror.org/00b9f9778"
+    },
+    {
+      "label": "Fonds de Recherche du Québec - Société et culture",
+      "type": "child",
+      "id": "https://ror.org/00shpc021"
+    },
+    {
+      "label": "Gouvernement du Québec",
+      "type": "parent",
+      "id": "https://ror.org/05waa5295"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
