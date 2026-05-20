@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100005996",
+        "501100006277",
+        "501100006278"
+      ],
+      "preferred": "501100005996",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410431.3"
+      ],
+      "preferred": "grid.410431.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0404 1694"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3315394"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/044f69t13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.quebec.ca/gouvernement/ministeres-organismes/ressources-naturelles-forets"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Natural_Resources_and_Wildlife_(Quebec)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MNRW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Ministry of Natural Resources and Forests (Quebec)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Natural Resources and Wildlife"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère de l'Énergie et des Ressources naturelles"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministère des Ressources naturelles et de la Faune"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministère des Ressources naturelles et des Forêts (Québec)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gouvernement du Québec",
+      "type": "parent",
+      "id": "https://ror.org/05waa5295"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

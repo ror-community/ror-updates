@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "map.insa-lyon.fr"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463851.d"
+      ],
+      "preferred": "grid.463851.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2345 8389"
+      ],
+      "preferred": "0000 0001 2345 8389",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3312057"
+      ],
+      "preferred": "Q3312057",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03p3f6k20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://map.insa-lyon.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Rhône-Alpes",
+        "lat": 45.76601,
+        "lng": 4.8795,
+        "name": "Villeurbanne"
+      },
+      "geonames_id": 2968254
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Laboratoire de Microbiologie, Adaptation et Pathogénie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MAP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Microbiology, Adaptation and Pathogenesis Lab"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 5240"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR5240"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bayer (France)",
+      "type": "parent",
+      "id": "https://ror.org/05cm0es58"
+    },
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Institut National des Sciences Appliquées de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/050jn9y42"
+    },
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-05-04",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "emdgroup.com"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100020956"
+      ],
+      "preferred": "100020956",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/04vpzfb52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.emdgroup.com/en/expertise/healthcare.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 49.87167,
+        "lng": 8.65027,
+        "name": "Darmstadt"
+      },
+      "geonames_id": 2938913
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMD Serono"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Merck Healthcare KGaA, Darmstadt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Merck Healthcare KGaA, Darmstadt (Germany)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Merck KGaA, Darmstadt (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/04b2dty93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

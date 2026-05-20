@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-05-04",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "purdueglobal.edu"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0395 2576"
+      ],
+      "preferred": "0000 0004 0395 2576",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q55074849"
+      ],
+      "preferred": "Q55074849",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/039kqe469",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.purdueglobal.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Purdue_University_Global"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IN",
+        "country_subdivision_name": "Indiana",
+        "lat": 40.42587,
+        "lng": -86.90807,
+        "name": "West Lafayette"
+      },
+      "geonames_id": 4928096
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "PG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Purdue Global"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Purdue University Global"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Purdue University Global, Inc."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Purdue University System",
+      "type": "parent",
+      "id": "https://ror.org/05p8z3f47"
+    },
+    {
+      "label": "Purdue University West Lafayette",
+      "type": "related",
+      "id": "https://ror.org/02dqehb95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

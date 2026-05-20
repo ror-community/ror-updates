@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "emdserono.com"
+  ],
+  "established": 1668,
+  "external_ids": [
+    {
+      "all": [
+        "100004755"
+      ],
+      "preferred": "100004755",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.481568.6"
+      ],
+      "preferred": "grid.481568.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30273332"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/027zrs220",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.emdserono.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Merck_Group"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMD Group (United States)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMD Serono, Inc."
+    },
+    {
+      "lang": null,
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "EMD Serono, Inc. (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Merck KGaA, Darmstadt (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/04b2dty93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-05-04",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mtib.gov.my"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100017491"
+      ],
+      "preferred": "501100017491",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2286 772X"
+      ],
+      "preferred": "0000 0001 2286 772X",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03b1mpj95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mtib.gov.my"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Kuala Lumpur",
+        "lat": 3.1412,
+        "lng": 101.68653,
+        "name": "Kuala Lumpur"
+      },
+      "geonames_id": 1735161
+    }
+  ],
+  "names": [
+    {
+      "lang": "ms",
+      "types": [
+        "label"
+      ],
+      "value": "Lembaga Perindustrian Kayu Malaysia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MTIB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Malaysian Timber Industry Board"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of Malaysia",
+      "type": "parent",
+      "id": "https://ror.org/03y315f21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

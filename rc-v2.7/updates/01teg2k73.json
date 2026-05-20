@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1926,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419597.7"
+      ],
+      "preferred": "grid.419597.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8955 7323"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30282179"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01teg2k73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://vumon.vn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Hanoi",
+        "lat": 21.0245,
+        "lng": 105.84117,
+        "name": "Hanoi"
+      },
+      "geonames_id": 1581130
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIHE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute Of Hygiene And Epidemiology"
+    },
+    {
+      "lang": "vi",
+      "types": [
+        "label"
+      ],
+      "value": "Viện Vệ sinh dịch tễ Trung ương"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/055546q82"
+    },
+    {
+      "label": "Pasteur Network",
+      "type": "related",
+      "id": "https://ror.org/04cb2ne58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1842,
+  "external_ids": [
+    {
+      "all": [
+        "100010220"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.440354.2"
+      ],
+      "preferred": "grid.440354.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0600 6905"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11700"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/048s2rn92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnmoc.usff.navy.mil/usno/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Naval_Observatory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AZ",
+        "country_subdivision_name": "Arizona",
+        "lat": 35.19807,
+        "lng": -111.65127,
+        "name": "Flagstaff"
+      },
+      "geonames_id": 5294810
+    },
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USNO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Naval Observatory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Naval Meteorology and Oceanography Command",
+      "type": "parent",
+      "id": "https://ror.org/014khrd35"
+    },
+    {
+      "label": "U.S. Naval Observatory Flagstaff Station",
+      "type": "child",
+      "id": "https://ror.org/046b4ts08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

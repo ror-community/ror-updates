@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100003046"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.460200.0"
+      ],
+      "preferred": "grid.460200.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0541 873X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1339456"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0482b5b22",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.embrapa.br/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Empresa_Brasileira_de_Pesquisa_Agropecu%C3%A1ria"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "DF",
+        "country_subdivision_name": "Federal District",
+        "lat": -15.77972,
+        "lng": -47.92972,
+        "name": "Brasília"
+      },
+      "geonames_id": 3469058
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brazilian Agricultural Research Corporation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBRAPA"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Empresa Brasileira de Pesquisa Agropecuária"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture, Livestock, and Food Supply",
+      "type": "related",
+      "id": "https://ror.org/04mj0y667"
+    },
+    {
+      "label": "Embrapa Rice and Beans",
+      "type": "child",
+      "id": "https://ror.org/024pt9r55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

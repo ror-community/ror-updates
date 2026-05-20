@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100000183"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507553.1"
+      ],
+      "preferred": "grid.507553.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0672 5254"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q38808347"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05epdh915",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.aro.army.mil/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.99403,
+        "lng": -78.89862,
+        "name": "Durham"
+      },
+      "geonames_id": 4464368
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ARO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Army Research Office"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "US ARO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "US Army Research Office"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Army Research Office"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "DEVCOM Army Research Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/011hc8f90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

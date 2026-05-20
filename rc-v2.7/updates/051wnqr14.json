@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "501100001029"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.237081.f"
+      ],
+      "preferred": "grid.237081.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2981744"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/051wnqr14",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.defence.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Defence_(Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Defence"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian War Memorial",
+      "type": "child",
+      "id": "https://ror.org/04rnenb96"
+    },
+    {
+      "label": "Defence Science and Technology Group",
+      "type": "child",
+      "id": "https://ror.org/05ddrvt52"
+    },
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "Defence Materials Technology Centre (Australia)",
+      "type": "related",
+      "id": "https://ror.org/037mj4292"
+    },
+    {
+      "label": "Australian Defence Force Malaria and Infectious Disease Institute",
+      "type": "child",
+      "id": "https://ror.org/00pkdvj50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

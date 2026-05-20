@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1936,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420173.3"
+      ],
+      "preferred": "grid.420173.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9677 5193"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0232mk144",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.essalud.gob.pe/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "PE",
+        "country_name": "Peru",
+        "country_subdivision_code": "LMA",
+        "country_subdivision_name": "Lima Province",
+        "lat": -12.04318,
+        "lng": -77.02824,
+        "name": "Lima"
+      },
+      "geonames_id": 3936456
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "EsSALUD"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPSS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Seguro Social de Salud del Perú"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Base Guillermo Almenara Irigoyen",
+      "type": "child",
+      "id": "https://ror.org/05701yq92"
+    },
+    {
+      "label": "Hospital Nacional Edgardo Rebagliati Martins",
+      "type": "related",
+      "id": "https://ror.org/02fd0xw02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

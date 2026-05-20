@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419126.9"
+      ],
+      "preferred": "grid.419126.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0375 9231"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/000ep5m48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.navarra.es/home_es/Gobierno+de+Navarra/Organigrama/Los+departamentos/Salud/Organigrama/Estructura+Organica/Instituto+Navarro+de+Salud+Publica/portada+ISP.htm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "Navarre",
+        "lat": 42.81687,
+        "lng": -1.64323,
+        "name": "Pamplona"
+      },
+      "geonames_id": 3114472
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "ISPLN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Public and Occupational Health of Navarre"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Salud Pública de Navarra"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Servicio Navarro de Salud",
+      "type": "parent",
+      "id": "https://ror.org/005dknr06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

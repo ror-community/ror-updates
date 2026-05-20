@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1789,
+  "external_ids": [
+    {
+      "all": [
+        "100006097",
+        "100006303"
+      ],
+      "preferred": "100006097",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420447.1"
+      ],
+      "preferred": "grid.420447.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q648666"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028t43p77",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.treasury.gov/Pages/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_the_Treasury"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DOT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento del Tesoro de los Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département du trésor des États-unis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of the Treasury"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bureau of the Fiscal Service",
+      "type": "child",
+      "id": "https://ror.org/033trmh69"
+    },
+    {
+      "label": "Office of the Comptroller of the Currency",
+      "type": "child",
+      "id": "https://ror.org/0188dhg98"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    },
+    {
+      "label": "Office of Financial Research",
+      "type": "child",
+      "id": "https://ror.org/05pcexm21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

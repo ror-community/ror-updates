@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-05-04",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-05-05",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gwpo-gwp.org"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0214 7231"
+      ],
+      "preferred": "0000 0001 0214 7231",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q372181"
+      ],
+      "preferred": "Q372181",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03tm2mq64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://gwpo-gwp.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Global_Water_Partnership"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "GWP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Global Water Partnership"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Global Water Partnership-Mediterranean",
+      "type": "child",
+      "id": "https://ror.org/049g3s072"
+    },
+    {
+      "label": "Global Water Partnership West Africa",
+      "type": "child",
+      "id": "https://ror.org/03vk3dn23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
