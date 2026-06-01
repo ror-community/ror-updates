@@ -69,7 +69,18 @@
       "value": "Louisiana Water Resources Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Geological Survey",
+      "type": "parent",
+      "id": "https://ror.org/035a68863"
+    },
+    {
+      "label": "Louisiana State University",
+      "type": "related",
+      "id": "https://ror.org/05ect4e57"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

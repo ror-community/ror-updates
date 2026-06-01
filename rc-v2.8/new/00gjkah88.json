@@ -68,7 +68,23 @@
       "value": "Laboratoire Energie et Mobilité"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Gustave Eiffel",
+      "type": "parent",
+      "id": "https://ror.org/03x42jk29"
+    },
+    {
+      "label": "École Nationale des Travaux Publics de l'État",
+      "type": "parent",
+      "id": "https://ror.org/05r0ccb59"
+    },
+    {
+      "label": "Laboratoire d'Ingénierie Circulation Transports",
+      "type": "predecessor",
+      "id": "https://ror.org/02ahzca76"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
