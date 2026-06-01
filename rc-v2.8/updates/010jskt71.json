@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2019-12-18",
+      "date": "2018-11-14",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -10,43 +10,46 @@
     }
   },
   "domains": [],
-  "established": null,
+  "established": 1926,
   "external_ids": [
     {
       "all": [
-        "100000181",
-        "100015464"
+        "100008218"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.507554.6"
+        "grid.255501.6"
       ],
-      "preferred": "grid.507554.6",
+      "preferred": "grid.255501.6",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0325 6835"
+        "0000 0001 0561 4552"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q45136877"
+        "Q3052113"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/011e9bt93",
+  "id": "https://ror.org/010jskt71",
   "links": [
     {
       "type": "website",
-      "value": "https://www.afrl.af.mil/AFOSR/"
+      "value": "http://www.erau.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Embry%E2%80%93Riddle_Aeronautical_University"
     }
   ],
   "locations": [
@@ -56,13 +59,13 @@
         "continent_name": "North America",
         "country_code": "US",
         "country_name": "United States",
-        "country_subdivision_code": "VA",
-        "country_subdivision_name": "Virginia",
-        "lat": 38.88101,
-        "lng": -77.10428,
-        "name": "Arlington"
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 29.21081,
+        "lng": -81.02283,
+        "name": "Daytona"
       },
-      "geonames_id": 4744709
+      "geonames_id": 4152872
     }
   ],
   "names": [
@@ -71,14 +74,14 @@
       "types": [
         "acronym"
       ],
-      "value": "AFOSR"
+      "value": "ERAU"
     },
     {
-      "lang": null,
+      "lang": "en",
       "types": [
-        "acronym"
+        "alias"
       ],
-      "value": "USAFOSR"
+      "value": "Embry-Riddle"
     },
     {
       "lang": "en",
@@ -86,19 +89,13 @@
         "ror_display",
         "label"
       ],
-      "value": "United States Air Force Office of Scientific Research"
+      "value": "Embry–Riddle Aeronautical University"
     }
   ],
-  "relationships": [
-    {
-      "label": "United States Air Force Research Laboratory",
-      "type": "parent",
-      "id": "https://ror.org/02e2egq70"
-    }
-  ],
+  "relationships": [],
   "status": "active",
   "types": [
-    "funder",
-    "government"
+    "education",
+    "funder"
   ]
 }

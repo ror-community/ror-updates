@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2019-12-18",
+      "date": "2018-11-14",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -9,44 +9,42 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": null,
+  "domains": [
+    "blueyonder.com"
+  ],
+  "established": 1985,
   "external_ids": [
     {
       "all": [
-        "100000181",
-        "100015464"
+        "grid.481659.7"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.507554.6"
-      ],
-      "preferred": "grid.507554.6",
+      "preferred": "grid.481659.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0325 6835"
+        "0000 0004 0516 7272"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q45136877"
+        "Q6107934"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/011e9bt93",
+  "id": "https://ror.org/04s6h1250",
   "links": [
     {
       "type": "website",
-      "value": "https://www.afrl.af.mil/AFOSR/"
+      "value": "https://blueyonder.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/JDA_Software"
     }
   ],
   "locations": [
@@ -56,49 +54,48 @@
         "continent_name": "North America",
         "country_code": "US",
         "country_name": "United States",
-        "country_subdivision_code": "VA",
-        "country_subdivision_name": "Virginia",
-        "lat": 38.88101,
-        "lng": -77.10428,
-        "name": "Arlington"
+        "country_subdivision_code": "AZ",
+        "country_subdivision_name": "Arizona",
+        "lat": 33.50921,
+        "lng": -111.89903,
+        "name": "Scottsdale"
       },
-      "geonames_id": 4744709
+      "geonames_id": 5313457
     }
   ],
   "names": [
     {
       "lang": null,
       "types": [
-        "acronym"
+        "label"
       ],
-      "value": "AFOSR"
+      "value": "Blue Yonder"
     },
     {
       "lang": null,
       "types": [
-        "acronym"
+        "label",
+        "ror_display"
       ],
-      "value": "USAFOSR"
+      "value": "Blue Yonder (United States)"
     },
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
       ],
-      "value": "United States Air Force Office of Scientific Research"
+      "value": "JDA Software"
     }
   ],
   "relationships": [
     {
-      "label": "United States Air Force Research Laboratory",
-      "type": "parent",
-      "id": "https://ror.org/02e2egq70"
+      "label": "JDA Software (Canada)",
+      "type": "child",
+      "id": "https://ror.org/02y8qpa51"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
-    "government"
+    "company"
   ]
 }

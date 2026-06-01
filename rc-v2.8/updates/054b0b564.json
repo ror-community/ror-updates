@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2019-12-18",
+      "date": "2018-11-14",
       "schema_version": "1.0"
     },
     "last_modified": {
@@ -9,44 +9,49 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": null,
+  "domains": [
+    "tcu.edu"
+  ],
+  "established": 1873,
   "external_ids": [
     {
       "all": [
-        "100000181",
-        "100015464"
+        "100008439"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.507554.6"
+        "grid.264766.7"
       ],
-      "preferred": "grid.507554.6",
+      "preferred": "grid.264766.7",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0001 0325 6835"
+        "0000 0001 2289 1930"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q45136877"
+        "Q2302280"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/011e9bt93",
+  "id": "https://ror.org/054b0b564",
   "links": [
     {
       "type": "website",
-      "value": "https://www.afrl.af.mil/AFOSR/"
+      "value": "https://www.tcu.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Texas_Christian_University"
     }
   ],
   "locations": [
@@ -56,13 +61,13 @@
         "continent_name": "North America",
         "country_code": "US",
         "country_name": "United States",
-        "country_subdivision_code": "VA",
-        "country_subdivision_name": "Virginia",
-        "lat": 38.88101,
-        "lng": -77.10428,
-        "name": "Arlington"
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.72541,
+        "lng": -97.32085,
+        "name": "Fort Worth"
       },
-      "geonames_id": 4744709
+      "geonames_id": 4691930
     }
   ],
   "names": [
@@ -71,14 +76,7 @@
       "types": [
         "acronym"
       ],
-      "value": "AFOSR"
-    },
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "USAFOSR"
+      "value": "TCU"
     },
     {
       "lang": "en",
@@ -86,19 +84,26 @@
         "ror_display",
         "label"
       ],
-      "value": "United States Air Force Office of Scientific Research"
+      "value": "Texas Christian University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Cristiana de Texas"
     }
   ],
   "relationships": [
     {
-      "label": "United States Air Force Research Laboratory",
-      "type": "parent",
-      "id": "https://ror.org/02e2egq70"
+      "label": "VA North Texas Health Care System",
+      "type": "related",
+      "id": "https://ror.org/01nzxq896"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
-    "government"
+    "education",
+    "funder"
   ]
 }
