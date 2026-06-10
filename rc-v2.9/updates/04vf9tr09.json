@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-10",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100007156",
+        "501100003452",
+        "501100010428"
+      ],
+      "preferred": "501100003452",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453115.7"
+      ],
+      "preferred": "grid.453115.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q7255914"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vf9tr09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.itc.gov.hk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "country_subdivision_code": null,
+        "country_subdivision_name": null,
+        "lat": 22.27832,
+        "lng": 114.17469,
+        "name": "Hong Kong"
+      },
+      "geonames_id": 1819729
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ITC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Innovation and Technology Commission"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "創新科技署"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Standards and Calibration Laboratory",
+      "type": "child",
+      "id": "https://ror.org/00x64e042"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

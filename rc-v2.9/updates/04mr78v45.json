@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-25",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-10",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100009310",
+        "501100009271"
+      ],
+      "preferred": "501100009271",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q111129336"
+      ],
+      "preferred": "Q111129336",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mr78v45",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dmp.wa.gov.au"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Mines%2C_Industry_Regulation_and_Safety"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95872,
+        "lng": 115.87109,
+        "name": "East Perth"
+      },
+      "geonames_id": 8335007
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DMIRS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Mines, Industry Regulation & Safety"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Mines, Industry Regulation and Safety"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geological Survey of Western Australia",
+      "type": "child",
+      "id": "https://ror.org/05h2dda38"
+    },
+    {
+      "label": "Government of Western Australia",
+      "type": "parent",
+      "id": "https://ror.org/00wqdbc63"
+    },
+    {
+      "label": "Department of Mines and Petroleum",
+      "type": "predecessor",
+      "id": "https://ror.org/007ef4t67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
