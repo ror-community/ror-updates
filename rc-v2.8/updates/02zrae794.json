@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100004348",
+        "501100011727"
+      ],
+      "preferred": "501100011727",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425979.4"
+      ],
+      "preferred": "grid.425979.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2326 2191"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3233188"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zrae794",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sll.se/om-landstinget/Information-in-English1/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Stockholm_County_Council"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Stockholm County Council"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Stockholms läns landsting"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Tukholman läänin maakäräjäkunta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ambulance Care (Sweden)",
+      "type": "child",
+      "id": "https://ror.org/00wjx1428"
+    },
+    {
+      "label": "Stockholm Health Care Services",
+      "type": "child",
+      "id": "https://ror.org/04d5f4w73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

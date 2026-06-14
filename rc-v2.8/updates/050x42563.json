@@ -1,0 +1,71 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2021,
+  "external_ids": [],
+  "id": "https://ror.org/050x42563",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://macle-cvl.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "CVL",
+        "country_subdivision_name": "Centre-Val de Loire",
+        "lat": 47.90248,
+        "lng": 1.90407,
+        "name": "Orléans"
+      },
+      "geonames_id": 2989317
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MACLE-CVL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Microscopies, imageries et ressources analytiques en région Centre-Val de Loire"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Bureau de Recherches Géologiques et Minières",
+      "type": "related",
+      "id": "https://ror.org/05hnb7x64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

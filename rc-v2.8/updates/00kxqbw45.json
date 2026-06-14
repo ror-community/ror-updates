@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413531.1"
+      ],
+      "preferred": "grid.413531.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0617 2698"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00kxqbw45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sanidad.castillalamancha.es/ciudadanos/centros/hospital-virgen-del-valle"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CM",
+        "country_subdivision_name": "Castille-La Mancha",
+        "lat": 39.8581,
+        "lng": -4.02263,
+        "name": "Toledo"
+      },
+      "geonames_id": 2510409
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Virgen del Valle"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Virgen del Valle Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Complejo Hospitalario Universitario de Toledo",
+      "type": "parent",
+      "id": "https://ror.org/04q4ppz72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

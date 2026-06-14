@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100017536"
+      ],
+      "preferred": "100017536",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464551.7"
+      ],
+      "preferred": "grid.464551.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 3000"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2996588"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00bdqav06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cires.colorado.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cooperative_Institute_for_Research_in_Environmental_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 40.01499,
+        "lng": -105.27055,
+        "name": "Boulder"
+      },
+      "geonames_id": 5574991
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIRES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cooperative Institute for Research in Environmental Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Snow and Ice Data Center",
+      "type": "child",
+      "id": "https://ror.org/00bxr0z07"
+    },
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "parent",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "University of Colorado Boulder",
+      "type": "parent",
+      "id": "https://ror.org/02ttsq026"
+    },
+    {
+      "label": "Cooperative Institute for Research in the Atmosphere",
+      "type": "child",
+      "id": "https://ror.org/05dsxms80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

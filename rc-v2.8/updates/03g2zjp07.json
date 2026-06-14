@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100000090",
+        "100014039"
+      ],
+      "preferred": "100000090",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.496791.4"
+      ],
+      "preferred": "grid.496791.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9367 6288"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q45134126"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03g2zjp07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cdmrp.health.mil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.41427,
+        "lng": -77.41054,
+        "name": "Frederick"
+      },
+      "geonames_id": 4355585
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CDMRP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Congressionally Directed Medical Research Programs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Medical Research and Development Command",
+      "type": "parent",
+      "id": "https://ror.org/03cd02q50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

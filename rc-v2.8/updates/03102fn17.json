@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473840.c"
+      ],
+      "preferred": "grid.473840.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q4970571"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03102fn17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bodc.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/British_Oceanographic_Data_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "name": "Liverpool"
+      },
+      "geonames_id": 2644210
+    },
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 50.90395,
+        "lng": -1.40428,
+        "name": "Southampton"
+      },
+      "geonames_id": 2637487
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BODC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "British Oceanographic Data Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Natural Environment Research Council",
+      "type": "parent",
+      "id": "https://ror.org/02b5d8509"
+    },
+    {
+      "label": "National Oceanography Centre",
+      "type": "parent",
+      "id": "https://ror.org/00874hx02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

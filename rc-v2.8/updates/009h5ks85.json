@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100007784",
+        "501100005382"
+      ],
+      "preferred": "501100005382",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.260770.4"
+      ],
+      "preferred": "grid.260770.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0425 5914"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q718328"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009h5ks85",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://nymu-e.web.ym.edu.tw/front/bin/home.phtml"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_Yang-Ming_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Taiwan",
+        "lat": 25.05306,
+        "lng": 121.52639,
+        "name": "Taipei"
+      },
+      "geonames_id": 1668341
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Guólì Yángmíng Dàxué"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NYMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Yang Ming University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Taiwan",
+      "type": "parent",
+      "id": "https://ror.org/054kvr030"
+    },
+    {
+      "label": "National Yang Ming University Hospital",
+      "type": "related",
+      "id": "https://ror.org/003xdw211"
+    },
+    {
+      "label": "Taipei Veterans General Hospital",
+      "type": "related",
+      "id": "https://ror.org/03ymy8z76"
+    },
+    {
+      "label": "National Yang Ming Chiao Tung University",
+      "type": "successor",
+      "id": "https://ror.org/00se2k293"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

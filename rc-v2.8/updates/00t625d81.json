@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1837,
+  "external_ids": [
+    {
+      "all": [
+        "100001577",
+        "100004713"
+      ],
+      "preferred": "100004713",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467446.3"
+      ],
+      "preferred": "grid.467446.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0434 9672"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q496302"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00t625d81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.deere.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/John_Deere"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.5067,
+        "lng": -90.51513,
+        "name": "Moline"
+      },
+      "geonames_id": 4902476
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Deere & Company"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "John Deere (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "John Deere (Germany)",
+      "type": "child",
+      "id": "https://ror.org/02xc43e34"
+    },
+    {
+      "label": "John Deere (New Zealand)",
+      "type": "child",
+      "id": "https://ror.org/00dsdst25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

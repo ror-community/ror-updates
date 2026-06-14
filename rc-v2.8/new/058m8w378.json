@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-06-01",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lwrri.lsu.edu"
+  ],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "100013626"
+      ],
+      "preferred": "100013626",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2187 6587"
+      ],
+      "preferred": "0000 0001 2187 6587",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/058m8w378",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lwrri.lsu.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 30.44332,
+        "lng": -91.18747,
+        "name": "Baton Rouge"
+      },
+      "geonames_id": 4315588
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "LWRRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Louisiana Water Resources Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Geological Survey",
+      "type": "parent",
+      "id": "https://ror.org/035a68863"
+    },
+    {
+      "label": "Louisiana State University",
+      "type": "related",
+      "id": "https://ror.org/05ect4e57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

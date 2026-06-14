@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.478099.b"
+      ],
+      "preferred": "grid.478099.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0420 0296"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0594ske86",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nebraska.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Nebraska",
+        "lat": 41.25626,
+        "lng": -95.94043,
+        "name": "Omaha"
+      },
+      "geonames_id": 5074472
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VA Nebraska Western Iowa Health Care System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Omaha VA Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00nsz0a92"
+    },
+    {
+      "label": "VA Midwest Health Care Network",
+      "type": "parent",
+      "id": "https://ror.org/02f2rgc17"
+    },
+    {
+      "label": "Nebraska Educational Biomedical Research Association",
+      "type": "related",
+      "id": "https://ror.org/02kczyn17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

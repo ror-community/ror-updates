@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "501100000811",
+        "100010686"
+      ],
+      "preferred": "100010686",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453486.8"
+      ],
+      "preferred": "grid.453486.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2195 4661"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q993120"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036dxts37",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://eit.europa.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/European_Institute_of_Innovation_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "BU",
+        "country_subdivision_name": "Budapest",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "name": "Budapest"
+      },
+      "geonames_id": 3054643
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EIT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Institute of Innovation and Technology"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Európai Innovációs és Technológiai Intézet"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "EIT Food",
+      "type": "child",
+      "id": "https://ror.org/01kde4v59"
+    },
+    {
+      "label": "European Union",
+      "type": "parent",
+      "id": "https://ror.org/019w4f821"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "501100004035",
+        "501100019004"
+      ],
+      "preferred": "501100004035",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.37553.37"
+      ],
+      "preferred": "grid.37553.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0097 5797"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2919325"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03y8mtb59",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.just.edu.jo/Pages/Default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Jordan_University_of_Science_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JO",
+        "country_name": "Jordan",
+        "country_subdivision_code": "IR",
+        "country_subdivision_name": "Irbid",
+        "lat": 32.55556,
+        "lng": 35.85,
+        "name": "Irbid"
+      },
+      "geonames_id": 248946
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JUST"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jordan University of Science and Technology"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "جامعة العلوم والتكنولوجيا الأردنية"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Jordan Research and Training Reactor",
+      "type": "child",
+      "id": "https://ror.org/02f2g4464"
+    },
+    {
+      "label": "King Abdullah University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02f6hdc06"
+    },
+    {
+      "label": "Specialty Hospital, Jordan",
+      "type": "related",
+      "id": "https://ror.org/01fafm680"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

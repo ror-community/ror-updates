@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-10-19",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508717.c"
+      ],
+      "preferred": "grid.508717.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0637 3764"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03r4m3349",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.erasmusmc.nl/en/cancer-institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 51.9225,
+        "lng": 4.47917,
+        "name": "Rotterdam"
+      },
+      "geonames_id": 2747891
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Erasmus MC Cancer Institute"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Erasmus MC Daniel den Hoed"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Erasmus MC Kanker Instituut"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Erasmus MC",
+      "type": "parent",
+      "id": "https://ror.org/018906e22"
+    },
+    {
+      "label": "Erasmus MC Transplant Institute",
+      "type": "related",
+      "id": "https://ror.org/0585v6057"
+    },
+    {
+      "label": "Daniel den Hoed Kliniek",
+      "type": "predecessor",
+      "id": "https://ror.org/020rz5h24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

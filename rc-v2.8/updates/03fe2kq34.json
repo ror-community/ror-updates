@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100006089",
+        "100014009"
+      ],
+      "preferred": "100006089",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467641.6"
+      ],
+      "preferred": "grid.467641.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0540 7950"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30264162"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03fe2kq34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cdc.gov/tribal/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "name": "Atlanta"
+      },
+      "geonames_id": 4180439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OSTLTS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OTASA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office for State, Tribal, Local and Territorial Support"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Tribal Affairs and Strategic Alliances"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centers for Disease Control and Prevention",
+      "type": "parent",
+      "id": "https://ror.org/042twtr12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

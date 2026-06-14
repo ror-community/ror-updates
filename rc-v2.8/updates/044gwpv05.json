@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100003193",
+        "501100003194",
+        "501100006108"
+      ],
+      "preferred": "501100003193",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453101.2"
+      ],
+      "preferred": "grid.453101.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/044gwpv05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.asfeu.sk/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "country_subdivision_code": "BL",
+        "country_subdivision_name": "Bratislava Region",
+        "lat": 48.14816,
+        "lng": 17.10674,
+        "name": "Bratislava"
+      },
+      "geonames_id": 3060972
+    }
+  ],
+  "names": [
+    {
+      "lang": "sk",
+      "types": [
+        "alias"
+      ],
+      "value": "Agentúra Ministerstva školstva, vedy, výskumu a športu SR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Education, Science, Research and Sport of the Slovak Republic"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European X-Ray Free-Electron Laser",
+      "type": "child",
+      "id": "https://ror.org/01wp2jz98"
+    },
+    {
+      "label": "Vedecká grantová agentúra MŠVVaM SR a SAV (VEGA)",
+      "type": "related",
+      "id": "https://ror.org/02z80ct15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1884,
+  "external_ids": [
+    {
+      "all": [
+        "100009859",
+        "100007052"
+      ],
+      "preferred": "100007052",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.51462.34"
+      ],
+      "preferred": "grid.51462.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2171 9952"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1808012"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02yrq0923",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mskcc.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Memorial_Sloan_Kettering_Cancer_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSK"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSKCC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Memorial Sloan Kettering Cancer Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "New York Cancer Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ralph Lauren Center for Cancer Care and Prevention",
+      "type": "child",
+      "id": "https://ror.org/02ke8g602"
+    },
+    {
+      "label": "Cornell University",
+      "type": "related",
+      "id": "https://ror.org/05bnh6r87"
+    },
+    {
+      "label": "Stony Brook University",
+      "type": "related",
+      "id": "https://ror.org/05qghxh33"
+    },
+    {
+      "label": "Hospital for Special Surgery",
+      "type": "related",
+      "id": "https://ror.org/03zjqec80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

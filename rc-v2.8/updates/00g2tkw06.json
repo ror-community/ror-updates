@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1903,
+  "external_ids": [
+    {
+      "all": [
+        "100002427",
+        "100001114"
+      ],
+      "preferred": "100002427",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417922.b"
+      ],
+      "preferred": "grid.417922.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0720 9454"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q44294"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g2tkw06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ford.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ford_Motor_Company"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.32226,
+        "lng": -83.17631,
+        "name": "Dearborn"
+      },
+      "geonames_id": 4990510
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Ford"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ford Motor Company (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ford Motor Company (Canada)",
+      "type": "child",
+      "id": "https://ror.org/00v84va72"
+    },
+    {
+      "label": "Ford Motor Company (Czechia)",
+      "type": "child",
+      "id": "https://ror.org/02vf5zz47"
+    },
+    {
+      "label": "Ford Motor Company (France)",
+      "type": "child",
+      "id": "https://ror.org/018mdm506"
+    },
+    {
+      "label": "Ford Motor Company (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00t00te02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

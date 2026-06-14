@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1575,
+  "external_ids": [
+    {
+      "all": [
+        "501100004116",
+        "501100001717"
+      ],
+      "preferred": "501100001717",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5132.5"
+      ],
+      "preferred": "grid.5132.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2312 1970"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q156598"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/027bh9e22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.leiden.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Leiden_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.15833,
+        "lng": 4.49306,
+        "name": "Leiden"
+      },
+      "geonames_id": 2751773
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leiden University"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Rijksuniversiteit Leiden"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit Leiden"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Delta Institute for Theoretical Physics",
+      "type": "child",
+      "id": "https://ror.org/01yx4wq53"
+    },
+    {
+      "label": "Leiden Observatory",
+      "type": "child",
+      "id": "https://ror.org/03es66g06"
+    },
+    {
+      "label": "Leiden University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05xvt9f17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

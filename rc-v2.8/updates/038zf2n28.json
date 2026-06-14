@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1908,
+  "external_ids": [
+    {
+      "all": [
+        "100009876",
+        "100010423",
+        "100010424"
+      ],
+      "preferred": "100009876",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268467.9"
+      ],
+      "preferred": "grid.268467.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9377 4427"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1783191"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038zf2n28",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ysu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Youngstown_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.09978,
+        "lng": -80.64952,
+        "name": "Youngstown"
+      },
+      "geonames_id": 5177568
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "YSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Youngstown State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

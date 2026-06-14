@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-06-01",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bia.gov"
+  ],
+  "established": 1824,
+  "external_ids": [
+    {
+      "all": [
+        "100013174"
+      ],
+      "preferred": "100013174",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2111 2800"
+      ],
+      "preferred": "0000 0001 2111 2800",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1010563"
+      ],
+      "preferred": "Q1010563",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007y4yn38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bia.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bureau_of_Indian_Affairs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "BIA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Bureau des affaires indiennes"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Bureau of Indian Affairs"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Indian Affairs"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Oficina de Asuntos Indígenas"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Bureau of Indian Affairs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of the Interior",
+      "type": "parent",
+      "id": "https://ror.org/03v0pmy70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

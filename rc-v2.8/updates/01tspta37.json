@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100013224"
+      ],
+      "preferred": "501100013224",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419239.4"
+      ],
+      "preferred": "grid.419239.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8583 7301"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01tspta37",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ipfdd.de/en/home/our-mission/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Institute of Polymer Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Institut für Polymerforschung Dresden"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    },
+    {
+      "label": "Physics of Life",
+      "type": "related",
+      "id": "https://ror.org/029yt9178"
+    },
+    {
+      "label": "Center for Regenerative Therapies Dresden",
+      "type": "related",
+      "id": "https://ror.org/00490nx58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

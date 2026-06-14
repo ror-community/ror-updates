@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "100010070",
+        "100010224",
+        "100010223"
+      ],
+      "preferred": "100010070",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.263831.d"
+      ],
+      "preferred": "grid.263831.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2224 4282"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q615998"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0531xck41",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.southeastern.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Southeastern_Louisiana_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 30.50463,
+        "lng": -90.46293,
+        "name": "Hammond"
+      },
+      "geonames_id": 4326868
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SELU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southeastern Louisiana University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad del Sudeste de Luisiana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Louisiana System",
+      "type": "parent",
+      "id": "https://ror.org/02sqt9870"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

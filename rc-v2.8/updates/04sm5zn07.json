@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1916,
+  "external_ids": [
+    {
+      "all": [
+        "100000003",
+        "100003630"
+      ],
+      "preferred": "100000003",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423121.7"
+      ],
+      "preferred": "grid.423121.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 1911"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q66"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04sm5zn07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.boeing.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Boeing"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Boeing (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Boeing (Australia)",
+      "type": "child",
+      "id": "https://ror.org/0346ase89"
+    },
+    {
+      "label": "Boeing (Canada)",
+      "type": "child",
+      "id": "https://ror.org/03bmxpp39"
+    },
+    {
+      "label": "Boeing (Germany)",
+      "type": "child",
+      "id": "https://ror.org/02qya6g42"
+    },
+    {
+      "label": "Boeing (Spain)",
+      "type": "child",
+      "id": "https://ror.org/00fxnmt68"
+    },
+    {
+      "label": "Jeppensen",
+      "type": "child",
+      "id": "https://ror.org/00pp5xc73"
+    },
+    {
+      "label": "McDonnel Douglas (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/02wjqm946"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

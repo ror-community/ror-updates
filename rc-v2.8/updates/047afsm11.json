@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1863,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416135.4"
+      ],
+      "preferred": "grid.416135.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2593465"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047afsm11",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.erasmusmc.nl/sophia/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 51.9225,
+        "lng": 4.47917,
+        "name": "Rotterdam"
+      },
+      "geonames_id": 2747891
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "EMC Sophia"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Erasmus Kinderziekenhuis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Erasmus MC - Sophia Children’s Hospital"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "alias"
+      ],
+      "value": "Sophia Kinderziekenhuis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Erasmus MC",
+      "type": "parent",
+      "id": "https://ror.org/018906e22"
+    },
+    {
+      "label": "Erasmus University Rotterdam",
+      "type": "related",
+      "id": "https://ror.org/057w15z03"
+    },
+    {
+      "label": "Erasmus MC Transplant Institute",
+      "type": "related",
+      "id": "https://ror.org/0585v6057"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "biodymia.univ-lyon1.fr"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463883.2"
+      ],
+      "preferred": "grid.463883.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30262265"
+      ],
+      "preferred": "Q30262265",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/048yvwh14",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://biodymia.univ-lyon1.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Rhône-Alpes",
+        "lat": 46.20574,
+        "lng": 5.2258,
+        "name": "Bourg-en-Bresse"
+      },
+      "geonames_id": 3031009
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIODYMIA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bioengineering and Microbial Dynamics at Food Interfaces"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bioingénierie et Dynamique Microbienne aux Interfaces Alimentaires"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA 3733"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA3733"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UR 3733"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UR3733"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Institut Supérieur d'Agriculture Rhône-Alpes",
+      "type": "parent",
+      "id": "https://ror.org/03xsqa235"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

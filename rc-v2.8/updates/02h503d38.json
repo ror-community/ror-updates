@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100003033",
+        "501100006050"
+      ],
+      "preferred": "501100003033",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436079.f"
+      ],
+      "preferred": "grid.436079.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0378 7603"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6017195"
+      ],
+      "preferred": "Q6017195",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h503d38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.argentina.gob.ar/ciencia"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Ministerio_de_Ciencia,_Tecnología_e_Innovación_(Argentina)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Buenos Aires F.D.",
+        "lat": -34.61315,
+        "lng": -58.37723,
+        "name": "Buenos Aires"
+      },
+      "geonames_id": 3435910
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MCTeIP"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MINCYT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministerio de Ciencia Tecnología e Innovación Productiva"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Ciencia, Tecnología e Innovación"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Science, Technology and Innovation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Science, Technology and Productive Innovation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",
+      "type": "child",
+      "id": "https://ror.org/03stxzb56"
+    },
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "child",
+      "id": "https://ror.org/03cqe8w59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "100007518",
+        "100006351"
+      ],
+      "preferred": "100006351",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261055.5"
+      ],
+      "preferred": "grid.261055.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2293 4611"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2000624"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05h1bnb22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ndsu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/North_Dakota_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "ND",
+        "country_subdivision_name": "North Dakota",
+        "lat": 46.87719,
+        "lng": -96.7898,
+        "name": "Fargo"
+      },
+      "geonames_id": 5059163
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NDSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Dakota State University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "North Dakota State University of Agriculture and Applied Sciences"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Estatal de Dakota del Norte"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État du dakota du nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aldevron (United States)",
+      "type": "child",
+      "id": "https://ror.org/03fq30e75"
+    },
+    {
+      "label": "North Dakota Agricultural Experiment Station",
+      "type": "child",
+      "id": "https://ror.org/03njcec05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

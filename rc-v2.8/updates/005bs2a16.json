@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100010241",
+        "501100001195"
+      ],
+      "preferred": "100010241",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410681.a"
+      ],
+      "preferred": "grid.410681.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0606 2405"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5260287"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005bs2a16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.environment.nsw.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Environment_and_Heritage_(New_South_Wales)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NSW Office of Environment & Heritage"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OEH"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NSW Department of Planning, Industry and Environment",
+      "type": "successor",
+      "id": "https://ror.org/00067tc54"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

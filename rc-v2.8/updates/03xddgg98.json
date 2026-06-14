@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1943,
+  "external_ids": [
+    {
+      "all": [
+        "501100004881",
+        "501100005343"
+      ],
+      "preferred": "501100004881",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419157.f"
+      ],
+      "preferred": "grid.419157.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1091 9430"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q904999"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03xddgg98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.imss.gob.mx/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mexican_Social_Security_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMSS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Mexicano del Seguro Social"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mexican Social Security Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Medico Nacional Siglo XXI",
+      "type": "child",
+      "id": "https://ror.org/02vz80y09"
+    },
+    {
+      "label": "Centro Médico Nacional La Raza",
+      "type": "child",
+      "id": "https://ror.org/004vn8r55"
+    },
+    {
+      "label": "Hospital General De Zona",
+      "type": "child",
+      "id": "https://ror.org/01zhtdv64"
+    },
+    {
+      "label": "Servicios de Salud del Instituto Mexicano del Seguro Social para el Bienestar",
+      "type": "child",
+      "id": "https://ror.org/02j4pwj98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

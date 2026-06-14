@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "eric.msh-lse.fr"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482732.8"
+      ],
+      "preferred": "grid.482732.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30274350"
+      ],
+      "preferred": "Q30274350",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009frb846",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://eric.msh-lse.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Rhône-Alpes",
+        "lat": 45.69651,
+        "lng": 4.94385,
+        "name": "Saint-Priest"
+      },
+      "geonames_id": 2977356
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA 3083"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EA3083"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ERIC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Entrepôts, Représentation et Ingénierie des Connaissances"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UR 3083"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Claude Bernard Lyon 1",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "Université Lumière Lyon 2",
+      "type": "parent",
+      "id": "https://ror.org/03rth4p18"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

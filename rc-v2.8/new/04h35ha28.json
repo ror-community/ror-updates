@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-06-01",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rhne.ch"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 9784 1412"
+      ],
+      "preferred": "0000 0000 9784 1412",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q99889948"
+      ],
+      "preferred": "Q99889948",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04h35ha28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rhne.ch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "NE",
+        "country_subdivision_name": "Neuchâtel",
+        "lat": 46.99179,
+        "lng": 6.931,
+        "name": "Neuchâtel"
+      },
+      "geonames_id": 2659496
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "RHNe"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Réseau hospitalier neuchâtelois"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Neuchâtel",
+      "type": "predecessor",
+      "id": "https://ror.org/01mk9jb73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "501100008687",
+        "501100013131"
+      ],
+      "preferred": "501100008687",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.426132.0"
+      ],
+      "preferred": "grid.426132.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0471 5062"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q514140",
+        "Q3152467"
+      ],
+      "preferred": "Q514140",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0560q5470",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.rosatom.ru/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Rosatom"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rosatom (Russia)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Rosatom State Atomic Energy Corporation"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Росатом"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "All Russia Research Institute of Automatics",
+      "type": "child",
+      "id": "https://ror.org/01kp4cp54"
+    },
+    {
+      "label": "Research Institute of Scientific Research and Production Association",
+      "type": "child",
+      "id": "https://ror.org/00qb33m26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

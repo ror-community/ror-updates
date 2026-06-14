@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "100004759",
+        "100005136",
+        "100008128"
+      ],
+      "preferred": "100004759",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.479781.4"
+      ],
+      "preferred": "grid.479781.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q19681433"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01s49js04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kraftheinzcompany.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kraft_Heinz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KHC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kraft Heinz (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kraft Heinz (Canada)",
+      "type": "child",
+      "id": "https://ror.org/022d46z41"
+    },
+    {
+      "label": "Kraft Heinz (India)",
+      "type": "child",
+      "id": "https://ror.org/04v9w1q77"
+    },
+    {
+      "label": "Kraft Heinz (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00nngxj80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1824,
+  "external_ids": [
+    {
+      "all": [
+        "100010572",
+        "100007337"
+      ],
+      "preferred": "100007337",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.39479.30"
+      ],
+      "preferred": "grid.39479.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8800 3003"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6784269"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04g3dn724",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.masseyeandear.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Massachusetts_Eye_and_Ear_Infirmary"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Boston Eye Infirmary"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MEE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Mass. Eye and Ear"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Massachusetts Eye and Ear Infirmary"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Harvard University",
+      "type": "related",
+      "id": "https://ror.org/03vek6s52"
+    },
+    {
+      "label": "VA Boston Healthcare System",
+      "type": "related",
+      "id": "https://ror.org/04v00sg98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

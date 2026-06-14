@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "100010082",
+        "100007737"
+      ],
+      "preferred": "100007737",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.240871.8"
+      ],
+      "preferred": "grid.240871.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0224 711X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1164246"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02r3e0967",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.stjude.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/St._Jude_Children%27s_Research_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TN",
+        "country_subdivision_name": "Tennessee",
+        "lat": 35.14953,
+        "lng": -90.04898,
+        "name": "Memphis"
+      },
+      "geonames_id": 4641239
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "St. Jude Children's Research Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "American Lebanese Syrian Associated Charities",
+      "type": "child",
+      "id": "https://ror.org/03rx10x31"
+    },
+    {
+      "label": "Novant Health",
+      "type": "parent",
+      "id": "https://ror.org/04nv2wh79"
+    },
+    {
+      "label": "Our Lady of the Lake Regional Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01y9s4r06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "100017598"
+      ],
+      "preferred": "100017598",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.430878.0"
+      ],
+      "preferred": "grid.430878.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0403 1699"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4452982"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05sgw3s08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tma.uz/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "UZ",
+        "country_name": "Uzbekistan",
+        "country_subdivision_code": "TK",
+        "country_subdivision_name": "Tashkent",
+        "lat": 41.26465,
+        "lng": 69.21627,
+        "name": "Tashkent"
+      },
+      "geonames_id": 1512569
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tashkent Medical Academy"
+    },
+    {
+      "lang": "uz",
+      "types": [
+        "label"
+      ],
+      "value": "Toshkent Tibbiyot Akademiyasi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tashkent Medical Academy Urgench Branch",
+      "type": "child",
+      "id": "https://ror.org/01bnkr993"
+    },
+    {
+      "label": "Tashkent State Medical University",
+      "type": "successor",
+      "id": "https://ror.org/035cgyb19"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

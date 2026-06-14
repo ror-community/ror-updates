@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-06-01",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-06-02",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "asia.si.edu"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0439 4318"
+      ],
+      "preferred": "0000 0004 0439 4318",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q105749808"
+      ],
+      "preferred": "Q105749808",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wz9fh65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://asia.si.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Museum_of_Asian_Art"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NMAA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Museum of Asian Art"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Smithsonian NMAA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Smithsonian's National Museum of Asian Art"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Smithsonian Institution",
+      "type": "parent",
+      "id": "https://ror.org/01pp8nd67"
+    },
+    {
+      "label": "Freer Gallery of Art",
+      "type": "child",
+      "id": "https://ror.org/00xek3458"
+    },
+    {
+      "label": "Arthur M. Sackler Gallery",
+      "type": "child",
+      "id": "https://ror.org/00dkkfj04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}
