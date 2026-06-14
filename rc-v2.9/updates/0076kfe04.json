@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-14",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100016505"
+      ],
+      "preferred": "100016505",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412578.d"
+      ],
+      "preferred": "grid.412578.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8736 9513"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895258"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0076kfe04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uchicagomedicine.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Chicago_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UChicago Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UChicago Medicine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Chicago Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Chicago Medicine Comprehensive Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/042wftp98"
+    },
+    {
+      "label": "La Rabida Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/02teamz63"
+    },
+    {
+      "label": "University of Chicago",
+      "type": "related",
+      "id": "https://ror.org/024mw5h28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
