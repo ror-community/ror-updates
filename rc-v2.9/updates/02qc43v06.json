@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-15",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "100013273",
+        "100013314"
+      ],
+      "preferred": "100013273",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q5280595"
+      ],
+      "preferred": "Q5280595",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qc43v06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ec.europa.eu/info/departments/migration-and-home-affairs"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Directorate-General_for_Migration_and_Home_Affairs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "BRU",
+        "country_subdivision_name": "Brussels Capital",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "name": "Brussels"
+      },
+      "geonames_id": 2800866
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DG HOME"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Directorate-General for Migration and Home Affairs"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European Commission",
+      "type": "parent",
+      "id": "https://ror.org/00k4n6c32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
