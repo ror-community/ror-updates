@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "endeavorhealth.org",
+    "northshore.org"
+  ],
+  "established": 1891,
+  "external_ids": [
+    {
+      "all": [
+        "100012797"
+      ],
+      "preferred": "100012797",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.240372.0"
+      ],
+      "preferred": "grid.240372.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 4439"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7053606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04tpp9d61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.endeavorhealth.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/NorthShore_University_HealthSystem"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 42.04114,
+        "lng": -87.69006,
+        "name": "Evanston"
+      },
+      "geonames_id": 4891382
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Endeavor Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Endeavor Health Clinical Operations"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NorthShore University HealthSystem"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Evanston Hospital",
+      "type": "child",
+      "id": "https://ror.org/02nh10f55"
+    },
+    {
+      "label": "Glenbrook Hospital",
+      "type": "child",
+      "id": "https://ror.org/003t0xc83"
+    },
+    {
+      "label": "Skokie Hospital",
+      "type": "child",
+      "id": "https://ror.org/05mzkvr65"
+    },
+    {
+      "label": "University of Chicago",
+      "type": "related",
+      "id": "https://ror.org/024mw5h28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

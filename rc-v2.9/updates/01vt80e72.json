@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100020316"
+      ],
+      "preferred": "100020316",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01vt80e72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/fecm/office-resource-sustainability"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Fossil Energy and Carbon Management Office of Resource Sustainability"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Resource Sustainability"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Fossil Energy and Carbon Management Office of Resource Sustainability"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Fossil Energy and Carbon Management Office of Resource Sustainability"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Fossil Energy and Carbon Management",
+      "type": "parent",
+      "id": "https://ror.org/037897814"
+    },
+    {
+      "label": "Office of Carbon Management",
+      "type": "parent",
+      "id": "https://ror.org/04he1c034"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

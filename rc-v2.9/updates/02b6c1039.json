@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463796.9"
+      ],
+      "preferred": "grid.463796.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9929 2445"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02b6c1039",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://icb.cnrs.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "BFC",
+        "country_subdivision_name": "Bourgogne",
+        "lat": 47.31344,
+        "lng": 5.01391,
+        "name": "Dijon"
+      },
+      "geonames_id": 3021372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Interdisciplinaire Carnot de Bourgogne"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR 6303"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "UMR ICB"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UMR6303"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de technologie de belfort-montbéliard",
+      "type": "parent",
+      "id": "https://ror.org/05bn3m307"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Bourgogne Europe",
+      "type": "parent",
+      "id": "https://ror.org/00g700j37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}
