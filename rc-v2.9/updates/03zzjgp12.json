@@ -1,94 +1,94 @@
 {
-    "admin": {
-        "created": {
-            "date": "2018-11-14",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-06-23",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "domains": [],
-    "established": null,
-    "external_ids": [
-        {
-            "all": [
-                "100005569"
-            ],
-            "preferred": null,
-            "type": "fundref"
-        },
-        {
-            "all": [
-                "grid.437970.e"
-            ],
-            "preferred": "grid.437970.e",
-            "type": "grid"
-        },
-        {
-            "all": [
-                "0000 0001 0693 8663"
-            ],
-            "preferred": null,
-            "type": "isni"
-        }
-    ],
-    "id": "https://ror.org/03zzjgp12",
-    "links": [
-        {
-            "type": "website",
-            "value": "http://www.scseagrant.org/"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": "NA",
-                "continent_name": "North America",
-                "country_code": "US",
-                "country_name": "United States",
-                "country_subdivision_code": "SC",
-                "country_subdivision_name": "South Carolina",
-                "lat": 32.77632,
-                "lng": -79.93275,
-                "name": "Charleston"
-            },
-            "geonames_id": 4574324
-        }
-    ],
-    "names": [
-        {
-            "lang": "en",
-            "types": [
-                "alias"
-            ],
-            "value": "SC Sea Grant Consortium"
-        },
-        {
-            "lang": "en",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "South Carolina Sea Grant Consortium"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "National Oceanic and Atmospheric Administration",
-            "type": "parent",
-            "id": "https://ror.org/02z5nhe81"
-        },
-        {
-            "label": "National Sea Grant College Program",
-            "type": "parent",
-            "id": "https://ror.org/05kxwb513"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "funder",
-        "other"
-    ]
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100005569"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.437970.e"
+      ],
+      "preferred": "grid.437970.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0693 8663"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03zzjgp12",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.scseagrant.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SC",
+        "country_subdivision_name": "South Carolina",
+        "lat": 32.77632,
+        "lng": -79.93275,
+        "name": "Charleston"
+      },
+      "geonames_id": 4574324
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SC Sea Grant Consortium"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Carolina Sea Grant Consortium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
 }
