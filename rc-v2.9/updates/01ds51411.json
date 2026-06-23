@@ -1,0 +1,80 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100005794"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454042.3"
+      ],
+      "preferred": "grid.454042.3",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01ds51411",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://texasseagrant.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 30.62798,
+        "lng": -96.33441,
+        "name": "College Station"
+      },
+      "geonames_id": 4682464
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Texas Sea Grant College Program"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

@@ -54,7 +54,18 @@
       "value": "Laboratoire agronomie et environnement - Antenne Colmar"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    },
+    {
+      "label": "Laboratoire Agronomie et Environnement",
+      "type": "related",
+      "id": "https://ror.org/01dg9a450"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

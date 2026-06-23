@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100006157"
+      ],
+      "preferred": "100006157",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q1029968"
+      ],
+      "preferred": "Q1029968",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028rfb880",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Secretary_of_Energy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Secretary of Energy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Secretary of Energy"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Secretary of Energy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    },
+    {
+      "label": "Office of the Under Secretary of Energy",
+      "type": "child",
+      "id": "https://ror.org/03bqy0f38"
+    },
+    {
+      "label": "Office of the Under Secretary of Energy",
+      "type": "parent",
+      "id": "https://ror.org/03bqy0f38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

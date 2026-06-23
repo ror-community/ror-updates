@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "heart.org"
+  ],
+  "established": 1924,
+  "external_ids": [
+    {
+      "all": [
+        "100000968",
+        "100007901"
+      ],
+      "preferred": "100000968",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.427645.6"
+      ],
+      "preferred": "grid.427645.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0393 8328"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q464880"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013kjyp64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.heart.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/American_Heart_Association"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.78306,
+        "lng": -96.80667,
+        "name": "Dallas"
+      },
+      "geonames_id": 4684888
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AHA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "American Heart Association"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "American Heart Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Liaison Committee on Resuscitation",
+      "type": "related",
+      "id": "https://ror.org/050yn5k40"
+    },
+    {
+      "label": "The Periodic Table of Food Initiative",
+      "type": "child",
+      "id": "https://ror.org/016m7mb26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

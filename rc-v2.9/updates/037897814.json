@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/037897814",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FECM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Fossil Energy and Carbon Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Fossil Energy and Carbon Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Fossil Energy and Carbon Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Resource Sustainability",
+      "type": "child",
+      "id": "https://ror.org/01vt80e72"
+    },
+    {
+      "label": "Office of Carbon Management",
+      "type": "child",
+      "id": "https://ror.org/04he1c034"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    },
+    {
+      "label": "Hydrocarbons and Geothermal Office",
+      "type": "successor",
+      "id": "https://ror.org/05vc7s830"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

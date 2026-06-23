@@ -67,7 +67,18 @@
       "value": "US Department of Energy Office of the Under Secretary of Energy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Secretary of Energy",
+      "type": "parent",
+      "id": "https://ror.org/028rfb880"
+    },
+    {
+      "label": "Office of Secretary of Energy",
+      "type": "child",
+      "id": "https://ror.org/028rfb880"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

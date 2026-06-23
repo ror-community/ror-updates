@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "100005782"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454126.0"
+      ],
+      "preferred": "grid.454126.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05370mv03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://web.whoi.edu/seagrant/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 41.5515,
+        "lng": -70.61475,
+        "name": "Falmouth"
+      },
+      "geonames_id": 4936174
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Woods Hole Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "Woods Hole Oceanographic Institution",
+      "type": "parent",
+      "id": "https://ror.org/03zbnzt98"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

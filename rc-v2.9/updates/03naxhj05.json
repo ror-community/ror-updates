@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017284"
+      ],
+      "preferred": "100017284",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/03naxhj05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/ne/spent-fuel-and-waste-disposition"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Nuclear Energy",
+      "type": "parent",
+      "id": "https://ror.org/05tj7dm33"
+    },
+    {
+      "label": "Office of Consent-Based Siting",
+      "type": "child",
+      "id": "https://ror.org/018tedj25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2022,
+  "external_ids": [
+    {
+      "all": [
+        "100017279"
+      ],
+      "preferred": "100017279",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q123695029"
+      ],
+      "preferred": "Q123695029",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04csf5r20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/ehss/environment-health-safety-security"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EHSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Environment, Health, Safety & Security"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Environment, Health, Safety and Security"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Environment, Health, Safety and Security"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Environment, Health, Safety and Security"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Environmental Protection and ES&H Reporting",
+      "type": "child",
+      "id": "https://ror.org/039928415"
+    },
+    {
+      "label": "Office of Security",
+      "type": "child",
+      "id": "https://ror.org/008fa9s48"
+    },
+    {
+      "label": "Office of Health and Safety",
+      "type": "child",
+      "id": "https://ror.org/04z2gev20"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    },
+    {
+      "label": "Office of Headquarters Security Operations",
+      "type": "child",
+      "id": "https://ror.org/00fbhg594"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

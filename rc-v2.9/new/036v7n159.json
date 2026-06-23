@@ -92,7 +92,28 @@
       "value": "University of Hawai’i at Manoa Cooperative Institute for Marine and Atmospheric Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "parent",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "University of Hawaiʻi at Mānoa",
+      "type": "parent",
+      "id": "https://ror.org/01wspgy28"
+    },
+    {
+      "label": "University of Hawai'i Sea Level Center",
+      "type": "child",
+      "id": "https://ror.org/02t0fnd07"
+    },
+    {
+      "label": "NOAA Coral Reef Conservation Program",
+      "type": "related",
+      "id": "https://ror.org/02h6hdv22"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

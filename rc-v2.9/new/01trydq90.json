@@ -74,7 +74,18 @@
       "value": "US Department of Energy Hydrocarbons and Geothermal Office Office of Subsurface Energy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hydrocarbons and Geothermal Office",
+      "type": "parent",
+      "id": "https://ror.org/05vc7s830"
+    },
+    {
+      "label": "Office of Oil and Gas",
+      "type": "child",
+      "id": "https://ror.org/057cr0739"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

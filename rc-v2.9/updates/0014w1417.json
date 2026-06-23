@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "100005790"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454025.2"
+      ],
+      "preferred": "grid.454025.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5902 3813"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0014w1417",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://gacoast.uga.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.96095,
+        "lng": -83.37794,
+        "name": "Athens"
+      },
+      "geonames_id": 4180386
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Georgia Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "University of Georgia",
+      "type": "parent",
+      "id": "https://ror.org/00te3t702"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

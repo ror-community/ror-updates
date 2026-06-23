@@ -67,7 +67,18 @@
       "value": "US Department of Energy Office of Environment, Health, Safety and Security Office of Headquarters Security Operations"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Environment, Health, Safety and Security",
+      "type": "parent",
+      "id": "https://ror.org/04csf5r20"
+    },
+    {
+      "label": "Office of Nuclear Safety",
+      "type": "predecessor",
+      "id": "https://ror.org/04848jz84"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

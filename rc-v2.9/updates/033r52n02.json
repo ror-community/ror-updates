@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "100005777"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467863.8"
+      ],
+      "preferred": "grid.467863.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5903 5929"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/033r52n02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://seagrant.psu.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 42.12922,
+        "lng": -80.08506,
+        "name": "Erie"
+      },
+      "geonames_id": 5188843
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PASG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pennsylvania Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "Pennsylvania State University",
+      "type": "parent",
+      "id": "https://ror.org/04p491231"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

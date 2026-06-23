@@ -74,7 +74,33 @@
       "value": "US Department of Energy Office of Critical Minerals and Energy Office of Critical Minerals, Materials, and Manufacturing"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Energy Efficiency and Renewable Energy",
+      "type": "parent",
+      "id": "https://ror.org/02xznz413"
+    },
+    {
+      "label": "Advanced Materials and Manufacturing Technologies Office",
+      "type": "child",
+      "id": "https://ror.org/03esms521"
+    },
+    {
+      "label": "Office of Clean Energy Demonstrations",
+      "type": "child",
+      "id": "https://ror.org/04rp4zh16"
+    },
+    {
+      "label": "Advanced Mining and Mineral Production Technologies Office",
+      "type": "child",
+      "id": "https://ror.org/04ekt4n20"
+    },
+    {
+      "label": "Manufacturing Deployment Office",
+      "type": "child",
+      "id": "https://ror.org/05v6skg58"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

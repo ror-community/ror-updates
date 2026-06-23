@@ -74,7 +74,38 @@
       "value": "US Department of Energy Hydrocarbons and Geothermal Office"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Subsurface Energy",
+      "type": "child",
+      "id": "https://ror.org/01trydq90"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    },
+    {
+      "label": "Office of Fossil Energy",
+      "type": "predecessor",
+      "id": "https://ror.org/03ery9d53"
+    },
+    {
+      "label": "Office of Fossil Energy and Carbon Management",
+      "type": "predecessor",
+      "id": "https://ror.org/037897814"
+    },
+    {
+      "label": "Office of Strategic Resources",
+      "type": "child",
+      "id": "https://ror.org/044yhc868"
+    },
+    {
+      "label": "Office of Coal",
+      "type": "child",
+      "id": "https://ror.org/04sz1b710"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

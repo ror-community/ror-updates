@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100005772"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467857.f"
+      ],
+      "preferred": "grid.467857.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5906 3874"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05k70qf45",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uvm.edu/seagrant/node/1"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VT",
+        "country_subdivision_name": "Vermont",
+        "lat": 44.47588,
+        "lng": -73.21207,
+        "name": "Burlington"
+      },
+      "geonames_id": 5234372
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LCSG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lake Champlain Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "SUNY Plattsburgh",
+      "type": "parent",
+      "id": "https://ror.org/033zmj163"
+    },
+    {
+      "label": "University of Vermont",
+      "type": "parent",
+      "id": "https://ror.org/0155zta11"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

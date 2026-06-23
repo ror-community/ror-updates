@@ -68,7 +68,23 @@
       "value": "iCAPTURE"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Providence Health Care",
+      "type": "parent",
+      "id": "https://ror.org/03qqdf793"
+    },
+    {
+      "label": "University of British Columbia",
+      "type": "parent",
+      "id": "https://ror.org/03rmrcq20"
+    },
+    {
+      "label": "St. Paul's Hospital",
+      "type": "related",
+      "id": "https://ror.org/00wzdr059"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

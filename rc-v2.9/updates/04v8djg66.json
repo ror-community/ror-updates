@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1902,
+  "external_ids": [
+    {
+      "all": [
+        "100008479"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412860.9"
+      ],
+      "preferred": "grid.412860.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 1231"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7960909"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v8djg66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wakehealth.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Wake_Forest_Baptist_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 36.09986,
+        "lng": -80.24422,
+        "name": "Winston-Salem"
+      },
+      "geonames_id": 4499612
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Atrium Health Wake Forest Baptist"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bowman Gray School of Medicine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "North Carolina Baptist Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wake Forest Baptist Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wake Forest University Baptist Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Brenner Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/05j2xx287"
+    },
+    {
+      "label": "Wake Forest Baptist Comprehensive Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/0512csj88"
+    },
+    {
+      "label": "Wake Forest University",
+      "type": "parent",
+      "id": "https://ror.org/0207ad724"
+    },
+    {
+      "label": "Wake Forest University Health Sciences",
+      "type": "related",
+      "id": "https://ror.org/046r1r105"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "100005791"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467539.a"
+      ],
+      "preferred": "grid.467539.a",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05t7fg049",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://seagrantpr.org/v2/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "PR",
+        "country_name": "Puerto Rico",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Mayagüez",
+        "lat": 18.20107,
+        "lng": -67.13962,
+        "name": "Mayagüez"
+      },
+      "geonames_id": 4566385
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Puerto Rico Sea Grant"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "University of Puerto Rico-Mayaguez",
+      "type": "parent",
+      "id": "https://ror.org/00wek6x04"
+    },
+    {
+      "label": "National Sea Grant College Program",
+      "type": "parent",
+      "id": "https://ror.org/05kxwb513"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

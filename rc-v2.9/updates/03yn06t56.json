@@ -1,0 +1,147 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473838.3"
+      ],
+      "preferred": "grid.473838.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4656 4004"
+      ],
+      "preferred": "0000 0004 4656 4004",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30267173"
+      ],
+      "preferred": "Q30267173",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03yn06t56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.star.nesdis.noaa.gov/star/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -76.93692,
+        "name": "College Park"
+      },
+      "geonames_id": 4351977
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Center for Satellite Applications and Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NOAA STAR"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "STAR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Center for Satellite Applications and Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. National Environmental Satellite, Data, and Information Service Center for Satellite Applications and Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. National Environmental Satellite, Data, and Information Service Office of Research and Applications"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Center for Satellite Applications and Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States National Environmental Satellite, Data, and Information Service Center for Satellite Applications and Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States National Environmental Satellite, Data, and Information Service Office of Research and Applications"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "parent",
+      "id": "https://ror.org/007qwym43"
+    },
+    {
+      "label": "National Oceanic and Atmospheric Administration",
+      "type": "parent",
+      "id": "https://ror.org/02z5nhe81"
+    },
+    {
+      "label": "NOAA Coral Reef Watch",
+      "type": "child",
+      "id": "https://ror.org/050y1qb24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "100017865"
+      ],
+      "preferred": "100017865",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0282 4377"
+      ],
+      "preferred": "0000 0005 0282 4377",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q117857258"
+      ],
+      "preferred": "Q117857258",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/041g4v832",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/ceser/office-cybersecurity-energy-security-and-emergency-response"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESER"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Cybersecurity, Energy Security, and Emergency Response"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Cybersecurity, Energy Security, and Emergency Response"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Cybersecurity, Energy Security, and Emergency Response"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Petroleum Reserves",
+      "type": "child",
+      "id": "https://ror.org/05svhk535"
+    },
+    {
+      "label": "Infrastructure Security & Energy Restoration",
+      "type": "child",
+      "id": "https://ror.org/044xyx374"
+    },
+    {
+      "label": "United States Department of Energy",
+      "type": "parent",
+      "id": "https://ror.org/01bj3aw27"
+    },
+    {
+      "label": "Risk Management Tools and Technologies",
+      "type": "child",
+      "id": "https://ror.org/04grvzv04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

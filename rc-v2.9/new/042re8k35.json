@@ -74,7 +74,28 @@
       "value": "US Department of Energy Office of Critical Minerals and Energy Innovation Office of Energy Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Energy Efficiency and Renewable Energy",
+      "type": "parent",
+      "id": "https://ror.org/02xznz413"
+    },
+    {
+      "label": "Alternative Fuels and Feedstocks Office",
+      "type": "child",
+      "id": "https://ror.org/018ts6k76"
+    },
+    {
+      "label": "Integrated Energy Systems Office",
+      "type": "child",
+      "id": "https://ror.org/05c5gw140"
+    },
+    {
+      "label": "Transportation Technologies Office",
+      "type": "child",
+      "id": "https://ror.org/042wdrh47"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

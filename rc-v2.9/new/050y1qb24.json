@@ -111,7 +111,18 @@
       "value": "United States National Oceanic and Atmospheric Administration Coral Reef Watch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA Center for Satellite Applications and Research",
+      "type": "parent",
+      "id": "https://ror.org/03yn06t56"
+    },
+    {
+      "label": "NOAA Coral Reef Conservation Program",
+      "type": "related",
+      "id": "https://ror.org/02h6hdv22"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -129,7 +129,43 @@
       "value": "United States National Oceanic and Atmospheric Administration Coral Reef Conservation Program"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NOAA Office for Coastal Management",
+      "type": "parent",
+      "id": "https://ror.org/05v14bq57"
+    },
+    {
+      "label": "NOAA National Ocean Service",
+      "type": "related",
+      "id": "https://ror.org/02k4h0334"
+    },
+    {
+      "label": "NOAA National Marine Fisheries Service",
+      "type": "related",
+      "id": "https://ror.org/033mqx355"
+    },
+    {
+      "label": "NOAA National Environmental Satellite Data and Information Service",
+      "type": "related",
+      "id": "https://ror.org/007qwym43"
+    },
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "related",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "NOAA Coral Reef Watch",
+      "type": "related",
+      "id": "https://ror.org/050y1qb24"
+    },
+    {
+      "label": "Cooperative Institute for Marine and Atmospheric Research",
+      "type": "related",
+      "id": "https://ror.org/036v7n159"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

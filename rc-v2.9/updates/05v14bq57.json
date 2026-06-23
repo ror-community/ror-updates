@@ -1,0 +1,159 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100008159",
+        "100008160"
+      ],
+      "preferred": "100008159",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467652.4"
+      ],
+      "preferred": "grid.467652.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5902 666X",
+        "0000 0004 0377 1660"
+      ],
+      "preferred": "0000 0004 5902 666X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30264166"
+      ],
+      "preferred": "Q30264166",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05v14bq57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://coast.noaa.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NOAA NOS Office for Coastal Management"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NOAA OCM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "NOAA Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. National Ocean Service Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. National Oceanic and Atmospheric Administration Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States National Ocean Service Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States National Oceanic and Atmospheric Administration Office for Coastal Management"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Office for Coastal Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA National Ocean Service",
+      "type": "parent",
+      "id": "https://ror.org/02k4h0334"
+    },
+    {
+      "label": "NOAA Coral Reef Conservation Program",
+      "type": "child",
+      "id": "https://ror.org/02h6hdv22"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100023770"
+      ],
+      "preferred": "501100023770",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0634 236X"
+      ],
+      "preferred": "0000 0004 0634 236X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q106497978"
+      ],
+      "preferred": "Q106497978",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05bhh0g83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://yukon.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "YT",
+        "country_subdivision_name": "Yukon",
+        "lat": 60.71611,
+        "lng": -135.05375,
+        "name": "Whitehorse"
+      },
+      "geonames_id": 6180550
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Gouvernement du Yukon"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Yukon"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Yukon Government"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yukon Geological Survey",
+      "type": "child",
+      "id": "https://ror.org/03m06nw79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

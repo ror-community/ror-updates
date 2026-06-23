@@ -74,7 +74,18 @@
       "value": "MCH-Bronovo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medisch Centrum Haaglanden",
+      "type": "predecessor",
+      "id": "https://ror.org/00v2tx290"
+    },
+    {
+      "label": "Bronovo Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/03r781319"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

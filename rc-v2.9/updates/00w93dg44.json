@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-23",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414877.9"
+      ],
+      "preferred": "grid.414877.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0609 2583"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q14923657"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00w93dg44",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.homolka.cz/en-CZ/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "name": "Prague"
+      },
+      "geonames_id": 3067696
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Na Homolce Hospital"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Nemocnice Na Homolce"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sanopz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/00y6khe77"
+    },
+    {
+      "label": "Fakultní nemocnice Motol a Homolka",
+      "type": "successor",
+      "id": "https://ror.org/02y1m5f30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

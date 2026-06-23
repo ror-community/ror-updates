@@ -74,7 +74,23 @@
       "value": "US Department of Energy Office of Critical Minerals and Energy Office of Innovation, Affordability, and Consumer Choice"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Energy Efficiency and Renewable Energy",
+      "type": "parent",
+      "id": "https://ror.org/02xznz413"
+    },
+    {
+      "label": "Office of State and Community Energy Programs",
+      "type": "child",
+      "id": "https://ror.org/035sc8895"
+    },
+    {
+      "label": "Industrial Technologies Office",
+      "type": "child",
+      "id": "https://ror.org/020vj6986"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
