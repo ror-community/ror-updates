@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "100024179"
+      ],
+      "preferred": "100024179",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436394.f"
+      ],
+      "preferred": "grid.436394.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 6243"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q151107"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006s85q77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.michelinman.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Michelin"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "ARA",
+        "country_subdivision_name": "Rhône-Alpes",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "name": "Clermont-Ferrand"
+      },
+      "geonames_id": 3024635
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Compagnie Générale des Établissements"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Michelin (France)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Michelin (Canada)",
+      "type": "child",
+      "id": "https://ror.org/02zqq5p14"
+    },
+    {
+      "label": "Michelin (Japan)",
+      "type": "child",
+      "id": "https://ror.org/00nhwjb64"
+    },
+    {
+      "label": "Michelin (Switzerland)",
+      "type": "child",
+      "id": "https://ror.org/05byphg89"
+    },
+    {
+      "label": "Michelin (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/045j7j567"
+    },
+    {
+      "label": "Michelin (United States)",
+      "type": "child",
+      "id": "https://ror.org/03517qf88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

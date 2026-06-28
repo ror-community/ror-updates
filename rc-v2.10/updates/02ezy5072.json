@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "100031723"
+      ],
+      "preferred": "100031723",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420023.7"
+      ],
+      "preferred": "grid.420023.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0538 4576"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02ezy5072",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.amgen.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Amgen (Germany)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Amgen (United States)",
+      "type": "parent",
+      "id": "https://ror.org/03g03ge92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

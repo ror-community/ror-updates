@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100006671",
+        "100024327"
+      ],
+      "preferred": "100024327",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416491.f"
+      ],
+      "preferred": "grid.416491.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0709 8547"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02e1t6r96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://health.maryland.gov"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "name": "Baltimore"
+      },
+      "geonames_id": 4347778
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHMH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maryland Department of Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Maryland Department of Health and Mental Hygiene"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clifton T. Perkins Hospital Center",
+      "type": "child",
+      "id": "https://ror.org/05ng63712"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

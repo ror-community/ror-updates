@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "100031751"
+      ],
+      "preferred": "100031751",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.474693.b"
+      ],
+      "preferred": "grid.474693.b",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03r519674",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.r-ccs.riken.jp/jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Hyōgo",
+        "lat": 34.6913,
+        "lng": 135.183,
+        "name": "Kobe"
+      },
+      "geonames_id": 1859171
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "RIKEN Center for Computational Science"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立研究開発法人理化学研究所計算科学研究センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "RIKEN",
+      "type": "parent",
+      "id": "https://ror.org/01sjwvz98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100025230"
+      ],
+      "preferred": "501100025230",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420058.b"
+      ],
+      "preferred": "grid.420058.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0408 4598"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0100f3q33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.biotest.com/de/en/index.cfm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.01997,
+        "lng": 8.69611,
+        "name": "Dreieich"
+      },
+      "geonames_id": 2935220
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Biotest (Germany)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biotest (Austria)",
+      "type": "child",
+      "id": "https://ror.org/026w1gw23"
+    },
+    {
+      "label": "Biotest (United States)",
+      "type": "child",
+      "id": "https://ror.org/02rpxbs81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-08-03",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mic.ul.ie"
+  ],
+  "established": 1898,
+  "external_ids": [
+    {
+      "all": [
+        "100032548"
+      ],
+      "preferred": "100032548",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0527 8300"
+      ],
+      "preferred": "0000 0004 0527 8300",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6779823"
+      ],
+      "preferred": "Q6779823",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009q3yg92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mic.ul.ie"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mary%20Immaculate%20College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "M",
+        "country_subdivision_name": "Munster",
+        "lat": 52.66472,
+        "lng": -8.62306,
+        "name": "Limerick"
+      },
+      "geonames_id": 2962943
+    }
+  ],
+  "names": [
+    {
+      "lang": "ga",
+      "types": [
+        "label"
+      ],
+      "value": "Coláiste Mhuire Gan Smál"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mary Immaculate College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Limerick",
+      "type": "related",
+      "id": "https://ror.org/00a0n9e72"
+    },
+    {
+      "label": "Irish Research eLibrary",
+      "type": "related",
+      "id": "https://ror.org/05c347015"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

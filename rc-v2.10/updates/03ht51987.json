@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100031136"
+      ],
+      "preferred": "100031136",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484660.8"
+      ],
+      "preferred": "grid.484660.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03ht51987",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.landbruksdirektoratet.no/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Oslo",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NAA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Norwegian Agriculture Agency"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture and Food",
+      "type": "parent",
+      "id": "https://ror.org/022bzg803"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

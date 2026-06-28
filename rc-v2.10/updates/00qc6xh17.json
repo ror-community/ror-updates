@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100032363"
+      ],
+      "preferred": "100032363",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.509660.c"
+      ],
+      "preferred": "grid.509660.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0414 4693"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00qc6xh17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.medacta.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "TI",
+        "country_subdivision_name": "Ticino",
+        "lat": 45.86211,
+        "lng": 9.00843,
+        "name": "Castel San Pietro"
+      },
+      "geonames_id": 2661253
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Medacta International (Switzerland)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Medacta (United States)",
+      "type": "child",
+      "id": "https://ror.org/01xs14k38"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

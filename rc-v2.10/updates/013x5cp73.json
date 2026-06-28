@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1926,
+  "external_ids": [
+    {
+      "all": [
+        "100016532"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413611.0"
+      ],
+      "preferred": "grid.413611.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0467 2330"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4728657"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013x5cp73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.allkids.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Johns_Hopkins_All_Children%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 27.77086,
+        "lng": -82.67927,
+        "name": "St. Petersburg"
+      },
+      "geonames_id": 4171563
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ACH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Johns Hopkins All Children's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Johns Hopkins Medicine",
+      "type": "parent",
+      "id": "https://ror.org/037zgn354"
+    },
+    {
+      "label": "Johns Hopkins University",
+      "type": "related",
+      "id": "https://ror.org/00za53h95"
+    },
+    {
+      "label": "University of South Florida",
+      "type": "related",
+      "id": "https://ror.org/032db5x82"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

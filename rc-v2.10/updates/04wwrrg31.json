@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100020948"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418151.8"
+      ],
+      "preferred": "grid.418151.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1519 6403"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04wwrrg31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.astrazeneca.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.19554,
+        "lng": 17.62525,
+        "name": "Södertälje"
+      },
+      "geonames_id": 2676176
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "AstraZeneca (Sweden)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Integrated Cardio Metabolic Centre",
+      "type": "child",
+      "id": "https://ror.org/01pgex273"
+    },
+    {
+      "label": "AstraZeneca (United Kingdom)",
+      "type": "parent",
+      "id": "https://ror.org/04r9x1a08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

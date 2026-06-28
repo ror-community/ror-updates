@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "501100024055"
+      ],
+      "preferred": "501100024055",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458365.9"
+      ],
+      "preferred": "grid.458365.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4689 2163"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q24190346"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035gna214",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nshealth.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Nova_Scotia_Health_Authority"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "NS",
+        "country_subdivision_name": "Nova Scotia",
+        "lat": 44.64269,
+        "lng": -63.57688,
+        "name": "Halifax"
+      },
+      "geonames_id": 6324729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nova Scotia Health Authority"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Capital District Health Authority",
+      "type": "child",
+      "id": "https://ror.org/05m7vf540"
+    },
+    {
+      "label": "Dartmouth General Hospital",
+      "type": "child",
+      "id": "https://ror.org/02rgjy857"
+    },
+    {
+      "label": "Nova Scotia Hospital",
+      "type": "child",
+      "id": "https://ror.org/02dtaqx81"
+    },
+    {
+      "label": "St Martha's Regional Hospital",
+      "type": "child",
+      "id": "https://ror.org/01mhbkr88"
+    },
+    {
+      "label": "Queen Elizabeth II Health Sciences Centre",
+      "type": "child",
+      "id": "https://ror.org/025qrzc85"
+    },
+    {
+      "label": "Dalhousie University",
+      "type": "related",
+      "id": "https://ror.org/01e6qks80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

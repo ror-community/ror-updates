@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "100018768"
+      ],
+      "preferred": "100018768",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.469860.5"
+      ],
+      "preferred": "grid.469860.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0492 020X"
+      ],
+      "preferred": "0000 0004 0492 020X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q881238"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02pe2kf23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mpi-sws.org/index.php"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Software_Systems"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SL",
+        "country_subdivision_name": "Saarland",
+        "lat": 49.23262,
+        "lng": 7.00982,
+        "name": "Saarbrücken"
+      },
+      "geonames_id": 2842647
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPI-SWS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Software Systems"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Softwaresysteme"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "100000133",
+        "100008417",
+        "100024031"
+      ],
+      "preferred": "100000133",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413404.6"
+      ],
+      "preferred": "grid.413404.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0507 6696"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4692008"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03jmfdf59",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ahrq.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Agency_for_Healthcare_Research_and_Quality"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.084,
+        "lng": -77.15276,
+        "name": "Rockville"
+      },
+      "geonames_id": 4367175
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AHRQ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agency for Healthcare Research and Quality"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Preventive Services Task Force",
+      "type": "child",
+      "id": "https://ror.org/027yjc737"
+    },
+    {
+      "label": "United States Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/033jnv181"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

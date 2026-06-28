@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100031425"
+      ],
+      "preferred": "100031425",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5897 7850"
+      ],
+      "preferred": "0000 0004 5897 7850",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02psmjc37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/nnsa/infrastructure"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Nuclear Security Administration Office of Infrastructure"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Infrastructure"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy National Nuclear Security Administration Office of Infrastructure"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy National Nuclear Security Administration Office of Infrastructure"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Nuclear Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/03sk1we31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

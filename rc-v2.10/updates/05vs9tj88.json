@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1916,
+  "external_ids": [
+    {
+      "all": [
+        "100022851"
+      ],
+      "preferred": "100022851",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.14039.3f"
+      ],
+      "preferred": "grid.14039.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2308 257X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q26678"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vs9tj88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bmw.de/de/home.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/BMW"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "BMW (Germany)"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Bayerische Motoren Werke"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "BMW Group (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/044kkbh92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

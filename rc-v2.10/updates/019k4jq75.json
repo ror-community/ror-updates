@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1930,
+  "external_ids": [
+    {
+      "all": [
+        "100021895"
+      ],
+      "preferred": "100021895",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.183006.c"
+      ],
+      "preferred": "grid.183006.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0671 7844"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q371625"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/019k4jq75",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.brooklyn.cuny.edu/web/home.php"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Brooklyn_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.6501,
+        "lng": -73.94958,
+        "name": "Brooklyn"
+      },
+      "geonames_id": 5110302
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brooklyn College"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "College de Brooklyn de la Universidad de la Ciudad de Nueva York"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "City University of New York",
+      "type": "parent",
+      "id": "https://ror.org/00453a208"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

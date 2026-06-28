@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "100032788"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451944.9"
+      ],
+      "preferred": "grid.451944.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1523 1803"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3377840"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/010ees266",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.swecogroup.com/en/Sweco-group/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sweco"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sweco (Sweden)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sweco (Czechia)",
+      "type": "child",
+      "id": "https://ror.org/0491xby87"
+    },
+    {
+      "label": "Sweco (Norway)",
+      "type": "child",
+      "id": "https://ror.org/03j9wjf80"
+    },
+    {
+      "label": "Sweco (Poland)",
+      "type": "child",
+      "id": "https://ror.org/01pfm3094"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

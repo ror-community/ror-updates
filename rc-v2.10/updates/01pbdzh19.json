@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1872,
+  "external_ids": [
+    {
+      "all": [
+        "100010611",
+        "100012569",
+        "100018315",
+        "100012568"
+      ],
+      "preferred": "100012569",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267337.4"
+      ],
+      "preferred": "grid.267337.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2184 944X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2302319"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01pbdzh19",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.utoledo.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Toledo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.66394,
+        "lng": -83.55521,
+        "name": "Toledo"
+      },
+      "geonames_id": 5174035
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Toledo"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de toledo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Mercy St. Vincent Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04x1z3t86"
+    },
+    {
+      "label": "University of Toledo Medical Center",
+      "type": "related",
+      "id": "https://ror.org/01600wh70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

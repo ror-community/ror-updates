@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100030990"
+      ],
+      "preferred": "100030990",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.470890.2"
+      ],
+      "preferred": "grid.470890.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/0394z0v14",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://depts.washington.edu/hiprc/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HIPRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Harborview Injury Prevention and Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Harborview Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/059jq5127"
+    },
+    {
+      "label": "University of Washington",
+      "type": "parent",
+      "id": "https://ror.org/00cvxb145"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

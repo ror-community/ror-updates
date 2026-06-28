@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "100031456"
+      ],
+      "preferred": "100031456",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.460455.6"
+      ],
+      "preferred": "grid.460455.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0940 8692"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05rdy5005",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.isez.pan.krakow.pl/en/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "12",
+        "country_subdivision_name": "Lesser Poland",
+        "lat": 50.06143,
+        "lng": 19.93658,
+        "name": "Krakow"
+      },
+      "geonames_id": 3094802
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISEA PAS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISEZ PAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Systematics and Evolution of Animals"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Systematics and Evolution of Animals of the Polish Academy of Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Systematyki i Ewolucji Zwierząt PAN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "health.ucdavis.edu"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100020490"
+      ],
+      "preferred": "100020490",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416958.7"
+      ],
+      "preferred": "grid.416958.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0413 7653"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05q8kyc69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://health.ucdavis.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 38.58157,
+        "lng": -121.4944,
+        "name": "Sacramento"
+      },
+      "geonames_id": 5389489
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "UC Davis Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UC Davis Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UC Davis Comprehensive Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/02kcc1z29"
+    },
+    {
+      "label": "University of California Davis Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05t6gpm70"
+    },
+    {
+      "label": "UC Davis Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/05ehe8t08"
+    },
+    {
+      "label": "University of California, Davis",
+      "type": "related",
+      "id": "https://ror.org/05rrcem69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

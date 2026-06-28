@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "100020616",
+        "100012425"
+      ],
+      "preferred": "100020616",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.263856.c"
+      ],
+      "preferred": "grid.263856.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0806 3768"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1472347"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049kefs16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.siu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Southern_Illinois_University_Carbondale"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 37.72727,
+        "lng": -89.21675,
+        "name": "Carbondale"
+      },
+      "geonames_id": 4235193
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SIU Carbondale"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern Illinois University Carbondale"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad del Sur de Illinois Carbondale"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du sud de l'illinois à carbondale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Southern Illinois University System",
+      "type": "parent",
+      "id": "https://ror.org/05vz28418"
+    },
+    {
+      "label": "Decatur Memorial Hospital",
+      "type": "related",
+      "id": "https://ror.org/03wtwre51"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

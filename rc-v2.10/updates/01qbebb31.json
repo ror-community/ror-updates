@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100024588"
+      ],
+      "preferred": "501100024588",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412939.4"
+      ],
+      "preferred": "grid.412939.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0383 5994"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01qbebb31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.papworthhospital.nhs.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Papworth Hospital NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Papworth Hospital",
+      "type": "child",
+      "id": "https://ror.org/05mqgrb58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

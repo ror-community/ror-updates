@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "501100019568"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1623.6"
+      ],
+      "preferred": "grid.1623.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0432 511X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7713086"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01wddqe20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.alfredhealth.org.au/the-alfred"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/The_Alfred_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Alfred"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The Alfred Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alfred Health",
+      "type": "parent",
+      "id": "https://ror.org/04scfb908"
+    },
+    {
+      "label": "Monash University",
+      "type": "related",
+      "id": "https://ror.org/02bfwt286"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1915,
+  "external_ids": [
+    {
+      "all": [
+        "100030684"
+      ],
+      "preferred": "100030684",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.508439.3"
+      ],
+      "preferred": "grid.508439.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0595 6634"
+      ],
+      "preferred": "0000 0004 0595 6634",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05hj3gh79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maruho.co.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Osaka",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maruho (Japan)"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "マルホ株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Maruho (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00b4wbs75"
+    },
+    {
+      "label": "Maruho (United States)",
+      "type": "child",
+      "id": "https://ror.org/03bhb2h72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

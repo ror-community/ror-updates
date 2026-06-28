@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "501100024025"
+      ],
+      "preferred": "501100024025",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423782.8"
+      ],
+      "preferred": "grid.423782.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2205 5473"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/022zv0672",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.isprambiente.gov.it/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "62",
+        "country_subdivision_name": "Lazio",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "name": "Rome"
+      },
+      "geonames_id": 3169070
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISPRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Environmental Protection and Research"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Superiore per la Protezione e la Ricerca Ambientale"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of the Environment and Protection of Land and Sea",
+      "type": "parent",
+      "id": "https://ror.org/02p3q3906"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

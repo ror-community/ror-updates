@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-07-24",
+      "schema_version": "2.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "helse-fonna.no"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100025473"
+      ],
+      "preferred": "501100025473",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0627 255X"
+      ],
+      "preferred": "0000 0004 0627 255X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5465049"
+      ],
+      "preferred": "Q5465049",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05n8j1468",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.helse-fonna.no"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fonna_Hospital_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Rogaland",
+        "lat": 59.41378,
+        "lng": 5.268,
+        "name": "Haugesund"
+      },
+      "geonames_id": 3153623
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Fonna Hospital Trust"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Helse Fonna"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Stord hospital",
+      "type": "child",
+      "id": "https://ror.org/045dq5f72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

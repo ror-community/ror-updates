@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100031022"
+      ],
+      "preferred": "100031022",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417768.b"
+      ],
+      "preferred": "grid.417768.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0483 9129"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05bjen692",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ccr.cancer.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Center for Cancer Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Cancer Institute",
+      "type": "parent",
+      "id": "https://ror.org/040gcmg81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

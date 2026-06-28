@@ -1,0 +1,154 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "100005292",
+        "100008552",
+        "100011767"
+      ],
+      "preferred": "100005292",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.62560.37"
+      ],
+      "preferred": "grid.62560.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0378 8294"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2900977"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04b6nzv94",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.brighamandwomens.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Brigham_and_Women%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BWH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brigham and Women's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Brigham"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Neuro-Oncology",
+      "type": "child",
+      "id": "https://ror.org/00z2tp793"
+    },
+    {
+      "label": "Dana-Farber Brigham Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/05rgrbr06"
+    },
+    {
+      "label": "Harvard Affiliated Emergency Medicine Residency",
+      "type": "child",
+      "id": "https://ror.org/005m2at17"
+    },
+    {
+      "label": "Osher Center for Integrative Medicine",
+      "type": "child",
+      "id": "https://ror.org/00wtrxf04"
+    },
+    {
+      "label": "Mass General Brigham",
+      "type": "parent",
+      "id": "https://ror.org/04py2rh25"
+    },
+    {
+      "label": "Broad Institute",
+      "type": "related",
+      "id": "https://ror.org/05a0ya142"
+    },
+    {
+      "label": "Cape Cod Hospital",
+      "type": "related",
+      "id": "https://ror.org/04yd6pw26"
+    },
+    {
+      "label": "Harvard University",
+      "type": "related",
+      "id": "https://ror.org/03vek6s52"
+    },
+    {
+      "label": "VA Boston Healthcare System",
+      "type": "related",
+      "id": "https://ror.org/04v00sg98"
+    },
+    {
+      "label": "Wyss Institute for Biologically Inspired Engineering",
+      "type": "related",
+      "id": "https://ror.org/008cfmj78"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

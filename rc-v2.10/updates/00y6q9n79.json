@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "501100003751",
+        "100016145",
+        "100016658",
+        "100018436",
+        "501100015268"
+      ],
+      "preferred": "501100003751",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436087.e"
+      ],
+      "preferred": "grid.436087.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3113883"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00y6q9n79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanidad.gob.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Spain)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MISAN"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Ministerio de Sanidad Servicios Sociales e Igualdad"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Health, Social Services and Equality"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agencia Española de Consumo, Seguridad Alimentaría y Nutrición",
+      "type": "child",
+      "id": "https://ror.org/02nbvj238"
+    },
+    {
+      "label": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "type": "child",
+      "id": "https://ror.org/043fs9135"
+    },
+    {
+      "label": "Organización Nacional de Trasplantes",
+      "type": "child",
+      "id": "https://ror.org/00v1wt879"
+    },
+    {
+      "label": "Spanish National Centre for Cardiovascular Research",
+      "type": "child",
+      "id": "https://ror.org/02qs1a797"
+    },
+    {
+      "label": "Sistema Nacional de Salud",
+      "type": "child",
+      "id": "https://ror.org/026z37f85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

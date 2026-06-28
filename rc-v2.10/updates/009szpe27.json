@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100014035"
+      ],
+      "preferred": "100014035",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413900.f"
+      ],
+      "preferred": "grid.413900.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9298 2988"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/009szpe27",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.health.mil/afhsb"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AFHSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Armed Forces Health Surveillance Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Military Health System",
+      "type": "parent",
+      "id": "https://ror.org/03b7pda13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

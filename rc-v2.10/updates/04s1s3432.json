@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-28",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100024481"
+      ],
+      "preferred": "100024481",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.422589.0"
+      ],
+      "preferred": "grid.422589.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0429 5213"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04s1s3432",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.health.nv.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NV",
+        "country_subdivision_name": "Nevada",
+        "lat": 39.1638,
+        "lng": -119.7674,
+        "name": "Carson City"
+      },
+      "geonames_id": 5501344
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DPBH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nevada Division of Public and Behavioral Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nevada State Health Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nevada Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/0184p1881"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

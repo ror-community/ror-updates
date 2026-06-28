@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "100004399",
+        "100024149"
+      ],
+      "preferred": "100024149",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420204.0"
+      ],
+      "preferred": "grid.420204.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0455 9792"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q29123913"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05pkeac16",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ucb.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/UCB_(company)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.09162,
+        "lng": 6.89217,
+        "name": "Monheim am Rhein"
+      },
+      "geonames_id": 2869791
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UCB Pharma (Germany)"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Union chimique belge"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UCB Pharma (Belgium)",
+      "type": "parent",
+      "id": "https://ror.org/01n029866"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

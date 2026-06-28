@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1880,
+  "external_ids": [
+    {
+      "all": [
+        "100011622",
+        "100030301"
+      ],
+      "preferred": "100011622",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2170 7652"
+      ],
+      "preferred": "0000 0001 2170 7652",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q45134801"
+      ],
+      "preferred": "Q45134801",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012qsrr25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cals.cornell.edu/agricultural-experiment-station"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/New_York_State_Agricultural_Experiment_Station"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 42.44063,
+        "lng": -76.49661,
+        "name": "Ithaca"
+      },
+      "geonames_id": 5122432
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CUAES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cornell AES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cornell AgriTech"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cornell University Agricultural Experiment Station"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cornell University",
+      "type": "parent",
+      "id": "https://ror.org/05bnh6r87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100031595"
+      ],
+      "preferred": "100031595",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.492032.e"
+      ],
+      "preferred": "grid.492032.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0581 9154"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/045axgc25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mags.nrw/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.22172,
+        "lng": 6.77616,
+        "name": "Düsseldorf"
+      },
+      "geonames_id": 2934246
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MAGS NRW"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landesinstitut für Arbeitsgestaltung des Landes Nordrhein-Westfalen",
+      "type": "child",
+      "id": "https://ror.org/015ad1e56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

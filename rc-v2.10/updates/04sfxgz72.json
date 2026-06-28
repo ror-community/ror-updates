@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "501100004333",
+        "501100024950"
+      ],
+      "preferred": "501100004333",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467581.9"
+      ],
+      "preferred": "grid.467581.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q17513197"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04sfxgz72",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.novoholdings.dk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Novo_Holdings_A/S"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Novo"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Novo Holdings (Denmark)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Novo Nordisk (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/0435rc536"
+    },
+    {
+      "label": "Novozymes (Denmark)",
+      "type": "child",
+      "id": "https://ror.org/03ejz0s07"
+    },
+    {
+      "label": "Novo Nordisk Foundation",
+      "type": "parent",
+      "id": "https://ror.org/04txyc737"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

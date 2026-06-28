@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100022416"
+      ],
+      "preferred": "100022416",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483500.a"
+      ],
+      "preferred": "grid.483500.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2154 2448"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5059596"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00yf3tm42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fda.gov/aboutfda/centersoffices/officeofmedicalproductsandtobacco/cder/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Center_for_Drug_Evaluation_and_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CDER"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Center for Drug Evaluation and Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Food and Drug Administration",
+      "type": "parent",
+      "id": "https://ror.org/034xvzb47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100013876"
+      ],
+      "preferred": "501100013876",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484204.e"
+      ],
+      "preferred": "grid.484204.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2605975"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ne34794",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.moh.gov.gr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Greece)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GR",
+        "country_name": "Greece",
+        "country_subdivision_code": "I",
+        "country_subdivision_name": "Attica",
+        "lat": 37.98376,
+        "lng": 23.72784,
+        "name": "Athens"
+      },
+      "geonames_id": 264371
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    },
+    {
+      "lang": "el",
+      "types": [
+        "label"
+      ],
+      "value": "Υπουργείο Υγείας"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Public Health Organization",
+      "type": "child",
+      "id": "https://ror.org/05crx6z12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

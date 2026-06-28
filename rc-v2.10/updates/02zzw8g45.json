@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "100028771"
+      ],
+      "preferred": "100028771",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414713.4"
+      ],
+      "preferred": "grid.414713.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0444 0900"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30280159"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zzw8g45",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://mayoclinichealthsystem.org/locations/eau-claire"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mayo_Clinic_Health_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WI",
+        "country_subdivision_name": "Wisconsin",
+        "lat": 44.81135,
+        "lng": -91.49849,
+        "name": "Eau Claire"
+      },
+      "geonames_id": 5251436
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Luther Midelfort"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mayo Clinic Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mayo Clinic",
+      "type": "parent",
+      "id": "https://ror.org/02qp3tb03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

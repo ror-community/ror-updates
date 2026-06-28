@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100005270",
+        "501100019533"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453365.2"
+      ],
+      "preferred": "grid.453365.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1768 930X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00rgzpv08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fjkjt.gov.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "FJ",
+        "country_subdivision_name": "Fujian",
+        "lat": 26.06139,
+        "lng": 119.30611,
+        "name": "Fuzhou"
+      },
+      "geonames_id": 1810821
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fujian Provincial Department of Science and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fujian Institute of Microbiology",
+      "type": "child",
+      "id": "https://ror.org/00f5sa326"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

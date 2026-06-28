@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1875,
+  "external_ids": [
+    {
+      "all": [
+        "100025234"
+      ],
+      "preferred": "100025234",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.236631.3"
+      ],
+      "preferred": "grid.236631.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0435 2150"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4705249"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00j0z5m32",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.adph.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Alabama_Department_of_Public_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AL",
+        "country_subdivision_name": "Alabama",
+        "lat": 32.36681,
+        "lng": -86.29997,
+        "name": "Montgomery"
+      },
+      "geonames_id": 4076784
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ADPH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alabama Department of Public Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Calhoun County Health Department",
+      "type": "child",
+      "id": "https://ror.org/029bpx402"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

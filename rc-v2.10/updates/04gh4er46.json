@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100013321",
+        "501100013289"
+      ],
+      "preferred": "501100013321",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458489.c"
+      ],
+      "preferred": "grid.458489.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0483 7922"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30259660"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04gh4er46",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.siat.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "GD",
+        "country_subdivision_name": "Guangdong",
+        "lat": 22.54554,
+        "lng": 114.0683,
+        "name": "Shenzhen"
+      },
+      "geonames_id": 1795565
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIAT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shenzhen Institutes of Advanced Technology"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院深圳先进技术研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Zhuhai Institute of Advanced Technology",
+      "type": "child",
+      "id": "https://ror.org/05r1mzq61"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

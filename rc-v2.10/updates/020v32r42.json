@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1881,
+  "external_ids": [
+    {
+      "all": [
+        "100031462"
+      ],
+      "preferred": "100031462",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.508419.1"
+      ],
+      "preferred": "grid.508419.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 9787"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15991800"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020v32r42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.royalhaskoningdhv.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Royal_HaskoningDHV"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utrecht",
+        "lat": 52.155,
+        "lng": 5.3875,
+        "name": "Amersfoort"
+      },
+      "geonames_id": 2759821
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal HaskoningDHV (Netherlands)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal HaskoningDHV (Czechia)",
+      "type": "child",
+      "id": "https://ror.org/05bqtq669"
+    },
+    {
+      "label": "Royal HaskoningDHV (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/0098qsx72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

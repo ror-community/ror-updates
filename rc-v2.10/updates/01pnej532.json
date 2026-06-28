@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1581,
+  "external_ids": [
+    {
+      "all": [
+        "501100015763",
+        "501100023322"
+      ],
+      "preferred": "501100015763",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9008.1"
+      ],
+      "preferred": "grid.9008.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1016 9625"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q369839"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01pnej532",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.u-szeged.hu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Szeged"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "CS",
+        "country_subdivision_name": "Csongrád",
+        "lat": 46.253,
+        "lng": 20.14824,
+        "name": "Szeged"
+      },
+      "geonames_id": 715429
+    }
+  ],
+  "names": [
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "Szegedi Tudományegyetem"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Szeged"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MTA-SZTE Research Group on Artificial Intelligence",
+      "type": "child",
+      "id": "https://ror.org/0507fk326"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-03-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "100022923"
+      ],
+      "preferred": "100022923",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q54909112"
+      ],
+      "preferred": "Q54909112",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05v40k847",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.culturaydeporte.gob.es"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://es.wikipedia.org/wiki/Ministerio_de_Cultura_y_Deporte"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MCD"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Cultura y Deporte"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ministry of Culture and Sport"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministerio de Educación Cultura y Deporte",
+      "type": "predecessor",
+      "id": "https://ror.org/03nc27g21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

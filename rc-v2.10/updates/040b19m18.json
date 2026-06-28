@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100024310"
+      ],
+      "preferred": "501100024310",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.497864.0"
+      ],
+      "preferred": "grid.497864.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/040b19m18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cidri.uct.ac.za/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "WC",
+        "country_subdivision_name": "Western Cape",
+        "lat": -33.92584,
+        "lng": 18.42322,
+        "name": "Cape Town"
+      },
+      "geonames_id": 3369157
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CIDRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "CIDRI-Africa"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wellcome Centre for Infectious Diseases Research in Africa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Cape Town",
+      "type": "parent",
+      "id": "https://ror.org/03p74gp79"
+    },
+    {
+      "label": "Wellcome Trust",
+      "type": "parent",
+      "id": "https://ror.org/029chgv08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

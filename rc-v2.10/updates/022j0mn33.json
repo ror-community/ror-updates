@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-06-22",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100010189",
+        "100031284"
+      ],
+      "preferred": "100010189",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2112 166X"
+      ],
+      "preferred": "0000 0001 2112 166X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5337883"
+      ],
+      "preferred": "Q5337883",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022j0mn33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cbc.devcom.army.mil"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Edgewood_Chemical_Biological_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.46686,
+        "lng": -76.13066,
+        "name": "Aberdeen Proving Ground"
+      },
+      "geonames_id": 7257914
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CBC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Chemical Biological Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DEVCOM CBC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "DEVCOM Chemical Biological Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Edgewood Chemical Biological Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "U.S. Army Combat Capabilities Development Command Chemical Biological Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Army Combat Capabilities Development Command Chemical Biological Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Army Combat Capabilities Development Command",
+      "type": "parent",
+      "id": "https://ror.org/02rdkx920"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

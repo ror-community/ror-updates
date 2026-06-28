@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-20",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "100031500"
+      ],
+      "preferred": "100031500",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01edhwb26",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://idia.ac.za"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "WC",
+        "country_subdivision_name": "Western Cape",
+        "lat": -33.92584,
+        "lng": 18.42322,
+        "name": "Cape Town"
+      },
+      "geonames_id": 3369157
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IDIA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Inter-university Institute for Data Intensive Astronomy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Cape Town",
+      "type": "parent",
+      "id": "https://ror.org/03p74gp79"
+    },
+    {
+      "label": "University of Pretoria",
+      "type": "parent",
+      "id": "https://ror.org/00g0p6g84"
+    },
+    {
+      "label": "University of the Western Cape",
+      "type": "parent",
+      "id": "https://ror.org/00h2vm590"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

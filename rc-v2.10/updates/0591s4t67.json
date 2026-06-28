@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "501100018946"
+      ],
+      "preferred": "501100018946",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420359.9"
+      ],
+      "preferred": "grid.420359.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9403 4738"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3393183"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0591s4t67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sergas.es/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Galicia",
+        "lat": 42.88052,
+        "lng": -8.54569,
+        "name": "Santiago de Compostela"
+      },
+      "geonames_id": 3109642
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SERGAS"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Servicio Gallego de Salud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Complejo Hospitalario de Ourense",
+      "type": "child",
+      "id": "https://ror.org/04f1y4a64"
+    },
+    {
+      "label": "Complejo Hospitalario Universitario de Ferrol",
+      "type": "child",
+      "id": "https://ror.org/03xj2sn10"
+    },
+    {
+      "label": "University Hospital Complex Of Vigo",
+      "type": "child",
+      "id": "https://ror.org/01ybfxd46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "100031669"
+      ],
+      "preferred": "100031669",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413919.7"
+      ],
+      "preferred": "grid.413919.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0420 6540"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ky3az31",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pugetsound.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VA Puget Sound Health Care System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VA Northwest Network",
+      "type": "parent",
+      "id": "https://ror.org/04m453044"
+    },
+    {
+      "label": "University of Washington",
+      "type": "related",
+      "id": "https://ror.org/00cvxb145"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100024817"
+      ],
+      "preferred": "100024817",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.422645.3"
+      ],
+      "preferred": "grid.422645.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0392 9149"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1133735"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04p8w0f39",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.westinghousenuclear.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Westinghouse_Electric_Company"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.68496,
+        "lng": -80.10714,
+        "name": "Cranberry Township"
+      },
+      "geonames_id": 8643098
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Westinghouse Electric (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Westinghouse Electric (Germany)",
+      "type": "child",
+      "id": "https://ror.org/03pwzr890"
+    },
+    {
+      "label": "Westinghouse Electric (Japan)",
+      "type": "child",
+      "id": "https://ror.org/05h40ds73"
+    },
+    {
+      "label": "Westinghouse Electric (Sweden)",
+      "type": "child",
+      "id": "https://ror.org/03htten57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

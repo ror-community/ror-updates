@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "501100010717",
+        "100022856"
+      ],
+      "preferred": "501100010717",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.476460.7"
+      ],
+      "preferred": "grid.476460.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0639 0505"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02yw1f353",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bergonie.org/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "Nouvelle-Aquitaine",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Bergonié"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre d'Investigation Clinique Plurithématique de Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/000bbyx17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

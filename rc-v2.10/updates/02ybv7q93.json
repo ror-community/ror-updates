@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "501100006287",
+        "501100009585",
+        "501100025070"
+      ],
+      "preferred": "501100009585",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424921.8"
+      ],
+      "preferred": "grid.424921.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2150 6084"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q13416787"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ybv7q93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.engie.com/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Engie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Engie (France)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "GDF Suez"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Engie (Belgium)",
+      "type": "child",
+      "id": "https://ror.org/00c97z041"
+    },
+    {
+      "label": "Engie (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00g0b5e28"
+    },
+    {
+      "label": "Engie (United States)",
+      "type": "child",
+      "id": "https://ror.org/03n8fxy07"
+    },
+    {
+      "label": "Suez (France)",
+      "type": "child",
+      "id": "https://ror.org/0475zhg63"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

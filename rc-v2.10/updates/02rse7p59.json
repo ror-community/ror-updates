@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-11-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1886,
+  "external_ids": [
+    {
+      "all": [
+        "100011218",
+        "100032310"
+      ],
+      "preferred": "100011218",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0523 6039"
+      ],
+      "preferred": "0000 0004 0523 6039",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q528468"
+      ],
+      "preferred": "Q528468",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02rse7p59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sandoz.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BS",
+        "country_subdivision_name": "Basel-City",
+        "lat": 47.55839,
+        "lng": 7.57327,
+        "name": "Basel"
+      },
+      "geonames_id": 2661604
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sandoz"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sandoz Group AG"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sandoz Group AG (Switzerland)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sandoz Inc."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Novartis (Switzerland)",
+      "type": "parent",
+      "id": "https://ror.org/02f9zrr09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

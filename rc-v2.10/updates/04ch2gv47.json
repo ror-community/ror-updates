@@ -1,0 +1,92 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-06-27",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100021824"
+      ],
+      "preferred": "100021824",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451273.6"
+      ],
+      "preferred": "grid.451273.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0404 2339"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04ch2gv47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.saskatchewan.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "SK",
+        "country_subdivision_name": "Saskatchewan",
+        "lat": 50.45008,
+        "lng": -104.6178,
+        "name": "Regina"
+      },
+      "geonames_id": 6119109
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Saskatchewan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Saskatchewan Disease Control Laboratory",
+      "type": "child",
+      "id": "https://ror.org/04g5g7m78"
+    },
+    {
+      "label": "Saskatchewan Health",
+      "type": "child",
+      "id": "https://ror.org/05m2a2x14"
+    },
+    {
+      "label": "Saskatchewan Ministry of Agriculture",
+      "type": "child",
+      "id": "https://ror.org/02g5xq267"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
