@@ -1,15 +1,3 @@
 issue_url,row_number,error_type,field,value,message
-https://github.com/ror-community/ror-updates/issues/36224,9,new_record_missing_field,names.types.ror_display,,New record missing required field 'names.types.ror_display'.
-https://github.com/ror-community/ror-updates/issues/36224,9,new_record_missing_field,status,,New record missing required field 'status'.
-https://github.com/ror-community/ror-updates/issues/36224,9,new_record_missing_field,types,,New record missing required field 'types'.
-https://github.com/ror-community/ror-updates/issues/36224,9,new_record_missing_field,locations.geonames_id,,New record missing required field 'locations.geonames_id'.
-https://github.com/ror-community/ror-updates/issues/36261,36,new_record_missing_field,names.types.ror_display,,New record missing required field 'names.types.ror_display'.
-https://github.com/ror-community/ror-updates/issues/36261,36,new_record_missing_field,status,,New record missing required field 'status'.
-https://github.com/ror-community/ror-updates/issues/36261,36,new_record_missing_field,types,,New record missing required field 'types'.
-https://github.com/ror-community/ror-updates/issues/36261,36,new_record_missing_field,locations.geonames_id,,New record missing required field 'locations.geonames_id'.
-https://github.com/ror-community/ror-updates/issues/36285,86,new_record_missing_field,names.types.ror_display,,New record missing required field 'names.types.ror_display'.
-https://github.com/ror-community/ror-updates/issues/36285,86,new_record_missing_field,status,,New record missing required field 'status'.
-https://github.com/ror-community/ror-updates/issues/36285,86,new_record_missing_field,types,,New record missing required field 'types'.
-https://github.com/ror-community/ror-updates/issues/36285,86,new_record_missing_field,locations.geonames_id,,New record missing required field 'locations.geonames_id'.
-https://github.com/ror-community/ror-updates/issues/34874,200,name_format_invalid,names.types.alias,U.S. Department of Energy Office of Nuclear Energy Office of Spent Fuel and Waste Science and Tec...,"Name 'U.S. Department of Energy Office of Nuclear Energy Office of Spent Fuel and Waste Science and Tec...' contains multiple '*' characters. Only one language code delimiter is allowed per name (e.g., 'Microsoft*en')"
-https://github.com/ror-community/ror-updates/issues/36332,220,name_format_invalid,names.types.alias,Landstinget Gävleborg*sv Gävleborg County Council*en The County Council of Gävleborg*en,"Name 'Landstinget Gävleborg*sv Gävleborg County Council*en The County Council of Gävleborg*en' contains multiple '*' characters. Only one language code delimiter is allowed per name (e.g., 'Microsoft*en')"
+https://github.com/ror-community/ror-updates/issues/33879,138,update_ambiguous,links.type.website,https://www.dec-group.ch,Ambiguous update for multi-value field 'links.type.website'. Use 'add==https://www.dec-group.ch' or 'replace==https://www.dec-group.ch' syntax.
+https://github.com/ror-community/ror-updates/issues/36988,220,embedded_newline,names.types.acronym,'replace==IEML\n*en;КИУ*ru',Field 'names.types.acronym' contains embedded newline/carriage return character. This will cause API parsing errors.
