@@ -1,3 +1,0 @@
-issue_url,row_number,error_type,field,value,message
-https://github.com/ror-community/ror-updates/issues/33879,138,update_ambiguous,links.type.website,https://www.dec-group.ch,Ambiguous update for multi-value field 'links.type.website'. Use 'add==https://www.dec-group.ch' or 'replace==https://www.dec-group.ch' syntax.
-https://github.com/ror-community/ror-updates/issues/36988,220,embedded_newline,names.types.acronym,'replace==IEML\n*en;КИУ*ru',Field 'names.types.acronym' contains embedded newline/carriage return character. This will cause API parsing errors.
