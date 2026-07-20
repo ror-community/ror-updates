@@ -1,86 +1,86 @@
 {
-    "admin": {
-        "created": {
-            "date": "2024-02-21",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-07-20",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2024-02-21",
+      "schema_version": "1.0"
     },
-    "domains": [],
-    "established": 2008,
-    "external_ids": [
-        {
-            "all": [
-                "0000 0004 7471 9181"
-            ],
-            "preferred": "0000 0004 7471 9181",
-            "type": "isni"
-        },
-        {
-            "all": [
-                "Q51784108"
-            ],
-            "preferred": "Q51784108",
-            "type": "wikidata"
-        }
-    ],
-    "id": "https://ror.org/01r96cc35",
-    "links": [
-        {
-            "type": "website",
-            "value": "https://lusac.unicaen.fr"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": null,
-                "continent_name": "Europe",
-                "country_code": null,
-                "country_name": null,
-                "country_subdivision_code": null,
-                "country_subdivision_name": null,
-                "lat": null,
-                "lng": null,
-                "name": null
-            },
-            "geonames_id": null
-        }
-    ],
-    "names": [
-        {
-            "lang": null,
-            "types": [
-                "acronym"
-            ],
-            "value": "LUSAC"
-        },
-        {
-            "lang": "fr",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "Laboratoire Universitaire des Sciences Appliquées de Cherbourg"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "Université de Caen Normandie",
-            "type": "parent",
-            "id": "https://ror.org/051kpcy16"
-        },
-        {
-            "label": "Conservatoire National des Arts et Métiers",
-            "type": "related",
-            "id": "https://ror.org/0175hh227"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "facility"
-    ]
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 7471 9181"
+      ],
+      "preferred": "0000 0004 7471 9181",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51784108"
+      ],
+      "preferred": "Q51784108",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01r96cc35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://lusac.unicaen.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": null,
+        "continent_name": "Europe",
+        "country_code": null,
+        "country_name": null,
+        "country_subdivision_code": null,
+        "country_subdivision_name": null,
+        "lat": null,
+        "lng": null,
+        "name": null
+      },
+      "geonames_id": null
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LUSAC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire Universitaire des Sciences Appliquées de Cherbourg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Caen Normandie",
+      "type": "parent",
+      "id": "https://ror.org/051kpcy16"
+    },
+    {
+      "label": "Conservatoire National des Arts et Métiers",
+      "type": "related",
+      "id": "https://ror.org/0175hh227"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
 }

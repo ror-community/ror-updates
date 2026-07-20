@@ -1,112 +1,112 @@
 {
-    "admin": {
-        "created": {
-            "date": "2018-11-14",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-07-20",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "domains": [],
-    "established": 1836,
-    "external_ids": [
-        {
-            "all": [
-                "100009117"
-            ],
-            "preferred": null,
-            "type": "fundref"
-        },
-        {
-            "all": [
-                "grid.6810.f"
-            ],
-            "preferred": "grid.6810.f",
-            "type": "grid"
-        },
-        {
-            "all": [
-                "0000 0001 2294 5505"
-            ],
-            "preferred": null,
-            "type": "isni"
-        },
-        {
-            "all": [
-                "Q159630"
-            ],
-            "preferred": null,
-            "type": "wikidata"
-        }
-    ],
-    "id": "https://ror.org/00a208s56",
-    "links": [
-        {
-            "type": "website",
-            "value": "https://www.tu-chemnitz.de/index.html.en"
-        },
-        {
-            "type": "wikipedia",
-            "value": "http://en.wikipedia.org/wiki/Chemnitz_University_of_Technology"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": null,
-                "continent_name": "Europe",
-                "country_code": null,
-                "country_name": null,
-                "country_subdivision_code": null,
-                "country_subdivision_name": null,
-                "lat": null,
-                "lng": null,
-                "name": null
-            },
-            "geonames_id": null
-        }
-    ],
-    "names": [
-        {
-            "lang": "en",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "Chemnitz University of Technology"
-        },
-        {
-            "lang": "de",
-            "types": [
-                "alias"
-            ],
-            "value": "TU Chemnitz"
-        },
-        {
-            "lang": "de",
-            "types": [
-                "label"
-            ],
-            "value": "Technische Universität Chemnitz"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "An-Institut für Transfer und Weiterbildung",
-            "type": "child",
-            "id": "https://ror.org/054kgce12"
-        },
-        {
-            "label": "Responsible Electronics in the Climate Change Era",
-            "type": "related",
-            "id": "https://ror.org/03rymtb94"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "education",
-        "funder"
-    ]
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1836,
+  "external_ids": [
+    {
+      "all": [
+        "100009117"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6810.f"
+      ],
+      "preferred": "grid.6810.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2294 5505"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q159630"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00a208s56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tu-chemnitz.de/index.html.en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Chemnitz_University_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": null,
+        "continent_name": "Europe",
+        "country_code": null,
+        "country_name": null,
+        "country_subdivision_code": null,
+        "country_subdivision_name": null,
+        "lat": null,
+        "lng": null,
+        "name": null
+      },
+      "geonames_id": null
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chemnitz University of Technology"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "TU Chemnitz"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Technische Universität Chemnitz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "An-Institut für Transfer und Weiterbildung",
+      "type": "child",
+      "id": "https://ror.org/054kgce12"
+    },
+    {
+      "label": "Responsible Electronics in the Climate Change Era",
+      "type": "related",
+      "id": "https://ror.org/03rymtb94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }
