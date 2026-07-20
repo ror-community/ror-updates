@@ -10,24 +10,28 @@
     }
   },
   "domains": [],
-  "established": 2003,
+  "established": 2000,
   "external_ids": [
     {
       "all": [
-        "100016153",
-        "100006130",
-        "100006149",
-        "100006190"
+        "100006187"
       ],
-      "preferred": "100016153",
+      "preferred": "100006187",
       "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5897 7674"
+      ],
+      "preferred": "0000 0004 5897 7674",
+      "type": "isni"
     }
   ],
-  "id": "https://ror.org/02y6dp041",
+  "id": "https://ror.org/01edzc976",
   "links": [
     {
       "type": "website",
-      "value": "https://www.energy.gov/oe/office-electricity"
+      "value": "https://www.energy.gov/nnsa/nonproliferation"
     }
   ],
   "locations": [
@@ -52,7 +56,14 @@
       "types": [
         "acronym"
       ],
-      "value": "OE"
+      "value": "DNN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
     },
     {
       "lang": "en",
@@ -60,45 +71,28 @@
         "ror_display",
         "label"
       ],
-      "value": "Office of Electricity"
+      "value": "Office of Defense Nuclear Nonproliferation"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "Office of Electricity Delivery and Energy Reliability"
+      "value": "U.S. Department of Energy National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
     },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "U.S. Department of Energy Office of Electricity"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "United States Department of Energy Office of Electricity"
+      "value": "United States Department of Energy National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
     }
   ],
   "relationships": [
     {
-      "label": "Grid Systems and Components",
-      "type": "child",
-      "id": "https://ror.org/04bym8a28"
-    },
-    {
-      "label": "Grid Controls and Communications Division",
-      "type": "child",
-      "id": "https://ror.org/04b1tq154"
-    },
-    {
-      "label": "United States Department of Energy",
+      "label": "National Nuclear Security Administration",
       "type": "parent",
-      "id": "https://ror.org/01bj3aw27"
+      "id": "https://ror.org/03sk1we31"
     }
   ],
   "status": "active",
