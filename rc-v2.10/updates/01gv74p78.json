@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "501100010779"
+      ],
+      "preferred": "501100010779",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411418.9"
+      ],
+      "preferred": "grid.411418.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2173 6322"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2945760"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01gv74p78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chusj.org/en/Home"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Centre_hospitalier_universitaire_Sainte-Justine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU Sainte-Justine"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire Sainte-Justine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Centre de réadaptation Marie Enfant du CHU Sainte-Justine",
+      "type": "child",
+      "id": "https://ror.org/00v2asv81"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

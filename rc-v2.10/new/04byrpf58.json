@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Fatec São Caetano do Sul, Fatec Antonio Russo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centro Paula Souza",
+      "type": "related",
+      "id": "https://ror.org/00vvaxp92"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

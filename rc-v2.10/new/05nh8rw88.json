@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Geneva Academy of International Humanitarian Law and Human rights"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Geneva",
+      "type": "parent",
+      "id": "https://ror.org/01swzsf04"
+    },
+    {
+      "label": "Graduate Institute of International and Development Studies",
+      "type": "parent",
+      "id": "https://ror.org/007ygn379"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

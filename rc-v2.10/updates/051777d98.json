@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "100016195"
+      ],
+      "preferred": "100016195",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467088.5"
+      ],
+      "preferred": "grid.467088.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2215 6303"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q161718"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/051777d98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.undp.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_Nations_Development_Programme"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNDP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United Nations Development Programme"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United Nations Capital Development Fund",
+      "type": "child",
+      "id": "https://ror.org/01ehdwj93"
+    },
+    {
+      "label": "Programa de Desarrollo de las Ciencias Básicas",
+      "type": "child",
+      "id": "https://ror.org/00jkr8r49"
+    },
+    {
+      "label": "Special Programme for Research and Training in Tropical Diseases",
+      "type": "child",
+      "id": "https://ror.org/046j7pv84"
+    },
+    {
+      "label": "United Nations Economic and Social Council",
+      "type": "parent",
+      "id": "https://ror.org/01eb8ek77"
+    },
+    {
+      "label": "United Nations Convention to Combat Desertification",
+      "type": "related",
+      "id": "https://ror.org/03fy75531"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

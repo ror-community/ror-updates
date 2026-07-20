@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,28 @@
       "value": "Klimaneutrales und ressourceneffizientes Bauen"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technische Universität Dresden",
+      "type": "parent",
+      "id": "https://ror.org/042aqky30"
+    },
+    {
+      "label": "RWTH Aachen University",
+      "type": "parent",
+      "id": "https://ror.org/04xfq0f34"
+    },
+    {
+      "label": "Leibniz Institute of Polymer Research",
+      "type": "related",
+      "id": "https://ror.org/01tspta37"
+    },
+    {
+      "label": "Institute for Integrated Management of Material Fluxes and of Resources",
+      "type": "related",
+      "id": "https://ror.org/03xp99m49"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

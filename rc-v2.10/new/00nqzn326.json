@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,18 @@
       "value": "江苏省中国科学院植物研究所 (南京中山植物园)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "Government of Jiangsu Province",
+      "type": "parent",
+      "id": "https://ror.org/004svx814"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

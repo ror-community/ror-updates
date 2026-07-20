@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -115,7 +115,13 @@
       "value": "IFAM-DD"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fraunhofer Institute for Manufacturing Technology and Advanced Materials",
+      "type": "parent",
+      "id": "https://ror.org/03pwyy961"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

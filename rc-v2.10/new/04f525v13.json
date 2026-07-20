@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Atatürk Horticultural Central Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture and Forestry",
+      "type": "parent",
+      "id": "https://ror.org/00tmg5839"
+    },
+    {
+      "label": "Tarımsal Araştırmalar ve Politikalar Genel Müdürlüğü",
+      "type": "related",
+      "id": "https://ror.org/0174skq71"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Département d'Aérodynamique, d'Aéroélasticité et d'Acoustique"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office National d'Études et de Recherches Aérospatiales",
+      "type": "parent",
+      "id": "https://ror.org/005y2ap84"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

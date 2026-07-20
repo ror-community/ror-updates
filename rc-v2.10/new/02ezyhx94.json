@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "International Max Planck Research School on Earth System Modelling"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Max Planck Institute for Meteorology",
+      "type": "parent",
+      "id": "https://ror.org/05esem239"
+    },
+    {
+      "label": "Universität Hamburg",
+      "type": "parent",
+      "id": "https://ror.org/00g30e956"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

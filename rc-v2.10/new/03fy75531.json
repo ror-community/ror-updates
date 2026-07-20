@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "United Nations Convention to Combat Desertification (UNCCD)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United Nations",
+      "type": "parent",
+      "id": "https://ror.org/006kxhp52"
+    },
+    {
+      "label": "United Nations Development Programme",
+      "type": "related",
+      "id": "https://ror.org/051777d98"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

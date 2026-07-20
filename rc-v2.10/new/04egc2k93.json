@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Monash Biomedicine Discovery Institute Organoid Program"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Monash University",
+      "type": "parent",
+      "id": "https://ror.org/02bfwt286"
+    },
+    {
+      "label": "Phenomics Australia",
+      "type": "parent",
+      "id": "https://ror.org/0201hm243"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

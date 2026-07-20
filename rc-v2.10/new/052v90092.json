@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Weill Cornell Medical Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Weill Cornell Medicine",
+      "type": "parent",
+      "id": "https://ror.org/02r109517"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

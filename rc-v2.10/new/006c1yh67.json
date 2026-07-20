@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "LOOP: Outils interactifs multidynamiques intégrant la connaissance de l'interaction"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Inria de l'Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/04eej9726"
+    },
+    {
+      "label": "LOKI: Technologie et connaissance pour l'Interaction",
+      "type": "predecessor",
+      "id": "https://ror.org/04z5j4a93"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

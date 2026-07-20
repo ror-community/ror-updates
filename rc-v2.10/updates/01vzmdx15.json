@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,23 @@
       "value": "France Life Imaging"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Neurinfo",
+      "type": "related",
+      "id": "https://ror.org/05twhbr06"
+    },
+    {
+      "label": "Euro-BioImaging ERIC",
+      "type": "related",
+      "id": "https://ror.org/05d78xc36"
+    },
+    {
+      "label": "France-BioImaging",
+      "type": "related",
+      "id": "https://ror.org/01y7vt929"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100009878"
+      ],
+      "preferred": "501100009878",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.466998.c"
+      ],
+      "preferred": "grid.466998.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2369 6475"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03mm67z69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.regione.veneto.it/web/guest"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "34",
+        "country_subdivision_name": "Veneto",
+        "lat": 45.43713,
+        "lng": 12.33265,
+        "name": "Venice"
+      },
+      "geonames_id": 3164603
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Regione del Veneto"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AULSS 5 Polesana",
+      "type": "child",
+      "id": "https://ror.org/02yg7nt19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "VIB Single Cell Core"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Vlaams Instituut voor Biotechnologie",
+      "type": "parent",
+      "id": "https://ror.org/03xrhmk39"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

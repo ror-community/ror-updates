@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "The CAPITAL CARE Group"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CapitalCare Foundation",
+      "type": "child",
+      "id": "https://ror.org/03sxyq954"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

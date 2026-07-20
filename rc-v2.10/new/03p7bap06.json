@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Instituto de Biociências, Letras e Ciências Exatas, câmpus de São José do Rio Preto"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Estadual Paulista (Unesp)",
+      "type": "parent",
+      "id": "https://ror.org/00987cb86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

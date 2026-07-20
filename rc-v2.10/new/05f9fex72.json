@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "Kunsthochschule Kassel"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Kassel",
+      "type": "related",
+      "id": "https://ror.org/04zc7p361"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

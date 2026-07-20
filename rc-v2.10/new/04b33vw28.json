@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Hospital Escuela Universitario"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Autonomous University of Honduras",
+      "type": "related",
+      "id": "https://ror.org/03xyve152"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

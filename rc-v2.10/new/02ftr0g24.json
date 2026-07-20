@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "CIEHF"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Research Council",
+      "type": "parent",
+      "id": "https://ror.org/05mmh0f86"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

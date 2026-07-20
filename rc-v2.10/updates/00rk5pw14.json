@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -58,7 +58,13 @@
       "value": "Académie d'agriculture de France"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "French Academy of Agriculture",
+      "type": "successor",
+      "id": "https://ror.org/0090rb715"
+    }
+  ],
   "status": "withdrawn",
   "types": [
     "nonprofit"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Clinifutur"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Clinique Les orchidées",
+      "type": "child",
+      "id": "https://ror.org/05sp49d91"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

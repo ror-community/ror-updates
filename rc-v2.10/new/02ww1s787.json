@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -45,7 +45,13 @@
       "value": "Odette Cancer Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sunnybrook Health Science Centre",
+      "type": "parent",
+      "id": "https://ror.org/03wefcv03"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

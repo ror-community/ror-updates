@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Rhode Island INBRE"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Delaware INBRE",
+      "type": "related",
+      "id": "https://ror.org/01kn3j525"
+    },
+    {
+      "label": "University of Rhode Island",
+      "type": "parent",
+      "id": "https://ror.org/013ckk937"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

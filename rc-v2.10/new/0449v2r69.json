@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Ivan Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Nigeria Teaching Hospital",
+      "type": "related",
+      "id": "https://ror.org/05fx5mz56"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

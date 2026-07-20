@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413104.3"
+      ],
+      "preferred": "grid.413104.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9743 1587"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7640789"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wefcv03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://sunnybrook.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Sunnybrook_Health_Sciences_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "name": "Toronto"
+      },
+      "geonames_id": 6167865
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SHSC "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Sunnybrook"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sunnybrook Health Science Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St. John's Rehab Hospital",
+      "type": "child",
+      "id": "https://ror.org/0289r4642"
+    },
+    {
+      "label": "Sunnybrook Hospital",
+      "type": "child",
+      "id": "https://ror.org/008kn1a71"
+    },
+    {
+      "label": "Sunnybrook Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05n0tzs53"
+    },
+    {
+      "label": "University of Toronto",
+      "type": "related",
+      "id": "https://ror.org/03dbr7087"
+    },
+    {
+      "label": "Odette Cancer Centre",
+      "type": "child",
+      "id": "https://ror.org/02ww1s787"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

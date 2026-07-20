@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1835,
+  "external_ids": [
+    {
+      "all": [
+        "501100002760"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.474329.f"
+      ],
+      "preferred": "grid.474329.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1956 5915"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q919304"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04a7gbp98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bgs.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/British_Geological_Survey"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "name": "Nottingham"
+      },
+      "geonames_id": 2641170
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BGS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "British Geological Survey"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for the Observation and Modelling of Earthquakes, Volcanoes and Tectonics",
+      "type": "child",
+      "id": "https://ror.org/047d2d387"
+    },
+    {
+      "label": "Natural Environment Research Council",
+      "type": "parent",
+      "id": "https://ror.org/02b5d8509"
+    },
+    {
+      "label": "UK National Climate Science Partnership",
+      "type": "related",
+      "id": "https://ror.org/04g9z3b21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

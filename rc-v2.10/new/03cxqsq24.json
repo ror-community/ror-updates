@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Institut für Sozialforschung Frankfurt"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Goethe University Frankfurt",
+      "type": "related",
+      "id": "https://ror.org/04cvxnb49"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

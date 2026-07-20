@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1808,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415779.9"
+      ],
+      "preferred": "grid.415779.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q4294370"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01qe7f394",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gob.cl/ministers/health/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Chile)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MINSAL"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Ministerio de Salud de Chile"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Nacional del Tórax",
+      "type": "child",
+      "id": "https://ror.org/00t0z3q71"
+    },
+    {
+      "label": "Instituto de Salud Pública de Chile",
+      "type": "child",
+      "id": "https://ror.org/0080ttk76"
+    },
+    {
+      "label": "Gobierno de Chile",
+      "type": "parent",
+      "id": "https://ror.org/02sevrz47"
+    },
+    {
+      "label": "Hospital Clínico Dra. Eloísa Díaz I. La Florida",
+      "type": "child",
+      "id": "https://ror.org/05jrjxj02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

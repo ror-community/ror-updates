@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,28 @@
       "value": "Universidad Iberoamericana Torreón"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ibero American University",
+      "type": "related",
+      "id": "https://ror.org/05vss7635"
+    },
+    {
+      "label": "Ibero-American University Puebla",
+      "type": "related",
+      "id": "https://ror.org/00pcv0g02"
+    },
+    {
+      "label": "Universidad Iberoamericana León",
+      "type": "related",
+      "id": "https://ror.org/00f1wmk62"
+    },
+    {
+      "label": "Instituto Tecnológico y de Estudios Superiores de Occidente",
+      "type": "related",
+      "id": "https://ror.org/00cwp6m07"
+    }
+  ],
   "status": "active",
   "types": [
     "education"
