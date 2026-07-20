@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-07-19",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 9601 4781"
+      ],
+      "preferred": "0000 0000 9601 4781",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q101406233"
+      ],
+      "preferred": "Q101406233",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/046b28292",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.biotec.tu-dresden.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Biotechnologisches Zentrum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Biotechnology Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden University of Technology Biotechnology Center"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Technische Universität Dresden Biotechnologisches Zentrum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Technische Universität Dresden",
+      "type": "parent",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

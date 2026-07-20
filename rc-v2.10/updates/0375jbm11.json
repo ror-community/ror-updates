@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100013341"
+      ],
+      "preferred": "501100013341",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.509501.8"
+      ],
+      "preferred": "grid.509501.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1796 0331"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6971405"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0375jbm11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nceo.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.6386,
+        "lng": -1.13169,
+        "name": "Leicester"
+      },
+      "geonames_id": 2644668
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCEO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Centre for Earth Observation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Natural Environment Research Council",
+      "type": "parent",
+      "id": "https://ror.org/02b5d8509"
+    },
+    {
+      "label": "UK National Climate Science Partnership",
+      "type": "related",
+      "id": "https://ror.org/04g9z3b21"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-02-28",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/056hav897",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ums-plbs.univ-lille.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.63391,
+        "lng": 3.05512,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PLBS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Plateformes Lilloises en Biologie et Santé"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAR 2014"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UAR2014"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02kzqn938"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Lille",
+      "type": "parent",
+      "id": "https://ror.org/02ppyfa04"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut Pasteur de Lille",
+      "type": "parent",
+      "id": "https://ror.org/05k9skc85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

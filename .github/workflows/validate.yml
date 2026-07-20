@@ -25,15 +25,15 @@ jobs:
     if: github.event.ref != 'refs/heads/main'
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.ref }}
       - name: Set up Python environment
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.9"
+          python-version: "3.13"
       - name: Checkout validation suite
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
           repository: ror-community/validation-suite
           path: validation-suite

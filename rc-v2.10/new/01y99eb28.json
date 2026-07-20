@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-07-19",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "helios-gesundheit.de"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0000 8515 3540"
+      ],
+      "preferred": "0000 0000 8515 3540",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q66813761"
+      ],
+      "preferred": "Q66813761",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01y99eb28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.helios-gesundheit.de/kliniken/aue"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Helios_Klinikum_Aue"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 50.59034,
+        "lng": 12.70657,
+        "name": "Aue"
+      },
+      "geonames_id": 2954695
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "HELIOS Clinic Aue"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "HELIOS General Hospital Aue"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "HELIOS Klinikum Aue GmbH"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "HELIOS Klinikum Aue, Lehrkrankenhaus der TU Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Helios General Hospital Aue, Technical University Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Helios Klinikum Aue"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Helios Medical Center Aue"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Helios-Klinikum Aue"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helios Kliniken",
+      "type": "parent",
+      "id": "https://ror.org/04fjkxc67"
+    },
+    {
+      "label": "Technische Universität Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

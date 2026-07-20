@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-07-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "100006187"
+      ],
+      "preferred": "100006187",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5897 7674"
+      ],
+      "preferred": "0000 0004 5897 7674",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01edzc976",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/nnsa/nonproliferation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DNN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Defense Nuclear Nonproliferation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy National Nuclear Security Administration Office of Defense Nuclear Nonproliferation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Nuclear Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/03sk1we31"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
