@@ -49,23 +49,9 @@
     {
       "lang": null,
       "types": [
-        "acronym"
-      ],
-      "value": "NSSC"
-    },
-    {
-      "lang": null,
-      "types": [
         "alias"
       ],
       "value": "Nippon Steel Stainless Steel"
-    },
-    {
-      "lang": null,
-      "types": [
-        "label"
-      ],
-      "value": "Nippon Steel Stainless Steel Corporation"
     },
     {
       "lang": null,
@@ -76,6 +62,13 @@
       "value": "Nippon Steel Stainless Steel Corporation (Japan)"
     },
     {
+      "lang": null,
+      "types": [
+        "label"
+      ],
+      "value": "Nippon Steel Stainless Steel Corporation"
+    },
+    {
       "lang": "ja",
       "types": [
         "label"
@@ -83,7 +76,12 @@
       "value": "日鉄ステンレス株式会社"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "id": "https://ror.org/016vzmc05",
+      "type": "parent"
+    }
+  ],
   "status": "inactive",
   "types": [
     "company"
