@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415059.c"
+      ],
+      "preferred": "grid.415059.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0417 1114"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5502682"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03z8x2j90",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nbt.nhs.uk/our-hospitals/frenchay-hospital"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Frenchay_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.45523,
+        "lng": -2.59665,
+        "name": "Bristol"
+      },
+      "geonames_id": 2654675
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Frenchay Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "North Bristol NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/036x6gt55"
+    },
+    {
+      "label": "University of Bristol",
+      "type": "related",
+      "id": "https://ror.org/0524sp257"
+    },
+    {
+      "label": "University of the West of England",
+      "type": "related",
+      "id": "https://ror.org/02nwg5t34"
+    },
+    {
+      "label": "Bristol NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/054vvq170"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

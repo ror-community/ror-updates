@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415172.4"
+      ],
+      "preferred": "grid.415172.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0399 4960"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4969002"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01qgecw57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/bristol-royal-hospital-for-children/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bristol_Royal_Hospital_for_Children"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.45523,
+        "lng": -2.59665,
+        "name": "Bristol"
+      },
+      "geonames_id": 2654675
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BRHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bristol Children's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bristol Royal Hospital for Children"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bristol Royal Hospital for Sick Children"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Bristol",
+      "type": "related",
+      "id": "https://ror.org/0524sp257"
+    },
+    {
+      "label": "Bristol NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/054vvq170"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
