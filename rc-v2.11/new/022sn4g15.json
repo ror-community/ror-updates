@@ -111,7 +111,23 @@
       "value": "Weather Bureau United States"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Agriculture",
+      "type": "parent",
+      "id": "https://ror.org/01na82s61"
+    },
+    {
+      "label": "United States Department of Commerce",
+      "type": "parent",
+      "id": "https://ror.org/04chq2495"
+    },
+    {
+      "label": "Environmental Science Services Administration",
+      "type": "parent",
+      "id": "https://ror.org/01h6c8126"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"
