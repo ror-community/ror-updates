@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [],
+  "id": "https://ror.org/008h9x122",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://vlab.noaa.gov/web/mdl/about-mdl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "name": "Silver Spring"
+      },
+      "geonames_id": 4369596
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MDL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "NOAA Meteorological Development Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Weather Service’s Meteorological Development Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NOAA Office of Modeling and Development",
+      "type": "parent",
+      "id": "https://ror.org/01pbt4y78"
+    },
+    {
+      "label": "NOAA Oceanic and Atmospheric Research",
+      "type": "related",
+      "id": "https://ror.org/02kgve346"
+    },
+    {
+      "label": "NOAA Weather Program Office",
+      "type": "related",
+      "id": "https://ror.org/01q70bz83"
+    },
+    {
+      "label": "NOAA National Centers for Environmental Prediction",
+      "type": "related",
+      "id": "https://ror.org/00ndyev54"
+    },
+    {
+      "label": "Techniques Development Laboratory",
+      "type": "predecessor",
+      "id": "https://ror.org/049atrb62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

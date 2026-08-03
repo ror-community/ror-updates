@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mod.gov.in"
+  ],
+  "established": 1776,
+  "external_ids": [
+    {
+      "all": [
+        "501100006083"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467779.c"
+      ],
+      "preferred": "grid.467779.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q2641653"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wejsv15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mod.gov.in"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(India)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "DL",
+        "country_subdivision_name": "Delhi",
+        "lat": 28.62137,
+        "lng": 77.2148,
+        "name": "New Delhi"
+      },
+      "geonames_id": 1261481
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Defence"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MoD"
+    },
+    {
+      "lang": "hi",
+      "types": [
+        "alias"
+      ],
+      "value": "Raksha Mantralay"
+    },
+    {
+      "lang": "hi",
+      "types": [
+        "label"
+      ],
+      "value": "रक्षा मंत्रालय"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Defence Research and Development Organisation",
+      "type": "child",
+      "id": "https://ror.org/05k37v296"
+    },
+    {
+      "label": "Government of India",
+      "type": "parent",
+      "id": "https://ror.org/036h6g940"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

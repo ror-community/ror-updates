@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "501100004922"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418484.5"
+      ],
+      "preferred": "grid.418484.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0380 7221"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7054285"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036x6gt55",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nbt.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/North_Bristol_NHS_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.45523,
+        "lng": -2.59665,
+        "name": "Bristol"
+      },
+      "geonames_id": 2654675
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Bristol NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clevedon Hospital",
+      "type": "child",
+      "id": "https://ror.org/04ny9jk61"
+    },
+    {
+      "label": "Cossham Hospital",
+      "type": "child",
+      "id": "https://ror.org/04e0p7290"
+    },
+    {
+      "label": "Frenchay Hospital",
+      "type": "child",
+      "id": "https://ror.org/03z8x2j90"
+    },
+    {
+      "label": "Southmead Hospital",
+      "type": "child",
+      "id": "https://ror.org/05d576879"
+    },
+    {
+      "label": "Bristol NHS Foundation Trust",
+      "type": "successor",
+      "id": "https://ror.org/054vvq170"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

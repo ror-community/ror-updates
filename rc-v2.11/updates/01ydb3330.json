@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "synchrotron-soleil.fr"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "grid.426328.9"
+      ],
+      "preferred": "grid.426328.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q112513"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ydb3330",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.synchrotron-soleil.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SOLEIL"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.71328,
+        "lng": 2.14122,
+        "name": "Saint-Aubin"
+      },
+      "geonames_id": 2981603
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "SOLEIL Synchrotron"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Synchrotron SOLEIL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UR 1"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "UR1"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEA Paris-Saclay",
+      "type": "parent",
+      "id": "https://ror.org/03n15ch10"
+    },
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "LEAPS",
+      "type": "related",
+      "id": "https://ror.org/04wcn4e27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

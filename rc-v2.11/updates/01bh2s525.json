@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1866,
+  "external_ids": [
+    {
+      "all": [
+        "100014844"
+      ],
+      "preferred": "100014844",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419979.b"
+      ],
+      "preferred": "grid.419979.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0453 5483"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30282335"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bh2s525",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.einstein.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "name": "Philadelphia"
+      },
+      "geonames_id": 4560349
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Einstein Healthcare Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Einstein Medical Center Montgomery",
+      "type": "child",
+      "id": "https://ror.org/04jcetk87"
+    },
+    {
+      "label": "Jefferson Einstein Philadelphia Hospital",
+      "type": "child",
+      "id": "https://ror.org/03vzpaf33"
+    },
+    {
+      "label": "Moss Rehabilitation Hospital",
+      "type": "child",
+      "id": "https://ror.org/039q6xk02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

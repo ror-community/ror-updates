@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "100014982"
+      ],
+      "preferred": "100014982",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.509508.1"
+      ],
+      "preferred": "grid.509508.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8307 9534"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/031yh0y38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cint.lanl.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NM",
+        "country_subdivision_name": "New Mexico",
+        "lat": 35.08449,
+        "lng": -106.65114,
+        "name": "Albuquerque"
+      },
+      "geonames_id": 5454711
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CINT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Center for Integrated Nanotechnologies"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Center for Integrated Nanotechnologies"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy National Nuclear Security Administration Center for Integrated Nanotechnologies"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Center for Integrated Nanotechnologies"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy National Nuclear Security Administration Center for Integrated Nanotechnologies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Los Alamos National Laboratory",
+      "type": "parent",
+      "id": "https://ror.org/01e41cf67"
+    },
+    {
+      "label": "National Nuclear Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/03sk1we31"
+    },
+    {
+      "label": "Sandia National Laboratories",
+      "type": "parent",
+      "id": "https://ror.org/01apwpt12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

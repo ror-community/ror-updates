@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cispa.de"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100018164"
+      ],
+      "preferred": "100018164",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507511.7"
+      ],
+      "preferred": "grid.507511.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 7578 9405"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q55436361"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02njgxr09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cispa.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SL",
+        "country_subdivision_name": "Saarland",
+        "lat": 49.23262,
+        "lng": 7.00982,
+        "name": "Saarbrücken"
+      },
+      "geonames_id": 2842647
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CISPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helmholtz Center for Information Security"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Helmholtz-Zentrum für Informationssicherheit"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

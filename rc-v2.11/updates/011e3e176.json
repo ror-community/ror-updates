@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-03",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100007711"
+      ],
+      "preferred": "501100007711",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451253.4"
+      ],
+      "preferred": "grid.451253.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0635 1100"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30295427"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011e3e176",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.gov.bc.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 48.4359,
+        "lng": -123.35155,
+        "name": "Victoria"
+      },
+      "geonames_id": 6174041
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of British Columbia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Jobs, Economic Recovery and Innovation",
+      "type": "child",
+      "id": "https://ror.org/02ben6x95"
+    },
+    {
+      "label": "BC Housing",
+      "type": "related",
+      "id": "https://ror.org/03y2h9g92"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
