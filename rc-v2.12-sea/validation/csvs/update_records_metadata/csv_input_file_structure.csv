@@ -1,0 +1,6 @@
+issue_url,row_number,error_type,field,value,message
+https://github.com/ror-community/ror-updates/issues/35455,5,update_action_invalid,established,add==1950,"Invalid update action(s) 'add' in field 'established'. Allowed actions are: delete, replace."
+https://github.com/ror-community/ror-updates/issues/34140,38,update_action_invalid,external_ids.type.isni.preferred,add==0000 0001 0272 0405,"Invalid update action(s) 'add' in field 'external_ids.type.isni.preferred'. Allowed actions are: delete, replace."
+https://github.com/ror-community/ror-updates/issues/34140,38,update_action_invalid,external_ids.type.wikidata.preferred,add==Q1667749,"Invalid update action(s) 'add' in field 'external_ids.type.wikidata.preferred'. Allowed actions are: delete, replace."
+https://github.com/ror-community/ror-updates/issues/35548,354,update_action_conflict,names.types.label,replace==AIT Austrian Institute of Technology GmbH*en;add==AIT Österreichisches Institut für Tech...,'replace==' cannot be combined with 'add==' or 'delete==' in field 'names.types.label'.
+https://github.com/ror-community/ror-updates/issues/35890,391,name_format_invalid,names.types.alias,Học viện Hành chính Quốc gia*vu,Name 'Học viện Hành chính Quốc gia*vu' has unrecognized ISO 639 language code 'vu'
