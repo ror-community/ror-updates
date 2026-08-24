@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1932,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482185.2"
+      ],
+      "preferred": "grid.482185.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9151 0233"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/037405c78",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cruk.manchester.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.48095,
+        "lng": -2.23743,
+        "name": "Manchester"
+      },
+      "geonames_id": 2643123
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cancer Research UK Manchester Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Holt Radium Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Paterson Institute for Cancer Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cancer Research UK",
+      "type": "parent",
+      "id": "https://ror.org/054225q67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

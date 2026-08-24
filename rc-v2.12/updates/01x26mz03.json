@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "100013165"
+      ],
+      "preferred": "100013165",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451363.6"
+      ],
+      "preferred": "grid.451363.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2206 3094"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6972453"
+      ],
+      "preferred": "Q6972453",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01x26mz03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.netl.doe.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Energy_Technology_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.29864,
+        "lng": -79.99405,
+        "name": "South Park Township"
+      },
+      "geonames_id": 7259013
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NETL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Energy Technology Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Fossil Energy National Energy Technology Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "US Department of Energy Hydrocarbons and Geothermal Energy Office National Energy Technology Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Fossil Energy National Energy Technology Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Fossil Energy",
+      "type": "parent",
+      "id": "https://ror.org/03ery9d53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

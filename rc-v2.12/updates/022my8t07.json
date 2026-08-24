@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462848.4"
+      ],
+      "preferred": "grid.462848.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 3463"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/022my8t07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lif.univ-mrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PAC",
+        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "name": "Marseille"
+      },
+      "geonames_id": 2995469
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIF"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d’Informatique Fondamentale de Marseille"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aix-Marseille University",
+      "type": "parent",
+      "id": "https://ror.org/035xkbk20"
+    },
+    {
+      "label": "Centrale Marseille",
+      "type": "parent",
+      "id": "https://ror.org/040baw385"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

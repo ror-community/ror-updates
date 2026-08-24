@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oup.com"
+  ],
+  "established": 1633,
+  "external_ids": [
+    {
+      "all": [
+        "501100007723"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.470899.b"
+      ],
+      "preferred": "grid.470899.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2292 9185"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q217595"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0336mm561",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://corp.oup.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Oxford_University_Press"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "OUP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Oxford University Press"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oxford University Press (United Kingdom)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Oxford",
+      "type": "parent",
+      "id": "https://ror.org/052gg0110"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "europe.gatech.edu"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463863.c"
+      ],
+      "preferred": "grid.463863.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0425 9771"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q538990"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02m5dy175",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://europe.gatech.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Georgia_Tech_Europe"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 49.11911,
+        "lng": 6.17269,
+        "name": "Metz"
+      },
+      "geonames_id": 2994160
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "GT-Europe"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "GTE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "GTL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Georgia Tech Lorraine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Georgia Tech-Europe"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Georgia Tech-Lorraine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Georgia Tech-CNRS Laboratory",
+      "type": "child",
+      "id": "https://ror.org/00avmbz91"
+    },
+    {
+      "label": "Georgia Institute of Technology",
+      "type": "related",
+      "id": "https://ror.org/01zkghx44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

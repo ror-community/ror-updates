@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nhlbi.nih.gov"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100000050"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.279885.9"
+      ],
+      "preferred": "grid.279885.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2293 4638"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6973027"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/012pb6c26",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nhlbi.nih.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Heart,_Lung,_and_Blood_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NHLBI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Heart Lung and Blood Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Heart, Lung, and Blood Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Framingham Heart Study",
+      "type": "child",
+      "id": "https://ror.org/031grv205"
+    },
+    {
+      "label": "National Heart, Lung, and Blood Institute Division of Intramural Research",
+      "type": "child",
+      "id": "https://ror.org/023ny1p48"
+    },
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    },
+    {
+      "label": "Women's Health Initiative",
+      "type": "related",
+      "id": "https://ror.org/05f7khr13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

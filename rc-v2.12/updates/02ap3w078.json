@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "conicyt.cl"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "501100002848"
+      ],
+      "preferred": "501100002848",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424112.0"
+      ],
+      "preferred": "grid.424112.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 9683"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2985226"
+      ],
+      "preferred": "Q2985226",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ap3w078",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.conicyt.cl"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "RM",
+        "country_subdivision_name": "Santiago Metropolitan",
+        "lat": -33.45694,
+        "lng": -70.64827,
+        "name": "Santiago"
+      },
+      "geonames_id": 3871336
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "acronym"
+      ],
+      "value": "CONICYT"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Comisión Nacional de Investigación Científica y Tecnológica"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Commission for Scientific and Technological Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico de Valparaíso",
+      "type": "child",
+      "id": "https://ror.org/00m0k5p91"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
