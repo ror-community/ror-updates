@@ -1,7 +1,7 @@
 {
   "admin": {
     "created": {
-      "date": "2026-08-24",
+      "date": "2026-03-30",
       "schema_version": "2.1"
     },
     "last_modified": {
@@ -10,28 +10,28 @@
     }
   },
   "domains": [],
-  "established": 1996,
+  "established": 1990,
   "external_ids": [
     {
       "all": [
-        "0000 0000 9563 6044"
+        "0000 0001 2323 0456"
       ],
-      "preferred": "0000 0000 9563 6044",
+      "preferred": "0000 0001 2323 0456",
       "type": "isni"
     },
     {
       "all": [
-        "Q3152086"
+        "Q3578250"
       ],
-      "preferred": "Q3152086",
+      "preferred": "Q3578250",
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/057tpx975",
+  "id": "https://ror.org/05gzmxp80",
   "links": [
     {
       "type": "wikipedia",
-      "value": "https://fr.wikipedia.org/wiki/Institut_de_recherche_en_communications_et_cybern%C3%A9tique_de_Nantes"
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_des_Mines_de_Nantes"
     }
   ],
   "locations": [
@@ -56,14 +56,21 @@
       "types": [
         "acronym"
       ],
-      "value": "IRCCYN"
+      "value": "EMN"
     },
     {
       "lang": "fr",
       "types": [
-        "acronym"
+        "alias"
       ],
-      "value": "IRCCyN"
+      "value": "Mines Nantes"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École des Mines de Nantes"
     },
     {
       "lang": "fr",
@@ -71,47 +78,23 @@
         "label",
         "ror_display"
       ],
-      "value": "Institut de recherche en communications et cybernétique de Nantes"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "alias"
-      ],
-      "value": "UMR 6597"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "alias"
-      ],
-      "value": "UMR6597"
+      "value": "École nationale supérieure des Mines de Nantes"
     }
   ],
   "relationships": [
     {
-      "label": "Centre National de la Recherche Scientifique",
-      "type": "parent",
-      "id": "https://ror.org/02feahw73"
+      "label": "IMT Atlantique",
+      "type": "successor",
+      "id": "https://ror.org/030hj3061"
     },
     {
-      "label": "Nantes Université",
-      "type": "parent",
-      "id": "https://ror.org/03gnr7b55"
-    },
-    {
-      "label": "École Centrale de Nantes",
-      "type": "parent",
-      "id": "https://ror.org/03nh7d505"
-    },
-    {
-      "label": "École nationale supérieure des Mines de Nantes",
-      "type": "parent",
-      "id": "https://ror.org/05gzmxp80"
+      "label": "Institut de recherche en communications et cybernétique de Nantes",
+      "type": "child",
+      "id": "https://ror.org/057tpx975"
     }
   ],
   "status": "inactive",
   "types": [
-    "facility"
+    "education"
   ]
 }

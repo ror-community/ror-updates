@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "U 23"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"

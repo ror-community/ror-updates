@@ -14,24 +14,24 @@
   "external_ids": [
     {
       "all": [
-        "grid.463963.d"
+        "grid.462870.f"
       ],
-      "preferred": "grid.463963.d",
+      "preferred": "grid.462870.f",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0385 3041"
+        "0000 0004 1808 0475"
       ],
       "preferred": null,
       "type": "isni"
     }
   ],
-  "id": "https://ror.org/021f6nx58",
+  "id": "https://ror.org/02dg3n954",
   "links": [
     {
       "type": "website",
-      "value": "http://lnia.univ-amu.fr/?lang=fr"
+      "value": "http://sites.univ-provence.fr/lnc/?lang=en"
     }
   ],
   "locations": [
@@ -41,13 +41,13 @@
         "continent_name": "Europe",
         "country_code": "FR",
         "country_name": "France",
-        "country_subdivision_code": "PAC",
-        "country_subdivision_name": "Provence-Alpes-Côte d'Azur",
-        "lat": 43.29695,
-        "lng": 5.38107,
-        "name": "Marseille"
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
       },
-      "geonames_id": 2995469
+      "geonames_id": 2988507
     }
   ],
   "names": [
@@ -56,7 +56,7 @@
       "types": [
         "acronym"
       ],
-      "value": "LNIA"
+      "value": "LNC"
     },
     {
       "lang": "fr",
@@ -64,21 +64,7 @@
         "ror_display",
         "label"
       ],
-      "value": "Laboratoire de Neurosciences Intégratives et Adaptatives"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "alias"
-      ],
-      "value": "Neurobiologie Intégrative et Adaptative"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "alias"
-      ],
-      "value": "Neurosciences intégratives et adaptatives"
+      "value": "Laboratoire de Neurosciences Cognitives"
     }
   ],
   "relationships": [
@@ -93,9 +79,14 @@
       "id": "https://ror.org/00rydyx93"
     },
     {
-      "label": "Laboratoire de Neurosciences Cognitives",
+      "label": "Centre de Recherche en Psychologie et Neurosciences",
       "type": "successor",
-      "id": "https://ror.org/02dg3n954"
+      "id": "https://ror.org/05arke896"
+    },
+    {
+      "label": "Laboratoire de Neurosciences Intégratives et Adaptatives",
+      "type": "predecessor",
+      "id": "https://ror.org/021f6nx58"
     }
   ],
   "status": "inactive",

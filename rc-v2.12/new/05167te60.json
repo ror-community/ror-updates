@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,18 @@
       "value": "Fondazione Bruno Kessler - Center for Materials and Microsystems"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Istituto per la Ricerca Scientifica e Tecnologica",
+      "type": "predecessor",
+      "id": "https://ror.org/04vrpj005"
+    },
+    {
+      "label": "Fondazione Bruno Kessler",
+      "type": "parent",
+      "id": "https://ror.org/01j33xk10"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"
