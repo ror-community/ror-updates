@@ -1,112 +1,112 @@
 {
-    "admin": {
-        "created": {
-            "date": "2018-11-14",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-08-25",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "domains": [
-        "pmu.ac.at"
-    ],
-    "established": 2003,
-    "external_ids": [
-        {
-            "all": [
-                "501100011852"
-            ],
-            "preferred": "501100011852",
-            "type": "fundref"
-        },
-        {
-            "all": [
-                "grid.21604.31"
-            ],
-            "preferred": "grid.21604.31",
-            "type": "grid"
-        },
-        {
-            "all": [
-                "0000 0004 0523 5263"
-            ],
-            "preferred": null,
-            "type": "isni"
-        },
-        {
-            "all": [
-                "Q1476364"
-            ],
-            "preferred": null,
-            "type": "wikidata"
-        }
-    ],
-    "id": "https://ror.org/03z3mg085",
-    "links": [
-        {
-            "type": "website",
-            "value": "http://www.pmu.ac.at/"
-        },
-        {
-            "type": "wikipedia",
-            "value": "https://en.wikipedia.org/wiki/Paracelsus_Private_Medical_University_of_Salzburg"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": "EU",
-                "continent_name": "Europe",
-                "country_code": "AT",
-                "country_name": "Austria",
-                "country_subdivision_code": "5",
-                "country_subdivision_name": "State of Salzburg",
-                "lat": 47.79941,
-                "lng": 13.04399,
-                "name": "Salzburg"
-            },
-            "geonames_id": 2766824
-        }
-    ],
-    "names": [
-        {
-            "lang": "en",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "Paracelsus Medical University"
-        },
-        {
-            "lang": "de",
-            "types": [
-                "label"
-            ],
-            "value": "Paracelsus Medizinische Privatuniversität"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "Christian Doppler Klinik",
-            "type": "related",
-            "id": "https://ror.org/01fpkt395"
-        },
-        {
-            "label": "Salzburger Landeskliniken",
-            "type": "related",
-            "id": "https://ror.org/0500kmp11"
-        },
-        {
-            "label": "Universitätskliniken Salzburg",
-            "type": "related",
-            "id": "https://ror.org/03jt4wj37"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "education",
-        "funder"
-    ]
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pmu.ac.at"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "501100011852"
+      ],
+      "preferred": "501100011852",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.21604.31"
+      ],
+      "preferred": "grid.21604.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0523 5263"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1476364"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03z3mg085",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pmu.ac.at/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Paracelsus_Private_Medical_University_of_Salzburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "5",
+        "country_subdivision_name": "State of Salzburg",
+        "lat": 47.79941,
+        "lng": 13.04399,
+        "name": "Salzburg"
+      },
+      "geonames_id": 2766824
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Paracelsus Medical University"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Paracelsus Medizinische Privatuniversität"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Christian Doppler Klinik",
+      "type": "related",
+      "id": "https://ror.org/01fpkt395"
+    },
+    {
+      "label": "Salzburger Landeskliniken",
+      "type": "related",
+      "id": "https://ror.org/0500kmp11"
+    },
+    {
+      "label": "Universitätskliniken Salzburg",
+      "type": "related",
+      "id": "https://ror.org/03jt4wj37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
 }
