@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uuh.ulsan.kr"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100021084"
+      ],
+      "preferred": "501100021084",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412830.c"
+      ],
+      "preferred": "grid.412830.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0647 7248"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03sab2a45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uuh.ulsan.kr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "31",
+        "country_subdivision_name": "Ulsan",
+        "lat": 35.53722,
+        "lng": 129.31667,
+        "name": "Ulsan"
+      },
+      "geonames_id": 1833747
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ulsan University Hospital"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "울산대학교병원"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Ulsan",
+      "type": "related",
+      "id": "https://ror.org/02c2f8975"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

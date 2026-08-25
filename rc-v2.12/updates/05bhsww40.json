@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "scrippshealth.org"
+  ],
+  "established": 1924,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419722.b"
+      ],
+      "preferred": "grid.419722.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0392 9464"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7439200"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05bhsww40",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.scripps.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Scripps_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Scripps Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Scripps Clinic",
+      "type": "child",
+      "id": "https://ror.org/05kwjwj05"
+    },
+    {
+      "label": "Scripps Green Hospital",
+      "type": "child",
+      "id": "https://ror.org/01hv74g78"
+    },
+    {
+      "label": "Scripps MD Anderson Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/0509zzg37"
+    },
+    {
+      "label": "Scripps Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/01dpw6893"
+    },
+    {
+      "label": "Scripps Mercy Hospital",
+      "type": "child",
+      "id": "https://ror.org/04k4h9k07"
+    },
+    {
+      "label": "Scripps Whittier Diabetes Institute",
+      "type": "child",
+      "id": "https://ror.org/0422q5a32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

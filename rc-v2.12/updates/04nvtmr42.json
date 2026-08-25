@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "interface.com"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "100004712"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467489.0"
+      ],
+      "preferred": "grid.467489.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9146 8688"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1666040"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04nvtmr42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.interface.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Interface,_Inc."
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.03929,
+        "lng": -85.03133,
+        "name": "La Grange"
+      },
+      "geonames_id": 4204230
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Interface (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Interface (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/05fenky51"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

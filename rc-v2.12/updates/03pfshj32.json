@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "muenchen-klinik.de"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419595.5"
+      ],
+      "preferred": "grid.419595.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8788 1541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2360063"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03pfshj32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.muenchen-klinik.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Munich Municipal Hospital Group"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "München Klinik"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Städtisches Klinikum München"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "München Klinik Bogenhausen",
+      "type": "child",
+      "id": "https://ror.org/011x7hd11"
+    },
+    {
+      "label": "München Klinik Harlaching",
+      "type": "child",
+      "id": "https://ror.org/03a7e0x93"
+    },
+    {
+      "label": "München Klinik Neuperlach",
+      "type": "child",
+      "id": "https://ror.org/05rwdv390"
+    },
+    {
+      "label": "München Klinik Schwabing",
+      "type": "child",
+      "id": "https://ror.org/002bjfj29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

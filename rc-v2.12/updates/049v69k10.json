@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rowan.edu"
+  ],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "100016221"
+      ],
+      "preferred": "100016221",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262671.6"
+      ],
+      "preferred": "grid.262671.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8828 4546"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1799872"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049v69k10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.rowan.edu/home/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Rowan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 39.70289,
+        "lng": -75.11184,
+        "name": "Glassboro"
+      },
+      "geonames_id": 4501931
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rowan University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cooper Medical School of Rowan University",
+      "type": "child",
+      "id": "https://ror.org/007evha27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

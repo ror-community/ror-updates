@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lahey.org"
+  ],
+  "established": 1923,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415731.5"
+      ],
+      "preferred": "grid.415731.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0725 1353"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6473221"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03mbq3y29",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lahey.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lahey_Hospital_%26_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.50482,
+        "lng": -71.19561,
+        "name": "Burlington"
+      },
+      "geonames_id": 4931737
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lahey Clinic"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lahey Hospital and Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Boston University",
+      "type": "related",
+      "id": "https://ror.org/05qwgg493"
+    },
+    {
+      "label": "Harvard University",
+      "type": "related",
+      "id": "https://ror.org/03vek6s52"
+    },
+    {
+      "label": "Tufts University",
+      "type": "related",
+      "id": "https://ror.org/05wvpxv85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

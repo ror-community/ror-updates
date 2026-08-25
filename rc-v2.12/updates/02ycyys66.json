@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ior.it"
+  ],
+  "established": 1896,
+  "external_ids": [
+    {
+      "all": [
+        "501100007746"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419038.7"
+      ],
+      "preferred": "grid.419038.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2154 6641"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02ycyys66",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ior.it/en/curarsi-al-rizzoli"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Emilia-Romagna",
+        "lat": 44.49381,
+        "lng": 11.33875,
+        "name": "Bologna"
+      },
+      "geonames_id": 3181928
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IOR"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Ortopedico Rizzoli"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Rizzoli Orthopaedic Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    },
+    {
+      "label": "ERN BOND",
+      "type": "related",
+      "id": "https://ror.org/04crk2m06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

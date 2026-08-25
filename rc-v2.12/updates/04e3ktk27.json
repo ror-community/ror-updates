@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lri.fr"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464180.f"
+      ],
+      "preferred": "grid.464180.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 6522"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04e3ktk27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lri.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LRI"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire de Recherche en Informatique"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "French Institute for Research in Computer Science and Automation",
+      "type": "parent",
+      "id": "https://ror.org/02kvxyf05"
+    },
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "University of Paris-Sud",
+      "type": "parent",
+      "id": "https://ror.org/028rypz17"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

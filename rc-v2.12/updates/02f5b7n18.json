@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mpic.de"
+  ],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "501100017039"
+      ],
+      "preferred": "501100017039",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419509.0"
+      ],
+      "preferred": "grid.419509.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0491 8257"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q832808"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02f5b7n18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mpic.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_Chemistry"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "RP",
+        "country_subdivision_name": "Rheinland-Pfalz",
+        "lat": 49.98185,
+        "lng": 8.28008,
+        "name": "Mainz"
+      },
+      "geonames_id": 2874225
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max Planck Institut für Chemie - Otto Hahn Institut"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for Chemistry"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Otto Hahn Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

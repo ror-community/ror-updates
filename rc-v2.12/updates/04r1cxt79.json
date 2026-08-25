@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kemri.go.ke"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "501100019734"
+      ],
+      "preferred": "501100019734",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.33058.3d"
+      ],
+      "preferred": "grid.33058.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0155 5938",
+        "0000 0004 1784 7590"
+      ],
+      "preferred": "0000 0001 0155 5938",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6392601"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r1cxt79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kemri.go.ke/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kenya_Medical_Research_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "KE",
+        "country_name": "Kenya",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Nairobi County",
+        "lat": -1.28333,
+        "lng": 36.81667,
+        "name": "Nairobi"
+      },
+      "geonames_id": 184745
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KEMRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kenya Medical Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wellcome Trust",
+      "type": "parent",
+      "id": "https://ror.org/029chgv08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

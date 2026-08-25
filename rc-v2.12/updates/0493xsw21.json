@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bih-charite.de"
+  ],
+  "established": 2013,
+  "external_ids": [
+    {
+      "all": [
+        "501100017268"
+      ],
+      "preferred": "501100017268",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484013.a"
+      ],
+      "preferred": "grid.484013.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q19835368"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0493xsw21",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bihealth.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "State of Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Berlin Institute for Health Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Berlin Institute of Health at Charité - Universitätsmedizin Berlin"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Berliner Institut für Gesundheitsforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Charité - Universitätsmedizin Berlin",
+      "type": "parent",
+      "id": "https://ror.org/001w7jn25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rmit.edu.au"
+  ],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "501100001780",
+        "100008690",
+        "100010552"
+      ],
+      "preferred": "501100001780",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1017.7"
+      ],
+      "preferred": "grid.1017.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2163 3550"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1057890"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ttjf776",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.rmit.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/RMIT_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RMIT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "RMIT University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Royal Melbourne Institute of Technology University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ARC Centre of Excellence for Automated Decision-Making and Society",
+      "type": "child",
+      "id": "https://ror.org/039p7nx39"
+    },
+    {
+      "label": "RMIT Europe",
+      "type": "child",
+      "id": "https://ror.org/03m3ca021"
+    },
+    {
+      "label": "RMIT Vietnam",
+      "type": "child",
+      "id": "https://ror.org/004axh929"
+    },
+    {
+      "label": "Austin Hospital",
+      "type": "related",
+      "id": "https://ror.org/010mv7n52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "igcz.poznan.pl"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420230.7"
+      ],
+      "preferred": "grid.420230.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0499 2422"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02jzt6t86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://igcz.poznan.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Greater Poland",
+        "lat": 52.40692,
+        "lng": 16.92993,
+        "name": "Poznan"
+      },
+      "geonames_id": 3088171
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Human Genetics"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytutu Genetyki Człowieka PAN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

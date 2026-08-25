@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "utc.edu"
+  ],
+  "established": 1886,
+  "external_ids": [
+    {
+      "all": [
+        "100017028"
+      ],
+      "preferred": "100017028",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267303.3"
+      ],
+      "preferred": "grid.267303.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9338 1949"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1781384"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00nqb1v70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.utc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Tennessee_at_Chattanooga"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TN",
+        "country_subdivision_name": "Tennessee",
+        "lat": 35.04563,
+        "lng": -85.30968,
+        "name": "Chattanooga"
+      },
+      "geonames_id": 4612862
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Tennessee at Chattanooga"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du tennessee à chattanooga"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Tennessee System",
+      "type": "parent",
+      "id": "https://ror.org/00xzqjh13"
+    },
+    {
+      "label": "Children’s Hospital at Erlanger",
+      "type": "related",
+      "id": "https://ror.org/00qy8yz42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

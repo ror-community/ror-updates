@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ncat.edu"
+  ],
+  "established": 1891,
+  "external_ids": [
+    {
+      "all": [
+        "100008521"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261037.1"
+      ],
+      "preferred": "grid.261037.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0287 4439",
+        "0000 0004 1936 818X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1476484"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02aze4h65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ncat.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/North_Carolina_Agricultural_and_Technical_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 36.07264,
+        "lng": -79.79198,
+        "name": "Greensboro"
+      },
+      "geonames_id": 4469146
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "North Carolina A&T State University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Carolina Agricultural and Technical State University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université agricole et technique d'État de caroline du nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Triangle Center for Evolutionary Medicine",
+      "type": "child",
+      "id": "https://ror.org/02yjqwr70"
+    },
+    {
+      "label": "University of North Carolina System",
+      "type": "parent",
+      "id": "https://ror.org/0566a8c54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

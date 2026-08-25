@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "orange.com"
+  ],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "501100003951",
+        "501100003187"
+      ],
+      "preferred": "501100003951",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.89485.38"
+      ],
+      "preferred": "grid.89485.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0600 5611"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1431486"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/035j0tq82",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.orange.com/en/home"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Orange_S.A."
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "France Télécom "
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Orange (France)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Orange (Belgium)",
+      "type": "child",
+      "id": "https://ror.org/03k3dgs02"
+    },
+    {
+      "label": "Orange (Poland)",
+      "type": "child",
+      "id": "https://ror.org/05dt0hn88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

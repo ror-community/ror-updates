@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "icr.ac.uk"
+  ],
+  "established": 1909,
+  "external_ids": [
+    {
+      "all": [
+        "grid.18886.3f"
+      ],
+      "preferred": "grid.18886.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1499 0189"
+      ],
+      "preferred": "0000 0001 1499 0189",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6039999"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043jzw605",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.icr.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Institute_of_Cancer_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Cancer Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NIHR Biomedical Research Centre at The Royal Marsden and the ICR",
+      "type": "child",
+      "id": "https://ror.org/014ktry78"
+    },
+    {
+      "label": "University of London",
+      "type": "parent",
+      "id": "https://ror.org/04cw6st05"
+    },
+    {
+      "label": "Royal Marsden Hospital",
+      "type": "related",
+      "id": "https://ror.org/034vb5t35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

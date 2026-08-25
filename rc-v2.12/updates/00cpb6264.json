@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neuromed.it"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419543.e"
+      ],
+      "preferred": "grid.419543.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 3561"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00cpb6264",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.neuromed.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "67",
+        "country_subdivision_name": "Molise",
+        "lat": 41.51142,
+        "lng": 14.06252,
+        "name": "Pozzilli"
+      },
+      "geonames_id": 3170006
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "IRCCS Neuromed"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Neurologico Mediterraneo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

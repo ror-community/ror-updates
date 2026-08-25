@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lmco.com"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "100002186",
+        "100004317"
+      ],
+      "preferred": "100002186",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419474.b"
+      ],
+      "preferred": "grid.419474.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9688 3311"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7240"
+      ],
+      "preferred": "Q7240",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/026er9r08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lockheedmartin.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lockheed_Martin"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lockheed Martin (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lockheed Martin (Australia)",
+      "type": "child",
+      "id": "https://ror.org/016rz1a24"
+    },
+    {
+      "label": "Lockheed Martin (Canada)",
+      "type": "child",
+      "id": "https://ror.org/00rs6n938"
+    },
+    {
+      "label": "Lockheed Martin (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/02gnhjw76"
+    },
+    {
+      "label": "Martin Marietta (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/01cm9aw18"
+    },
+    {
+      "label": "Lockheed (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/01zhx8042"
+    },
+    {
+      "label": "Lockheed Missiles and Space Company (United States)",
+      "type": "predecessor",
+      "id": "https://ror.org/01z60hv97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

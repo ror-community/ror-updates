@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-bayreuth.de"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "100020618"
+      ],
+      "preferred": "100020618",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7384.8"
+      ],
+      "preferred": "grid.7384.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0467 6972"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q702482"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0234wmv40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-bayreuth.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Bayreuth"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.94782,
+        "lng": 11.57893,
+        "name": "Bayreuth"
+      },
+      "geonames_id": 2951825
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Bayreuth"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Bayreuth"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bavarian Polymer Institute",
+      "type": "child",
+      "id": "https://ror.org/054zwas39"
+    },
+    {
+      "label": "BF/M-Bayreuth",
+      "type": "related",
+      "id": "https://ror.org/03z8vj775"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

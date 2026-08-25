@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-rostock.de"
+  ],
+  "established": 1419,
+  "external_ids": [
+    {
+      "all": [
+        "501100012688"
+      ],
+      "preferred": "501100012688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.10493.3f"
+      ],
+      "preferred": "grid.10493.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2185 8338"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q159895"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03zdwsf69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uni-rostock.de/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Rostock"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "MV",
+        "country_subdivision_name": "Mecklenburg-Vorpommern",
+        "lat": 54.0887,
+        "lng": 12.14049,
+        "name": "Rostock"
+      },
+      "geonames_id": 2844588
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rostock University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Rostock"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Rostock"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Institute of Atmospheric Physics at the Rostock University",
+      "type": "child",
+      "id": "https://ror.org/04enhpe73"
+    },
+    {
+      "label": "Rostocker Zentrum zur Erforschung des Demografischen Wandels",
+      "type": "child",
+      "id": "https://ror.org/0098syn68"
+    },
+    {
+      "label": "Universitätsmedizin Rostock",
+      "type": "related",
+      "id": "https://ror.org/04dm1cm79"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

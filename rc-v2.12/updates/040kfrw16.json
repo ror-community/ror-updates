@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "upstate.edu"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "100010956"
+      ],
+      "preferred": "100010956",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411023.5"
+      ],
+      "preferred": "grid.411023.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9159 4457"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3297997"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/040kfrw16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.upstate.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/State_University_of_New_York_Upstate_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 43.04812,
+        "lng": -76.14742,
+        "name": "Syracuse"
+      },
+      "geonames_id": 5140405
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SUNY Upstate Medical University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Upstate Medical University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    },
+    {
+      "label": "Guthrie Robert Packer Hospital",
+      "type": "related",
+      "id": "https://ror.org/0068v6128"
+    },
+    {
+      "label": "Syracuse VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/0332k3m42"
+    },
+    {
+      "label": "Upstate University Hospital",
+      "type": "related",
+      "id": "https://ror.org/019zp2770"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

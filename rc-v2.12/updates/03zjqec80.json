@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hss.edu"
+  ],
+  "established": 1863,
+  "external_ids": [
+    {
+      "all": [
+        "100013018"
+      ],
+      "preferred": "100013018",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.239915.5"
+      ],
+      "preferred": "grid.239915.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2285 8823"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5908726"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03zjqec80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hss.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hospital_for_Special_Surgery"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital for Special Surgery"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NewYork–Presbyterian Hospital",
+      "type": "related",
+      "id": "https://ror.org/03gzbrs57"
+    },
+    {
+      "label": "Memorial Sloan Kettering Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/02yrq0923"
+    },
+    {
+      "label": "Rockefeller University",
+      "type": "related",
+      "id": "https://ror.org/0420db125"
+    },
+    {
+      "label": "Weill Cornell Medicine",
+      "type": "related",
+      "id": "https://ror.org/02r109517"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

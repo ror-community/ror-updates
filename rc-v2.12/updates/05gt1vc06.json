@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "howard.edu"
+  ],
+  "established": 1867,
+  "external_ids": [
+    {
+      "all": [
+        "100012365"
+      ],
+      "preferred": "100012365",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.257127.4"
+      ],
+      "preferred": "grid.257127.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0547 4545"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1068752"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gt1vc06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www2.howard.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Howard_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Howard University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Howard"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Howard University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01w4jxn67"
+    },
+    {
+      "label": "Inova Fairfax Hospital",
+      "type": "related",
+      "id": "https://ror.org/0212h5y77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

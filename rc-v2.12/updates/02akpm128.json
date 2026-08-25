@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ucn.cl"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "100019344"
+      ],
+      "preferred": "100019344",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8049.5"
+      ],
+      "preferred": "grid.8049.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2291 598X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3244385",
+        "Q38931749"
+      ],
+      "preferred": "Q3244385",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02akpm128",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ucn.cl"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Catholic_University_of_the_North"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "AN",
+        "country_subdivision_name": "Antofagasta",
+        "lat": -23.65094,
+        "lng": -70.39752,
+        "name": "Antofagasta"
+      },
+      "geonames_id": 3899539
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Catholic University of the North"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCN"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Católica del Norte"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CEDUC UCN",
+      "type": "child",
+      "id": "https://ror.org/03n6z5186"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

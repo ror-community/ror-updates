@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "whrsm.ac.cn"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "501100011184"
+      ],
+      "preferred": "501100011184",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458519.4"
+      ],
+      "preferred": "grid.458519.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1798 1781"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0366c6s65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.whrsm.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "HB",
+        "country_subdivision_name": "Hubei",
+        "lat": 30.58333,
+        "lng": 114.26667,
+        "name": "Wuhan"
+      },
+      "geonames_id": 1791247
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Rock and Soil Mechanics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Wuhan Institute of Mechanics, Chinese Academy of Sciences"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院武汉岩土力学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Geomechanics and Geotechnical Engineering",
+      "type": "child",
+      "id": "https://ror.org/03a205534"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

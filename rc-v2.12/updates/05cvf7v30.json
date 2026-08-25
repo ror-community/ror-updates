@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iphy.ac.cn"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458438.6"
+      ],
+      "preferred": "grid.458438.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0605 6806"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q10874032"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05cvf7v30",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.iop.cas.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IOP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Applied Physics of the Chinese Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Physics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Laboratory for Superconductivity",
+      "type": "child",
+      "id": "https://ror.org/05tekqt96"
+    },
+    {
+      "label": "Songshan Lake Materials Laboratory",
+      "type": "child",
+      "id": "https://ror.org/020vtf184"
+    },
+    {
+      "label": "State Key Laboratory of Magnetism",
+      "type": "child",
+      "id": "https://ror.org/04dshd728"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

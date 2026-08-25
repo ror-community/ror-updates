@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-freiburg.de"
+  ],
+  "established": 1457,
+  "external_ids": [
+    {
+      "all": [
+        "501100002714",
+        "501100003190",
+        "501100021729"
+      ],
+      "preferred": "501100002714",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5963.9"
+      ],
+      "preferred": "grid.5963.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0491 7203"
+      ],
+      "preferred": "0000 0004 0491 7203",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q153987"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0245cg223",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-freiburg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Freiburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 47.9959,
+        "lng": 7.85222,
+        "name": "Freiburg im Breisgau"
+      },
+      "geonames_id": 2925177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Albert Ludwig University of Freiburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Albert-Ludwigs-Universität Freiburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Freiburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Medical Center Freiburg",
+      "type": "related",
+      "id": "https://ror.org/03vzbgh69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

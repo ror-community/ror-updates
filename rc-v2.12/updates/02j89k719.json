@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fjirsm.ac.cn"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "501100006051"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418036.8"
+      ],
+      "preferred": "grid.418036.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1793 3165"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02j89k719",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.fjirsm.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "FJ",
+        "country_subdivision_name": "Fujian",
+        "lat": 26.06139,
+        "lng": 119.30611,
+        "name": "Fuzhou"
+      },
+      "geonames_id": 1810821
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FJIRSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fujian Institute of Research on the Structure of Matter"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院福建物质结构研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Structural Chemistry",
+      "type": "child",
+      "id": "https://ror.org/023fpv336"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ceitec.cz"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100006435"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454751.6"
+      ],
+      "preferred": "grid.454751.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0494 4180"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5061051"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01p7k1986",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ceitec.eu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Central_European_Institute_of_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "64",
+        "country_subdivision_name": "South Moravian",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "name": "Brno"
+      },
+      "geonames_id": 3078610
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEITEC "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Central European Institute of Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Central European Institute of Technology – Masaryk University",
+      "type": "child",
+      "id": "https://ror.org/009nz6031"
+    },
+    {
+      "label": "Brno University of Technology",
+      "type": "related",
+      "id": "https://ror.org/03613d656"
+    },
+    {
+      "label": "Czech Academy of Sciences, Institute of Physics of Materials",
+      "type": "related",
+      "id": "https://ror.org/02d02f052"
+    },
+    {
+      "label": "Veterinary Research Institute",
+      "type": "related",
+      "id": "https://ror.org/02zyjt610"
+    },
+    {
+      "label": "University of Veterinary Sciences Brno",
+      "type": "related",
+      "id": "https://ror.org/04rk6w354"
+    },
+    {
+      "label": "Masaryk University",
+      "type": "related",
+      "id": "https://ror.org/02j46qs45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

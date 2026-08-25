@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iie.ac.cn"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458480.5"
+      ],
+      "preferred": "grid.458480.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0559 5648"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18651359",
+        "Q9393168"
+      ],
+      "preferred": "Q18651359",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r53se39",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iie.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IIE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Information Engineering"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院信息工程研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Data Assurance and Communication Security",
+      "type": "child",
+      "id": "https://ror.org/02z2gfm30"
+    },
+    {
+      "label": "State Key Laboratory of Information Security",
+      "type": "child",
+      "id": "https://ror.org/012cr4033"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

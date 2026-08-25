@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ifz.ru"
+  ],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "501100017243"
+      ],
+      "preferred": "501100017243",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.435352.6"
+      ],
+      "preferred": "grid.435352.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0397 5049"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/056mrsz54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ifz.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Physics of the Earth. OJ Schmidt Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPE RAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Schmidt Institute of Physics of the Earth"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Schmidt Institute of Physics of the Earth of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Институт физики Земли им. О.Ю. Шмидта Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Earth Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0554h7e84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

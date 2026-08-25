@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nhls.ac.za"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100010753"
+      ],
+      "preferred": "501100010753",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416657.7"
+      ],
+      "preferred": "grid.416657.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0630 4574"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17052573"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00znvbk37",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nhls.ac.za/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_Health_Laboratory_Service"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "GP",
+        "country_subdivision_name": "Gauteng",
+        "lat": -26.20227,
+        "lng": 28.04363,
+        "name": "Johannesburg"
+      },
+      "geonames_id": 993800
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NHLS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Health Laboratory Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South African Institute for Medical Research",
+      "type": "child",
+      "id": "https://ror.org/05q7jp496"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

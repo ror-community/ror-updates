@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "osumc.edu"
+  ],
+  "established": 1834,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412332.5"
+      ],
+      "preferred": "grid.412332.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1545 0811"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7990266"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00c01js51",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://wexnermedical.osu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ohio_State_University_Wexner_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.96118,
+        "lng": -82.99879,
+        "name": "Columbus"
+      },
+      "geonames_id": 4509177
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OSUMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ohio State University Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The Ohio State University Wexner Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ohio State University Hospital",
+      "type": "child",
+      "id": "https://ror.org/020yh1f96"
+    },
+    {
+      "label": "The Ohio State University",
+      "type": "related",
+      "id": "https://ror.org/00rs6vg23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

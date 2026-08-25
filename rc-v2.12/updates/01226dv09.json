@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ukr.de"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100005296"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411941.8"
+      ],
+      "preferred": "grid.411941.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9194 7179"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01226dv09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uniklinikum-regensburg.de/e/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.01513,
+        "lng": 12.10161,
+        "name": "Regensburg"
+      },
+      "geonames_id": 2849483
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Regensburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Regensburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kinderklinik Regensburg",
+      "type": "child",
+      "id": "https://ror.org/05w0gx844"
+    },
+    {
+      "label": "Klinik und Poliklinik für Augenheilkunde Universitätsklinikum Regensburg",
+      "type": "child",
+      "id": "https://ror.org/02zmrd443"
+    },
+    {
+      "label": "Klinik und Poliklinik für Hals-Nasen-Ohren-Heilkunde",
+      "type": "child",
+      "id": "https://ror.org/01pndgw26"
+    },
+    {
+      "label": "University of Regensburg",
+      "type": "related",
+      "id": "https://ror.org/01eezs655"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

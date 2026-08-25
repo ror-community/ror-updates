@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uantwerpen.be"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "501100007660"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5284.b"
+      ],
+      "preferred": "grid.5284.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0790 3681"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q175241"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008x57b05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uantwerpen.be/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Antwerp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "VLG",
+        "country_subdivision_name": "Flanders",
+        "lat": 51.22047,
+        "lng": 4.40026,
+        "name": "Antwerp"
+      },
+      "geonames_id": 2803138
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UAntwerp"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universiteit Antwerpen"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Antwerp"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Antwerpen"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'Anvers"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Antwerp Management School",
+      "type": "child",
+      "id": "https://ror.org/00hm4a331"
+    },
+    {
+      "label": "VIB-UAntwerp Center for Molecular Neurology",
+      "type": "child",
+      "id": "https://ror.org/041x7eh14"
+    },
+    {
+      "label": "Antwerp University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01hwamj44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "policlinico.mi.it"
+  ],
+  "established": 1456,
+  "external_ids": [
+    {
+      "all": [
+        "501100009702"
+      ],
+      "preferred": "501100009702",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414818.0"
+      ],
+      "preferred": "grid.414818.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 8749"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1413761"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016zn0y21",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.policlinico.mi.it/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ospedale_Maggiore"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Ca' Granda"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Ospedale Maggiore"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Multidisciplinary Research in Health Science",
+      "type": "child",
+      "id": "https://ror.org/047sn6763"
+    },
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bond.edu.au"
+  ],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "501100001789"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1033.1"
+      ],
+      "preferred": "grid.1033.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0405 3820"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q892188"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006jxzx88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://bond.edu.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bond_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -28.00029,
+        "lng": 153.43088,
+        "name": "Gold Coast"
+      },
+      "geonames_id": 2165087
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bond University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gold Coast Hospital",
+      "type": "related",
+      "id": "https://ror.org/05eq01d13"
+    },
+    {
+      "label": "Robina Hospital",
+      "type": "related",
+      "id": "https://ror.org/0257s2812"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

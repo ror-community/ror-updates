@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ausl.bologna.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414090.8"
+      ],
+      "preferred": "grid.414090.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 4974"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02mby1820",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ausl.bologna.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Emilia-Romagna",
+        "lat": 44.49381,
+        "lng": 11.33875,
+        "name": "Bologna"
+      },
+      "geonames_id": 3181928
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda USL di Bologna"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituto delle Scienze Neurologiche di Bologna",
+      "type": "child",
+      "id": "https://ror.org/02mgzgr95"
+    },
+    {
+      "label": "Ospedale Bellaria",
+      "type": "child",
+      "id": "https://ror.org/05fz2yc38"
+    },
+    {
+      "label": "Ospedale Maggiore Carlo Alberto Pizzardi",
+      "type": "child",
+      "id": "https://ror.org/010tmdc88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

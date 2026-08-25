@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dmc.org"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413184.b"
+      ],
+      "preferred": "grid.413184.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0088 6903"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5265970"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gehxw18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dmc.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Detroit_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.33143,
+        "lng": -83.04575,
+        "name": "Detroit"
+      },
+      "geonames_id": 4990729
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Detroit Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children's Hospital of Michigan",
+      "type": "child",
+      "id": "https://ror.org/0429x9p85"
+    },
+    {
+      "label": "Detroit Receiving Hospital",
+      "type": "child",
+      "id": "https://ror.org/00682eh61"
+    },
+    {
+      "label": "Harper University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00sxe0e68"
+    },
+    {
+      "label": "Hutzel Women's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02paek818"
+    },
+    {
+      "label": "Sinai Grace Hospital",
+      "type": "child",
+      "id": "https://ror.org/00hysg385"
+    },
+    {
+      "label": "Rehabilitation Institute of Michigan",
+      "type": "related",
+      "id": "https://ror.org/04nqwjy64"
+    },
+    {
+      "label": "Wayne State University",
+      "type": "related",
+      "id": "https://ror.org/01070mq45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

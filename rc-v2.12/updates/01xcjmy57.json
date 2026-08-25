@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iov.veneto.it"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "501100009414"
+      ],
+      "preferred": "501100009414",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419546.b"
+      ],
+      "preferred": "grid.419546.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1808 1697"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01xcjmy57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ioveneto.it/index.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "34",
+        "country_subdivision_name": "Veneto",
+        "lat": 45.40797,
+        "lng": 11.88586,
+        "name": "Padua"
+      },
+      "geonames_id": 3171728
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IOV"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Oncologico Veneto"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Veneto Institute of Oncology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

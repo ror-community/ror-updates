@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ncnp.go.jp"
+  ],
+  "established": 1986,
+  "external_ids": [
+    {
+      "all": [
+        "501100009438"
+      ],
+      "preferred": "501100009438",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419280.6"
+      ],
+      "preferred": "grid.419280.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 8916"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0254bmq54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ncnp.go.jp/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCNP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Center of Neurology and Psychiatry"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "神経精神医学センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institute of Mental Health",
+      "type": "child",
+      "id": "https://ror.org/04t0s7x83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

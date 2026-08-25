@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nci.gov.my"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459841.5"
+      ],
+      "preferred": "grid.459841.5",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/044ybef51",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://nci.moh.gov.my/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "16",
+        "country_subdivision_name": "Putrajaya",
+        "lat": 2.93527,
+        "lng": 101.69112,
+        "name": "Putrajaya"
+      },
+      "geonames_id": 6697380
+    }
+  ],
+  "names": [
+    {
+      "lang": "ms",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut Kanser Negara"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Cancer Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/05ddxe180"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

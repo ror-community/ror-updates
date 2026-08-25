@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cau.edu.cn"
+  ],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "501100002365",
+        "501100003778"
+      ],
+      "preferred": "501100002365",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22935.3f"
+      ],
+      "preferred": "grid.22935.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0530 8290"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q257655"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v3ywz14",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://en.cau.edu.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/China_Agricultural_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CAU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "China Agricultural University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Zhōngguó Nóngyè Dàxué"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国农业大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Agricultural Biotechnology",
+      "type": "child",
+      "id": "https://ror.org/01gdqm013"
+    },
+    {
+      "label": "State Key Laboratory of Plant Physiology and Biochemistry",
+      "type": "child",
+      "id": "https://ror.org/02yjhrp74"
+    },
+    {
+      "label": "State Key Laboratory of Animal Nutrition",
+      "type": "child",
+      "id": "https://ror.org/03zfa9g67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

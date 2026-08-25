@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ul.edu.lb"
+  ],
+  "established": 1951,
+  "external_ids": [
+    {
+      "all": [
+        "501100004113"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411324.1"
+      ],
+      "preferred": "grid.411324.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2324 3572"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q975461"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05x6qnc69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ul.edu.lb/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Lebanese_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "LB",
+        "country_name": "Lebanon",
+        "country_subdivision_code": "BA",
+        "country_subdivision_name": "Beyrouth",
+        "lat": 33.89332,
+        "lng": 35.50157,
+        "name": "Beirut"
+      },
+      "geonames_id": 276781
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lebanese University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université Libanaise"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "الجامعة اللبنانية"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lebanese Hospital Geitaoui-University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/036da3063"
+    },
+    {
+      "label": "Rafik Hariri University Hospital",
+      "type": "related",
+      "id": "https://ror.org/000tqtb97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

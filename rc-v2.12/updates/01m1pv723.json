@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hug.ch"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100006388"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.150338.c"
+      ],
+      "preferred": "grid.150338.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0721 9812"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3145370"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01m1pv723",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hug-ge.ch/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Geneva_University_Hospitals"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Geneva",
+        "lat": 46.20222,
+        "lng": 6.14569,
+        "name": "Geneva"
+      },
+      "geonames_id": 2660646
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUG"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Hôpitaux universitaires de Genève"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital of Geneva"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Swiss Cancer Center Léman",
+      "type": "child",
+      "id": "https://ror.org/03kwyfa97"
+    },
+    {
+      "label": "University Centre of Legal Medicine",
+      "type": "child",
+      "id": "https://ror.org/03grgv984"
+    },
+    {
+      "label": "University of Geneva",
+      "type": "related",
+      "id": "https://ror.org/01swzsf04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-paderborn.de"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100008007"
+      ],
+      "preferred": "501100008007",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5659.f"
+      ],
+      "preferred": "grid.5659.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0940 2872"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q679134"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/058kzsd48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uni-paderborn.de/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Paderborn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.71905,
+        "lng": 8.75439,
+        "name": "Paderborn"
+      },
+      "geonames_id": 2855745
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Paderborn University"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Paderborn"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Musikwissenschaftliches Seminar Detmold/Paderborn",
+      "type": "child",
+      "id": "https://ror.org/023392c84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

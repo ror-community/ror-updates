@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wales.ac.uk"
+  ],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "100009878"
+      ],
+      "preferred": "100009878",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8155.9"
+      ],
+      "preferred": "grid.8155.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5904 6193"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1072029"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01se4f844",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wales.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Wales"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "WLS",
+        "country_subdivision_name": "Wales",
+        "lat": 51.48,
+        "lng": -3.18,
+        "name": "Cardiff"
+      },
+      "geonames_id": 2653822
+    }
+  ],
+  "names": [
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Cymru"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Wales"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Irish Baptist College",
+      "type": "related",
+      "id": "https://ror.org/007ew5756"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ippcaas.cn"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464356.6"
+      ],
+      "preferred": "grid.464356.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0499 5543"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30262665"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0111f7045",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.ippcaas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Plant Protection"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国农业科学院植物保护研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Biology of Plant Diseases and Insect Pests",
+      "type": "child",
+      "id": "https://ror.org/04bcwdq54"
+    },
+    {
+      "label": "Chinese Academy of Agricultural Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0313jb750"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

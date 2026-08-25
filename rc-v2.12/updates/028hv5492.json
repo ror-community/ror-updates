@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uniklinik-leipzig.de"
+  ],
+  "established": 1415,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411339.d"
+      ],
+      "preferred": "grid.411339.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8517 9062"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/028hv5492",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uniklinikum-leipzig.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      },
+      "geonames_id": 2879139
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Leipzig"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Leipzig"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "IFB Adiposity Diseases",
+      "type": "child",
+      "id": "https://ror.org/02sy3xj90"
+    },
+    {
+      "label": "Klinik und Poliklinik für Hals-, Nasen-, Ohrenheilkunde",
+      "type": "child",
+      "id": "https://ror.org/03cr5e788"
+    },
+    {
+      "label": "Poliklinik für Zahnerhaltung und Parodontologie",
+      "type": "child",
+      "id": "https://ror.org/04gpj3340"
+    },
+    {
+      "label": "Poliklinik für Zahnärztliche Prothetik und Werkstoffkunde",
+      "type": "child",
+      "id": "https://ror.org/020f8h126"
+    },
+    {
+      "label": "Leipzig University",
+      "type": "related",
+      "id": "https://ror.org/03s7gtk40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

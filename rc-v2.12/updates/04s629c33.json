@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nihs.go.jp"
+  ],
+  "established": 1874,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410797.c"
+      ],
+      "preferred": "grid.410797.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2227 8773"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04s629c33",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nihs.go.jp/english/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute of Health Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Tokyo Drug Control Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Tokyo Institute of Hygienic Sciences"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "厚生労働省国立医薬品食品衛生研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health Labour and Welfare",
+      "type": "parent",
+      "id": "https://ror.org/03mwa7s65"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

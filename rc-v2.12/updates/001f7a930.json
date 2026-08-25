@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cittadellasalute.to.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.432329.d"
+      ],
+      "preferred": "grid.432329.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1789 4477"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/001f7a930",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cittadellasalute.to.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "21",
+        "country_subdivision_name": "Piedmont",
+        "lat": 45.07049,
+        "lng": 7.68682,
+        "name": "Turin"
+      },
+      "geonames_id": 3165524
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Ospedaliera Citta' della Salute e della Scienza di Torino"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Sant'Anna",
+      "type": "child",
+      "id": "https://ror.org/010d4kb47"
+    },
+    {
+      "label": "University of Turin",
+      "type": "related",
+      "id": "https://ror.org/048tbm396"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

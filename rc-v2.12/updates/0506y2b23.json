@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "istitutotumori.na.it"
+  ],
+  "established": 1933,
+  "external_ids": [
+    {
+      "all": [
+        "501100014835"
+      ],
+      "preferred": "501100014835",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.508451.d"
+      ],
+      "preferred": "grid.508451.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 8805"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0506y2b23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://newportal.istitutotumori.na.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "72",
+        "country_subdivision_name": "Campania",
+        "lat": 40.85216,
+        "lng": 14.26811,
+        "name": "Naples"
+      },
+      "geonames_id": 3172394
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Nazionale Tumori IRCCS \"Fondazione G. Pascale\""
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nhri.cn"
+  ],
+  "established": 1935,
+  "external_ids": [
+    {
+      "all": [
+        "501100011336"
+      ],
+      "preferred": "501100011336",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.459786.1"
+      ],
+      "preferred": "grid.459786.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9248 0590"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02403qw73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.nhri.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "JS",
+        "country_subdivision_name": "Jiangsu",
+        "lat": 32.06167,
+        "lng": 118.77778,
+        "name": "Nanjing"
+      },
+      "geonames_id": 1799962
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NHRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nanjing Hydraulic Research Institute"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "水利部交通运输部国家能源局南京水利科学研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering",
+      "type": "child",
+      "id": "https://ror.org/012wsxz85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

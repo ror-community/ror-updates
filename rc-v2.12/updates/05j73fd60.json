@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sxicc.ac.cn"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "501100018804"
+      ],
+      "preferred": "501100018804",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454771.4"
+      ],
+      "preferred": "grid.454771.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1793 5312"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05j73fd60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.sxicc.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SX",
+        "country_subdivision_name": "Shanxi",
+        "lat": 37.86944,
+        "lng": 112.56028,
+        "name": "Taiyuan"
+      },
+      "geonames_id": 1793511
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "CAS Laboratory of Coal Chemistry"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Coal Chemistry"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院山西煤炭化学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Coal Conversion",
+      "type": "child",
+      "id": "https://ror.org/01hmrs507"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

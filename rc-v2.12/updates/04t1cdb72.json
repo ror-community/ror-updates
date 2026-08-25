@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "igsnrr.ac.cn"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "501100009950"
+      ],
+      "preferred": "501100009950",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424975.9"
+      ],
+      "preferred": "grid.424975.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8615 8685"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q22100889"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04t1cdb72",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.igsnrr.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IGSNRR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Geographic Sciences and Natural Resources Research"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院地理科学与资源研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Resources and Environmental Information System",
+      "type": "child",
+      "id": "https://ror.org/03w41by72"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

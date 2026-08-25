@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "incmnsz.mx"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416850.e"
+      ],
+      "preferred": "grid.416850.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0698 4037"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00xgvev73",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.incmnsz.mx/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCMNSZ"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Instituto Nacional de Ciencias Médicas y Nutrición"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute of Medical Sciences and Nutrition Salvador Zubirán"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Nacional de Salud Pública",
+      "type": "parent",
+      "id": "https://ror.org/032y0n460"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

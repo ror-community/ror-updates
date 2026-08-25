@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-05-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sio.org.cn"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "501100013288"
+      ],
+      "preferred": "501100013288",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.473484.8"
+      ],
+      "preferred": "grid.473484.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 0811"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01tkb7c15",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sio.org.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "ZJ",
+        "country_subdivision_name": "Zhejiang",
+        "lat": 30.29365,
+        "lng": 120.16142,
+        "name": "Hangzhou"
+      },
+      "geonames_id": 1808926
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIOSOA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Second Institute of Oceanography"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "国家海洋局第二海洋研究所创建于"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Satellite Ocean Environment Dynamics",
+      "type": "child",
+      "id": "https://ror.org/02q9ddr54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

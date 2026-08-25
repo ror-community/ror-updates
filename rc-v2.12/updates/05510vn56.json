@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usm.cl"
+  ],
+  "established": 1929,
+  "external_ids": [
+    {
+      "all": [
+        "100009051"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12148.3e"
+      ],
+      "preferred": "grid.12148.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1958 645X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q457793"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05510vn56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.usm.cl/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Federico_Santa_Mar%C3%ADa_Technical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "CL",
+        "country_name": "Chile",
+        "country_subdivision_code": "VS",
+        "country_subdivision_name": "Valparaiso",
+        "lat": -33.036,
+        "lng": -71.62963,
+        "name": "Valparaíso"
+      },
+      "geonames_id": 3868626
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federico Santa María Technical University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Santa Maria University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTFSM"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Técnica Federico Santa María"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnológico de Valparaíso",
+      "type": "child",
+      "id": "https://ror.org/00m0k5p91"
+    },
+    {
+      "label": "Millennium Institute for Subatomic Physics at High-Energy Frontier, Saphir",
+      "type": "child",
+      "id": "https://ror.org/00rbe2516"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

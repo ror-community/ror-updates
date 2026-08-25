@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nihon-u.ac.jp"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "100007683",
+        "100007854"
+      ],
+      "preferred": "100007683",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.260969.2"
+      ],
+      "preferred": "grid.260969.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2149 8846"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1326230",
+        "Q7034310"
+      ],
+      "preferred": "Q1326230",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05jk51a88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nihon-u.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Nihon_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Nihon Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nihon University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "日本大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nihon University Itabashi Hospital",
+      "type": "related",
+      "id": "https://ror.org/05qm99d82"
+    },
+    {
+      "label": "Surugadai Nihon University Hospital",
+      "type": "related",
+      "id": "https://ror.org/02wgf5858"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

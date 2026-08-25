@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "catalysis.ru"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418421.a"
+      ],
+      "preferred": "grid.418421.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0708 5316"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00kftxm09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://en.catalysis.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "NVS",
+        "country_subdivision_name": "Novosibirsk Oblast",
+        "lat": 55.02259,
+        "lng": 82.93175,
+        "name": "Novosibirsk"
+      },
+      "geonames_id": 1496747
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Boreskov Institute of Catalysis"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Catalysis. GK Boreskov Siberian Branch of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Catalysis"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Институт катализа им. Г.К. Борескова Сибирского отделения Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Chemistry and Material Sciences",
+      "type": "parent",
+      "id": "https://ror.org/059tqvg48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

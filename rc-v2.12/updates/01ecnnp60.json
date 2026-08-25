@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jsums.edu"
+  ],
+  "established": 1877,
+  "external_ids": [
+    {
+      "all": [
+        "100006989"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.257990.0"
+      ],
+      "preferred": "grid.257990.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0671 8898"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1747601"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ecnnp60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jsums.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Jackson_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MS",
+        "country_subdivision_name": "Mississippi",
+        "lat": 32.29876,
+        "lng": -90.18481,
+        "name": "Jackson"
+      },
+      "geonames_id": 4431410
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jackson State University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de Jackson"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mississippi Institutions of Higher Learning",
+      "type": "parent",
+      "id": "https://ror.org/04kqgqa72"
+    },
+    {
+      "label": "Mississippi Alabama Sea Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/04vzsq290"
+    },
+    {
+      "label": "Mississippi Space Grant Consortium",
+      "type": "related",
+      "id": "https://ror.org/0249rpb20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

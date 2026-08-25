@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uhb.nhs.uk"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100013963"
+      ],
+      "preferred": "100013963",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412563.7"
+      ],
+      "preferred": "grid.412563.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0376 6589"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7894775"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/014ja3n03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uhb.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_Hospitals_Birmingham_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.48142,
+        "lng": -1.89983,
+        "name": "Birmingham"
+      },
+      "geonames_id": 2655603
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UHB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospitals Birmingham NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NIHR Birmingham Liver Biomedical Research Unit",
+      "type": "child",
+      "id": "https://ror.org/00k5pte35"
+    },
+    {
+      "label": "Queen Elizabeth Hospital Birmingham",
+      "type": "child",
+      "id": "https://ror.org/048emj907"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

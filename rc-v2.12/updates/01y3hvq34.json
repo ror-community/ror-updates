@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sioc.ac.cn"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100011195"
+      ],
+      "preferred": "501100011195",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.422150.0"
+      ],
+      "preferred": "grid.422150.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1015 4378"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9384254"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01y3hvq34",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.sioc.cas.cn/au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806,
+        "name": "Shanghai"
+      },
+      "geonames_id": 1796236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIOC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shanghai Institute of Organic Chemistry"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院上海有机化学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Interdisciplinary Research Center of Biology and Chemistry",
+      "type": "child",
+      "id": "https://ror.org/04cwbar59"
+    },
+    {
+      "label": "State Key Laboratory of Synthetic Chemistry",
+      "type": "child",
+      "id": "https://ror.org/038ey3e97"
+    },
+    {
+      "label": "State Key Laboratory of Life Organic Chemistry",
+      "type": "child",
+      "id": "https://ror.org/01gg3z807"
+    },
+    {
+      "label": "State Key Laboratory of Organometallic Chemistry",
+      "type": "child",
+      "id": "https://ror.org/04kaae654"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

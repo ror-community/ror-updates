@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hsacco.it"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "grid.144767.7"
+      ],
+      "preferred": "grid.144767.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4682 2907"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0025g8755",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hsacco.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Luigi Sacco Hospital"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Ospedale Luigi Sacco"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ASST Fatebenefratelli Sacco",
+      "type": "parent",
+      "id": "https://ror.org/05dy5ab02"
+    },
+    {
+      "label": "University of Milan",
+      "type": "related",
+      "id": "https://ror.org/00wjc7c48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

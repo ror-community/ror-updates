@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iconcologia.net"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418701.b"
+      ],
+      "preferred": "grid.418701.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 8389"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01j1eb875",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ico.gencat.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Catalan Institute of Oncology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICO"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Català d'Oncologia"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Catalán de Oncología"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut d'Investigació Biomédica de Bellvitge",
+      "type": "child",
+      "id": "https://ror.org/0008xqs48"
+    },
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

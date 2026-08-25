@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bergmannsheil.de"
+  ],
+  "established": 1888,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412471.5"
+      ],
+      "preferred": "grid.412471.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0551 2937"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q49770"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04j9bvy88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bergmannsheil.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Berufsgenossenschaftliches_Universit%C3%A4tsklinikum_Bergmannsheil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.48165,
+        "lng": 7.21648,
+        "name": "Bochum"
+      },
+      "geonames_id": 2947416
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "BG University Hospital Bergmannsheil Bochum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "BG Universitätsklinikum Bergmannsheil Bochum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Berufsgenossenschaftliches Universitätsklinikum Bergmannsheil Bochum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Hospitals of the Ruhr-University of Bochum",
+      "type": "parent",
+      "id": "https://ror.org/03zcpvf19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

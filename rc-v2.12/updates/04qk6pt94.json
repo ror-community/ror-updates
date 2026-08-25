@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wright.edu"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100010288"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268333.f"
+      ],
+      "preferred": "grid.268333.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 7937"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2002085"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04qk6pt94",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wright.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Wright_State_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.75895,
+        "lng": -84.19161,
+        "name": "Dayton"
+      },
+      "geonames_id": 4509884
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État wright"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wright State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Dayton Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/02wgt3820"
+    },
+    {
+      "label": "Dayton VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03qjk6p58"
+    },
+    {
+      "label": "Good Samaritan Hospital",
+      "type": "related",
+      "id": "https://ror.org/00n9v4y14"
+    },
+    {
+      "label": "Hubbard Brook Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/00mkh7345"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

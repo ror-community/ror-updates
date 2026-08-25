@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aucegypt.edu"
+  ],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "501100009229"
+      ],
+      "preferred": "501100009229",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.252119.c"
+      ],
+      "preferred": "grid.252119.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0513 1456"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q469476"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0176yqn58",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aucegypt.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/American_University_in_Cairo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967,
+        "name": "Cairo"
+      },
+      "geonames_id": 360630
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AUC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "American University in Cairo"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université Américaine du Caire"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "الجامعة الأمريكية بالقاهرة"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "American University in Cairo New York Office",
+      "type": "child",
+      "id": "https://ror.org/02e31nc37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}
