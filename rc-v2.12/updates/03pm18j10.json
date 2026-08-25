@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hofstra.edu"
+  ],
+  "established": 1935,
+  "external_ids": [
+    {
+      "all": [
+        "100019821"
+      ],
+      "preferred": "100019821",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.257060.6"
+      ],
+      "preferred": "grid.257060.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 9943"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1623314"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03pm18j10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hofstra.edu/home/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Hofstra_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.70621,
+        "lng": -73.61874,
+        "name": "Hempstead"
+      },
+      "geonames_id": 5120478
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hofstra University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Donald & Barbara Zucker School of Medicine at Hofstra/Northwell",
+      "type": "child",
+      "id": "https://ror.org/01ff5td15"
+    },
+    {
+      "label": "Nassau University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03cc0mm23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

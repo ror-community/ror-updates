@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "csufresno.edu"
+  ],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "100010075"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.253558.c"
+      ],
+      "preferred": "grid.253558.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2309 3092"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1026919"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03enmdz06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fresnostate.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/California_State_University,_Fresno"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 36.74773,
+        "lng": -119.77237,
+        "name": "Fresno"
+      },
+      "geonames_id": 5350937
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "California State University, Fresno"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fresno State University"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université d'État de Californie à Fresno"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "California State University System",
+      "type": "parent",
+      "id": "https://ror.org/020qm1538"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

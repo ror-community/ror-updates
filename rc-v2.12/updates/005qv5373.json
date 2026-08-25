@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wakayama-med.ac.jp"
+  ],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "501100004420"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412857.d"
+      ],
+      "preferred": "grid.412857.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 1087"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4707175"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/005qv5373",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wakayama-med.ac.jp/english/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Wakayama_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "30",
+        "country_subdivision_name": "Wakayama",
+        "lat": 34.23333,
+        "lng": 135.16667,
+        "name": "Wakayama"
+      },
+      "geonames_id": 1926004
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wakayama Medical University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Wakayama kenritsu ika daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "和歌山県立医科大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kihoku hospital",
+      "type": "related",
+      "id": "https://ror.org/011p1c445"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

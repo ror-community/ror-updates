@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unimedizin-mainz.de"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100014584"
+      ],
+      "preferred": "501100014584",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410607.4"
+      ],
+      "preferred": "grid.410607.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00q1fsf04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unimedizin-mainz.de/home.html?L=1"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "RP",
+        "country_subdivision_name": "Rheinland-Pfalz",
+        "lat": 49.98185,
+        "lng": 8.28008,
+        "name": "Mainz"
+      },
+      "geonames_id": 2874225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Medical Center of the Johannes Gutenberg University Mainz"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsmedizin der Johannes Gutenberg-Universität Mainz"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Klinik und Poliklinik für Kinder- und Jugendpsychiatrie",
+      "type": "child",
+      "id": "https://ror.org/04pse2556"
+    },
+    {
+      "label": "Klinik und Poliklinik für Psychosomatische Medizin und Psychotherapie",
+      "type": "child",
+      "id": "https://ror.org/01nxxp011"
+    },
+    {
+      "label": "Johannes Gutenberg University Mainz",
+      "type": "related",
+      "id": "https://ror.org/023b0x485"
+    },
+    {
+      "label": "Translationale Onkologie an der Universitätsmedizin der Johannes Gutenberg-Universität Mainz",
+      "type": "related",
+      "id": "https://ror.org/04sz26p89"
+    },
+    {
+      "label": "Helmholtz Institute for Translational Oncology Mainz",
+      "type": "related",
+      "id": "https://ror.org/054qg2939"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

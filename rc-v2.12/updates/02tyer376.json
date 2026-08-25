@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dsmz.de"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420081.f"
+      ],
+      "preferred": "grid.420081.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9247 8466"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1203864"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02tyer376",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dsmz.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Deutsche_Sammlung_von_Mikroorganismen_und_Zellkulturen"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 52.26594,
+        "lng": 10.52673,
+        "name": "Braunschweig"
+      },
+      "geonames_id": 2945024
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DSMZ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Institute DSMZ – German Collection of Microorganisms and Cell Cultures"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Institut DSMZ-Deutsche Sammlung von Mikroorganismen und Zellkulturen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

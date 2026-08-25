@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "humanitas.it"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "501100020412"
+      ],
+      "preferred": "501100020412",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417728.f"
+      ],
+      "preferred": "grid.417728.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1756 8807"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05d538656",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.humanitas.it/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.38193,
+        "lng": 9.1559,
+        "name": "Rozzano"
+      },
+      "geonames_id": 3168837
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "IRCCS Humanitas Research Hospital"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto Clinico Humanitas IRCCS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Humanitas Mater Domini",
+      "type": "child",
+      "id": "https://ror.org/03n1tvb36"
+    },
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    },
+    {
+      "label": "Fondazione Humanitas per la Ricerca",
+      "type": "related",
+      "id": "https://ror.org/05fa04208"
+    },
+    {
+      "label": "Humanitas Gavazzeni",
+      "type": "related",
+      "id": "https://ror.org/035jrer59"
+    },
+    {
+      "label": "Humanitas University",
+      "type": "related",
+      "id": "https://ror.org/020dggs04"
+    },
+    {
+      "label": "Ospedale Humanitas Gradenigo",
+      "type": "related",
+      "id": "https://ror.org/017j6af40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

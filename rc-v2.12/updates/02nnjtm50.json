@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nssc.ac.cn"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454733.2"
+      ],
+      "preferred": "grid.454733.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0596 2874"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15909358"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02nnjtm50",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.nssc.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Center for Space Science and Applied Research"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Space Science Center"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "国家空间科学中心"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Space Science Institute - Beijing",
+      "type": "child",
+      "id": "https://ror.org/04tw9zq58"
+    },
+    {
+      "label": "State Key Laboratory of Space Weather",
+      "type": "child",
+      "id": "https://ror.org/02xbz6x26"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

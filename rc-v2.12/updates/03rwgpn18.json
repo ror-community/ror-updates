@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "clarkson.edu"
+  ],
+  "established": 1896,
+  "external_ids": [
+    {
+      "all": [
+        "100009217",
+        "100006465",
+        "100009218"
+      ],
+      "preferred": "100009217",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.254280.9"
+      ],
+      "preferred": "grid.254280.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0741 9486"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q931865"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03rwgpn18",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.clarkson.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Clarkson_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 44.66978,
+        "lng": -74.98131,
+        "name": "Potsdam"
+      },
+      "geonames_id": 5132103
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Clarkson University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Union Graduate College",
+      "type": "child",
+      "id": "https://ror.org/05p9w4h97"
+    },
+    {
+      "label": "Great Lakes Research Consortium",
+      "type": "related",
+      "id": "https://ror.org/05cshtm26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

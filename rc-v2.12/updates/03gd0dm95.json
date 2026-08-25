@@ -1,0 +1,129 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aku.edu"
+  ],
+  "established": 1983,
+  "external_ids": [
+    {
+      "all": [
+        "100007607"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7147.5"
+      ],
+      "preferred": "grid.7147.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0633 6224"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4690953"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03gd0dm95",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://aku.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Aga_Khan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "PK",
+        "country_name": "Pakistan",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "Sindh",
+        "lat": 24.8608,
+        "lng": 67.0104,
+        "name": "Karachi"
+      },
+      "geonames_id": 1174872
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AKU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Aga Khan University"
+    },
+    {
+      "lang": "ur",
+      "types": [
+        "label"
+      ],
+      "value": "آغا خان یونیورسٹی"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aga Khan Hospital for Women",
+      "type": "child",
+      "id": "https://ror.org/00d3ws365"
+    },
+    {
+      "label": "Aga Khan University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05xcx0k58"
+    },
+    {
+      "label": "Aga Khan University Nairobi",
+      "type": "child",
+      "id": "https://ror.org/01zv98a09"
+    },
+    {
+      "label": "The Aga Khan University (International) in the United Kingdom",
+      "type": "child",
+      "id": "https://ror.org/04m2z2476"
+    },
+    {
+      "label": "Aga Khan Development Network",
+      "type": "parent",
+      "id": "https://ror.org/028mpsh75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ouh.nhs.uk"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100006149"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410556.3"
+      ],
+      "preferred": "grid.410556.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0440 1440"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16976147"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03h2bh287",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ouh.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Oxford_University_Hospitals_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oxford University Hospitals NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cancer Research UK Oxford Centre",
+      "type": "child",
+      "id": "https://ror.org/05kgg0s20"
+    },
+    {
+      "label": "Churchill Hospital",
+      "type": "child",
+      "id": "https://ror.org/009vheq40"
+    },
+    {
+      "label": "Faringdon Day Hospital",
+      "type": "child",
+      "id": "https://ror.org/02pj4bp80"
+    },
+    {
+      "label": "Horton General Hospital",
+      "type": "child",
+      "id": "https://ror.org/03zeg3732"
+    },
+    {
+      "label": "John Radcliffe Hospital",
+      "type": "child",
+      "id": "https://ror.org/0080acb59"
+    },
+    {
+      "label": "NIHR Oxford Musculoskeletal Biomedical Research Centre",
+      "type": "child",
+      "id": "https://ror.org/00aps1a34"
+    },
+    {
+      "label": "Nuffield Orthopaedic Centre",
+      "type": "child",
+      "id": "https://ror.org/0036ate90"
+    },
+    {
+      "label": "Oxford Centre for Diabetes, Endocrinology and Metabolism",
+      "type": "child",
+      "id": "https://ror.org/03myafa32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

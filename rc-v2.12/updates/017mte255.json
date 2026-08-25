@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "equinor.com"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100004342",
+        "100016813"
+      ],
+      "preferred": "100016813",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.422595.d"
+      ],
+      "preferred": "grid.422595.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0467 7043"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1776022"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017mte255",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.equinor.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Statoil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Rogaland",
+        "lat": 58.97005,
+        "lng": 5.73332,
+        "name": "Stavanger"
+      },
+      "geonames_id": 3137115
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Equinor (Norway)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Statoil"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "StatoilHydro"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Equinor (Canada)",
+      "type": "child",
+      "id": "https://ror.org/04gtbbw62"
+    },
+    {
+      "label": "Equinor (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00xa9v334"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hw.ac.uk"
+  ],
+  "established": 1821,
+  "external_ids": [
+    {
+      "all": [
+        "100009767"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9531.e"
+      ],
+      "preferred": "grid.9531.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0656 7444"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1610024"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04mghma93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hw.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Heriot-Watt_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "name": "Edinburgh"
+      },
+      "geonames_id": 2650225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Heriot-Watt University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "International Centre for Mathematical Sciences",
+      "type": "child",
+      "id": "https://ror.org/03ab8zv57"
+    },
+    {
+      "label": "Maxwell Institute for Mathematical Sciences",
+      "type": "child",
+      "id": "https://ror.org/02tsqtg57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

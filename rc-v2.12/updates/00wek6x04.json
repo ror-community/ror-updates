@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uprm.edu"
+  ],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "grid.267044.3"
+      ],
+      "preferred": "grid.267044.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0398 9176"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896177"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00wek6x04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uprm.edu/portada/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Puerto_Rico_at_Mayag%C3%BCez"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "PR",
+        "country_name": "Puerto Rico",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Mayagüez",
+        "lat": 18.20107,
+        "lng": -67.13962,
+        "name": "Mayagüez"
+      },
+      "geonames_id": 4566385
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Recinto Universitario de Mayagüez"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPRM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Puerto Rico-Mayaguez"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Puerto Rico Sea Grant",
+      "type": "child",
+      "id": "https://ror.org/05t7fg049"
+    },
+    {
+      "label": "Puerto Rico Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/00bgr8r13"
+    },
+    {
+      "label": "University of Puerto Rico System",
+      "type": "parent",
+      "id": "https://ror.org/02yg0nm07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

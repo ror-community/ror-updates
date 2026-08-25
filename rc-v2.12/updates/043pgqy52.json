@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usra.edu"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100018624"
+      ],
+      "preferred": "100018624",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410493.b"
+      ],
+      "preferred": "grid.410493.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8634 1877"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7894455"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/043pgqy52",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.usra.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universities_Space_Research_Association"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.24038,
+        "lng": -76.83942,
+        "name": "Columbia"
+      },
+      "geonames_id": 4352053
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universities Space Research Association"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lunar and Planetary Institute",
+      "type": "child",
+      "id": "https://ror.org/01r4eh644"
+    },
+    {
+      "label": "Research Institute for Advanced Computer Science",
+      "type": "child",
+      "id": "https://ror.org/022qmyy53"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

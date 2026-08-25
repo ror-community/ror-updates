@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dicp.ac.cn"
+  ],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "501100002979"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423905.9"
+      ],
+      "preferred": "grid.423905.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1793 300X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5210926"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00prkya54",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.dicp.cas.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Dalian_Institute_of_Chemical_Physics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "LN",
+        "country_subdivision_name": "Liaoning",
+        "lat": 38.91222,
+        "lng": 121.60222,
+        "name": "Dalian"
+      },
+      "geonames_id": 1814087
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DICP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dalian Institute of Chemical Physics"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Huawusuo"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "大连化学物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dalian National Laboratory for Clean Energy",
+      "type": "child",
+      "id": "https://ror.org/04b7wbe03"
+    },
+    {
+      "label": "State Key Laboratory of Catalysis",
+      "type": "child",
+      "id": "https://ror.org/04wsvdt21"
+    },
+    {
+      "label": "State Key Laboratory of Molecular Reaction Dynamics",
+      "type": "child",
+      "id": "https://ror.org/03j283p93"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

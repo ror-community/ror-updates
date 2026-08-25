@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.477663.7"
+      ],
+      "preferred": "grid.477663.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 9857"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30270204"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00g0x9d29",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanita.puglia.it/web/ospedaliriunitifoggia/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "75",
+        "country_subdivision_name": "Apulia",
+        "lat": 41.45845,
+        "lng": 15.55188,
+        "name": "Foggia"
+      },
+      "geonames_id": 3176885
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Azienda Ospedaliero Universitaria 'Ospedali Riuniti' di Foggia"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ospedali Riuniti di Foggia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Puglia Salute",
+      "type": "parent",
+      "id": "https://ror.org/00jrmky87"
+    },
+    {
+      "label": "University of Foggia",
+      "type": "related",
+      "id": "https://ror.org/01xtv3204"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

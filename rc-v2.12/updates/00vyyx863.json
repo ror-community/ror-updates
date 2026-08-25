@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "easternhealth.org.au"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "100009717"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.414366.2"
+      ],
+      "preferred": "grid.414366.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0379 3501"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00vyyx863",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.easternhealth.org.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eastern Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Box Hill Hospital",
+      "type": "child",
+      "id": "https://ror.org/0484pjq71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

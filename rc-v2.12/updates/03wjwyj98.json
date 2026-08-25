@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "eppendorf.de"
+  ],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "grid.480123.c"
+      ],
+      "preferred": "grid.480123.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0553 3068"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q443211"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wjwyj98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eppendorf.com/DE-de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Eppendorf_(company)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.82709,
+        "lng": 6.9747,
+        "name": "Wesseling"
+      },
+      "geonames_id": 2810612
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eppendorf (Germany)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Eppendorf (Belgium)",
+      "type": "child",
+      "id": "https://ror.org/0431y1695"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

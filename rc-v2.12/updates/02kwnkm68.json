@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "henryford.com"
+  ],
+  "established": 1915,
+  "external_ids": [
+    {
+      "all": [
+        "100007278"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.239864.2"
+      ],
+      "preferred": "grid.239864.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8523 7701"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5721418"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02kwnkm68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.henryford.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Henry_Ford_Health_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.33143,
+        "lng": -83.04575,
+        "name": "Detroit"
+      },
+      "geonames_id": 4990729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "HFHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Henry Ford Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Henry Ford Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Henry Ford Hospital",
+      "type": "child",
+      "id": "https://ror.org/0193sb042"
+    },
+    {
+      "label": "Henry Ford Health + Michigan State University Health Sciences",
+      "type": "child",
+      "id": "https://ror.org/0599cab37"
+    },
+    {
+      "label": "Wayne State University",
+      "type": "related",
+      "id": "https://ror.org/01070mq45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "imech.ac.cn"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458484.1"
+      ],
+      "preferred": "grid.458484.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8003 2052"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15303083"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/057jnjd73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.imech.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMCAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Mechanics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院力学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Nonlinear Mechanics",
+      "type": "child",
+      "id": "https://ror.org/00xrp2v42"
+    },
+    {
+      "label": "State Key Laboratory of High Temperature Gas Dynamics",
+      "type": "child",
+      "id": "https://ror.org/05bfesv65"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

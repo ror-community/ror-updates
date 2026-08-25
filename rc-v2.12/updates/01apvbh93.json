@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "akademiska.se"
+  ],
+  "established": 1302,
+  "external_ids": [
+    {
+      "all": [
+        "501100005423"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412354.5"
+      ],
+      "preferred": "grid.412354.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2351 3333"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q430594"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01apvbh93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.akademiska.se/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Uppsala_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Uppsala",
+        "lat": 59.85882,
+        "lng": 17.63889,
+        "name": "Uppsala"
+      },
+      "geonames_id": 2666199
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Ackis"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Akademiska"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Akademiska Sjukhuset"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Akademiska sjukhuset"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Uppsala University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Akademiska Barnsjukhuset",
+      "type": "child",
+      "id": "https://ror.org/00f378f80"
+    },
+    {
+      "label": "Uppsala University",
+      "type": "related",
+      "id": "https://ror.org/048a87296"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

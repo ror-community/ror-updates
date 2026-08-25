@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "opt.ac.cn"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458522.c"
+      ],
+      "preferred": "grid.458522.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8681 4937"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30259688"
+      ],
+      "preferred": "Q30259688",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0444j5556",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://opt.cas.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Shaanxi",
+        "lat": 34.25833,
+        "lng": 108.92861,
+        "name": "Xi'an"
+      },
+      "geonames_id": 1790630
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "XIOPM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Xi'an Institute of Optics and Precision Mechanics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Xian Institute of Optics and Precision Mechanics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院西安光学精密机械研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Transient Optics and Photonics",
+      "type": "child",
+      "id": "https://ror.org/025hkeg57"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

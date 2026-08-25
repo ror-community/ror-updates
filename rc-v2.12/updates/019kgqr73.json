@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uta.edu"
+  ],
+  "established": 1895,
+  "external_ids": [
+    {
+      "all": [
+        "100009497"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267315.4"
+      ],
+      "preferred": "grid.267315.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2181 9515"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1230739"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/019kgqr73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uta.edu/uta/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Texas_at_Arlington"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.73569,
+        "lng": -97.10807,
+        "name": "Arlington"
+      },
+      "geonames_id": 4671240
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "The University of Texas at Arlington"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UT Arlington"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UTA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université du Texas à Arlington"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The University of Texas System",
+      "type": "parent",
+      "id": "https://ror.org/01gek1696"
+    },
+    {
+      "label": "VA North Texas Health Care System",
+      "type": "related",
+      "id": "https://ror.org/01nzxq896"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

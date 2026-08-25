@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "insp.mx"
+  ],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "501100015381"
+      ],
+      "preferred": "501100015381",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415771.1"
+      ],
+      "preferred": "grid.415771.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1773 4764"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30280635"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032y0n460",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.insp.mx/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "MOR",
+        "country_subdivision_name": "Morelos",
+        "lat": 18.9261,
+        "lng": -99.23075,
+        "name": "Cuernavaca"
+      },
+      "geonames_id": 3529947
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INSP"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Salud Pública"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Institute of Public Health of Mexico"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán",
+      "type": "child",
+      "id": "https://ror.org/00xgvev73"
+    },
+    {
+      "label": "Secretaria de Salud",
+      "type": "parent",
+      "id": "https://ror.org/0082wq496"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

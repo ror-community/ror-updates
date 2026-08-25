@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umkc.edu"
+  ],
+  "established": 1933,
+  "external_ids": [
+    {
+      "all": [
+        "100009504",
+        "100009505",
+        "100006590"
+      ],
+      "preferred": "100009504",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266756.6"
+      ],
+      "preferred": "grid.266756.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 926X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q940690"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01w0d5g70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.umkc.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Missouri%E2%80%93Kansas_City"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MO",
+        "country_subdivision_name": "Missouri",
+        "lat": 39.09973,
+        "lng": -94.57857,
+        "name": "Kansas City"
+      },
+      "geonames_id": 4393217
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMKC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Missouri–Kansas City"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Missouri System",
+      "type": "parent",
+      "id": "https://ror.org/032va1j59"
+    },
+    {
+      "label": "Children's Mercy Hospital",
+      "type": "related",
+      "id": "https://ror.org/04zfmcq84"
+    },
+    {
+      "label": "Kansas City VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/050mdr969"
+    },
+    {
+      "label": "Truman Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05d8zd458"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

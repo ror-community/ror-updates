@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.33623.37"
+      ],
+      "preferred": "grid.33623.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0585 454X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30279559"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04d5k5771",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eifer.kit.edu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.00937,
+        "lng": 8.40444,
+        "name": "Karlsruhe"
+      },
+      "geonames_id": 2892794
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EIfER"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Institute for Energy Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Europäisches Institut für Energieforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Karlsruhe Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/04t3en479"
+    },
+    {
+      "label": "Électricité de France (France)",
+      "type": "parent",
+      "id": "https://ror.org/03wb8xz10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

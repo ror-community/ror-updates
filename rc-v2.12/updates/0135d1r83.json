@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "yokohama-cu.ac.jp"
+  ],
+  "established": 1882,
+  "external_ids": [
+    {
+      "all": [
+        "100017104"
+      ],
+      "preferred": "100017104",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268441.d"
+      ],
+      "preferred": "grid.268441.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1033 6139"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q914024"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0135d1r83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.yokohama-cu.ac.jp/index-e.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Yokohama_City_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Kanagawa",
+        "lat": 35.43333,
+        "lng": 139.65,
+        "name": "Yokohama"
+      },
+      "geonames_id": 1848354
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "YCU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Yokohama City University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Yokohama Shiritsu Daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "横浜市立大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Yokohama City University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03k95ve17"
+    },
+    {
+      "label": "Yokohama City University Hospital",
+      "type": "related",
+      "id": "https://ror.org/010hfy465"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

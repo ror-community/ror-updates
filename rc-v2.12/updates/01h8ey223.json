@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "multimedica.it"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420421.1"
+      ],
+      "preferred": "grid.420421.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1784 7240"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01h8ey223",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.multimedica.it/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "MultiMedica"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale San Giuseppe",
+      "type": "child",
+      "id": "https://ror.org/05m6e7d23"
+    },
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

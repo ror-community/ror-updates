@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lzb.ac.cn"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "501100002902"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.496923.3"
+      ],
+      "preferred": "grid.496923.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9805 287X",
+        "0000 0004 1799 3141",
+        "0000 0004 1769 9989",
+        "0000 0004 1798 0543",
+        "0000 0004 1800 3218"
+      ],
+      "preferred": "0000 0000 9805 287X",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01jz1e142",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.nieer.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "GS",
+        "country_subdivision_name": "Gansu",
+        "lat": 36.05701,
+        "lng": 103.83987,
+        "name": "Lanzhou"
+      },
+      "geonames_id": 1804430
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIEER"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northwest Institute of Eco-Environment and Resources"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院西北生态环境资源研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

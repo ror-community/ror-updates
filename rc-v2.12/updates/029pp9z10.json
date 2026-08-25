@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jhuapl.edu"
+  ],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100012314"
+      ],
+      "preferred": "100012314",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.474430.0"
+      ],
+      "preferred": "grid.474430.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0630 1170"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q249373"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/029pp9z10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jhuapl.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Applied_Physics_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.139,
+        "lng": -76.87053,
+        "name": "North Laurel"
+      },
+      "geonames_id": 4363964
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "APL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JHU"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "JHU/APL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Johns Hopkins University Applied Physics Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Johns Hopkins University",
+      "type": "parent",
+      "id": "https://ror.org/00za53h95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

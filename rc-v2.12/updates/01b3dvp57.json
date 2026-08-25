@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "garvan.org.au"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "501100003355"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415306.5"
+      ],
+      "preferred": "grid.415306.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9983 6924"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5524507"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01b3dvp57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.garvan.org.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Garvan_Institute_of_Medical_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.87939,
+        "lng": 151.21925,
+        "name": "Darlinghurst"
+      },
+      "geonames_id": 2169378
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Garvan Institute of Medical Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St Vincent's Hospital Sydney",
+      "type": "parent",
+      "id": "https://ror.org/000ed3w25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

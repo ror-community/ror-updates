@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jic.ac.uk"
+  ],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "grid.14830.3e"
+      ],
+      "preferred": "grid.14830.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2175 7246"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q365105"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/055zmrh94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.jic.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/John_Innes_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.62783,
+        "lng": 1.29834,
+        "name": "Norwich"
+      },
+      "geonames_id": 2641181
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "John Innes Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biotechnology and Biological Sciences Research Council",
+      "type": "parent",
+      "id": "https://ror.org/00cwqg982"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

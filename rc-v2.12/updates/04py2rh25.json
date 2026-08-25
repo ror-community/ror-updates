@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mgb.org"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "100007806"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452687.a"
+      ],
+      "preferred": "grid.452687.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0378 0997"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7140719"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04py2rh25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.massgeneralbrigham.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Partners_HealthCare"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "name": "Boston"
+      },
+      "geonames_id": 4930956
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mass General Brigham"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PHS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Brigham and Women's Hospital",
+      "type": "child",
+      "id": "https://ror.org/04b6nzv94"
+    },
+    {
+      "label": "Massachusetts General Hospital",
+      "type": "child",
+      "id": "https://ror.org/002pd6e78"
+    },
+    {
+      "label": "Nantucket Cottage Hospital",
+      "type": "child",
+      "id": "https://ror.org/00jhqgj32"
+    },
+    {
+      "label": "Spaulding Rehabilitation Hospital",
+      "type": "child",
+      "id": "https://ror.org/011dvr318"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

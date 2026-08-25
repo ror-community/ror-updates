@@ -1,0 +1,138 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-graz.at"
+  ],
+  "established": 1585,
+  "external_ids": [
+    {
+      "all": [
+        "501100009057"
+      ],
+      "preferred": "501100009057",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5110.5"
+      ],
+      "preferred": "grid.5110.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2153 9003"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q622683"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01faaaf77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-graz.at/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Graz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "6",
+        "country_subdivision_name": "Styria",
+        "lat": 47.06733,
+        "lng": 15.44197,
+        "name": "Graz"
+      },
+      "geonames_id": 2778067
+    }
+  ],
+  "names": [
+    {
+      "lang": "la",
+      "types": [
+        "alias"
+      ],
+      "value": "Carolo Franciscea Graecensis"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Karl-Franzens-Universität Graz"
+    },
+    {
+      "lang": "hr",
+      "types": [
+        "label"
+      ],
+      "value": "Sveučilište u Grazu"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Graz"
+    },
+    {
+      "lang": "sl",
+      "types": [
+        "label"
+      ],
+      "value": "Univerza v Gradcu"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute for European Tort Law",
+      "type": "child",
+      "id": "https://ror.org/00n0zsa28"
+    },
+    {
+      "label": "Graz University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00pw0pp06"
+    },
+    {
+      "label": "Research Center Pharmaceutical Engineering (Austria)",
+      "type": "child",
+      "id": "https://ror.org/03dafx737"
+    },
+    {
+      "label": "Austrian Centre of Industrial Biotechnology (Austria)",
+      "type": "child",
+      "id": "https://ror.org/03dm7dd93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nwrc-eg.org"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463259.f"
+      ],
+      "preferred": "grid.463259.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0483 3317"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21015855"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04320xd69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nwrc-egypt.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/The_National_Water_Research_Center_(Egypt)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "country_subdivision_code": "C",
+        "country_subdivision_name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967,
+        "name": "Cairo"
+      },
+      "geonames_id": 360630
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NWRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Water Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Water Resources and Irrigation",
+      "type": "parent",
+      "id": "https://ror.org/044geq124"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

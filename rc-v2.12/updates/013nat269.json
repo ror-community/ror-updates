@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "syke.fi"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100013300"
+      ],
+      "preferred": "501100013300",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410381.f"
+      ],
+      "preferred": "grid.410381.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1019 1419"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3067270"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013nat269",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.syke.fi/en-US"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Finnish_Environment_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Finlands miljöcentral"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Finnish Environment Institute"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SYKE"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Suomen ympäristökeskus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of the Environment",
+      "type": "parent",
+      "id": "https://ror.org/03rtq6c48"
+    },
+    {
+      "label": "Finnish Biodiversity Information Facility",
+      "type": "related",
+      "id": "https://ror.org/01c0yey93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

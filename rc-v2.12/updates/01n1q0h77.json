@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100016992"
+      ],
+      "preferred": "100016992",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412242.3"
+      ],
+      "preferred": "grid.412242.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1937 0693"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q947259"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01n1q0h77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.up.edu.mx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Panamerican_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Panamerican University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UP"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidad Panamericana"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Universidad Panamericana, campus Ciudad de México",
+      "type": "child",
+      "id": "https://ror.org/02z7c6320"
+    },
+    {
+      "label": "Universidad Panamericana, campus Guadalajara",
+      "type": "child",
+      "id": "https://ror.org/02y5g8263"
+    },
+    {
+      "label": "Universidad Panamericana, campus Aguascalientes",
+      "type": "child",
+      "id": "https://ror.org/005tekc97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

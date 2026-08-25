@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "atomki.hu"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418861.2"
+      ],
+      "preferred": "grid.418861.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0674 7808"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1161067"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006vxbq87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://atomki.hu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ATOMKI"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "country_subdivision_code": "HB",
+        "country_subdivision_name": "Hajdú-Bihar",
+        "lat": 47.53167,
+        "lng": 21.62444,
+        "name": "Debrecen"
+      },
+      "geonames_id": 721472
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "ATOMKI"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "alias"
+      ],
+      "value": "Atommagkutató Intézet"
+    },
+    {
+      "lang": "hu",
+      "types": [
+        "label"
+      ],
+      "value": "HUN-REN Atommagkutató Intézet"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "HUN-REN Institute for Nuclear Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute for Nuclear Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hungarian Research Network",
+      "type": "parent",
+      "id": "https://ror.org/04w6pnc49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

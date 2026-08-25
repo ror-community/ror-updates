@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nui.ie"
+  ],
+  "established": 1908,
+  "external_ids": [
+    {
+      "all": [
+        "100009770"
+      ],
+      "preferred": "100009770",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9344.a"
+      ],
+      "preferred": "grid.9344.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0488 240X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1860208"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00shsf120",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nui.ie/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_University_of_Ireland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "L",
+        "country_subdivision_name": "Leinster",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "name": "Dublin"
+      },
+      "geonames_id": 2964574
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NUI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University of Ireland"
+    },
+    {
+      "lang": "ga",
+      "types": [
+        "label"
+      ],
+      "value": "Ollscoil na hÉireann"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ollscoil na Gaillimhe – University of Galway",
+      "type": "child",
+      "id": "https://ror.org/03bea9k73"
+    },
+    {
+      "label": "National University of Ireland, Maynooth",
+      "type": "child",
+      "id": "https://ror.org/048nfjm95"
+    },
+    {
+      "label": "University College Cork",
+      "type": "child",
+      "id": "https://ror.org/03265fv13"
+    },
+    {
+      "label": "University College Dublin",
+      "type": "child",
+      "id": "https://ror.org/05m7pjf47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

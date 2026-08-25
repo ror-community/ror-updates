@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "siom.ac.cn"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "501100008841"
+      ],
+      "preferred": "501100008841",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458462.9"
+      ],
+      "preferred": "grid.458462.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2226 7214"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03g897070",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.siom.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806,
+        "name": "Shanghai"
+      },
+      "geonames_id": 1796236
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SIOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shanghai Institute of Optics and Fine Mechanics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院上海光学精密机械研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of High Field Laser Physics",
+      "type": "child",
+      "id": "https://ror.org/04thqfb29"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

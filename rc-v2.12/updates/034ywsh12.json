@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "necasc.umass.edu"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "100030852"
+      ],
+      "preferred": "100030852",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484089.9"
+      ],
+      "preferred": "grid.484089.9",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/034ywsh12",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://necasc.umass.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.37537,
+        "lng": -72.51925,
+        "name": "Amherst Center"
+      },
+      "geonames_id": 4929023
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NE CASC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Northeast Climate Adaptation Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Northeast Climate Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Climate Adaptation Science Centers",
+      "type": "parent",
+      "id": "https://ror.org/023czga33"
+    },
+    {
+      "label": "University of Massachusetts Amherst",
+      "type": "parent",
+      "id": "https://ror.org/0072zz521"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

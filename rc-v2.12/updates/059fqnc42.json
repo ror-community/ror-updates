@@ -1,0 +1,148 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "100006193"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419077.c"
+      ],
+      "preferred": "grid.419077.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0637 6607"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q618728"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059fqnc42",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nasa.gov/centers/glenn/home/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Glenn_Research_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.4995,
+        "lng": -81.69541,
+        "name": "Cleveland"
+      },
+      "geonames_id": 5150529
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Flight Propulsion Research Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Glenn Research Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "John H. Glenn Research Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LeRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lewis Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Neil A. Armstrong Test Facility",
+      "type": "child",
+      "id": "https://ror.org/057xcp713"
+    },
+    {
+      "label": "NASA Safety Center",
+      "type": "child",
+      "id": "https://ror.org/02z0mvz29"
+    },
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "Aircraft Engine Research Laboratory",
+      "type": "predecessor",
+      "id": "https://ror.org/05b5wvf11"
+    },
+    {
+      "label": "Ohio Aerospace Institute",
+      "type": "child",
+      "id": "https://ror.org/02e36tk84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

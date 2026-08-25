@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "barrowneuro.org"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100009797",
+        "100013014"
+      ],
+      "preferred": "100013014",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.427785.b"
+      ],
+      "preferred": "grid.427785.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0664 3531"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4863895"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01fwrsq33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.barrowneuro.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Barrow_Neurological_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AZ",
+        "country_subdivision_name": "Arizona",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "name": "Phoenix"
+      },
+      "geonames_id": 5308655
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Barrow Neurological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St. Joseph's Hospital and Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/00m72wv30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

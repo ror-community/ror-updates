@@ -1,0 +1,182 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hus.fi"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "501100003756"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15485.3d"
+      ],
+      "preferred": "grid.15485.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9950 5666"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q246315"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02e8hzf44",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hus.fi/en/Pages/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Helsinki_University_Central_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUCH"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUCS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HYKS"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "alias"
+      ],
+      "value": "Helsingfors universitets centralsjukhus"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Helsingin seudun yliopistollinen keskussairaala"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helsinki University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helsinki Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/00dqfzf20"
+    },
+    {
+      "label": "Herttoniemi Hospital",
+      "type": "child",
+      "id": "https://ror.org/03kpa7r53"
+    },
+    {
+      "label": "Hyvinkää Hospital",
+      "type": "child",
+      "id": "https://ror.org/03y1rev40"
+    },
+    {
+      "label": "Jorvi Hospital",
+      "type": "child",
+      "id": "https://ror.org/05fscjm95"
+    },
+    {
+      "label": "Kellokoski Hospital",
+      "type": "child",
+      "id": "https://ror.org/03ee58b76"
+    },
+    {
+      "label": "Kätilöopisto Maternity Hospital",
+      "type": "child",
+      "id": "https://ror.org/03a1rt493"
+    },
+    {
+      "label": "Peijas Hospital",
+      "type": "child",
+      "id": "https://ror.org/003qr7703"
+    },
+    {
+      "label": "Töölö Hospital",
+      "type": "child",
+      "id": "https://ror.org/058ma0d84"
+    },
+    {
+      "label": "Hospital District of Helsinki and Uusimaa",
+      "type": "parent",
+      "id": "https://ror.org/020cpqb94"
+    },
+    {
+      "label": "University of Helsinki",
+      "type": "related",
+      "id": "https://ror.org/040af2s02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

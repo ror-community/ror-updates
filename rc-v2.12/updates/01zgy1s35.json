@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uke.de"
+  ],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "501100012680"
+      ],
+      "preferred": "501100012680",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.13648.38"
+      ],
+      "preferred": "grid.13648.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 3484"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q316207"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01zgy1s35",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uke.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_Medical_Center_Hamburg-Eppendorf"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HH",
+        "country_subdivision_name": "Hamburg",
+        "lat": 53.55073,
+        "lng": 9.99302,
+        "name": "Hamburg"
+      },
+      "geonames_id": 2911298
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Medical Center Hamburg-Eppendorf"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Hamburg-Eppendorf"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Altonaer Kinderkrankenhaus",
+      "type": "child",
+      "id": "https://ror.org/038p55355"
+    },
+    {
+      "label": "Martini-Klinik",
+      "type": "child",
+      "id": "https://ror.org/01vb5ks25"
+    },
+    {
+      "label": "University Cancer Center Hamburg",
+      "type": "child",
+      "id": "https://ror.org/02b48z609"
+    },
+    {
+      "label": "Centre for Structural Systems Biology",
+      "type": "child",
+      "id": "https://ror.org/04fhwda97"
+    },
+    {
+      "label": "Universität Hamburg",
+      "type": "parent",
+      "id": "https://ror.org/00g30e956"
+    },
+    {
+      "label": "ERN RARE-LIVER",
+      "type": "related",
+      "id": "https://ror.org/036e61f39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

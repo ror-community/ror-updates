@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kagawa-u.ac.jp"
+  ],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100015075"
+      ],
+      "preferred": "100015075",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.258331.e"
+      ],
+      "preferred": "grid.258331.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8662 309X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1069400"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04j7mzp05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kagawa-u.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kagawa_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "37",
+        "country_subdivision_name": "Kagawa",
+        "lat": 34.33333,
+        "lng": 134.05,
+        "name": "Takamatsu"
+      },
+      "geonames_id": 1851100
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kagawa Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kagawa University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "香川大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kagawa University Hospital",
+      "type": "child",
+      "id": "https://ror.org/033sspj46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

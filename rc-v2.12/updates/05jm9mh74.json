@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hopital-novo.fr"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.440383.8"
+      ],
+      "preferred": "grid.440383.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1765 1969"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30293555"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05jm9mh74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hopital-novo.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 49.05,
+        "lng": 2.1,
+        "name": "Pontoise"
+      },
+      "geonames_id": 2986140
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CHRD"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier René-Dubos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hôpital NOVO"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Groupement Hospitalier Intercommunal du Vexin",
+      "type": "predecessor",
+      "id": "https://ror.org/024magd57"
+    },
+    {
+      "label": "Groupe Hospitalier Carnelle Portes de l’Oise",
+      "type": "predecessor",
+      "id": "https://ror.org/01sbec417"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

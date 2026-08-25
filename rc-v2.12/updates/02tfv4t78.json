@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "corning.com"
+  ],
+  "established": 1851,
+  "external_ids": [
+    {
+      "all": [
+        "100008280"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417796.a"
+      ],
+      "preferred": "grid.417796.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q5842736"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02tfv4t78",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.corning.com/in/en.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Corning_Inc."
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 42.14285,
+        "lng": -77.05469,
+        "name": "Corning"
+      },
+      "geonames_id": 5113760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Corning (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Corning Glass Works"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Corning (France)",
+      "type": "child",
+      "id": "https://ror.org/02e1bds08"
+    },
+    {
+      "label": "Corning (Israel)",
+      "type": "child",
+      "id": "https://ror.org/01xs70477"
+    },
+    {
+      "label": "Corning (South Korea)",
+      "type": "child",
+      "id": "https://ror.org/04asmh688"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

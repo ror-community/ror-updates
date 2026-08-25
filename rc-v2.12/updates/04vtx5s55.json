@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unima.ac.mw"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "grid.10595.38"
+      ],
+      "preferred": "grid.10595.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2113 2211"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q671642"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vtx5s55",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unima.mw/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Malawi"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "MW",
+        "country_name": "Malawi",
+        "country_subdivision_code": "S",
+        "country_subdivision_name": "Southern Region",
+        "lat": -15.38596,
+        "lng": 35.3188,
+        "name": "Zomba"
+      },
+      "geonames_id": 923295
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNIMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Malawi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Malawi-Liverpool-Wellcome Trust Clinical Research Programme",
+      "type": "child",
+      "id": "https://ror.org/03tebt685"
+    },
+    {
+      "label": "Queen Elizabeth Central Hospital",
+      "type": "related",
+      "id": "https://ror.org/025sthg37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sinap.ac.cn"
+  ],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450275.1"
+      ],
+      "preferred": "grid.450275.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9989 3072"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9384253"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02w6gr951",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.sinap.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Shanghai",
+        "lat": 31.23995,
+        "lng": 121.50094,
+        "name": "Pudong"
+      },
+      "geonames_id": 1798524
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SINAP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shanghai Institute of Applied Physics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Shanghai Institute of Nuclear Research"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院上海应用物理研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Key Laboratory of Nuclear Radiation and Nuclear Energy Technology",
+      "type": "child",
+      "id": "https://ror.org/03prcq065"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

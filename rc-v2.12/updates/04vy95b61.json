@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nstda.or.th"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100004192"
+      ],
+      "preferred": "501100004192",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425537.2"
+      ],
+      "preferred": "grid.425537.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2191 4408"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5970603"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04vy95b61",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nstda.or.th/eng/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Science_and_Technology_Development_Agency"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TH",
+        "country_name": "Thailand",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Pathum Thani",
+        "lat": 14.01346,
+        "lng": 100.53049,
+        "name": "Pathum Thani"
+      },
+      "geonames_id": 1607983
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSTDA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Science and Technology Development Agency"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Center for Genetic Engineering and Biotechnology",
+      "type": "child",
+      "id": "https://ror.org/047aswc67"
+    },
+    {
+      "label": "National Electronics and Computer Technology Center",
+      "type": "child",
+      "id": "https://ror.org/04z82ry91"
+    },
+    {
+      "label": "National Nanotechnology Center",
+      "type": "child",
+      "id": "https://ror.org/01neh8064"
+    },
+    {
+      "label": "Thailand Graduate Institute of Science and Technology",
+      "type": "child",
+      "id": "https://ror.org/02edr8z79"
+    },
+    {
+      "label": "Thailand National Metal and Materials Technology Center",
+      "type": "child",
+      "id": "https://ror.org/041j7s452"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

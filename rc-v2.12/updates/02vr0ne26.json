@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ieo.it"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "100018429"
+      ],
+      "preferred": "100018429",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15667.33"
+      ],
+      "preferred": "grid.15667.33",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1757 0843"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1376693"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02vr0ne26",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ieo.it/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/European_Institute_of_Oncology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Institute of Oncology"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IEO"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto Europeo di Oncologia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

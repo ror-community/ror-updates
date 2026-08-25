@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100015810"
+      ],
+      "preferred": "100015810",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.465216.2"
+      ],
+      "preferred": "grid.465216.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0466 6563"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/045d9gj14",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.ccteg.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CCTEG"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "China Coal Technology and Engineering Group Corp (China)"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国煤炭科工集团有限公司"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CCTEG Chongqing Research Institute (China)",
+      "type": "child",
+      "id": "https://ror.org/01w6g9j03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

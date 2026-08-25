@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gig.ac.cn"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "501100011140"
+      ],
+      "preferred": "501100011140",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454798.3"
+      ],
+      "preferred": "grid.454798.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0644 5393"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0356cst02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.gig.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "GD",
+        "country_subdivision_name": "Guangdong",
+        "lat": 23.11667,
+        "lng": 113.25,
+        "name": "Guangzhou"
+      },
+      "geonames_id": 1809858
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GIGCAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Guangzhou Institute of Geochemistry"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Geology"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院广州地球化学研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Changsha Mineral Resources Exploration Center",
+      "type": "child",
+      "id": "https://ror.org/02jmf0570"
+    },
+    {
+      "label": "State Key Laboratory of Isotope Geochemistry",
+      "type": "child",
+      "id": "https://ror.org/00nycge49"
+    },
+    {
+      "label": "State Key Laboratory of Organic Geochemistry",
+      "type": "child",
+      "id": "https://ror.org/00x9tpk83"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

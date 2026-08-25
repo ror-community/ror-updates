@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ao-pisa.toscana.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.144189.1"
+      ],
+      "preferred": "grid.144189.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1756 8209"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05xrcj819",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ao-pisa.toscana.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.70853,
+        "lng": 10.4036,
+        "name": "Pisa"
+      },
+      "geonames_id": 3170647
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Ospedaliera Universitaria Pisana"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Hospital of Pisa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Cisanello",
+      "type": "child",
+      "id": "https://ror.org/00mc91w09"
+    },
+    {
+      "label": "ERN ReCONNET",
+      "type": "related",
+      "id": "https://ror.org/04069k268"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ucms.ac.in"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "501100022494"
+      ],
+      "preferred": "501100022494",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412444.3"
+      ],
+      "preferred": "grid.412444.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1806 781X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7894658"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01h3fm945",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ucms.ac.in/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_College_of_Medical_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IN",
+        "country_name": "India",
+        "country_subdivision_code": "DL",
+        "country_subdivision_name": "Delhi",
+        "lat": 28.65195,
+        "lng": 77.23149,
+        "name": "Delhi"
+      },
+      "geonames_id": 1273294
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UCMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University College of Medical Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Delhi",
+      "type": "parent",
+      "id": "https://ror.org/04gzb2213"
+    },
+    {
+      "label": "Guru Teg Bahadur Hospital",
+      "type": "related",
+      "id": "https://ror.org/02v8rz176"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

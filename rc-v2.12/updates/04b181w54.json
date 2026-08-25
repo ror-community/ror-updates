@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "vtt.fi"
+  ],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "501100007167"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.6324.3"
+      ],
+      "preferred": "grid.6324.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 1852"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1791348"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04b181w54",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.vttresearch.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/VTT_Technical_Research_Centre_of_Finland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.2052,
+        "lng": 24.6522,
+        "name": "Espoo"
+      },
+      "geonames_id": 660158
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "Teknologian Tutkimuskeskus VTT"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VTT "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VTT Technical Research Centre of Finland"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Valtion Teknillinen Tutkimuskeskus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National metrology institute VTT MIKES",
+      "type": "child",
+      "id": "https://ror.org/0398a1r53"
+    },
+    {
+      "label": "Ministry of Economic Affairs and Employment",
+      "type": "parent",
+      "id": "https://ror.org/008d1xp69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

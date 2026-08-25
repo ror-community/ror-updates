@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "choa.org"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "100012423"
+      ],
+      "preferred": "100012423",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.428158.2"
+      ],
+      "preferred": "grid.428158.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0371 6071"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5933433"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/050fhx250",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.choa.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "name": "Atlanta"
+      },
+      "geonames_id": 4180439
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's Healthcare of Atlanta"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Henrietta Egleston Hospital for Children",
+      "type": "child",
+      "id": "https://ror.org/002q1t780"
+    },
+    {
+      "label": "Scottish Rite Hospital",
+      "type": "child",
+      "id": "https://ror.org/04cb32210"
+    },
+    {
+      "label": "Emory University",
+      "type": "related",
+      "id": "https://ror.org/03czfpz43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

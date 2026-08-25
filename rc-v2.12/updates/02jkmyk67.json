@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "amss.ac.cn"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458463.8"
+      ],
+      "preferred": "grid.458463.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0489 6406"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17014550",
+        "Q39492297"
+      ],
+      "preferred": "Q17014550",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02jkmyk67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.amss.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AMSS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Academy of Mathematics and Systems Science"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院数学与系统科学研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Scientific and Engineering Computing",
+      "type": "child",
+      "id": "https://ror.org/02fp7dp35"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

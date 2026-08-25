@@ -1,0 +1,149 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lebedev.ru"
+  ],
+  "established": 1934,
+  "external_ids": [
+    {
+      "all": [
+        "501100014575"
+      ],
+      "preferred": "501100014575",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425806.d"
+      ],
+      "preferred": "grid.425806.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0656 6476"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1810862"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01jkd3546",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lebedev.ru/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lebedev_Physical_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FIAN "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Physics. PN Lebedev, the Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPI"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPI RAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lebedev Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lebedev Institute of Physics"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "P.N. Lebedev Physical Institute of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Физический институт им. П. Н. Лебедева"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Astro Space Center",
+      "type": "parent",
+      "id": "https://ror.org/00bg9m975"
+    },
+    {
+      "label": "Physical Sciences Division",
+      "type": "parent",
+      "id": "https://ror.org/00ns9pc83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

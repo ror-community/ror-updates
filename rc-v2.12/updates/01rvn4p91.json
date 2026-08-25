@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ethrat.ch"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100020899"
+      ],
+      "preferred": "501100020899",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451538.e"
+      ],
+      "preferred": "grid.451538.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3515551"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rvn4p91",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ethrat.ch/en"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ETH_Board"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.36667,
+        "lng": 8.55,
+        "name": "Zurich"
+      },
+      "geonames_id": 2657896
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Board of the Swiss Federal Institutes of Technology"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Conseil des Écoles Polytechniques Fédérales"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "ETH Domain"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Rat der Eidgenössischen Technischen Hochschulen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ETH Zurich",
+      "type": "child",
+      "id": "https://ror.org/05a28rw58"
+    },
+    {
+      "label": "Paul Scherrer Institute",
+      "type": "child",
+      "id": "https://ror.org/03eh3y714"
+    },
+    {
+      "label": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "type": "child",
+      "id": "https://ror.org/04bs5yc70"
+    },
+    {
+      "label": "Swiss Federal Institute of Aquatic Science and Technology",
+      "type": "child",
+      "id": "https://ror.org/00pc48d59"
+    },
+    {
+      "label": "Swiss Federal Laboratories for Materials Science and Technology",
+      "type": "child",
+      "id": "https://ror.org/02x681a42"
+    },
+    {
+      "label": "École Polytechnique Fédérale de Lausanne",
+      "type": "child",
+      "id": "https://ror.org/02s376052"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

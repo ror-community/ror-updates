@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100009660"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.8991.9"
+      ],
+      "preferred": "grid.8991.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0425 469X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1126189"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00a0jsq62",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lshtm.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/London_School_of_Hygiene_%26_Tropical_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LSHTM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "London School of Hygiene & Tropical Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MRC Unit the Gambia",
+      "type": "child",
+      "id": "https://ror.org/025wfj672"
+    },
+    {
+      "label": "University of London",
+      "type": "parent",
+      "id": "https://ror.org/04cw6st05"
+    },
+    {
+      "label": "MRC/UVRI & LSHTM Uganda Research Unit",
+      "type": "child",
+      "id": "https://ror.org/02qzk8434"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

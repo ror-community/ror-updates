@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "coh.org"
+  ],
+  "established": 1913,
+  "external_ids": [
+    {
+      "all": [
+        "100008308"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410425.6"
+      ],
+      "preferred": "grid.410425.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0421 8357"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5123723"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00w6g5w60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cityofhope.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/City_of_Hope_National_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.13945,
+        "lng": -117.97729,
+        "name": "Duarte"
+      },
+      "geonames_id": 5344147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "City Of Hope National Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "City of Hope"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "City of Hope",
+      "type": "child",
+      "id": "https://ror.org/01z1vct10"
+    },
+    {
+      "label": "Beckman Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05fazth07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

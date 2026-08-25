@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "generaldynamics.com"
+  ],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "100004690",
+        "100006767",
+        "100010587"
+      ],
+      "preferred": "100004690",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.426778.8"
+      ],
+      "preferred": "grid.426778.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q502940"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05pyq8e17",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gd.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/General_Dynamics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 38.96872,
+        "lng": -77.3411,
+        "name": "Reston"
+      },
+      "geonames_id": 4781530
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GD"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "General Dynamics (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "General Dynamics (Canada)",
+      "type": "child",
+      "id": "https://ror.org/0113m2308"
+    },
+    {
+      "label": "General Dynamics (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/04k0jj762"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460404.2"
+      ],
+      "preferred": "grid.460404.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 9343 435X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30261023"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0086rk289",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.komel.katowice.pl/ENGLISH/index_en.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "24",
+        "country_subdivision_name": "Silesia",
+        "lat": 50.2597,
+        "lng": 19.02173,
+        "name": "Katowice"
+      },
+      "geonames_id": 3096472
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Komel Institute"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Łukasiewicz Instytut Napędów i Maszyn Elektrycznych KOMEL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Łukasiewicz Research Network - Institute of Electrical Drives & Machines KOMEL"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Łukasiewicz Research Network",
+      "type": "parent",
+      "id": "https://ror.org/036f4sz05"
+    },
+    {
+      "label": "Instytut Metalurgii Żelaza im. Stanisława Staszica",
+      "type": "successor",
+      "id": "https://ror.org/01fbjr446"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

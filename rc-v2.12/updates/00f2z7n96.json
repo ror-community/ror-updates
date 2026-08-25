@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rand.org"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100004459"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.34474.30"
+      ],
+      "preferred": "grid.34474.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 7685"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q861141"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00f2z7n96",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.rand.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/RAND_Corporation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.01949,
+        "lng": -118.49138,
+        "name": "Santa Monica"
+      },
+      "geonames_id": 5393212
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "RAND Corporation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "RAND Europe",
+      "type": "child",
+      "id": "https://ror.org/037pk1914"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

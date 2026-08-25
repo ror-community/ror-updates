@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neomed.edu"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "100018587"
+      ],
+      "preferred": "100018587",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.261103.7"
+      ],
+      "preferred": "grid.261103.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0459 7529"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7057949"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04q9qf557",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.neomed.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Northeast_Ohio_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 41.15756,
+        "lng": -81.24205,
+        "name": "Ravenna"
+      },
+      "geonames_id": 5167737
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NEOMED"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NEOUCOM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northeast Ohio Medical University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Northeastern Ohio Universities Colleges of Medicine and Pharmacy"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Ohio",
+      "type": "parent",
+      "id": "https://ror.org/0561zqn56"
+    },
+    {
+      "label": "Akron Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/0107t3e14"
+    },
+    {
+      "label": "Summa Barberton Hospital",
+      "type": "related",
+      "id": "https://ror.org/02hp4jd32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

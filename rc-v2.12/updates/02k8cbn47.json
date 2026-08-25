@@ -1,0 +1,134 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gsi.de"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100010958"
+      ],
+      "preferred": "501100010958",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.159791.2"
+      ],
+      "preferred": "grid.159791.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9127 4365"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q703993"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02k8cbn47",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gsi.de/start/aktuelles.htm"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/GSI_Helmholtz_Centre_for_Heavy_Ion_Research"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 49.87167,
+        "lng": 8.65027,
+        "name": "Darmstadt"
+      },
+      "geonames_id": 2938913
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GSI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "GSI Helmholtz Centre for Heavy Ion Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "GSI Helmholtzzentrum für Schwerionenforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Helmholtz Graduate School for Hadron and Ion Research",
+      "type": "child",
+      "id": "https://ror.org/01syejz95"
+    },
+    {
+      "label": "Helmholtz Institute Jena",
+      "type": "child",
+      "id": "https://ror.org/02rzw6h69"
+    },
+    {
+      "label": "Helmholtz Institute Mainz",
+      "type": "child",
+      "id": "https://ror.org/024thra40"
+    },
+    {
+      "label": "Helmholtz International Center for FAIR",
+      "type": "child",
+      "id": "https://ror.org/04a31e344"
+    },
+    {
+      "label": "John von Neumann Institute for Computing",
+      "type": "child",
+      "id": "https://ror.org/02zmk8084"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

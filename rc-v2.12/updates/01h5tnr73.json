@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "battelle.org"
+  ],
+  "established": 1929,
+  "external_ids": [
+    {
+      "all": [
+        "100000993"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.27873.39"
+      ],
+      "preferred": "grid.27873.39",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9568 9541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q810911",
+        "Q37870205"
+      ],
+      "preferred": "Q810911",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01h5tnr73",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.battelle.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Battelle_Memorial_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OH",
+        "country_subdivision_name": "Ohio",
+        "lat": 39.96118,
+        "lng": -82.99879,
+        "name": "Columbus"
+      },
+      "geonames_id": 4509177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Battelle"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Battelle Memorial Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Idaho National Laboratory",
+      "type": "child",
+      "id": "https://ror.org/00ty2a548"
+    },
+    {
+      "label": "Pacific Northwest National Laboratory",
+      "type": "child",
+      "id": "https://ror.org/05h992307"
+    },
+    {
+      "label": "National Ecological Observatory Network",
+      "type": "related",
+      "id": "https://ror.org/04j43p132"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

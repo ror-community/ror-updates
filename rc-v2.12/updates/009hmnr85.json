@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100013358"
+      ],
+      "preferred": "100013358",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7863 3457"
+      ],
+      "preferred": "0000 0004 7863 3457",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q107498976"
+      ],
+      "preferred": "Q107498976",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/009hmnr85",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://secasc.ncsu.edu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "North Carolina",
+        "lat": 35.7721,
+        "lng": -78.63861,
+        "name": "Raleigh"
+      },
+      "geonames_id": 4487042
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "DOI Southeast Climate Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of the Interior Southeast Climate Science Center"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SE CASC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southeast Climate Adaptation Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "North Carolina State University",
+      "type": "parent",
+      "id": "https://ror.org/04tj63d06"
+    },
+    {
+      "label": "United States Department of the Interior",
+      "type": "related",
+      "id": "https://ror.org/03v0pmy70"
+    },
+    {
+      "label": "Climate Adaptation Science Centers",
+      "type": "parent",
+      "id": "https://ror.org/023czga33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

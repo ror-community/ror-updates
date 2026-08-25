@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uem.br"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "501100015799"
+      ],
+      "preferred": "501100015799",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.271762.7"
+      ],
+      "preferred": "grid.271762.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2116 9989"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7894365"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04bqqa360",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uem.br/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Universidade_Estadual_de_Maring%C3%A1"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "PR",
+        "country_subdivision_name": "Paraná",
+        "lat": -23.42528,
+        "lng": -51.93861,
+        "name": "Maringá"
+      },
+      "geonames_id": 3457671
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "State University of Maringá"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UEM"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universidade Estadual de Maringá"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Universitário Regional de Maringá",
+      "type": "child",
+      "id": "https://ror.org/03vadg117"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

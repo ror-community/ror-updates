@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "monashhealth.org"
+  ],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419789.a"
+      ],
+      "preferred": "grid.419789.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9295 3933"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02t1bej08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.monashhealth.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Monash Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Dandenong Hospital",
+      "type": "child",
+      "id": "https://ror.org/046gme853"
+    },
+    {
+      "label": "Monash Children’s Hospital",
+      "type": "child",
+      "id": "https://ror.org/016mx5748"
+    },
+    {
+      "label": "Monash Medical Centre",
+      "type": "child",
+      "id": "https://ror.org/036s9kg65"
+    },
+    {
+      "label": "Moorabbin Hospital",
+      "type": "child",
+      "id": "https://ror.org/033s1aj42"
+    },
+    {
+      "label": "Casey Hospital",
+      "type": "child",
+      "id": "https://ror.org/032nknw13"
+    },
+    {
+      "label": "Victorian Heart Hospital",
+      "type": "child",
+      "id": "https://ror.org/03q9apk85"
+    },
+    {
+      "label": "Kingston Centre",
+      "type": "child",
+      "id": "https://ror.org/034hnt981"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

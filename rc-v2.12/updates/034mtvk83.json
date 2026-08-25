@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lsuneworleans.edu"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100009723"
+      ],
+      "preferred": "100009723",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.266835.c"
+      ],
+      "preferred": "grid.266835.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 5031"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1474157"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/034mtvk83",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lsuneworleans.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_New_Orleans"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "name": "New Orleans"
+      },
+      "geonames_id": 4335045
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "LSU New Orleans"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of New Orleans"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Université de la nouvelle-orléans"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Louisiana State University System",
+      "type": "parent",
+      "id": "https://ror.org/022gnbj15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

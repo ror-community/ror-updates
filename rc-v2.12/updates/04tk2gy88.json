@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ufhealth.org"
+  ],
+  "established": 1958,
+  "external_ids": [
+    {
+      "all": [
+        "100008275"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.430508.a"
+      ],
+      "preferred": "grid.430508.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4911 114X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7487946"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04tk2gy88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ufhealth.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Florida_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 29.65163,
+        "lng": -82.32483,
+        "name": "Gainesville"
+      },
+      "geonames_id": 4156404
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Shands Healthcare"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UF Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UF&Shands"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Florida Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UF Health Shands Hospital",
+      "type": "child",
+      "id": "https://ror.org/03kvbr153"
+    },
+    {
+      "label": "UF Health Shands Rehab Hospital",
+      "type": "child",
+      "id": "https://ror.org/049wsgv73"
+    },
+    {
+      "label": "UF Health Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/044vhe029"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sana.de"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.491979.b"
+      ],
+      "preferred": "grid.491979.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q50038714"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01b4gqk18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sana.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.23333,
+        "lng": 11.68333,
+        "name": "Ismaning"
+      },
+      "geonames_id": 2895643
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Sana Kliniken"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Sana Kliniken AG"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Sana Klinikum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fachklinik für Neurologie Dietenbronn",
+      "type": "child",
+      "id": "https://ror.org/04zj3zq12"
+    },
+    {
+      "label": "Neurologisches Rehabilitationszentrum Quellenhof Bad Wildbad",
+      "type": "child",
+      "id": "https://ror.org/0494d5694"
+    },
+    {
+      "label": "Herzzentrum Dresden Universitätsklinik",
+      "type": "child",
+      "id": "https://ror.org/01jx86h05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

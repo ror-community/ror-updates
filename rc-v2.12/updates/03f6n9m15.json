@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unimedizin-ffm.de"
+  ],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411088.4"
+      ],
+      "preferred": "grid.411088.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0578 8220"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2496384"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03f6n9m15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kgu.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "HE",
+        "country_subdivision_name": "Hesse",
+        "lat": 50.11552,
+        "lng": 8.68417,
+        "name": "Frankfurt am Main"
+      },
+      "geonames_id": 2925533
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Goethe University Frankfurt Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KGU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital Frankfurt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universitätsklinikum Frankfurt"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitätsklinikum Frankfurt am Main"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Clinical Cancer Research",
+      "type": "child",
+      "id": "https://ror.org/02xss3674"
+    },
+    {
+      "label": "Orthopaedic University Hospital Friedrichsheim",
+      "type": "child",
+      "id": "https://ror.org/00syyqa87"
+    },
+    {
+      "label": "ERN LUNG",
+      "type": "related",
+      "id": "https://ror.org/0279ntc65"
+    },
+    {
+      "label": "Goethe University Frankfurt",
+      "type": "related",
+      "id": "https://ror.org/04cvxnb49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

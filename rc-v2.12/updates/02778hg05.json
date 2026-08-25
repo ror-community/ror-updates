@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-trier.de"
+  ],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "100018755"
+      ],
+      "preferred": "100018755",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.12391.38"
+      ],
+      "preferred": "grid.12391.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2289 1527"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q702486"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02778hg05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-trier.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Trier"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "RP",
+        "country_subdivision_name": "Rheinland-Pfalz",
+        "lat": 49.75565,
+        "lng": 6.63935,
+        "name": "Trier"
+      },
+      "geonames_id": 2821164
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Trier University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Trier"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universität Trier"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cusanus Institut",
+      "type": "child",
+      "id": "https://ror.org/037tt6b65"
+    },
+    {
+      "label": "Institut für Rechtspolitik an der Universität Trier",
+      "type": "child",
+      "id": "https://ror.org/01z5ygt35"
+    },
+    {
+      "label": "Theologische Fakultät Trier",
+      "type": "related",
+      "id": "https://ror.org/056jxaa57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

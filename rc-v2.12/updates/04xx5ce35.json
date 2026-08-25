@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "grid.432149.9"
+      ],
+      "preferred": "grid.432149.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0577 5905"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5430306"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xx5ce35",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.swslhd.nsw.gov.au/fairfield/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Fairfield_Hospital_(Sydney)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.86785,
+        "lng": 151.20732,
+        "name": "Sydney"
+      },
+      "geonames_id": 2147714
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fairfield Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Western Sydney Local Health District",
+      "type": "parent",
+      "id": "https://ror.org/05j37e495"
+    },
+    {
+      "label": "UNSW Sydney",
+      "type": "related",
+      "id": "https://ror.org/03r8z3t63"
+    },
+    {
+      "label": "Western Sydney University",
+      "type": "related",
+      "id": "https://ror.org/03t52dk35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

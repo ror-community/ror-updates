@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "scilifelab.se"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "501100009252"
+      ],
+      "preferred": "501100009252",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452834.c"
+      ],
+      "preferred": "grid.452834.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5911 2402"
+      ],
+      "preferred": "0000 0004 5911 2402",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7433682"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ev03g22",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.scilifelab.se/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Science_for_Life_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SciLifeLab"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Science for Life Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "AIDA Data Hub",
+      "type": "child",
+      "id": "https://ror.org/04gjptv97"
+    },
+    {
+      "label": "National Bioinformatics Infrastructure Sweden",
+      "type": "related",
+      "id": "https://ror.org/00enajs79"
+    },
+    {
+      "label": "Swedish Biodiversity Data Infrastructure",
+      "type": "related",
+      "id": "https://ror.org/0221pcv84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

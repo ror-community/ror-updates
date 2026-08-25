@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "msm.edu"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "100017840"
+      ],
+      "preferred": "100017840",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9001.8"
+      ],
+      "preferred": "grid.9001.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2228 775X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6911272"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01pbhra64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.msm.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Morehouse_School_of_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "name": "Atlanta"
+      },
+      "geonames_id": 4180439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MSM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Morehouse School of Medicine"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Grady Memorial Hospital",
+      "type": "related",
+      "id": "https://ror.org/009hj8759"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

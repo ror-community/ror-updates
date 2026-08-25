@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100016595"
+      ],
+      "preferred": "100016595",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419078.3"
+      ],
+      "preferred": "grid.419078.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 9855"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q422272"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01cyfxe35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.giss.nasa.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Goddard_Institute_for_Space_Studies"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GISS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Goddard Institute for Space Studies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Aeronautics and Space Administration",
+      "type": "parent",
+      "id": "https://ror.org/027ka1x80"
+    },
+    {
+      "label": "Goddard Space Flight Center",
+      "type": "related",
+      "id": "https://ror.org/0171mag52"
+    },
+    {
+      "label": "Columbia University",
+      "type": "parent",
+      "id": "https://ror.org/00hj8s172"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

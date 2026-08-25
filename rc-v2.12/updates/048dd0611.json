@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "semi.ac.cn"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "501100011148"
+      ],
+      "preferred": "501100011148",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454865.e"
+      ],
+      "preferred": "grid.454865.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0632 513X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9384256"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/048dd0611",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.semi.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IOS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Semiconductors"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院半导体研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory on Integrated Optoelectronics",
+      "type": "child",
+      "id": "https://ror.org/00g102351"
+    },
+    {
+      "label": "State Key Laboratory of Semiconductor Superlattice",
+      "type": "child",
+      "id": "https://ror.org/00mwew271"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

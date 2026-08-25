@@ -1,0 +1,127 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sintef.no"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.4319.f"
+      ],
+      "preferred": "grid.4319.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0448 3150"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3041255",
+        "Q38910776"
+      ],
+      "preferred": "Q3041255",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01f677e56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sintef.no"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SINTEF"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "50",
+        "country_subdivision_name": "Trøndelag",
+        "lat": 63.43049,
+        "lng": 10.39506,
+        "name": "Trondheim"
+      },
+      "geonames_id": 3133880
+    }
+  ],
+  "names": [
+    {
+      "lang": "no",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SINTEF"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "label"
+      ],
+      "value": "Stiftelsen for Industriell og Teknisk Forskning"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Foundation for Scientific and Industrial Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "SINTEF Ocean",
+      "type": "child",
+      "id": "https://ror.org/004wre089"
+    },
+    {
+      "label": "SINTEF Energy Research",
+      "type": "child",
+      "id": "https://ror.org/0590dbq33"
+    },
+    {
+      "label": "SINTEF Manufacturing",
+      "type": "child",
+      "id": "https://ror.org/01mrcse49"
+    },
+    {
+      "label": "SINTEF Industry",
+      "type": "child",
+      "id": "https://ror.org/0422tvz87"
+    },
+    {
+      "label": "SINTEF Digital",
+      "type": "child",
+      "id": "https://ror.org/028m52w57"
+    },
+    {
+      "label": "SINTEF Community",
+      "type": "child",
+      "id": "https://ror.org/01zj15q98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

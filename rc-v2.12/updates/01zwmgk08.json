@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lin-magdeburg.de"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418723.b"
+      ],
+      "preferred": "grid.418723.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2109 6265"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1813753"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01zwmgk08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lin-magdeburg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Leibniz_Institute_for_Neurobiology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "ST",
+        "country_subdivision_name": "Saxony-Anhalt",
+        "lat": 52.13129,
+        "lng": 11.63189,
+        "name": "Magdeburg"
+      },
+      "geonames_id": 2874545
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Institute for Neurobiology"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Institut für Neurobiologie"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Zentrum für Lern- und Gedächtnisforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    },
+    {
+      "label": "Center for Behavioral Brain Sciences",
+      "type": "related",
+      "id": "https://ror.org/03d1zwe41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

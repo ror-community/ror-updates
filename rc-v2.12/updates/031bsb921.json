@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uni-mannheim.de"
+  ],
+  "established": 1763,
+  "external_ids": [
+    {
+      "all": [
+        "501100007105"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.5601.2"
+      ],
+      "preferred": "grid.5601.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 599X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q317070"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/031bsb921",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uni-mannheim.de/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Mannheim"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.4891,
+        "lng": 8.46694,
+        "name": "Mannheim"
+      },
+      "geonames_id": 2873891
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Mannheim"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Universität Mannheim"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut für Mittelstandsforschung",
+      "type": "child",
+      "id": "https://ror.org/0010cp777"
+    },
+    {
+      "label": "Institute for Enterprise Systems",
+      "type": "child",
+      "id": "https://ror.org/02n94hw85"
+    },
+    {
+      "label": "Institute for German, European and International Medical Law, Public Health Law and Bioethics",
+      "type": "child",
+      "id": "https://ror.org/003xvvt95"
+    },
+    {
+      "label": "Mannheim Centre for European Social Research",
+      "type": "child",
+      "id": "https://ror.org/05bv91d86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "alfred.org.au"
+  ],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "501100002716"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267362.4"
+      ],
+      "preferred": "grid.267362.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0432 5259"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04scfb908",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.alfred.org.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alfred Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Caulfield Hospital",
+      "type": "child",
+      "id": "https://ror.org/01fcxf261"
+    },
+    {
+      "label": "Melbourne Sexual Health Centre",
+      "type": "child",
+      "id": "https://ror.org/013fdz725"
+    },
+    {
+      "label": "National Trauma Research Institute",
+      "type": "child",
+      "id": "https://ror.org/048t93218"
+    },
+    {
+      "label": "The Alfred Hospital",
+      "type": "child",
+      "id": "https://ror.org/01wddqe20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

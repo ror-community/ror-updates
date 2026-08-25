@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454308.e"
+      ],
+      "preferred": "grid.454308.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1762 3036"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3578126"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bn93e28",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.enm.meteo.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_nationale_de_la_m%C3%A9t%C3%A9orologie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "OCC",
+        "country_subdivision_name": "Occitanie",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "name": "Toulouse"
+      },
+      "geonames_id": 2972315
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ENM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Nationale de la Météorologie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Service des Avions Français Instrumentés pour la Recherche en Environnement",
+      "type": "child",
+      "id": "https://ror.org/02qdgbw61"
+    },
+    {
+      "label": "Institut National Polytechnique de Toulouse",
+      "type": "parent",
+      "id": "https://ror.org/033p9g875"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

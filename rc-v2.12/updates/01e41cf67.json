@@ -1,0 +1,175 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lanl.gov"
+  ],
+  "established": 1943,
+  "external_ids": [
+    {
+      "all": [
+        "100008902",
+        "100007000"
+      ],
+      "preferred": "100008902",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.148313.c"
+      ],
+      "preferred": "grid.148313.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 3079"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q379848"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01e41cf67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://lanl.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NM",
+        "country_subdivision_name": "New Mexico",
+        "lat": 35.88808,
+        "lng": -106.30697,
+        "name": "Los Alamos"
+      },
+      "geonames_id": 5476825
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LANL"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratoire national de los alamos"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Laboratorio Nacional de Los Álamos"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Los Alamos National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Los Alamos National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Los Alamos National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy National Nuclear Security Administration Los Alamos National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Integrated Nanotechnologies",
+      "type": "child",
+      "id": "https://ror.org/031yh0y38"
+    },
+    {
+      "label": "National High Magnetic Field Laboratory",
+      "type": "child",
+      "id": "https://ror.org/03s53g630"
+    },
+    {
+      "label": "Triad National Security (United States)",
+      "type": "parent",
+      "id": "https://ror.org/02tmabg35"
+    },
+    {
+      "label": "National Nuclear Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/03sk1we31"
+    },
+    {
+      "label": "National Microbiome Data Collaborative",
+      "type": "related",
+      "id": "https://ror.org/05cwx3318"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    },
+    {
+      "label": "CICE Consortium",
+      "type": "related",
+      "id": "https://ror.org/040g91402"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

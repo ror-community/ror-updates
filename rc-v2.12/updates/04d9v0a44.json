@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1895,
+  "external_ids": [
+    {
+      "all": [
+        "100018220"
+      ],
+      "preferred": "100018220",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.480130.e"
+      ],
+      "preferred": "grid.480130.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0943 1657"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q671509"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04d9v0a44",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.firmenich.com/en_INT/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Firmenich"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "GE",
+        "country_subdivision_name": "Geneva",
+        "lat": 46.20222,
+        "lng": 6.14569,
+        "name": "Geneva"
+      },
+      "geonames_id": 2660646
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Firmenich (Switzerland)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Firmenich (Norway)",
+      "type": "child",
+      "id": "https://ror.org/003dgzf80"
+    },
+    {
+      "label": "Firmenich (United States)",
+      "type": "child",
+      "id": "https://ror.org/01ep09b46"
+    },
+    {
+      "label": "DSM-Firmenich AG (Switzerland)",
+      "type": "successor",
+      "id": "https://ror.org/01c00kj47"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

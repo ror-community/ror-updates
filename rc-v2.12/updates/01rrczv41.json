@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "upm.edu.ph"
+  ],
+  "established": 1908,
+  "external_ids": [
+    {
+      "all": [
+        "grid.11159.3d"
+      ],
+      "preferred": "grid.11159.3d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9650 2179"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7896753"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rrczv41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.upm.edu.ph"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Philippines_Manila"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "PH",
+        "country_name": "Philippines",
+        "country_subdivision_code": "00",
+        "country_subdivision_name": "National Capital Region",
+        "lat": 14.6042,
+        "lng": 120.9822,
+        "name": "Manila"
+      },
+      "geonames_id": 1701668
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of the Philippines Manila"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of the Philippines System",
+      "type": "parent",
+      "id": "https://ror.org/02hqkr514"
+    },
+    {
+      "label": "Philippine General Hospital",
+      "type": "related",
+      "id": "https://ror.org/00a56am39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

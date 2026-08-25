@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "exxonmobil.com"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100004371",
+        "100006584",
+        "501100012640"
+      ],
+      "preferred": "100004371",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421234.2"
+      ],
+      "preferred": "grid.421234.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1112 1641"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q156238",
+        "Q21175559",
+        "Q39938158",
+        "Q39946001"
+      ],
+      "preferred": "Q156238",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01xcepn55",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://corporate.exxonmobil.com/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ExxonMobil"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.81402,
+        "lng": -96.94889,
+        "name": "Irving"
+      },
+      "geonames_id": 4700168
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ExxonMobil (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ExxonMobil (Canada)",
+      "type": "child",
+      "id": "https://ror.org/01gpy1v41"
+    },
+    {
+      "label": "ExxonMobil (France)",
+      "type": "child",
+      "id": "https://ror.org/04jppe152"
+    },
+    {
+      "label": "ExxonMobil (Germany)",
+      "type": "child",
+      "id": "https://ror.org/017qypp02"
+    },
+    {
+      "label": "ExxonMobil (Norway)",
+      "type": "child",
+      "id": "https://ror.org/01grxsm65"
+    },
+    {
+      "label": "ExxonMobil (Qatar)",
+      "type": "child",
+      "id": "https://ror.org/00pfnk039"
+    },
+    {
+      "label": "ExxonMobil (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/023g45t05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

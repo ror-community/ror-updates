@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wcupa.edu"
+  ],
+  "established": 1880,
+  "external_ids": [
+    {
+      "all": [
+        "100019454"
+      ],
+      "preferred": "100019454",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268132.c"
+      ],
+      "preferred": "grid.268132.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0701 2416"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3443893"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0053n5071",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wcupa.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/West_Chester_University_of_Pennsylvania"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 39.96097,
+        "lng": -75.60804,
+        "name": "West Chester"
+      },
+      "geonames_id": 4562144
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université west chester de pennsylvanie"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WCUPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "West Chester University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pennsylvania State System of Higher Education",
+      "type": "parent",
+      "id": "https://ror.org/00m2s0z68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

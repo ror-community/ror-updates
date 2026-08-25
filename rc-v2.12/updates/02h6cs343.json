@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "aichi-med-u.ac.jp"
+  ],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "100018884"
+      ],
+      "preferred": "100018884",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411234.1"
+      ],
+      "preferred": "grid.411234.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0727 1557"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4696577"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h6cs343",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.aichi-med-u.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Aichi_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "23",
+        "country_subdivision_name": "Aichi",
+        "lat": 35.17325,
+        "lng": 137.05667,
+        "name": "Nagakute"
+      },
+      "geonames_id": 11611613
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Aichi Medical University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Aichi ika daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "愛知医科大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aichi Medical University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00ztar512"
+    },
+    {
+      "label": "Aichi Medical University Medical Center",
+      "type": "child",
+      "id": "https://ror.org/01z818z22"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

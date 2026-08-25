@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sunypoly.edu"
+  ],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "100020399"
+      ],
+      "preferred": "100020399",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.441535.2"
+      ],
+      "preferred": "grid.441535.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q18155496"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/000fxgx19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sunypoly.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/SUNY_Polytechnic_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 43.1009,
+        "lng": -75.23266,
+        "name": "Utica"
+      },
+      "geonames_id": 5142056
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SUNY Poly"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SUNY Polytechnic Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York Polytechnic Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

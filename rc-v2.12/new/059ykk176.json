@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-08-24",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chateauversailles-recherche.fr"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100014085"
+      ],
+      "preferred": "501100014085",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q2945406"
+      ],
+      "preferred": "Q2945406",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059ykk176",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://chateauversailles-recherche.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Palace_of_Versailles_Research_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.80359,
+        "lng": 2.13424,
+        "name": "Versailles"
+      },
+      "geonames_id": 2969679
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CRCV"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de recherche du château de Versailles"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Palace of Versailles Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Research Centre of the Palace of Versailles"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Versailles Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère de la Culture",
+      "type": "related",
+      "id": "https://ror.org/017rnyz40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

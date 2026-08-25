@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0383 051X"
+      ],
+      "preferred": "0000 0004 0383 051X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q51785275"
+      ],
+      "preferred": "Q51785275",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/053d03003",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ngere.univ-lorraine.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.66115,
+        "lng": 6.17114,
+        "name": "Vandœuvre-lès-Nancy"
+      },
+      "geonames_id": 2970797
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NGERE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Nutrition-Genetics and Exposure to Environmental Risks"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nutrition-Génétique et Exposition aux Risques Environnementaux"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "U1256"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "U1256 NGERE"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Lorraine",
+      "type": "parent",
+      "id": "https://ror.org/04vfs2w97"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

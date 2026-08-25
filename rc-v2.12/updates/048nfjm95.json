@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mu.ie"
+  ],
+  "established": 1795,
+  "external_ids": [
+    {
+      "all": [
+        "501100001633"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.95004.38"
+      ],
+      "preferred": "grid.95004.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9331 9029"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2601879"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/048nfjm95",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maynoothuniversity.ie/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Maynooth_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "country_subdivision_code": "L",
+        "country_subdivision_name": "Leinster",
+        "lat": 53.385,
+        "lng": -6.59361,
+        "name": "Maynooth"
+      },
+      "geonames_id": 2962668
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Maynooth University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NUIM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University of Ireland, Maynooth"
+    },
+    {
+      "lang": "fy",
+      "types": [
+        "label"
+      ],
+      "value": "Ollscoil na hÉireann Má Nuad"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Irish Research eLibrary",
+      "type": "child",
+      "id": "https://ror.org/05c347015"
+    },
+    {
+      "label": "National University of Ireland",
+      "type": "parent",
+      "id": "https://ror.org/00shsf120"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

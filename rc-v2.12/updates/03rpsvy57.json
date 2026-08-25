@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rcees.ac.cn"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "501100010555"
+      ],
+      "preferred": "501100010555",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419052.b"
+      ],
+      "preferred": "grid.419052.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0467 2189"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30281957"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03rpsvy57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.rcees.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Environmental Chemistry"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RCEES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Research Center for Eco-Environmental Sciences"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院生态环境研究中心"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Urban and Regional Ecology",
+      "type": "child",
+      "id": "https://ror.org/00gqqed17"
+    },
+    {
+      "label": "State Key Laboratory of Environmental Chemistry and Ecotoxicology",
+      "type": "child",
+      "id": "https://ror.org/003v6nj12"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

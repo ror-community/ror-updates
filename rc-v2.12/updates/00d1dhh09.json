@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hitchcock.org"
+  ],
+  "established": 1893,
+  "external_ids": [
+    {
+      "all": [
+        "100008325",
+        "100001170",
+        "100009230"
+      ],
+      "preferred": "100008325",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413480.a"
+      ],
+      "preferred": "grid.413480.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0440 749X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q14705324"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00d1dhh09",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dartmouth-hitchcock.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Dartmouth%E2%80%93Hitchcock_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NH",
+        "country_subdivision_name": "New Hampshire",
+        "lat": 43.64229,
+        "lng": -72.25176,
+        "name": "Lebanon"
+      },
+      "geonames_id": 5088597
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dartmouth–Hitchcock Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mt. Ascutney Hospital and Health Center",
+      "type": "child",
+      "id": "https://ror.org/03sfv7b53"
+    },
+    {
+      "label": "Dartmouth Health",
+      "type": "parent",
+      "id": "https://ror.org/01pa9ed26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

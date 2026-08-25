@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "niglas.ac.cn"
+  ],
+  "established": 1940,
+  "external_ids": [
+    {
+      "all": [
+        "501100011193"
+      ],
+      "preferred": "501100011193",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.458478.2"
+      ],
+      "preferred": "grid.458478.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1799 2325"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03k6r8t20",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.niglas.cas.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "JS",
+        "country_subdivision_name": "Jiangsu",
+        "lat": 32.06167,
+        "lng": 118.77778,
+        "name": "Nanjing"
+      },
+      "geonames_id": 1799962
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Geography Institute of China"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIGLAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nanjing Institute of Geography and Limnology"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国科学院南京地理与湖泊研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Lake Science and Environment",
+      "type": "child",
+      "id": "https://ror.org/02aez6s57"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

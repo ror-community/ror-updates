@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipfran.ru"
+  ],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "501100018723"
+      ],
+      "preferred": "501100018723",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410472.4"
+      ],
+      "preferred": "grid.410472.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 0147"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4201666"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05nnv1197",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipfran.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "NIZ",
+        "country_subdivision_name": "Nizhny Novgorod Oblast",
+        "lat": 56.32867,
+        "lng": 44.00205,
+        "name": "Nizhny Novgorod"
+      },
+      "geonames_id": 520555
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Applied Physics of the Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IAP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Applied Physics"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральный исследовательский центр Институт прикладной физики Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Physical Sciences Division",
+      "type": "parent",
+      "id": "https://ror.org/00ns9pc83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

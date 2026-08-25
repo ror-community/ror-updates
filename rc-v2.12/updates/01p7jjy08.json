@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "slu.edu"
+  ],
+  "established": 1818,
+  "external_ids": [
+    {
+      "all": [
+        "100010390"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262962.b"
+      ],
+      "preferred": "grid.262962.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9342"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q734774"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01p7jjy08",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.slu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Saint_Louis_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MO",
+        "country_subdivision_name": "Missouri",
+        "lat": 38.62727,
+        "lng": -90.19789,
+        "name": "St Louis"
+      },
+      "geonames_id": 4407066
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SLU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Saint Louis University"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad de San Luis"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de saint-louis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cardinal Glennon Children’s Medical Center",
+      "type": "related",
+      "id": "https://ror.org/00jq51013"
+    },
+    {
+      "label": "Saint Louis University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01v49sd11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

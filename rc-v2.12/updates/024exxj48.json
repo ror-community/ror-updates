@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100012834"
+      ],
+      "preferred": "100012834",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.256342.4"
+      ],
+      "preferred": "grid.256342.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0370 4927"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1375986",
+        "Q5146764"
+      ],
+      "preferred": "Q1375986",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/024exxj48",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gifu-u.ac.jp/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Gifu_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "21",
+        "country_subdivision_name": "Gifu",
+        "lat": 35.42291,
+        "lng": 136.76039,
+        "name": "Gifu"
+      },
+      "geonames_id": 1863641
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Gifu Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gifu University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "岐阜大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tokai National Higher Education and Research System",
+      "type": "parent",
+      "id": "https://ror.org/04d139241"
+    },
+    {
+      "label": "Gifu University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01kqdxr19"
+    },
+    {
+      "label": "Multidisciplinary International Research for Advancing Innovation in Glycosciences",
+      "type": "child",
+      "id": "https://ror.org/0227akg64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cshl.edu"
+  ],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "100013356"
+      ],
+      "preferred": "100013356",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.225279.9"
+      ],
+      "preferred": "grid.225279.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1088 1567"
+      ],
+      "preferred": "0000 0001 1088 1567",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q609768"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02qz8b764",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cshl.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cold_Spring_Harbor_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.87149,
+        "lng": -73.45679,
+        "name": "Cold Spring Harbor"
+      },
+      "geonames_id": 5113223
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSH"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSHL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cold Spring Harbor Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cancer Center at Cold Spring Harbor Laboratory",
+      "type": "child",
+      "id": "https://ror.org/04wrawj44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

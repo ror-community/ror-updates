@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jichi.ac.jp"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100004031"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410804.9"
+      ],
+      "preferred": "grid.410804.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2309 0000"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6192089"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/010hz0g26",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jichi.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Jichi_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "09",
+        "country_subdivision_name": "Tochigi",
+        "lat": 36.41323,
+        "lng": 139.86622,
+        "name": "Shimotsuke"
+      },
+      "geonames_id": 6822175
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jichi Medical University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "自治医科大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Jichi Medical University Hospital",
+      "type": "related",
+      "id": "https://ror.org/04at0zw32"
+    },
+    {
+      "label": "Jichi Medical University Saitama Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05rq8j339"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

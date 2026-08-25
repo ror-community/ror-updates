@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipipan.waw.pl"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425308.8"
+      ],
+      "preferred": "grid.425308.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2158 4832"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11713162"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003fvp964",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ipipan.waw.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Mazovia",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "name": "Warsaw"
+      },
+      "geonames_id": 756135
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICS PAS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPI PAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Computer Science"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Podstaw Informatyki"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

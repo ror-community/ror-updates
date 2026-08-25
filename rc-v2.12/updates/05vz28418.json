@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "100008570"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411026.0"
+      ],
+      "preferred": "grid.411026.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1090 2313"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1472474"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vz28418",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.siusystem.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Southern_Illinois_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 37.72727,
+        "lng": -89.21675,
+        "name": "Carbondale"
+      },
+      "geonames_id": 4235193
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern Illinois University System"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Université de l'illinois du sud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Southern Illinois University Carbondale",
+      "type": "child",
+      "id": "https://ror.org/049kefs16"
+    },
+    {
+      "label": "Southern Illinois University Edwardsville",
+      "type": "child",
+      "id": "https://ror.org/04cqs5j56"
+    },
+    {
+      "label": "SIU Medicine",
+      "type": "child",
+      "id": "https://ror.org/0232r4451"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

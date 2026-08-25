@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unn.no"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100016994"
+      ],
+      "preferred": "501100016994",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412244.5"
+      ],
+      "preferred": "grid.412244.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4689 5540"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4586373"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/030v5kp38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.unn.no/?lang=en_US"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Hospital_of_North_Norway"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Troms",
+        "lat": 69.6489,
+        "lng": 18.95508,
+        "name": "Tromsø"
+      },
+      "geonames_id": 3133895
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNN"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Universitetssykehuset Nord-Norge"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospital of North Norway"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Narvik Sykehus",
+      "type": "child",
+      "id": "https://ror.org/00vbqcv97"
+    },
+    {
+      "label": "Northern Norway Regional Health Authority",
+      "type": "parent",
+      "id": "https://ror.org/05f6c0c45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

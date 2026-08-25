@@ -1,0 +1,161 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pnnl.gov"
+  ],
+  "established": 1965,
+  "external_ids": [
+    {
+      "all": [
+        "100011661"
+      ],
+      "preferred": "100011661",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451303.0"
+      ],
+      "preferred": "grid.451303.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2218 3491"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1076890"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05h992307",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pnnl.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Pacific_Northwest_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 46.28569,
+        "lng": -119.28446,
+        "name": "Richland"
+      },
+      "geonames_id": 5808276
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Science Pacific Northwest National Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PNNL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pacific Northwest National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Science Pacific Northwest National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Joint Global Change Research Institute",
+      "type": "child",
+      "id": "https://ror.org/058cmd703"
+    },
+    {
+      "label": "Environmental Molecular Sciences Laboratory",
+      "type": "child",
+      "id": "https://ror.org/04rc0xn13"
+    },
+    {
+      "label": "Bioproducts Institute",
+      "type": "child",
+      "id": "https://ror.org/03wpv8896"
+    },
+    {
+      "label": "Nuclear Science and Technology Institute",
+      "type": "child",
+      "id": "https://ror.org/039fx6g98"
+    },
+    {
+      "label": "Advanced Grid Institute",
+      "type": "child",
+      "id": "https://ror.org/014vdsh37"
+    },
+    {
+      "label": "Battelle",
+      "type": "parent",
+      "id": "https://ror.org/01h5tnr73"
+    },
+    {
+      "label": "Office of Science",
+      "type": "parent",
+      "id": "https://ror.org/00mmn6b08"
+    },
+    {
+      "label": "National Microbiome Data Collaborative",
+      "type": "related",
+      "id": "https://ror.org/05cwx3318"
+    },
+    {
+      "label": "Atmospheric Radiation Measurement User Facility",
+      "type": "related",
+      "id": "https://ror.org/01dvj3d25"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

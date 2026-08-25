@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "slam.nhs.uk"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100009362"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.37640.36"
+      ],
+      "preferred": "grid.37640.36",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9439 0839"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7567852"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/015803449",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.slam.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "SLaM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South London and Maudsley NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bethlem Royal Hospital",
+      "type": "child",
+      "id": "https://ror.org/02zc6c986"
+    },
+    {
+      "label": "Lambeth Hospital",
+      "type": "child",
+      "id": "https://ror.org/00cepga67"
+    },
+    {
+      "label": "Maudsley Charity",
+      "type": "child",
+      "id": "https://ror.org/028vg3q27"
+    },
+    {
+      "label": "Maudsley Hospital",
+      "type": "child",
+      "id": "https://ror.org/02788t795"
+    },
+    {
+      "label": "NIHR Maudsley Dementia Biomedical Research Unit",
+      "type": "child",
+      "id": "https://ror.org/03yr99j48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nimr.or.tz"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "501100019273"
+      ],
+      "preferred": "501100019273",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416716.3"
+      ],
+      "preferred": "grid.416716.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0367 5636"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05fjs7w98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nimr.or.tz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "TZ",
+        "country_name": "Tanzania",
+        "country_subdivision_code": "02",
+        "country_subdivision_name": "Dar es Salaam Region",
+        "lat": -6.82349,
+        "lng": 39.26951,
+        "name": "Dar es Salaam"
+      },
+      "geonames_id": 160263
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIMR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute for Medical Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tanzania Commission for Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/03e04g978"
+    },
+    {
+      "label": "Bombo Hospital",
+      "type": "related",
+      "id": "https://ror.org/01jzgfe96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

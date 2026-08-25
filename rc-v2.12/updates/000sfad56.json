@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ifpan.edu.pl"
+  ],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "grid.425078.c"
+      ],
+      "preferred": "grid.425078.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0634 2386"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/000sfad56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ifpan.edu.pl/index_en.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Mazovia",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "name": "Warsaw"
+      },
+      "geonames_id": 756135
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IFPAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Physics"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Fizyki PAN"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

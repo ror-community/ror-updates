@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "srnl.gov"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "100011663"
+      ],
+      "preferred": "100011663",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.451247.1"
+      ],
+      "preferred": "grid.451247.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0367 4086"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7427872"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05vc7qy59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.srnl.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Savannah_River_National_Laboratory"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SC",
+        "country_subdivision_name": "South Carolina",
+        "lat": 33.56042,
+        "lng": -81.71955,
+        "name": "Aiken"
+      },
+      "geonames_id": 4569067
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Environmental Management Savannah River National Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SRNL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Savannah River National Laboratory"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Environmental Management Savannah River National Laboratory"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Environmental Management",
+      "type": "parent",
+      "id": "https://ror.org/00km40770"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

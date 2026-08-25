@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uoflhealth.org"
+  ],
+  "established": 1817,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413750.4"
+      ],
+      "preferred": "grid.413750.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0382 8233"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30279719"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04sq8k219",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://uoflhealth.org/locations/uofl-hospital/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "KY",
+        "country_subdivision_name": "Kentucky",
+        "lat": 38.25424,
+        "lng": -85.75941,
+        "name": "Louisville"
+      },
+      "geonames_id": 4299276
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Louisville Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Louisville",
+      "type": "related",
+      "id": "https://ror.org/01ckdn478"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "rsmu.ru"
+  ],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "501100019284"
+      ],
+      "preferred": "501100019284",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.78028.35"
+      ],
+      "preferred": "grid.78028.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9559 0613"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2177111"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/018159086",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://rsmu.ru/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Russian_National_Research_Medical_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pirogov Russian National Research Medical University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RNRMU"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RSMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Russian State Medical University"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Российский национальный исследовательский медицинский университет имени Н. И. Пирогова"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health of the Russian Federation",
+      "type": "parent",
+      "id": "https://ror.org/01p8ehb87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

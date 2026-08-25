@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "lsuhs.edu"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "100012612"
+      ],
+      "preferred": "100012612",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411417.6"
+      ],
+      "preferred": "grid.411417.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0443 6864"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6689304"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03151rh82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lsuhs.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/LSU_Health_Sciences_Center_Shreveport"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "LA",
+        "country_subdivision_name": "Louisiana",
+        "lat": 32.52515,
+        "lng": -93.75018,
+        "name": "Shreveport"
+      },
+      "geonames_id": 4341513
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "LSU Health Shreveport"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Louisiana State University Health Sciences Center Shreveport"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Louisiana State University System",
+      "type": "parent",
+      "id": "https://ror.org/022gnbj15"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

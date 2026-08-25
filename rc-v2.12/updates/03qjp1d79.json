@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hereon.de"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "grid.24999.3f"
+      ],
+      "preferred": "grid.24999.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0541 3699"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1290544"
+      ],
+      "preferred": "Q1290544",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03qjp1d79",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hereon.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Helmholtz-Zentrum_Hereon"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SH",
+        "country_subdivision_name": "Schleswig-Holstein",
+        "lat": 53.4366,
+        "lng": 10.37339,
+        "name": "Geesthacht"
+      },
+      "geonames_id": 2922102
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HZG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helmholtz-Zentrum Hereon"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Climate Service Center",
+      "type": "child",
+      "id": "https://ror.org/022rwzq94"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

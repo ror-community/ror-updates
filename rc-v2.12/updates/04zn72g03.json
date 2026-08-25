@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100010738"
+      ],
+      "preferred": "501100010738",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412835.9"
+      ],
+      "preferred": "grid.412835.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0627 2891"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4580602"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04zn72g03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.helse-stavanger.no/en/Sider/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Stavanger_University_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "11",
+        "country_subdivision_name": "Rogaland",
+        "lat": 58.97005,
+        "lng": 5.73332,
+        "name": "Stavanger"
+      },
+      "geonames_id": 3137115
+    }
+  ],
+  "names": [
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Helse Stavanger HF"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "alias"
+      ],
+      "value": "Stavanger Universitetssjukehus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Stavanger University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Stavanger",
+      "type": "related",
+      "id": "https://ror.org/02qte9q33"
+    },
+    {
+      "label": "University of Bergen",
+      "type": "related",
+      "id": "https://ror.org/03zga2b32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

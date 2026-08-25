@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chp.edu"
+  ],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "100010559"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.239553.b"
+      ],
+      "preferred": "grid.239553.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9753 0008"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5098130"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03763ep67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chp.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Children%27s_Hospital_of_Pittsburgh_of_UPMC"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "name": "Pittsburgh"
+      },
+      "geonames_id": 5206379
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's Hospital of Pittsburgh"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Children’s Hospital of Pittsburgh of UPMC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Pittsburgh Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/04ehecz88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

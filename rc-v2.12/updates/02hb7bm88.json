@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "luke.fi"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100024080"
+      ],
+      "preferred": "501100024080",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.22642.30"
+      ],
+      "preferred": "grid.22642.30",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4668 6757"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18694264"
+      ],
+      "preferred": "Q18694264",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02hb7bm88",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.luke.fi"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Luke"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Luonnonvarakeskus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Natural Resources Institute Finland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agrifood Research Finland",
+      "type": "child",
+      "id": "https://ror.org/05kh5wx29"
+    },
+    {
+      "label": "Ministry of Agriculture and Forestry",
+      "type": "parent",
+      "id": "https://ror.org/04xa2jy35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
