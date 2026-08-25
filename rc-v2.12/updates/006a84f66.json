@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Humane World for Animals, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Humane World for Animals International",
+      "type": "predecessor",
+      "id": "https://ror.org/012p7nr71"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Centre de recherche du CISSS de Chaudière-Appalaches"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre intégré de santé et de services sociaux de Chaudière-Appalaches",
+      "type": "parent",
+      "id": "https://ror.org/05ghbjx71"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

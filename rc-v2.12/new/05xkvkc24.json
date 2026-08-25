@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Laboratoire international de recherche CRM-CNRS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Centre de recherches mathématiques",
+      "type": "parent",
+      "id": "https://ror.org/03czdsq06"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

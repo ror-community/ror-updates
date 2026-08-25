@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Parque nacional y reserva Katmai"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Park Service",
+      "type": "parent",
+      "id": "https://ror.org/044zqqy65"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Centre Hospitalier Universitaire de La Réunion"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Reunion Island",
+      "type": "related",
+      "id": "https://ror.org/005ypkf75"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "抚顺石油化工研究院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sinopec (China)",
+      "type": "parent",
+      "id": "https://ror.org/0161q6d74"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

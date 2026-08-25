@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Instituto Tecnológico de Aeronáutica - Campus de Fortaleza"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Tecnológico de Aeronáutica",
+      "type": "parent",
+      "id": "https://ror.org/05vh67662"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

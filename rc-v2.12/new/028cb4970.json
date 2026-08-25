@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "UAR3390"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "École Supérieure des Sciences Économiques et Commerciales",
+      "type": "parent",
+      "id": "https://ror.org/02dga6j42"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

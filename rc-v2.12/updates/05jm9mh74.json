@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,18 @@
       "value": "Hôpital NOVO"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Groupement Hospitalier Intercommunal du Vexin",
+      "type": "predecessor",
+      "id": "https://ror.org/024magd57"
+    },
+    {
+      "label": "Groupe Hospitalier Carnelle Portes de l’Oise",
+      "type": "predecessor",
+      "id": "https://ror.org/01sbec417"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

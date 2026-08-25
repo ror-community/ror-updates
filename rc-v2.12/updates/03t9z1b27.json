@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Utah Department of Human Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Utah Department of Health and Human Services",
+      "type": "successor",
+      "id": "https://ror.org/04f3anj10"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -125,13 +125,23 @@
   "relationships": [
     {
       "label": "Tokyo Institute of Technology",
-      "type": "related",
+      "type": "predecessor",
       "id": "https://ror.org/0112mx960"
     },
     {
       "label": "Tokyo Medical and Dental University",
-      "type": "related",
+      "type": "predecessor",
       "id": "https://ror.org/051k3eh31"
+    },
+    {
+      "label": "Earth-Life Science Institute",
+      "type": "child",
+      "id": "https://ror.org/031dp5151"
+    },
+    {
+      "label": "Institute of Science Tokyo Hospital",
+      "type": "child",
+      "id": "https://ror.org/058548196"
     }
   ],
   "status": "active",

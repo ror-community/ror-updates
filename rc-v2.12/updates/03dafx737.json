@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "Research Center Pharmaceutical Engineering (Austria)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Graz University of Technology",
+      "type": "parent",
+      "id": "https://ror.org/00d7xrm67"
+    },
+    {
+      "label": "University of Graz",
+      "type": "parent",
+      "id": "https://ror.org/01faaaf77"
+    },
+    {
+      "label": "Joanneum Research",
+      "type": "parent",
+      "id": "https://ror.org/049bdss47"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

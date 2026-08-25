@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,33 @@
       "value": "UAR2004"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Bordeaux Montaigne",
+      "type": "parent",
+      "id": "https://ror.org/03pbgwk21"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/057qpr032"
+    },
+    {
+      "label": "Institut Polytechnique de Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/054qv7y42"
+    },
+    {
+      "label": "Sciences Po Bordeaux",
+      "type": "parent",
+      "id": "https://ror.org/01b5nw197"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

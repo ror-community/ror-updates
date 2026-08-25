@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,23 @@
       "value": "Medical Research Council/Uganda Virus Research Institute and London School of Hygiene & Tropical Medicine Uganda Research Unit"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "London School of Hygiene & Tropical Medicine",
+      "type": "parent",
+      "id": "https://ror.org/00a0jsq62"
+    },
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    },
+    {
+      "label": "Uganda Virus Research Institute",
+      "type": "related",
+      "id": "https://ror.org/04509n826"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

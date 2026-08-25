@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,18 @@
       "value": "GenØk"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "UiT The Arctic University of Norway",
+      "type": "related",
+      "id": "https://ror.org/00wge5k78"
+    },
+    {
+      "label": "University of Bergen",
+      "type": "related",
+      "id": "https://ror.org/03zga2b32"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

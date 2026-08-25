@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Университетска специализирана болница за активно лечение по ендокринология"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medical University of Sofia",
+      "type": "related",
+      "id": "https://ror.org/01n9zy652"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

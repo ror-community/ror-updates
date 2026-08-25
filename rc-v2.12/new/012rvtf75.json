@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -89,7 +89,73 @@
       "value": "Vinmec International General Hospital System"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Vingroup (Vietnam)",
+      "type": "parent",
+      "id": "https://ror.org/03j51tb87"
+    },
+    {
+      "label": "Vinmec Times City International Hospital",
+      "type": "child",
+      "id": "https://ror.org/01q2pxs68"
+    },
+    {
+      "label": "Vinmec Central Park International Hospital",
+      "type": "child",
+      "id": "https://ror.org/040yf9s22"
+    },
+    {
+      "label": "Vinmec Smart City Hospital",
+      "type": "child",
+      "id": "https://ror.org/00kaqd172"
+    },
+    {
+      "label": "Vinmec Da Nang Hospital",
+      "type": "child",
+      "id": "https://ror.org/03f0wef32"
+    },
+    {
+      "label": "Vinmec Hai Phong Hospital",
+      "type": "child",
+      "id": "https://ror.org/02qpsxt83"
+    },
+    {
+      "label": "Vinmec Ha Long Hospital",
+      "type": "child",
+      "id": "https://ror.org/02n9haa63"
+    },
+    {
+      "label": "Vinmec Phu Quoc Hospital",
+      "type": "child",
+      "id": "https://ror.org/0440xhm62"
+    },
+    {
+      "label": "Vinmec Can Tho Hospital",
+      "type": "child",
+      "id": "https://ror.org/04scb9p33"
+    },
+    {
+      "label": "Vinmec Hi-Tech Center",
+      "type": "child",
+      "id": "https://ror.org/03refhz68"
+    },
+    {
+      "label": "Vinmec Research Institute of Stem Cell and Gene Technology",
+      "type": "related",
+      "id": "https://ror.org/00nn14q45"
+    },
+    {
+      "label": "Vinmec - VinUni Institute of Immunology",
+      "type": "related",
+      "id": "https://ror.org/043rh7g24"
+    },
+    {
+      "label": "Vinmec Nha Trang Hospital",
+      "type": "child",
+      "id": "https://ror.org/00vd9q916"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

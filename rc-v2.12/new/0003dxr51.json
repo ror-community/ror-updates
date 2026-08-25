@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Institut canadien d'écologie et d'évolution"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of British Columbia",
+      "type": "related",
+      "id": "https://ror.org/03rmrcq20"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

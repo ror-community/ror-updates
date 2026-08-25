@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "核动力运行研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China National Nuclear Corporation",
+      "type": "parent",
+      "id": "https://ror.org/01d5ymp84"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

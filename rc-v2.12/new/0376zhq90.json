@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Universidad Tecnológica Indoamérica, Sede Quito"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad Indoamérica",
+      "type": "parent",
+      "id": "https://ror.org/02nn67a65"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

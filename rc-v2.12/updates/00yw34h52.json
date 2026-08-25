@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,13 @@
       "value": "Institut Supérieur d'Électronique de Paris"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut catholique de paris",
+      "type": "related",
+      "id": "https://ror.org/043a7rc44"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

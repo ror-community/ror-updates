@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -84,7 +84,13 @@
       "value": "अनुसंधान राष्ट्रीय अनुसंधान फाउंडेशन"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Science and Engineering Research Board",
+      "type": "predecessor",
+      "id": "https://ror.org/03ffdsr55"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

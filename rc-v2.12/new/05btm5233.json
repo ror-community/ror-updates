@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,23 @@
       "value": "National Agency for Research and Development of Chile"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fondo Nacional de Desarrollo Científico y Tecnológico",
+      "type": "child",
+      "id": "https://ror.org/016nafs32"
+    },
+    {
+      "label": "Ministry of Science, Technology, Knowledge and Innovation",
+      "type": "parent",
+      "id": "https://ror.org/03tvpbp09"
+    },
+    {
+      "label": "Comisión Nacional de Investigación Científica y Tecnológica",
+      "type": "predecessor",
+      "id": "https://ror.org/02ap3w078"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

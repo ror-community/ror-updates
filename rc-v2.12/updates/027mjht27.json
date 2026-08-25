@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "Institut Universitaire Kurt Bösch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Lausanne",
+      "type": "parent",
+      "id": "https://ror.org/019whta54"
+    },
+    {
+      "label": "University of Geneva",
+      "type": "parent",
+      "id": "https://ror.org/01swzsf04"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100008743"
+      ],
+      "preferred": "501100008743",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419088.c"
+      ],
+      "preferred": "grid.419088.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0614 0469"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ysy1705",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mec.gub.uy/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "UY",
+        "country_name": "Uruguay",
+        "country_subdivision_code": "MO",
+        "country_subdivision_name": "Montevideo Department",
+        "lat": -34.90328,
+        "lng": -56.18816,
+        "name": "Montevideo"
+      },
+      "geonames_id": 3441575
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MEC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Educación y Cultura"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Investigaciones Biológicas Clemente Estable",
+      "type": "child",
+      "id": "https://ror.org/05b50ej63"
+    },
+    {
+      "label": "Observatorio Astronómico Los Molinos",
+      "type": "child",
+      "id": "https://ror.org/05eghha10"
+    },
+    {
+      "label": "Programa de Desarrollo de las Ciencias Básicas",
+      "type": "child",
+      "id": "https://ror.org/00jkr8r49"
+    },
+    {
+      "label": "Institut Franco-Uruguayen des Mathématiques et Interactions",
+      "type": "child",
+      "id": "https://ror.org/018qmp118"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Plasticity, Heterogeneity and Tumor Microenvironment Lab"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "The University of Melbourne",
+      "type": "parent",
+      "id": "https://ror.org/01ej9dk98"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

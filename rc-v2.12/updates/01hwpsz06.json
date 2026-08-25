@@ -1,0 +1,82 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100006454"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.438536.f"
+      ],
+      "preferred": "grid.438536.f",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01hwpsz06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.blv.admin.ch/?lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Bern",
+        "lat": 46.94809,
+        "lng": 7.44744,
+        "name": "Bern"
+      },
+      "geonames_id": 2661552
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FSVO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Federal Food Safety and Veterinary Office"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut für Virologie und Immunologie",
+      "type": "child",
+      "id": "https://ror.org/05p45f608"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

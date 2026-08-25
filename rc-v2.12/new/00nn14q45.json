@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Viện Nghiên cứu Tế bào gốc và Công nghệ gen Vinmec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "VinUniversity",
+      "type": "parent",
+      "id": "https://ror.org/052dmdr17"
+    },
+    {
+      "label": "Vinmec Healthcare System",
+      "type": "related",
+      "id": "https://ror.org/012rvtf75"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

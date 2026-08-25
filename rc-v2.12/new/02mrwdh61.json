@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "沈阳化工研究院有限公司"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sinochem Group (China)",
+      "type": "parent",
+      "id": "https://ror.org/03x8vck69"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,43 @@
       "value": "Novonesis A/S"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Novozymes (Denmark)",
+      "type": "predecessor",
+      "id": "https://ror.org/03ejz0s07"
+    },
+    {
+      "label": "Chr. Hansen (Denmark)",
+      "type": "predecessor",
+      "id": "https://ror.org/01mv6bt66"
+    },
+    {
+      "label": "Novo Holdings (Denmark)",
+      "type": "parent",
+      "id": "https://ror.org/04sfxgz72"
+    },
+    {
+      "label": "Novozymes (Canada)",
+      "type": "child",
+      "id": "https://ror.org/02t0nms65"
+    },
+    {
+      "label": "Novozymes (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/00nat9r59"
+    },
+    {
+      "label": "Novozymes (United States)",
+      "type": "child",
+      "id": "https://ror.org/03qkhyr66"
+    },
+    {
+      "label": "Novozymes Japan Ltd. (Japan)",
+      "type": "child",
+      "id": "https://ror.org/032vcz886"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

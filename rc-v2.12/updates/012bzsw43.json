@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Statens Institut for Folkesundhed"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Southern Denmark",
+      "type": "parent",
+      "id": "https://ror.org/03yrrjy16"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

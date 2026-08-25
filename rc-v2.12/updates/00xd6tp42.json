@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -104,7 +104,13 @@
       "value": "École des beaux-arts de Nantes Saint-Nazaire"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nantes Université",
+      "type": "parent",
+      "id": "https://ror.org/03gnr7b55"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Centre Régional de Coordination du Dépistage des Cancers Hauts-de-France"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Agence Régionale de Santé Hauts-de-France",
+      "type": "related",
+      "id": "https://ror.org/009wnqp40"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

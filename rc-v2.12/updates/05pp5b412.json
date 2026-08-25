@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,33 @@
       "value": "Beijing Proteome Research Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Center of Biomedical Analysis",
+      "type": "related",
+      "id": "https://ror.org/03k3bq214"
+    },
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "related",
+      "id": "https://ror.org/034t30j35"
+    },
+    {
+      "label": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+      "type": "related",
+      "id": "https://ror.org/02drdmm93"
+    },
+    {
+      "label": "Tsinghua University",
+      "type": "related",
+      "id": "https://ror.org/03cve4549"
+    },
+    {
+      "label": "Peking University",
+      "type": "related",
+      "id": "https://ror.org/02v51f717"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

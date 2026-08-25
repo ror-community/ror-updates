@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Instituto de Tecnologia Química e Biológica António Xavier"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Nova de Lisboa",
+      "type": "parent",
+      "id": "https://ror.org/02xankh89"
+    },
+    {
+      "label": "Molecular Structural and Cellular Microbiology",
+      "type": "child",
+      "id": "https://ror.org/03b4k4y74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

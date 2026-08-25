@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Nancy Clinical Investigation Centre Innovative Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Lorraine",
+      "type": "related",
+      "id": "https://ror.org/04vfs2w97"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

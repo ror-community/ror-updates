@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,33 @@
       "value": "IRL2010"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "IMT Atlantique",
+      "type": "parent",
+      "id": "https://ror.org/030hj3061"
+    },
+    {
+      "label": "Naval Group (France)",
+      "type": "parent",
+      "id": "https://ror.org/03rks9355"
+    },
+    {
+      "label": "Flinders University",
+      "type": "parent",
+      "id": "https://ror.org/01kpzv902"
+    },
+    {
+      "label": "Adelaide University",
+      "type": "parent",
+      "id": "https://ror.org/028g18b61"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

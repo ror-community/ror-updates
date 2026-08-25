@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Istituto di virologia e immunologia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Federal Food Safety and Veterinary Office",
+      "type": "parent",
+      "id": "https://ror.org/01hwpsz06"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

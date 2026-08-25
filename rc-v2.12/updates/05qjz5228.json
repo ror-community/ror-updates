@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Institut Jean Godinot"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Reims Champagne-Ardenne",
+      "type": "related",
+      "id": "https://ror.org/03hypw319"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

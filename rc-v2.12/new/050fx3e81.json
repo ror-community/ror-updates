@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Институт микробиологии Академии наук Республики Узбекистан"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Academy of Sciences Republic of Uzbekistan",
+      "type": "parent",
+      "id": "https://ror.org/01xgfaw76"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

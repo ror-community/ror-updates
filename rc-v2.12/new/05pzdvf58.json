@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "National Agency for Scientific Research and Innovation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Education, Sports and Youth",
+      "type": "parent",
+      "id": "https://ror.org/04ydcpm48"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

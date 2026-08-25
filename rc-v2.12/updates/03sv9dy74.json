@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -89,8 +89,18 @@
   ],
   "relationships": [
     {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/02rx3b187"
+    },
+    {
       "label": "Observatoire des Sciences de l'Univers de Grenoble",
-      "type": "related",
+      "type": "parent",
       "id": "https://ror.org/03vte9x46"
     }
   ],

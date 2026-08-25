@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-22",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,23 @@
       "value": "IRL3288"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Thales (France)",
+      "type": "parent",
+      "id": "https://ror.org/04emwm605"
+    },
+    {
+      "label": "Nanyang Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/0203c2755"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,23 @@
       "value": "Marine Eutrophication Lab"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Universidade do Estado do Rio de Janeiro",
+      "type": "parent",
+      "id": "https://ror.org/0198v2949"
+    },
+    {
+      "label": "Universidade Federal Fluminense",
+      "type": "parent",
+      "id": "https://ror.org/02rjhbb08"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

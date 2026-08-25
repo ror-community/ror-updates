@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -109,7 +109,13 @@
       "value": "Parc Taulí Sabadell Hospital Universitari"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

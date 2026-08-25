@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Naturéum - Muséum cantonal des sciences naturelles"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Musée cantonal de géologie",
+      "type": "predecessor",
+      "id": "https://ror.org/04e3n2221"
+    },
+    {
+      "label": "Musée et Jardins botaniques cantonaux",
+      "type": "predecessor",
+      "id": "https://ror.org/039dkqy33"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

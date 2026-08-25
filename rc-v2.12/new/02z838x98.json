@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,23 @@
       "value": "Державна установа «Всеукраїнський центр материнства та дитинства НАМН України»"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Medical Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/042dnf796"
+    },
+    {
+      "label": "Institute of Pediatrics, Obstetrics, and Gynecology named after acad. O.M. Lukyanova of the National Academy of Medical Sciences of Ukraine",
+      "type": "predecessor",
+      "id": "https://ror.org/00gtb4z22"
+    },
+    {
+      "label": "Institute of Nuclear Medicine and Diagnostic Radiology of the National Academy of Medical Sciences of Ukraine",
+      "type": "predecessor",
+      "id": "https://ror.org/04ts03910"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

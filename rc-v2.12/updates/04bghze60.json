@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Dışkapı Yıldırım Beyazıt Eğitim ve Araştırma Hastanesi"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sağlık Bilimleri Üniversitesi",
+      "type": "related",
+      "id": "https://ror.org/03k7bde87"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

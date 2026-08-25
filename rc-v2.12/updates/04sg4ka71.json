@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "University Hospital Kralovske Vinohrady"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Charles University",
+      "type": "related",
+      "id": "https://ror.org/024d6js02"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

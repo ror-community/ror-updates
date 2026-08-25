@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -102,7 +102,13 @@
       "value": "Vinmec Times City International Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Vinmec Healthcare System",
+      "type": "parent",
+      "id": "https://ror.org/012rvtf75"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

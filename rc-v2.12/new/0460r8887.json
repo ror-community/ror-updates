@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "UAR3103"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Institut national d'histoire de l'art",
+      "type": "parent",
+      "id": "https://ror.org/045cwqj90"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "Centre de recherches mathématiques"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CRM-CNRS International Research Laboratory",
+      "type": "child",
+      "id": "https://ror.org/05xkvkc24"
+    },
+    {
+      "label": "Université de Montréal",
+      "type": "parent",
+      "id": "https://ror.org/0161xgx34"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

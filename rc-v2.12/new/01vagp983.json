@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,13 @@
       "value": "中国医学科学院生物医学工程研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+      "type": "parent",
+      "id": "https://ror.org/02drdmm93"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

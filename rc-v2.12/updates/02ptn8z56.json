@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "École Nationale Supérieure d'Architecture de Versailles"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Paris-Saclay",
+      "type": "related",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

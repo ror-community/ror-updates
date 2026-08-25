@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "中国船舶重工集团公司第七一三研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China Shipbuilding Industry Corporation (China)",
+      "type": "parent",
+      "id": "https://ror.org/0410k9915"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

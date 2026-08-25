@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "Pacific Islands Climate Science Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Climate Adaptation Science Centers",
+      "type": "parent",
+      "id": "https://ror.org/023czga33"
+    },
+    {
+      "label": "University of Hawaiʻi at Mānoa",
+      "type": "parent",
+      "id": "https://ror.org/01wspgy28"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

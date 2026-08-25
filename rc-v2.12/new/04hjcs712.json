@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Regulation of host responses and immune health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Universidade de São Paulo",
+      "type": "parent",
+      "id": "https://ror.org/036rp1748"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

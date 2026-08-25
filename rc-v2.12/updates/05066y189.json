@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-09-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100014581"
+      ],
+      "preferred": "100014581",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 7865 8208"
+      ],
+      "preferred": "0000 0004 7865 8208",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05066y189",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://southcentralclimate.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OK",
+        "country_subdivision_name": "Oklahoma",
+        "lat": 35.22257,
+        "lng": -97.43948,
+        "name": "Norman"
+      },
+      "geonames_id": 4543762
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SC CASC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "South Central CASC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Central Climate Adaptation Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "US Geological Survey South Central Climate Science Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "USGS South Central Climate Science Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Oklahoma",
+      "type": "parent",
+      "id": "https://ror.org/02aqsxs83"
+    },
+    {
+      "label": "Climate Adaptation Science Centers",
+      "type": "parent",
+      "id": "https://ror.org/023czga33"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

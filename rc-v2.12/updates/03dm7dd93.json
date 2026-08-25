@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,33 @@
       "value": "Austrian Centre of Industrial Biotechnology (Austria)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Graz University of Technology",
+      "type": "parent",
+      "id": "https://ror.org/00d7xrm67"
+    },
+    {
+      "label": "University of Graz",
+      "type": "parent",
+      "id": "https://ror.org/01faaaf77"
+    },
+    {
+      "label": "Universität Innsbruck",
+      "type": "parent",
+      "id": "https://ror.org/054pv6659"
+    },
+    {
+      "label": "BOKU University",
+      "type": "parent",
+      "id": "https://ror.org/057ff4y42"
+    },
+    {
+      "label": "Joanneum Research",
+      "type": "parent",
+      "id": "https://ror.org/049bdss47"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

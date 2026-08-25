@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Groupe Hospitalier de l'Institut Catholique de Lille"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Catholique de Lille",
+      "type": "parent",
+      "id": "https://ror.org/025s1b152"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

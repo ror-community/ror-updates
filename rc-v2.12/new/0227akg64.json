@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,23 @@
       "value": "Multidisciplinary International Research for Advancing Innovation in Glycosciences"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Gifu University",
+      "type": "parent",
+      "id": "https://ror.org/024exxj48"
+    },
+    {
+      "label": "Nagoya University",
+      "type": "parent",
+      "id": "https://ror.org/04chrp450"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"
