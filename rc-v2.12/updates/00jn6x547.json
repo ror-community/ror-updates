@@ -1,101 +1,101 @@
 {
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-08-25",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [],
-  "established": 2007,
-  "external_ids": [
-    {
-      "all": [
-        "501100007339"
-      ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.468104.f"
-      ],
-      "preferred": "grid.468104.f",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0004 5904 2117"
-      ],
-      "preferred": "0000 0004 5904 2117",
-      "type": "isni"
-    }
-  ],
-  "id": "https://ror.org/00jn6x547",
-  "links": [
-    {
-      "type": "website",
-      "value": "http://viasm.edu.vn/en/"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "AS",
-        "continent_name": "Asia",
-        "country_code": "VN",
-        "country_name": "Vietnam",
-        "country_subdivision_code": "HN",
-        "country_subdivision_name": "Hanoi",
-        "lat": 21.0245,
-        "lng": 105.84117,
-        "name": "Hanoi"
-      },
-      "geonames_id": 1581130
-    }
-  ],
-  "names": [
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "VIASM"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "Vietnam Institute for Advanced Study in Mathematics"
-    },
-    {
-      "lang": "vi",
-      "types": [
-        "label"
-      ],
-      "value": "Viện nghiên cứu cao cấp về toán"
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Ministry of Education and Training",
-      "type": "parent",
-      "id": "https://ror.org/00drv3378"
-    },
-    {
-      "label": "France-Vietnam in Mathematics and its Applications",
-      "type": "child",
-      "id": "https://ror.org/04fm3x669"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "education",
-    "funder"
-  ]
+    "domains": [],
+    "established": 2007,
+    "external_ids": [
+        {
+            "all": [
+                "501100007339"
+            ],
+            "preferred": null,
+            "type": "fundref"
+        },
+        {
+            "all": [
+                "grid.468104.f"
+            ],
+            "preferred": "grid.468104.f",
+            "type": "grid"
+        },
+        {
+            "all": [
+                "0000 0004 5904 2117"
+            ],
+            "preferred": "0000 0004 5904 2117",
+            "type": "isni"
+        }
+    ],
+    "id": "https://ror.org/00jn6x547",
+    "links": [
+        {
+            "type": "website",
+            "value": "http://viasm.edu.vn/en/"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "AS",
+                "continent_name": "Asia",
+                "country_code": "VN",
+                "country_name": "Vietnam",
+                "country_subdivision_code": null,
+                "country_subdivision_name": "Hanoi",
+                "lat": 21.0245,
+                "lng": 105.84117,
+                "name": "Hanoi"
+            },
+            "geonames_id": 1581130
+        }
+    ],
+    "names": [
+        {
+            "lang": null,
+            "types": [
+                "acronym"
+            ],
+            "value": "VIASM"
+        },
+        {
+            "lang": "en",
+            "types": [
+                "ror_display",
+                "label"
+            ],
+            "value": "Vietnam Institute for Advanced Study in Mathematics"
+        },
+        {
+            "lang": "vi",
+            "types": [
+                "label"
+            ],
+            "value": "Viện nghiên cứu cao cấp về toán"
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Ministry of Education and Training",
+            "type": "parent",
+            "id": "https://ror.org/00drv3378"
+        },
+        {
+            "label": "France-Vietnam in Mathematics and its Applications",
+            "type": "child",
+            "id": "https://ror.org/04fm3x669"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "education",
+        "funder"
+    ]
 }

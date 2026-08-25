@@ -1,83 +1,83 @@
 {
-  "admin": {
-    "created": {
-      "date": "2021-09-23",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2021-09-23",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-08-25",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [
-    "cctval.cl"
-  ],
-  "established": 2009,
-  "external_ids": [
-    {
-      "all": [
-        "grid.511099.5"
-      ],
-      "preferred": "grid.511099.5",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "Q47522804"
-      ],
-      "preferred": null,
-      "type": "wikidata"
-    }
-  ],
-  "id": "https://ror.org/00m0k5p91",
-  "links": [
-    {
-      "type": "website",
-      "value": "https://cctval.cl"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "SA",
-        "continent_name": "South America",
-        "country_code": "CL",
-        "country_name": "Chile",
-        "country_subdivision_code": "VS",
-        "country_subdivision_name": "Valparaíso",
-        "lat": -33.036,
-        "lng": -71.62963,
-        "name": "Valparaíso"
-      },
-      "geonames_id": 3868626
-    }
-  ],
-  "names": [
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "CCTVal"
-    },
-    {
-      "lang": "es",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "Centro Científico Tecnológico de Valparaíso"
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Federico Santa María Technical University",
-      "type": "parent",
-      "id": "https://ror.org/05510vn56"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "education"
-  ]
+    "domains": [
+        "cctval.cl"
+    ],
+    "established": 2009,
+    "external_ids": [
+        {
+            "all": [
+                "grid.511099.5"
+            ],
+            "preferred": "grid.511099.5",
+            "type": "grid"
+        },
+        {
+            "all": [
+                "Q47522804"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+        }
+    ],
+    "id": "https://ror.org/00m0k5p91",
+    "links": [
+        {
+            "type": "website",
+            "value": "https://cctval.cl"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "SA",
+                "continent_name": "South America",
+                "country_code": "CL",
+                "country_name": "Chile",
+                "country_subdivision_code": "VS",
+                "country_subdivision_name": "Valparaiso",
+                "lat": -33.036,
+                "lng": -71.62963,
+                "name": "Valparaíso"
+            },
+            "geonames_id": 3868626
+        }
+    ],
+    "names": [
+        {
+            "lang": null,
+            "types": [
+                "acronym"
+            ],
+            "value": "CCTVal"
+        },
+        {
+            "lang": "es",
+            "types": [
+                "ror_display",
+                "label"
+            ],
+            "value": "Centro Científico Tecnológico de Valparaíso"
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Federico Santa María Technical University",
+            "type": "parent",
+            "id": "https://ror.org/05510vn56"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "education"
+    ]
 }

@@ -1,115 +1,115 @@
 {
-  "admin": {
-    "created": {
-      "date": "2019-02-17",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2019-02-17",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-08-24",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [],
-  "established": 2015,
-  "external_ids": [
-    {
-      "all": [
-        "grid.503393.f"
-      ],
-      "preferred": "grid.503393.f",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "Q51785350"
-      ],
-      "preferred": "Q51785350",
-      "type": "wikidata"
-    }
-  ],
-  "id": "https://ror.org/05fnxds15",
-  "links": [
-    {
-      "type": "website",
-      "value": "https://pimit.univ-reunion.fr/"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "AF",
-        "continent_name": "Africa",
-        "country_code": "RE",
-        "country_name": "Réunion",
-        "country_subdivision_code": null,
-        "country_subdivision_name": "Réunion",
-        "lat": -20.90429,
-        "lng": 55.47826,
-        "name": "Sainte-Clotilde"
-      },
-      "geonames_id": 935257
-    }
-  ],
-  "names": [
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "PIMIT"
-    },
-    {
-      "lang": "fr",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "Processus Infectieux en Milieu Insulaire Tropical"
-    },
-    {
-      "lang": null,
-      "types": [
-        "alias"
-      ],
-      "value": "UMR 9192"
-    },
-    {
-      "lang": null,
-      "types": [
-        "alias"
-      ],
-      "value": "UMR9192"
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Inserm",
-      "type": "parent",
-      "id": "https://ror.org/02vjkv261"
-    },
-    {
-      "label": "Institut de Recherche pour le Développement",
-      "type": "parent",
-      "id": "https://ror.org/05q3vnk25"
-    },
-    {
-      "label": "CNRS Écologie & Environnement",
-      "type": "parent",
-      "id": "https://ror.org/01q76b368"
-    },
-    {
-      "label": "University of Reunion Island",
-      "type": "parent",
-      "id": "https://ror.org/005ypkf75"
-    },
-    {
-      "label": "Centre National de la Recherche Scientifique",
-      "type": "parent",
-      "id": "https://ror.org/02feahw73"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "facility"
-  ]
+    "domains": [],
+    "established": 2015,
+    "external_ids": [
+        {
+            "all": [
+                "grid.503393.f"
+            ],
+            "preferred": "grid.503393.f",
+            "type": "grid"
+        },
+        {
+            "all": [
+                "Q51785350"
+            ],
+            "preferred": "Q51785350",
+            "type": "wikidata"
+        }
+    ],
+    "id": "https://ror.org/05fnxds15",
+    "links": [
+        {
+            "type": "website",
+            "value": "https://pimit.univ-reunion.fr/"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "AF",
+                "continent_name": "Africa",
+                "country_code": "RE",
+                "country_name": "Réunion",
+                "country_subdivision_code": null,
+                "country_subdivision_name": "Reunion",
+                "lat": -20.90429,
+                "lng": 55.47826,
+                "name": "Sainte-Clotilde"
+            },
+            "geonames_id": 935257
+        }
+    ],
+    "names": [
+        {
+            "lang": null,
+            "types": [
+                "acronym"
+            ],
+            "value": "PIMIT"
+        },
+        {
+            "lang": "fr",
+            "types": [
+                "ror_display",
+                "label"
+            ],
+            "value": "Processus Infectieux en Milieu Insulaire Tropical"
+        },
+        {
+            "lang": null,
+            "types": [
+                "alias"
+            ],
+            "value": "UMR 9192"
+        },
+        {
+            "lang": null,
+            "types": [
+                "alias"
+            ],
+            "value": "UMR9192"
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Inserm",
+            "type": "parent",
+            "id": "https://ror.org/02vjkv261"
+        },
+        {
+            "label": "Institut de Recherche pour le Développement",
+            "type": "parent",
+            "id": "https://ror.org/05q3vnk25"
+        },
+        {
+            "label": "CNRS Écologie & Environnement",
+            "type": "parent",
+            "id": "https://ror.org/01q76b368"
+        },
+        {
+            "label": "University of Reunion Island",
+            "type": "parent",
+            "id": "https://ror.org/005ypkf75"
+        },
+        {
+            "label": "Centre National de la Recherche Scientifique",
+            "type": "parent",
+            "id": "https://ror.org/02feahw73"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "facility"
+    ]
 }

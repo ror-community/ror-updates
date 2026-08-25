@@ -1,108 +1,108 @@
 {
-  "admin": {
-    "created": {
-      "date": "2018-11-14",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2018-11-14",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-08-25",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-08-24",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [
-    "dsm.museum"
-  ],
-  "established": 1971,
-  "external_ids": [
-    {
-      "all": [
-        "grid.469815.7"
-      ],
-      "preferred": "grid.469815.7",
-      "type": "grid"
-    },
-    {
-      "all": [
-        "0000 0001 2254 1113"
-      ],
-      "preferred": null,
-      "type": "isni"
-    },
-    {
-      "all": [
-        "Q455354"
-      ],
-      "preferred": null,
-      "type": "wikidata"
-    }
-  ],
-  "id": "https://ror.org/02hdxnq28",
-  "links": [
-    {
-      "type": "website",
-      "value": "https://www.dsm.museum"
-    },
-    {
-      "type": "wikipedia",
-      "value": "https://en.wikipedia.org/wiki/German_Maritime_Museum"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "DE",
-        "country_name": "Germany",
-        "country_subdivision_code": "HB",
-        "country_subdivision_name": "City state Bremen",
-        "lat": 53.55357,
-        "lng": 8.57553,
-        "name": "Bremerhaven"
-      },
-      "geonames_id": 2944368
-    }
-  ],
-  "names": [
-    {
-      "lang": null,
-      "types": [
-        "acronym"
-      ],
-      "value": "DSM"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "alias"
-      ],
-      "value": "Deutsches Schiffahrtsmuseum"
-    },
-    {
-      "lang": "de",
-      "types": [
-        "label",
-        "ror_display"
-      ],
-      "value": "Deutsches Schifffahrtsmuseum"
-    },
-    {
-      "lang": "en",
-      "types": [
-        "label"
-      ],
-      "value": "German Maritime Museum"
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Leibniz Association",
-      "type": "parent",
-      "id": "https://ror.org/01n6r0e97"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "archive"
-  ]
+    "domains": [
+        "dsm.museum"
+    ],
+    "established": 1971,
+    "external_ids": [
+        {
+            "all": [
+                "grid.469815.7"
+            ],
+            "preferred": "grid.469815.7",
+            "type": "grid"
+        },
+        {
+            "all": [
+                "0000 0001 2254 1113"
+            ],
+            "preferred": null,
+            "type": "isni"
+        },
+        {
+            "all": [
+                "Q455354"
+            ],
+            "preferred": null,
+            "type": "wikidata"
+        }
+    ],
+    "id": "https://ror.org/02hdxnq28",
+    "links": [
+        {
+            "type": "website",
+            "value": "https://www.dsm.museum"
+        },
+        {
+            "type": "wikipedia",
+            "value": "https://en.wikipedia.org/wiki/German_Maritime_Museum"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "EU",
+                "continent_name": "Europe",
+                "country_code": "DE",
+                "country_name": "Germany",
+                "country_subdivision_code": "HB",
+                "country_subdivision_name": "Bremen",
+                "lat": 53.55357,
+                "lng": 8.57553,
+                "name": "Bremerhaven"
+            },
+            "geonames_id": 2944368
+        }
+    ],
+    "names": [
+        {
+            "lang": null,
+            "types": [
+                "acronym"
+            ],
+            "value": "DSM"
+        },
+        {
+            "lang": "de",
+            "types": [
+                "alias"
+            ],
+            "value": "Deutsches Schiffahrtsmuseum"
+        },
+        {
+            "lang": "de",
+            "types": [
+                "label",
+                "ror_display"
+            ],
+            "value": "Deutsches Schifffahrtsmuseum"
+        },
+        {
+            "lang": "en",
+            "types": [
+                "label"
+            ],
+            "value": "German Maritime Museum"
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Leibniz Association",
+            "type": "parent",
+            "id": "https://ror.org/01n6r0e97"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "archive"
+    ]
 }
