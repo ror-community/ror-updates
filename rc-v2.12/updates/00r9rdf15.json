@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.436221.0"
+      ],
+      "preferred": "grid.436221.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00r9rdf15",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lvm.fi/en/home"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Transport_and_Communications_(Finland)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "18",
+        "country_subdivision_name": "Uusimaa",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "name": "Helsinki"
+      },
+      "geonames_id": 658225
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LVM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Transport and Communications"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "kommunikationsministeriet"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "label"
+      ],
+      "value": "liikenne- ja viestintäministeriö"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Finnish Meteorological Institute",
+      "type": "child",
+      "id": "https://ror.org/05hppb561"
+    },
+    {
+      "label": "Finnish Transport Infrastructure Agency",
+      "type": "child",
+      "id": "https://ror.org/00hef7f20"
+    },
+    {
+      "label": "Finnish Transport Safety Agency",
+      "type": "child",
+      "id": "https://ror.org/027ymyq71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

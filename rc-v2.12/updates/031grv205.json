@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "100016873"
+      ],
+      "preferred": "100016873",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.510954.c"
+      ],
+      "preferred": "grid.510954.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0444 3861"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1440693"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/031grv205",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://framinghamheartstudy.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Framingham_Heart_Study"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.27926,
+        "lng": -71.41617,
+        "name": "Framingham"
+      },
+      "geonames_id": 4937230
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Framingham Heart Study"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Boston University",
+      "type": "parent",
+      "id": "https://ror.org/05qwgg493"
+    },
+    {
+      "label": "National Heart, Lung, and Blood Institute",
+      "type": "parent",
+      "id": "https://ror.org/012pb6c26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

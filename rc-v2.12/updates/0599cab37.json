@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-07-27",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2023,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 1228 7237"
+      ],
+      "preferred": "0000 0005 1228 7237",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0599cab37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.henryfordmsu.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.73698,
+        "lng": -84.48387,
+        "name": "East Lansing"
+      },
+      "geonames_id": 4991640
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HFH+MSU HS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Henry Ford Health + Michigan State University Health Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Henry Ford Health",
+      "type": "parent",
+      "id": "https://ror.org/02kwnkm68"
+    },
+    {
+      "label": "Michigan State University",
+      "type": "parent",
+      "id": "https://ror.org/05hs6h993"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

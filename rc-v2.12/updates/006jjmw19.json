@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-08-25",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1921,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413085.b"
+      ],
+      "preferred": "grid.413085.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9908 7089"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895285"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/006jjmw19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uchealth.org/locations/uchealth-university-of-colorado-hospital-uch/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Colorado_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 39.72943,
+        "lng": -104.83192,
+        "name": "Aurora"
+      },
+      "geonames_id": 5412347
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Colorado General Hospital"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Hospital de la Universidad de Colorado"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Colorado Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Colorado Health",
+      "type": "parent",
+      "id": "https://ror.org/0107w4315"
+    },
+    {
+      "label": "University of Colorado Anschutz",
+      "type": "related",
+      "id": "https://ror.org/03wmf1y16"
+    },
+    {
+      "label": "University of Colorado Boulder",
+      "type": "related",
+      "id": "https://ror.org/02ttsq026"
+    },
+    {
+      "label": "University of Colorado Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/04cqn7d42"
+    },
+    {
+      "label": "University of Colorado Denver",
+      "type": "related",
+      "id": "https://ror.org/02hh7en24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
