@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "infran.ru"
+  ],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417772.0"
+      ],
+      "preferred": "grid.417772.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2217 1298"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/022rrvm68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.infran.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "SPE",
+        "country_subdivision_name": "St.-Petersburg",
+        "lat": 59.93863,
+        "lng": 30.31413,
+        "name": "St Petersburg"
+      },
+      "geonames_id": 498817
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Physiology. IP Pavlov, Russian Academy of Sciences ( SPbNTs RAS )"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Physiology. IP Pavlov, Russian Academy of Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Pavlov Institute of Physiology of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Институт физиологии им. И.П. Павлова Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Physiological Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0218eta95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

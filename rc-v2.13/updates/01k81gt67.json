@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "alfred.edu"
+  ],
+  "established": 1836,
+  "external_ids": [
+    {
+      "all": [
+        "100019360"
+      ],
+      "preferred": "100019360",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.252018.c"
+      ],
+      "preferred": "grid.252018.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0725 292X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3446091"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01k81gt67",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.alfred.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Alfred_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 42.25424,
+        "lng": -77.79055,
+        "name": "Alfred"
+      },
+      "geonames_id": 5106955
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alfred University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "New York State College of Ceramics",
+      "type": "child",
+      "id": "https://ror.org/02n1c7856"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "brockport.edu"
+  ],
+  "established": 1867,
+  "external_ids": [
+    {
+      "all": [
+        "100011958"
+      ],
+      "preferred": "100011958",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.264262.6"
+      ],
+      "preferred": "grid.264262.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0725 9953"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7603617"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0306aeb62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.brockport.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/State_University_of_New_York_at_Brockport"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 43.21367,
+        "lng": -77.93918,
+        "name": "Brockport"
+      },
+      "geonames_id": 5110227
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SUNY Brockport"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "State University of New York at Brockport"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The College at Brockport: State University of New York"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State University of New York",
+      "type": "parent",
+      "id": "https://ror.org/01q1z8k08"
+    },
+    {
+      "label": "Great Lakes Research Consortium",
+      "type": "related",
+      "id": "https://ror.org/05cshtm26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

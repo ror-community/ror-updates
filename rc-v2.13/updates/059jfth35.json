@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "klinikum-stuttgart.de"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419842.2"
+      ],
+      "preferred": "grid.419842.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0341 9964"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/059jfth35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.klinikum-stuttgart.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "name": "Stuttgart"
+      },
+      "geonames_id": 2825297
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Klinikum Stuttgart"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Katharinenhospital",
+      "type": "child",
+      "id": "https://ror.org/002n0by50"
+    },
+    {
+      "label": "Olgahospital",
+      "type": "child",
+      "id": "https://ror.org/01xet8208"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

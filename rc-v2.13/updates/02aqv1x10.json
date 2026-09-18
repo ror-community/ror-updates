@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mariecurie.org.uk"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "501100000654"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419428.2"
+      ],
+      "preferred": "grid.419428.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9768 8171"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16997351"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02aqv1x10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mariecurie.org.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Marie_Curie_(Charity)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Marie Curie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Marie Curie Hospice",
+      "type": "related",
+      "id": "https://ror.org/03ayjfd71"
+    },
+    {
+      "label": "Marie Curie Palliative Care Institute Liverpool",
+      "type": "related",
+      "id": "https://ror.org/00ke0d331"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

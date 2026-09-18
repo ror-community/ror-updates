@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ikifp.edu.pl"
+  ],
+  "established": 1968,
+  "external_ids": [
+    {
+      "all": [
+        "501100015385"
+      ],
+      "preferred": "501100015385",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424928.1"
+      ],
+      "preferred": "grid.424928.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0542 3715"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02xvrx776",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ikifp.edu.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "12",
+        "country_subdivision_name": "Lesser Poland",
+        "lat": 50.06143,
+        "lng": 19.93658,
+        "name": "Krakow"
+      },
+      "geonames_id": 3094802
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICSC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICSC PAS"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Katalizy i Fizykochemii Powierzchni im. Jerzego Habera Polskiej Akademii Nauk"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Jerzy Haber Institute of Catalysis and Surface Chemistry, Polish Academy of Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

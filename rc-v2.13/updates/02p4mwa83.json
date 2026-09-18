@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wh.org.au"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100021276"
+      ],
+      "preferred": "501100021276",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417072.7"
+      ],
+      "preferred": "grid.417072.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0645 2884"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02p4mwa83",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.westernhealth.org.au/Pages/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.814,
+        "lng": 144.96332,
+        "name": "Melbourne"
+      },
+      "geonames_id": 2158177
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Western Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Footscray Hospital",
+      "type": "child",
+      "id": "https://ror.org/0221nva21"
+    },
+    {
+      "label": "Sunshine Hospital",
+      "type": "child",
+      "id": "https://ror.org/033abcd54"
+    },
+    {
+      "label": "Western Hospital",
+      "type": "child",
+      "id": "https://ror.org/05qv7gx64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

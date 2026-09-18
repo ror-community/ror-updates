@@ -1,0 +1,147 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "paho.org"
+  ],
+  "established": 1902,
+  "external_ids": [
+    {
+      "all": [
+        "100011893"
+      ],
+      "preferred": "100011893",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.4437.4"
+      ],
+      "preferred": "grid.4437.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0505 4321"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1856835"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008kev776",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.paho.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Pan_American_Health_Organization"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "HO Regional Office for the Americas"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Organisation Panaméricaine de la Santé"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Organización Panamericana de la Salud"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PAHO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Pan American Health Organization"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WHO PAHO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "World Health Organization Regional Office for the Americas"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Pan American Health Organization (Brasil)",
+      "type": "child",
+      "id": "https://ror.org/02jkz3g13"
+    },
+    {
+      "label": "Pan American Health Organization (Cuba)",
+      "type": "child",
+      "id": "https://ror.org/01p1fe256"
+    },
+    {
+      "label": "World Health Organization",
+      "type": "parent",
+      "id": "https://ror.org/01f80g185"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

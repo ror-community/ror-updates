@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iner.gob.mx"
+  ],
+  "established": 1936,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419179.3"
+      ],
+      "preferred": "grid.419179.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8515 3604"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/017fh2655",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iner.salud.gob.mx/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "name": "Mexico City"
+      },
+      "geonames_id": 3530597
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INER"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Enfermedades Respiratorias"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Nacional de Enfermedades Respiratorias Ismael Cosío Villegas"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Secretaria de Salud",
+      "type": "parent",
+      "id": "https://ror.org/0082wq496"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

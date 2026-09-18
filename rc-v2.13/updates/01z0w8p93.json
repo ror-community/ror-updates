@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tnimc.ru"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473330.0"
+      ],
+      "preferred": "grid.473330.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01z0w8p93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.tnimc.ru/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "TOM",
+        "country_subdivision_name": "Tomsk Oblast",
+        "lat": 56.50049,
+        "lng": 84.98216,
+        "name": "Tomsk"
+      },
+      "geonames_id": 1489425
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TNRMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tomsk National Research Medical Center"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Томский национальный исследовательский медицинский центр"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mental Health Research Institute, Tomsk National Research Medical Center, Russian Academy of Sciences",
+      "type": "child",
+      "id": "https://ror.org/026md7341"
+    },
+    {
+      "label": "Russian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05qrfxd25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

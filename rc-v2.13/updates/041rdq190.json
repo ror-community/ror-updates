@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nifdc.org.cn"
+  ],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "100017242"
+      ],
+      "preferred": "100017242",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410749.f"
+      ],
+      "preferred": "grid.410749.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0577 6238"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/041rdq190",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nifdc.org.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIFDC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institutes for Food and Drug Control"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国食品药品检定研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Medical Products Administration",
+      "type": "related",
+      "id": "https://ror.org/002k3wk88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

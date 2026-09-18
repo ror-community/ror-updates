@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uwhealth.org"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412637.5"
+      ],
+      "preferred": "grid.412637.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q30254092"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03e3qgk42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uwhealth.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WI",
+        "country_subdivision_name": "Wisconsin",
+        "lat": 43.07305,
+        "lng": -89.40123,
+        "name": "Madison"
+      },
+      "geonames_id": 5261457
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UW Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Wisconsin Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UW Health University Hospital",
+      "type": "child",
+      "id": "https://ror.org/02mqqhj42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cnpem.br"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "501100011874"
+      ],
+      "preferred": "501100011874",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452567.7"
+      ],
+      "preferred": "grid.452567.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0445 0877"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18484000"
+      ],
+      "preferred": "Q18484000",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05m235j20",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cnpem.br/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "SP",
+        "country_subdivision_name": "São Paulo",
+        "lat": -22.90556,
+        "lng": -47.06083,
+        "name": "Campinas"
+      },
+      "geonames_id": 3467865
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brazilian Center for Research in Energy and Materials"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNPEM"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Centro Nacional de Pesquisa em Energia e Materiais"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Brazilian Biosciences National Laboratory",
+      "type": "child",
+      "id": "https://ror.org/04kjcjc51"
+    },
+    {
+      "label": "Brazilian Synchrotron Light Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01p6gzq21"
+    },
+    {
+      "label": "Laboratório Nacional de Nanotecnologia",
+      "type": "child",
+      "id": "https://ror.org/03e51yr27"
+    },
+    {
+      "label": "Ministry of Science, Technology and Innovation",
+      "type": "parent",
+      "id": "https://ror.org/050zdnc69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "other"
+  ]
+}

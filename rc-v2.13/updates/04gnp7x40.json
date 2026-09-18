@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wtamu.edu"
+  ],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "100010862"
+      ],
+      "preferred": "100010862",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.268149.0"
+      ],
+      "preferred": "grid.268149.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2216 993X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7986651"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04gnp7x40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.wtamu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/West_Texas_A%26M_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 34.98033,
+        "lng": -101.9188,
+        "name": "Canyon"
+      },
+      "geonames_id": 5518239
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WTAMU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "West Texas A&M University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Texas A&M University System",
+      "type": "parent",
+      "id": "https://ror.org/0034eay46"
+    },
+    {
+      "label": "Amarillo VA Health Care System",
+      "type": "related",
+      "id": "https://ror.org/034c6s521"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

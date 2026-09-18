@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "policlinico.pa.it"
+  ],
+  "established": 1939,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412510.3"
+      ],
+      "preferred": "grid.412510.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1756 3088"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05p21z194",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://policlinico.pa.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "82",
+        "country_subdivision_name": "Sicily",
+        "lat": 38.1166,
+        "lng": 13.3636,
+        "name": "Palermo"
+      },
+      "geonames_id": 2523920
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Ospedaliera Universitaria Policlinico \"Paolo Giaccone\" di Palermo"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Palermo",
+      "type": "related",
+      "id": "https://ror.org/044k9ta02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "antarctica.gov.au"
+  ],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "501100005108"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.1047.2"
+      ],
+      "preferred": "grid.1047.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0416 0263"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q781331"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05e89k615",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.antarctica.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Australian_Antarctic_Division"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "TAS",
+        "country_subdivision_name": "Tasmania",
+        "lat": -42.87936,
+        "lng": 147.32941,
+        "name": "Hobart"
+      },
+      "geonames_id": 2163355
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AAD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Australian Antarctic Division"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Marine Socioecology",
+      "type": "child",
+      "id": "https://ror.org/02xhx4j26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

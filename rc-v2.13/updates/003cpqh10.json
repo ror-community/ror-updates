@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "natcm.gov.cn"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "501100005891"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454878.2"
+      ],
+      "preferred": "grid.454878.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5902 7793"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7603008"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/003cpqh10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.natcm.gov.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/State_Administration_of_Traditional_Chinese_Medicine"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SATCM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "State Administration of Traditional Chinese Medicine of the People's Republic of China"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "国家中医药管理局"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Health and Family Planning Commission",
+      "type": "parent",
+      "id": "https://ror.org/052eegr76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

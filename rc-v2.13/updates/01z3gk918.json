@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bgrimm.com"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464247.7"
+      ],
+      "preferred": "grid.464247.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0176 2080"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01z3gk918",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.bgrimm.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BGRIMM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Beijing General Research Institute of Mining and Metallurgy"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京矿冶研究总院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Process Automation in Mining and Metallurgy",
+      "type": "child",
+      "id": "https://ror.org/05vmxhn52"
+    },
+    {
+      "label": "State Key Laboratory of Mineral Processing",
+      "type": "child",
+      "id": "https://ror.org/02edjvw12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dohs.gov.np"
+  ],
+  "established": 1953,
+  "external_ids": [
+    {
+      "all": [
+        "grid.452239.b"
+      ],
+      "preferred": "grid.452239.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0585 5980"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30296066"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038djf877",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dohs.gov.np/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "NP",
+        "country_name": "Nepal",
+        "country_subdivision_code": "P3",
+        "country_subdivision_name": "Bagmati Province",
+        "lat": 27.70169,
+        "lng": 85.3206,
+        "name": "Kathmandu"
+      },
+      "geonames_id": 1283240
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Health Services"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DoHS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Public Health Laboratory",
+      "type": "child",
+      "id": "https://ror.org/0276bkt19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

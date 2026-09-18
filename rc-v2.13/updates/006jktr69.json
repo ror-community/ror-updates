@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ospedale.perugia.it"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417287.f"
+      ],
+      "preferred": "grid.417287.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 3158"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/006jktr69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ospedale.perugia.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "55",
+        "country_subdivision_name": "Umbria",
+        "lat": 43.1122,
+        "lng": 12.38878,
+        "name": "Perugia"
+      },
+      "geonames_id": 3171180
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Ospedaliera di Perugia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Perugia",
+      "type": "related",
+      "id": "https://ror.org/00x27da85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

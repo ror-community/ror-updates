@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "arc.agric.za"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "100007537",
+        "100007538"
+      ],
+      "preferred": "100007537",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.428711.9"
+      ],
+      "preferred": "grid.428711.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2173 1003"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04r1s2546",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.arc.agric.za/Pages/Home.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "GP",
+        "country_subdivision_name": "Gauteng",
+        "lat": -25.74486,
+        "lng": 28.18783,
+        "name": "Pretoria"
+      },
+      "geonames_id": 964137
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ARC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agricultural Research Council of South Africa"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Animal Production Institute",
+      "type": "child",
+      "id": "https://ror.org/01zskeg15"
+    },
+    {
+      "label": "Institute for Deciduous Fruit, Vines and Wine",
+      "type": "child",
+      "id": "https://ror.org/03eq22881"
+    },
+    {
+      "label": "Institute for Soil, Climate and Water",
+      "type": "child",
+      "id": "https://ror.org/03k31z678"
+    },
+    {
+      "label": "Onderstepoort Veterinary Institute",
+      "type": "child",
+      "id": "https://ror.org/05dqm7k77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

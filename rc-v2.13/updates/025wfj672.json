@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mrc.gm"
+  ],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415063.5"
+      ],
+      "preferred": "grid.415063.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0606 294X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/025wfj672",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mrc.gm/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "GM",
+        "country_name": "The Gambia",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "Banjul",
+        "lat": 13.45274,
+        "lng": -16.57803,
+        "name": "Banjul"
+      },
+      "geonames_id": 2413876
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "MRC Unit The Gambia at LSHTM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "MRC Unit the Gambia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "London School of Hygiene & Tropical Medicine",
+      "type": "parent",
+      "id": "https://ror.org/00a0jsq62"
+    },
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

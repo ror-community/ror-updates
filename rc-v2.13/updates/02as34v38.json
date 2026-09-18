@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "orsted.com"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100006269"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423985.1"
+      ],
+      "preferred": "grid.423985.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0414 0692"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1241260"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02as34v38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://orsted.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%98rsted_(company)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "83",
+        "country_subdivision_name": "South Denmark",
+        "lat": 55.56568,
+        "lng": 9.75257,
+        "name": "Fredericia"
+      },
+      "geonames_id": 2621951
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "DONG Energy"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Dansk Naturgas"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Dansk Olie og Naturgas"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ørsted (Denmark)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ørsted (Norway)",
+      "type": "child",
+      "id": "https://ror.org/0371j5q71"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

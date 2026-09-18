@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipm.cz"
+  ],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435348.d"
+      ],
+      "preferred": "grid.435348.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 7483"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02d02f052",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipm.cz/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "64",
+        "country_subdivision_name": "South Moravian",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "name": "Brno"
+      },
+      "geonames_id": 3078610
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Czech Academy of Sciences, Institute of Physics of Materials"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Physics of Materials of the Czech Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ÚFM AV ČR"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "label"
+      ],
+      "value": "Ústav fyziky materiálů AV ČR"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Czech Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/053avzc18"
+    },
+    {
+      "label": "Central European Institute of Technology",
+      "type": "related",
+      "id": "https://ror.org/01p7k1986"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

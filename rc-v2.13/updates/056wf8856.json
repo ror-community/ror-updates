@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ksc.ru"
+  ],
+  "established": 1930,
+  "external_ids": [
+    {
+      "all": [
+        "grid.435427.3"
+      ],
+      "preferred": "grid.435427.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0693 5366"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4228949"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056wf8856",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ksc.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MUR",
+        "country_subdivision_name": "Murmansk",
+        "lat": 67.58267,
+        "lng": 33.41339,
+        "name": "Apatity"
+      },
+      "geonames_id": 581357
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science of the Kola Scientific Center RAS"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kola Science Centre"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kola Scientific Center RAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Kola Scientific Center of the Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kolskiy Nauchnyy Tsentr RAN"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Горный институт Кольского научного центра Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Earth Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0554h7e84"
+    },
+    {
+      "label": "Regional Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/05rbd6k73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-03-15",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "alleninstitute.org"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "100017008",
+        "100017023"
+      ],
+      "preferred": "100017008",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.507729.e"
+      ],
+      "preferred": "grid.507729.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q24191489"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cpe7c52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://alleninstitute.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Allen_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Allen Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Allen Institute for Brain Science",
+      "type": "child",
+      "id": "https://ror.org/00dcv1019"
+    },
+    {
+      "label": "Allen Institute for Cell Science",
+      "type": "child",
+      "id": "https://ror.org/05kg6bp11"
+    },
+    {
+      "label": "Allen Institute for Immunology",
+      "type": "child",
+      "id": "https://ror.org/0154kn471"
+    },
+    {
+      "label": "Allen Institute for Neural Dynamics",
+      "type": "child",
+      "id": "https://ror.org/04szwah67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

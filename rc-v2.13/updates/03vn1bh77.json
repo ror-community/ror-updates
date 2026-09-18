@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inrim.it"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100015058"
+      ],
+      "preferred": "501100015058",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425358.d"
+      ],
+      "preferred": "grid.425358.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0691 504X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03vn1bh77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrim.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "21",
+        "country_subdivision_name": "Piedmont",
+        "lat": 45.07049,
+        "lng": 7.68682,
+        "name": "Turin"
+      },
+      "geonames_id": 3165524
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INRIM"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Nazionale di Ricerca Metrologica"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministero dell'Istruzione e del Merito",
+      "type": "parent",
+      "id": "https://ror.org/01ehyh486"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

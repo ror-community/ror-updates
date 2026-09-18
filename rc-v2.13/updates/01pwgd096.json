@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "skao.int"
+  ],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.452822.b"
+      ],
+      "preferred": "grid.452822.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1784 8366"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01pwgd096",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.skao.int/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.26023,
+        "lng": -2.12564,
+        "name": "Macclesfield"
+      },
+      "geonames_id": 2643266
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "SKA Observatory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SKAO"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "SKA Telescope, Australia",
+      "type": "child",
+      "id": "https://ror.org/00ydnew86"
+    },
+    {
+      "label": "SKA Telescope, South Africa",
+      "type": "child",
+      "id": "https://ror.org/01wtjj434"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cultura.gov.br"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "grid.456750.5"
+      ],
+      "preferred": "grid.456750.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0789 149X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1154004"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04196w034",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cultura.gov.br/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Culture_(Brazil)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "DF",
+        "country_subdivision_name": "Federal District",
+        "lat": -15.77972,
+        "lng": -47.92972,
+        "name": "Brasília"
+      },
+      "geonames_id": 3469058
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MinC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Culture"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label"
+      ],
+      "value": "Ministério da Cultura"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Library of Brazil",
+      "type": "child",
+      "id": "https://ror.org/019cxby81"
+    },
+    {
+      "label": "Federal Government of Brazil",
+      "type": "parent",
+      "id": "https://ror.org/00n0s9w57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "embo.org"
+  ],
+  "established": 1964,
+  "external_ids": [
+    {
+      "all": [
+        "100004410",
+        "501100003043"
+      ],
+      "preferred": "100004410",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.434675.7"
+      ],
+      "preferred": "grid.434675.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2159 4512"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1376791"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04wfr2810",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.embo.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/European_Molecular_Biology_Organization"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EMBO"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "European Molecular Biology Organization"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "European Molecular Biology Conference",
+      "type": "related",
+      "id": "https://ror.org/00666kk80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

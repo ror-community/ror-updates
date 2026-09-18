@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ric.edu"
+  ],
+  "established": 1854,
+  "external_ids": [
+    {
+      "all": [
+        "100010428"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262539.9"
+      ],
+      "preferred": "grid.262539.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1936 9086"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1613236"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01k5gt570",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ric.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Rhode_Island_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "RI",
+        "country_subdivision_name": "Rhode Island",
+        "lat": 41.82399,
+        "lng": -71.41283,
+        "name": "Providence"
+      },
+      "geonames_id": 5224151
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "RIC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Rhode Island College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Providence VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/041m0cc93"
+    },
+    {
+      "label": "HELIN Library Consortium",
+      "type": "related",
+      "id": "https://ror.org/03b4ffc11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

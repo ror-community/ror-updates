@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "conocophillips.com"
+  ],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "100004677"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453595.b"
+      ],
+      "preferred": "grid.453595.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0359 1836"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q214763"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04hadnb81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.conocophillips.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/ConocoPhillips"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ConocoPhillips (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ConocoPhillips (Canada)",
+      "type": "child",
+      "id": "https://ror.org/028aqvb72"
+    },
+    {
+      "label": "ConocoPhillips (Qatar)",
+      "type": "child",
+      "id": "https://ror.org/04npze968"
+    },
+    {
+      "label": "ConocoPhillips (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/041hy4p77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

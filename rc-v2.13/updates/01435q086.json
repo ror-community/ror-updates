@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fhalcorcon.es"
+  ],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411316.0"
+      ],
+      "preferred": "grid.411316.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1767 1089"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18350077"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01435q086",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.comunidad.madrid/hospital/fundacionalcorcon/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hospital_Universitario_Fundaci%C3%B3n_Alcorc%C3%B3n"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HUFA"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Universitario Fundación Alcorcón"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Comunidad de Madrid",
+      "type": "parent",
+      "id": "https://ror.org/040scgh75"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

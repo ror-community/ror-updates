@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "moh.gov.my"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "501100013885"
+      ],
+      "preferred": "501100013885",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415759.b"
+      ],
+      "preferred": "grid.415759.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0690 5255"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4294352"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05ddxe180",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.moh.gov.my"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Malaysia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "16",
+        "country_subdivision_name": "Putrajaya",
+        "lat": 2.93527,
+        "lng": 101.69112,
+        "name": "Putrajaya"
+      },
+      "geonames_id": 6697380
+    }
+  ],
+  "names": [
+    {
+      "lang": "ms",
+      "types": [
+        "alias"
+      ],
+      "value": "Kementerian Kesihatan"
+    },
+    {
+      "lang": "ms",
+      "types": [
+        "label"
+      ],
+      "value": "Kementerian Kesihatan Malaysia"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/044ybef51"
+    },
+    {
+      "label": "National Institutes of Health",
+      "type": "child",
+      "id": "https://ror.org/045p44t13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

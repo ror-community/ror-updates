@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "volvo.com"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "grid.5911.c"
+      ],
+      "preferred": "grid.5911.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2264 6644"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q163810"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05b6ypc36",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://volvogroup.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Volvo"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "O",
+        "country_subdivision_name": "Västra Götaland",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "name": "Gothenburg"
+      },
+      "geonames_id": 2711537
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Aktiebolaget Volvo"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Volvo (Sweden)"
+    },
+    {
+      "lang": "sv",
+      "types": [
+        "label"
+      ],
+      "value": "Volvokoncernen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Volvo (Canada)",
+      "type": "child",
+      "id": "https://ror.org/02d0esb25"
+    },
+    {
+      "label": "Volvo (Germany)",
+      "type": "child",
+      "id": "https://ror.org/003snev59"
+    },
+    {
+      "label": "Volvo (United States)",
+      "type": "child",
+      "id": "https://ror.org/03e7zen21"
+    },
+    {
+      "label": "Volvo (United States)",
+      "type": "child",
+      "id": "https://ror.org/00mkdan60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

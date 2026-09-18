@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "brownhealth.org"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466933.d"
+      ],
+      "preferred": "grid.466933.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0456 871X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04yt1rh21",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lifespan.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "RI",
+        "country_subdivision_name": "Rhode Island",
+        "lat": 41.82399,
+        "lng": -71.41283,
+        "name": "Providence"
+      },
+      "geonames_id": 5224151
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lifespan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bradley Hospital",
+      "type": "child",
+      "id": "https://ror.org/02mx8nz45"
+    },
+    {
+      "label": "Hasbro Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/01xq02v66"
+    },
+    {
+      "label": "Newport Hospital",
+      "type": "child",
+      "id": "https://ror.org/01kakjy62"
+    },
+    {
+      "label": "Rhode Island Hospital",
+      "type": "child",
+      "id": "https://ror.org/01aw9fv09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iemspb.ru"
+  ],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "grid.465311.4"
+      ],
+      "preferred": "grid.465311.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0482 8489"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0344x6030",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iemspb.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "SPE",
+        "country_subdivision_name": "St.-Petersburg",
+        "lat": 59.93863,
+        "lng": 30.31413,
+        "name": "St Petersburg"
+      },
+      "geonames_id": 498817
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FSBSI \"IEM\""
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Budgetary Scientific Institution \"Institute of Experimental Medicine\""
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Scientific Institution \"Research Institute of Experimental Medicine\" of the Northwest Branch of the Russian Academy of Medical Sciences"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Experimental Medicine"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное научное учреждение Институт экспериментальной медицины"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Medical Sciences",
+      "type": "parent",
+      "id": "https://ror.org/019zcmj26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

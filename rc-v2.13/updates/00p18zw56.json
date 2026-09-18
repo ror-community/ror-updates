@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "alderhey.nhs.uk"
+  ],
+  "established": 1914,
+  "external_ids": [
+    {
+      "all": [
+        "100008241"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417858.7"
+      ],
+      "preferred": "grid.417858.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0421 1374"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00p18zw56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.alderhey.nhs.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "name": "Liverpool"
+      },
+      "geonames_id": 2644210
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Alder Hey Children's NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alder Hey Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/04z61sd03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

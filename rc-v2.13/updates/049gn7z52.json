@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "big.ac.cn"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "501100002360"
+      ],
+      "preferred": "501100002360",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464209.d"
+      ],
+      "preferred": "grid.464209.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0644 6935"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4881142"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049gn7z52",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://english.big.cas.cn/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Beijing_Institute_of_Genomics"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Beijing Institute of Genomics"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京基因组研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chinese Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/034t30j35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

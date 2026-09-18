@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oxfam.org.uk"
+  ],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "grid.437028.a"
+      ],
+      "preferred": "grid.437028.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 9859"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q267941"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/022283x63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.oxfam.org.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Oxfam"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oxfam"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Oxford Committee for Famine Relief"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oxfam Intermón",
+      "type": "child",
+      "id": "https://ror.org/03hsngx15"
+    },
+    {
+      "label": "Oxfam México",
+      "type": "child",
+      "id": "https://ror.org/01n3xc149"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

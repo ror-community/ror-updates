@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inrca.it"
+  ],
+  "established": 1844,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418083.6"
+      ],
+      "preferred": "grid.418083.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2152 7926"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/057aq1y25",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inrca.it/inrca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "57",
+        "country_subdivision_name": "The Marches",
+        "lat": 43.60717,
+        "lng": 13.5103,
+        "name": "Ancona"
+      },
+      "geonames_id": 3183089
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INRCA"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRCCS-INRCA"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Nazionale di Riposo e Cura per Anziani"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Istituto di Ricerca a Carattere Scientifico - Istituto Nazionale di Riposo e Cura per Anziani"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

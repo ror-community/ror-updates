@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ffpri.go.jp"
+  ],
+  "established": 1905,
+  "external_ids": [
+    {
+      "all": [
+        "100019571"
+      ],
+      "preferred": "100019571",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.417935.d"
+      ],
+      "preferred": "grid.417935.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9150 188X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/044bma518",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ffpri.go.jp/ffpri.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "08",
+        "country_subdivision_name": "Ibaraki",
+        "lat": 36.08333,
+        "lng": 140.11667,
+        "name": "Tsukuba"
+      },
+      "geonames_id": 2110681
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FFPRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Forestry and Forest Products Research Institute"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立研究開発法人森林研究・整備機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture, Forestry and Fisheries",
+      "type": "parent",
+      "id": "https://ror.org/02zdz1m23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

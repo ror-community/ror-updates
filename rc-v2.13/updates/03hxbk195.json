@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kliniken-koeln.de"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461712.7"
+      ],
+      "preferred": "grid.461712.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0391 1512"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03hxbk195",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kliniken-koeln.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.93333,
+        "lng": 6.95,
+        "name": "Cologne"
+      },
+      "geonames_id": 2886242
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kliniken der Stadt Köln"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lungenklinik Köln-Merheim",
+      "type": "child",
+      "id": "https://ror.org/03qv69876"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

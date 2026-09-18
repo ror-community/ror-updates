@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wvumedicine.org"
+  ],
+  "established": 1984,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412950.b"
+      ],
+      "preferred": "grid.412950.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0455 5644"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7986927"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04fbnx371",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://wvumedicine.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/West_Virginia_University_Hospitals"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WV",
+        "country_subdivision_name": "West Virginia",
+        "lat": 39.62953,
+        "lng": -79.9559,
+        "name": "Morgantown"
+      },
+      "geonames_id": 4815352
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "WVU Medicine"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "West Virginia University Hospitals"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Blanchette Rockefeller Neurosciences Institute",
+      "type": "child",
+      "id": "https://ror.org/005535379"
+    },
+    {
+      "label": "West Virginia University",
+      "type": "related",
+      "id": "https://ror.org/011vxgd24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

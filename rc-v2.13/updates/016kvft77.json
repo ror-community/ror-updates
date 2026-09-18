@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hyundai.com"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "grid.473140.5"
+      ],
+      "preferred": "grid.473140.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1954 9421"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q55931"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016kvft77",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hyundai.com/kr/ko/e"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Gyeonggi-do",
+        "lat": 37.43861,
+        "lng": 127.13778,
+        "name": "Seongnam-si"
+      },
+      "geonames_id": 1897000
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hyundai Motors (South Korea)"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "현대자동차"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hyundai Motors (Germany)",
+      "type": "child",
+      "id": "https://ror.org/01s2j5a22"
+    },
+    {
+      "label": "Hyundai Motors (United States)",
+      "type": "child",
+      "id": "https://ror.org/028394g81"
+    },
+    {
+      "label": "Hyundai Motor Group (South Korea)",
+      "type": "parent",
+      "id": "https://ror.org/05kxbz959"
+    },
+    {
+      "label": "Hyundai Engineering (South Korea)",
+      "type": "related",
+      "id": "https://ror.org/04qgd6703"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

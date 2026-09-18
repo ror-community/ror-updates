@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-04-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kopri.re.kr"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "501100004230"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410913.e"
+      ],
+      "preferred": "grid.410913.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0400 5538"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q26925656"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00n14a494",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kopri.re.kr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "KR",
+        "country_name": "South Korea",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Incheon",
+        "lat": 37.45646,
+        "lng": 126.70515,
+        "name": "Incheon"
+      },
+      "geonames_id": 1843564
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KOPRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Korea Polar Research Institute"
+    },
+    {
+      "lang": "ko",
+      "types": [
+        "label"
+      ],
+      "value": "극지연구소"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korea Institute of Ocean Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/032m55064"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ibiw.ru"
+  ],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "501100017485"
+      ],
+      "preferred": "501100017485",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.464570.4"
+      ],
+      "preferred": "grid.464570.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1092 3616"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03nj29395",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ibiw.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "YAR",
+        "country_subdivision_name": "Yaroslavl Oblast",
+        "lat": 58.06532,
+        "lng": 38.2362,
+        "name": "Borok"
+      },
+      "geonames_id": 572220
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Biology of Inland Waters. ID Papanin, Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBIW"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Biology of Inland Waters named Ivan Dmitrievich Papanin"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Институт биологии внутренних вод им. И.Д.Папанина Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Biological Sciences",
+      "type": "parent",
+      "id": "https://ror.org/038rjvd86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

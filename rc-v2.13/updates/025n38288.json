@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uhcw.nhs.uk"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100022292"
+      ],
+      "preferred": "501100022292",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.15628.38"
+      ],
+      "preferred": "grid.15628.38",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0393 1193"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21061493"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025n38288",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uhcw.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Hospitals_Coventry_and_Warwickshire_NHS_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.40656,
+        "lng": -1.51217,
+        "name": "Coventry"
+      },
+      "geonames_id": 2652221
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospitals Coventry and Warwickshire NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital of St. Cross",
+      "type": "child",
+      "id": "https://ror.org/03tarqk49"
+    },
+    {
+      "label": "University Hospital Coventry",
+      "type": "child",
+      "id": "https://ror.org/025821s54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

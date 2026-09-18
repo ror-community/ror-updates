@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "babraham.ac.uk"
+  ],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100012067"
+      ],
+      "preferred": "100012067",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418195.0"
+      ],
+      "preferred": "grid.418195.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0694 2777"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4838012"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01d5qpn59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.babraham.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Babraham_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Babraham Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Biotechnology and Biological Sciences Research Council",
+      "type": "parent",
+      "id": "https://ror.org/00cwqg982"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

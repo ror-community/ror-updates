@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "met.no"
+  ],
+  "established": 1866,
+  "external_ids": [
+    {
+      "all": [
+        "grid.82418.37"
+      ],
+      "preferred": "grid.82418.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0226 1499"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q665666"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/001n36p86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.met.no/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Norwegian_Meteorological_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Oslo",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "name": "Oslo"
+      },
+      "geonames_id": 3143244
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MET"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "MET Norway"
+    },
+    {
+      "lang": "no",
+      "types": [
+        "label"
+      ],
+      "value": "Meteorologisk institutt"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Norwegian Meteorological Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NorESM Climate Modeling Consortium",
+      "type": "related",
+      "id": "https://ror.org/02grwav03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

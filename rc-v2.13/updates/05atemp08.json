@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "medstar.net"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415232.3"
+      ],
+      "preferred": "grid.415232.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0391 7375"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6804943"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05atemp08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.medstarhealth.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/MedStar_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.24038,
+        "lng": -76.83942,
+        "name": "Columbia"
+      },
+      "geonames_id": 4352053
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "MedStar Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "MedStar Georgetown University Hospital",
+      "type": "child",
+      "id": "https://ror.org/03ja1ak26"
+    },
+    {
+      "label": "MedStar Good Samaritan Hospital",
+      "type": "child",
+      "id": "https://ror.org/03kzpyr73"
+    },
+    {
+      "label": "MedStar Heart & Vascular Institute",
+      "type": "child",
+      "id": "https://ror.org/0405m4551"
+    },
+    {
+      "label": "MedStar National Rehabilitation Hospital",
+      "type": "child",
+      "id": "https://ror.org/03q3gmk48"
+    },
+    {
+      "label": "MedStar Washington Hospital Center",
+      "type": "child",
+      "id": "https://ror.org/05ry42w04"
+    },
+    {
+      "label": "Montgomery General Hospital",
+      "type": "child",
+      "id": "https://ror.org/00vbnvy39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

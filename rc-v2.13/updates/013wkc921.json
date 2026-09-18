@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "irst.emr.it"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419563.c"
+      ],
+      "preferred": "grid.419563.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1755 9177"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/013wkc921",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.irst.emr.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "45",
+        "country_subdivision_name": "Emilia-Romagna",
+        "lat": 44.12775,
+        "lng": 12.0626,
+        "name": "Meldola"
+      },
+      "geonames_id": 3173635
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRST"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Scientifico Romagnolo per lo Studio e la Cura dei Tumori"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

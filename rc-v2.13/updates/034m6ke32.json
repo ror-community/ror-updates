@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ahri.org"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488675.0"
+      ],
+      "preferred": "grid.488675.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 8337 9561"
+      ],
+      "preferred": "0000 0004 8337 9561",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/034m6ke32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ahri.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "KZN",
+        "country_subdivision_name": "KwaZulu-Natal",
+        "lat": -29.8579,
+        "lng": 31.0292,
+        "name": "Durban"
+      },
+      "geonames_id": 1007311
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AHRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Africa Health Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Wellcome Trust",
+      "type": "parent",
+      "id": "https://ror.org/029chgv08"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

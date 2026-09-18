@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "usaid.gov"
+  ],
+  "established": 1961,
+  "external_ids": [
+    {
+      "all": [
+        "100000200",
+        "100006428"
+      ],
+      "preferred": "100000200",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420285.9"
+      ],
+      "preferred": "grid.420285.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1955 0561"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q217072"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01n6e6j62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.usaid.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Agency_for_International_Development"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Agence des États-Unis pour le Développement International"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Agencia de los Estados Unidos para el Desarrollo Internacional"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "USAID"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Agency for International Development"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "U.S. President's Malaria Initiative",
+      "type": "child",
+      "id": "https://ror.org/012rb2c33"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

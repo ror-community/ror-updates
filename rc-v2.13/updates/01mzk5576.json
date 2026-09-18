@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipb-halle.de"
+  ],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100021741"
+      ],
+      "preferred": "501100021741",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425084.f"
+      ],
+      "preferred": "grid.425084.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0493 728X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01mzk5576",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipb-halle.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "ST",
+        "country_subdivision_name": "Saxony-Anhalt",
+        "lat": 51.48158,
+        "lng": 11.97947,
+        "name": "Halle"
+      },
+      "geonames_id": 2911522
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Leibniz Institute of Plant Biochemistry"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Leibniz-Institut für Pflanzenbiochemie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

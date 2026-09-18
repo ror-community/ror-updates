@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "oncologico.bari.it"
+  ],
+  "established": 1933,
+  "external_ids": [
+    {
+      "all": [
+        "grid.489132.5"
+      ],
+      "preferred": "grid.489132.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1759 6541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q50035567"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03jxkz251",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.oncologico.bari.it/web/irccs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "75",
+        "country_subdivision_name": "Apulia",
+        "lat": 41.12066,
+        "lng": 16.86982,
+        "name": "Bari"
+      },
+      "geonames_id": 3182351
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Istituto Tumori Bari"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Istituto Tumori Bari Giovanni Paolo II"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Istituti di Ricovero e Cura a Carattere Scientifico",
+      "type": "parent",
+      "id": "https://ror.org/04tfzc498"
+    },
+    {
+      "label": "Puglia Salute",
+      "type": "parent",
+      "id": "https://ror.org/00jrmky87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ghs.gov.gh"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434994.7"
+      ],
+      "preferred": "grid.434994.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0582 2706"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5555350"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/052ss8w32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ghs.gov.gh"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "GH",
+        "country_name": "Ghana",
+        "country_subdivision_code": "AA",
+        "country_subdivision_name": "Greater Accra",
+        "lat": 5.55602,
+        "lng": -0.1969,
+        "name": "Accra"
+      },
+      "geonames_id": 2306104
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ghana Health Service"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Ghanaian Health Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/05c7h4935"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

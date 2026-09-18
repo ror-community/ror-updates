@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "o-lambret.fr"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.452351.4"
+      ],
+      "preferred": "grid.452351.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0131 6312"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03xfq7a50",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.centreoscarlambret.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.63391,
+        "lng": 3.05512,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Oscar Lambret"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CANTHER - Hétérogénéité, Plasticité et Résistance aux Thérapies des Cancers",
+      "type": "child",
+      "id": "https://ror.org/05x9zmx47"
+    },
+    {
+      "label": "UniCancer Group",
+      "type": "parent",
+      "id": "https://ror.org/04vhgtv41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

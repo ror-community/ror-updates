@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-17",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "memorialhermann.org"
+  ],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "grid.429313.e"
+      ],
+      "preferred": "grid.429313.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0444 467X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6815444"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/049d9a475",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://memorialhermann.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Memorial_Hermann_Health_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Memorial Hermann"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Memorial Hermann Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Memorial Hermann Memorial City Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05393h285"
+    },
+    {
+      "label": "Memorial Hermann Northwest Hospital",
+      "type": "child",
+      "id": "https://ror.org/02n80qr18"
+    },
+    {
+      "label": "Memorial Hermann The Woodlands Hospital",
+      "type": "child",
+      "id": "https://ror.org/01wsvqq22"
+    },
+    {
+      "label": "Memorial Hermann–Texas Medical Center",
+      "type": "child",
+      "id": "https://ror.org/047225g28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
