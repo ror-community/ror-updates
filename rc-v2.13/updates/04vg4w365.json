@@ -10,48 +10,49 @@
     }
   },
   "domains": [
-    "slam.nhs.uk"
+    "lboro.ac.uk"
   ],
-  "established": 1999,
+  "established": 1909,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "501100000857",
+        "501100000634"
       ],
-      "preferred": null,
+      "preferred": "501100000857",
       "type": "fundref"
     },
     {
       "all": [
-        "grid.37640.36"
+        "grid.6571.5"
       ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.6571.5",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0004 1936 8542"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q1434547"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/04vg4w365",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "https://www.lboro.ac.uk"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "http://en.wikipedia.org/wiki/Loughborough_University"
     }
   ],
   "locations": [
@@ -63,55 +64,45 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 51.50853,
-        "lng": -0.12574,
-        "name": "London"
+        "lat": 52.76667,
+        "lng": -1.2,
+        "name": "Loughborough"
       },
-      "geonames_id": 2643743
+      "geonames_id": 2643567
     }
   ],
   "names": [
     {
       "lang": "en",
       "types": [
-        "alias"
-      ],
-      "value": "SLaM"
-    },
-    {
-      "lang": "en",
-      "types": [
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Loughborough University"
+    },
+    {
+      "lang": "cy",
+      "types": [
+        "label"
+      ],
+      "value": "Prifysgol Loughborough"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
+      "label": "NIHR Leicester Biomedical Research Centre",
       "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "id": "https://ror.org/05xqxa525"
     },
     {
-      "label": "Lambeth Hospital",
-      "type": "child",
-      "id": "https://ror.org/00cepga67"
-    },
-    {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "label": "Loughborough Hospital",
+      "type": "related",
+      "id": "https://ror.org/03pkrx282"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
-    "healthcare"
+    "education",
+    "funder"
   ]
 }

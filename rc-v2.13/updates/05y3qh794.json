@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 2006,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "100011330"
       ],
-      "preferred": null,
+      "preferred": "100011330",
       "type": "fundref"
     },
     {
       "all": [
-        "grid.37640.36"
+        "grid.240404.6"
       ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.240404.6",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0001 0440 1889"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q7063709"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/05y3qh794",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "http://www.nuh.nhs.uk/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "http://en.wikipedia.org/wiki/Nottingham_University_Hospitals_NHS_Trust"
     }
   ],
   "locations": [
@@ -63,20 +61,20 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 51.50853,
-        "lng": -0.12574,
-        "name": "London"
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "name": "Nottingham"
       },
-      "geonames_id": 2643743
+      "geonames_id": 2641170
     }
   ],
   "names": [
     {
-      "lang": "en",
+      "lang": null,
       "types": [
-        "alias"
+        "acronym"
       ],
-      "value": "SLaM"
+      "value": "NUH"
     },
     {
       "lang": "en",
@@ -84,29 +82,29 @@
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Nottingham University Hospitals NHS Trust"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
+      "label": "Nottingham Biomedical Research Centre",
       "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "id": "https://ror.org/046cr9566"
     },
     {
-      "label": "Lambeth Hospital",
+      "label": "Nottingham City Hospital",
       "type": "child",
-      "id": "https://ror.org/00cepga67"
+      "id": "https://ror.org/0022b3c04"
     },
     {
-      "label": "Maudsley Charity",
+      "label": "Queen's Medical Centre",
       "type": "child",
-      "id": "https://ror.org/028vg3q27"
+      "id": "https://ror.org/03ap6wx93"
     },
     {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "label": "University of Nottingham",
+      "type": "related",
+      "id": "https://ror.org/01ee9ar58"
     }
   ],
   "status": "active",

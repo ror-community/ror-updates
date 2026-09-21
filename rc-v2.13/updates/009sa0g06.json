@@ -9,49 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 1995,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "grid.269741.f"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.37640.36"
-      ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.269741.f",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0004 0421 1585"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q7374407"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/009sa0g06",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "http://www.rlbuht.nhs.uk/Pages/RoyalHome.aspx"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "http://en.wikipedia.org/wiki/Royal_Liverpool_and_Broadgreen_University_Hospitals_NHS_Trust"
     }
   ],
   "locations": [
@@ -63,55 +54,42 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 51.50853,
-        "lng": -0.12574,
-        "name": "London"
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "name": "Liverpool"
       },
-      "geonames_id": 2643743
+      "geonames_id": 2644210
     }
   ],
   "names": [
     {
       "lang": "en",
       "types": [
-        "alias"
-      ],
-      "value": "SLaM"
-    },
-    {
-      "lang": "en",
-      "types": [
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Royal Liverpool and Broadgreen University Hospital NHS Trust"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
+      "label": "Broadgreen Hospital",
       "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "id": "https://ror.org/03f7qhc68"
     },
     {
-      "label": "Lambeth Hospital",
+      "label": "Marie Curie Palliative Care Institute Liverpool",
       "type": "child",
-      "id": "https://ror.org/00cepga67"
+      "id": "https://ror.org/00ke0d331"
     },
     {
-      "label": "Maudsley Charity",
+      "label": "Royal Liverpool University Hospital",
       "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "id": "https://ror.org/01ycr6b80"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
     "healthcare"
   ]
 }

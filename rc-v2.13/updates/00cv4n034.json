@@ -9,49 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 1847,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "grid.439338.6"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.37640.36"
-      ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.439338.6",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0001 1114 4366"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q7373850"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/00cv4n034",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "https://www.rbht.nhs.uk/our-hospitals"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "https://en.wikipedia.org/wiki/Royal_Brompton_Hospital"
     }
   ],
   "locations": [
@@ -74,44 +65,21 @@
     {
       "lang": "en",
       "types": [
-        "alias"
-      ],
-      "value": "SLaM"
-    },
-    {
-      "lang": "en",
-      "types": [
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Royal Brompton Hospital"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
-      "type": "child",
-      "id": "https://ror.org/02zc6c986"
-    },
-    {
-      "label": "Lambeth Hospital",
-      "type": "child",
-      "id": "https://ror.org/00cepga67"
-    },
-    {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "label": "Royal Brompton & Harefield NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/02218z997"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
     "healthcare"
   ]
 }

@@ -9,49 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": null,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "grid.412925.9"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.37640.36"
-      ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.412925.9",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0004 0400 6581"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q5568506"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/048a96r61",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "http://www.leicestershospitals.nhs.uk/aboutus/our-hospitals/glenfield-hospital/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "https://en.wikipedia.org/wiki/Glenfield_Hospital"
     }
   ],
   "locations": [
@@ -63,11 +54,11 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 51.50853,
-        "lng": -0.12574,
-        "name": "London"
+        "lat": 52.6386,
+        "lng": -1.13169,
+        "name": "Leicester"
       },
-      "geonames_id": 2643743
+      "geonames_id": 2644668
     }
   ],
   "names": [
@@ -76,7 +67,7 @@
       "types": [
         "alias"
       ],
-      "value": "SLaM"
+      "value": "Glenfield General Hospital"
     },
     {
       "lang": "en",
@@ -84,34 +75,28 @@
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Glenfield Hospital"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
-      "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "label": "University Hospitals of Leicester NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/02fha3693"
     },
     {
-      "label": "Lambeth Hospital",
-      "type": "child",
-      "id": "https://ror.org/00cepga67"
+      "label": "NIHR Leicester Respiratory Biomedical Research Unit",
+      "type": "related",
+      "id": "https://ror.org/04s4s0979"
     },
     {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "label": "University of Leicester",
+      "type": "related",
+      "id": "https://ror.org/04h699437"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
     "healthcare"
   ]
 }

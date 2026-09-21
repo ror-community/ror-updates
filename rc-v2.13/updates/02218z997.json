@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 1847,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "100012147"
       ],
-      "preferred": null,
+      "preferred": "100012147",
       "type": "fundref"
     },
     {
       "all": [
-        "grid.37640.36"
+        "grid.421662.5"
       ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.421662.5",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0000 9216 5443"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q17019348"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/02218z997",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "http://www.rbht.nhs.uk/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "http://en.wikipedia.org/wiki/Royal_Brompton_and_Harefield_NHS_Foundation_Trust"
     }
   ],
   "locations": [
@@ -74,39 +72,22 @@
     {
       "lang": "en",
       "types": [
-        "alias"
-      ],
-      "value": "SLaM"
-    },
-    {
-      "lang": "en",
-      "types": [
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Royal Brompton & Harefield NHS Foundation Trust"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
+      "label": "Harefield Hospital",
       "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "id": "https://ror.org/04fwa4t58"
     },
     {
-      "label": "Lambeth Hospital",
+      "label": "Royal Brompton Hospital",
       "type": "child",
-      "id": "https://ror.org/00cepga67"
-    },
-    {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "id": "https://ror.org/00cv4n034"
     }
   ],
   "status": "active",

@@ -9,49 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 1977,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "grid.415598.4"
       ],
-      "preferred": null,
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.37640.36"
-      ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.415598.4",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0004 0641 4263"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q7270030"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/03ap6wx93",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "https://www.nuh.nhs.uk/contact-qmc/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "https://en.wikipedia.org/wiki/Queen%27s_Medical_Centre"
     }
   ],
   "locations": [
@@ -63,20 +54,27 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 51.50853,
-        "lng": -0.12574,
-        "name": "London"
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "name": "Nottingham"
       },
-      "geonames_id": 2643743
+      "geonames_id": 2641170
     }
   ],
   "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QMC "
+    },
     {
       "lang": "en",
       "types": [
         "alias"
       ],
-      "value": "SLaM"
+      "value": "Queen's Med"
     },
     {
       "lang": "en",
@@ -84,34 +82,23 @@
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Queen's Medical Centre"
     }
   ],
   "relationships": [
     {
-      "label": "Bethlem Royal Hospital",
-      "type": "child",
-      "id": "https://ror.org/02zc6c986"
+      "label": "Nottingham University Hospitals NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/05y3qh794"
     },
     {
-      "label": "Lambeth Hospital",
-      "type": "child",
-      "id": "https://ror.org/00cepga67"
-    },
-    {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
+      "label": "University of Nottingham",
+      "type": "related",
+      "id": "https://ror.org/01ee9ar58"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
     "healthcare"
   ]
 }

@@ -9,49 +9,47 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "slam.nhs.uk"
-  ],
-  "established": 1999,
+  "domains": [],
+  "established": 2000,
   "external_ids": [
     {
       "all": [
-        "100009362"
+        "501100000354"
       ],
       "preferred": null,
       "type": "fundref"
     },
     {
       "all": [
-        "grid.37640.36"
+        "grid.450815.d"
       ],
-      "preferred": "grid.37640.36",
+      "preferred": "grid.450815.d",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0000 9439 0839"
+        "0000 0004 0426 234X"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7567852"
+        "Q2741994"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/015803449",
+  "id": "https://ror.org/05p20a626",
   "links": [
     {
       "type": "website",
-      "value": "https://slam.nhs.uk/"
+      "value": "http://www.food.gov.uk/"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/South_London_and_Maudsley_NHS_Foundation_Trust"
+      "value": "https://en.wikipedia.org/wiki/Food_Standards_Agency"
     }
   ],
   "locations": [
@@ -72,11 +70,11 @@
   ],
   "names": [
     {
-      "lang": "en",
+      "lang": null,
       "types": [
-        "alias"
+        "acronym"
       ],
-      "value": "SLaM"
+      "value": "FSA"
     },
     {
       "lang": "en",
@@ -84,34 +82,13 @@
         "ror_display",
         "label"
       ],
-      "value": "South London and Maudsley NHS Foundation Trust"
+      "value": "Food Standards Agency"
     }
   ],
-  "relationships": [
-    {
-      "label": "Bethlem Royal Hospital",
-      "type": "child",
-      "id": "https://ror.org/02zc6c986"
-    },
-    {
-      "label": "Lambeth Hospital",
-      "type": "child",
-      "id": "https://ror.org/00cepga67"
-    },
-    {
-      "label": "Maudsley Charity",
-      "type": "child",
-      "id": "https://ror.org/028vg3q27"
-    },
-    {
-      "label": "Maudsley Hospital",
-      "type": "child",
-      "id": "https://ror.org/02788t795"
-    }
-  ],
+  "relationships": [],
   "status": "active",
   "types": [
     "funder",
-    "healthcare"
+    "government"
   ]
 }
