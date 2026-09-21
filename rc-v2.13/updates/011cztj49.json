@@ -9,49 +9,40 @@
       "schema_version": "2.1"
     }
   },
-  "domains": [
-    "uhb.nhs.uk"
-  ],
-  "established": null,
+  "domains": [],
+  "established": 1900,
   "external_ids": [
     {
       "all": [
-        "100013963"
+        "grid.123047.3"
       ],
-      "preferred": "100013963",
-      "type": "fundref"
-    },
-    {
-      "all": [
-        "grid.412563.7"
-      ],
-      "preferred": "grid.412563.7",
+      "preferred": "grid.123047.3",
       "type": "grid"
     },
     {
       "all": [
-        "0000 0004 0376 6589"
+        "0000 0001 0359 0315"
       ],
       "preferred": null,
       "type": "isni"
     },
     {
       "all": [
-        "Q7894775"
+        "Q7569131"
       ],
       "preferred": null,
       "type": "wikidata"
     }
   ],
-  "id": "https://ror.org/014ja3n03",
+  "id": "https://ror.org/011cztj49",
   "links": [
     {
       "type": "website",
-      "value": "https://www.uhb.nhs.uk/"
+      "value": "http://www.uhs.nhs.uk/Ourhospitals/SGH/SouthamptonGeneralHospital.aspx"
     },
     {
       "type": "wikipedia",
-      "value": "http://en.wikipedia.org/wiki/University_Hospitals_Birmingham_NHS_Foundation_Trust"
+      "value": "https://en.wikipedia.org/wiki/Southampton_General_Hospital"
     }
   ],
   "locations": [
@@ -63,11 +54,11 @@
         "country_name": "United Kingdom",
         "country_subdivision_code": "ENG",
         "country_subdivision_name": "England",
-        "lat": 52.48142,
-        "lng": -1.89983,
-        "name": "Birmingham"
+        "lat": 50.90395,
+        "lng": -1.40428,
+        "name": "Southampton"
       },
-      "geonames_id": 2655603
+      "geonames_id": 2637487
     }
   ],
   "names": [
@@ -76,7 +67,7 @@
       "types": [
         "acronym"
       ],
-      "value": "UHB"
+      "value": "SGH"
     },
     {
       "lang": "en",
@@ -84,19 +75,23 @@
         "ror_display",
         "label"
       ],
-      "value": "University Hospitals Birmingham NHS Foundation Trust"
+      "value": "Southampton General Hospital"
     }
   ],
   "relationships": [
     {
-      "label": "Queen Elizabeth Hospital Birmingham",
-      "type": "child",
-      "id": "https://ror.org/048emj907"
+      "label": "University Hospital Southampton NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/0485axj58"
+    },
+    {
+      "label": "University of Southampton",
+      "type": "related",
+      "id": "https://ror.org/01ryk1543"
     }
   ],
   "status": "active",
   "types": [
-    "funder",
     "healthcare"
   ]
 }

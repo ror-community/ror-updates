@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Northern Territory Department of Natural Resources, Environment, The Arts and Sport"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Land Resource Management",
+      "type": "successor",
+      "id": "https://ror.org/01drzr533"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",
