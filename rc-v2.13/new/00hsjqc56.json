@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -56,6 +56,13 @@
     {
       "lang": "en",
       "types": [
+        "alias"
+      ],
+      "value": "Department of Science and Technology-Metals Industry Research and Development Center"
+    },
+    {
+      "lang": "en",
+      "types": [
         "acronym"
       ],
       "value": "MIRDC"
@@ -63,8 +70,7 @@
     {
       "lang": "en",
       "types": [
-        "label",
-        "ror_display"
+        "alias"
       ],
       "value": "Metal Industry Research and Development Center"
     },
@@ -73,12 +79,22 @@
       "types": [
         "alias"
       ],
+      "value": "Metals Industry Development Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
       "value": "Metals Industry Research and Development Center"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
-    "facility"
+    "facility",
+    "funder",
+    "government"
   ]
 }

@@ -5,13 +5,22 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
-  "domains": [],
-  "established": null,
+  "domains": [
+    "hamc.edu.cn"
+  ],
+  "established": 1952,
   "external_ids": [
+    {
+      "all": [
+        "501100016329"
+      ],
+      "preferred": "501100016329",
+      "type": "fundref"
+    },
     {
       "all": [
         "Q112676805"
@@ -21,7 +30,12 @@
     }
   ],
   "id": "https://ror.org/014bzg858",
-  "links": [],
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hamc.edu.cn/"
+    }
+  ],
   "locations": [
     {
       "geonames_details": {
@@ -58,6 +72,7 @@
   "relationships": [],
   "status": "active",
   "types": [
-    "education"
+    "education",
+    "funder"
   ]
 }

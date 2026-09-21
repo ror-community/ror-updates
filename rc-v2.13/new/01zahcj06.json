@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -14,6 +14,13 @@
   ],
   "established": 2021,
   "external_ids": [
+    {
+      "all": [
+        "501100016098"
+      ],
+      "preferred": "501100016098",
+      "type": "fundref"
+    },
     {
       "all": [
         "Q109413365"
@@ -49,6 +56,20 @@
     {
       "lang": "en",
       "types": [
+        "acronym"
+      ],
+      "value": "HBCIT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Hebei College of Industry and Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
         "label",
         "ror_display"
       ],
@@ -66,12 +87,20 @@
       "types": [
         "alias"
       ],
+      "value": "河北工业职业技术学院"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "alias"
+      ],
       "value": "河北科技大学理工学院"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
-    "education"
+    "education",
+    "funder"
   ]
 }

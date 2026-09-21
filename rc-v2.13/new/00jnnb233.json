@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -14,6 +14,13 @@
   ],
   "established": 2001,
   "external_ids": [
+    {
+      "all": [
+        "501100020436"
+      ],
+      "preferred": "501100020436",
+      "type": "fundref"
+    },
     {
       "all": [
         "Q17023857"
@@ -49,6 +56,13 @@
     {
       "lang": "en",
       "types": [
+        "acronym"
+      ],
+      "value": "AUIE"
+    },
+    {
+      "lang": "en",
+      "types": [
         "alias"
       ],
       "value": "Anhui Wenda Information Engineering College"
@@ -60,6 +74,13 @@
         "ror_display"
       ],
       "value": "Anhui Wenda University of Information Engineering"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Anhui Wonder University of Information Engineering"
     },
     {
       "lang": "zh",
@@ -79,6 +100,7 @@
   "relationships": [],
   "status": "active",
   "types": [
-    "education"
+    "education",
+    "funder"
   ]
 }

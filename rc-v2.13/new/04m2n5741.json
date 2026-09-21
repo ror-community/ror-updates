@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -14,6 +14,13 @@
   ],
   "established": 1953,
   "external_ids": [
+    {
+      "all": [
+        "501100016342"
+      ],
+      "preferred": "501100016342",
+      "type": "fundref"
+    },
     {
       "all": [
         "0000 0004 1762 3693"
@@ -54,6 +61,13 @@
   ],
   "names": [
     {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nanjing Communications Institute of Technology"
+    },
+    {
       "lang": null,
       "types": [
         "acronym"
@@ -79,6 +93,7 @@
   "relationships": [],
   "status": "active",
   "types": [
-    "education"
+    "education",
+    "funder"
   ]
 }
