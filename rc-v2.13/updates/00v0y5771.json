@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1829,
+  "external_ids": [
+    {
+      "all": [
+        "grid.14001.34"
+      ],
+      "preferred": "grid.14001.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2153 2362"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q273447"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00v0y5771",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ecp.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/%C3%89cole_Centrale_Paris"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.76507,
+        "lng": 2.26655,
+        "name": "Châtenay-Malabry"
+      },
+      "geonames_id": 3026108
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ECP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "École Centrale Paris"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École Centrale des Arts et Manufactures"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Paris Biotech Santé",
+      "type": "child",
+      "id": "https://ror.org/05h9gyn11"
+    },
+    {
+      "label": "CentraleSupélec",
+      "type": "successor",
+      "id": "https://ror.org/019tcpt25"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education"
+  ]
+}

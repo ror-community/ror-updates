@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.488556.2"
+      ],
+      "preferred": "grid.488556.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q43896556"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00pap0267",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanita.puglia.it/web/ospedalegiovannixxiii"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "75",
+        "country_subdivision_name": "Apulia",
+        "lat": 41.12066,
+        "lng": 16.86982,
+        "name": "Bari"
+      },
+      "geonames_id": 3182351
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Universitaria Ospedaliera Consorziale - Policlinico Bari"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ospedale Pediatrico Giovanni XXIII",
+      "type": "child",
+      "id": "https://ror.org/03nszce13"
+    },
+    {
+      "label": "Puglia Salute",
+      "type": "parent",
+      "id": "https://ror.org/00jrmky87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
