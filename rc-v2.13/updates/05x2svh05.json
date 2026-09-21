@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Universidade Federal Rural do Semi-Árido"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Prefeitura Municipal de Parnamirim",
+      "type": "related",
+      "id": "https://ror.org/019q5a966"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

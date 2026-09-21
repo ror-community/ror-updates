@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "Nestec S.A."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nestlé (Switzerland)",
+      "type": "parent",
+      "id": "https://ror.org/01v5xwf23"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

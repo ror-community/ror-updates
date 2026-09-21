@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -48,7 +48,13 @@
       "value": "NRMA-ACT Road Safety Trust"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "ACT Government",
+      "type": "related",
+      "id": "https://ror.org/03fy7b149"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

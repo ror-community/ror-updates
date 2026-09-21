@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Hollywood Private Hospital Research Foundation Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hollywood Private Hospital",
+      "type": "related",
+      "id": "https://ror.org/0101aa973"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

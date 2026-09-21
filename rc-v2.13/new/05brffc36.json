@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Foundation of the American Institute for Conservation of Historic and Artistic Works"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "American Institute for Conservation of Historic & Artistic Works",
+      "type": "parent",
+      "id": "https://ror.org/022j0r779"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

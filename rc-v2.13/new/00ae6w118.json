@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "海关管理干部学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "General Administration of Customs",
+      "type": "parent",
+      "id": "https://ror.org/00s255r43"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

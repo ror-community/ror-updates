@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "SYNERGY, Dartmouth Clinical and Translational Science Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dartmouth College",
+      "type": "parent",
+      "id": "https://ror.org/049s0rh22"
+    },
+    {
+      "label": "Dartmouth Health",
+      "type": "related",
+      "id": "https://ror.org/01pa9ed26"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

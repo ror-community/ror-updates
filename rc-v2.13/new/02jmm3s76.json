@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "National Asthma Council Australia Ltd"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Royal Australian College of General Practitioners",
+      "type": "related",
+      "id": "https://ror.org/03c6kd554"
+    },
+    {
+      "label": "Australasian Society of Clinical Immunology and Allergy",
+      "type": "related",
+      "id": "https://ror.org/02thfbe39"
+    },
+    {
+      "label": "Thoracic Society of Australia and New Zealand",
+      "type": "related",
+      "id": "https://ror.org/04mz79w33"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

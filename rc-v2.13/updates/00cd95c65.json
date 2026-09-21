@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1970,
+  "external_ids": [
+    {
+      "all": [
+        "grid.434972.f"
+      ],
+      "preferred": "grid.434972.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9988 0570"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00cd95c65",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gwdg.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 51.53443,
+        "lng": 9.93228,
+        "name": "Göttingen"
+      },
+      "geonames_id": 2918632
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "GWDG"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Göttingen",
+      "type": "parent",
+      "id": "https://ror.org/01y9bpm73"
+    },
+    {
+      "label": "Max Planck Society",
+      "type": "related",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Verein für Nationales Hochleistungsrechnen – NHR-Verein e.V.",
+      "type": "related",
+      "id": "https://ror.org/033mrbb45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

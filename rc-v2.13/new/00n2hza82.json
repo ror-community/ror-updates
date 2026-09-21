@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Quirino State University - Cabarroguis"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Quirino State University",
+      "type": "parent",
+      "id": "https://ror.org/03sdprd87"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

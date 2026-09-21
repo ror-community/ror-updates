@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "Florida High Tech Corridor Council"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Central Florida",
+      "type": "related",
+      "id": "https://ror.org/036nfer12"
+    },
+    {
+      "label": "University of South Florida",
+      "type": "related",
+      "id": "https://ror.org/032db5x82"
+    },
+    {
+      "label": "University of Florida",
+      "type": "related",
+      "id": "https://ror.org/02y3ad647"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Science Education Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/05tgxx705"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

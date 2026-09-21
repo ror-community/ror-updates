@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "National Institute of Science and Technology for Space Studies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institutos Nacionais de Ciência e Tecnologia",
+      "type": "parent",
+      "id": "https://ror.org/045ydbe97"
+    },
+    {
+      "label": "Universidade Federal do Rio Grande do Norte",
+      "type": "related",
+      "id": "https://ror.org/04wn09761"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

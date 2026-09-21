@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,28 @@
       "value": "Réseau de cancérologie Rossy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "McGill University Health Centre",
+      "type": "related",
+      "id": "https://ror.org/04cpxjv19"
+    },
+    {
+      "label": "Jewish General Hospital",
+      "type": "related",
+      "id": "https://ror.org/056jjra10"
+    },
+    {
+      "label": "St Mary's Hospital Centre",
+      "type": "related",
+      "id": "https://ror.org/03s3dhf22"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

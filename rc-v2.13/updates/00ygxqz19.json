@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424318.8"
+      ],
+      "preferred": "grid.424318.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2097 3262"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q29336767"
+      ],
+      "preferred": "Q29336767",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ygxqz19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.acta.asso.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ACTA"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Acta les instituts techniques agricoles"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Association de Coordination Technique Agricole"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Acta Digital Services (France)",
+      "type": "child",
+      "id": "https://ror.org/05j1qss59"
+    },
+    {
+      "label": "ASTREDHOR - Institut des professionnels du végétal",
+      "type": "related",
+      "id": "https://ror.org/01batn426"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

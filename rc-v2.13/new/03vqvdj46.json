@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Cosmetic Surgery Foundation for Education, Research, and Patient Safety"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "American Academy of Cosmetic Surgery",
+      "type": "related",
+      "id": "https://ror.org/01ckx3t21"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

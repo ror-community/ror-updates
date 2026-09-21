@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,28 @@
       "value": "Cape Higher Education Consortium"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Cape Town",
+      "type": "related",
+      "id": "https://ror.org/03p74gp79"
+    },
+    {
+      "label": "Stellenbosch University",
+      "type": "related",
+      "id": "https://ror.org/05bk57929"
+    },
+    {
+      "label": "University of the Western Cape",
+      "type": "related",
+      "id": "https://ror.org/00h2vm590"
+    },
+    {
+      "label": "Cape Peninsula University of Technology",
+      "type": "related",
+      "id": "https://ror.org/056e9h402"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

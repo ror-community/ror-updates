@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Servicio Extremeño Público de Empleo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Extremadura",
+      "type": "parent",
+      "id": "https://ror.org/01df4mv68"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

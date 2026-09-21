@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,33 @@
       "value": "동아시아 핵심 천문대 연합"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "East Asian Observatory",
+      "type": "related",
+      "id": "https://ror.org/02ea4nx72"
+    },
+    {
+      "label": "National Astronomical Observatories",
+      "type": "related",
+      "id": "https://ror.org/058pyyv44"
+    },
+    {
+      "label": "National Astronomical Observatory of Japan",
+      "type": "related",
+      "id": "https://ror.org/052rrw050"
+    },
+    {
+      "label": "Korea Astronomy and Space Science Institute",
+      "type": "related",
+      "id": "https://ror.org/04g2pxh42"
+    },
+    {
+      "label": "Institute of Astronomy and Astrophysics, Academia Sinica",
+      "type": "related",
+      "id": "https://ror.org/01hfpy566"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

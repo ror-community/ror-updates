@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "北京东方计量测试研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China Academy of Space Technology",
+      "type": "parent",
+      "id": "https://ror.org/025397a59"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

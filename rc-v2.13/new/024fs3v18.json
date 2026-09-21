@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Else Kröner-Fresenius-Zentrum für Ernährungsmedizin"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technical University of Munich",
+      "type": "parent",
+      "id": "https://ror.org/02kkvpp62"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

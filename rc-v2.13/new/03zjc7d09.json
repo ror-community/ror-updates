@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Réseau canadien vasculaire"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ottawa Hospital Research Institute",
+      "type": "related",
+      "id": "https://ror.org/05jtef216"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

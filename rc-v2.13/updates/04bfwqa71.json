@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100006129"
+      ],
+      "preferred": "100006129",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/04bfwqa71",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/ne/office-nuclear-energy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NFCSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nuclear Fuel Cycle and Supply Chain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Nuclear Energy Nuclear Fuel Cycle and Supply Chain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Nuclear Energy Nuclear Fuel Cycle and Supply Chain"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Nuclear Energy Nuclear Fuel Cycle and Supply Chain"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Nuclear Energy",
+      "type": "parent",
+      "id": "https://ror.org/05tj7dm33"
+    },
+    {
+      "label": "Office of Materials and Chemical Technologies",
+      "type": "child",
+      "id": "https://ror.org/004nzga04"
+    },
+    {
+      "label": "Office of Advanced Fuels Technologies",
+      "type": "child",
+      "id": "https://ror.org/01j67h539"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

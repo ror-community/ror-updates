@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Palawan State University-Coron"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Palawan State University",
+      "type": "parent",
+      "id": "https://ror.org/05x5g1486"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

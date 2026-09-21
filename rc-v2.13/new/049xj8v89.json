@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "宁夏财经职业技术学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Education Department of Ningxia Hui Autonomous Region",
+      "type": "parent",
+      "id": "https://ror.org/022wdhy86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

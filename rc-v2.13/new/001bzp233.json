@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "河南财政金融学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Henan Institute of Education",
+      "type": "predecessor",
+      "id": "https://ror.org/00ed0hz84"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

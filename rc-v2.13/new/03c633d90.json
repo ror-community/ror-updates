@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Norwegian Ophthalmological Society"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Norwegian Medical Association",
+      "type": "related",
+      "id": "https://ror.org/022w6y159"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

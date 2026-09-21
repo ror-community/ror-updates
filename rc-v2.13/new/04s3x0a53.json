@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,28 @@
       "value": "Philippine Children's Medical Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Health",
+      "type": "parent",
+      "id": "https://ror.org/03zn9nd89"
+    },
+    {
+      "label": "Philippine Heart Center",
+      "type": "related",
+      "id": "https://ror.org/050rdvn58"
+    },
+    {
+      "label": "Lung Center of the Philippines",
+      "type": "related",
+      "id": "https://ror.org/04h783r90"
+    },
+    {
+      "label": "National Kidney and Transplant Institute",
+      "type": "related",
+      "id": "https://ror.org/05k4a7g87"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "The National IOR Centre of Norway"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Stavanger",
+      "type": "parent",
+      "id": "https://ror.org/02qte9q33"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

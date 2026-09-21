@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "国际镁营养研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fujian Agriculture and Forestry University",
+      "type": "parent",
+      "id": "https://ror.org/04kx2sy84"
+    },
+    {
+      "label": "K+S (Germany)",
+      "type": "related",
+      "id": "https://ror.org/04kfnx806"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

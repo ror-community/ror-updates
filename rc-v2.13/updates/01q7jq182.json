@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100006595"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.433972.8"
+      ],
+      "preferred": "grid.433972.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0484 8957"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01q7jq182",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://uefiscdi.gov.ro/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RO",
+        "country_name": "Romania",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "București",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "name": "Bucharest"
+      },
+      "geonames_id": 683506
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Executive Unit for Financing Higher Education, Research, Development and Innovation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UEFISCDI"
+    },
+    {
+      "lang": "ro",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Unitatea Executiva Pentru Finantarea Invatamantului Superior a Cercetarii Dezvoltarii si Inovarii"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/035rrps97"
+    },
+    {
+      "label": "Comisia Națională pentru Finanțarea Învățământului Superior",
+      "type": "related",
+      "id": "https://ror.org/00pmxc946"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

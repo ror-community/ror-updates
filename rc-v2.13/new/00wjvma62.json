@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "社会技術研究開発センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Science and Technology Agency",
+      "type": "parent",
+      "id": "https://ror.org/00097mb19"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

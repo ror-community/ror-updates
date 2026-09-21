@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Elevance Health Foundation, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Anthem (United States)",
+      "type": "parent",
+      "id": "https://ror.org/01geb0342"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

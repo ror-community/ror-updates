@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Mindanao State University-Sultan Naga Dimaporo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mindanao State University",
+      "type": "parent",
+      "id": "https://ror.org/026441d17"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

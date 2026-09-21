@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "شرکت نفت مناطق مرکزی ایران"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Iranian Oil Company (Iran)",
+      "type": "parent",
+      "id": "https://ror.org/02j3xat32"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

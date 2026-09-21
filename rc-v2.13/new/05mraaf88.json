@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -111,7 +111,13 @@
       "value": "國家儀器科技研究中心"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institutes of Applied Research",
+      "type": "parent",
+      "id": "https://ror.org/05wcstg80"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

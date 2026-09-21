@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Mapúa Malayan Colleges Mindanao"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mapúa University",
+      "type": "parent",
+      "id": "https://ror.org/040rd2b57"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

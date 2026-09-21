@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Society of Economic Geologists Canada Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Society of Economic Geologists",
+      "type": "related",
+      "id": "https://ror.org/02cb1bz50"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

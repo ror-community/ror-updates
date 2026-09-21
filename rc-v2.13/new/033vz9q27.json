@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,18 @@
       "value": "한국토지주택공사"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Land, Infrastructure and Transport",
+      "type": "parent",
+      "id": "https://ror.org/04xt5aa77"
+    },
+    {
+      "label": "Land and Housing Institute",
+      "type": "child",
+      "id": "https://ror.org/013frrx13"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

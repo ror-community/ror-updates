@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,28 @@
       "value": "WissenschaftsCampus Halle – Pflanzenbasierte Bioökonomie"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Martin Luther University Halle-Wittenberg",
+      "type": "parent",
+      "id": "https://ror.org/05gqaka33"
+    },
+    {
+      "label": "Leibniz Institute of Plant Biochemistry",
+      "type": "parent",
+      "id": "https://ror.org/01mzk5576"
+    },
+    {
+      "label": "Leibniz Institute of Agricultural Development in Transition Economies",
+      "type": "parent",
+      "id": "https://ror.org/03hkr1v69"
+    },
+    {
+      "label": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "type": "parent",
+      "id": "https://ror.org/02skbsp27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

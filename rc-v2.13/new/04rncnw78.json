@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "San Agustin Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Romblon State University",
+      "type": "parent",
+      "id": "https://ror.org/04dn9wj23"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

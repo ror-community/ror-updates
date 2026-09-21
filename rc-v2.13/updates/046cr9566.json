@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100020624"
+      ],
+      "preferred": "501100020624",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.511312.5"
+      ],
+      "preferred": "grid.511312.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 9032 5393"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/046cr9566",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nottinghambrc.nihr.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "name": "Nottingham"
+      },
+      "geonames_id": 2641170
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BRC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nottingham Biomedical Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nottingham University Hospitals NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/05y3qh794"
+    },
+    {
+      "label": "NIHR Nottingham Hearing Biomedical Research Unit",
+      "type": "predecessor",
+      "id": "https://ror.org/03f5eqm42"
+    },
+    {
+      "label": "NIHR Nottingham Digestive Diseases Biomedical Research Unit",
+      "type": "predecessor",
+      "id": "https://ror.org/02ppy9c89"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

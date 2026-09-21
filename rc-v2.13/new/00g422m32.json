@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Indonesian Science Fund"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Akademi Ilmu Pengetahuan Indonesia",
+      "type": "parent",
+      "id": "https://ror.org/0452w1e25"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

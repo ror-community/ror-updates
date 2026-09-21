@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Malaysian Space Agency"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Science, Technology and Innovation",
+      "type": "parent",
+      "id": "https://ror.org/012s3r374"
+    },
+    {
+      "label": "National Space Agency",
+      "type": "predecessor",
+      "id": "https://ror.org/05cdbex20"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

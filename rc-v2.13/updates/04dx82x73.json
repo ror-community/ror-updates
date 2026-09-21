@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,18 @@
       "value": "南宁师范大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shiyuan College of Nanning Normal University",
+      "type": "child",
+      "id": "https://ror.org/05ac1jn98"
+    },
+    {
+      "label": "Guangxi College of Education",
+      "type": "predecessor",
+      "id": "https://ror.org/007cpsa58"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

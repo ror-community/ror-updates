@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "奧林巴斯香港中國有限公司"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Olympus (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/01v0pgv63"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

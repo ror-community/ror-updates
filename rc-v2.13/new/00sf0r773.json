@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Council on Anthropology and Education"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "American Anthropological Association",
+      "type": "parent",
+      "id": "https://ror.org/02b8m7s43"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

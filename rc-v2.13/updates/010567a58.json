@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Centre Hospitalier Universitaire Amiens-Picardie"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Picardie Jules Verne",
+      "type": "related",
+      "id": "https://ror.org/01gyxrk03"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Centre Hospitalier Universitaire de Martinique"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Epidémiologie clinique et vieillissement",
+      "type": "child",
+      "id": "https://ror.org/02ec07q56"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Davao de Oro State College-Maragusan Branch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Davao de Oro State College",
+      "type": "parent",
+      "id": "https://ror.org/04w8r1528"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

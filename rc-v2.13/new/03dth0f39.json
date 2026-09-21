@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Viện Sinh thái và Tài nguyên sinh vật"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Vietnam Academy of Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/02wsd5p50"
+    },
+    {
+      "label": "Viện Sinh học",
+      "type": "successor",
+      "id": "https://ror.org/00m9h6b62"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility",

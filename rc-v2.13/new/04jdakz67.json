@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,28 @@
       "value": "Soehngen Institute of Anaerobic Microbiology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Radboud University Nijmegen",
+      "type": "related",
+      "id": "https://ror.org/016xsfp80"
+    },
+    {
+      "label": "Wageningen University & Research",
+      "type": "related",
+      "id": "https://ror.org/04qw24q55"
+    },
+    {
+      "label": "Delft University of Technology",
+      "type": "related",
+      "id": "https://ror.org/02e2c7k09"
+    },
+    {
+      "label": "Royal Netherlands Institute for Sea Research",
+      "type": "related",
+      "id": "https://ror.org/01gntjh03"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

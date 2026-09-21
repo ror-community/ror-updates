@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,28 @@
       "value": "广西壮族自治区人民政府"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Guangxi Zhuang Autonomous Region Department of Education",
+      "type": "child",
+      "id": "https://ror.org/00kx48s25"
+    },
+    {
+      "label": "Guangxi Science and Technology Department",
+      "type": "child",
+      "id": "https://ror.org/00dhpdx54"
+    },
+    {
+      "label": "Department of Human Resources and Social Security of Guangxi Zhuang Autonomous Region",
+      "type": "child",
+      "id": "https://ror.org/01mrera27"
+    },
+    {
+      "label": "Health Commission of Guangxi Zhuang Autonomous Region",
+      "type": "child",
+      "id": "https://ror.org/01x9sys47"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

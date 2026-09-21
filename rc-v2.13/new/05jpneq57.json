@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "National Institute of Coffee Science and Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institutos Nacionais de Ciência e Tecnologia",
+      "type": "parent",
+      "id": "https://ror.org/045ydbe97"
+    },
+    {
+      "label": "Universidade Federal de Lavras",
+      "type": "related",
+      "id": "https://ror.org/0122bmm03"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

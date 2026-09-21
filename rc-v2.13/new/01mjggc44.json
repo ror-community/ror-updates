@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "Научно-исследовательский институт ядерной физики имени Д.В. Скобельцына Московского государственного университета имени М.В. Ломоносова"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lomonosov Moscow State University",
+      "type": "parent",
+      "id": "https://ror.org/010pmpe69"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

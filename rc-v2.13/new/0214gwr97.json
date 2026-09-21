@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "FuelsEurope"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Concawe",
+      "type": "child",
+      "id": "https://ror.org/009c1h633"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

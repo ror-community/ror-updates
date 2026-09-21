@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Troms og Finnmark fylkeskommune"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Troms Fylkeskommune",
+      "type": "predecessor",
+      "id": "https://ror.org/03ayyme69"
+    },
+    {
+      "label": "Finnmark Fylkeskommune",
+      "type": "predecessor",
+      "id": "https://ror.org/04knhp704"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

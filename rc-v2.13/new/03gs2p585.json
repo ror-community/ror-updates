@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "National Institute of Science and Technology in Wetlands"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institutos Nacionais de Ciência e Tecnologia",
+      "type": "parent",
+      "id": "https://ror.org/045ydbe97"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

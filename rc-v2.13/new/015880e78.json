@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "公益信託ENEOS水素基金"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Eneos (Japan)",
+      "type": "related",
+      "id": "https://ror.org/02rcsxq19"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/00jyt4d57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inserm.fr/delegation/idf-nord/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IDF-NORD"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm Délégation régionale Paris-IDF Centre Nord"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "L’Inserm dans Paris et l’Île-de-France Centre Nord"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Délégation Paris 7",
+      "type": "predecessor",
+      "id": "https://ror.org/00bw5n526"
+    },
+    {
+      "label": "Délégation Paris 5",
+      "type": "predecessor",
+      "id": "https://ror.org/02e0y6e06"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

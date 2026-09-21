@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Centro de Pesquisa em Ciências Matemáticas Aplicadas à Indústria"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade de São Paulo",
+      "type": "parent",
+      "id": "https://ror.org/036rp1748"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

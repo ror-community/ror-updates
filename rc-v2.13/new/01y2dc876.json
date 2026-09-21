@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "杭州师范大学钱江学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hangzhou Normal University",
+      "type": "related",
+      "id": "https://ror.org/014v1mr15"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,23 @@
       "value": "Centro di Ricerca Matematica Ennio De Giorgi"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Scuola Normale Superiore",
+      "type": "parent",
+      "id": "https://ror.org/03aydme10"
+    },
+    {
+      "label": "University of Pisa",
+      "type": "related",
+      "id": "https://ror.org/03ad39j10"
+    },
+    {
+      "label": "Scuola Superiore Sant'Anna",
+      "type": "related",
+      "id": "https://ror.org/025602r80"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

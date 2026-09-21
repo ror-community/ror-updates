@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Rajiv Gandhi Science and Technology Commission, Government of Maharashtra"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Maharashtra",
+      "type": "parent",
+      "id": "https://ror.org/057ykey20"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

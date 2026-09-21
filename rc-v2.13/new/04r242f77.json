@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "聊城大学东昌学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Liaocheng University",
+      "type": "parent",
+      "id": "https://ror.org/03yh0n709"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

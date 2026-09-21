@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Department of Families, Seniors, Disability Services and Child Safety"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Queensland Government",
+      "type": "parent",
+      "id": "https://ror.org/037405308"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

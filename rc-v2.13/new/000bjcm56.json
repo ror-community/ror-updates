@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "MBF Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medicor Foundation",
+      "type": "successor",
+      "id": "https://ror.org/0469pxf24"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder"

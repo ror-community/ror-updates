@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Medina College-Ipil"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medina General Hospital",
+      "type": "related",
+      "id": "https://ror.org/00qej3243"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

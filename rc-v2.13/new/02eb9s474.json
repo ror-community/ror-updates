@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Centro de Microscopia Eletrônica UFPR"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Federal do Paraná",
+      "type": "parent",
+      "id": "https://ror.org/05syd6y78"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

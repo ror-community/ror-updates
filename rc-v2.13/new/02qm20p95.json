@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Fundação de Desenvolvimento Científico e Cultural"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Federal de Lavras",
+      "type": "related",
+      "id": "https://ror.org/0122bmm03"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

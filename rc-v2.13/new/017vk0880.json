@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "National Institute of Science and Technology of Molecular Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidade Federal de Minas Gerais",
+      "type": "parent",
+      "id": "https://ror.org/0176yjw32"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

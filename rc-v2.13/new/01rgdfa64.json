@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Republican College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saint Jude College",
+      "type": "related",
+      "id": "https://ror.org/05pd6be13"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

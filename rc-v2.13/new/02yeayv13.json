@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ವಿಜ್ಞಾನ ಮತ್ತು ತಂತ್ರಜ್ಞಾನ ಮಂಡಳಿ"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Karnataka",
+      "type": "parent",
+      "id": "https://ror.org/00maf9573"
+    },
+    {
+      "label": "Indian Institute of Science Bangalore",
+      "type": "related",
+      "id": "https://ror.org/04dese585"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

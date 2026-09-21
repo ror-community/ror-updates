@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "西藏大学农牧学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tibet University",
+      "type": "related",
+      "id": "https://ror.org/05petvd47"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

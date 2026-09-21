@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.430341.1"
+      ],
+      "preferred": "grid.430341.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0461 4667"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02bbana41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://give.sharp.com/sharp-foundation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sharp HealthCare Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sharp Cabrillo Hospital",
+      "type": "child",
+      "id": "https://ror.org/058peea52"
+    },
+    {
+      "label": "Sharp Grossmont Hospital",
+      "type": "child",
+      "id": "https://ror.org/02zwxrr04"
+    },
+    {
+      "label": "Sharp HealthCare",
+      "type": "related",
+      "id": "https://ror.org/02h8gsh43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Respiratory Health Research Fund"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Société de Pneumologie de Langue Française",
+      "type": "related",
+      "id": "https://ror.org/055ypsm96"
+    },
+    {
+      "label": "Fondation du Souffle",
+      "type": "successor",
+      "id": "https://ror.org/04qdyps56"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder"

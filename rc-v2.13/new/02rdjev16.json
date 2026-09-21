@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Centre for Hip Health and Mobility"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of British Columbia",
+      "type": "parent",
+      "id": "https://ror.org/03rmrcq20"
+    },
+    {
+      "label": "Vancouver Coastal Health Research Institute",
+      "type": "related",
+      "id": "https://ror.org/04htzww22"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,18 @@
       "value": "Prairie Fork Conservation Area Charitable Endowment Trust"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Missouri",
+      "type": "related",
+      "id": "https://ror.org/02ymw8z06"
+    },
+    {
+      "label": "Missouri Department of Conservation",
+      "type": "related",
+      "id": "https://ror.org/043c66v57"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

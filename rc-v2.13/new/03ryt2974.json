@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Dayao Satellite College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Capiz State University",
+      "type": "parent",
+      "id": "https://ror.org/05vm26792"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

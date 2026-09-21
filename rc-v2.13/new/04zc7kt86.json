@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,18 @@
       "value": "Santander Financial Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fundación de la Universidad de Cantabria para el Estudio y la Investigación del Sector Financiero",
+      "type": "parent",
+      "id": "https://ror.org/051w6s966"
+    },
+    {
+      "label": "Universidad de Cantabria",
+      "type": "related",
+      "id": "https://ror.org/046ffzj20"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,13 @@
       "value": "天津市经济和信息化委员会"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tianjin People's Government",
+      "type": "parent",
+      "id": "https://ror.org/01xnshd39"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

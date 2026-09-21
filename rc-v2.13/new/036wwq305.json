@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "Rete Oncologica del Piemonte e della Valle d'Aosta"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Regione Piemonte",
+      "type": "related",
+      "id": "https://ror.org/04fbf9935"
+    },
+    {
+      "label": "Regione Autonoma Valle d'Aosta",
+      "type": "related",
+      "id": "https://ror.org/059cdnm21"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

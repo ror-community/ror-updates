@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "中国气象局成都高原气象研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China Meteorological Administration",
+      "type": "parent",
+      "id": "https://ror.org/00bx3rb98"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

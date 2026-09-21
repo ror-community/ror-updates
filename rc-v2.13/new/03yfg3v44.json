@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Divine Word Seminary Tagaytay"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Divine Word Missionaries",
+      "type": "related",
+      "id": "https://ror.org/04ffbf641"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

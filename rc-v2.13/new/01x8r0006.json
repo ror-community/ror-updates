@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,23 @@
       "value": "Ontario's Advanced Manufacturing Consortium"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McMaster University",
+      "type": "related",
+      "id": "https://ror.org/02fa3aq29"
+    },
+    {
+      "label": "University of Waterloo",
+      "type": "related",
+      "id": "https://ror.org/01aff2v68"
+    },
+    {
+      "label": "Western University",
+      "type": "related",
+      "id": "https://ror.org/02grkyz14"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

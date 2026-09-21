@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Eastern Visayas State University-Tanauan Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Eastern Visayas State University",
+      "type": "parent",
+      "id": "https://ror.org/011qdnn53"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "National Council for Higher Education"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Education",
+      "type": "parent",
+      "id": "https://ror.org/00dh5gw98"
+    },
+    {
+      "label": "Unitatea Executiva Pentru Finantarea Invatamantului Superior a Cercetarii Dezvoltarii si Inovarii",
+      "type": "related",
+      "id": "https://ror.org/01q7jq182"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Générale de Santé"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fondation Ramsay Santé",
+      "type": "related",
+      "id": "https://ror.org/02xbcbq23"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Universidad Nacional de Ingeniería"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Nacional de Investigación y Capacitación de Telecomunicaciones",
+      "type": "child",
+      "id": "https://ror.org/004w2wp12"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

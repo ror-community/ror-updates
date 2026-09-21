@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "GCSAA Scholarship & Research Fund for the Golf Course Superintendents Association of America"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Golf Course Superintendents Association of America",
+      "type": "parent",
+      "id": "https://ror.org/04zwjw904"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

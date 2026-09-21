@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Elanco Animal Health GmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Elanco (United States)",
+      "type": "parent",
+      "id": "https://ror.org/02jg74102"
+    },
+    {
+      "label": "Bayer (Germany)",
+      "type": "related",
+      "id": "https://ror.org/04hmn8g73"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

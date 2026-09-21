@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Koç Üniversitesi Translasyonel Tıp Uygulama ve Araştırma Merkezi"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Koç University",
+      "type": "parent",
+      "id": "https://ror.org/00jzwgz36"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

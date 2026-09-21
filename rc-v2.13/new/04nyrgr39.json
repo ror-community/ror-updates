@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,18 @@
       "value": "Ministry of Energy and Mines of Peru"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Geológico Minero y Metalúrgico",
+      "type": "child",
+      "id": "https://ror.org/02vrpve57"
+    },
+    {
+      "label": "Instituto Peruano de Energía Nuclear",
+      "type": "child",
+      "id": "https://ror.org/04bk2qw80"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

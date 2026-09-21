@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "American Beverage Foundation for a Healthy America"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "American Beverage Association",
+      "type": "related",
+      "id": "https://ror.org/03hygqf77"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

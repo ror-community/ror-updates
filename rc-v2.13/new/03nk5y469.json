@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "농업생명공학연구원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Rural Development Administration",
+      "type": "parent",
+      "id": "https://ror.org/03xs9yg50"
+    },
+    {
+      "label": "National Academy of Agricultural Science",
+      "type": "successor",
+      "id": "https://ror.org/037rt4a55"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility",

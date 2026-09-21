@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "TIAA-CREF Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Teachers Insurance and Annuity Association of America",
+      "type": "parent",
+      "id": "https://ror.org/03eqw9e29"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

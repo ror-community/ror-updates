@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "新疆艺术学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Xinjiang Uygur Autonomous Region Education Department",
+      "type": "parent",
+      "id": "https://ror.org/0487kvf73"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

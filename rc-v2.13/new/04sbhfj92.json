@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -58,7 +58,13 @@
       "value": "Cebu Technological University-Cebu City Mountain Satellite Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cebu Technological University",
+      "type": "parent",
+      "id": "https://ror.org/04x649j07"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

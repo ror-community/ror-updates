@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "St. Luke's Medical Center College of Medicine-William H. Quasha Memorial"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "St. Luke's Medical Center",
+      "type": "related",
+      "id": "https://ror.org/02h4kdd20"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

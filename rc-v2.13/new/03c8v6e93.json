@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Fundació Autònoma Solidària"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universitat Autònoma de Barcelona",
+      "type": "related",
+      "id": "https://ror.org/052g8jq94"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

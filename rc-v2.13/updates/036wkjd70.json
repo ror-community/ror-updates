@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "100015345"
+      ],
+      "preferred": "100015345",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0413 2799"
+      ],
+      "preferred": "0000 0004 0413 2799",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q118075142"
+      ],
+      "preferred": "Q118075142",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/036wkjd70",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.zoll.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.59981,
+        "lng": -71.36728,
+        "name": "Chelmsford"
+      },
+      "geonames_id": 4932869
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ZMC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "ZOLL"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "ZOLL Medical"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "ZOLL Medical Corporation"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ZOLL Medical Corporation (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Asahi Kasei (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/018wp0236"
+    },
+    {
+      "label": "ZOLL Respicardia (United States)",
+      "type": "child",
+      "id": "https://ror.org/05agry834"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

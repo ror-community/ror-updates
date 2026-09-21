@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,18 @@
       "value": "TallWood Design Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Oregon State University",
+      "type": "related",
+      "id": "https://ror.org/00ysfqy60"
+    },
+    {
+      "label": "University of Oregon",
+      "type": "related",
+      "id": "https://ror.org/0293rh119"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

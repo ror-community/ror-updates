@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Zernike Institute for Advanced Materials"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Groningen",
+      "type": "parent",
+      "id": "https://ror.org/012p63287"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

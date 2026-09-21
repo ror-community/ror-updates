@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Wales Cancer Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cardiff University",
+      "type": "parent",
+      "id": "https://ror.org/03kk7td41"
+    },
+    {
+      "label": "Health and Care Research Wales",
+      "type": "related",
+      "id": "https://ror.org/03w4jzj90"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

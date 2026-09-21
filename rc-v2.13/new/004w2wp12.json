@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,13 @@
       "value": "National Institute of Research and Training in Telecommunications"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National University of Engineering",
+      "type": "parent",
+      "id": "https://ror.org/006v63s16"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

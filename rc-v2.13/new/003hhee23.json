@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "株式会社浜松ファーマリサーチ"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "CMIC Group (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/027yanw18"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

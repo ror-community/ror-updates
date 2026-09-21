@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Health Net Federal Services, LLC"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Health Net",
+      "type": "parent",
+      "id": "https://ror.org/03nzj6y61"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

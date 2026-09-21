@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1898,
+  "external_ids": [
+    {
+      "all": [
+        "100012933"
+      ],
+      "preferred": "100012933",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.501571.7"
+      ],
+      "preferred": "grid.501571.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 2510"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5260142"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038wwg650",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.da.gov.ph/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Agriculture_(Philippines)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "PH",
+        "country_name": "Philippines",
+        "country_subdivision_code": "00",
+        "country_subdivision_name": "National Capital Region",
+        "lat": 14.6488,
+        "lng": 121.0509,
+        "name": "Quezon City"
+      },
+      "geonames_id": 1692192
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Agriculture"
+    },
+    {
+      "lang": "tl",
+      "types": [
+        "alias"
+      ],
+      "value": "Kagawaran ng Pagsasaka"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of the Philippines",
+      "type": "parent",
+      "id": "https://ror.org/027g9mf44"
+    },
+    {
+      "label": "Philippine Carabao Center",
+      "type": "child",
+      "id": "https://ror.org/01yj63052"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

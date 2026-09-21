@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "കേരള വനം വകുപ്പ്"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Kerala",
+      "type": "parent",
+      "id": "https://ror.org/00r96e843"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

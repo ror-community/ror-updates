@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -104,7 +104,13 @@
       "value": "Федеральное государственное бюджетное учреждение науки Главный ботанический сад им. Н.В. Цицина Российской академии наук"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Biological Sciences",
+      "type": "parent",
+      "id": "https://ror.org/038rjvd86"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

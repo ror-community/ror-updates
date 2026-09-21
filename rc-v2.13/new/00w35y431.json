@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Trillium Health Partners Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Trillium Health Centre",
+      "type": "related",
+      "id": "https://ror.org/03v6a2j28"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

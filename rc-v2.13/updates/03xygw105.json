@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Universidad de Oriente"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Oceanográfico de Venezuela",
+      "type": "child",
+      "id": "https://ror.org/02v75tb58"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

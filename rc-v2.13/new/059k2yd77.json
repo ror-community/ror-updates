@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "国网四川省电力公司"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "State Grid Corporation of China (China)",
+      "type": "parent",
+      "id": "https://ror.org/05twwhs70"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

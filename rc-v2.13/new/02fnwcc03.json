@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "UM Peñaplata College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Mindanao",
+      "type": "parent",
+      "id": "https://ror.org/00mpnf546"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

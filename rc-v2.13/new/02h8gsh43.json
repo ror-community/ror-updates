@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,33 @@
       "value": "Sharp HealthCare"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sharp Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/01gynte55"
+    },
+    {
+      "label": "Sharp Grossmont Hospital",
+      "type": "child",
+      "id": "https://ror.org/02zwxrr04"
+    },
+    {
+      "label": "Sharp Mary Birch Hospital for Women & Newborns",
+      "type": "child",
+      "id": "https://ror.org/04nctyb57"
+    },
+    {
+      "label": "Sharp Rees-Stealy Medical Group",
+      "type": "child",
+      "id": "https://ror.org/009erh992"
+    },
+    {
+      "label": "Sharp HealthCare Foundation",
+      "type": "related",
+      "id": "https://ror.org/02bbana41"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

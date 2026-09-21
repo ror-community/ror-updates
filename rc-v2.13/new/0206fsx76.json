@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "한국수력원자력 중앙연구원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Korea Hydro and Nuclear Power (Korea)",
+      "type": "parent",
+      "id": "https://ror.org/00twdhr48"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

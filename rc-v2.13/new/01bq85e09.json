@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "Max Planck-EPFL Center for Molecular Nanoscience and Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "École Polytechnique Fédérale de Lausanne",
+      "type": "parent",
+      "id": "https://ror.org/02s376052"
+    },
+    {
+      "label": "Max Planck Institute for Solid State Research",
+      "type": "related",
+      "id": "https://ror.org/005bk2339"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

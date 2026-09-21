@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Cape Eleuthera Marine Conservation Project"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cape Eleuthera Institute",
+      "type": "related",
+      "id": "https://ror.org/00fs71k85"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "University of Cebu-Banilad"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Cebu",
+      "type": "parent",
+      "id": "https://ror.org/034xkmw20"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,38 @@
       "value": "P-Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Leibniz Institute for Baltic Sea Research Warnemünde",
+      "type": "parent",
+      "id": "https://ror.org/03xh9nq73"
+    },
+    {
+      "label": "University of Rostock",
+      "type": "parent",
+      "id": "https://ror.org/03zdwsf69"
+    },
+    {
+      "label": "Leibniz Institute for Catalysis",
+      "type": "related",
+      "id": "https://ror.org/029hg0311"
+    },
+    {
+      "label": "Research Institute for Farm Animal Biology (FBN)",
+      "type": "related",
+      "id": "https://ror.org/02n5r1g44"
+    },
+    {
+      "label": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "type": "related",
+      "id": "https://ror.org/02skbsp27"
+    },
+    {
+      "label": "Leibniz Institute for Plasma Science and Technology",
+      "type": "related",
+      "id": "https://ror.org/004hd5y14"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

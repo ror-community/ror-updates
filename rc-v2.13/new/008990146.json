@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,18 @@
       "value": "Australian Schizophrenia Research Bank"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Neuroscience Research Australia",
+      "type": "related",
+      "id": "https://ror.org/01g7s6g79"
+    },
+    {
+      "label": "Schizophrenia Research Institute",
+      "type": "related",
+      "id": "https://ror.org/05ypbsn23"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility",

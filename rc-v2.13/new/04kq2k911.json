@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "West Virginia Clinical and Translational Science Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "West Virginia University",
+      "type": "parent",
+      "id": "https://ror.org/011vxgd24"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

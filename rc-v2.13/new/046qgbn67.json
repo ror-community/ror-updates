@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Jose B. Lingad Memorial Regional Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Health",
+      "type": "related",
+      "id": "https://ror.org/03zn9nd89"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

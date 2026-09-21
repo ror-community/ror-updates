@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1798,
+  "external_ids": [
+    {
+      "all": [
+        "501100022671"
+      ],
+      "preferred": "501100022671",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.425736.1"
+      ],
+      "preferred": "grid.425736.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0682 2636"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2491421"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01at1x128",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_the_Interior_and_Kingdom_Relations_(Netherlands)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.07667,
+        "lng": 4.29861,
+        "name": "The Hague"
+      },
+      "geonames_id": 2747373
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BZK"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of the Interior and Kingdom Relations"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Korps Landelijke Politiediensten",
+      "type": "child",
+      "id": "https://ror.org/01trfzy92"
+    },
+    {
+      "label": "Government of Netherlands",
+      "type": "parent",
+      "id": "https://ror.org/045vgz384"
+    },
+    {
+      "label": "Rijksvastgoedbedrijf",
+      "type": "child",
+      "id": "https://ror.org/021m8ks14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

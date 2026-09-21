@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "Siaton Community College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Negros Oriental State University",
+      "type": "parent",
+      "id": "https://ror.org/016t28114"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

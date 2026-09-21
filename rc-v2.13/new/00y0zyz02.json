@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Australian Research Council Research Hub for Advanced Manufacturing of Medical Devices"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    },
+    {
+      "label": "Australian Research Council",
+      "type": "parent",
+      "id": "https://ror.org/05mmh0f86"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

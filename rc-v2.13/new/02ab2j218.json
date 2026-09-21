@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Institut de recherche en santé mentale de la famille Campbell"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre for Addiction and Mental Health",
+      "type": "parent",
+      "id": "https://ror.org/03e71c577"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

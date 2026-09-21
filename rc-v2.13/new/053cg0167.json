@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "計算基礎科学連携拠点"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "High Energy Accelerator Research Organization",
+      "type": "related",
+      "id": "https://ror.org/01g5y5k24"
+    },
+    {
+      "label": "University of Tsukuba",
+      "type": "related",
+      "id": "https://ror.org/02956yf07"
+    },
+    {
+      "label": "National Astronomical Observatory of Japan",
+      "type": "related",
+      "id": "https://ror.org/052rrw050"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

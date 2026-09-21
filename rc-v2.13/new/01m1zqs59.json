@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,18 @@
       "value": "National Institute for Health and Care Research Applied Research Collaboration Oxford and Thames Valley"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Research",
+      "type": "parent",
+      "id": "https://ror.org/0187kwz08"
+    },
+    {
+      "label": "Oxford Health NHS Foundation Trust",
+      "type": "related",
+      "id": "https://ror.org/04c8bjx39"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "南京大学金陵学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nanjing University",
+      "type": "parent",
+      "id": "https://ror.org/01rxvg760"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

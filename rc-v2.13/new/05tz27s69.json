@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,13 @@
       "value": "연구성과실용화진흥원"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Science and ICT",
+      "type": "parent",
+      "id": "https://ror.org/01wpjm123"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

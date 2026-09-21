@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Alberta Hatching Egg Producers"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canadian Hatching Egg Producers",
+      "type": "related",
+      "id": "https://ror.org/01qg4dt35"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

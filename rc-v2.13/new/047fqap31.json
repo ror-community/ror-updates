@@ -71,7 +71,23 @@
       "value": "Australian Defence Force"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "Department of Defence",
+      "type": "related",
+      "id": "https://ror.org/051wnqr14"
+    },
+    {
+      "label": "Royal Australian Air Force",
+      "type": "child",
+      "id": "https://ror.org/01v5gaf74"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

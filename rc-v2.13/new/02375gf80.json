@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Ferring Research Institute, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ferring Pharmaceuticals (Switzerland)",
+      "type": "parent",
+      "id": "https://ror.org/031zfq432"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

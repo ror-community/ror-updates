@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Iloilo Science and Technology University-Miagao Campus"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iloilo Science and Technology University",
+      "type": "parent",
+      "id": "https://ror.org/015ve7h33"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

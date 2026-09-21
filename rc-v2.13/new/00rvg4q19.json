@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Janssen Alzheimer Immunotherapy Research & Development, LLC"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Johnson & Johnson (United States)",
+      "type": "parent",
+      "id": "https://ror.org/03qd7mz70"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

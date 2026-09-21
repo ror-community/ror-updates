@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 4910 4636"
+      ],
+      "preferred": "0000 0004 4910 4636",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q109018003"
+      ],
+      "preferred": "Q109018003",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00enf6a78",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ciusss-ouestmtl.gouv.qc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_int%C3%A9gr%C3%A9_de_sant%C3%A9_et_de_services_sociaux"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 52.00017,
+        "lng": -71.99907,
+        "name": "Quebec"
+      },
+      "geonames_id": 6115047
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CIUSSS de l'Ouest-de-l'Ile-de-Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre intégré universitaire de santé et de services sociaux de l'Ouest-de-l’Île-de-Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Santé Québec",
+      "type": "parent",
+      "id": "https://ror.org/028t2bs12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "青海卫生职业技术学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Health Commission of Qinghai Province",
+      "type": "related",
+      "id": "https://ror.org/02hdhn392"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

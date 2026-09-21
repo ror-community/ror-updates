@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Health Research Council of the City of New York"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "New York City Department of Health and Mental Hygiene",
+      "type": "parent",
+      "id": "https://ror.org/01gst4g14"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

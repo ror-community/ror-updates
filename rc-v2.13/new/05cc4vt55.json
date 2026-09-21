@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,28 @@
       "value": "Institut Carnot Chimie Balard Cirimat"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Interuniversitaire de Recherche et d’Ingénierie des Matériaux",
+      "type": "related",
+      "id": "https://ror.org/03xhggy77"
+    },
+    {
+      "label": "Institut Charles Gerhardt Montpellier",
+      "type": "related",
+      "id": "https://ror.org/028wq3277"
+    },
+    {
+      "label": "Institut des Biomolécules Max Mousseron",
+      "type": "related",
+      "id": "https://ror.org/05d1e6v30"
+    },
+    {
+      "label": "Institut Européen des Membranes",
+      "type": "related",
+      "id": "https://ror.org/04nmj9827"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

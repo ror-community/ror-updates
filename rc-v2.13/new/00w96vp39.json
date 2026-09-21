@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,18 @@
       "value": "辽宁省气象科学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China Meteorological Administration",
+      "type": "parent",
+      "id": "https://ror.org/00bx3rb98"
+    },
+    {
+      "label": "Liaoning Meteorological Bureau",
+      "type": "related",
+      "id": "https://ror.org/03616xn26"
+    }
+  ],
   "status": "active",
   "types": [
     "funder"

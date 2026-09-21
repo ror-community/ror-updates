@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "UK Catalysis Hub"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Research Complex at Harwell",
+      "type": "related",
+      "id": "https://ror.org/00gqx0331"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

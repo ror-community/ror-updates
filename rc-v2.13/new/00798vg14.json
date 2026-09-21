@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Pohjois-Savon sairaanhoitopiiri"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kuopio University Hospital",
+      "type": "child",
+      "id": "https://ror.org/00fqdfs68"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

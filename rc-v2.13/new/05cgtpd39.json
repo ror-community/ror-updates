@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-15",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,33 @@
       "value": "江西中医药大学科技学院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Jiangxi Provincial People's Hospital",
+      "type": "related",
+      "id": "https://ror.org/01dspcb60"
+    },
+    {
+      "label": "Jiangxi Provincial Cancer Hospital",
+      "type": "related",
+      "id": "https://ror.org/00v8g0168"
+    },
+    {
+      "label": "Jiangxi Chest Hospital",
+      "type": "related",
+      "id": "https://ror.org/02895kk89"
+    },
+    {
+      "label": "Jiangxi Maternal and Child Health Hospital",
+      "type": "related",
+      "id": "https://ror.org/01hbm5940"
+    },
+    {
+      "label": "Jiangxi Provincial Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/03tws3217"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-13",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "San Pedro Hospital of Davao City, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "San Pedro College",
+      "type": "related",
+      "id": "https://ror.org/03dw6jp83"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -83,7 +83,28 @@
       "value": "Kanton Bern"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Bern Economic Development Agency",
+      "type": "child",
+      "id": "https://ror.org/05dzk5241"
+    },
+    {
+      "label": "Archäologischer Dienst des Kantons Bern",
+      "type": "child",
+      "id": "https://ror.org/01hqeag92"
+    },
+    {
+      "label": "Gesundheits- und Fürsorgedirektion des Kantons Bern",
+      "type": "child",
+      "id": "https://ror.org/04qb2wt25"
+    },
+    {
+      "label": "State Archive of Bern",
+      "type": "child",
+      "id": "https://ror.org/01006rc90"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

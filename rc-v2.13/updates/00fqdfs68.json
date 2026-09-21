@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1959,
+  "external_ids": [
+    {
+      "all": [
+        "501100004092"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410705.7"
+      ],
+      "preferred": "grid.410705.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0628 207X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00fqdfs68",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.psshp.fi/web/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FI",
+        "country_name": "Finland",
+        "country_subdivision_code": "15",
+        "country_subdivision_name": "North Savo",
+        "lat": 62.89238,
+        "lng": 27.67703,
+        "name": "Kuopio"
+      },
+      "geonames_id": 650224
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kuopio University Hospital"
+    },
+    {
+      "lang": "fi",
+      "types": [
+        "alias"
+      ],
+      "value": "Kuopion yliopistollinen sairaala"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Eastern Finland",
+      "type": "related",
+      "id": "https://ror.org/00cyydd11"
+    },
+    {
+      "label": "Pohjois-Savon sairaanhoitopiiri",
+      "type": "parent",
+      "id": "https://ror.org/00798vg14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

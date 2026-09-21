@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "新疆油田公司"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "China National Petroleum Corporation (China)",
+      "type": "parent",
+      "id": "https://ror.org/05269d038"
+    }
+  ],
   "status": "active",
   "types": [
     "company",

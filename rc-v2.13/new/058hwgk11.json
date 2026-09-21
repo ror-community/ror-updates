@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Disarm Therapeutics, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Eli Lilly (United States)",
+      "type": "parent",
+      "id": "https://ror.org/01qat3289"
+    }
+  ],
   "status": "active",
   "types": [
     "company",
