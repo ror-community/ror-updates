@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mct.gov.cn"
+  ],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "501100018924"
+      ],
+      "preferred": "501100018924",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q50484620"
+      ],
+      "preferred": "Q50484620",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/015rznh41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mct.gov.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MCT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Ministry of Culture and Tourism of the People's Republic of China"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中华人民共和国文化和旅游部"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Council of the People's Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/02fzqav45"
+    },
+    {
+      "label": "China Tourism Academy",
+      "type": "child",
+      "id": "https://ror.org/01k4abj61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

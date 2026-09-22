@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "dpz.eu"
+  ],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "501100004938"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418215.b"
+      ],
+      "preferred": "grid.418215.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8502 7018"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1205899"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02f99v835",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dpz.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/German_Primate_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NI",
+        "country_subdivision_name": "Lower Saxony",
+        "lat": 51.53443,
+        "lng": 9.93228,
+        "name": "Göttingen"
+      },
+      "geonames_id": 2918632
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DPZ"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Deutsches Primatenzentrum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Deutsches Primatenzentrum - Leibniz-Institut für Primatenforschung"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "German Primate Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "German Primate Center – Leibniz Institute for Primate Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leibniz ScienceCampus Primate Cognition",
+      "type": "child",
+      "id": "https://ror.org/05ehdmg18"
+    },
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

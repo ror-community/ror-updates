@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "grid.460062.6"
+      ],
+      "preferred": "grid.460062.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5936 4044"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05g7qp006",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.asuits.sanita.fvg.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "36",
+        "country_subdivision_name": "Friuli Venezia Giulia",
+        "lat": 45.64953,
+        "lng": 13.77678,
+        "name": "Trieste"
+      },
+      "geonames_id": 3165185
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Azienda Ospedaliero Universitaria Ospedali Riuniti di Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Sanitaria Universitaria Integrata di Trieste"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Azienda per l’Assistenza Sanitaria n. 1 Triestina"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Azienda sanitaria universitaria Giuliano Isontina",
+      "type": "successor",
+      "id": "https://ror.org/0025bcv33"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

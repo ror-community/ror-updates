@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "stanfordchildrens.org"
+  ],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414123.1"
+      ],
+      "preferred": "grid.414123.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0450 875X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6697222"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05a25vm86",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.stanfordchildrens.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Lucile_Packard_Children%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.44188,
+        "lng": -122.14302,
+        "name": "Palo Alto"
+      },
+      "geonames_id": 5380748
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LPCH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lucile Packard Children's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Stanford Medicine",
+      "type": "parent",
+      "id": "https://ror.org/03mtd9a03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

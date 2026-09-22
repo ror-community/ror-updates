@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nibm.my"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100003201"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454125.3"
+      ],
+      "preferred": "grid.454125.3",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/029dygd35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://nibm.my/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Selangor",
+        "lat": 3.35,
+        "lng": 101.25,
+        "name": "Kuala Selangor"
+      },
+      "geonames_id": 1732891
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIBM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institutes of Biotechnology Malaysia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science, Technology and Innovation",
+      "type": "parent",
+      "id": "https://ror.org/012s3r374"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

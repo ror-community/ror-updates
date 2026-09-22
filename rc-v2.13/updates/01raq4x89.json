@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "limsi.fr"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420043.1"
+      ],
+      "preferred": "grid.420043.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1959 6666"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3214435"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01raq4x89",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.limsi.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Laboratoire_d%27informatique_pour_la_m%C3%A9canique_et_les_sciences_de_l%27ing%C3%A9nieur"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.69572,
+        "lng": 2.18727,
+        "name": "Orsay"
+      },
+      "geonames_id": 2989204
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Computer Science Laboratory for Mechanics and Engineering Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LIMSI"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences de l'Information et de leurs Interactions",
+      "type": "parent",
+      "id": "https://ror.org/04z22qz54"
+    },
+    {
+      "label": "University of Paris-Sud",
+      "type": "parent",
+      "id": "https://ror.org/028rypz17"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sanbi.org.za"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.452736.1"
+      ],
+      "preferred": "grid.452736.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2166 5237"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/005r3tp02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sanbi.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "ZA",
+        "country_name": "South Africa",
+        "country_subdivision_code": "GP",
+        "country_subdivision_name": "Gauteng",
+        "lat": -25.74486,
+        "lng": 28.18783,
+        "name": "Pretoria"
+      },
+      "geonames_id": 964137
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SANBI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South African National Biodiversity Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Zoological Gardens of South Africa",
+      "type": "child",
+      "id": "https://ror.org/05q4jz828"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

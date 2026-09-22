@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "plus.ac.at"
+  ],
+  "established": 1622,
+  "external_ids": [
+    {
+      "all": [
+        "501100005644"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.7039.d"
+      ],
+      "preferred": "grid.7039.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1015 6330"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q27265"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gs8cd61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.plus.ac.at/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Salzburg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "5",
+        "country_subdivision_name": "Salzburg",
+        "lat": 47.79941,
+        "lng": 13.04399,
+        "name": "Salzburg"
+      },
+      "geonames_id": 2766824
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "PLUS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Paris Lodron University of Salzburg"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Paris-Lodron-Universität Salzburg"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Salzburg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Salzburger Landeskliniken",
+      "type": "related",
+      "id": "https://ror.org/0500kmp11"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

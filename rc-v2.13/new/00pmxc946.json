@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cnfis.ro"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017351"
+      ],
+      "preferred": "100017351",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/00pmxc946",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnfis.ro"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RO",
+        "country_name": "Romania",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "Bucharest",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "name": "Bucharest"
+      },
+      "geonames_id": 683506
+    }
+  ],
+  "names": [
+    {
+      "lang": "ro",
+      "types": [
+        "acronym"
+      ],
+      "value": "CNFIS"
+    },
+    {
+      "lang": "ro",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Comisia Națională pentru Finanțarea Învățământului Superior"
+    },
+    {
+      "lang": "ro",
+      "types": [
+        "alias"
+      ],
+      "value": "Consiliul Național pentru Finanțarea Învățământului Superior"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Council for Higher Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Education",
+      "type": "parent",
+      "id": "https://ror.org/00dh5gw98"
+    },
+    {
+      "label": "Unitatea Executiva Pentru Finantarea Invatamantului Superior a Cercetarii Dezvoltarii si Inovarii",
+      "type": "related",
+      "id": "https://ror.org/01q7jq182"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

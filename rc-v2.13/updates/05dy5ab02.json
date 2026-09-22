@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "asst-fbf-sacco.it"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507997.5"
+      ],
+      "preferred": "grid.507997.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5984 6051"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q87648629"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05dy5ab02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.asst-fbf-sacco.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "ASST Fatebenefratelli Sacco"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Azienda Ospedaliera Fatebenefratelli e Oftalmico",
+      "type": "child",
+      "id": "https://ror.org/05v558c44"
+    },
+    {
+      "label": "Luigi Sacco Hospital",
+      "type": "child",
+      "id": "https://ror.org/0025g8755"
+    },
+    {
+      "label": "Ospedale dei Bambini Vittore Buzzi",
+      "type": "child",
+      "id": "https://ror.org/044ycg712"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

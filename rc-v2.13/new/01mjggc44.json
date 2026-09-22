@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sinp.msu.ru"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "501100014567"
+      ],
+      "preferred": "501100014567",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q4314523"
+      ],
+      "preferred": "Q4314523",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01mjggc44",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sinp.msu.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "SINP MSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Skobeltsyn Institute of Nuclear Physics, Lomonosov Moscow State University"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "acronym"
+      ],
+      "value": "НИИЯФ МГУ"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Научно-исследовательский институт ядерной физики имени Д.В. Скобельцына Московского государственного университета имени М.В. Ломоносова"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lomonosov Moscow State University",
+      "type": "parent",
+      "id": "https://ror.org/010pmpe69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

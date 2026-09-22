@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "imbp.ru"
+  ],
+  "established": 1963,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418847.6"
+      ],
+      "preferred": "grid.418847.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0390 4822"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/016hfp155",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.imbp.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science State Scientific Center of Russian Federation - Institute for Biomedical Problems of the Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBMP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Biomedical Problems"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Medical and Biological Problems"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Государственный научный центр Российской Федерации - Институт медико-биологических проблем Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Physiological Sciences",
+      "type": "parent",
+      "id": "https://ror.org/0218eta95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

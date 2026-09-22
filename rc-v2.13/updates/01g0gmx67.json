@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "c-nin.com"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464401.3"
+      ],
+      "preferred": "grid.464401.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1760 0096"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01g0gmx67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.c-nin.com/english/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Shaanxi",
+        "lat": 34.25833,
+        "lng": 108.92861,
+        "name": "Xi'an"
+      },
+      "geonames_id": 1790630
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NIN Group"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northwest Institute For Non-Ferrous Metal Research"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "西北有色金属研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Key Laboratory of Metal Porous Materials",
+      "type": "child",
+      "id": "https://ror.org/03pzgzb61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

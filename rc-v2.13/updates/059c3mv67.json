@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "challiance.org"
+  ],
+  "established": 1996,
+  "external_ids": [
+    {
+      "all": [
+        "grid.239475.e"
+      ],
+      "preferred": "grid.239475.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9419 3149"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5025432"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/059c3mv67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.challiance.org/Main/Home.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cambridge_Health_Alliance"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.3751,
+        "lng": -71.10561,
+        "name": "Cambridge"
+      },
+      "geonames_id": 4931972
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cambridge Health Alliance"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cambridge Hospital",
+      "type": "child",
+      "id": "https://ror.org/03r6qg857"
+    },
+    {
+      "label": "Somerville Hospital",
+      "type": "child",
+      "id": "https://ror.org/023pf5e38"
+    },
+    {
+      "label": "Whidden Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/0464f7620"
+    },
+    {
+      "label": "Beth Israel Deaconess Medical Center",
+      "type": "related",
+      "id": "https://ror.org/04drvxt59"
+    },
+    {
+      "label": "Harvard University",
+      "type": "related",
+      "id": "https://ror.org/03vek6s52"
+    },
+    {
+      "label": "Tufts University",
+      "type": "related",
+      "id": "https://ror.org/05wvpxv85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100002124"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468093.0"
+      ],
+      "preferred": "grid.468093.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/01drzr533",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://landresources.nt.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NT",
+        "country_subdivision_name": "Northern Territory",
+        "lat": -12.46113,
+        "lng": 130.84185,
+        "name": "Darwin"
+      },
+      "geonames_id": 2073124
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Land Resource Management"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of the Northern Territory",
+      "type": "parent",
+      "id": "https://ror.org/01537wn74"
+    },
+    {
+      "label": "Department of Environment, Parks and Water Security",
+      "type": "successor",
+      "id": "https://ror.org/00a50j303"
+    },
+    {
+      "label": "Department of Natural Resources, Environment, The Arts and Sport",
+      "type": "predecessor",
+      "id": "https://ror.org/02x005z82"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

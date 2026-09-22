@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ssc-ras.ru"
+  ],
+  "established": 2002,
+  "external_ids": [
+    {
+      "all": [
+        "grid.465325.3"
+      ],
+      "preferred": "grid.465325.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0042 2674"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4534163"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/053nrfb18",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ssc-ras.ru/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Southern_Scientific_Center_RAS"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "ROS",
+        "country_subdivision_name": "Rostov",
+        "lat": 47.21997,
+        "lng": 39.70769,
+        "name": "Rostov-on-Don"
+      },
+      "geonames_id": 501175
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SSC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern Scientific Center"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Южный научный центр"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Regional Research Centres",
+      "type": "parent",
+      "id": "https://ror.org/05rbd6k73"
+    },
+    {
+      "label": "Russian Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/05qrfxd25"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mysa.gov.my"
+  ],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "501100021677"
+      ],
+      "preferred": "501100021677",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q97142150"
+      ],
+      "preferred": "Q97142150",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/038g2f915",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mysa.gov.my/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Kuala Lumpur",
+        "lat": 3.1412,
+        "lng": 101.68653,
+        "name": "Kuala Lumpur"
+      },
+      "geonames_id": 1735161
+    }
+  ],
+  "names": [
+    {
+      "lang": "ms",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Agensi Angkasa Malaysia"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MYSA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Malaysian Space Agency"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Science, Technology and Innovation",
+      "type": "parent",
+      "id": "https://ror.org/012s3r374"
+    },
+    {
+      "label": "National Space Agency",
+      "type": "predecessor",
+      "id": "https://ror.org/05cdbex20"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

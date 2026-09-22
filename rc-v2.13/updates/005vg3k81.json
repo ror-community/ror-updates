@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "100012688"
+      ],
+      "preferred": "100012688",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.489687.c"
+      ],
+      "preferred": "grid.489687.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0941 9324"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/005vg3k81",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.naspghan.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.15455,
+        "lng": -75.22157,
+        "name": "Ambler"
+      },
+      "geonames_id": 5178225
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NASPGHAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NASPGHAN Foundation",
+      "type": "child",
+      "id": "https://ror.org/031pvbh73"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

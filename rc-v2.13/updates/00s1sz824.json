@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bibdr.org"
+  ],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "grid.512723.0"
+      ],
+      "preferred": "grid.512723.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q107530216"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00s1sz824",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bibdr.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BIBDR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Beijing Institute of Big Data Research"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "北京大数据研究院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Beijing University of Technology",
+      "type": "parent",
+      "id": "https://ror.org/037b1pp87"
+    },
+    {
+      "label": "Peking University",
+      "type": "parent",
+      "id": "https://ror.org/02v51f717"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

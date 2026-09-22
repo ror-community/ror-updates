@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wlac.edu"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "grid.447636.4"
+      ],
+      "preferred": "grid.447636.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0401 1620"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7985808"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00xqebk56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.wlac.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/West_Los_Angeles_College"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.02112,
+        "lng": -118.39647,
+        "name": "Culver City"
+      },
+      "geonames_id": 5341114
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WLAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "West L.A. College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "West Los Angeles College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Los Angeles Community College District",
+      "type": "parent",
+      "id": "https://ror.org/058aed112"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

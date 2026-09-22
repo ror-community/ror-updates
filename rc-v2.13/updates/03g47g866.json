@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uhnm.nhs.uk"
+  ],
+  "established": 2014,
+  "external_ids": [
+    {
+      "all": [
+        "grid.439752.e"
+      ],
+      "preferred": "grid.439752.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0489 5462"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q19604604"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03g47g866",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uhnm.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Hospitals_of_North_Midlands_NHS_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.00415,
+        "lng": -2.18538,
+        "name": "Stoke-on-Trent"
+      },
+      "geonames_id": 2636841
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UHNM NHS Trust"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University Hospital of North Staffordshire NHS Trust"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospitals of North Midlands NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "County Hospital",
+      "type": "child",
+      "id": "https://ror.org/02xphqm22"
+    },
+    {
+      "label": "Royal Stoke University Hospital",
+      "type": "child",
+      "id": "https://ror.org/01dx1mr58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

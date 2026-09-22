@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mater.org.au"
+  ],
+  "established": 1906,
+  "external_ids": [
+    {
+      "all": [
+        "grid.1491.d"
+      ],
+      "preferred": "grid.1491.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0642 1746"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6786513"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03mjtdk61",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mater.org.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mater_Health_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "QLD",
+        "country_subdivision_name": "Queensland",
+        "lat": -27.46794,
+        "lng": 153.02809,
+        "name": "Brisbane"
+      },
+      "geonames_id": 2174003
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mater Health Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mater Adult Hospital",
+      "type": "child",
+      "id": "https://ror.org/05wqhv079"
+    },
+    {
+      "label": "Mater Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/04mxrtj31"
+    },
+    {
+      "label": "Mater Misericordiae Hospital",
+      "type": "child",
+      "id": "https://ror.org/01k4cfw02"
+    },
+    {
+      "label": "Mater Mothers' Hospital",
+      "type": "child",
+      "id": "https://ror.org/03j4rdg62"
+    },
+    {
+      "label": "Mater Private Hospital",
+      "type": "child",
+      "id": "https://ror.org/03w94w157"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

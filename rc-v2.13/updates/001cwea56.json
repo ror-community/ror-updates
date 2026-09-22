@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cttc.cat"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.28409.37"
+      ],
+      "preferred": "grid.28409.37",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0531 8915"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/001cwea56",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cttc.cat"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "name": "Barcelona"
+      },
+      "geonames_id": 3128760
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CTTC"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CTTC-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Tecnologic de Telecomunicacions de Catalunya"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

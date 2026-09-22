@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "eimb.ru"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418899.5"
+      ],
+      "preferred": "grid.418899.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0619 5259"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/027hwkg23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.eimb.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "MOW",
+        "country_subdivision_name": "Moscow",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "name": "Moscow"
+      },
+      "geonames_id": 524901
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EIMB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Engelhardt Institute of Molecular Biology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of Molecular Biology. VA Engelhardt of the Russian Academy of Sciences"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Федеральное государственное бюджетное учреждение науки Институт молекулярной биологии им. В.А. Энгельгардта Российской академии наук"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Department of Biological Sciences",
+      "type": "parent",
+      "id": "https://ror.org/038rjvd86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

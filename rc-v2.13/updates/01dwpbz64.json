@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mpifg.de"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461792.f"
+      ],
+      "preferred": "grid.461792.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1940 8012"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1119337"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01dwpbz64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mpifg.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_the_Study_of_Societies"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 50.93333,
+        "lng": 6.95,
+        "name": "Cologne"
+      },
+      "geonames_id": 2886242
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPIfG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for the Study of Societies"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für Gesellschaftsforschung"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

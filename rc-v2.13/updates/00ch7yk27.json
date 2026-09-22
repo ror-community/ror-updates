@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sdsmt.edu"
+  ],
+  "established": 1885,
+  "external_ids": [
+    {
+      "all": [
+        "100017309"
+      ],
+      "preferred": "100017309",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.263790.9"
+      ],
+      "preferred": "grid.263790.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0704 1727"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7566983"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00ch7yk27",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sdsmt.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/South_Dakota_School_of_Mines_and_Technology"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "South Dakota",
+        "lat": 44.08054,
+        "lng": -103.23101,
+        "name": "Rapid City"
+      },
+      "geonames_id": 5768233
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dakota School of Mines"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SDSMT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "South Dakota School of Mines and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "South Dakota Space Grant Consortium",
+      "type": "child",
+      "id": "https://ror.org/0169ypx19"
+    },
+    {
+      "label": "Materials Science in Extreme Environments University Research Alliance",
+      "type": "related",
+      "id": "https://ror.org/04n07f274"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

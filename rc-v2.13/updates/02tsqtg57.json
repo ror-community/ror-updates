@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "maxwell.ac.uk"
+  ],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.500539.a"
+      ],
+      "preferred": "grid.500539.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0452 7790"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02tsqtg57",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maxwell.ac.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "name": "Edinburgh"
+      },
+      "geonames_id": 2650225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Maxwell Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Maxwell Institute for Mathematical Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Heriot-Watt University",
+      "type": "parent",
+      "id": "https://ror.org/04mghma93"
+    },
+    {
+      "label": "University of Edinburgh",
+      "type": "parent",
+      "id": "https://ror.org/01nrxwf90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

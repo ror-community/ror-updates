@@ -1,0 +1,113 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "be.ch"
+  ],
+  "established": 1353,
+  "external_ids": [
+    {
+      "all": [
+        "100016965"
+      ],
+      "preferred": "100016965",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 1421 7081"
+      ],
+      "preferred": "0000 0001 1421 7081",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11911"
+      ],
+      "preferred": "Q11911",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02w2k4q63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.be.ch"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "Bern",
+        "lat": 46.94809,
+        "lng": 7.44744,
+        "name": "Bern"
+      },
+      "geonames_id": 2661552
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Canton de Berne"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Canton of Bern"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Kanton Bern"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bern Economic Development Agency",
+      "type": "child",
+      "id": "https://ror.org/05dzk5241"
+    },
+    {
+      "label": "Archäologischer Dienst des Kantons Bern",
+      "type": "child",
+      "id": "https://ror.org/01hqeag92"
+    },
+    {
+      "label": "Gesundheits- und Fürsorgedirektion des Kantons Bern",
+      "type": "child",
+      "id": "https://ror.org/04qb2wt25"
+    },
+    {
+      "label": "State Archive of Bern",
+      "type": "child",
+      "id": "https://ror.org/01006rc90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "qmu.ac.uk"
+  ],
+  "established": 1875,
+  "external_ids": [
+    {
+      "all": [
+        "100010033"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.104846.f"
+      ],
+      "preferred": "grid.104846.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0398 1641"
+      ],
+      "preferred": "0000 0004 0398 1641",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q915989"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002g3cb31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.qmu.ac.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Queen_Margaret_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "name": "Edinburgh"
+      },
+      "geonames_id": 2650225
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QMU"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QMUC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Queen Margaret College"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Queen Margaret University"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Queen Margaret University College"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Astley Ainslie Hospital",
+      "type": "related",
+      "id": "https://ror.org/01wx86652"
+    },
+    {
+      "label": "Woolmanhill Hospital",
+      "type": "related",
+      "id": "https://ror.org/00ggs5315"
+    },
+    {
+      "label": "Scottish Confederation of University and Research Libraries",
+      "type": "related",
+      "id": "https://ror.org/03hkzcg46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chrim.ca"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "100012854"
+      ],
+      "preferred": "100012854",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.460198.2"
+      ],
+      "preferred": "grid.460198.2",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00ag0rb94",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chrim.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHRIM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's Hospital Research Institute of Manitoba"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Manitoba Institute of Child Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children’s Hospital Foundation of Manitoba",
+      "type": "parent",
+      "id": "https://ror.org/05b0hce56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

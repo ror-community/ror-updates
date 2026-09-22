@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "stollerykids.com"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "100010322"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416656.6"
+      ],
+      "preferred": "grid.416656.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0633 3703"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17096630"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05w90nk74",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.stollerykids.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Stollery_Children%27s_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 53.55014,
+        "lng": -113.46871,
+        "name": "Edmonton"
+      },
+      "geonames_id": 5946768
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Stollery Children's Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Stollery Children's Hospital Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Alberta Health Services",
+      "type": "parent",
+      "id": "https://ror.org/02nt5es71"
+    },
+    {
+      "label": "University of Alberta",
+      "type": "related",
+      "id": "https://ror.org/0160cpw27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

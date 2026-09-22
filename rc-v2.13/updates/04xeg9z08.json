@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100000025"
+      ],
+      "preferred": "100000025",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416868.5"
+      ],
+      "preferred": "grid.416868.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0464 0574"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1967405"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04xeg9z08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nimh.nih.gov/index.shtml"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Institute_of_Mental_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto Nacional de Salud Mental"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIMH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute of Mental Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "NIMH Repository and Genomics Resource",
+      "type": "child",
+      "id": "https://ror.org/026dax180"
+    },
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

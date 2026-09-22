@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "jeol.co.jp"
+  ],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410892.6"
+      ],
+      "preferred": "grid.410892.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2284 8430"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1137879"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zme4e72",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.jeol.co.jp/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/JEOL"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "JEOL (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Japan Electron Optics Laboratory"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Nihon Denshi"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "日本電子"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "JEOL (China)",
+      "type": "child",
+      "id": "https://ror.org/01tz5yb12"
+    },
+    {
+      "label": "JEOL (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/0080fc349"
+    },
+    {
+      "label": "JEOL (United States)",
+      "type": "child",
+      "id": "https://ror.org/0057m5255"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

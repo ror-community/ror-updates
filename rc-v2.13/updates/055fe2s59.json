@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hcei.ru"
+  ],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "grid.465280.d"
+      ],
+      "preferred": "grid.465280.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9756 5913"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/055fe2s59",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hcei.tsc.ru/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "TOM",
+        "country_subdivision_name": "Tomsk Oblast",
+        "lat": 56.50049,
+        "lng": 84.98216,
+        "name": "Tomsk"
+      },
+      "geonames_id": 1489425
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Federal State Institution of Science Institute of High Current Electronics, Siberian Branch of the Russian Academy of Sciences"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IHCE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of High Current Electronics"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Институт сильноточной электроники"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Physical Sciences Division",
+      "type": "parent",
+      "id": "https://ror.org/00ns9pc83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ibb.waw.pl"
+  ],
+  "established": 1957,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418825.2"
+      ],
+      "preferred": "grid.418825.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2216 0871"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11712965"
+      ],
+      "preferred": "Q11712965",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/034tvp782",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ibb.edu.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Mazovia",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "name": "Warsaw"
+      },
+      "geonames_id": 756135
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBB"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBB PAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Biochemistry and Biophysics, Polish Academy of Sciences"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "label"
+      ],
+      "value": "Instytut Biochemii i Biofizyki Polskiej Akademii Nauk"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

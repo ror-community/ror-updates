@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mpg-epfl.mpg.de"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100023311"
+      ],
+      "preferred": "501100023311",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/01bq85e09",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mpg-epfl.mpg.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "name": "Stuttgart"
+      },
+      "geonames_id": 2825297
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "MPS-EPFL-Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Max Planck EPFL Center for Molecular Nanoscience and Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Max Planck-EPFL Center for Molecular Nanoscience and Technology"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "École Polytechnique Fédérale de Lausanne",
+      "type": "parent",
+      "id": "https://ror.org/02s376052"
+    },
+    {
+      "label": "Max Planck Institute for Solid State Research",
+      "type": "related",
+      "id": "https://ror.org/005bk2339"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

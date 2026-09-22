@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "goldcorp.com"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "501100016189"
+      ],
+      "preferred": "501100016189",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "Q1534795"
+      ],
+      "preferred": "Q1534795",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002r98b69",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 49.24966,
+        "lng": -123.11934,
+        "name": "Vancouver"
+      },
+      "geonames_id": 6173331
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Goldcorp"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display"
+      ],
+      "value": "Goldcorp (Canada)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Goldcorp Inc."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Newmont Mining (United States)",
+      "type": "parent",
+      "id": "https://ror.org/05a10ec77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

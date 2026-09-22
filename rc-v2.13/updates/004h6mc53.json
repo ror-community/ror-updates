@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "marienhospital-herne.de"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459734.8"
+      ],
+      "preferred": "grid.459734.8",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/004h6mc53",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.marienhospital-herne.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.5388,
+        "lng": 7.22572,
+        "name": "Herne"
+      },
+      "geonames_id": 2905891
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Marien Hospital Herne - Universitätsklinikum der Ruhr-Universität Bochum"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitätsklinik Marien Hospital Herne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rheumazentrum Ruhrgebiet",
+      "type": "child",
+      "id": "https://ror.org/00e03sj10"
+    },
+    {
+      "label": "University Hospitals of the Ruhr-University of Bochum",
+      "type": "parent",
+      "id": "https://ror.org/03zcpvf19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hpi.de"
+  ],
+  "established": 1998,
+  "external_ids": [
+    {
+      "all": [
+        "501100013863"
+      ],
+      "preferred": "501100013863",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.500266.7"
+      ],
+      "preferred": "grid.500266.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q884105"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/058rn5r42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://hpi.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Hasso_Plattner_Institute"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BB",
+        "country_subdivision_name": "Brandenburg",
+        "lat": 52.39886,
+        "lng": 13.06566,
+        "name": "Potsdam"
+      },
+      "geonames_id": 2852458
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HPI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hasso Plattner Institute"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Hasso-Plattner-Institut"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Hasso-Plattner-Institut für Digital Engineering"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Potsdam",
+      "type": "parent",
+      "id": "https://ror.org/03bnmw459"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

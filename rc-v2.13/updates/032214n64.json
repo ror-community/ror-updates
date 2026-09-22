@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nara.gov"
+  ],
+  "established": 1934,
+  "external_ids": [
+    {
+      "all": [
+        "100000741",
+        "100005696"
+      ],
+      "preferred": "100000741",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453401.7"
+      ],
+      "preferred": "grid.453401.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1387 280X"
+      ],
+      "preferred": "0000 0001 1387 280X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q518155"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/032214n64",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.archives.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Archives_and_Records_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Archivos Nacionales y Administración de Documentos de los Estados Unidos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NARA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Archives and Records Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Harry S. Truman Presidential Library and Museum",
+      "type": "child",
+      "id": "https://ror.org/03jn9cy69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive",
+    "funder"
+  ]
+}

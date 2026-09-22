@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sj-hospital.org"
+  ],
+  "established": 1883,
+  "external_ids": [
+    {
+      "all": [
+        "501100015226"
+      ],
+      "preferred": "501100015226",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412467.2"
+      ],
+      "preferred": "grid.412467.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1806 3501"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7494241"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0202bj006",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sj-hospital.cn"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sheng_Jing_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "LN",
+        "country_subdivision_name": "Liaoning",
+        "lat": 41.79222,
+        "lng": 123.43278,
+        "name": "Shenyang"
+      },
+      "geonames_id": 2034937
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sheng Jing Hospital"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国医科大学附属盛京医院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "China Medical University",
+      "type": "related",
+      "id": "https://ror.org/032d4f246"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

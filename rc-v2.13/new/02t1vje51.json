@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017453"
+      ],
+      "preferred": "100017453",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/02t1vje51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fredhutch.org/en/research/institutes-networks-ircs/institute-for-prostate-cancer-research.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "IPCR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institute for Prostate Cancer Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fred Hutch Cancer Center",
+      "type": "related",
+      "id": "https://ror.org/007ps6h72"
+    },
+    {
+      "label": "University of Washington",
+      "type": "related",
+      "id": "https://ror.org/00cvxb145"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder"
+  ]
+}

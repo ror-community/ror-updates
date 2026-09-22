@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-21",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2104 3067"
+      ],
+      "preferred": "0000 0001 2104 3067",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q625657"
+      ],
+      "preferred": "Q625657",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047fqap31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.defence.gov.au/about/who-we-are/organisation-structure"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Australian_Defence_Force"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "ACT",
+        "country_subdivision_name": "Australian Capital Territory",
+        "lat": -35.28346,
+        "lng": 149.12807,
+        "name": "Canberra"
+      },
+      "geonames_id": 2172517
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "ADF"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Australian Defence Force"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "Department of Defence",
+      "type": "related",
+      "id": "https://ror.org/051wnqr14"
+    },
+    {
+      "label": "Royal Australian Air Force",
+      "type": "child",
+      "id": "https://ror.org/01v5gaf74"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

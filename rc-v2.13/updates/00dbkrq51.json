@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cochrane.org"
+  ],
+  "established": 1993,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420305.0"
+      ],
+      "preferred": "grid.420305.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0687 4524"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1105202"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00dbkrq51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cochrane.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cochrane_(organisation)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "name": "Oxford"
+      },
+      "geonames_id": 2640729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cochrane"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cochrane Collaboration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cochrane",
+      "type": "child",
+      "id": "https://ror.org/05cf80b72"
+    },
+    {
+      "label": "Cochrane",
+      "type": "child",
+      "id": "https://ror.org/02pvrbg60"
+    },
+    {
+      "label": "Cochrane Deutschland Stiftung",
+      "type": "related",
+      "id": "https://ror.org/03wx3r522"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

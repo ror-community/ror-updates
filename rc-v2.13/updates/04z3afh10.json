@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "incan.edu.mx"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419167.c"
+      ],
+      "preferred": "grid.419167.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1777 1207"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5917480"
+      ],
+      "preferred": "Q5917480",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04z3afh10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://incan.salud.gob.mx/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "MX",
+        "country_name": "Mexico",
+        "country_subdivision_code": "CMX",
+        "country_subdivision_name": "Mexico City",
+        "lat": 19.29513,
+        "lng": -99.16206,
+        "name": "Tlalpan"
+      },
+      "geonames_id": 3515428
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "INCAN"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto Nacional de Cancerología"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Secretaria de Salud",
+      "type": "parent",
+      "id": "https://ror.org/0082wq496"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

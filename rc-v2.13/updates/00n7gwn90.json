@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1894,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424471.0"
+      ],
+      "preferred": "grid.424471.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2200 8095"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q273493"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00n7gwn90",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.supelec.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sup%C3%A9lec"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Supélec"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "École Supérieure d'Electricité"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "École supérieure d'électricité"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Laboratoire Matériaux Optiques, Photonique et Systèmes",
+      "type": "child",
+      "id": "https://ror.org/055swm364"
+    },
+    {
+      "label": "CentraleSupélec",
+      "type": "successor",
+      "id": "https://ror.org/019tcpt25"
+    },
+    {
+      "label": "Université Paris-Saclay",
+      "type": "related",
+      "id": "https://ror.org/03xjwb503"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tbh.org"
+  ],
+  "established": 1845,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414639.d"
+      ],
+      "preferred": "grid.414639.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0451 9467"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q12053680"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02xa5mk57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.tbh.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Brooklyn_Hospital_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.6501,
+        "lng": -73.94958,
+        "name": "Brooklyn"
+      },
+      "geonames_id": 5110302
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Brooklyn City Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Brooklyn Hospital Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mount Sinai Health System",
+      "type": "parent",
+      "id": "https://ror.org/04kfn4587"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

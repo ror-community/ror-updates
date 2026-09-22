@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "eri.sci.eg"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "grid.463242.5"
+      ],
+      "preferred": "grid.463242.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0387 2680"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0532wcf75",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.eri.sci.eg/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AF",
+        "continent_name": "Africa",
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "country_subdivision_code": "GZ",
+        "country_subdivision_name": "Giza",
+        "lat": 30.00944,
+        "lng": 31.20861,
+        "name": "Giza"
+      },
+      "geonames_id": 360995
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ERI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Electronics Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Higher Education and Scientific Research",
+      "type": "parent",
+      "id": "https://ror.org/00k4cwq24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

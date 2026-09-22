@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mri-jma.go.jp"
+  ],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "100019808"
+      ],
+      "preferred": "100019808",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0489 1234"
+      ],
+      "preferred": "0000 0004 0489 1234",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11548119"
+      ],
+      "preferred": "Q11548119",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/031gqrq04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mri-jma.go.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ja.wikipedia.org/wiki/%E6%B0%97%E8%B1%A1%E7%A0%94%E7%A9%B6%E6%89%80"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "08",
+        "country_subdivision_name": "Ibaraki",
+        "lat": 36.08333,
+        "lng": 140.11667,
+        "name": "Tsukuba"
+      },
+      "geonames_id": 2110681
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kishōkenkyūsho"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Meteorological Research Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Meteorological Research Institute, Japan"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "きしょうけんきゅうしょ"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "キショウケンキュウショ"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "気象庁気象研究所"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "気象研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Japan Meteorological Agency",
+      "type": "parent",
+      "id": "https://ror.org/02772kk97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

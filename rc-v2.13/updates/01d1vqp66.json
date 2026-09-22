@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "monument.health"
+  ],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "grid.429266.d"
+      ],
+      "preferred": "grid.429266.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0457 8133"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30287807"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01d1vqp66",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://monument.health/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "SD",
+        "country_subdivision_name": "South Dakota",
+        "lat": 44.08054,
+        "lng": -103.23101,
+        "name": "Rapid City"
+      },
+      "geonames_id": 5768233
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Regional Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Rapid City Regional Hospital",
+      "type": "child",
+      "id": "https://ror.org/038v5dr76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

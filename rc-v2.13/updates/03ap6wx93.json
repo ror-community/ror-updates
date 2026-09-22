@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1977,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415598.4"
+      ],
+      "preferred": "grid.415598.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0641 4263"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7270030"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ap6wx93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nuh.nhs.uk/contact-qmc/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Queen%27s_Medical_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "name": "Nottingham"
+      },
+      "geonames_id": 2641170
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "QMC "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Queen's Med"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Queen's Medical Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nottingham University Hospitals NHS Trust",
+      "type": "parent",
+      "id": "https://ror.org/05y3qh794"
+    },
+    {
+      "label": "University of Nottingham",
+      "type": "related",
+      "id": "https://ror.org/01ee9ar58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

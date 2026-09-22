@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100003266"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454142.2"
+      ],
+      "preferred": "grid.454142.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0143 1716"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01n54ck79",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nzo.nl/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "South Holland",
+        "lat": 52.07667,
+        "lng": 4.29861,
+        "name": "The Hague"
+      },
+      "geonames_id": 2747373
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Dutch Dairy Association"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NZO"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Nederlandse Zuivel Organisatie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "ZuivelNL",
+      "type": "related",
+      "id": "https://ror.org/03mg26g60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

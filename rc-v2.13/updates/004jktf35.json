@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "swedish.org"
+  ],
+  "established": 1910,
+  "external_ids": [
+    {
+      "all": [
+        "grid.281044.b"
+      ],
+      "preferred": "grid.281044.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0463 5388"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7654755"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/004jktf35",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.swedish.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Swedish_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Swedish Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Providence Health & Services",
+      "type": "parent",
+      "id": "https://ror.org/00n4k4n97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

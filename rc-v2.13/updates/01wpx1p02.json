@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2005,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459289.b"
+      ],
+      "preferred": "grid.459289.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0218 7524"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01wpx1p02",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.csss-iugs.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.40008,
+        "lng": -71.89908,
+        "name": "Sherbrooke"
+      },
+      "geonames_id": 6146143
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CSSS-IUGS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre de santé et de services sociaux Institut universitaire de gériatrie de Sherbrooke"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health and Social Services Centre University Institute of Geriatrics of Sherbrooke"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/00kybxq39"
+    },
+    {
+      "label": "Santé Québec",
+      "type": "parent",
+      "id": "https://ror.org/028t2bs12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

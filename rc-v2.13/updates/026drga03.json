@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cnemc.cn"
+  ],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.464219.c"
+      ],
+      "preferred": "grid.464219.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0574 7605"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/026drga03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cnemc.cn/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNEMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "China National Environmental Monitoring Center"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国环境监测总站"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Ecology and Environment",
+      "type": "parent",
+      "id": "https://ror.org/04gwbew76"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

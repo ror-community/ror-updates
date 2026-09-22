@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umassmemorial.org"
+  ],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416997.4"
+      ],
+      "preferred": "grid.416997.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0401 5111"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7865163"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00pq96s96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umassmemorialhealthcare.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/UMass_Memorial_Health_Care"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.26259,
+        "lng": -71.80229,
+        "name": "Worcester"
+      },
+      "geonames_id": 4956184
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMMHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "UMass Memorial Health Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UMass Memorial Medical Center",
+      "type": "child",
+      "id": "https://ror.org/053v00853"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

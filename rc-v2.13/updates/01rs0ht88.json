@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "behdasht.gov.ir"
+  ],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "501100003969"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415814.d"
+      ],
+      "preferred": "grid.415814.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0612 272X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1091528"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01rs0ht88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.behdasht.gov.ir/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Health_and_Medical_Education"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "IR",
+        "country_name": "Iran",
+        "country_subdivision_code": "23",
+        "country_subdivision_name": "Tehran",
+        "lat": 35.69439,
+        "lng": 51.42151,
+        "name": "Tehran"
+      },
+      "geonames_id": 112931
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MOHME"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Health and Medical Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Guilan University of Medical Sciences",
+      "type": "child",
+      "id": "https://ror.org/04ptbrd12"
+    },
+    {
+      "label": "Iran Nanohealth Committee Food and Drug Organization",
+      "type": "child",
+      "id": "https://ror.org/03vmxkp39"
+    },
+    {
+      "label": "Qazvin University of Medical Sciences",
+      "type": "child",
+      "id": "https://ror.org/04sexa105"
+    },
+    {
+      "label": "Dezful University of Medical Sciences",
+      "type": "related",
+      "id": "https://ror.org/033hgcp80"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

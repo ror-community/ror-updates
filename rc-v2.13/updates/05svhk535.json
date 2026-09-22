@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100006164"
+      ],
+      "preferred": "100006164",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 0509 1800"
+      ],
+      "preferred": "0000 0001 0509 1800",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05svhk535",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/hgeo/opr/office-petroleum-reserves"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OPR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Cybersecurity, Energy Security, and Emergency Response Office of Petroluem Reserves"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Petroleum Reserves"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Cybersecurity, Energy Security, and Emergency Response Office of Petroluem Reserves"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "US Department of Energy Hydrocarbons and Geothermal Office Office of Strategic Resources Office of Petroleum Reserves"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Cybersecurity, Energy Security, and Emergency Response Office of Petroluem Reserves"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Strategic Resources",
+      "type": "parent",
+      "id": "https://ror.org/044yhc868"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

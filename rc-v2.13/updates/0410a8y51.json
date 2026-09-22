@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "grid.410559.c"
+      ],
+      "preferred": "grid.410559.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0743 2111"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1054216"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0410a8y51",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chumontreal.qc.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Centre_hospitalier_de_l'Universit%C3%A9_de_Montr%C3%A9al"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHUM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier de l’Université de Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Centre hospitalier de l'université de montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Notre-Dame",
+      "type": "child",
+      "id": "https://ror.org/01w7qz648"
+    },
+    {
+      "label": "Hôpital Saint-Luc",
+      "type": "child",
+      "id": "https://ror.org/04xk8j027"
+    },
+    {
+      "label": "Hôtel-Dieu de Montréal",
+      "type": "child",
+      "id": "https://ror.org/0468gx405"
+    },
+    {
+      "label": "Montreal Clinical Research Institute",
+      "type": "related",
+      "id": "https://ror.org/05m8pzq90"
+    },
+    {
+      "label": "Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Santé Québec",
+      "type": "parent",
+      "id": "https://ror.org/028t2bs12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

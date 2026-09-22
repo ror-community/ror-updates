@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hubrecht.eu"
+  ],
+  "established": 1917,
+  "external_ids": [
+    {
+      "all": [
+        "501100021800"
+      ],
+      "preferred": "501100021800",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419927.0"
+      ],
+      "preferred": "grid.419927.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9471 3191"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/023qc4a07",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hubrecht.eu/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "NL",
+        "country_name": "The Netherlands",
+        "country_subdivision_code": "UT",
+        "country_subdivision_name": "Utrecht",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "name": "Utrecht"
+      },
+      "geonames_id": 2745912
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hubrecht Institute for Developmental Biology and Stem Cell Research"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Hubrecht-Instituut"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Netherlands Academy of Arts and Sciences",
+      "type": "parent",
+      "id": "https://ror.org/043c0p156"
+    },
+    {
+      "label": "University Medical Center Utrecht",
+      "type": "related",
+      "id": "https://ror.org/0575yy874"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "neb.com"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100004774"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.273406.4"
+      ],
+      "preferred": "grid.273406.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0376 1796"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17134414"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ywg3445",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.neb.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/New_England_Biolabs"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.67926,
+        "lng": -70.84116,
+        "name": "Ipswich"
+      },
+      "geonames_id": 4940625
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NEB"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "New England Biolabs (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "New England Biolabs (China)",
+      "type": "child",
+      "id": "https://ror.org/03nb3ch98"
+    },
+    {
+      "label": "New England Biolabs (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/0177mph94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

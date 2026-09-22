@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hku-szh.org"
+  ],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "501100022411"
+      ],
+      "preferred": "501100022411",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.440671.0"
+      ],
+      "preferred": "grid.440671.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5373 5131"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q13568829"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047w7d678",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hku-szh.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_of_Hong_Kong-Shenzhen_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "GD",
+        "country_subdivision_name": "Guangdong",
+        "lat": 22.54554,
+        "lng": 114.0683,
+        "name": "Shenzhen"
+      },
+      "geonames_id": 1795565
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HKU-SZ"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Hong Kong - Shenzhen Hospital"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "香港大学深圳医院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Hong Kong",
+      "type": "related",
+      "id": "https://ror.org/02zhqgq86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "wzb.eu"
+  ],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "501100014392"
+      ],
+      "preferred": "501100014392",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.13388.31"
+      ],
+      "preferred": "grid.13388.31",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2191 183X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q475602"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03k0z2z93",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://wzb.eu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/WZB_Berlin_Social_Science_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BE",
+        "country_subdivision_name": "State of Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "name": "Berlin"
+      },
+      "geonames_id": 2950159
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Social Science Research Center Berlin"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WZB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "WZB Berlin Social Science Center"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Wissenschaftszentrum Berlin für Sozialforschung"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Wissenschaftszentrum Berlin für Sozialforschung gGmbH"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Weizenbaum Institute",
+      "type": "child",
+      "id": "https://ror.org/023kksk09"
+    },
+    {
+      "label": "Leibniz Association",
+      "type": "parent",
+      "id": "https://ror.org/01n6r0e97"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

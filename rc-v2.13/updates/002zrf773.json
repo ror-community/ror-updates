@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "qualcomm.com"
+  ],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100005144"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.430388.4"
+      ],
+      "preferred": "grid.430388.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0568 0656"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q544847"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002zrf773",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.qualcomm.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Qualcomm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Qualcomm (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Qualcomm (Canada)",
+      "type": "child",
+      "id": "https://ror.org/02ae31880"
+    },
+    {
+      "label": "Qualcomm (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/04d3djg48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

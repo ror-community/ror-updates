@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cityu.edu"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "grid.454591.8"
+      ],
+      "preferred": "grid.454591.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0375 1088"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5123487"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/008a9hf75",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cityu.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/City_University_of_Seattle"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Washington",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "name": "Seattle"
+      },
+      "geonames_id": 5809844
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "City University of Seattle"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "CityU"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Vysoká škola manažmentu, City University of Seattle",
+      "type": "child",
+      "id": "https://ror.org/00jjdh985"
+    },
+    {
+      "label": "National University System",
+      "type": "parent",
+      "id": "https://ror.org/00yd8np83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

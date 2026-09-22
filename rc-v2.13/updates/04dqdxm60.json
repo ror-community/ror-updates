@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "umces.edu"
+  ],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "100019594"
+      ],
+      "preferred": "100019594",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.291951.7"
+      ],
+      "preferred": "grid.291951.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8750 413X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7895680"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04dqdxm60",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.umces.edu"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Maryland_Center_for_Environmental_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.56317,
+        "lng": -76.07883,
+        "name": "Cambridge"
+      },
+      "geonames_id": 4350175
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UMCES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Maryland Center for Environmental Science"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Maryland",
+      "type": "parent",
+      "id": "https://ror.org/01r0c1p88"
+    },
+    {
+      "label": "Mid-Atlantic Regional Association Coastal Ocean Observing System",
+      "type": "related",
+      "id": "https://ror.org/00qs4ap39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

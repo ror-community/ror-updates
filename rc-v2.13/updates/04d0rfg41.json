@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "stpaulshospital.org"
+  ],
+  "established": 1907,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416917.c"
+      ],
+      "preferred": "grid.416917.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0497 6668"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7591152"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04d0rfg41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://sphfsk.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/St._Paul%27s_Hospital_(Saskatoon)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "SK",
+        "country_subdivision_name": "Saskatchewan",
+        "lat": 52.13238,
+        "lng": -106.66892,
+        "name": "Saskatoon"
+      },
+      "geonames_id": 6141256
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SPH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "St. Paul's Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Saskatchewan Health Authority",
+      "type": "parent",
+      "id": "https://ror.org/02wtdvm35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

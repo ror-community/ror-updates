@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ipen.br"
+  ],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "grid.466806.a"
+      ],
+      "preferred": "grid.466806.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2104 465X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01senny43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ipen.br/portal_por/portal/default.php"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "SP",
+        "country_subdivision_name": "São Paulo",
+        "lat": -23.5475,
+        "lng": -46.63611,
+        "name": "São Paulo"
+      },
+      "geonames_id": 3448439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IPEN"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Instituto de Pesquisas Energéticas e Nucleares"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Nuclear Energy Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Nuclear Energy Commission",
+      "type": "parent",
+      "id": "https://ror.org/03ycms792"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

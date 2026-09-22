@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sharp.com"
+  ],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "100011842"
+      ],
+      "preferred": "100011842",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0461 4667"
+      ],
+      "preferred": "0000 0004 0461 4667",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17107541"
+      ],
+      "preferred": "Q17107541",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h8gsh43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sharp.com"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "name": "San Diego"
+      },
+      "geonames_id": 5391811
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Sharp HealthCare"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sharp Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/01gynte55"
+    },
+    {
+      "label": "Sharp Grossmont Hospital",
+      "type": "child",
+      "id": "https://ror.org/02zwxrr04"
+    },
+    {
+      "label": "Sharp Mary Birch Hospital for Women & Newborns",
+      "type": "child",
+      "id": "https://ror.org/04nctyb57"
+    },
+    {
+      "label": "Sharp Rees-Stealy Medical Group",
+      "type": "child",
+      "id": "https://ror.org/009erh992"
+    },
+    {
+      "label": "Sharp HealthCare Foundation",
+      "type": "related",
+      "id": "https://ror.org/02bbana41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

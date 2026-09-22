@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "gentoftehospital.dk"
+  ],
+  "established": 1927,
+  "external_ids": [
+    {
+      "all": [
+        "501100002918"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411646.0"
+      ],
+      "preferred": "grid.411646.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0646 7402"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5533764"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/051dzw862",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.gentoftehospital.dk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Gentofte_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "84",
+        "country_subdivision_name": "Capital Region",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "name": "Copenhagen"
+      },
+      "geonames_id": 2618425
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Copenhagen University Hospital Gentofte"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Gentofte Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Copenhagen",
+      "type": "related",
+      "id": "https://ror.org/035b05819"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

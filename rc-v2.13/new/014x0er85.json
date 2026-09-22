@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100019442"
+      ],
+      "preferred": "501100019442",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 0276 743X"
+      ],
+      "preferred": "0000 0005 0276 743X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q112197096"
+      ],
+      "preferred": "Q112197096",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/014x0er85",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "VD",
+        "country_subdivision_name": "Vaud",
+        "lat": 46.46299,
+        "lng": 6.84345,
+        "name": "Vevey"
+      },
+      "geonames_id": 2658145
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Nestec"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display"
+      ],
+      "value": "Nestec (Switzerland)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nestec Ltd."
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Nestec S.A."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nestlé (Switzerland)",
+      "type": "parent",
+      "id": "https://ror.org/01v5xwf23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

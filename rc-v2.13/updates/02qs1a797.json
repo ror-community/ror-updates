@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cnic.es"
+  ],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "501100005884"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467824.b"
+      ],
+      "preferred": "grid.467824.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0125 7682"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02qs1a797",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cnic.es"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "name": "Madrid"
+      },
+      "geonames_id": 3117735
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNIC"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Centro Nacional de Investigaciones Cardiovasculares Carlos III"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Spanish National Centre for Cardiovascular Research"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Salud Carlos III",
+      "type": "parent",
+      "id": "https://ror.org/00ca2c886"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

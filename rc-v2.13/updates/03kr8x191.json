@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "unam.edu.ar"
+  ],
+  "established": 1973,
+  "external_ids": [
+    {
+      "all": [
+        "501100015790"
+      ],
+      "preferred": "501100015790",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412223.4"
+      ],
+      "preferred": "grid.412223.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2179 8144"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q690146"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03kr8x191",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.unam.edu.ar/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_University_of_Misiones"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "N",
+        "country_subdivision_name": "Misiones",
+        "lat": -27.39184,
+        "lng": -55.92379,
+        "name": "Posadas"
+      },
+      "geonames_id": 3429886
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National University of Misiones"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UNAM"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Universidad Nacional de Misiones"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Biología Subtropical",
+      "type": "child",
+      "id": "https://ror.org/04jdqdr13"
+    },
+    {
+      "label": "Centro Científico Tecnológico - Nordeste",
+      "type": "related",
+      "id": "https://ror.org/01ktqem13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-20",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "priweb.org"
+  ],
+  "established": 1932,
+  "external_ids": [
+    {
+      "all": [
+        "100011375"
+      ],
+      "preferred": "100011375",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 2153 5547"
+      ],
+      "preferred": "0000 0001 2153 5547",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7127175"
+      ],
+      "preferred": "Q7127175",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01b0nt410",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.priweb.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 42.44063,
+        "lng": -76.49661,
+        "name": "Ithaca"
+      },
+      "geonames_id": 5122432
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "PRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Paleontological Research Institution"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Museum of the Earth",
+      "type": "child",
+      "id": "https://ror.org/03f91xw18"
+    },
+    {
+      "label": "Cornell University",
+      "type": "related",
+      "id": "https://ror.org/05bnh6r87"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

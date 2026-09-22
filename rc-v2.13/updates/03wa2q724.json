@@ -1,0 +1,143 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1870,
+  "external_ids": [
+    {
+      "all": [
+        "100017551"
+      ],
+      "preferred": "100017551",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.239560.b"
+      ],
+      "preferred": "grid.239560.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0482 1586"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5098193"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wa2q724",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.childrensnational.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Children%27s_National_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Children's National"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Children's National Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Children's National Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Children’s National Health System"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "DC Children’s Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children's Hospital Foundation",
+      "type": "child",
+      "id": "https://ror.org/0291jv411"
+    },
+    {
+      "label": "George Washington University",
+      "type": "related",
+      "id": "https://ror.org/00y4zzh67"
+    },
+    {
+      "label": "Georgetown University",
+      "type": "related",
+      "id": "https://ror.org/05vzafd60"
+    },
+    {
+      "label": "Sheikh Zayed Institute for Pediatric Surgical Innovation",
+      "type": "child",
+      "id": "https://ror.org/05ws19t64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

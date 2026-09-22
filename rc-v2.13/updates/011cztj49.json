@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1900,
+  "external_ids": [
+    {
+      "all": [
+        "grid.123047.3"
+      ],
+      "preferred": "grid.123047.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0359 0315"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7569131"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/011cztj49",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.uhs.nhs.uk/Ourhospitals/SGH/SouthamptonGeneralHospital.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Southampton_General_Hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 50.90395,
+        "lng": -1.40428,
+        "name": "Southampton"
+      },
+      "geonames_id": 2637487
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SGH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southampton General Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University Hospital Southampton NHS Foundation Trust",
+      "type": "parent",
+      "id": "https://ror.org/0485axj58"
+    },
+    {
+      "label": "University of Southampton",
+      "type": "related",
+      "id": "https://ror.org/01ryk1543"
+    },
+    {
+      "label": "NIHR CRUK Experimental Cancer Medicine Centre",
+      "type": "related",
+      "id": "https://ror.org/05bfg0961"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

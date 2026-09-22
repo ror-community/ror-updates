@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "501100005042"
+      ],
+      "preferred": "501100005042",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.48769.34"
+      ],
+      "preferred": "grid.48769.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0461 6320"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2979314"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03s4khd80",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.saintluc.be/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Cliniques_Universitaires_Saint-Luc"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "BRU",
+        "country_subdivision_name": "Brussels Capital",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "name": "Brussels"
+      },
+      "geonames_id": 2800866
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cliniques Universitaires Saint-Luc"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Universitair ziekenhuis Sint-Lambrechts-Woluwe"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fondation Saint-Luc",
+      "type": "child",
+      "id": "https://ror.org/021354321"
+    },
+    {
+      "label": "UCLouvain",
+      "type": "related",
+      "id": "https://ror.org/02495e989"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

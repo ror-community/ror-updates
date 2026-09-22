@@ -1,0 +1,116 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bnf.fr"
+  ],
+  "established": 1461,
+  "external_ids": [
+    {
+      "all": [
+        "100013023"
+      ],
+      "preferred": "100013023",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424105.6"
+      ],
+      "preferred": "grid.424105.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2353 1945"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q193563"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v1bf639",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bnf.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Biblioth%C3%A8que_nationale_de_France"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bibliothèque Nationale de France"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BnF"
+    },
+    {
+      "lang": "eu",
+      "types": [
+        "label"
+      ],
+      "value": "Frantziako Liburutegi Nazionala"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "National Library of France"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut de Recherche en Musicologie",
+      "type": "child",
+      "id": "https://ror.org/04gf9wd48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive",
+    "funder"
+  ]
+}

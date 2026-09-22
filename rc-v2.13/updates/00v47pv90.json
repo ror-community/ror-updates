@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "baptisthealth.net"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418212.c"
+      ],
+      "preferred": "grid.418212.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0465 0852"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q25007161"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00v47pv90",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://baptisthealth.net/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Baptist_Health_South_Florida"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "FL",
+        "country_subdivision_name": "Florida",
+        "lat": 25.77427,
+        "lng": -80.19366,
+        "name": "Miami"
+      },
+      "geonames_id": 4164138
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Baptist Health South Florida"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Baptist Hospital of Miami",
+      "type": "child",
+      "id": "https://ror.org/000pfrh90"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

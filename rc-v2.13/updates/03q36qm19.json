@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cesam-la.pt"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "100013239"
+      ],
+      "preferred": "100013239",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5896 9287",
+        "0000 0005 0569 4424"
+      ],
+      "preferred": "0000 0004 5896 9287",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03q36qm19",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cesam-la.pt"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "country_subdivision_code": "01",
+        "country_subdivision_name": "Aveiro",
+        "lat": 40.64575,
+        "lng": -8.64643,
+        "name": "Aveiro"
+      },
+      "geonames_id": 2742611
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CESAM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Centre for Environmental and Marine Studies"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Centro de Estudos Ambientais e Marinhos"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centro de Estudos do Ambiente e do Mar"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidade de Aveiro Centro de Estudos do Ambiente e do Mar"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "alias"
+      ],
+      "value": "Universidade de Lisboa Centro de Estudos do Ambiente e do Mar"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Aveiro",
+      "type": "parent",
+      "id": "https://ror.org/00nt41z93"
+    },
+    {
+      "label": "University of Lisbon",
+      "type": "parent",
+      "id": "https://ror.org/01c27hj86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

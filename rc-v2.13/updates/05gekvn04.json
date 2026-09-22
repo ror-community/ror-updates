@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "bthft.nhs.uk"
+  ],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "grid.418449.4"
+      ],
+      "preferred": "grid.418449.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0379 5398"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16953340"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05gekvn04",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bradfordhospitals.nhs.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.79391,
+        "lng": -1.75206,
+        "name": "Bradford"
+      },
+      "geonames_id": 2654993
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bradford Teaching Hospitals NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Bradford Royal Infirmary",
+      "type": "child",
+      "id": "https://ror.org/01ck0pr88"
+    },
+    {
+      "label": "Eccleshill Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/041mj3y24"
+    },
+    {
+      "label": "St. Luke's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02ajrkx50"
+    },
+    {
+      "label": "Westbourne Green Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/05e4e0g07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

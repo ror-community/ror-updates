@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "shionogi.co.jp"
+  ],
+  "established": 1878,
+  "external_ids": [
+    {
+      "all": [
+        "501100005612",
+        "100007451"
+      ],
+      "preferred": "501100005612",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419164.f"
+      ],
+      "preferred": "grid.419164.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0665 2737"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3482319"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01v3bqg10",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.shionogi.co.jp/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Shionogi"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Osaka",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Shionogi (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Shionogi Seiyaku Kabushiki Kaisha"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "塩野義製薬"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Shionogi (United States)",
+      "type": "child",
+      "id": "https://ror.org/02ww26h70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

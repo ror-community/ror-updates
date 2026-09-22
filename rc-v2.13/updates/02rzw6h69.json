@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "hi-jena.de"
+  ],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450266.3"
+      ],
+      "preferred": "grid.450266.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q1603236"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02rzw6h69",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.hi-jena.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Helmholtz_Institute_Jena"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "TH",
+        "country_subdivision_name": "Thuringia",
+        "lat": 50.92878,
+        "lng": 11.5899,
+        "name": "Jena"
+      },
+      "geonames_id": 2895044
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "HI Jena"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Helmholtz Institute Jena"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Helmholtz-Institut Jena"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "GSI Helmholtz Centre for Heavy Ion Research",
+      "type": "parent",
+      "id": "https://ror.org/02k8cbn47"
+    },
+    {
+      "label": "Helmholtz Association of German Research Centres",
+      "type": "related",
+      "id": "https://ror.org/0281dp749"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

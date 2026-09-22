@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017284"
+      ],
+      "preferred": "100017284",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/03naxhj05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.energy.gov/ne/office-spent-fuel-and-high-level-waste-disposition"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Office of Spent Fuel and High-Level Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Department of Energy Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "US Department of Energy Office of Nuclear Energy Office of Spent Fuel and High-Level Waste Disposition"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "United States Department of Energy Office of Nuclear Energy Spent Fuel and Waste Disposition"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Consent-Based Siting",
+      "type": "child",
+      "id": "https://ror.org/018tedj25"
+    },
+    {
+      "label": "Office of Disposal R&D",
+      "type": "child",
+      "id": "https://ror.org/04p0mdy95"
+    },
+    {
+      "label": "Office of Nuclear Energy",
+      "type": "parent",
+      "id": "https://ror.org/05tj7dm33"
+    },
+    {
+      "label": "Office of Storage and Transportation",
+      "type": "child",
+      "id": "https://ror.org/031mgyp05"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

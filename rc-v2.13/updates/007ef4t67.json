@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "501100007564"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.478671.b"
+      ],
+      "preferred": "grid.478671.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q5260400"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007ef4t67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.dmp.wa.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Mines_and_Petroleum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95872,
+        "lng": 115.87109,
+        "name": "East Perth"
+      },
+      "geonames_id": 8335007
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DMP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Mines and Petroleum"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geological Survey of Western Australia",
+      "type": "child",
+      "id": "https://ror.org/05h2dda38"
+    },
+    {
+      "label": "Government of Western Australia",
+      "type": "parent",
+      "id": "https://ror.org/00wqdbc63"
+    },
+    {
+      "label": "Department of Local Government, Industry Regulation and Safety",
+      "type": "successor",
+      "id": "https://ror.org/04mr78v45"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

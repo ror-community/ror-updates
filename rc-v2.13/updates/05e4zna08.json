@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cbmm.lodz.pl"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100020372"
+      ],
+      "preferred": "501100020372",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423930.f"
+      ],
+      "preferred": "grid.423930.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2289 383X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05e4zna08",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cbmm.lodz.pl/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "PL",
+        "country_name": "Poland",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Łódź Voivodeship",
+        "lat": 51.77058,
+        "lng": 19.47395,
+        "name": "Lodz"
+      },
+      "geonames_id": 3093133
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CBMiM PAN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Centre of Molecular and Macromolecular Studies"
+    },
+    {
+      "lang": "pl",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centrum Badań Molekularnych i Makromolekularnych Polskiej Akademii Nauk"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

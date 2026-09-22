@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nims.go.jp"
+  ],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100004496"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.21941.3f"
+      ],
+      "preferred": "grid.21941.3f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0789 6880"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4853179"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/026v1ze26",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nims.go.jp/eng/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Institute_for_Materials_Science"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "08",
+        "country_subdivision_name": "Ibaraki",
+        "lat": 36.08333,
+        "lng": 140.11667,
+        "name": "Tsukuba"
+      },
+      "geonames_id": 2110681
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Busshitsu-Zairyō Kenkyū Kikō"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NIMS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Institute for Materials Science"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立研究開発法人物質・材料研究機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Japan Link Center",
+      "type": "child",
+      "id": "https://ror.org/056cwrs58"
+    },
+    {
+      "label": "LINK - Laboratory for Innovative Key Materials and Structures",
+      "type": "child",
+      "id": "https://ror.org/03qt6f440"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

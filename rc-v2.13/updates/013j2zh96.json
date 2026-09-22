@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iciq.es"
+  ],
+  "established": 2000,
+  "external_ids": [
+    {
+      "all": [
+        "501100003838"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418919.c"
+      ],
+      "preferred": "grid.418919.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0009 4965"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q20876063"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/013j2zh96",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iciq.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Catalonia",
+        "lat": 41.11905,
+        "lng": 1.24544,
+        "name": "Tarragona"
+      },
+      "geonames_id": 3108288
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICIQ"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICIQ-CERCA"
+    },
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institut Català d'Investigació Química"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute of Chemical Research of Catalonia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Barcelona Institute for Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/03kpps236"
+    },
+    {
+      "label": "CERCA Institution",
+      "type": "parent",
+      "id": "https://ror.org/01bkbaq61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "loc.gov"
+  ],
+  "established": 1800,
+  "external_ids": [
+    {
+      "all": [
+        "100005451"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.241525.5"
+      ],
+      "preferred": "grid.241525.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2108 1928"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q131454"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04p405e02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.loc.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Library_of_Congress"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Biblioteca del Congreso de Estados Unidos"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Bibliothèque du Congrès"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Library of Congress"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Congress",
+      "type": "parent",
+      "id": "https://ror.org/00k1mwv09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive",
+    "funder"
+  ]
+}

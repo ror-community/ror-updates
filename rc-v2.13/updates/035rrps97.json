@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-22",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cncs-nrc.ro"
+  ],
+  "established": 1994,
+  "external_ids": [
+    {
+      "all": [
+        "501100004616",
+        "501100004266"
+      ],
+      "preferred": "501100004616",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453067.3"
+      ],
+      "preferred": "grid.453067.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0369 4458"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/035rrps97",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cncs-nrc.ro/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_University_Research_Council"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RO",
+        "country_name": "Romania",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "București",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "name": "Bucharest"
+      },
+      "geonames_id": 683506
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CNCS"
+    },
+    {
+      "lang": "ro",
+      "types": [
+        "alias"
+      ],
+      "value": "Consiliul Naţional al Cercetării Ştiinţifice"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Research Council"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National University Research Council"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Unitatea Executiva Pentru Finantarea Invatamantului Superior Si A Cercetarii Stiintifice Universitare",
+      "type": "child",
+      "id": "https://ror.org/001c9fg13"
+    },
+    {
+      "label": "Unitatea Executiva Pentru Finantarea Invatamantului Superior a Cercetarii Dezvoltarii si Inovarii",
+      "type": "child",
+      "id": "https://ror.org/01q7jq182"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}
