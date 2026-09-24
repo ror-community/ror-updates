@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1980,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482268.2"
+      ],
+      "preferred": "grid.482268.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0385 0457"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30273918"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03v7tny92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ifir-conicet.gov.ar/index.php/es/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "S",
+        "country_subdivision_name": "Santa Fe",
+        "lat": -32.94682,
+        "lng": -60.63932,
+        "name": "Rosario"
+      },
+      "geonames_id": 3838583
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IFIR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Physics Rosario"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Instituto de Física Rosario"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Rosario Physics Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centro Científico Tecnólogico - Rosario",
+      "type": "parent",
+      "id": "https://ror.org/01qkxb782"
+    },
+    {
+      "label": "National University of Rosario",
+      "type": "parent",
+      "id": "https://ror.org/02tphfq59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

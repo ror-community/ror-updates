@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-04-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2019,
+  "external_ids": [
+    {
+      "all": [
+        "grid.510484.c"
+      ],
+      "preferred": "grid.510484.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q103541451"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047rmsn51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.istp.cnr.it"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "25",
+        "country_subdivision_name": "Lombardy",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "name": "Milan"
+      },
+      "geonames_id": 3173435
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ISTP"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Institute for Plasma Science and Technology"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute for the Science and Technology of Plasmas"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto per la Scienza e Tecnologia dei Plasmi"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "alias"
+      ],
+      "value": "Istituto per la Scienza e la Tecnologia dei Plasmi"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Ionized Gas",
+      "type": "child",
+      "id": "https://ror.org/01f5tnx94"
+    },
+    {
+      "label": "Institute of Plasma Physics",
+      "type": "child",
+      "id": "https://ror.org/02n2bgz18"
+    },
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

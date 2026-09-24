@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "grid.175455.7"
+      ],
+      "preferred": "grid.175455.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2206 1080"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2002043"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01mtkd993",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.alaska.edu/alaska/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Alaska_system"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AK",
+        "country_subdivision_name": "Alaska",
+        "lat": 64.83778,
+        "lng": -147.71639,
+        "name": "Fairbanks"
+      },
+      "geonames_id": 5861897
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Sistema de la Universidad de Alaska"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of Alaska"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of Alaska System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Alaska Anchorage",
+      "type": "child",
+      "id": "https://ror.org/03k3c2t50"
+    },
+    {
+      "label": "University of Alaska Fairbanks",
+      "type": "child",
+      "id": "https://ror.org/01j7nq853"
+    },
+    {
+      "label": "University of Alaska Southeast",
+      "type": "child",
+      "id": "https://ror.org/02y8nb297"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

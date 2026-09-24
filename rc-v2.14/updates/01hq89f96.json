@@ -1,0 +1,143 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-09-24",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100010457"
+      ],
+      "preferred": "501100010457",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.42399.35"
+      ],
+      "preferred": "grid.42399.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0593 7118"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01hq89f96",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-bordeaux.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "NAQ",
+        "country_subdivision_name": "New Aquitaine",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "name": "Bordeaux"
+      },
+      "geonames_id": 3031582
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHU"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CHU de Bordeaux"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre Hospitalier Universitaire de Bordeaux"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University Hospital of Bordeaux"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre de Recherche Cardio-Thoracique de Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/04vgc9p51"
+    },
+    {
+      "label": "Electrophysiology and Heart Modeling Institute",
+      "type": "child",
+      "id": "https://ror.org/00jsv7j98"
+    },
+    {
+      "label": "Hôpital Cardiologique du Haut-Lévêque",
+      "type": "child",
+      "id": "https://ror.org/02bf3a828"
+    },
+    {
+      "label": "Hôpital Pellegrin",
+      "type": "child",
+      "id": "https://ror.org/02x581406"
+    },
+    {
+      "label": "Hôpital Saint-André",
+      "type": "child",
+      "id": "https://ror.org/021959v84"
+    },
+    {
+      "label": "Hôpital Xavier Arnozan",
+      "type": "child",
+      "id": "https://ror.org/03d532p87"
+    },
+    {
+      "label": "Plateforme Technologique d'Innovation Biomédicale",
+      "type": "child",
+      "id": "https://ror.org/05367a632"
+    },
+    {
+      "label": "Centre d'Investigation Clinique Plurithématique de Bordeaux",
+      "type": "child",
+      "id": "https://ror.org/000bbyx17"
+    },
+    {
+      "label": "Université de Bordeaux",
+      "type": "related",
+      "id": "https://ror.org/057qpr032"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}
