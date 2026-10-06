@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "千葉県農林総合研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chiba Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05y846g09"
+    },
+    {
+      "label": "Chiba Prefectural Agriculture and Forestry Research Center Forest Research Institute",
+      "type": "child",
+      "id": "https://ror.org/0268fey62"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

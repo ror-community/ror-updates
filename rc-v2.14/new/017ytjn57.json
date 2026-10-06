@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "群馬県農業技術センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gunma Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/03ggkx359"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

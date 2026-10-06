@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -92,7 +92,18 @@
       "value": "日立ヘルスケア・マニュファクチャリング"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fujifilm (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/0493bmq37"
+    },
+    {
+      "label": "Hitachi Aloka Medical, Ltd. (Japan)",
+      "type": "predecessor",
+      "id": "https://ror.org/01ad8dj65"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

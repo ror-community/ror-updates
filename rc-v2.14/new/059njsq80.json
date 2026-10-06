@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "奥羽大学歯学部附属病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ohu University",
+      "type": "related",
+      "id": "https://ror.org/01fe6f215"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -53,7 +53,18 @@
       "value": "McGill University and Génome Québec Innovation Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "parent",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Genome Canada",
+      "type": "parent",
+      "id": "https://ror.org/029s29983"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

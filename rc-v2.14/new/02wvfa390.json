@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "愛媛県産業技術研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ehime Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05jvtxd47"
+    },
+    {
+      "label": "Ehime Institute of Industrial Technology Paper Technology Center",
+      "type": "child",
+      "id": "https://ror.org/042ag0556"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

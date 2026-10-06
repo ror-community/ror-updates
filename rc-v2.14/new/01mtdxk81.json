@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "佐久総合病院佐久医療センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saku Central Hospital",
+      "type": "related",
+      "id": "https://ror.org/01q2ty078"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

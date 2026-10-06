@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2003,
+  "external_ids": [
+    {
+      "all": [
+        "100007418"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452621.6"
+      ],
+      "preferred": "grid.452621.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1773 7973"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q118911"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05dtvab05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.konicaminolta.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Konica_Minolta"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Konica Minolta (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Konika Minoruta"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "コニカミノルタホールディングス"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Konica Minolta (United States)",
+      "type": "child",
+      "id": "https://ror.org/03zv4kd57"
+    },
+    {
+      "label": "Konica Minolta Chemical (Japan)",
+      "type": "child",
+      "id": "https://ror.org/02d6jpx32"
+    },
+    {
+      "label": "Konica Minolta Science and Technology Foundation",
+      "type": "related",
+      "id": "https://ror.org/03rvdvz37"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

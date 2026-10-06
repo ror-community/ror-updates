@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "宮城県産業技術総合センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Miyagi Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/016nnmm16"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

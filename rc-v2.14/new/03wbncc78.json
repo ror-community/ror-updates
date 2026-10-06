@@ -66,7 +66,28 @@
       "value": "UMR Inserm 1248 IPPRITT"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Limoges",
+      "type": "parent",
+      "id": "https://ror.org/02cp04407"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire de Limoges",
+      "type": "parent",
+      "id": "https://ror.org/01tc2d264"
+    },
+    {
+      "label": "Pharmacologie & Transplantation",
+      "type": "successor",
+      "id": "https://ror.org/013dngs07"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

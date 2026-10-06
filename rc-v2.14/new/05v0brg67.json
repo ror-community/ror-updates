@@ -54,7 +54,23 @@
       "value": "Directorate-General for Justice and Home Affairs"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "European Commission",
+      "type": "parent",
+      "id": "https://ror.org/00k4n6c32"
+    },
+    {
+      "label": "Directorate-General for Justice and Consumers",
+      "type": "successor",
+      "id": "https://ror.org/046epvs68"
+    },
+    {
+      "label": "Directorate-General for Migration and Home Affairs",
+      "type": "successor",
+      "id": "https://ror.org/02qc43v06"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

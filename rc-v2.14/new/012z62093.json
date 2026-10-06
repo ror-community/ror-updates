@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "神戸大学医学部附属病院国際がん医療・研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kobe University Hospital",
+      "type": "parent",
+      "id": "https://ror.org/00bb55562"
+    },
+    {
+      "label": "Kobe University",
+      "type": "related",
+      "id": "https://ror.org/03tgsfw79"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

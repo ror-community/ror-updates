@@ -80,7 +80,18 @@
       "value": "行政院主計總處"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Census",
+      "type": "child",
+      "id": "https://ror.org/043kvs625"
+    },
+    {
+      "label": "Government of the Republic of China",
+      "type": "parent",
+      "id": "https://ror.org/05t0w3074"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

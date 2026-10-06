@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "量子科学技術研究開発機構QST病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institutes for Quantum Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/020rbyg91"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "京都市立病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto City Hospital",
+      "type": "child",
+      "id": "https://ror.org/01605g366"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "比治山大学短期大学部"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hijiyama University",
+      "type": "parent",
+      "id": "https://ror.org/00f5esq17"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "公安調査庁"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Justice",
+      "type": "parent",
+      "id": "https://ror.org/05tjbsh85"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

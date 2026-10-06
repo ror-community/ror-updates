@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100019713"
+      ],
+      "preferred": "100019713",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413935.9"
+      ],
+      "preferred": "grid.413935.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0420 3665"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02qm18h86",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pittsburgh.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "name": "Pittsburgh"
+      },
+      "geonames_id": 5206379
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "VA Pittsburgh Healthcare System"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "VAPHS"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Geriatric Research Education and Clinical Center",
+      "type": "child",
+      "id": "https://ror.org/01nh3sx96"
+    },
+    {
+      "label": "VA Healthcare-VISN 4",
+      "type": "parent",
+      "id": "https://ror.org/04fhxp168"
+    },
+    {
+      "label": "Center for Healthcare Evaluation, Research, and Promotion",
+      "type": "related",
+      "id": "https://ror.org/02bh80g68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

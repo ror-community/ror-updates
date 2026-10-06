@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2025-01-12",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tmhp.jp"
+  ],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/04y0s1771",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tmhp.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Tokyo Metropolitan Hospital Organization"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "地方独立行政法人東京都立病院機構"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "東京都立病院機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tokyo Metropolitan Tama-Nambu Hospital",
+      "type": "child",
+      "id": "https://ror.org/040sde350"
+    },
+    {
+      "label": "Tokyo Metropolitan Tobu Chiiki Hospital",
+      "type": "child",
+      "id": "https://ror.org/03vrewq72"
+    },
+    {
+      "label": "Tokyo Metropolitan Tama-Nambu Chiiki Hospital",
+      "type": "child",
+      "id": "https://ror.org/03rsp7x09"
+    },
+    {
+      "label": "Tokyo Metropolitan Tobu Chiiki Hospital",
+      "type": "child",
+      "id": "https://ror.org/00edabg55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

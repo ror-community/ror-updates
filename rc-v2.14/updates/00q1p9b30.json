@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1981,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508290.6"
+      ],
+      "preferred": "grid.508290.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q11607563"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00q1p9b30",
+  "links": [],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "07",
+        "country_subdivision_name": "Fukushima",
+        "lat": 37.4,
+        "lng": 140.38333,
+        "name": "Kōriyama"
+      },
+      "geonames_id": 2112141
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern Tohoku General Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "総合南東北病院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Southern TOHOKU Research Institute for Neuroscience",
+      "type": "parent",
+      "id": "https://ror.org/03960nw21"
+    },
+    {
+      "label": "Southern TOHOKU Proton Therapy Center",
+      "type": "related",
+      "id": "https://ror.org/028zkky43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1805,
+  "external_ids": [
+    {
+      "all": [
+        "100012940"
+      ],
+      "preferred": "100012940",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.411544.1"
+      ],
+      "preferred": "grid.411544.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0196 8249"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00pjgxh97",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.medizin.uni-tuebingen.de/en/Homepage.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.52266,
+        "lng": 9.05222,
+        "name": "Tübingen"
+      },
+      "geonames_id": 2820860
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UKT"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Universitätsklinikum Tübingen"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Poliklinik für Zahnärztliche Prothetik mit Propädeutik",
+      "type": "child",
+      "id": "https://ror.org/01bavmk12"
+    },
+    {
+      "label": "University Children's Hospital Tübingen",
+      "type": "child",
+      "id": "https://ror.org/03esvmb28"
+    },
+    {
+      "label": "Universitäts Frauenklinik",
+      "type": "child",
+      "id": "https://ror.org/02veq1j93"
+    },
+    {
+      "label": "University of Tübingen",
+      "type": "related",
+      "id": "https://ror.org/03a1kwz48"
+    },
+    {
+      "label": "ERN-RND",
+      "type": "related",
+      "id": "https://ror.org/05a27za87"
+    },
+    {
+      "label": "Hertie Institute for Clinical Brain Research",
+      "type": "child",
+      "id": "https://ror.org/04zzwzx41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

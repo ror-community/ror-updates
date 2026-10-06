@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "九州労災病院門司メディカルセンター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Organization of Occupational Health and Safety",
+      "type": "parent",
+      "id": "https://ror.org/03khcdd80"
+    },
+    {
+      "label": "Kyushu Rosai Hospital",
+      "type": "related",
+      "id": "https://ror.org/01hky8m83"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

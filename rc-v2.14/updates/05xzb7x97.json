@@ -69,7 +69,18 @@
       "value": "Instituto de Investigación Sanitaria del Principado de Asturias"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gobierno del Principado de Asturias",
+      "type": "parent",
+      "id": "https://ror.org/05mj4yh71"
+    },
+    {
+      "label": "Universidad de Oviedo",
+      "type": "related",
+      "id": "https://ror.org/006gksa02"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

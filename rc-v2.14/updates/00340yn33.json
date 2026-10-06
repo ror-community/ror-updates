@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "keele.ac.uk"
+  ],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "501100005044"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9757.c"
+      ],
+      "preferred": "grid.9757.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0415 6205"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1737734"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00340yn33",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.keele.ac.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_Keele"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.0,
+        "lng": -2.23333,
+        "name": "Newcastle-under-Lyme"
+      },
+      "geonames_id": 2641674
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Keele University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Shrewsbury Hospital",
+      "type": "related",
+      "id": "https://ror.org/05nnz2423"
+    },
+    {
+      "label": "Royal Stoke University Hospital",
+      "type": "related",
+      "id": "https://ror.org/01dx1mr58"
+    },
+    {
+      "label": "Keele University Greece",
+      "type": "child",
+      "id": "https://ror.org/058gffr10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

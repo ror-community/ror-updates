@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "山口県立病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Yamaguchi Prefecture Central Hospital",
+      "type": "child",
+      "id": "https://ror.org/051pzmv95"
+    },
+    {
+      "label": "Yamaguchi Prefectural Government",
+      "type": "related",
+      "id": "https://ror.org/00b3mwd12"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

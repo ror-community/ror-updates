@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,18 @@
       "value": "福井県農業試験場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fukui Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/03ccw9774"
+    },
+    {
+      "label": "Fukui Food Processing Research Institute",
+      "type": "child",
+      "id": "https://ror.org/047fh3h41"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

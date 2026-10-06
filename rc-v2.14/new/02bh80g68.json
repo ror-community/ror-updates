@@ -59,7 +59,23 @@
       "value": "Center for Healthcare Evaluation, Research, and Promotion"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Veterans Affairs",
+      "type": "parent",
+      "id": "https://ror.org/05rsv9s98"
+    },
+    {
+      "label": "VA Pittsburgh Healthcare System",
+      "type": "related",
+      "id": "https://ror.org/02qm18h86"
+    },
+    {
+      "label": "Philadelphia VA Medical Center",
+      "type": "related",
+      "id": "https://ror.org/03j05zz84"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

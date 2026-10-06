@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "大阪府立病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Osaka Women's and Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/00nx7n658"
+    },
+    {
+      "label": "Osaka Prefectural Medical Center",
+      "type": "child",
+      "id": "https://ror.org/00vcb6036"
+    },
+    {
+      "label": "Osaka International Cancer Institute",
+      "type": "child",
+      "id": "https://ror.org/05xvwhv53"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

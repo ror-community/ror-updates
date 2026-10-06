@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "長野県農業試験場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nagano Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05tre4438"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

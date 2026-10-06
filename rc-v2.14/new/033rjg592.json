@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,23 @@
       "value": "日本郵政"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Post Co., Ltd. (Japan)",
+      "type": "related",
+      "id": "https://ror.org/02yjpy791"
+    },
+    {
+      "label": "Tokyo Teishin Hospital",
+      "type": "related",
+      "id": "https://ror.org/04j339g17"
+    },
+    {
+      "label": "Osakakita Teishin Hospital",
+      "type": "related",
+      "id": "https://ror.org/02w7n8v98"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

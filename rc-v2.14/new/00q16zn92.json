@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "日本歯科大学東京短期大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nippon Dental University",
+      "type": "parent",
+      "id": "https://ror.org/01s1hm369"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

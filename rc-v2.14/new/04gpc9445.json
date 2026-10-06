@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "関西医科大学附属病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kansai Medical University",
+      "type": "related",
+      "id": "https://ror.org/001xjdh50"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

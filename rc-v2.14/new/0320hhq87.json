@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "経済広報センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Keidanren",
+      "type": "related",
+      "id": "https://ror.org/01py0xw12"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

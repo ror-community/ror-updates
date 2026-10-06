@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "国立病院機構新潟病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

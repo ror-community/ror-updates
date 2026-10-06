@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "神戸市民病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kobe City Medical Center General Hospital",
+      "type": "child",
+      "id": "https://ror.org/04j4nak57"
+    },
+    {
+      "label": "Kobe City Medical Center West Hospital",
+      "type": "child",
+      "id": "https://ror.org/0466c1b11"
+    },
+    {
+      "label": "Kobe City Nishi-Kobe Medical Center",
+      "type": "child",
+      "id": "https://ror.org/02mvsxw13"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

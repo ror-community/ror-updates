@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "清泉女学院短期大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Seisen University",
+      "type": "parent",
+      "id": "https://ror.org/010nsv610"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

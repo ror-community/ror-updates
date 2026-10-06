@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "大阪大学歯学部附属病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Osaka",
+      "type": "related",
+      "id": "https://ror.org/035t8zc32"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

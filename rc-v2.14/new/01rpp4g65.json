@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "朝日大学医科歯科医療センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Asahi University",
+      "type": "related",
+      "id": "https://ror.org/05epcpp46"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

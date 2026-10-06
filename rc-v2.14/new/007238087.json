@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "三井・デュポンポリケミカル"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mitsui Chemicals (Japan)",
+      "type": "related",
+      "id": "https://ror.org/05wh5fw51"
+    },
+    {
+      "label": "Dow Chemical (Japan)",
+      "type": "related",
+      "id": "https://ror.org/041y80p71"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

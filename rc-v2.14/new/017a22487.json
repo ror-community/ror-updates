@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "警察庁"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Police Academy",
+      "type": "child",
+      "id": "https://ror.org/0155e5d19"
+    },
+    {
+      "label": "National Research Institute of Police Science",
+      "type": "child",
+      "id": "https://ror.org/03g9ek587"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

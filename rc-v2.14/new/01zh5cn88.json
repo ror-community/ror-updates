@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,18 @@
       "value": "協和メデックス"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canon (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/05gg0gh87"
+    },
+    {
+      "label": "Canon Medical Systems Corporation (Japan)",
+      "type": "related",
+      "id": "https://ror.org/01qpswk97"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

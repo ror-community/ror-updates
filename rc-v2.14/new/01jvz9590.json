@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "埼玉県衛生研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saitama Prefecture",
+      "type": "parent",
+      "id": "https://ror.org/03ykm7q16"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "山形県・酒田市病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nihonkai General Hospital",
+      "type": "child",
+      "id": "https://ror.org/01nqa4s53"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

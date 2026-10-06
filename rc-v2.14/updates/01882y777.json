@@ -55,7 +55,23 @@
       "value": "Stony Brook Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Stony Brook University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05wyq9e07"
+    },
+    {
+      "label": "Stony Brook Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/056rkh971"
+    },
+    {
+      "label": "Stony Brook University",
+      "type": "parent",
+      "id": "https://ror.org/05qghxh33"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

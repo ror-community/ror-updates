@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1992,
+  "external_ids": [
+    {
+      "all": [
+        "501100015064"
+      ],
+      "preferred": "501100015064",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419127.8"
+      ],
+      "preferred": "grid.419127.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0463 9178"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7492606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02md8hv62",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sheffieldchildrens.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Sheffield_Children%27s_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.38297,
+        "lng": -1.4659,
+        "name": "Sheffield"
+      },
+      "geonames_id": 2638077
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sheffield Children's NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Sheffield Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/05mshxb09"
+    },
+    {
+      "label": "Sheffield Children's Hospital Charity",
+      "type": "related",
+      "id": "https://ror.org/04pkcf957"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

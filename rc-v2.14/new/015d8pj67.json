@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "国税庁"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Finance",
+      "type": "parent",
+      "id": "https://ror.org/03x529519"
+    },
+    {
+      "label": "National Tax College",
+      "type": "child",
+      "id": "https://ror.org/03z692463"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

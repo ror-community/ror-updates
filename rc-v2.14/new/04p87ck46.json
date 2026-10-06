@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "新見公立大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Niimi College",
+      "type": "predecessor",
+      "id": "https://ror.org/00z2xnx25"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

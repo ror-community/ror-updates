@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "香川県水産試験場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kagawa Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05fsqrn62"
+    },
+    {
+      "label": "Akashio Research Institute of Kagawa Prefecture",
+      "type": "related",
+      "id": "https://ror.org/002tq9174"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,23 @@
       "value": "海上・港湾・航空技術研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Maritime Research Institute",
+      "type": "child",
+      "id": "https://ror.org/02wxcdf69"
+    },
+    {
+      "label": "Port and Airport Research Institute",
+      "type": "child",
+      "id": "https://ror.org/05r26zf79"
+    },
+    {
+      "label": "Electronic Navigation Research Institute",
+      "type": "child",
+      "id": "https://ror.org/000050t83"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

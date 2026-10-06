@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,13 @@
       "value": "日立製作所ひたちなか総合病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hitachi (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/02exqgm79"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

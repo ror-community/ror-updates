@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "岩手県工業技術センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iwate Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05g6ct380"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

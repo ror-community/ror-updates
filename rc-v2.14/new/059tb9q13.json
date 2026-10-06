@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "山形県高度技術研究開発センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Yamagata Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/04k6amx66"
+    },
+    {
+      "label": "Yamagata Research Institute Of Technology",
+      "type": "related",
+      "id": "https://ror.org/03axg0947"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

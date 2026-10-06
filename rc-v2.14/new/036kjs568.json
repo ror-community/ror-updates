@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "東京都交響楽団"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tokyo Metropolitan Government",
+      "type": "related",
+      "id": "https://ror.org/01v42ys47"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "尚絅大学短期大学部"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shokei College",
+      "type": "parent",
+      "id": "https://ror.org/04r04yh88"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

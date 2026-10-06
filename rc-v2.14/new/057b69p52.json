@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "日水製薬"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shimadzu (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/03k8der79"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

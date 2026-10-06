@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "佐久大学信州短期大学部"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saku University",
+      "type": "parent",
+      "id": "https://ror.org/01sbmsw53"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

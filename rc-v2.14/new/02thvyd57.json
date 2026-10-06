@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "高知県工業技術センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kochi Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/00xcsac28"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -62,7 +62,23 @@
       "value": "City of Philadelphia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Philadelphia Fire Department",
+      "type": "child",
+      "id": "https://ror.org/000apqb71"
+    },
+    {
+      "label": "Philadelphia Department of Public Health",
+      "type": "child",
+      "id": "https://ror.org/04qm8ac48"
+    },
+    {
+      "label": "Philadelphia Water Department",
+      "type": "child",
+      "id": "https://ror.org/03v275937"
+    }
+  ],
   "status": "active",
   "types": [
     "government"
