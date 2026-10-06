@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1901,
+  "external_ids": [
+    {
+      "all": [
+        "100006816"
+      ],
+      "preferred": "100006816",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412530.1"
+      ],
+      "preferred": "grid.412530.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0456 6466"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02fhvxj45",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.templehealth.org/content/default.htm"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "name": "Philadelphia"
+      },
+      "geonames_id": 4560349
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TUHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Temple University Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fox Chase Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/0567t7073"
+    },
+    {
+      "label": "Jeanes Hospital",
+      "type": "child",
+      "id": "https://ror.org/029xz3860"
+    },
+    {
+      "label": "Temple University",
+      "type": "related",
+      "id": "https://ror.org/00kx1jb78"
+    },
+    {
+      "label": "Temple University Hospital",
+      "type": "child",
+      "id": "https://ror.org/028rvnd71"
+    },
+    {
+      "label": "Chestnut Hill Hospital",
+      "type": "child",
+      "id": "https://ror.org/02nren818"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

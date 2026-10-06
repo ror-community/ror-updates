@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413031.4"
+      ],
+      "preferred": "grid.413031.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0465 4917"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17062119"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0586bt104",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.southportandormskirk.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Southport_and_Ormskirk_Hospital_NHS_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.64581,
+        "lng": -3.01008,
+        "name": "Southport"
+      },
+      "geonames_id": 2637343
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southport and Ormskirk Hospital NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ormskirk District General Hospital",
+      "type": "child",
+      "id": "https://ror.org/05d9zj517"
+    },
+    {
+      "label": "Southport and Formby District General Hospital",
+      "type": "child",
+      "id": "https://ror.org/04qbdwc31"
+    },
+    {
+      "label": "Mersey and West Lancashire Teaching Hospitals NHS Trust",
+      "type": "successor",
+      "id": "https://ror.org/02e6wxz44"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

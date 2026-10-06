@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1871,
+  "external_ids": [
+    {
+      "all": [
+        "501100019616"
+      ],
+      "preferred": "501100019616",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.423487.e"
+      ],
+      "preferred": "grid.423487.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0489 2309"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03qf4s180",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://ibss.iuf.net/?page_id=285&lang=en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "country_subdivision_code": "40",
+        "country_subdivision_name": "Sevastopol City",
+        "lat": 44.60795,
+        "lng": 33.52134,
+        "name": "Sebastopol"
+      },
+      "geonames_id": 694423
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "A.O. Kovalevsky Institute of Biology of the Southern Seas"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBSS"
+    },
+    {
+      "lang": "uk",
+      "types": [
+        "label"
+      ],
+      "value": "Інституту біології південних морів ім. О.О. Ковалевського"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Academy of Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/00je4t102"
+    },
+    {
+      "label": "T.I. Vyazemsky Karadag Scientific Station – Nature Reserve of the RAS",
+      "type": "child",
+      "id": "https://ror.org/023pwk995"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

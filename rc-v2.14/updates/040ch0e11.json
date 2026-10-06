@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.450563.1"
+      ],
+      "preferred": "grid.450563.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0412 9303"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/040ch0e11",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cpft.nhs.uk/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "name": "Cambridge"
+      },
+      "geonames_id": 2653941
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CPFT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cambridgeshire and Peterborough NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Doddington Hospital",
+      "type": "child",
+      "id": "https://ror.org/05w3scj59"
+    },
+    {
+      "label": "Fulbourn Hospital",
+      "type": "child",
+      "id": "https://ror.org/01ym47j46"
+    },
+    {
+      "label": "Ida Darwin hospital",
+      "type": "child",
+      "id": "https://ror.org/02jxcp012"
+    },
+    {
+      "label": "North Cambridgeshire Hospital",
+      "type": "child",
+      "id": "https://ror.org/01h4zj733"
+    },
+    {
+      "label": "University of Cambridge",
+      "type": "related",
+      "id": "https://ror.org/013meh722"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

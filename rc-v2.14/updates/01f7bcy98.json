@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "h-its.org"
+  ],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.424699.4"
+      ],
+      "preferred": "grid.424699.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2275 2842"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1555500"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01f7bcy98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.h-its.org"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Heidelberg_Institute_for_Theoretical_Studies"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "name": "Heidelberg"
+      },
+      "geonames_id": 2907911
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HITS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Heidelberg Institute for Theoretical Studies"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Heidelberger Institut für Theoretische Studien"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Heidelberg University",
+      "type": "parent",
+      "id": "https://ror.org/038t36y30"
+    },
+    {
+      "label": "Karlsruhe Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/04t3en479"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

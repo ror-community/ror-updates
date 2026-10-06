@@ -1,0 +1,123 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "501100008657",
+        "501100008040"
+      ],
+      "preferred": "501100008040",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419719.3"
+      ],
+      "preferred": "grid.419719.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0816 944X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q902855"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/016t1kc57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kao.com/jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Kao_Corporation"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kao Corporation (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kao Kabushiki Gaisha"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "花王株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kao Corporation (Germany)",
+      "type": "child",
+      "id": "https://ror.org/00ynxc274"
+    },
+    {
+      "label": "Kao Corporation (Spain)",
+      "type": "child",
+      "id": "https://ror.org/03826h192"
+    },
+    {
+      "label": "Kao Corporation (United States)",
+      "type": "child",
+      "id": "https://ror.org/01qkmhj58"
+    },
+    {
+      "label": "The Kao Foundation for Arts and Sciences",
+      "type": "related",
+      "id": "https://ror.org/02f6jxp24"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

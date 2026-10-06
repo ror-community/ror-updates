@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-07-27",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2375 1235"
+      ],
+      "preferred": "0000 0001 2375 1235",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3117656"
+      ],
+      "preferred": "Q3117656",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/056ms9a36",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.geves.fr"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Groupe_d%27%C3%A9tude_et_de_contr%C3%B4le_des_vari%C3%A9t%C3%A9s_et_des_semences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "PDL",
+        "country_subdivision_name": "Pays de la Loire",
+        "lat": 47.47514,
+        "lng": -0.63219,
+        "name": "Beaucouzé"
+      },
+      "geonames_id": 3034339
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "GEVES"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Group for the Study and Control of Varieties and Seeds"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Groupe d'étude et de contrôle des variétés et des semences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "type": "parent",
+      "id": "https://ror.org/029m96t80"
+    },
+    {
+      "label": "Semae",
+      "type": "related",
+      "id": "https://ror.org/05h8t4993"
+    },
+    {
+      "label": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "type": "parent",
+      "id": "https://ror.org/003vg9w96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

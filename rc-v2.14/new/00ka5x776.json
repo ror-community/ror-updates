@@ -1,0 +1,75 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "spbu.fsin.gov.ru"
+  ],
+  "established": 2020,
+  "external_ids": [],
+  "id": "https://ror.org/00ka5x776",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://spbu.fsin.gov.ru/?wsdl="
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "RU",
+        "country_name": "Russia",
+        "country_subdivision_code": "SPE",
+        "country_subdivision_name": "St.-Petersburg",
+        "lat": 59.93863,
+        "lng": 30.31413,
+        "name": "St Petersburg"
+      },
+      "geonames_id": 498817
+    }
+  ],
+  "names": [
+    {
+      "lang": "ru",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Universitet FSIN Rossii"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "University of the Federal Penitentiary Service of Russia"
+    },
+    {
+      "lang": "ru",
+      "types": [
+        "label"
+      ],
+      "value": "Университет ФСИН России"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Federal Penitentiary Service",
+      "type": "parent",
+      "id": "https://ror.org/03grptj54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1946,
+  "external_ids": [
+    {
+      "all": [
+        "grid.471052.5"
+      ],
+      "preferred": "grid.471052.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1763 7120"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q9584",
+        "Q11520610"
+      ],
+      "preferred": "Q9584",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03jzay846",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.honda.co.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Honda"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Honda (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Honda Motor"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "本田技研工業株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Honda (Germany)",
+      "type": "child",
+      "id": "https://ror.org/022c1xk47"
+    },
+    {
+      "label": "Honda (United States)",
+      "type": "child",
+      "id": "https://ror.org/04vdmc602"
+    },
+    {
+      "label": "Honda Engineering (Japan)",
+      "type": "predecessor",
+      "id": "https://ror.org/01hfn5q52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

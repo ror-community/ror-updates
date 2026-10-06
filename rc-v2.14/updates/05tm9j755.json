@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1947,
+  "external_ids": [
+    {
+      "all": [
+        "501100006731"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467456.2"
+      ],
+      "preferred": "grid.467456.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2285 8735"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q904240"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05tm9j755",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mitsui.com/jp/en/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mitsui_%26_Co."
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Daiichi Bussan Kaisha, Ltd"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mitsui & Co (Japan)"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "三井物産"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mitsui & Co (Ireland)",
+      "type": "child",
+      "id": "https://ror.org/00nj0fk68"
+    },
+    {
+      "label": "Mitsui (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/01qw4g764"
+    },
+    {
+      "label": "Bussan Nanotech Research Institute (Japan)",
+      "type": "child",
+      "id": "https://ror.org/03a3y8p30"
+    },
+    {
+      "label": "Mitsui Norin (Japan)",
+      "type": "child",
+      "id": "https://ror.org/03s0pja67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

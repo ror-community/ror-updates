@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2022-09-29",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1948,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0463 9766"
+      ],
+      "preferred": "0000 0001 0463 9766",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q565418"
+      ],
+      "preferred": "Q565418",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03nv92q59",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.kaiho.mlit.go.jp"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Japan_Coast_Guard"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "JCG"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Japan Coast Guard"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "海上保安庁"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Japan Coast Guard Academy",
+      "type": "child",
+      "id": "https://ror.org/03qa1nk44"
+    },
+    {
+      "label": "Ministry of Land, Infrastructure, Transport and Tourism",
+      "type": "parent",
+      "id": "https://ror.org/00b0p4j69"
+    },
+    {
+      "label": "Japan Coast Guard Foundation",
+      "type": "related",
+      "id": "https://ror.org/03t3hsv07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

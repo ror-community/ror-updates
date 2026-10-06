@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.490038.6"
+      ],
+      "preferred": "grid.490038.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8525 9388"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/041hmmv49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.omh.ny.gov/omhweb/facilities/brpc/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.84985,
+        "lng": -73.86641,
+        "name": "Bronx"
+      },
+      "geonames_id": 5110266
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bronx Psychiatric Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "New York State Office of Mental Health",
+      "type": "parent",
+      "id": "https://ror.org/01b2wv937"
+    },
+    {
+      "label": "Yeshiva University",
+      "type": "related",
+      "id": "https://ror.org/045x93337"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1956,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411086.a"
+      ],
+      "preferred": "grid.411086.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8875 8879"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02ybsz607",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://alicante.san.gva.es/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "VC",
+        "country_subdivision_name": "Valencia",
+        "lat": 38.34517,
+        "lng": -0.48149,
+        "name": "Alicante"
+      },
+      "geonames_id": 2521978
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Hospital General Universitario de Alicante"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital General Universitario de Alicante Doctor Balmis"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Investigación Sanitaria y Biomédica de Alicante (ISABIAL)",
+      "type": "child",
+      "id": "https://ror.org/00zmnkx60"
+    },
+    {
+      "label": "University of Alicante",
+      "type": "related",
+      "id": "https://ror.org/05t8bcz72"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459558.0"
+      ],
+      "preferred": "grid.459558.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0668 4966"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05wh5fw51",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mitsuichem.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Mitsui_Chemicals"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "01",
+        "country_subdivision_name": "Hokkaido",
+        "lat": 43.48639,
+        "lng": 141.90556,
+        "name": "Sunagawa"
+      },
+      "geonames_id": 2127955
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mitsui Chemicals (Japan)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Mitsui-Kagaku Kabushiki-Gaisha"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "三井化学株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mitsui Chemicals (Germany)",
+      "type": "child",
+      "id": "https://ror.org/04vb0yp97"
+    },
+    {
+      "label": "Mitsui (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/01qw4g764"
+    },
+    {
+      "label": "Dow-Mitsui Polychemicals (Japan)",
+      "type": "related",
+      "id": "https://ror.org/007238087"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

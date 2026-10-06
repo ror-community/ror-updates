@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.84393.35"
+      ],
+      "preferred": "grid.84393.35",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0360 9602"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01ar2v535",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hospital-lafe.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "VC",
+        "country_subdivision_name": "Valencia",
+        "lat": 39.47391,
+        "lng": -0.37966,
+        "name": "Valencia"
+      },
+      "geonames_id": 2509954
+    }
+  ],
+  "names": [
+    {
+      "lang": "ca",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hospital Universitari i Politècnic La Fe"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Hospital Universitario y Politécnico de La Fe"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Instituto de Investigación Sanitaria La Fe",
+      "type": "parent",
+      "id": "https://ror.org/05n7v5997"
+    },
+    {
+      "label": "Universitat de València",
+      "type": "related",
+      "id": "https://ror.org/043nxc105"
+    },
+    {
+      "label": "Universitat Politècnica de València",
+      "type": "related",
+      "id": "https://ror.org/01460j859"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

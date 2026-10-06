@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1894,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417169.c"
+      ],
+      "preferred": "grid.417169.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9359 6077"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7138568"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04rt7ps04",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.parklandhospital.com/phhs/home.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Parkland_Health_%26_Hospital_System"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 32.78306,
+        "lng": -96.80667,
+        "name": "Dallas"
+      },
+      "geonames_id": 4684888
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dallas County Hospital District"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Parkland Health & Hospital System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Parkland Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/0208r0146"
+    },
+    {
+      "label": "The University of Texas Southwestern Medical Center",
+      "type": "related",
+      "id": "https://ror.org/05byvp690"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

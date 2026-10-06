@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "100005253"
+      ],
+      "preferred": "100005253",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.483892.c"
+      ],
+      "preferred": "grid.483892.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0405 2430"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7079311"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/031s4pb13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www2.ed.gov/about/offices/list/osers/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Office_of_Special_Education_and_Rehabilitative_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OSERS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Special Education and Rehabilitative Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office of Special Education Programs",
+      "type": "child",
+      "id": "https://ror.org/05wxnb224"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

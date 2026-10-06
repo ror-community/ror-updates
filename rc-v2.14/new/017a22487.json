@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-29",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "npa.go.jp"
+  ],
+  "established": 1954,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0740 4575"
+      ],
+      "preferred": "0000 0001 0740 4575",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q154200"
+      ],
+      "preferred": "Q154200",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017a22487",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.npa.go.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://ja.wikipedia.org/wiki/警察庁"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NPA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Police Agency"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "警察庁"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Police Academy",
+      "type": "child",
+      "id": "https://ror.org/0155e5d19"
+    },
+    {
+      "label": "National Research Institute of Police Science",
+      "type": "child",
+      "id": "https://ror.org/03g9ek587"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

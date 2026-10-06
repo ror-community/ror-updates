@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1949,
+  "external_ids": [
+    {
+      "all": [
+        "100018502"
+      ],
+      "preferred": "100018502",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.9707.9"
+      ],
+      "preferred": "grid.9707.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2308 3329"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q684783"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02hwp6a56",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kanazawa-u.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Kanazawa_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "17",
+        "country_subdivision_name": "Ishikawa",
+        "lat": 36.6,
+        "lng": 136.61667,
+        "name": "Kanazawa"
+      },
+      "geonames_id": 1860243
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kanazawa University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kanazawa daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "金沢大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kanazawa University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00xsdn005"
+    },
+    {
+      "label": "TAKMEDICA Technical Research Institute (Japan)",
+      "type": "related",
+      "id": "https://ror.org/01gr1w008"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

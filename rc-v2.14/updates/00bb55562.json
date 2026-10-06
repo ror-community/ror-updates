@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1869,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411102.7"
+      ],
+      "preferred": "grid.411102.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0596 6533"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00bb55562",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hosp.kobe-u.ac.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "28",
+        "country_subdivision_name": "Hyōgo",
+        "lat": 34.6913,
+        "lng": 135.183,
+        "name": "Kobe"
+      },
+      "geonames_id": 1859171
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kobe University Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "神戸大学医学部附属病院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kobe University",
+      "type": "related",
+      "id": "https://ror.org/03tgsfw79"
+    },
+    {
+      "label": "Kobe University Hospital International Clinical Cancer Research Center",
+      "type": "child",
+      "id": "https://ror.org/012z62093"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

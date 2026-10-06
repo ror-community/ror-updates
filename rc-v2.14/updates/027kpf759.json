@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.471170.4"
+      ],
+      "preferred": "grid.471170.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9149 9548"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/027kpf759",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mitsui-kinzoku.co.jp/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Mitsui Kinzoku"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Mitsui Mining & Smelting (Japan)"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "三井金属鉱業株式会社"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mitsui (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/01qw4g764"
+    },
+    {
+      "label": "Nippon Yttrium (Japan)",
+      "type": "predecessor",
+      "id": "https://ror.org/044jf2x59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company"
+  ]
+}

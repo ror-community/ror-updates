@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "phila.gov"
+  ],
+  "established": 1701,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0616 2107"
+      ],
+      "preferred": "0000 0004 0616 2107",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q140072874"
+      ],
+      "preferred": "Q140072874",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/045da3v06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.phila.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "name": "Philadelphia"
+      },
+      "geonames_id": 4560349
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "City of Philadelphia"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Philadelphia Fire Department",
+      "type": "child",
+      "id": "https://ror.org/000apqb71"
+    },
+    {
+      "label": "Philadelphia Department of Public Health",
+      "type": "child",
+      "id": "https://ror.org/04qm8ac48"
+    },
+    {
+      "label": "Philadelphia Water Department",
+      "type": "child",
+      "id": "https://ror.org/03v275937"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

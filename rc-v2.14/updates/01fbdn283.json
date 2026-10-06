@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411487.f"
+      ],
+      "preferred": "grid.411487.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0455 1723"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01fbdn283",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.upmc.com/locations/hospitals/magee/pages/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "name": "Pittsburgh"
+      },
+      "geonames_id": 5206379
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Magee-Womens Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Pittsburgh Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/04ehecz88"
+    },
+    {
+      "label": "Magee-Womens Research Institute",
+      "type": "related",
+      "id": "https://ror.org/00rnw4e09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

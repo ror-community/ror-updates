@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1939,
+  "external_ids": [
+    {
+      "all": [
+        "grid.471871.c"
+      ],
+      "preferred": "grid.471871.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q11571614"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05s5g6369",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hosp.go.jp/~tokusimahosp-nho/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "36",
+        "country_subdivision_name": "Tokushima",
+        "lat": 34.06667,
+        "lng": 134.56667,
+        "name": "Tokushima"
+      },
+      "geonames_id": 1850158
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Hospital Organization Tokushima Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tokushima Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立病院機構徳島病院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    },
+    {
+      "label": "National Hospital Organization Tokushima Medical Center East Hospital",
+      "type": "related",
+      "id": "https://ror.org/01x6ave17"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

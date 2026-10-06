@@ -1,0 +1,124 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1890,
+  "external_ids": [
+    {
+      "all": [
+        "100007808",
+        "100008338",
+        "100009496"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.65519.3e"
+      ],
+      "preferred": "grid.65519.3e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0721 7331"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q749718"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01g9vbr38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://go.okstate.edu/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Oklahoma_State_University%E2%80%93Stillwater"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "OK",
+        "country_subdivision_name": "Oklahoma",
+        "lat": 36.11561,
+        "lng": -97.05837,
+        "name": "Stillwater"
+      },
+      "geonames_id": 4552215
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OSU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Oklahoma State"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Oklahoma State University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Oklahoma State University System",
+      "type": "parent",
+      "id": "https://ror.org/045ntgf29"
+    },
+    {
+      "label": "Oklahoma State University Medical Center",
+      "type": "related",
+      "id": "https://ror.org/003jx1781"
+    },
+    {
+      "label": "Konza Prairie Long Term Ecological Research",
+      "type": "related",
+      "id": "https://ror.org/02wavzm11"
+    },
+    {
+      "label": "Oklahoma State University at Tulsa",
+      "type": "child",
+      "id": "https://ror.org/045zgf584"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

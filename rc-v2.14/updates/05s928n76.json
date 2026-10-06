@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-12-18",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "grid.507520.5"
+      ],
+      "preferred": "grid.507520.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0397 0029"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q798038"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05s928n76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.bach-leipzig.de/de/bach-archiv"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bach_Archive"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "name": "Leipzig"
+      },
+      "geonames_id": 2879139
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Bach Archiv Leipzig"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Bach-Archiv"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Leipzig University",
+      "type": "parent",
+      "id": "https://ror.org/03s7gtk40"
+    },
+    {
+      "label": "Leipzig University",
+      "type": "related",
+      "id": "https://ror.org/03s7gtk40"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

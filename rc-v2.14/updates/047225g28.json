@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2021-09-23",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1925,
+  "external_ids": [
+    {
+      "all": [
+        "grid.511297.9"
+      ],
+      "preferred": "grid.511297.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9691 5037"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6815447"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/047225g28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.memorialhermann.org/locations/texas-medical-center"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Memorial_Hermann%E2%80%93Texas_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "TX",
+        "country_subdivision_name": "Texas",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "name": "Houston"
+      },
+      "geonames_id": 4699066
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Memorial Hermann–Texas Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Memorial Hermann",
+      "type": "parent",
+      "id": "https://ror.org/049d9a475"
+    },
+    {
+      "label": "Texas Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/00dqsbj20"
+    },
+    {
+      "label": "The University of Texas Health Science Center at Houston",
+      "type": "parent",
+      "id": "https://ror.org/03gds6c39"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1866,
+  "external_ids": [
+    {
+      "all": [
+        "grid.509322.f"
+      ],
+      "preferred": "grid.509322.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0420 3403"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00ft0j474",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.lebanon.va.gov/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.34093,
+        "lng": -76.41135,
+        "name": "Lebanon"
+      },
+      "geonames_id": 5197517
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lebanon VA Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VA Healthcare-VISN 4",
+      "type": "parent",
+      "id": "https://ror.org/04fhxp168"
+    },
+    {
+      "label": "Pennsylvania State University",
+      "type": "related",
+      "id": "https://ror.org/04p491231"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

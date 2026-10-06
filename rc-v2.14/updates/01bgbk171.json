@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "100017291"
+      ],
+      "preferred": "100017291",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.413824.8"
+      ],
+      "preferred": "grid.413824.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9566 1119"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16895620"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01bgbk171",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.northerntrust.hscni.net/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Northern_Health_and_Social_Care_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "NIR",
+        "country_subdivision_name": "Northern Ireland",
+        "lat": 54.7175,
+        "lng": -6.211,
+        "name": "Antrim"
+      },
+      "geonames_id": 2657255
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NHSCT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northern Health and Social Care Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Antrim Area Hospital",
+      "type": "child",
+      "id": "https://ror.org/005t72d47"
+    },
+    {
+      "label": "Queen's University Belfast",
+      "type": "related",
+      "id": "https://ror.org/00hswnk62"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

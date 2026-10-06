@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.461869.4"
+      ],
+      "preferred": "grid.461869.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0641 3172"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00xmy4x78",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.pref-nagano-hosp.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "20",
+        "country_subdivision_name": "Nagano",
+        "lat": 36.65,
+        "lng": 138.18333,
+        "name": "Nagano"
+      },
+      "geonames_id": 1856215
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Nagano Prefectural Suzaka Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "長野県立信州医療センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nagano Prefectural Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03cqxaf95"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

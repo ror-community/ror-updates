@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.494271.d"
+      ],
+      "preferred": "grid.494271.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0639 0062"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05evttw71",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ms.gba.gov.ar/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "AR",
+        "country_name": "Argentina",
+        "country_subdivision_code": "B",
+        "country_subdivision_name": "Buenos Aires",
+        "lat": -34.92145,
+        "lng": -57.95453,
+        "name": "La Plata"
+      },
+      "geonames_id": 3432043
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerio de Salud - Provincia de Buenos Aires"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hospital Zonal General de Agudos Dr. Arturo Oñativia",
+      "type": "child",
+      "id": "https://ror.org/040179b85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}
