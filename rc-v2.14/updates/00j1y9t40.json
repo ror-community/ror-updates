@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420040.2"
+      ],
+      "preferred": "grid.420040.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0614 3950"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00j1y9t40",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lebs.cnrs-gif.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.68333,
+        "lng": 2.13333,
+        "name": "Gif-sur-Yvette"
+      },
+      "geonames_id": 3016078
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LEBS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Laboratoire d'Enzymologie et Biochimie Structurales"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institut des Sciences Biologiques",
+      "type": "parent",
+      "id": "https://ror.org/00rydyx93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

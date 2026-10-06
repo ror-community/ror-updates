@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1895,
+  "external_ids": [
+    {
+      "all": [
+        "grid.240866.e"
+      ],
+      "preferred": "grid.240866.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2110 9177"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7589191"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00m72wv30",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dignityhealth.org/arizona/locations/stjosephs"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/St._Joseph%27s_Hospital_and_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "AZ",
+        "country_subdivision_name": "Arizona",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "name": "Phoenix"
+      },
+      "geonames_id": 5308655
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "St. Joseph's Hospital and Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Barrow Neurological Institute",
+      "type": "child",
+      "id": "https://ror.org/01fwrsq33"
+    },
+    {
+      "label": "Dignity Health",
+      "type": "parent",
+      "id": "https://ror.org/05c9r4685"
+    },
+    {
+      "label": "Creighton University",
+      "type": "related",
+      "id": "https://ror.org/05wf30g94"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

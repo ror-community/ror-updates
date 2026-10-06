@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100000773"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.428062.a"
+      ],
+      "preferred": "grid.428062.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0497 2835"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q18387089"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02gd18467",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chelwest.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Chelsea_and_Westminster_Hospital_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "name": "London"
+      },
+      "geonames_id": 2643743
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Chelsea and Westminster Hospital NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Chelsea and Westminster Hospital",
+      "type": "child",
+      "id": "https://ror.org/038zxea36"
+    },
+    {
+      "label": "West Middlesex University Hospital",
+      "type": "child",
+      "id": "https://ror.org/05vgg2c14"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

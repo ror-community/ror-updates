@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2007,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412915.a"
+      ],
+      "preferred": "grid.412915.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9565 2378"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4882291"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02tdmfk69",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.belfasttrust.hscni.net/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Belfast_Health_and_Social_Care_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "NIR",
+        "country_subdivision_name": "Northern Ireland",
+        "lat": 54.59682,
+        "lng": -5.92541,
+        "name": "Belfast"
+      },
+      "geonames_id": 2655984
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Belfast Health and Social Care Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Belfast City Hospital",
+      "type": "child",
+      "id": "https://ror.org/02405mj67"
+    },
+    {
+      "label": "Mater Hospital",
+      "type": "child",
+      "id": "https://ror.org/050batv17"
+    },
+    {
+      "label": "Musgrave Park Hospital",
+      "type": "child",
+      "id": "https://ror.org/01zyevp23"
+    },
+    {
+      "label": "Royal Belfast Hospital for Sick Children",
+      "type": "child",
+      "id": "https://ror.org/01cv0eh48"
+    },
+    {
+      "label": "Royal Jubilee Maternity Services",
+      "type": "child",
+      "id": "https://ror.org/02wp0er57"
+    },
+    {
+      "label": "Royal Victoria Hospital",
+      "type": "child",
+      "id": "https://ror.org/03rq50d77"
+    },
+    {
+      "label": "The Northern Ireland Cancer Centre",
+      "type": "child",
+      "id": "https://ror.org/030xykx52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

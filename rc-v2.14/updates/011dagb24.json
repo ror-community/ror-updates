@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100009823"
+      ],
+      "preferred": "501100009823",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416369.f"
+      ],
+      "preferred": "grid.416369.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0631 4668"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/011dagb24",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nsrsygehuse.dk"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "country_subdivision_code": "85",
+        "country_subdivision_name": "Zealand",
+        "lat": 55.22992,
+        "lng": 11.76092,
+        "name": "Næstved"
+      },
+      "geonames_id": 2616038
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Naestved Hospital"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "alias"
+      ],
+      "value": "Naestved Sygehus"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Næstved Hospital"
+    },
+    {
+      "lang": "da",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Næstved Sygehus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Region Zealand",
+      "type": "parent",
+      "id": "https://ror.org/01dtyv127"
+    },
+    {
+      "label": "University of Copenhagen",
+      "type": "related",
+      "id": "https://ror.org/035b05819"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

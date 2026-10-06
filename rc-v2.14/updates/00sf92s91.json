@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415875.a"
+      ],
+      "preferred": "grid.415875.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0368 6175"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00sf92s91",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lvhn.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.60843,
+        "lng": -75.49018,
+        "name": "Allentown"
+      },
+      "geonames_id": 5178127
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Allentown Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LVHN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lehigh Valley Health Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Lehigh Valley Hospital",
+      "type": "child",
+      "id": "https://ror.org/03h4fx826"
+    },
+    {
+      "label": "Lehigh Valley Hospital Muhlenberg",
+      "type": "child",
+      "id": "https://ror.org/009qqcw96"
+    },
+    {
+      "label": "Lehigh Valley Hospital-Pocono",
+      "type": "child",
+      "id": "https://ror.org/01w09ak35"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

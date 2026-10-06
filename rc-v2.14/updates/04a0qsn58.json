@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416864.9"
+      ],
+      "preferred": "grid.416864.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0435 1502"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04a0qsn58",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.upmc.com/locations/hospitals/st-margaret/pages/default.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "name": "Pittsburgh"
+      },
+      "geonames_id": 5206379
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "St. Margaret Memorial Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UPMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UPMC St. Margaret"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Pittsburgh",
+      "type": "related",
+      "id": "https://ror.org/01an3r305"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

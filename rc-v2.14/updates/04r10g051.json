@@ -1,0 +1,95 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-06",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.439530.8"
+      ],
+      "preferred": "grid.439530.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0446 956X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16842299"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04r10g051",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bhamcommunity.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Birmingham_Community_Healthcare_NHS_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.48142,
+        "lng": -1.89983,
+        "name": "Birmingham"
+      },
+      "geonames_id": 2655603
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Birmingham Community Healthcare NHS Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Birmingham Dental Hospital",
+      "type": "child",
+      "id": "https://ror.org/01xhmje49"
+    },
+    {
+      "label": "Moseley Hall Hospital",
+      "type": "child",
+      "id": "https://ror.org/037fz4341"
+    },
+    {
+      "label": "West Heath Hospital",
+      "type": "child",
+      "id": "https://ror.org/04pt7tz26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
