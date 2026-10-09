@@ -1,4 +1,4 @@
-# ROR Updates
+# ROR Update d
 This repository tracks proposed changes that are being reviewed and/or prepared for inclusion in [ROR](https://ror.org/). Proposed changes are reviewed by community curators to determine if they are in scope. Approved changes are then prepared for inclusion in a future ROR release. New and/or updated ROR records follow the ROR metadata schema and [metadata policies](https://github.com/ror-community/ror-updates/wiki/ROR-Metadata-Policies).
 # ROR scope
 The primary focus of ROR is the “affiliation and funder use case” - proper description of relationships between contributions, research sponsors, publishers, and employers. 
