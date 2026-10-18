@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "高知県公立大学法人"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Kochi",
+      "type": "child",
+      "id": "https://ror.org/02v1sf687"
+    },
+    {
+      "label": "Kochi University of Technology",
+      "type": "child",
+      "id": "https://ror.org/00rghrr56"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

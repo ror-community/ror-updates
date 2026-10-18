@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "岩手医科大学いわて東北メディカル・メガバンク機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iwate Medical University",
+      "type": "parent",
+      "id": "https://ror.org/04cybtr86"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

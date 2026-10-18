@@ -1,0 +1,106 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1966,
+  "external_ids": [
+    {
+      "all": [
+        "100016924"
+      ],
+      "preferred": "100016924",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410796.d"
+      ],
+      "preferred": "grid.410796.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0378 8307"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01v55qb38",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ncvc.go.jp/english/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "27",
+        "country_subdivision_name": "Osaka",
+        "lat": 34.69379,
+        "lng": 135.50107,
+        "name": "Osaka"
+      },
+      "geonames_id": 1853909
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCVC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Cerebral and Cardiovascular Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立循環器病センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Open Innovation Center, National Cerebral and Cardiovascular Center",
+      "type": "child",
+      "id": "https://ror.org/02p16wy92"
+    },
+    {
+      "label": "National Cerebral and Cardiovascular Center Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01zywn143"
+    },
+    {
+      "label": "National Cerebral and Cardiovascular Center Hospital",
+      "type": "child",
+      "id": "https://ror.org/052es0g48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -129,7 +129,13 @@
       "value": "資源生物科学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Okayama University",
+      "type": "parent",
+      "id": "https://ror.org/02pc6pc55"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

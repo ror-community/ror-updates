@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1899,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411217.0"
+      ],
+      "preferred": "grid.411217.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0531 2775"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11374911"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04k6gr834",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kuhp.kyoto-u.ac.jp/english/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Kyoto",
+        "lat": 35.02107,
+        "lng": 135.75385,
+        "name": "Kyoto"
+      },
+      "geonames_id": 1857910
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Kyoto University Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "京都大学医学部附属病院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kyoto University",
+      "type": "related",
+      "id": "https://ror.org/02kpeqv85"
+    },
+    {
+      "label": "Institute for Advancement of Clinical and Translational Science, Kyoto University Hospital",
+      "type": "child",
+      "id": "https://ror.org/04y60xx42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

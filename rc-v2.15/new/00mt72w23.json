@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "岐阜大学高等研究院微生物遺伝資源保存センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gifu University",
+      "type": "parent",
+      "id": "https://ror.org/024exxj48"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

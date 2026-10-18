@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "三重県水産研究所尾鷲水産研究室"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mie Prefecture Fisheries Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/016r0x448"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

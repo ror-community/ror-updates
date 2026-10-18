@@ -61,7 +61,23 @@
       "value": "Michigan State University/Kalamazoo Center for Medical Studies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Borgess Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/03964hc96"
+    },
+    {
+      "label": "Michigan State University",
+      "type": "parent",
+      "id": "https://ror.org/05hs6h993"
+    },
+    {
+      "label": "Western Michigan University Homer Stryker M.D. School of Medicine",
+      "type": "successor",
+      "id": "https://ror.org/0260anr77"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

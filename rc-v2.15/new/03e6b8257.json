@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "消防庁消防大学校"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fire and Disaster Management Agency",
+      "type": "parent",
+      "id": "https://ror.org/044fnrk44"
+    },
+    {
+      "label": "National Research Institute of Fire and Disaster",
+      "type": "child",
+      "id": "https://ror.org/00arw9a52"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

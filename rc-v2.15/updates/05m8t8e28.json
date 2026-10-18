@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-05-11",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100009553"
+      ],
+      "preferred": "501100009553",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/05m8t8e28",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.azvcr.cz"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CZ",
+        "country_name": "Czechia",
+        "country_subdivision_code": "10",
+        "country_subdivision_name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "name": "Prague"
+      },
+      "geonames_id": 3067696
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AZV CR"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "AZV ČR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Agency for Health Research of the Czech Republic"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "alias"
+      ],
+      "value": "Agentura Pro Zdravotnicky Vyzkum Ceske Republiky"
+    },
+    {
+      "lang": "cs",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agentura Pro Zdravotnický Výzkum České Republiky"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/00y6khe77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

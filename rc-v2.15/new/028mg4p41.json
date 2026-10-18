@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "東京都公立大学法人"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tokyo Metropolitan University",
+      "type": "related",
+      "id": "https://ror.org/00ws30h19"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

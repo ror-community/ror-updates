@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "鹿児島県農業開発総合センター熊毛支場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kagoshima Prefectural Institute For Agricultural Development",
+      "type": "parent",
+      "id": "https://ror.org/01v05f472"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

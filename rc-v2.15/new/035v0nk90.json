@@ -60,7 +60,23 @@
       "value": "Department of the Environment, Transport and the Regions"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of the Environment",
+      "type": "predecessor",
+      "id": "https://ror.org/02f2gmf47"
+    },
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "Department for Environment Food and Rural Affairs",
+      "type": "successor",
+      "id": "https://ror.org/00tnppw48"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

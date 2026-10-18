@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "北海道大学獣医学研究院附属動物病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hokkaido University",
+      "type": "related",
+      "id": "https://ror.org/02e16g702"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

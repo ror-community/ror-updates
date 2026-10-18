@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,18 @@
       "value": "計算科学研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institutes of Natural Sciences",
+      "type": "parent",
+      "id": "https://ror.org/055n47h92"
+    },
+    {
+      "label": "Institute for Molecular Science",
+      "type": "related",
+      "id": "https://ror.org/04wqh5h97"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

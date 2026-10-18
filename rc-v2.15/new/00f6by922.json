@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "山口大学埋蔵文化財資料館"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Yamaguchi University",
+      "type": "parent",
+      "id": "https://ror.org/03cxys317"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

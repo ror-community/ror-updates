@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "東北大学大学院医学系研究科附属動物実験施設"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tohoku University",
+      "type": "parent",
+      "id": "https://ror.org/01dq60k83"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

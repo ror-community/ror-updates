@@ -48,7 +48,18 @@
       "value": "Department of Employment"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "Department for Education and Employment",
+      "type": "successor",
+      "id": "https://ror.org/05h144v24"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

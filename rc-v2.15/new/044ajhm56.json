@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -99,7 +99,13 @@
       "value": "大阪市立大学附属植物園"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Osaka Metropolitan University",
+      "type": "parent",
+      "id": "https://ror.org/01hvx5h04"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

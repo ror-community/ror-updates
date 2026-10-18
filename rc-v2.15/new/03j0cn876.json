@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "産業技術総合研究所北陸デジタルものづくりセンター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institute of Advanced Industrial Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/01703db54"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

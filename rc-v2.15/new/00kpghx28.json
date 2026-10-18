@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "岩崎学園"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of Information Security",
+      "type": "child",
+      "id": "https://ror.org/03rmfrm44"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

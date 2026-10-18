@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "海上保安試験研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Coast Guard",
+      "type": "parent",
+      "id": "https://ror.org/03nv92q59"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

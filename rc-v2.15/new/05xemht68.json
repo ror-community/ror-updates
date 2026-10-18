@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "国立スポーツ科学センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Sport Council",
+      "type": "parent",
+      "id": "https://ror.org/01tx1rq25"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

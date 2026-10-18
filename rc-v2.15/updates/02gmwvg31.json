@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "fra.go.jp"
+  ],
+  "established": 1929,
+  "external_ids": [
+    {
+      "all": [
+        "501100014734"
+      ],
+      "preferred": "501100014734",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410851.9"
+      ],
+      "preferred": "grid.410851.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1764 1824"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02gmwvg31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.fra.go.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "14",
+        "country_subdivision_name": "Kanagawa",
+        "lat": 35.43333,
+        "lng": 139.65,
+        "name": "Yokohama"
+      },
+      "geonames_id": 1848354
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Fisheries Research Agency"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Japan Fisheries Research and Education Agency"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立研究開発法人水産研究・教育機構"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "水産研究・教育機構"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Marine Fisheries Research and Development Center, Japan Fisheries Research and Education Agency",
+      "type": "child",
+      "id": "https://ror.org/02hsng096"
+    },
+    {
+      "label": "Fisheries Technology Institute",
+      "type": "child",
+      "id": "https://ror.org/018ngjp06"
+    },
+    {
+      "label": "Fisheries Resources Institute",
+      "type": "child",
+      "id": "https://ror.org/01qf1g354"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "西東京三大学共同サステイナビリティ国際社会実装研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tokyo University of Agriculture and Technology",
+      "type": "parent",
+      "id": "https://ror.org/00qg0kr10"
+    },
+    {
+      "label": "Tokyo University of Foreign Studies",
+      "type": "related",
+      "id": "https://ror.org/027tyzk91"
+    },
+    {
+      "label": "University of Electro-Communications",
+      "type": "related",
+      "id": "https://ror.org/02x73b849"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

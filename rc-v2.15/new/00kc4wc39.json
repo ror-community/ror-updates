@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "野生動物管理学研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gifu University",
+      "type": "parent",
+      "id": "https://ror.org/024exxj48"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

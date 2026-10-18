@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "千葉大学・上海交通大学国際共同研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chiba University",
+      "type": "parent",
+      "id": "https://ror.org/01hjzeq58"
+    },
+    {
+      "label": "Shanghai Jiao Tong University",
+      "type": "related",
+      "id": "https://ror.org/0220qvk04"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,18 @@
       "value": "東京科学大学未来社会創成研究院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of Science Tokyo",
+      "type": "parent",
+      "id": "https://ror.org/05dqf9946"
+    },
+    {
+      "label": "Earth-Life Science Institute",
+      "type": "child",
+      "id": "https://ror.org/031dp5151"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

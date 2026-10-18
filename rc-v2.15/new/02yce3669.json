@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "東京科学大学総合研究院細胞制御工学研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of Science Tokyo",
+      "type": "parent",
+      "id": "https://ror.org/05dqf9946"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

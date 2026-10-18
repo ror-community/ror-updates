@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100018450"
+      ],
+      "preferred": "100018450",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.280246.a"
+      ],
+      "preferred": "grid.280246.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0470 9885"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17004374"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02psedk13",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dhs.wisconsin.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Wisconsin_Department_of_Health_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "WI",
+        "country_subdivision_name": "Wisconsin",
+        "lat": 43.07305,
+        "lng": -89.40123,
+        "name": "Madison"
+      },
+      "geonames_id": 5261457
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WisDHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Wisconsin Department of Health Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mendota Mental Health Institute",
+      "type": "child",
+      "id": "https://ror.org/00x396v48"
+    },
+    {
+      "label": "Wisconsin Division of Public Health",
+      "type": "child",
+      "id": "https://ror.org/04hbp2s71"
+    },
+    {
+      "label": "Sand Ridge Secure Treatment Center",
+      "type": "child",
+      "id": "https://ror.org/00s2hjv43"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

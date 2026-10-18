@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "国立アートリサーチセンター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Independent Administrative Agency National Museum of Art",
+      "type": "parent",
+      "id": "https://ror.org/04jafar77"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

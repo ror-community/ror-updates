@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -89,7 +89,13 @@
       "value": "富山大学研究推進機構水素同位体科学研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Toyama",
+      "type": "parent",
+      "id": "https://ror.org/0445phv87"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

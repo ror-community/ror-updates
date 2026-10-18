@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "六ヶ所研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institutes for Quantum Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/020rbyg91"
+    },
+    {
+      "label": "Japan Atomic Energy Agency",
+      "type": "related",
+      "id": "https://ror.org/05nf86y53"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

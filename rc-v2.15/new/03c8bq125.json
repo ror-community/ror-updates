@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,38 @@
       "value": "国立健康危機管理研究機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Health Labour and Welfare",
+      "type": "parent",
+      "id": "https://ror.org/03mwa7s65"
+    },
+    {
+      "label": "Center Hospital of National Center for Global Health and Medicine",
+      "type": "child",
+      "id": "https://ror.org/03tyftx38"
+    },
+    {
+      "label": "Kohnodai Hospital, National Center for Global Health and Medicine",
+      "type": "child",
+      "id": "https://ror.org/00bky6e07"
+    },
+    {
+      "label": "National College Of Nursing",
+      "type": "child",
+      "id": "https://ror.org/0535jaz61"
+    },
+    {
+      "label": "National Institute of Infectious Diseases",
+      "type": "predecessor",
+      "id": "https://ror.org/001ggbx22"
+    },
+    {
+      "label": "National Center for Global Health and Medicine",
+      "type": "predecessor",
+      "id": "https://ror.org/00r9w3j27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

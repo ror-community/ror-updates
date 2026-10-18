@@ -111,7 +111,18 @@
       "value": "United Kingdom Department of Trade and Industry"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of the United Kingdom",
+      "type": "parent",
+      "id": "https://ror.org/05wnh3t63"
+    },
+    {
+      "label": "Department for Business, Energy and Industrial Strategy",
+      "type": "successor",
+      "id": "https://ror.org/019ya6433"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "大学共同利用機関法人情報・システム研究機構データサイエンス共同利用基盤施設"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Research Organization of Information and Systems",
+      "type": "parent",
+      "id": "https://ror.org/04p4e8t29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

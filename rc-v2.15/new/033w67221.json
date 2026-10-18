@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "兵庫県立大学自然・環境科学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Hyogo",
+      "type": "parent",
+      "id": "https://ror.org/0151bmh98"
+    },
+    {
+      "label": "Museum of Nature and Human Activities Hyogo",
+      "type": "related",
+      "id": "https://ror.org/05qszhe91"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "群馬県公立大学法人"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gunma Prefectural Women's University",
+      "type": "child",
+      "id": "https://ror.org/016hp9x85"
+    },
+    {
+      "label": "Gunma Prefectural College of Health Sciences",
+      "type": "child",
+      "id": "https://ror.org/048xnxc75"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

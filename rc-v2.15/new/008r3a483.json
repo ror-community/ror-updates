@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "岡山大学環境生命自然科学研究科附属低炭素・廃棄物循環研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Okayama University",
+      "type": "parent",
+      "id": "https://ror.org/02pc6pc55"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

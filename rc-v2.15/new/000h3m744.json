@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "千葉大学植物分子科学研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Chiba University",
+      "type": "parent",
+      "id": "https://ror.org/01hjzeq58"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

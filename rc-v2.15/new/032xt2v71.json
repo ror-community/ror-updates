@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "農林水産省農林水産研修所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Agriculture, Forestry and Fisheries",
+      "type": "parent",
+      "id": "https://ror.org/02zdz1m23"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

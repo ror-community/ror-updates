@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Idemitsu BASF Co., Ltd."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Idemitsu Kosan (Japan)",
+      "type": "related",
+      "id": "https://ror.org/002v59719"
+    },
+    {
+      "label": "BASF (Germany)",
+      "type": "related",
+      "id": "https://ror.org/01q8f6705"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

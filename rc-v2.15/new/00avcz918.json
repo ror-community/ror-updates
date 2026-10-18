@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "札幌医科大学医学部附属研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sapporo Medical University",
+      "type": "parent",
+      "id": "https://ror.org/01h7cca57"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

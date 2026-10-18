@@ -78,7 +78,18 @@
       "value": "Massachusetts Department of Correction"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Massachusetts Treatment Center",
+      "type": "child",
+      "id": "https://ror.org/00t77mq86"
+    },
+    {
+      "label": "Commonwealth of Massachusetts",
+      "type": "parent",
+      "id": "https://ror.org/05h4vvj02"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

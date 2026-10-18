@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "和歌山県立医科大学みらい医療推進センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Wakayama Medical University",
+      "type": "parent",
+      "id": "https://ror.org/005qv5373"
+    },
+    {
+      "label": "Wakayama Medical University Hospital",
+      "type": "related",
+      "id": "https://ror.org/03d4rvp51"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

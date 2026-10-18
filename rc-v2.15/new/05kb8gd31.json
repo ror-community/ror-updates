@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "愛知医科大学分子医科学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Aichi Medical University",
+      "type": "parent",
+      "id": "https://ror.org/02h6cs343"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

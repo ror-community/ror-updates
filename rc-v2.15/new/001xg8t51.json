@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -92,7 +92,13 @@
       "value": "放射光科学研究施設"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute of Materials Structure Science",
+      "type": "parent",
+      "id": "https://ror.org/0327y7e25"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

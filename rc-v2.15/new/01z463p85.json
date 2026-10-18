@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "国立国際医療研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Center for Global Health and Medicine",
+      "type": "predecessor",
+      "id": "https://ror.org/00r9w3j27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

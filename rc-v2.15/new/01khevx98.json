@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "神戸大学都市安全研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kobe University",
+      "type": "parent",
+      "id": "https://ror.org/03tgsfw79"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

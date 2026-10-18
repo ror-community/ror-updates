@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "近畿大学情報学研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kindai University",
+      "type": "parent",
+      "id": "https://ror.org/05kt9ap64"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

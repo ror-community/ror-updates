@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "国土交通省国土交通大学校"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Land, Infrastructure, Transport and Tourism",
+      "type": "parent",
+      "id": "https://ror.org/00b0p4j69"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

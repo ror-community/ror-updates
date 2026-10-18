@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "弘前大学被ばく医療総合研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hirosaki University",
+      "type": "parent",
+      "id": "https://ror.org/02syg0q74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

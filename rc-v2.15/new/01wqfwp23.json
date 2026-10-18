@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "大阪大学基礎工学研究科附属スピントロニクス学術連携研究教育センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Osaka",
+      "type": "parent",
+      "id": "https://ror.org/035t8zc32"
+    },
+    {
+      "label": "Spintronics Research Network of Japan",
+      "type": "related",
+      "id": "https://ror.org/03bbyax37"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "九州大学次世代接着技術研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyushu University",
+      "type": "parent",
+      "id": "https://ror.org/00p4k0j84"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "宮城県水産技術総合センター内水面水産試験場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Miyagi Prefecture Fisheries Technology Institute",
+      "type": "parent",
+      "id": "https://ror.org/02c9sby34"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

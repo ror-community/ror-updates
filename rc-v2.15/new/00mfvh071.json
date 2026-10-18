@@ -67,7 +67,18 @@
       "value": "U.S. National Institute of Education"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Education",
+      "type": "parent",
+      "id": "https://ror.org/021adze67"
+    },
+    {
+      "label": "Institute of Education Sciences",
+      "type": "successor",
+      "id": "https://ror.org/04et59085"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

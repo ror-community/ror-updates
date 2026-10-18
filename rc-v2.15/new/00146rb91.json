@@ -81,7 +81,18 @@
       "value": "National Institute for Medical Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medical Research Council",
+      "type": "parent",
+      "id": "https://ror.org/03x94j517"
+    },
+    {
+      "label": "The Francis Crick Institute",
+      "type": "successor",
+      "id": "https://ror.org/04tnbqb63"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"

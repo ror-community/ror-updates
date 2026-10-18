@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "盛岡大学短期大学部"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Morioka University",
+      "type": "parent",
+      "id": "https://ror.org/03wkbyb17"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

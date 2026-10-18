@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "大阪大学微生物病研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Osaka",
+      "type": "parent",
+      "id": "https://ror.org/035t8zc32"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

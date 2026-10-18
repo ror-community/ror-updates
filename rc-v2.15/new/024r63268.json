@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "アスベスト疾患研究・研修センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Organization of Occupational Health and Safety",
+      "type": "parent",
+      "id": "https://ror.org/03khcdd80"
+    },
+    {
+      "label": "Okayama Rosai Hospital",
+      "type": "related",
+      "id": "https://ror.org/04cmadr83"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

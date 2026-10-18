@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "埼玉県立がんセンター臨床腫瘍研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saitama Cancer Center",
+      "type": "parent",
+      "id": "https://ror.org/03a4d7t12"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,18 @@
       "value": "石川県公立大学法人"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ishikawa Prefectural University",
+      "type": "child",
+      "id": "https://ror.org/00b45dj41"
+    },
+    {
+      "label": "Ishikawa Prefectural Nursing University",
+      "type": "child",
+      "id": "https://ror.org/04vb9qy63"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

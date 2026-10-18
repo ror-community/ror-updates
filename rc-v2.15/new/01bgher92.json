@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "県北農業研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Iwate Agricultural Research Center",
+      "type": "parent",
+      "id": "https://ror.org/04qaba707"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "群馬県農業技術センターこんにゃく特産研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gunma Agricultural Technology Center",
+      "type": "parent",
+      "id": "https://ror.org/017ytjn57"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -87,7 +87,18 @@
       "value": "Instituto Carlos Chagas"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fundação Oswaldo Cruz",
+      "type": "parent",
+      "id": "https://ror.org/04jhswv08"
+    },
+    {
+      "label": "Instituto de Biologia Molecular do Paraná",
+      "type": "related",
+      "id": "https://ror.org/00gkmm041"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

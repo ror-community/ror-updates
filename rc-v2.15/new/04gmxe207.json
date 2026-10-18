@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "愛知大学三遠南信地域連携研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Aichi University",
+      "type": "parent",
+      "id": "https://ror.org/0172hvg27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

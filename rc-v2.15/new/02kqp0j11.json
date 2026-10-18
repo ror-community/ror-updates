@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "静岡県農林技術研究所果樹研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shizuoka Prefecture Agricultural and Forestry Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/024285019"
+    },
+    {
+      "label": "Shizuoka Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/04vd4xz14"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

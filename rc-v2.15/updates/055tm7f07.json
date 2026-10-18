@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "501100003050",
+        "501100003087"
+      ],
+      "preferred": "501100003050",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420184.b"
+      ],
+      "preferred": "grid.420184.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9936 4488"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1197264"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/055tm7f07",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.meti.go.jp/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Economy,_Trade_and_Industry_(Japan)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Keizai-sangyō-shō"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "METI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Economy, Trade and Industry"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "経済産業省"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Information-Technology Promotion Agency",
+      "type": "child",
+      "id": "https://ror.org/034e1cb35"
+    },
+    {
+      "label": "Japan External Trade Organization",
+      "type": "child",
+      "id": "https://ror.org/0480zh114"
+    },
+    {
+      "label": "Japan Patent Office",
+      "type": "child",
+      "id": "https://ror.org/02hgkrr64"
+    },
+    {
+      "label": "Training Institute of Economy, Trade and Industry",
+      "type": "child",
+      "id": "https://ror.org/04271am58"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "愛知県医療療育総合センター発達障害研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Aichi Developmental Disability Center",
+      "type": "parent",
+      "id": "https://ror.org/05w4mbn40"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

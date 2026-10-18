@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,23 @@
       "value": "統合糖鎖研究拠点"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tokai National Higher Education and Research System",
+      "type": "parent",
+      "id": "https://ror.org/04d139241"
+    },
+    {
+      "label": "Nagoya University",
+      "type": "related",
+      "id": "https://ror.org/04chrp450"
+    },
+    {
+      "label": "Gifu University",
+      "type": "related",
+      "id": "https://ror.org/024exxj48"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

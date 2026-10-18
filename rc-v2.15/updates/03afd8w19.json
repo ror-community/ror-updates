@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1892,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419716.c"
+      ],
+      "preferred": "grid.419716.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0615 8175"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03afd8w19",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.saude.sp.gov.br/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "SA",
+        "continent_name": "South America",
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "country_subdivision_code": "SP",
+        "country_subdivision_name": "São Paulo",
+        "lat": -23.5475,
+        "lng": -46.63611,
+        "name": "São Paulo"
+      },
+      "geonames_id": 3448439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SES-SP"
+    },
+    {
+      "lang": "pt",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Secretaria da Saúde"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hemorio",
+      "type": "child",
+      "id": "https://ror.org/003mvv560"
+    },
+    {
+      "label": "Instituto de Saúde",
+      "type": "child",
+      "id": "https://ror.org/03xm57x75"
+    },
+    {
+      "label": "Centro de Vigilância Epidemiológica \"Prof. Alexandre Vranjac\"",
+      "type": "child",
+      "id": "https://ror.org/04s1w3n77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

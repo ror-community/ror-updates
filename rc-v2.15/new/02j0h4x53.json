@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "金沢大学未来知実証センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kanazawa University",
+      "type": "parent",
+      "id": "https://ror.org/02hwp6a56"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

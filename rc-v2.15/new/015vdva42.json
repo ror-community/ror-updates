@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "群馬大学生体調節研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gunma University",
+      "type": "parent",
+      "id": "https://ror.org/046fm7598"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

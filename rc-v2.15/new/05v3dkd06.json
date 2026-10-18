@@ -66,7 +66,18 @@
       "value": "McGill Centre for Viral Diseases"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "parent",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "Lady Davis Institute for Medical Research",
+      "type": "related",
+      "id": "https://ror.org/02c1np254"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

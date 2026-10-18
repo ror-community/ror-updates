@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "物質計測標準研究部門"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Metrology Institute of Japan",
+      "type": "parent",
+      "id": "https://ror.org/00j3eeb74"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

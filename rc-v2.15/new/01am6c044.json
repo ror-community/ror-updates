@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "福島県立医科大学ふくしま国際医療科学センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fukushima Medical University",
+      "type": "parent",
+      "id": "https://ror.org/012eh0r35"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

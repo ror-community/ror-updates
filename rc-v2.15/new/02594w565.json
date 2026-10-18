@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "廃炉環境国際共同研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Japan Atomic Energy Agency",
+      "type": "parent",
+      "id": "https://ror.org/05nf86y53"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

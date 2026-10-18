@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "加古川中央市民病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kakogawa City Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03yb7n124"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

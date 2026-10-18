@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100006120"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453509.e"
+      ],
+      "preferred": "grid.453509.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q1125558"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03rybxa06",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.env.go.jp/en/index.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_the_Environment_(Japan)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Kankyō-shō"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of the Environment"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "環境省"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Global Environmental Outreach Centre",
+      "type": "child",
+      "id": "https://ror.org/00d8hgw93"
+    },
+    {
+      "label": "The National Environmental Research and Training Institute",
+      "type": "child",
+      "id": "https://ror.org/02h37ec71"
+    },
+    {
+      "label": "Biodiversity Center of Japan",
+      "type": "child",
+      "id": "https://ror.org/01ykp7m77"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

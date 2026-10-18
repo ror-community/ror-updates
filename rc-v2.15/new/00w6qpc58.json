@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "国立精神・神経医療研究センター認知行動療法センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Center of Neurology and Psychiatry",
+      "type": "parent",
+      "id": "https://ror.org/0254bmq54"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

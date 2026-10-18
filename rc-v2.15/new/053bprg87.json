@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "熊本大学キャンパスミュージアム推進機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kumamoto University",
+      "type": "parent",
+      "id": "https://ror.org/02cgss904"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

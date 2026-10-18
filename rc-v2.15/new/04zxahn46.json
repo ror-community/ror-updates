@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "沖縄県農業研究センター宮古島支所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Okinawa Prefectural Agricultural Research Center",
+      "type": "parent",
+      "id": "https://ror.org/038xj9474"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

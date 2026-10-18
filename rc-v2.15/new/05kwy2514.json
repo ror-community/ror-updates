@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "京都府農林水産技術センター農林センター森林技術センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto Prefectural Agriculture, Forestry and Fisheries Technology Center",
+      "type": "parent",
+      "id": "https://ror.org/03t99av60"
+    },
+    {
+      "label": "Kyoto Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/035n4wk95"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

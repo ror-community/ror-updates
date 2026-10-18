@@ -106,7 +106,18 @@
       "value": "Royal Edward Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McGill University Health Centre",
+      "type": "parent",
+      "id": "https://ror.org/04cpxjv19"
+    },
+    {
+      "label": "McGill University",
+      "type": "related",
+      "id": "https://ror.org/01pxwe438"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

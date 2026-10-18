@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "関西空港検疫所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Health Labour and Welfare",
+      "type": "parent",
+      "id": "https://ror.org/03mwa7s65"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

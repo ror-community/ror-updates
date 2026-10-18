@@ -1,0 +1,76 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-09-29",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [],
+  "id": "https://ror.org/04qaba707",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.pref.iwate.jp/agri/nouken/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "03",
+        "country_subdivision_name": "Iwate",
+        "lat": 39.28333,
+        "lng": 141.11667,
+        "name": "Kitakami"
+      },
+      "geonames_id": 2112227
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Iwate Agricultural Research Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "岩手県農業研究センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Iwate Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/05g6ct380"
+    },
+    {
+      "label": "Kenpoku Agricultural Research Institute",
+      "type": "child",
+      "id": "https://ror.org/01bgher92"
+    },
+    {
+      "label": "Iwate Agricultural Research Center Livestock Research Institute",
+      "type": "child",
+      "id": "https://ror.org/008x55q64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

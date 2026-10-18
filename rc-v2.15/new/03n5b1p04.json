@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "名古屋大学遺伝子実験施設"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nagoya University",
+      "type": "parent",
+      "id": "https://ror.org/04chrp450"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

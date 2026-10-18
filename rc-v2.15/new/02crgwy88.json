@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "玉野三井総合病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tamano Medical Center",
+      "type": "parent",
+      "id": "https://ror.org/02k736151"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

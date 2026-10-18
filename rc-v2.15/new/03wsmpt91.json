@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "信州大学社会実装研究クラスター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shinshu University",
+      "type": "parent",
+      "id": "https://ror.org/0244rem06"
+    },
+    {
+      "label": "Interdisciplinary Cluster for Cutting Edge Research, Shinshu University",
+      "type": "predecessor",
+      "id": "https://ror.org/03qykce57"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,23 @@
       "value": "東北大学高等研究機構未来型医療創成センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tohoku University",
+      "type": "parent",
+      "id": "https://ror.org/01dq60k83"
+    },
+    {
+      "label": "Tohoku Medical Megabank Organization",
+      "type": "related",
+      "id": "https://ror.org/03zzyap02"
+    },
+    {
+      "label": "Tohoku University Hospital",
+      "type": "related",
+      "id": "https://ror.org/00kcd6x60"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

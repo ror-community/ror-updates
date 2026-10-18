@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,18 @@
       "value": "東京国立近代美術館工芸館"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Independent Administrative Agency National Museum of Art",
+      "type": "parent",
+      "id": "https://ror.org/04jafar77"
+    },
+    {
+      "label": "National Museum of Modern Art Tokyo",
+      "type": "related",
+      "id": "https://ror.org/02g6as782"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

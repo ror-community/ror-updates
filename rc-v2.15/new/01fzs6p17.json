@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "堺市立病院機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sakai City Medical Center",
+      "type": "child",
+      "id": "https://ror.org/014nm9q97"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "自治医科大学先端医療技術開発センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Jichi Medical University",
+      "type": "parent",
+      "id": "https://ror.org/010hz0g26"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

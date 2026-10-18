@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "昭和医科大学発達障害医療研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "SHOWA Medical University",
+      "type": "parent",
+      "id": "https://ror.org/04mzk4q39"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

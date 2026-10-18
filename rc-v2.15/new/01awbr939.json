@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "東京大学応用資本市場研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Tokyo",
+      "type": "parent",
+      "id": "https://ror.org/057zh3y96"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

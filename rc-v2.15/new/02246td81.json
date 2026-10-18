@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "京都大学大学院医学研究科附属がん免疫総合研究センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto University",
+      "type": "parent",
+      "id": "https://ror.org/02kpeqv85"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

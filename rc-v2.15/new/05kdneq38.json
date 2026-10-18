@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "福岡県工業技術センター機械電子研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fukuoka Industrial Technology Center",
+      "type": "parent",
+      "id": "https://ror.org/04v6bh038"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

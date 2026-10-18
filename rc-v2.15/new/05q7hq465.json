@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "京都大学文学研究科附属文化遺産学・人文知連携センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kyoto University",
+      "type": "parent",
+      "id": "https://ror.org/02kpeqv85"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

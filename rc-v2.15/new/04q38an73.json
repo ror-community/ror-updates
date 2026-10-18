@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,23 @@
       "value": "北海道国立大学機構"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Otaru University of Commerce",
+      "type": "child",
+      "id": "https://ror.org/00pbv8y11"
+    },
+    {
+      "label": "Obihiro University of Agriculture and Veterinary Medicine",
+      "type": "child",
+      "id": "https://ror.org/02t9fsj94"
+    },
+    {
+      "label": "Kitami Institute of Technology",
+      "type": "child",
+      "id": "https://ror.org/05wks2t16"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

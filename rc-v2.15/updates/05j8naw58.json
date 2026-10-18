@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415931.b"
+      ],
+      "preferred": "grid.415931.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0389 1806"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05j8naw58",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.sinai.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "IL",
+        "country_subdivision_name": "Illinois",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "name": "Chicago"
+      },
+      "geonames_id": 4887398
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Sinai Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Mount Sinai Hospital",
+      "type": "child",
+      "id": "https://ror.org/019jr0130"
+    },
+    {
+      "label": "Schwab Rehabilitation Hospital",
+      "type": "child",
+      "id": "https://ror.org/01sm75b57"
+    },
+    {
+      "label": "Sinai Urban Health Institute",
+      "type": "child",
+      "id": "https://ror.org/01zw67v12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

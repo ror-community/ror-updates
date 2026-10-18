@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1920,
+  "external_ids": [
+    {
+      "all": [
+        "501100012701"
+      ],
+      "preferred": "501100012701",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.412339.e"
+      ],
+      "preferred": "grid.412339.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1172 4459"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1195814"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04f4wg107",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.saga-u.ac.jp/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Saga_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "41",
+        "country_subdivision_name": "Saga",
+        "lat": 33.23333,
+        "lng": 130.3,
+        "name": "Saga"
+      },
+      "geonames_id": 1853303
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Saga University"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Saga daigaku"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "佐賀大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Saga Medical School Hospital",
+      "type": "related",
+      "id": "https://ror.org/00g51j712"
+    },
+    {
+      "label": "Institute of Ocean Energy, Saga University",
+      "type": "child",
+      "id": "https://ror.org/056qjjw26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

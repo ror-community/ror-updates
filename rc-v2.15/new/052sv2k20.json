@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "奈良県農業総合研究センター大和茶研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nara Prefecture Agricultural Research and Development Center",
+      "type": "parent",
+      "id": "https://ror.org/00gmq0p08"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

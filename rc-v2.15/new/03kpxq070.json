@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "野辺山宇宙電波観測所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Astronomical Observatory of Japan",
+      "type": "parent",
+      "id": "https://ror.org/052rrw050"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

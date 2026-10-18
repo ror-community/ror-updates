@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413871.8"
+      ],
+      "preferred": "grid.413871.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0124 3248"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04t23pb41",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chu-charleroi.be/le-chu"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "WAL",
+        "country_subdivision_name": "Wallonia",
+        "lat": 50.41136,
+        "lng": 4.44448,
+        "name": "Charleroi"
+      },
+      "geonames_id": 2800481
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpital Civil de Charleroi"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Hôpital civil Marie Curie"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "HUmani - CHU Charleroi-Chimay",
+      "type": "child",
+      "id": "https://ror.org/01bsprx54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

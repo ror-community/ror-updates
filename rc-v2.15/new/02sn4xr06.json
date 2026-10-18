@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "広島県立総合技術研究所保健環境センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hiroshima Prefectural Technology Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/00zcmwh29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

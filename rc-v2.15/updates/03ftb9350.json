@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.475157.5"
+      ],
+      "preferred": "grid.475157.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8902 9934"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1190574"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ftb9350",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.japan.go.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Government_of_Japan"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Japan"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Internal Affairs and Communications",
+      "type": "child",
+      "id": "https://ror.org/00vs1pz50"
+    },
+    {
+      "label": "Prime Minister's Office of Japan",
+      "type": "child",
+      "id": "https://ror.org/03mgd3b36"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

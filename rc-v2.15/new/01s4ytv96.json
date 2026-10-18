@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "神奈川県水産技術センター相模湾試験場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kanagawa Prefectural Fisheries Technology Center",
+      "type": "parent",
+      "id": "https://ror.org/04jfp3d15"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

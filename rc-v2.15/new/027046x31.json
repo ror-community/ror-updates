@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "慶應義塾大学グローバルセキュリティ研究所"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Keio University",
+      "type": "parent",
+      "id": "https://ror.org/02kn6nx58"
+    },
+    {
+      "label": "Keio University Global Research Institute",
+      "type": "successor",
+      "id": "https://ror.org/05arcqa69"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"

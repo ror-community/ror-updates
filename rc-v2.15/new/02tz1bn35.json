@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "静岡大学防災総合センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shizuoka University",
+      "type": "parent",
+      "id": "https://ror.org/01w6wtk13"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

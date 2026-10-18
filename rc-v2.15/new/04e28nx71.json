@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "宮崎県総合農業試験場亜熱帯作物支場"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Miyazaki Prefectural Government",
+      "type": "parent",
+      "id": "https://ror.org/03nk1jp69"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

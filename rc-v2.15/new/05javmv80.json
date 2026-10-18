@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,18 @@
       "value": "君津学園"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Seiwa University",
+      "type": "child",
+      "id": "https://ror.org/03bya9897"
+    },
+    {
+      "label": "Seiwa University Junior College",
+      "type": "child",
+      "id": "https://ror.org/01pawd381"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "長崎大学 子どもの心の医療・教育センター"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nagasaki University",
+      "type": "parent",
+      "id": "https://ror.org/058h74p94"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "自治大学校"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Internal Affairs and Communications",
+      "type": "parent",
+      "id": "https://ror.org/00vs1pz50"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

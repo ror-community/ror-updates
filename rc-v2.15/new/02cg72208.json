@@ -62,7 +62,28 @@
       "value": "Paris Centre for Quantum Computing"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Sorbonne Université",
+      "type": "parent",
+      "id": "https://ror.org/02en5vm52"
+    },
+    {
+      "label": "Université Paris Cité",
+      "type": "parent",
+      "id": "https://ror.org/05f82e368"
+    },
+    {
+      "label": "Paris Centre for Quantum Technologies",
+      "type": "successor",
+      "id": "https://ror.org/00adasd53"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"
