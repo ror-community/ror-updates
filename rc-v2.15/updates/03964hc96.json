@@ -1,1 +1,86 @@
-{"admin": {"created": {"date": "2018-11-14", "schema_version": "1.0"}, "last_modified": {"date": "2024-12-11", "schema_version": "2.1"}}, "domains": [], "established": 1889, "external_ids": [{"all": ["grid.414567.5"], "preferred": "grid.414567.5", "type": "grid"}, {"all": ["0000 0001 0369 2936"], "preferred": null, "type": "isni"}], "id": "https://ror.org/03964hc96", "links": [{"type": "website", "value": "http://www.borgess.com/?pId=84"}], "locations": [{"geonames_details": {"continent_code": "NA", "continent_name": "North America", "country_code": "US", "country_name": "United States", "country_subdivision_code": "MI", "country_subdivision_name": "Michigan", "lat": 42.29171, "lng": -85.58723, "name": "Kalamazoo"}, "geonames_id": 4997787}], "names": [{"lang": null, "types": ["acronym"], "value": "BMC"}, {"lang": "en", "types": ["ror_display", "label"], "value": "Borgess Medical Center"}], "relationships": [{"label": "Borgess Health", "type": "parent", "id": "https://ror.org/05r8vsn81"}, {"label": "Michigan State University", "type": "related", "id": "https://ror.org/05hs6h993"}], "status": "active", "types": ["healthcare"]}
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1889,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414567.5"
+      ],
+      "preferred": "grid.414567.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0369 2936"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/03964hc96",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.borgess.com/?pId=84"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.29171,
+        "lng": -85.58723,
+        "name": "Kalamazoo"
+      },
+      "geonames_id": 4997787
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "BMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Borgess Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Borgess Health",
+      "type": "parent",
+      "id": "https://ror.org/05r8vsn81"
+    },
+    {
+      "label": "Michigan State University",
+      "type": "related",
+      "id": "https://ror.org/05hs6h993"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

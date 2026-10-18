@@ -1,1 +1,133 @@
-{"admin": {"created": {"date": "2018-11-14", "schema_version": "1.0"}, "last_modified": {"date": "2024-12-11", "schema_version": "2.1"}}, "domains": [], "established": 1939, "external_ids": [{"all": ["grid.433982.7"], "preferred": "grid.433982.7", "type": "grid"}, {"all": ["0000 0001 2155 9477"], "preferred": null, "type": "isni"}, {"all": ["Q1355327"], "preferred": null, "type": "wikidata"}], "id": "https://ror.org/00bws1855", "links": [{"type": "website", "value": "https://www.whitehouse.gov/about-the-white-house/the-executive-branch/#Executive%20Office%20of%20the%20President"}, {"type": "wikipedia", "value": "https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States"}], "locations": [{"geonames_details": {"continent_code": "NA", "continent_name": "North America", "country_code": "US", "country_name": "United States", "country_subdivision_code": "DC", "country_subdivision_name": "District of Columbia", "lat": 38.89511, "lng": -77.03637, "name": "Washington"}, "geonames_id": 4140963}], "names": [{"lang": "fr", "types": ["label"], "value": "Bureau exécutif du président des États-unis"}, {"lang": null, "types": ["acronym"], "value": "EOP"}, {"lang": null, "types": ["alias"], "value": "EOPOTUS"}, {"lang": "en", "types": ["ror_display", "label"], "value": "Executive Office of the President"}, {"lang": "es", "types": ["label"], "value": "Oficina Ejecutiva del Presidente de los Estados Unidos"}], "relationships": [{"label": "Council of Economic Advisers", "type": "child", "id": "https://ror.org/02s4m5j79"}, {"label": "Council on Environmental Quality", "type": "child", "id": "https://ror.org/05998w930"}, {"label": "National Labor Relations Board", "type": "child", "id": "https://ror.org/0351agv44"}, {"label": "Office of Science and Technology Policy", "type": "child", "id": "https://ror.org/02bjkqr85"}, {"label": "Government of the United States of America", "type": "parent", "id": "https://ror.org/02rcrvv70"}], "status": "active", "types": ["government"]}
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1939,
+  "external_ids": [
+    {
+      "all": [
+        "grid.433982.7"
+      ],
+      "preferred": "grid.433982.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2155 9477"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1355327"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00bws1855",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.whitehouse.gov/about-the-white-house/the-executive-branch/#Executive%20Office%20of%20the%20President"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Bureau exécutif du président des États-unis"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "EOP"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "EOPOTUS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Executive Office of the President"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Oficina Ejecutiva del Presidente de los Estados Unidos"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Council of Economic Advisers",
+      "type": "child",
+      "id": "https://ror.org/02s4m5j79"
+    },
+    {
+      "label": "Council on Environmental Quality",
+      "type": "child",
+      "id": "https://ror.org/05998w930"
+    },
+    {
+      "label": "National Labor Relations Board",
+      "type": "child",
+      "id": "https://ror.org/0351agv44"
+    },
+    {
+      "label": "Office of Science and Technology Policy",
+      "type": "child",
+      "id": "https://ror.org/02bjkqr85"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}
