@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1955,
+  "external_ids": [
+    {
+      "all": [
+        "grid.417118.a"
+      ],
+      "preferred": "grid.417118.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0435 1924"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30286651"
+      ],
+      "preferred": "Q30286651",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03artm726",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://corewellhealth.org/locations/LOC0000193218/corewell-health-william-beaumont-university-hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.48948,
+        "lng": -83.14465,
+        "name": "Royal Oak"
+      },
+      "geonames_id": 5007804
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beaumont Hospital, Royal Oak"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Corewell Health William Beaumont University Hospital"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "WBH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "William Beaumont Hospital, Royal Oak"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Corewell Health",
+      "type": "parent",
+      "id": "https://ror.org/02hb5yj49"
+    },
+    {
+      "label": "Oakland University",
+      "type": "related",
+      "id": "https://ror.org/01ythxj32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "chc.be"
+  ],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "grid.433083.f"
+      ],
+      "preferred": "grid.433083.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0608 8015"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q19950920"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/002atrf55",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.chc.be/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "WAL",
+        "country_subdivision_name": "Wallonia",
+        "lat": 50.63373,
+        "lng": 5.56749,
+        "name": "Liège"
+      },
+      "geonames_id": 2792413
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHC"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Chrétien"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Groupe santé CHC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clinic of Hope",
+      "type": "child",
+      "id": "https://ror.org/03z222993"
+    },
+    {
+      "label": "Clinique Saint-Joseph",
+      "type": "child",
+      "id": "https://ror.org/027sxqf09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

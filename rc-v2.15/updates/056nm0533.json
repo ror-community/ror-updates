@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1887,
+  "external_ids": [
+    {
+      "all": [
+        "grid.421534.5"
+      ],
+      "preferred": "grid.421534.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0524 8072"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/056nm0533",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cooperhealth.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 39.92595,
+        "lng": -75.11962,
+        "name": "Camden"
+      },
+      "geonames_id": 4501018
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Cooper Norcross Health"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Cooper University Health Care"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cooper Medical School of Rowan University",
+      "type": "child",
+      "id": "https://ror.org/007evha27"
+    },
+    {
+      "label": "Cooper University Hospital",
+      "type": "child",
+      "id": "https://ror.org/049wjac82"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

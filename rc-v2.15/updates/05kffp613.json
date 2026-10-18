@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1885,
+  "external_ids": [
+    {
+      "all": [
+        "100001003"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.418412.a"
+      ],
+      "preferred": "grid.418412.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 1312 9717"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q29000165"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05kffp613",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://us.boehringer-ingelheim.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Boehringer_Ingelheim"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CT",
+        "country_subdivision_name": "Connecticut",
+        "lat": 41.28148,
+        "lng": -73.49818,
+        "name": "Ridgefield"
+      },
+      "geonames_id": 4841463
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Boehringer Ingelheim (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Boehringer Ingelheim Pharmaceuticals, Inc. (US)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Boehringer Ingelheim (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/00q32j219"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}
