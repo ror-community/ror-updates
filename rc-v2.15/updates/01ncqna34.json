@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "100009410"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467584.c"
+      ],
+      "preferred": "grid.467584.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5900 5367"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30264147"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01ncqna34",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://sc-ctsi.org/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.05223,
+        "lng": -118.24368,
+        "name": "Los Angeles"
+      },
+      "geonames_id": 5368361
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SC CTSI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Southern California Clinical and Translational Science Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Children's Hospital Los Angeles",
+      "type": "related",
+      "id": "https://ror.org/00412ts95"
+    },
+    {
+      "label": "University of Southern California",
+      "type": "related",
+      "id": "https://ror.org/03taz7m60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

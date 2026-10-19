@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1987,
+  "external_ids": [
+    {
+      "all": [
+        "grid.477026.0"
+      ],
+      "preferred": "grid.477026.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0442 4409"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30269606"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03z222993",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.chc.be/Cliniques/Clinique-de-l-Esperance-Montegnee.aspx"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "country_subdivision_code": "WAL",
+        "country_subdivision_name": "Wallonia",
+        "lat": 50.64576,
+        "lng": 5.51411,
+        "name": "Montegnée"
+      },
+      "geonames_id": 2790824
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CHC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Clinic of Hope"
+    },
+    {
+      "lang": "nl",
+      "types": [
+        "label"
+      ],
+      "value": "Clinique de l'Espérance"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HCC"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Groupe santé CHC",
+      "type": "parent",
+      "id": "https://ror.org/002atrf55"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
