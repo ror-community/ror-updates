@@ -1,84 +1,84 @@
 {
-  "admin": {
-    "created": {
-      "date": "2023-02-16",
-      "schema_version": "1.0"
+    "admin": {
+        "created": {
+            "date": "2023-02-16",
+            "schema_version": "1.0"
+        },
+        "last_modified": {
+            "date": "2026-10-19",
+            "schema_version": "2.1"
+        }
     },
-    "last_modified": {
-      "date": "2026-10-20",
-      "schema_version": "2.1"
-    }
-  },
-  "domains": [],
-  "established": 1918,
-  "external_ids": [
-    {
-      "all": [
-        "0000 0000 9523 8396"
-      ],
-      "preferred": "0000 0000 9523 8396",
-      "type": "isni"
-    }
-  ],
-  "id": "https://ror.org/04kddtt70",
-  "links": [
-    {
-      "type": "website",
-      "value": "http://www.ince.ro"
-    }
-  ],
-  "locations": [
-    {
-      "geonames_details": {
-        "continent_code": "EU",
-        "continent_name": "Europe",
-        "country_code": "RO",
-        "country_name": "Romania",
-        "country_subdivision_code": "B",
-        "country_subdivision_name": "București",
-        "lat": 44.43225,
-        "lng": 26.10626,
-        "name": "Bucharest"
-      },
-      "geonames_id": 683506
-    }
-  ],
-  "names": [
-    {
-      "lang": "ro",
-      "types": [
-        "ror_display",
-        "label"
-      ],
-      "value": "Institutul National de Cercetari Economice \"Costin C. Kiritescu\""
-    },
-    {
-      "lang": "en",
-      "types": [
-        "alias"
-      ],
-      "value": "National Institute of Economic Research \"Costin C. Kiritescu\""
-    }
-  ],
-  "relationships": [
-    {
-      "label": "Institutul de Economie Agrara",
-      "type": "child",
-      "id": "https://ror.org/021hxpr45"
-    },
-    {
-      "label": "Romanian Academy",
-      "type": "parent",
-      "id": "https://ror.org/0561n6946"
-    },
-    {
-      "label": "Institutul de Cercetare a Calităţii Vieţii",
-      "type": "child",
-      "id": "https://ror.org/04acvs412"
-    }
-  ],
-  "status": "active",
-  "types": [
-    "facility"
-  ]
+    "domains": [],
+    "established": 1918,
+    "external_ids": [
+        {
+            "all": [
+                "0000 0000 9523 8396"
+            ],
+            "preferred": "0000 0000 9523 8396",
+            "type": "isni"
+        }
+    ],
+    "id": "https://ror.org/04kddtt70",
+    "links": [
+        {
+            "type": "website",
+            "value": "http://www.ince.ro"
+        }
+    ],
+    "locations": [
+        {
+            "geonames_details": {
+                "continent_code": "EU",
+                "continent_name": "Europe",
+                "country_code": "RO",
+                "country_name": "Romania",
+                "country_subdivision_code": "B",
+                "country_subdivision_name": "Bucharest",
+                "lat": 44.43225,
+                "lng": 26.10626,
+                "name": "Bucharest"
+            },
+            "geonames_id": 683506
+        }
+    ],
+    "names": [
+        {
+            "lang": "ro",
+            "types": [
+                "ror_display",
+                "label"
+            ],
+            "value": "Institutul National de Cercetari Economice \"Costin C. Kiritescu\""
+        },
+        {
+            "lang": "en",
+            "types": [
+                "alias"
+            ],
+            "value": "National Institute of Economic Research \"Costin C. Kiritescu\""
+        }
+    ],
+    "relationships": [
+        {
+            "label": "Institutul de Economie Agrara",
+            "type": "child",
+            "id": "https://ror.org/021hxpr45"
+        },
+        {
+            "label": "Romanian Academy",
+            "type": "parent",
+            "id": "https://ror.org/0561n6946"
+        },
+        {
+            "label": "Institutul de Cercetare a Calităţii Vieţii",
+            "type": "child",
+            "id": "https://ror.org/04acvs412"
+        }
+    ],
+    "status": "active",
+    "types": [
+        "facility"
+    ]
 }
