@@ -1,89 +1,89 @@
 {
-    "admin": {
-        "created": {
-            "date": "2018-11-14",
-            "schema_version": "1.0"
-        },
-        "last_modified": {
-            "date": "2026-10-19",
-            "schema_version": "2.1"
-        }
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
     },
-    "domains": [],
-    "established": null,
-    "external_ids": [
-        {
-            "all": [
-                "grid.457380.d"
-            ],
-            "preferred": "grid.457380.d",
-            "type": "grid"
-        }
-    ],
-    "id": "https://ror.org/00jmxvy70",
-    "links": [
-        {
-            "type": "website",
-            "value": "http://www.nord-ouest.inserm.fr/"
-        }
-    ],
-    "locations": [
-        {
-            "geonames_details": {
-                "continent_code": "EU",
-                "continent_name": "Europe",
-                "country_code": "FR",
-                "country_name": "France",
-                "country_subdivision_code": "HDF",
-                "country_subdivision_name": "Hauts-de-France",
-                "lat": 50.63391,
-                "lng": 3.05512,
-                "name": "Lille"
-            },
-            "geonames_id": 2998324
-        }
-    ],
-    "names": [
-        {
-            "lang": "fr",
-            "types": [
-                "ror_display",
-                "label"
-            ],
-            "value": "Délégation Régionale Nord Ouest"
-        },
-        {
-            "lang": "fr",
-            "types": [
-                "alias"
-            ],
-            "value": "Inserm DR Nord - Ouest"
-        }
-    ],
-    "relationships": [
-        {
-            "label": "Center for Infection and Immunity of Lille",
-            "type": "child",
-            "id": "https://ror.org/00dyt5s15"
-        },
-        {
-            "label": "Groupe de Recherche sur l'Alcool et les Pharmacodépendances",
-            "type": "child",
-            "id": "https://ror.org/01c62av11"
-        },
-        {
-            "label": "Protéomique, Réponse Inflammatoire et Spectrométrie de Masse",
-            "type": "child",
-            "id": "https://ror.org/05dm3m993"
-        },
-        {
-            "label": "Inserm",
-            "type": "parent",
-            "id": "https://ror.org/02vjkv261"
-        }
-    ],
-    "status": "active",
-    "types": [
-        "government"
-    ]
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.457380.d"
+      ],
+      "preferred": "grid.457380.d",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/00jmxvy70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nord-ouest.inserm.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "HDF",
+        "country_subdivision_name": "Hauts-de-France",
+        "lat": 50.63391,
+        "lng": 3.05512,
+        "name": "Lille"
+      },
+      "geonames_id": 2998324
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Délégation Régionale Nord Ouest"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Inserm DR Nord - Ouest"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Center for Infection and Immunity of Lille",
+      "type": "child",
+      "id": "https://ror.org/00dyt5s15"
+    },
+    {
+      "label": "Groupe de Recherche sur l'Alcool et les Pharmacodépendances",
+      "type": "child",
+      "id": "https://ror.org/01c62av11"
+    },
+    {
+      "label": "Protéomique, Réponse Inflammatoire et Spectrométrie de Masse",
+      "type": "child",
+      "id": "https://ror.org/05dm3m993"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
 }
