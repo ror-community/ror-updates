@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2012,
+  "external_ids": [
+    {
+      "all": [
+        "grid.411897.2"
+      ],
+      "preferred": "grid.411897.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 6070 865X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5167791"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007evha27",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.rowan.edu/coopermed/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cooper_Medical_School_of_Rowan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NJ",
+        "country_subdivision_name": "New Jersey",
+        "lat": 39.92595,
+        "lng": -75.11962,
+        "name": "Camden"
+      },
+      "geonames_id": 4501018
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CMSRU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cooper Medical School of Rowan University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cooper Norcross Health",
+      "type": "parent",
+      "id": "https://ror.org/056nm0533"
+    },
+    {
+      "label": "Rowan University",
+      "type": "parent",
+      "id": "https://ror.org/049v69k10"
+    },
+    {
+      "label": "Cooper University Hospital",
+      "type": "related",
+      "id": "https://ror.org/049wjac82"
+    },
+    {
+      "label": "Coriell Institute For Medical Research",
+      "type": "related",
+      "id": "https://ror.org/04npwsp41"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education"
+  ]
+}

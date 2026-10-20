@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.482157.d"
+      ],
+      "preferred": "grid.482157.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0466 4031"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02hmf0879",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nslhd.health.nsw.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "NSW",
+        "country_subdivision_name": "New South Wales",
+        "lat": -33.82344,
+        "lng": 151.19836,
+        "name": "St Leonards"
+      },
+      "geonames_id": 8029783
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NSLHD"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Northern Sydney Local Health District"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "New South Wales Department of Health",
+      "type": "parent",
+      "id": "https://ror.org/03tb4gf50"
+    },
+    {
+      "label": "Northern Beaches Hospital",
+      "type": "child",
+      "id": "https://ror.org/008erj914"
+    },
+    {
+      "label": "Ryde Hospital",
+      "type": "child",
+      "id": "https://ror.org/0128b8m24"
+    },
+    {
+      "label": "Macquarie Hospital",
+      "type": "child",
+      "id": "https://ror.org/03mr0g583"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

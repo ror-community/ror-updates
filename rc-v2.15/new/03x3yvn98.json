@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "erzbistum-paderborn.de"
+  ],
+  "established": 799,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 1010 8793"
+      ],
+      "preferred": "0000 0001 1010 8793",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q253765"
+      ],
+      "preferred": "Q253765",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03x3yvn98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.erzbistum-paderborn.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/Erzbistum_Paderborn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "NW",
+        "country_subdivision_name": "North Rhine-Westphalia",
+        "lat": 51.71905,
+        "lng": 8.75439,
+        "name": "Paderborn"
+      },
+      "geonames_id": 2855745
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Erzbistum Paderborn"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Roman Catholic Archdiocese of Paderborn"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Theologische Fakultät Paderborn",
+      "type": "child",
+      "id": "https://ror.org/00e8f1a50"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "other"
+  ]
+}

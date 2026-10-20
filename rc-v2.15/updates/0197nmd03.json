@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1900,
+  "external_ids": [
+    {
+      "all": [
+        "501100005405"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262576.2"
+      ],
+      "preferred": "grid.262576.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8863 9909"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1152190"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0197nmd03",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ritsumei.ac.jp/eng/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Ritsumeikan_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "26",
+        "country_subdivision_name": "Kyoto",
+        "lat": 35.02107,
+        "lng": 135.75385,
+        "name": "Kyoto"
+      },
+      "geonames_id": 1857910
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Ritsumeikan Daigaku"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ritsumeikan University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "立命館大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Ritsumeikan Trust",
+      "type": "parent",
+      "id": "https://ror.org/01v1m2411"
+    },
+    {
+      "label": "Art Research Center, Ritsumeikan University",
+      "type": "child",
+      "id": "https://ror.org/02chd3g19"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

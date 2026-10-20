@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1896,
+  "external_ids": [
+    {
+      "all": [
+        "100020957"
+      ],
+      "preferred": "100020957",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.424277.0"
+      ],
+      "preferred": "grid.424277.0",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0397 3959"
+      ],
+      "preferred": "0000 0004 0397 3959",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30254367"
+      ],
+      "preferred": "Q30254367",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00sh68184",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.roche.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 47.55,
+        "lng": 7.68333,
+        "name": "Grenzach-Wyhlen"
+      },
+      "geonames_id": 2917698
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Roche Germany"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Roche Pharma AG"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Roche Pharma AG (Germany)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "F. Hoffmann-La Roche AG",
+      "type": "parent",
+      "id": "https://ror.org/00by1q217"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

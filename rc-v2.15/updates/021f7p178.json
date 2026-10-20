@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "grid.458352.d"
+      ],
+      "preferred": "grid.458352.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0624 8541"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1278450"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021f7p178",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.lib4ri.ch/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "ZH",
+        "country_subdivision_name": "Zurich",
+        "lat": 47.39724,
+        "lng": 8.61872,
+        "name": "Dübendorf"
+      },
+      "geonames_id": 2660971
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Lib4RI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Paul Scherrer Institute",
+      "type": "parent",
+      "id": "https://ror.org/03eh3y714"
+    },
+    {
+      "label": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "type": "parent",
+      "id": "https://ror.org/04bs5yc70"
+    },
+    {
+      "label": "Swiss Federal Institute of Aquatic Science and Technology",
+      "type": "parent",
+      "id": "https://ror.org/00pc48d59"
+    },
+    {
+      "label": "Empa",
+      "type": "parent",
+      "id": "https://ror.org/02x681a42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

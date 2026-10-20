@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-10-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1919,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0459 8003"
+      ],
+      "preferred": "0000 0004 0459 8003",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6784249"
+      ],
+      "preferred": "Q6784249",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03e6ffy11",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.mass.gov/orgs/massachusetts-department-of-correction"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Massachusetts_Department_of_Correction"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.13982,
+        "lng": -71.51617,
+        "name": "Milford"
+      },
+      "geonames_id": 4943958
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Department of Correction"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MADOC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Massachusetts Department of Correction"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Massachusetts Treatment Center",
+      "type": "child",
+      "id": "https://ror.org/00t77mq86"
+    },
+    {
+      "label": "Commonwealth of Massachusetts",
+      "type": "parent",
+      "id": "https://ror.org/05h4vvj02"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

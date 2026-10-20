@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-03-16",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100018882"
+      ],
+      "preferred": "501100018882",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0001 0700 2779"
+      ],
+      "preferred": "0000 0001 0700 2779",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5041388"
+      ],
+      "preferred": "Q5041388",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04664mr26",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.imr.tohoku.ac.jp"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "04",
+        "country_subdivision_name": "Miyagi",
+        "lat": 38.26667,
+        "lng": 140.86667,
+        "name": "Sendai"
+      },
+      "geonames_id": 2111149
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IMR"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "alias"
+      ],
+      "value": "IMR 東北大学 金属材料研究所"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute for Materials Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute for Materials Research, Tohoku University"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "東北大学金属材料研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tohoku University",
+      "type": "parent",
+      "id": "https://ror.org/01dq60k83"
+    },
+    {
+      "label": "International Research Center for Nuclear Materials Science, Institute for Materials Research, Tohoku University",
+      "type": "child",
+      "id": "https://ror.org/00s30pv42"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

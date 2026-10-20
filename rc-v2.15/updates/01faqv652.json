@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100015053"
+      ],
+      "preferred": "100015053",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484184.5"
+      ],
+      "preferred": "grid.484184.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0562 2501"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01faqv652",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.noe.gv.at/noe/Topics-in-English/Topics_in_English.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "AT",
+        "country_name": "Austria",
+        "country_subdivision_code": "3",
+        "country_subdivision_name": "Lower Austria",
+        "lat": 48.20762,
+        "lng": 15.63725,
+        "name": "St. Pölten"
+      },
+      "geonames_id": 2766429
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Lower Austria"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Land Niederosterreich"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Niederösterreichische Landesbibliothek",
+      "type": "child",
+      "id": "https://ror.org/01n5wey40"
+    },
+    {
+      "label": "Niederösterreichisches Landesarchiv und Niederösterreichische Landesbibliothek",
+      "type": "child",
+      "id": "https://ror.org/024343r65"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

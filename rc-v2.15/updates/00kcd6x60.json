@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1817,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412757.2"
+      ],
+      "preferred": "grid.412757.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0641 778X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00kcd6x60",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hosp.tohoku.ac.jp/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "04",
+        "country_subdivision_name": "Miyagi",
+        "lat": 38.26667,
+        "lng": 140.86667,
+        "name": "Sendai"
+      },
+      "geonames_id": 2111149
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "TUH"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tohoku University Hospital"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "東北大学病院"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tohoku University",
+      "type": "related",
+      "id": "https://ror.org/01dq60k83"
+    },
+    {
+      "label": "Advanced Research Center for Innovations in Next-Generation Medicine, Organization for Advanced Studies, Tohoku University",
+      "type": "related",
+      "id": "https://ror.org/02favgj42"
+    },
+    {
+      "label": "Clinical Research, Innovation and Education Center, Tohoku University Hospital",
+      "type": "child",
+      "id": "https://ror.org/03aa40c83"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

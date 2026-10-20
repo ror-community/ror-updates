@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1928,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414326.6"
+      ],
+      "preferred": "grid.414326.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0626 1381"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16983969"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/015nymp25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.bedford.va.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Bedford_Veterans_Affairs_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MA",
+        "country_subdivision_name": "Massachusetts",
+        "lat": 42.49065,
+        "lng": -71.27617,
+        "name": "Bedford"
+      },
+      "geonames_id": 4930183
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bedford VAMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bedford VAMC - ENRM "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Bedford Veterans Affairs Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Edith Nourse Rogers Memorial Veterans Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "VA New England Healthcare System",
+      "type": "parent",
+      "id": "https://ror.org/00s61s029"
+    },
+    {
+      "label": "New England Geriatric Research Education and Clinical Center",
+      "type": "child",
+      "id": "https://ror.org/01e7jsw68"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

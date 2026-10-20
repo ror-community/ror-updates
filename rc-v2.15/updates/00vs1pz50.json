@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100009105"
+      ],
+      "preferred": "501100009105",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484465.f"
+      ],
+      "preferred": "grid.484465.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0643 0423"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1322293"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00vs1pz50",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.soumu.go.jp/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Ministry_of_Internal_Affairs_and_Communications"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "13",
+        "country_subdivision_name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171,
+        "name": "Tokyo"
+      },
+      "geonames_id": 1850147
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministry of Internal Affairs and Communications"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Sōmu-shō"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "総務大臣"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of Japan",
+      "type": "parent",
+      "id": "https://ror.org/03ftb9350"
+    },
+    {
+      "label": "Local Autonomy College",
+      "type": "child",
+      "id": "https://ror.org/00xj03b33"
+    },
+    {
+      "label": "Statistical Research and Training Institute",
+      "type": "child",
+      "id": "https://ror.org/050vnrx61"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

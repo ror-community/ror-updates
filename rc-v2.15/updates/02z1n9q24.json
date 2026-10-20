@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1950,
+  "external_ids": [
+    {
+      "all": [
+        "501100008768"
+      ],
+      "preferred": "501100008768",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.267625.2"
+      ],
+      "preferred": "grid.267625.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0685 5104"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1195900"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02z1n9q24",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.u-ryukyu.ac.jp/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/University_of_the_Ryukyus"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "47",
+        "country_subdivision_name": "Okinawa",
+        "lat": 26.33583,
+        "lng": 127.80139,
+        "name": "Okinawa"
+      },
+      "geonames_id": 1894616
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Ryūkyū Daigaku"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of the Ryukyus"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "琉球大学"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of the Ryukyus University Hospital",
+      "type": "related",
+      "id": "https://ror.org/05rzmnp25"
+    },
+    {
+      "label": "Tropical Biosphere Research Center, University of the Ryukyus",
+      "type": "child",
+      "id": "https://ror.org/012x3pc67"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100017027"
+      ],
+      "preferred": "100017027",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0509 4077"
+      ],
+      "preferred": "0000 0004 0509 4077",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5589245"
+      ],
+      "preferred": "Q5589245",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04ja8je85",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.maryland.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Government_of_Maryland"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.97859,
+        "lng": -76.49184,
+        "name": "Annapolis"
+      },
+      "geonames_id": 4347242
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Government of Maryland"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "State of Maryland"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The State of Maryland"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Maryland Department of State Police",
+      "type": "child",
+      "id": "https://ror.org/05m4g4403"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

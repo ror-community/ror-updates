@@ -1,0 +1,84 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.472001.0"
+      ],
+      "preferred": "grid.472001.0",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05ym5q463",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.iri.pref.shizuoka.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "22",
+        "country_subdivision_name": "Shizuoka",
+        "lat": 34.98333,
+        "lng": 138.38333,
+        "name": "Shizuoka"
+      },
+      "geonames_id": 1851717
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Industrial Research Institute of Shizuoka Prefecture"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "静岡県工業技術研究所"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Numazu Technical Support Center",
+      "type": "child",
+      "id": "https://ror.org/05nrbx166"
+    },
+    {
+      "label": "Hamamatsu Industrial Technology Support Center",
+      "type": "child",
+      "id": "https://ror.org/04ekpzx89"
+    },
+    {
+      "label": "Fuji Industrial Research Institute of Shizuoka Prefecture",
+      "type": "child",
+      "id": "https://ror.org/00n65gn60"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

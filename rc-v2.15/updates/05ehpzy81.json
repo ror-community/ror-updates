@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100015648"
+      ],
+      "preferred": "501100015648",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 5928 1249"
+      ],
+      "preferred": "0000 0004 5928 1249",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05ehpzy81",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.epri.sgcc.com.cn"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "CN",
+        "country_name": "China",
+        "country_subdivision_code": "BJ",
+        "country_subdivision_name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723,
+        "name": "Beijing"
+      },
+      "geonames_id": 1816670
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CEPRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "China Electric Power Research Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "China Electric Power Research Institute Co."
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "China Electric Power Research Institute Co., Ltd."
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "alias"
+      ],
+      "value": "中国电力科学研究院"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "中国电力科学研究院有限公司"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State Grid Corporation of China (China)",
+      "type": "parent",
+      "id": "https://ror.org/05twwhs70"
+    },
+    {
+      "label": "National Center for High Voltage Measurement",
+      "type": "child",
+      "id": "https://ror.org/05y75m437"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

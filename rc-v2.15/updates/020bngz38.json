@@ -1,0 +1,103 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ny.jpf.go.jp"
+  ],
+  "established": 1974,
+  "external_ids": [
+    {
+      "all": [
+        "100004447"
+      ],
+      "preferred": "100004447",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.468253.e"
+      ],
+      "preferred": "grid.468253.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0443 2951"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/020bngz38",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ny.jpf.go.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NY",
+        "country_subdivision_name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "name": "New York"
+      },
+      "geonames_id": 5128581
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "JFNY"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Japan Foundation"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "The Japan Foundation, New York"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "The Japan Foundation",
+      "type": "parent",
+      "id": "https://ror.org/0304qs123"
+    },
+    {
+      "label": "The Japan Foundation Japanese-Language Institute, Urawa",
+      "type": "child",
+      "id": "https://ror.org/0344xsf04"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

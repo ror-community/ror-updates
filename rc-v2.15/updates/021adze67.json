@@ -1,0 +1,139 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1979,
+  "external_ids": [
+    {
+      "all": [
+        "100000138",
+        "100005245",
+        "100005249",
+        "100005250",
+        "100007351",
+        "100005248",
+        "100005252",
+        "100005254",
+        "100005247"
+      ],
+      "preferred": "100000138",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.419881.d"
+      ],
+      "preferred": "grid.419881.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2176 2483"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q861556"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021adze67",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ed.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Department_of_Education"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Educación de los Estados Unidos"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DoED"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Département de l'Éducation des États-unis"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ED "
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "United States Department of Education"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Institute of Education Sciences",
+      "type": "child",
+      "id": "https://ror.org/04et59085"
+    },
+    {
+      "label": "National Library of Education",
+      "type": "child",
+      "id": "https://ror.org/00fyvea65"
+    },
+    {
+      "label": "Government of the United States of America",
+      "type": "parent",
+      "id": "https://ror.org/02rcrvv70"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

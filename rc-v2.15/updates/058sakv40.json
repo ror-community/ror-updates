@@ -1,0 +1,88 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-10-20",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.416679.b"
+      ],
+      "preferred": "grid.416679.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0458 375X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/058sakv40",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://corewellhealth.org/locations/LOC0000193220/corewell-health-trenton-hospital"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.13949,
+        "lng": -83.17826,
+        "name": "Trenton"
+      },
+      "geonames_id": 5012521
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Beaumont Hospital, Trenton"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Corewell Health Trenton Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Oakwood Southshore Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Corewell Health",
+      "type": "parent",
+      "id": "https://ror.org/02hb5yj49"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
