@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-10",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "clariant.com"
+  ],
+  "established": 1995,
+  "external_ids": [
+    {
+      "all": [
+        "501100010097"
+      ],
+      "preferred": "501100010097",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.472836.c"
+      ],
+      "preferred": "grid.472836.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0603 5677"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30338601"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0465c8g46",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.clariant.com/en/Corporate"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Clariant"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "country_subdivision_code": "BL",
+        "country_subdivision_name": "Basel-Landschaft",
+        "lat": 47.52271,
+        "lng": 7.64511,
+        "name": "Muttenz"
+      },
+      "geonames_id": 2659522
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Clariant (Switzerland)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Clariant (Germany)",
+      "type": "child",
+      "id": "https://ror.org/0084vrs13"
+    },
+    {
+      "label": "Clariant (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/006hwbx79"
+    },
+    {
+      "label": "Clariant (United States)",
+      "type": "child",
+      "id": "https://ror.org/04hrt9p44"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}
