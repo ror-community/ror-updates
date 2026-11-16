@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "schema_version": "2.1"
     }
   },
@@ -13,7 +13,15 @@
     "idas-kreischa.de"
   ],
   "established": 1992,
-  "external_ids": [],
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 6005 8140"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
   "id": "https://ror.org/04e4p4y25",
   "links": [
     {
@@ -58,12 +66,33 @@
       "types": [
         "label"
       ],
+      "value": "Institute of Doping Analysis and Sports Biochemistry Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
       "value": "Institute of Doping Analysis and Sports Biochemistry"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut für Dopinganalytik und Sportbiochemie Dresden an der TU Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "IDAS Dresden"
     }
   ],
   "relationships": [],
   "status": "active",
   "types": [
-    "nonprofit"
+    "facility"
   ]
 }
