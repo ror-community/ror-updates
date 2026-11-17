@@ -43,6 +43,28 @@ jobs:
       - name: Install validation tool
         run: pip install -e curation_ops/curation_validation
 
+      # curation-validation's own dump fetch calls the GitHub API unauthenticated and gets
+      # 403 rate-limited on shared runner IPs, so fetch it here with the job token and pass -d.
+      - name: Download latest ROR data dump
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          read -r DUMP_NAME DUMP_URL < <(gh api repos/ror-community/ror-data/contents --jq '
+            [.[] | select(.name | test("^v[0-9]+\\.[0-9]+-[0-9]{4}-[0-9]{2}-[0-9]{2}-ror-data\\.zip$"))]
+            | sort_by(.name | capture("^v(?<maj>[0-9]+)\\.(?<min>[0-9]+)-(?<date>[0-9-]{10})")
+                | [(.maj | tonumber), (.min | tonumber), .date])
+            | last | "\(.name) \(.download_url)"')
+
+          if [ -z "$DUMP_NAME" ] || [ "$DUMP_NAME" = "null" ]; then
+            echo "::error::No ROR data dump found in ror-community/ror-data"
+            exit 1
+          fi
+
+          DUMP_PATH="${RUNNER_TEMP}/${DUMP_NAME}"
+          curl -fsSL --retry 3 -H "Authorization: Bearer ${GH_TOKEN}" -o "$DUMP_PATH" "$DUMP_URL"
+          echo "Downloaded ${DUMP_NAME} ($(stat -c %s "$DUMP_PATH") bytes)"
+          echo "ROR_DATA_DUMP=${DUMP_PATH}" >> "$GITHUB_ENV"
+
       - name: Clean previous CSV validation reports
         env:
           TARGET_BRANCH: ${{ inputs.target_branch }}
@@ -86,15 +108,17 @@ jobs:
               curation-validation \
                 -c "$csv" \
                 -o "${OUTPUT_DIR}/${BASENAME}" \
+                -d "$ROR_DATA_DUMP" \
                 -u "${{ secrets.GEONAMES_USER }}" \
                 --test input_file_structure \
                 --test validate_fields \
-                --test duplicate-domains || true
+                --test duplicate-domains
             else
               curation-validation \
                 -c "$csv" \
                 -o "${OUTPUT_DIR}/${BASENAME}" \
-                -u "${{ secrets.GEONAMES_USER }}" || true
+                -d "$ROR_DATA_DUMP" \
+                -u "${{ secrets.GEONAMES_USER }}"
             fi
 
             echo "::endgroup::"
@@ -147,6 +171,27 @@ jobs:
       - name: Install validation tool
         run: pip install -e curation_ops/curation_validation
 
+      # See validate-csvs: fetched here with the job token to avoid unauthenticated rate limits.
+      - name: Download latest ROR data dump
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          read -r DUMP_NAME DUMP_URL < <(gh api repos/ror-community/ror-data/contents --jq '
+            [.[] | select(.name | test("^v[0-9]+\\.[0-9]+-[0-9]{4}-[0-9]{2}-[0-9]{2}-ror-data\\.zip$"))]
+            | sort_by(.name | capture("^v(?<maj>[0-9]+)\\.(?<min>[0-9]+)-(?<date>[0-9-]{10})")
+                | [(.maj | tonumber), (.min | tonumber), .date])
+            | last | "\(.name) \(.download_url)"')
+
+          if [ -z "$DUMP_NAME" ] || [ "$DUMP_NAME" = "null" ]; then
+            echo "::error::No ROR data dump found in ror-community/ror-data"
+            exit 1
+          fi
+
+          DUMP_PATH="${RUNNER_TEMP}/${DUMP_NAME}"
+          curl -fsSL --retry 3 -H "Authorization: Bearer ${GH_TOKEN}" -o "$DUMP_PATH" "$DUMP_URL"
+          echo "Downloaded ${DUMP_NAME} ($(stat -c %s "$DUMP_PATH") bytes)"
+          echo "ROR_DATA_DUMP=${DUMP_PATH}" >> "$GITHUB_ENV"
+
       - name: Clean previous JSON validation reports
         env:
           TARGET_BRANCH: ${{ inputs.target_branch }}
@@ -171,7 +216,8 @@ jobs:
             curation-validation \
               -j "$NEW_JSON_DIR" \
               -o "$OUTPUT_DIR" \
-              -u "${{ secrets.GEONAMES_USER }}" || true
+              -d "$ROR_DATA_DUMP" \
+              -u "${{ secrets.GEONAMES_USER }}"
 
             echo "::endgroup::"
           else
@@ -196,7 +242,8 @@ jobs:
             curation-validation \
               -j "$UPDATE_JSON_DIR" \
               -o "$OUTPUT_DIR" \
-              -u "${{ secrets.GEONAMES_USER }}" || true
+              -d "$ROR_DATA_DUMP" \
+              -u "${{ secrets.GEONAMES_USER }}"
 
             echo "::endgroup::"
           else
