@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-18",
       "schema_version": "2.1"
     }
   },
@@ -16,8 +16,7 @@
   "external_ids": [
     {
       "all": [
-        "501100003250",
-        "501100003746"
+        "501100003250"
       ],
       "preferred": "501100003250",
       "type": "fundref"
@@ -48,7 +47,7 @@
   "links": [
     {
       "type": "website",
-      "value": "http://www.cmha.ca/"
+      "value": "https://cmha.ca/"
     },
     {
       "type": "wikipedia",
@@ -64,14 +63,21 @@
         "country_name": "Canada",
         "country_subdivision_code": "ON",
         "country_subdivision_name": "Ontario",
-        "lat": 45.41117,
-        "lng": -75.69812,
-        "name": "Ottawa"
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "name": "Toronto"
       },
-      "geonames_id": 6094817
+      "geonames_id": 6167865
     }
   ],
   "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Association canadienne pour la santé mentale, National"
+    },
     {
       "lang": null,
       "types": [
@@ -82,10 +88,24 @@
     {
       "lang": "en",
       "types": [
-        "ror_display",
-        "label"
+        "alias"
+      ],
+      "value": "CMHA National"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
       ],
       "value": "Canadian Mental Health Association"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Canadian Mental Health Association, National"
     },
     {
       "lang": "en",
@@ -115,6 +135,6 @@
   "status": "active",
   "types": [
     "funder",
-    "other"
+    "nonprofit"
   ]
 }
