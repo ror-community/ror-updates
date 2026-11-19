@@ -27,9 +27,9 @@ jobs:
         with:
           ref: ${{ github.event.ref }}
       - name: Set up Python environment
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.8"
+          python-version: "3.13"
       - name: Checkout validation suite
         uses: actions/checkout@v2
         with:
