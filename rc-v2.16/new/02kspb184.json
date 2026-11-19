@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Державна установа «Національний науковий центр серцево-судинної хірургії та спадкової патології імені М.М. Амосова Національної академії медичних наук України»"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Medical Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/042dnf796"
+    },
+    {
+      "label": "Amosov National Institute of Cardiovascular Surgery",
+      "type": "predecessor",
+      "id": "https://ror.org/0026pjn75"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

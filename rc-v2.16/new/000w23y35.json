@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Health Education Authority"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institute for Health and Care Excellence",
+      "type": "successor",
+      "id": "https://ror.org/015ah0c92"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

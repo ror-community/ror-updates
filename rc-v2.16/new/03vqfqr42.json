@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Минобрнауки России"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Ministry of Education and Science of the Russian Federation",
+      "type": "predecessor",
+      "id": "https://ror.org/00ghqgy32"
+    },
+    {
+      "label": "Federal Agency for Scientific Organizations",
+      "type": "predecessor",
+      "id": "https://ror.org/05bvxn785"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

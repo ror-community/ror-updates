@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Azienda Ospedaliera Ospedale Civile di Legnano"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Aziende Socio Sanitarie Territoriale Ovest Milanese",
+      "type": "successor",
+      "id": "https://ror.org/027de0q95"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Sächsisches Krankenhaus für Psychiatrie und Neurologie Rodewisch"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt",
+      "type": "parent",
+      "id": "https://ror.org/0198kn518"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

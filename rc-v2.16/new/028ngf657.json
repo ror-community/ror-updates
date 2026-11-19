@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Adriatik University Bar"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fakultet za Mediteranske Poslovne Studije",
+      "type": "child",
+      "id": "https://ror.org/035ckv436"
+    },
+    {
+      "label": "Fakultet za menadžment Herceg Novi",
+      "type": "child",
+      "id": "https://ror.org/01jq1mc68"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

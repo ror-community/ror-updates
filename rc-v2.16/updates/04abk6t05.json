@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "501100002287",
+        "501100001242"
+      ],
+      "preferred": "501100002287",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452589.7"
+      ],
+      "preferred": "grid.452589.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1799 3491"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q60760112",
+        "Q21538546"
+      ],
+      "preferred": "Q60760112",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04abk6t05",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.dbca.wa.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_Biodiversity,_Conservation_and_Attractions_(Western_Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.95224,
+        "lng": 115.8614,
+        "name": "Perth"
+      },
+      "geonames_id": 2063523
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DBCA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of Biodiversity, Conservation and Attractions"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Government of Western Australia",
+      "type": "parent",
+      "id": "https://ror.org/00wqdbc63"
+    },
+    {
+      "label": "Swan River Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/015am5p66"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

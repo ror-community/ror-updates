@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,38 @@
       "value": "Thematic Digital Competence Centre for the Natural and Engineering Sciences"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dutch Research Council",
+      "type": "related",
+      "id": "https://ror.org/04jsz6e67"
+    },
+    {
+      "label": "Delft University of Technology",
+      "type": "parent",
+      "id": "https://ror.org/02e2c7k09"
+    },
+    {
+      "label": "4TU.ResearchData",
+      "type": "related",
+      "id": "https://ror.org/02d887280"
+    },
+    {
+      "label": "NWO-I",
+      "type": "related",
+      "id": "https://ror.org/010e01376"
+    },
+    {
+      "label": "SURF",
+      "type": "related",
+      "id": "https://ror.org/009vhk114"
+    },
+    {
+      "label": "Netherlands eScience Center",
+      "type": "related",
+      "id": "https://ror.org/00rbjv475"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

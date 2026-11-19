@@ -1,0 +1,83 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 8063 3499"
+      ],
+      "preferred": "0000 0004 8063 3499",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05eky6607",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cisss-outaouais.gouv.qc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_int%C3%A9gr%C3%A9_de_sant%C3%A9_et_de_services_sociaux"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.47723,
+        "lng": -75.70164,
+        "name": "Gatineau"
+      },
+      "geonames_id": 5959974
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CISSS de l'Outaouais"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre intégré de santé et des services sociaux de l’Outaouais"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre hospitalier Pierre-Janet",
+      "type": "child",
+      "id": "https://ror.org/00m38xx98"
+    },
+    {
+      "label": "Centre de Santé et de Services Sociaux de Gatineau",
+      "type": "predecessor",
+      "id": "https://ror.org/04xm66s27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

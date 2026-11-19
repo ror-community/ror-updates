@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Milieux Institute for Arts, Culture and Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Concordia University",
+      "type": "parent",
+      "id": "https://ror.org/0420zvk78"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

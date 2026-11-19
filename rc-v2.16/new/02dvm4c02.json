@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Herston Imaging Research Facility"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Imaging Facility",
+      "type": "related",
+      "id": "https://ror.org/01kdbsa35"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

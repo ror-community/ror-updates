@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Robson DNA Science Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arnie Charbonneau Cancer Institute",
+      "type": "parent",
+      "id": "https://ror.org/02bwkak45"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

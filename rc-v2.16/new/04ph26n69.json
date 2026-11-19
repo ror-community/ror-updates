@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -53,7 +53,13 @@
       "value": "G20 Research Group"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Trinity College",
+      "type": "parent",
+      "id": "https://ror.org/019dhar59"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

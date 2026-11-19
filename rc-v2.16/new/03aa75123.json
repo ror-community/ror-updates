@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "BC SUPPORT Unit"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Michael Smith Health Research BC",
+      "type": "parent",
+      "id": "https://ror.org/020x39229"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

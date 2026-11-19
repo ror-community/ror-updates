@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Northwest Territories Geoscience Office"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Industry, Tourism and Investment",
+      "type": "parent",
+      "id": "https://ror.org/03b8sbf49"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

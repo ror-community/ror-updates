@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -102,7 +102,13 @@
       "value": "Всероссийский центр изучения общественного мнения"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Russia",
+      "type": "parent",
+      "id": "https://ror.org/02hchde94"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

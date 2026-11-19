@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Centre d'expertise en analyse environnementale du Québec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+      "type": "parent",
+      "id": "https://ror.org/00ra8zc69"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

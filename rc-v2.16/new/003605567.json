@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Central Highlands Rural Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hepburn Health Service",
+      "type": "predecessor",
+      "id": "https://ror.org/02gqa5c92"
+    },
+    {
+      "label": "Kyneton District Health Service",
+      "type": "predecessor",
+      "id": "https://ror.org/01hpgs068"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

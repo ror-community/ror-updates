@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Provincial Council for Maternal and Child Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Hospital for Sick Children",
+      "type": "related",
+      "id": "https://ror.org/057q4rt57"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

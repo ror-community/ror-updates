@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Atlantic Research Centre for Mental Retardation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dalhousie University",
+      "type": "parent",
+      "id": "https://ror.org/01e6qks80"
+    },
+    {
+      "label": "Izaak Walton Killam Health Centre",
+      "type": "related",
+      "id": "https://ror.org/0064zg438"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

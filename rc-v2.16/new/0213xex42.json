@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Nova Scotia Power Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Emera (Canada)",
+      "type": "parent",
+      "id": "https://ror.org/02a5t5746"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

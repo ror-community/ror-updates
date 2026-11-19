@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,23 @@
       "value": "Menzies Health Institute Queensland"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Griffith University",
+      "type": "parent",
+      "id": "https://ror.org/02sc3r913"
+    },
+    {
+      "label": "Menzies Foundation",
+      "type": "related",
+      "id": "https://ror.org/01cewrs34"
+    },
+    {
+      "label": "Institute for Biomedicine and Glycomics",
+      "type": "successor",
+      "id": "https://ror.org/05h9c2b79"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

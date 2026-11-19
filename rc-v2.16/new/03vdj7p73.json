@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Kimberley Renal Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kimberley Aboriginal Medical Services",
+      "type": "parent",
+      "id": "https://ror.org/03wtz8b43"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Pierce County, Washington"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tacoma Pierce County Health Department",
+      "type": "related",
+      "id": "https://ror.org/01c2q3444"
+    },
+    {
+      "label": "Pierce County Library System",
+      "type": "related",
+      "id": "https://ror.org/02egpvc59"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

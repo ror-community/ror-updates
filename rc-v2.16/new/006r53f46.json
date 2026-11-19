@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "Max-Planck-Zentrum für Physik und Medizin"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Max Planck Institute for the Science of Light",
+      "type": "related",
+      "id": "https://ror.org/020as7681"
+    },
+    {
+      "label": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "type": "related",
+      "id": "https://ror.org/00f7hpc57"
+    },
+    {
+      "label": "Universitätsklinikum Erlangen",
+      "type": "related",
+      "id": "https://ror.org/0030f2a11"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -1,0 +1,72 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-10-26",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0005 0832 0751"
+      ],
+      "preferred": "0000 0005 0832 0751",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/04kd26r92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://grampianshealth.org.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "VIC",
+        "country_subdivision_name": "Victoria",
+        "lat": -37.56622,
+        "lng": 143.84957,
+        "name": "Ballarat"
+      },
+      "geonames_id": 2177091
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Grampians Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ballarat Health Services",
+      "type": "predecessor",
+      "id": "https://ror.org/01jmjwt28"
+    },
+    {
+      "label": "Wimmera Base Hospital",
+      "type": "child",
+      "id": "https://ror.org/034y7w558"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

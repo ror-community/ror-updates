@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Nova Scotia Department of Health Promotion and Protection"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nova Scotia Department of Health and Wellness",
+      "type": "successor",
+      "id": "https://ror.org/01jhjbg73"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Toronto Central Local Health Integration Network"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ontario Health",
+      "type": "successor",
+      "id": "https://ror.org/05p06r142"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

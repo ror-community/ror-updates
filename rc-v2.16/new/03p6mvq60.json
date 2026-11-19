@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Centre national intégré du manufacturier intelligent"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université du Québec à Trois-Rivières",
+      "type": "parent",
+      "id": "https://ror.org/02xrw9r68"
+    },
+    {
+      "label": "Cégep de Drummondville",
+      "type": "parent",
+      "id": "https://ror.org/015vt1f29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

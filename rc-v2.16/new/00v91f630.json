@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "Филиал федерального государственного бюджетного образовательного учреждения высшего образования «Астраханский государственный технический университет» в Ташкентской области Республики Узбекистан"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Astrakhan State Technical University",
+      "type": "parent",
+      "id": "https://ror.org/00jzexr10"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

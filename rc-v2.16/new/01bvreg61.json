@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Ormond College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Melbourne",
+      "type": "related",
+      "id": "https://ror.org/01ej9dk98"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -45,7 +45,13 @@
       "value": "Livestock Gentec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Alberta",
+      "type": "parent",
+      "id": "https://ror.org/0160cpw27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

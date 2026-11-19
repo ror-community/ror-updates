@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Abbotsford Regional Hospital and Cancer Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fraser Health",
+      "type": "related",
+      "id": "https://ror.org/014579w63"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

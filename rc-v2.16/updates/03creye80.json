@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Boucher Institute of Naturopathic Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canadian College of Naturopathic Medicine",
+      "type": "successor",
+      "id": "https://ror.org/03pjwtr87"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

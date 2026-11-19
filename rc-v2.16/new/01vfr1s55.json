@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "SickKids Centre for Community Mental Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Hospital for Sick Children",
+      "type": "related",
+      "id": "https://ror.org/057q4rt57"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

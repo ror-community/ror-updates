@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,23 @@
       "value": "Marbach Weimar Wolfenbüttel Research Association"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "German Literature Archive",
+      "type": "related",
+      "id": "https://ror.org/05x75gh12"
+    },
+    {
+      "label": "Klassik Stiftung Weimar",
+      "type": "related",
+      "id": "https://ror.org/02ad32n85"
+    },
+    {
+      "label": "Herzog August Library",
+      "type": "related",
+      "id": "https://ror.org/02y5mkh60"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

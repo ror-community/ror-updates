@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Institute of Public Policies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Paris School of Economics",
+      "type": "parent",
+      "id": "https://ror.org/01qtp1053"
+    },
+    {
+      "label": "Groupe des Écoles Nationales d'Économie et Statistique",
+      "type": "related",
+      "id": "https://ror.org/01p6yxw64"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

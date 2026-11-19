@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Planetary and Space Science Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of New Brunswick",
+      "type": "parent",
+      "id": "https://ror.org/05nkf0n29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

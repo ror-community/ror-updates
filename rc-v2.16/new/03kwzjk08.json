@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Arup Group (Australia)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arup Group (United Kingdom)",
+      "type": "parent",
+      "id": "https://ror.org/057d3rj91"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

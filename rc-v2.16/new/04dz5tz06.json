@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Хорольський агропромисловий фаховий коледж Полтавського державного аграрного університету"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Poltava State Agrarian University",
+      "type": "parent",
+      "id": "https://ror.org/01s344n79"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

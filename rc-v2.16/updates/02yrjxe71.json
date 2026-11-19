@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,13 @@
       "value": "Tanenbaum Open Science Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Montreal Neurological Institute and Hospital",
+      "type": "parent",
+      "id": "https://ror.org/05ghs6f64"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Great Lakes Forestry Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canadian Forest Service",
+      "type": "parent",
+      "id": "https://ror.org/0430zw506"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

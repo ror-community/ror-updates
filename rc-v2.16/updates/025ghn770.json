@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Łukasiewicz Research Network - Institute of Non-Ferrous Metals"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Łukasiewicz Research Network",
+      "type": "parent",
+      "id": "https://ror.org/036f4sz05"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

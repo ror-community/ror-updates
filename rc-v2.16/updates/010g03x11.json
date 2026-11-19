@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Toronto Public Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "North York Public Health Department",
+      "type": "predecessor",
+      "id": "https://ror.org/049rmhh19"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

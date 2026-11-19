@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -56,7 +56,18 @@
       "value": "St John of God Mt Lawley Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "East Metropolitan Health Service",
+      "type": "parent",
+      "id": "https://ror.org/02baa5g50"
+    },
+    {
+      "label": "St John of God Health Care",
+      "type": "related",
+      "id": "https://ror.org/01z7q2468"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Regional Municipality of Peel"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Peel Regional Paramedic Services",
+      "type": "child",
+      "id": "https://ror.org/00k10xp64"
+    },
+    {
+      "label": "Peel Public Health",
+      "type": "child",
+      "id": "https://ror.org/01j1st757"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

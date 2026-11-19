@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Instytut Europy Środkowej"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instytut Europy Środkowo-Wschodniej",
+      "type": "predecessor",
+      "id": "https://ror.org/04ye58e76"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

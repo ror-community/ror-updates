@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Providence Healthcare"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Unity Health Toronto",
+      "type": "parent",
+      "id": "https://ror.org/012x5xb44"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Cortellucci Vaughan Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "York Central Hospital",
+      "type": "related",
+      "id": "https://ror.org/05kx0wb86"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

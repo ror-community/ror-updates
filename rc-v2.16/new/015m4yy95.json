@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Australian Red Cross Society"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Red Cross Lifeblood",
+      "type": "child",
+      "id": "https://ror.org/00evjd729"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

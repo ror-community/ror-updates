@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Shared Geoscientific Observatory"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Karlsruhe Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/04t3en479"
+    },
+    {
+      "label": "University of Stuttgart",
+      "type": "parent",
+      "id": "https://ror.org/04vnq7t77"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

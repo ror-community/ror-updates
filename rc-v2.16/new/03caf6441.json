@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Groupe Régional d'Experts sur le Climat en Région Sud Provence-Alpes-Côte d'Azur"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "MedECC",
+      "type": "related",
+      "id": "https://ror.org/05nspsj29"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Ressources Aquatiques Québec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université du Québec à Rimouski",
+      "type": "related",
+      "id": "https://ror.org/049jtt335"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

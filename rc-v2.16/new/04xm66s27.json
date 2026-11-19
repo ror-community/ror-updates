@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Centre de Santé et de Services Sociaux de Gatineau"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre intégré de santé et des services sociaux de l’Outaouais",
+      "type": "successor",
+      "id": "https://ror.org/05eky6607"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

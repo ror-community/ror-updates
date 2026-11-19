@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2015,
+  "external_ids": [
+    {
+      "all": [
+        "100009931",
+        "100006611",
+        "100006610",
+        "100004939"
+      ],
+      "preferred": "100009931",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467944.c"
+      ],
+      "preferred": "grid.467944.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0433 8295"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6837527"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03tpyg842",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.michigan.gov/mdhhs/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Michigan_Department_of_Health_and_Human_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MI",
+        "country_subdivision_name": "Michigan",
+        "lat": 42.73253,
+        "lng": -84.55553,
+        "name": "Lansing"
+      },
+      "geonames_id": 4998830
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MDHHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Michigan Department of Health and Human Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Kalamazoo Psychiatric Hospital",
+      "type": "child",
+      "id": "https://ror.org/01x3y4k69"
+    },
+    {
+      "label": "Michigan Department of Public Health",
+      "type": "predecessor",
+      "id": "https://ror.org/05v9ykr65"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

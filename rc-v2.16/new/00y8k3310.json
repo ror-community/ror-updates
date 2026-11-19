@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Réseau local d’intégration des services de santé de Hamilton Niagara Haldimand Brant"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ontario Health",
+      "type": "successor",
+      "id": "https://ror.org/05p06r142"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Hincks-Dellcrest Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The Hospital for Sick Children",
+      "type": "successor",
+      "id": "https://ror.org/057q4rt57"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Erich Pommer Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Filmuniversität Babelsberg KONRAD WOLF",
+      "type": "parent",
+      "id": "https://ror.org/04qbqv677"
+    },
+    {
+      "label": "University of Potsdam",
+      "type": "parent",
+      "id": "https://ror.org/03bnmw459"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

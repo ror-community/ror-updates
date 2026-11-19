@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "AbbVie Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "AbbVie (United States)",
+      "type": "related",
+      "id": "https://ror.org/02g5p4n58"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

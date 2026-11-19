@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Centre for Rural, Remote and Tropical Health Systems"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Institute of Tropical Health and Medicine",
+      "type": "parent",
+      "id": "https://ror.org/03dsbfb14"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

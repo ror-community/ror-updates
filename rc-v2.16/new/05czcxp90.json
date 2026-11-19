@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Харківський торговельно-економічний інститут Київського національного торговельно-економічного університету"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Kharkiv Institute of Finance",
+      "type": "predecessor",
+      "id": "https://ror.org/007z7kz50"
+    },
+    {
+      "label": "Ukrainian Engineering Pedagogics Academy",
+      "type": "successor",
+      "id": "https://ror.org/05bamwv87"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

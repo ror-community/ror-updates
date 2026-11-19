@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -85,7 +85,18 @@
       "value": "Münchner Gesellschaft zur Förderung der Wirtschaftswissenschaft – CESifo GmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ludwig-Maximilians-Universität München",
+      "type": "parent",
+      "id": "https://ror.org/05591te55"
+    },
+    {
+      "label": "Ifo Institute for Economic Research",
+      "type": "parent",
+      "id": "https://ror.org/045495t75"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Приватний вищий навчальний заклад \"Київський університет культури\""
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dnipro Faculty of Management and Business of Kyiv University of Culture",
+      "type": "child",
+      "id": "https://ror.org/007dpm525"
+    },
+    {
+      "label": "Dnipro Professional College of Kyiv University of Culture",
+      "type": "child",
+      "id": "https://ror.org/03qwmqn68"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

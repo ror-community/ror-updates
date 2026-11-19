@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Mandelstam Institute for Theoretical Physics"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of the Witwatersrand",
+      "type": "parent",
+      "id": "https://ror.org/03rp50x72"
+    },
+    {
+      "label": "National Institute for Theoretical Physics",
+      "type": "related",
+      "id": "https://ror.org/01jgv6w72"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

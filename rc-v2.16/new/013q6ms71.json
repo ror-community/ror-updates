@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Healthy Land and Water"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Healthy Waterways",
+      "type": "predecessor",
+      "id": "https://ror.org/0082jv665"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

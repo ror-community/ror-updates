@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Рокитнівський фаховий медичний коледж"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Rivne Medical Academy",
+      "type": "parent",
+      "id": "https://ror.org/0070zsd77"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

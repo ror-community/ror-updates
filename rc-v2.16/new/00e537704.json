@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Краматорський фаховий коледж промисловості, інформаційних технологій та бізнесу Донбаської державної машинобудівної академії"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Donbass State Engineering Academy",
+      "type": "parent",
+      "id": "https://ror.org/02k14cb26"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

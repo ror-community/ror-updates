@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -136,7 +136,18 @@
       "value": "Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Landesuntersuchungsanstalt Sachsen",
+      "type": "child",
+      "id": "https://ror.org/05y895e77"
+    },
+    {
+      "label": "Sächsisches Krankenhaus Rodewisch",
+      "type": "child",
+      "id": "https://ror.org/044s59k57"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

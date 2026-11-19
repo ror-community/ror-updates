@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Комунальний заклад «Запорізький медичний фаховий коледж» Запорізької обласної ради"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Berdiansk Medical Professional College",
+      "type": "predecessor",
+      "id": "https://ror.org/03hpcjc06"
+    },
+    {
+      "label": "Melitopol Medical Professional College",
+      "type": "predecessor",
+      "id": "https://ror.org/05b8xfc08"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

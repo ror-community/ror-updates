@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Pacific Biological Station"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fisheries and Oceans Canada",
+      "type": "parent",
+      "id": "https://ror.org/02qa1x782"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

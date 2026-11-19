@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -85,7 +85,23 @@
       "value": "Ministère du Solliciteur général"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Ontario",
+      "type": "parent",
+      "id": "https://ror.org/015pzp858"
+    },
+    {
+      "label": "Office of the Chief Coroner for Ontario",
+      "type": "child",
+      "id": "https://ror.org/003t4de92"
+    },
+    {
+      "label": "Ontario Police College",
+      "type": "child",
+      "id": "https://ror.org/005mhz402"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

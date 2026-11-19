@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,13 @@
       "value": "State Committee for Scientific Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Science and Higher Education",
+      "type": "successor",
+      "id": "https://ror.org/05dwvd537"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

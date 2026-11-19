@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "Fraunhofer Center for Laser Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fraunhofer USA",
+      "type": "parent",
+      "id": "https://ror.org/05aah2q92"
+    },
+    {
+      "label": "Fraunhofer Institute for Laser Technology",
+      "type": "parent",
+      "id": "https://ror.org/03ebbfh95"
+    },
+    {
+      "label": "Fraunhofer USA Center for Laser Applications",
+      "type": "successor",
+      "id": "https://ror.org/04jkjhn93"
+    }
+  ],
   "status": "inactive",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "University of Michigan Survey Research Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institute for Social Research",
+      "type": "parent",
+      "id": "https://ror.org/01df9hd73"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

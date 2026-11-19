@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Centro Hospitalar do Médio Tejo EPE"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Unidade Local de Saúde do Médio Tejo",
+      "type": "successor",
+      "id": "https://ror.org/05eqpgf47"
+    }
+  ],
   "status": "withdrawn",
   "types": [
     "healthcare"

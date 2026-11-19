@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -88,7 +88,13 @@
       "value": "Hospital de Aveiro"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Unidade Local de Saúde da Região de Aveiro",
+      "type": "parent",
+      "id": "https://ror.org/029we7x82"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

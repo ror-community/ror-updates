@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Saskatchewan Department of Public Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saskatchewan Health",
+      "type": "successor",
+      "id": "https://ror.org/05m2a2x14"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

@@ -1,0 +1,104 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419562.d"
+      ],
+      "preferred": "grid.419562.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0374 4283"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1912109"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/020as7681",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.mpl.mpg.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Max_Planck_Institute_for_the_Science_of_Light"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 49.59099,
+        "lng": 11.00783,
+        "name": "Erlangen"
+      },
+      "geonames_id": 2929567
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MPL"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Max Planck Institute for the Science of Light"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label"
+      ],
+      "value": "Max-Planck-Institut für die Physik des Lichts"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Max Planck Society",
+      "type": "parent",
+      "id": "https://ror.org/01hhn8329"
+    },
+    {
+      "label": "Max-Planck-Zentrum für Physik und Medizin",
+      "type": "related",
+      "id": "https://ror.org/006r53f46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

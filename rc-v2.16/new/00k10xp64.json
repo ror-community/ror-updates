@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Peel Regional Paramedic Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Peel Region",
+      "type": "parent",
+      "id": "https://ror.org/00cg0dp14"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

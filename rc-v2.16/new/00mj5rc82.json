@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Arctic Institute of North America"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Calgary",
+      "type": "parent",
+      "id": "https://ror.org/03yjb2x39"
+    },
+    {
+      "label": "Kluane Lake Research Station",
+      "type": "child",
+      "id": "https://ror.org/03ys1tv30"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

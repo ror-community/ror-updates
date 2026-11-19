@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "ANU Enterprise"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian National University",
+      "type": "parent",
+      "id": "https://ror.org/019wvm592"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

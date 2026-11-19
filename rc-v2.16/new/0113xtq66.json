@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Філія Класичного приватного університету у місті Кременчук"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Classic Private University",
+      "type": "parent",
+      "id": "https://ror.org/006sv2266"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

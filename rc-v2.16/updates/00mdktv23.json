@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Culham Science Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United Kingdom Atomic Energy Authority",
+      "type": "parent",
+      "id": "https://ror.org/0361bwx64"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Centre for Crop and Disease Management"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Curtin University",
+      "type": "parent",
+      "id": "https://ror.org/02n415q13"
+    },
+    {
+      "label": "Grains Research and Development Corporation",
+      "type": "related",
+      "id": "https://ror.org/02xwr1996"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

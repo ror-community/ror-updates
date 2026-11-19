@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Ankara Numune Eğitim ve Araştırma Hastanesi"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ankara Bilkent City Hospital",
+      "type": "successor",
+      "id": "https://ror.org/033fqnp11"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

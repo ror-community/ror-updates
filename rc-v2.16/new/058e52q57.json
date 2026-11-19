@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,23 @@
       "value": "Державний університет інтелектуальних технологій і зв'язку"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "O.S. Popov Odessa National Academy of Telecommunications",
+      "type": "predecessor",
+      "id": "https://ror.org/03fx0zp19"
+    },
+    {
+      "label": "Odesa State Academy of Technical Regulation and Quality",
+      "type": "predecessor",
+      "id": "https://ror.org/04wvae634"
+    },
+    {
+      "label": "Professional College of Measurements",
+      "type": "child",
+      "id": "https://ror.org/0155avr74"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

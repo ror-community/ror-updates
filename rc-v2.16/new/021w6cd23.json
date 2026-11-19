@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,18 @@
       "value": "National Center for Research Resources"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    },
+    {
+      "label": "National Center for Advancing Translational Sciences",
+      "type": "successor",
+      "id": "https://ror.org/04pw6fb54"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

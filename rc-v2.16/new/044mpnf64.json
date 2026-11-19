@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Lyndhurst Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Toronto Rehabilitation Institute",
+      "type": "successor",
+      "id": "https://ror.org/00mxe0976"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

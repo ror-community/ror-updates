@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2018,
+  "external_ids": [
+    {
+      "all": [
+        "grid.508499.9"
+      ],
+      "preferred": "grid.508499.9",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q55636718"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04w8sxm43",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uhdb.nhs.uk/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/University_Hospitals_of_Derby_and_Burton_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 52.89838,
+        "lng": -1.86488,
+        "name": "Uttoxeter"
+      },
+      "geonames_id": 2635043
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "UHDB"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University Hospitals of Derby and Burton NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Derbyshire Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/03mccxv57"
+    },
+    {
+      "label": "London Road Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/008gfj249"
+    },
+    {
+      "label": "Royal Derby Hospital",
+      "type": "child",
+      "id": "https://ror.org/005r9p256"
+    },
+    {
+      "label": "Samuel Johnson Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/05k21nx54"
+    },
+    {
+      "label": "Sir Robert Peel Community Hospital",
+      "type": "child",
+      "id": "https://ror.org/05xekmj63"
+    },
+    {
+      "label": "Queen's Hospital",
+      "type": "child",
+      "id": "https://ror.org/02hvxe361"
+    },
+    {
+      "label": "Burton Hospitals NHS Foundation Trust",
+      "type": "predecessor",
+      "id": "https://ror.org/03vypx625"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

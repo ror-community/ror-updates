@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Kluane Lake Research Station"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arctic Institute of North America",
+      "type": "parent",
+      "id": "https://ror.org/00mj5rc82"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

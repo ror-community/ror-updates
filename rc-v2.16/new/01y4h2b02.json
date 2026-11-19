@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Mater Private Hospital Mackay"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Mater Health Services",
+      "type": "parent",
+      "id": "https://ror.org/03mjtdk61"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

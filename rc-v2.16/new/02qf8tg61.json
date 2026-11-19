@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "State Health System Resource Centre - Gujarat"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Gujarat",
+      "type": "parent",
+      "id": "https://ror.org/035dsh769"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

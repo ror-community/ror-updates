@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.420638.b"
+      ],
+      "preferred": "grid.420638.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9741 4533"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5690659"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04br0rs05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hsnsudbury.ca/portalen/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Health_Sciences_North"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 46.49,
+        "lng": -80.99001,
+        "name": "Sudbury"
+      },
+      "geonames_id": 5964700
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HSN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health Sciences North"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Northeast Cancer Centre",
+      "type": "child",
+      "id": "https://ror.org/01g1qg816"
+    },
+    {
+      "label": "Health Sciences North Research Institute",
+      "type": "related",
+      "id": "https://ror.org/03ywphg15"
+    },
+    {
+      "label": "Laurentian Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/02w57a013"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

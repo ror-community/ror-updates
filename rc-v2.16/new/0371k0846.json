@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -53,7 +53,13 @@
       "value": "MEG Energy (Canada)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cenovus Energy (Canada)",
+      "type": "parent",
+      "id": "https://ror.org/00j81st88"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

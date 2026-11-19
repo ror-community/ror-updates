@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "École nationale supérieure d'ingénieurs en informatique, automatique, mécanique, énergétique et électronique"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "INSA Hauts-de-France",
+      "type": "successor",
+      "id": "https://ror.org/041rsh762"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

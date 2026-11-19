@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,18 @@
       "value": "Криворізький металургійний фаховий коледж Державного університету економіки і технологій"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "State University of Economics and Technology",
+      "type": "parent",
+      "id": "https://ror.org/02vvmw586"
+    },
+    {
+      "label": "Technological Professional College of the State University of Economics and Technology",
+      "type": "successor",
+      "id": "https://ror.org/044hcsz23"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

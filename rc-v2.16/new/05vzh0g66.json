@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "일릭사파마텍 주식회사"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hanyang University",
+      "type": "related",
+      "id": "https://ror.org/046865y68"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

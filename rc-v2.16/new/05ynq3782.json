@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Інститут управління природними ресурсами Університету економіки та права «КРОК»"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "KROK University",
+      "type": "parent",
+      "id": "https://ror.org/02v8f6d18"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

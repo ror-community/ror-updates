@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "The Arthritis Movement"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arthritis NSW",
+      "type": "child",
+      "id": "https://ror.org/05gn5e760"
+    },
+    {
+      "label": "Arthritis Queensland",
+      "type": "child",
+      "id": "https://ror.org/01tfvgz69"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

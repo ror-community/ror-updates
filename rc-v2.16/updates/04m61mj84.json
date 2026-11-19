@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Centre Hospitalier Universitaire Henri-Mondor"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Hôpitaux Universitaires Henri-Mondor",
+      "type": "parent",
+      "id": "https://ror.org/033yb0967"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

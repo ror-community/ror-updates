@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "RECOVER Injury Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    },
+    {
+      "label": "Motor Accident Insurance Commission",
+      "type": "related",
+      "id": "https://ror.org/036s6ct29"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

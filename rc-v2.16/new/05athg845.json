@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "United States Bureau of Justice Assistance"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Office of Justice Programs",
+      "type": "parent",
+      "id": "https://ror.org/01n8d2d52"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

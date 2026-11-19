@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Victor Phillip Dahdaleh Institute of Genomic Medicine"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McGill University",
+      "type": "parent",
+      "id": "https://ror.org/01pxwe438"
+    },
+    {
+      "label": "McGill Genome Centre",
+      "type": "child",
+      "id": "https://ror.org/02w2fbz15"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

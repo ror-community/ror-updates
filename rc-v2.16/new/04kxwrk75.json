@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Balmain Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sydney Local Health District",
+      "type": "parent",
+      "id": "https://ror.org/04w6y2z35"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

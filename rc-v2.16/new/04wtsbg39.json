@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "Βιβλιοθήκη των Βορείων Χωρών στην Αθήνα"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Swedish Institute at Athens",
+      "type": "parent",
+      "id": "https://ror.org/00bqgmr50"
+    },
+    {
+      "label": "Danish Institute at Athens",
+      "type": "parent",
+      "id": "https://ror.org/03gg0m324"
+    },
+    {
+      "label": "Foundation of the Finnish Institute at Athens",
+      "type": "related",
+      "id": "https://ror.org/048kh8m41"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

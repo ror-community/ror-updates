@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -88,7 +88,18 @@
       "value": "United States Office of Education"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of the Interior",
+      "type": "parent",
+      "id": "https://ror.org/03v0pmy70"
+    },
+    {
+      "label": "United States Department of Education",
+      "type": "successor",
+      "id": "https://ror.org/021adze67"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

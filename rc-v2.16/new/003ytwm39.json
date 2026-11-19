@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -81,7 +81,13 @@
       "value": "United States Social Security Administration Office of Research, Statistics, and Policy Analysis"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Social Security Administration",
+      "type": "parent",
+      "id": "https://ror.org/04b7xxn32"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,28 @@
       "value": "Comprehensive Pneumology Center München"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Helmholtz Munich",
+      "type": "related",
+      "id": "https://ror.org/00cfam450"
+    },
+    {
+      "label": "Ludwig-Maximilians-Universität München",
+      "type": "related",
+      "id": "https://ror.org/05591te55"
+    },
+    {
+      "label": "LMU Klinikum",
+      "type": "related",
+      "id": "https://ror.org/02jet3w32"
+    },
+    {
+      "label": "Asklepios Fachkliniken München-Gauting",
+      "type": "related",
+      "id": "https://ror.org/02v4fpg03"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

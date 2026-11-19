@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,18 @@
       "value": "Tom Baker Cancer Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alberta Health Services",
+      "type": "parent",
+      "id": "https://ror.org/02nt5es71"
+    },
+    {
+      "label": "Arthur J.E. Child Comprehensive Cancer Centre",
+      "type": "successor",
+      "id": "https://ror.org/05w495036"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

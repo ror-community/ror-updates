@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,18 @@
       "value": "Whiteshell Laboratories"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Atomic Energy (Canada)",
+      "type": "related",
+      "id": "https://ror.org/019ja9e37"
+    },
+    {
+      "label": "Canadian Nuclear Laboratories",
+      "type": "related",
+      "id": "https://ror.org/014487k66"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

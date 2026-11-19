@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Ferdinand-Steinbeis-Gesellschaft für transferorientierte Forschung gGmbH der Steinbeis-Stiftung"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Steinbeis Foundation",
+      "type": "parent",
+      "id": "https://ror.org/0184gbk60"
+    },
+    {
+      "label": "Ferdinand-Steinbeis-Institut",
+      "type": "child",
+      "id": "https://ror.org/03xjsc505"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

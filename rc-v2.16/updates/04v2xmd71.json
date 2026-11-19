@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100012095"
+      ],
+      "preferred": "100012095",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421126.2"
+      ],
+      "preferred": "grid.421126.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0698 0044"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q32521",
+        "Q5589313"
+      ],
+      "preferred": "Q32521",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04v2xmd71",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gov.scot/#slide/1"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Scottish_Government"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "SCT",
+        "country_subdivision_name": "Scotland",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "name": "Edinburgh"
+      },
+      "geonames_id": 2650225
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Scottish Government"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Education Scotland",
+      "type": "child",
+      "id": "https://ror.org/05yapj268"
+    },
+    {
+      "label": "Scottish Canals (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/02zyhyh46"
+    },
+    {
+      "label": "Scottish Government Health and Social Care Directorates",
+      "type": "child",
+      "id": "https://ror.org/01bw7zm61"
+    },
+    {
+      "label": "Transport Scotland",
+      "type": "child",
+      "id": "https://ror.org/05b56f310"
+    },
+    {
+      "label": "Rural and Environment Science and Analytical Services",
+      "type": "child",
+      "id": "https://ror.org/02hrqhj53"
+    },
+    {
+      "label": "Scottish Office Education and Industry Department",
+      "type": "predecessor",
+      "id": "https://ror.org/05trw5w27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

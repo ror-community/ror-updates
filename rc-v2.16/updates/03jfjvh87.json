@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,18 @@
       "value": "Health Promotion Agency"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Health New Zealand",
+      "type": "successor",
+      "id": "https://ror.org/01jvwvd85"
+    },
+    {
+      "label": "Alcohol Advisory Council of New Zealand",
+      "type": "predecessor",
+      "id": "https://ror.org/0111htn65"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

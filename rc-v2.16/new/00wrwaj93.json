@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Australia and New Zealand Transplant and Cellular Therapy Registry"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australia and New Zealand Transplant and Cellular Therapies Limited",
+      "type": "parent",
+      "id": "https://ror.org/00q2wrs55"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

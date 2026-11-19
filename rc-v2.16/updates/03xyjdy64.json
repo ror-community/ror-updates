@@ -1,0 +1,131 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "grid.280635.a"
+      ],
+      "preferred": "grid.280635.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 7985"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6682073"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03xyjdy64",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://dhs.lacounty.gov/wps/portal/dhs"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Los_Angeles_County_Department_of_Health_Services"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.05223,
+        "lng": -118.24368,
+        "name": "Los Angeles"
+      },
+      "geonames_id": 5368361
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DHS "
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Servicios de Salud del Condado de Los Ángeles"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "LADHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Los Angeles County Department of Health Services"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Harbor–UCLA Medical Center",
+      "type": "child",
+      "id": "https://ror.org/05h4zj272"
+    },
+    {
+      "label": "LAC+USC Medical Center",
+      "type": "child",
+      "id": "https://ror.org/04xzj3x20"
+    },
+    {
+      "label": "Martin Luther King, Jr. Multi-Service Ambulatory Care Center",
+      "type": "child",
+      "id": "https://ror.org/03apjks92"
+    },
+    {
+      "label": "Olive View-UCLA Medical Center",
+      "type": "child",
+      "id": "https://ror.org/03b66rp04"
+    },
+    {
+      "label": "Rancho Los Amigos National Rehabilitation Center",
+      "type": "child",
+      "id": "https://ror.org/03t3q6164"
+    },
+    {
+      "label": "Los Angeles County",
+      "type": "parent",
+      "id": "https://ror.org/007wsbj10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

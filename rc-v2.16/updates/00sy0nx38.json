@@ -5,7 +5,7 @@
       "schema_version": "2.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Instituto Superior de Lisboa e Vale do Tejo"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Instituto Superior de Lisboa e Vale do Tejo",
+      "type": "successor",
+      "id": "https://ror.org/008wtrs16"
+    }
+  ],
   "status": "withdrawn",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "International Trade Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "World Trade Organization",
+      "type": "parent",
+      "id": "https://ror.org/03cqs4n40"
+    },
+    {
+      "label": "United Nations",
+      "type": "parent",
+      "id": "https://ror.org/006kxhp52"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

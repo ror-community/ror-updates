@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "The Peter Boris Centre for Addictions Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McMaster University",
+      "type": "related",
+      "id": "https://ror.org/02fa3aq29"
+    },
+    {
+      "label": "St. Joseph’s Healthcare Hamilton",
+      "type": "related",
+      "id": "https://ror.org/009z39p97"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

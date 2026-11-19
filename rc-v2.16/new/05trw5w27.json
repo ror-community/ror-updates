@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Scottish Office Education and Industry Department"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Scottish Government",
+      "type": "successor",
+      "id": "https://ror.org/04v2xmd71"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

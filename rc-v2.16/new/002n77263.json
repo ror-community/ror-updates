@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "North Carolina Division of Vocational Rehabilitation Services"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "NC Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/0293qmt12"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

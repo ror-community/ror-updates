@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Pierre-Le Gardeur Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre intégré de santé et de services sociaux de Lanaudière",
+      "type": "parent",
+      "id": "https://ror.org/02zap0h66"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "Bundesamt für Wasserwirtschaft"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "BAW Research",
+      "type": "child",
+      "id": "https://ror.org/04429tb51"
+    },
+    {
+      "label": "Bundesministerium für Land- und Forstwirtschaft, Umwelt und Wasserwirtschaft",
+      "type": "parent",
+      "id": "https://ror.org/00br86003"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

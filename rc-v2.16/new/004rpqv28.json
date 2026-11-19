@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Australian Dental Research Foundation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Dental Association",
+      "type": "related",
+      "id": "https://ror.org/038hdcm94"
+    },
+    {
+      "label": "Australian Dental Industry Association",
+      "type": "related",
+      "id": "https://ror.org/026h3kw78"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

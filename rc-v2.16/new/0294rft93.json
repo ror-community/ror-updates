@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,23 @@
       "value": "Research Institute for Information Management (fim)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Bayreuth",
+      "type": "parent",
+      "id": "https://ror.org/0234wmv40"
+    },
+    {
+      "label": "Technische Hochschule Augsburg",
+      "type": "parent",
+      "id": "https://ror.org/016604a03"
+    },
+    {
+      "label": "Fraunhofer Institute for Applied Information Technology",
+      "type": "related",
+      "id": "https://ror.org/01ak24c12"
+    }
+  ],
   "status": "active",
   "types": [
     "other"

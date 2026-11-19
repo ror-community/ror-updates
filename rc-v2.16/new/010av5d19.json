@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,23 @@
       "value": "Australian Prostate Cancer Research Centre–Queensland"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Queensland University of Technology",
+      "type": "related",
+      "id": "https://ror.org/03pnv4752"
+    },
+    {
+      "label": "Princess Alexandra Hospital",
+      "type": "related",
+      "id": "https://ror.org/04mqb0968"
+    },
+    {
+      "label": "Translational Research Institute",
+      "type": "related",
+      "id": "https://ror.org/00v807439"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

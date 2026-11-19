@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Інститут тваринництва степових районів імені М.Ф. Іванова \"Асканія-Нова\" - Національний науковий селекційно-генетичний центр з вівчарства"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Academy of Agrarian Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/001040111"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

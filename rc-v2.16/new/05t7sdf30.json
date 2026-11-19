@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,18 @@
       "value": "St. Paul’s College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Arthur V. Mauro Institute for Peace & Justice",
+      "type": "child",
+      "id": "https://ror.org/05ma4pj16"
+    },
+    {
+      "label": "University of Manitoba",
+      "type": "related",
+      "id": "https://ror.org/02gfys938"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

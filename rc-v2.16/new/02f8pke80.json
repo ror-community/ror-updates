@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,28 @@
       "value": "Niedersächsisches Zentrum für Biomedizintechnik, Implantatforschung und Entwicklung"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Medizinische Hochschule Hannover",
+      "type": "parent",
+      "id": "https://ror.org/00f2yqf98"
+    },
+    {
+      "label": "University of Veterinary Medicine Hannover, Foundation",
+      "type": "parent",
+      "id": "https://ror.org/015qjqf64"
+    },
+    {
+      "label": "Leibniz University Hannover",
+      "type": "parent",
+      "id": "https://ror.org/0304hq317"
+    },
+    {
+      "label": "Laser Zentrum Hannover",
+      "type": "related",
+      "id": "https://ror.org/01gkym270"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "ibi research an der Universität Regensburg GmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Regensburg",
+      "type": "related",
+      "id": "https://ror.org/01eezs655"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

@@ -1,0 +1,119 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1902,
+  "external_ids": [
+    {
+      "all": [
+        "100012637"
+      ],
+      "preferred": "100012637",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.273630.3"
+      ],
+      "preferred": "grid.273630.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0381 0113"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1269002"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/045h8gy65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.vale.com/canada/EN/Pages/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Vale_Limited"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "name": "Toronto"
+      },
+      "geonames_id": 6167865
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "CVRD Inco"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Inco Limited"
+    },
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Vale (Canada)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Vale Inco"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Vale (Brazil)",
+      "type": "parent",
+      "id": "https://ror.org/05a99n355"
+    },
+    {
+      "label": "Vale Newfoundland and Labrador (Canada)",
+      "type": "child",
+      "id": "https://ror.org/04ngs1924"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "International Electrotechnical Commission"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "International Organization for Standardization",
+      "type": "related",
+      "id": "https://ror.org/004s85t07"
+    },
+    {
+      "label": "International Telecommunication Union",
+      "type": "related",
+      "id": "https://ror.org/005vs4q67"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

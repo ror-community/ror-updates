@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Кам’янець-Подільський фаховий коледж Подільського державного університету"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Podillia State University",
+      "type": "parent",
+      "id": "https://ror.org/04p1tkq77"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

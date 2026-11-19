@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -144,7 +144,18 @@
       "value": "Військовий інститут телекомунікацій та інформатизації імені Героїв Крут"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Poltava Military Institute of Communications",
+      "type": "predecessor",
+      "id": "https://ror.org/04badap48"
+    },
+    {
+      "label": "Sergeant Military College of Military Institute of Telecommunications and Information Technologies named after Heroes of Kruty",
+      "type": "child",
+      "id": "https://ror.org/01gavne35"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

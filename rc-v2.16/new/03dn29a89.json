@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Barossa Hills Fleurieu Local Health Network"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "SA Health",
+      "type": "parent",
+      "id": "https://ror.org/01tg7a346"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

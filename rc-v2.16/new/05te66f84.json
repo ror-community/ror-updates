@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Institut international des coopératives Alphonse-et-Dorimène-Desjardins"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "HEC Montréal",
+      "type": "parent",
+      "id": "https://ror.org/05ww3wq27"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

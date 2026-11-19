@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Queensland Alliance for Agriculture and Food Innovation"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

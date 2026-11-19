@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Haute École « Groupe ICHEC - ISC Saint-Louis - ISFSC »"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Brussels Management School",
+      "type": "child",
+      "id": "https://ror.org/01kdhhd16"
+    },
+    {
+      "label": "ECAM Institut Supérieur Industriel",
+      "type": "child",
+      "id": "https://ror.org/019axjh19"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

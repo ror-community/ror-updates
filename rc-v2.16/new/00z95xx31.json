@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "Черкаський навчально-науковий інститут Університету банківської справи"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Banking University",
+      "type": "parent",
+      "id": "https://ror.org/03jnxyq69"
+    },
+    {
+      "label": "Lviv University",
+      "type": "successor",
+      "id": "https://ror.org/01s7y5e82"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

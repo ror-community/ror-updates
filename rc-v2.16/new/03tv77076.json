@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,18 @@
       "value": "Macquarie University Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Macquarie University",
+      "type": "related",
+      "id": "https://ror.org/01sf06y89"
+    },
+    {
+      "label": "MQ Health",
+      "type": "parent",
+      "id": "https://ror.org/00qdbn177"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

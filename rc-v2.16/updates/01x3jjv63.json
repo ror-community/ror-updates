@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -116,7 +116,18 @@
       "value": "Ужгородський національний університет"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Uzhhorod University",
+      "type": "successor",
+      "id": "https://ror.org/018z84s73"
+    },
+    {
+      "label": "Transcarpathian State University",
+      "type": "predecessor",
+      "id": "https://ror.org/02k5y4808"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

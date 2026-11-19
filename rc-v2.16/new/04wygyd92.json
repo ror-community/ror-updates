@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "Seriant"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Montreal Heart Institute",
+      "type": "parent",
+      "id": "https://ror.org/03vs03g62"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

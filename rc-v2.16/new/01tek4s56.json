@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "Косівський державний інститут декоративного мистецтва"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Lviv National Academy of Arts",
+      "type": "related",
+      "id": "https://ror.org/0502vx353"
+    },
+    {
+      "label": "Specialist College of Kosiv State Institute of Decorative Art",
+      "type": "child",
+      "id": "https://ror.org/02cfyr330"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

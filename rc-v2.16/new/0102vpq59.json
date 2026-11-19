@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Queen's-RMC Fuel Cell Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Queen's University",
+      "type": "parent",
+      "id": "https://ror.org/02y72wh86"
+    },
+    {
+      "label": "Royal Military College of Canada",
+      "type": "parent",
+      "id": "https://ror.org/04yr71909"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

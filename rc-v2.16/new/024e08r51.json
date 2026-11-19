@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Дунайський інститут водного транспорту Національного транспортного університету"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Transport University",
+      "type": "parent",
+      "id": "https://ror.org/01akgs808"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

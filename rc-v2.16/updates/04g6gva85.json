@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -100,14 +100,19 @@
   ],
   "relationships": [
     {
+      "label": "University of British Columbia",
+      "type": "parent",
+      "id": "https://ror.org/03rmrcq20"
+    },
+    {
+      "label": "Providence Research",
+      "type": "parent",
+      "id": "https://ror.org/04b2d5d26"
+    },
+    {
       "label": "Providence Health Care",
       "type": "related",
       "id": "https://ror.org/03qqdf793"
-    },
-    {
-      "label": "University of British Columbia",
-      "type": "related",
-      "id": "https://ror.org/03rmrcq20"
     }
   ],
   "status": "active",

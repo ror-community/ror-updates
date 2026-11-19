@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "Spectra Energy (Canada)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Enbridge Inc. (Canada)",
+      "type": "parent",
+      "id": "https://ror.org/020z2z230"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

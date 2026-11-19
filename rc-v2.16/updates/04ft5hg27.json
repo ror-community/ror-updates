@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,18 @@
       "value": "Університет митної справи та фінансів"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Academy of Customs Service of Ukraine",
+      "type": "predecessor",
+      "id": "https://ror.org/05p7thf41"
+    },
+    {
+      "label": "Dnipropetrovsk State Finance Academy",
+      "type": "predecessor",
+      "id": "https://ror.org/02h77pp71"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

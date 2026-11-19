@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Toronto Health Economics and Technology Assessment Collaborative"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Toronto",
+      "type": "parent",
+      "id": "https://ror.org/03dbr7087"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

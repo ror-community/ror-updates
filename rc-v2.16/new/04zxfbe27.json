@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Dalhousie Medicine New Brunswick"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dalhousie University",
+      "type": "parent",
+      "id": "https://ror.org/01e6qks80"
+    },
+    {
+      "label": "University of New Brunswick",
+      "type": "related",
+      "id": "https://ror.org/05nkf0n29"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

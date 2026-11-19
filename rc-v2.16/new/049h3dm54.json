@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "معهد الأمير عبدالرحمن للدراسات العليا لطب الأسنان"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Defense",
+      "type": "parent",
+      "id": "https://ror.org/03dtp6w69"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

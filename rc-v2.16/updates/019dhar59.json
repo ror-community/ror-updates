@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "University of Trinity College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Bill Graham Centre for Contemporary International History",
+      "type": "child",
+      "id": "https://ror.org/01t1haj93"
+    },
+    {
+      "label": "University of Toronto",
+      "type": "related",
+      "id": "https://ror.org/03dbr7087"
+    },
+    {
+      "label": "G20 Research Group",
+      "type": "child",
+      "id": "https://ror.org/04ph26n69"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

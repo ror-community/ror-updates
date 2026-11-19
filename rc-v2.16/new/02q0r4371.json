@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -64,7 +64,13 @@
       "value": "David Berry Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Illawarra Shoalhaven Local Health District",
+      "type": "parent",
+      "id": "https://ror.org/00fsrd019"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

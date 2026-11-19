@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,18 @@
       "value": "Instituto Superior de Correlación Geológica"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "parent",
+      "id": "https://ror.org/03cqe8w59"
+    },
+    {
+      "label": "National University of Tucumán",
+      "type": "parent",
+      "id": "https://ror.org/04chzd762"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

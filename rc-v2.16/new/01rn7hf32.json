@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -45,7 +45,13 @@
       "value": "UBC Dairy Education and Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of British Columbia",
+      "type": "parent",
+      "id": "https://ror.org/03rmrcq20"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Вінницький медичний фаховий коледж імені академіка Данила Кириловича Заболотного"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Bershad Medical College",
+      "type": "predecessor",
+      "id": "https://ror.org/00j669g57"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,28 @@
       "value": "STEMS"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    },
+    {
+      "label": "Institute for Research on Combustion",
+      "type": "predecessor",
+      "id": "https://ror.org/05813wx75"
+    },
+    {
+      "label": "Istituto Motori",
+      "type": "predecessor",
+      "id": "https://ror.org/02qwy8e97"
+    },
+    {
+      "label": "Institute for Agricultural and Earthmoving Machines",
+      "type": "predecessor",
+      "id": "https://ror.org/045zphe57"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "中科中山药物创新研究院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Shanghai Institute of Materia Medica",
+      "type": "parent",
+      "id": "https://ror.org/022syn853"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

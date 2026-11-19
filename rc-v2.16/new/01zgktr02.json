@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "University Of Maiduguri Teaching Hospital, Nigeria"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Maiduguri",
+      "type": "related",
+      "id": "https://ror.org/016na8197"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

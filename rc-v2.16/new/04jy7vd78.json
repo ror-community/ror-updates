@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "International GPS Service"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "International Association of Geodesy",
+      "type": "parent",
+      "id": "https://ror.org/04a9s7v87"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

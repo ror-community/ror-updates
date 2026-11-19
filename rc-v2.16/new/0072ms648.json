@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "College of Engineering, Chandigarh Group of Colleges"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Punjab Technical University",
+      "type": "related",
+      "id": "https://ror.org/025kz2973"
+    },
+    {
+      "label": "Chandigarh Group of Colleges",
+      "type": "parent",
+      "id": "https://ror.org/03m6jc377"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

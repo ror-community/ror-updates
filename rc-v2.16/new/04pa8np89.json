@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Deakin University Student Association"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Deakin University",
+      "type": "related",
+      "id": "https://ror.org/02czsnj07"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

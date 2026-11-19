@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Marie Stopes International Australia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Marie Stopes International",
+      "type": "related",
+      "id": "https://ror.org/05mnyyy56"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

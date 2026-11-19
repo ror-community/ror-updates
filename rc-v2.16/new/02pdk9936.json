@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "QIMR Berghofer Centre for Immunotherapy and Vaccine Development"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "QIMR Berghofer Medical Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/004y8wk30"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

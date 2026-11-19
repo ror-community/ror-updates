@@ -1,0 +1,120 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "grid.412116.1"
+      ],
+      "preferred": "grid.412116.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2292 1474"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30103166"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/033yb0967",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://chu-mondor.aphp.fr/lhopital-henri-mondor/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.79266,
+        "lng": 2.46569,
+        "name": "Créteil"
+      },
+      "geonames_id": 3022530
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre Hospitalier Universitaire Henri-Mondor"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Henri-Mondor University Hospital"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Hôpitaux Universitaires Henri-Mondor"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Hôpital Dupuytren",
+      "type": "child",
+      "id": "https://ror.org/053385a79"
+    },
+    {
+      "label": "Hôpital Georges-Clemenceau",
+      "type": "child",
+      "id": "https://ror.org/03zry0650"
+    },
+    {
+      "label": "Hôpital Émile-Roux",
+      "type": "child",
+      "id": "https://ror.org/01sr2h546"
+    },
+    {
+      "label": "Assistance Publique – Hôpitaux de Paris",
+      "type": "parent",
+      "id": "https://ror.org/00pg5jh14"
+    },
+    {
+      "label": "Université Paris-Est Créteil",
+      "type": "related",
+      "id": "https://ror.org/05ggc9x40"
+    },
+    {
+      "label": "Centre Hospitalier Universitaire Henri-Mondor",
+      "type": "child",
+      "id": "https://ror.org/04m61mj84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

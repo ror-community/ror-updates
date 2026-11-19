@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,13 @@
       "value": "Vale Living with Lakes Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Laurentian University",
+      "type": "parent",
+      "id": "https://ror.org/03rcwtr18"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

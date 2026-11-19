@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,18 @@
       "value": "陕西中医药大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Xi’an Hospital of Traditional Chinese Medicine",
+      "type": "related",
+      "id": "https://ror.org/005hq0p44"
+    },
+    {
+      "label": "The Second Affiliated Hospital of Shaanxi University of Traditional Chinese Medicine",
+      "type": "related",
+      "id": "https://ror.org/05kkfc722"
+    }
+  ],
   "status": "active",
   "types": [
     "education",

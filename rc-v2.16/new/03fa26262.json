@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Centre de santé et de services sociaux de Jonquière"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Intégré Universitaire de Santé et de Services Sociaux du Saguenay–Lac-Saint-Jean",
+      "type": "successor",
+      "id": "https://ror.org/00vbjyq64"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

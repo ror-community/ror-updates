@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Fondation canadienne de la santé digestive"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canadian Association of Gastroenterology",
+      "type": "related",
+      "id": "https://ror.org/01t9rwr70"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

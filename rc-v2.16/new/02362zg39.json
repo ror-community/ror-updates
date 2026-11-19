@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,13 @@
       "value": "Fondation de l’Institut universitaire en santé mentale de Montréal"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Institut universitaire en santé mentale de Montréal",
+      "type": "related",
+      "id": "https://ror.org/02twt6343"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

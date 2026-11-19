@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -55,7 +55,13 @@
       "value": "Hôpital régional d'East Kootenay"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Interior Health",
+      "type": "parent",
+      "id": "https://ror.org/05jdqs103"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

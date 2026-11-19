@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Telekom Innovation Laboratories"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Deutsche Telekom (Germany)",
+      "type": "parent",
+      "id": "https://ror.org/00m8prc86"
+    },
+    {
+      "label": "Technische Universität Berlin",
+      "type": "related",
+      "id": "https://ror.org/03v4gjf40"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,13 @@
       "value": "Idaho Hospital Association"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cancer Data Registry of Idaho",
+      "type": "child",
+      "id": "https://ror.org/03snn2x29"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

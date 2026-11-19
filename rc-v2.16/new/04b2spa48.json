@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "David Braley Centre for Antibiotic Discovery"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Michael G. DeGroote Institute for Infectious Disease Research",
+      "type": "parent",
+      "id": "https://ror.org/053905274"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

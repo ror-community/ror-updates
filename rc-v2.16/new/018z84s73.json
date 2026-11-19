@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,23 @@
       "value": "Ужгородський університет"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Uzhhorod National University",
+      "type": "predecessor",
+      "id": "https://ror.org/01x3jjv63"
+    },
+    {
+      "label": "Mukachevo State University",
+      "type": "predecessor",
+      "id": "https://ror.org/028xcne52"
+    },
+    {
+      "label": "Humanitarian Pedagogical Professional College of Mukachevo State University",
+      "type": "child",
+      "id": "https://ror.org/00ssswm20"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

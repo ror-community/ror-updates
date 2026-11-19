@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Alberta Energy Research Institute"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alberta Innovates",
+      "type": "successor",
+      "id": "https://ror.org/00ynafe15"
+    },
+    {
+      "label": "Alberta Oil Sands Technology and Research Authority",
+      "type": "predecessor",
+      "id": "https://ror.org/02jj42f67"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

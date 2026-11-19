@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,13 @@
       "value": "Touro University Berlin"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Touro College",
+      "type": "parent",
+      "id": "https://ror.org/05hwfvk38"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

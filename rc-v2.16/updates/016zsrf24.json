@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "株式会社コーセー"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "KOSÉ Holdings Corporation (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/00jep9q10"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

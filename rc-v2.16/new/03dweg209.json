@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Stiftung zur Förderung der Historischen Kommission bei der Bayerischen Akademie der Wissenschaften und des Historischen Kollegs"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+      "type": "child",
+      "id": "https://ror.org/008ebma82"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

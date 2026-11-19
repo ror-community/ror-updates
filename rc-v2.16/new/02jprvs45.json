@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "新潟県厚生農業協同組合連合会 三条総合病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saiseikai Niigata Kenoh Kikan Hospital",
+      "type": "successor",
+      "id": "https://ror.org/05h5b7g15"
+    }
+  ],
   "status": "inactive",
   "types": [
     "healthcare"

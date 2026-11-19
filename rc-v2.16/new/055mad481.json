@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Prentice Institute for Global Population and Economy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Lethbridge",
+      "type": "parent",
+      "id": "https://ror.org/044j76961"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

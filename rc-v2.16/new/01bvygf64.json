@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "McMaster Institute for Music and the Mind"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "McMaster University",
+      "type": "parent",
+      "id": "https://ror.org/02fa3aq29"
+    },
+    {
+      "label": "LIVELab",
+      "type": "child",
+      "id": "https://ror.org/034v4rm42"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Regional Ministry of Health and Social Policy"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Comunidad Autónoma de la Región de Murcia",
+      "type": "parent",
+      "id": "https://ror.org/024cw0321"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -60,7 +60,13 @@
       "value": "Swan River Trust"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Department of Biodiversity, Conservation and Attractions",
+      "type": "successor",
+      "id": "https://ror.org/04abk6t05"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

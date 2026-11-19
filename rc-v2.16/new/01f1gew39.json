@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Рубіжанський фаховий коледж"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Luhansk",
+      "type": "parent",
+      "id": "https://ror.org/040wb2y55"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

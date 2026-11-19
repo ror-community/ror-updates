@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -75,7 +75,13 @@
       "value": "Приватний вищий навчальний заклад \"Вінницький інститут конструювання одягу і підприємництва\""
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Professional College of Clothes Design",
+      "type": "child",
+      "id": "https://ror.org/00vr8zp62"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

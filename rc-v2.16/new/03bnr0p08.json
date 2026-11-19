@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -67,7 +67,13 @@
       "value": "Gıda ve Yem Kontrol Merkez Araştırma Enstitüsü Müdürlüğü"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tarımsal Araştırmalar ve Politikalar Genel Müdürlüğü",
+      "type": "parent",
+      "id": "https://ror.org/0174skq71"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

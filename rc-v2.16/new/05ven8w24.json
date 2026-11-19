@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Kompetenzzentrum Fluoreszente Bioanalytik"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Regensburg",
+      "type": "parent",
+      "id": "https://ror.org/01eezs655"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

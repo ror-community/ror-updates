@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Programme de recherche en démographie historique"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "parent",
+      "id": "https://ror.org/0161xgx34"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

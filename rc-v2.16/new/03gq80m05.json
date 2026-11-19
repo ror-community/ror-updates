@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,13 @@
       "value": "Zentrum für Historische Forschung Berlin der Polnischen Akademie der Wissenschaften"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Polish Academy of Sciences",
+      "type": "parent",
+      "id": "https://ror.org/01dr6c206"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

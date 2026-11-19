@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Humanities Data Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen",
+      "type": "parent",
+      "id": "https://ror.org/00cd95c65"
+    },
+    {
+      "label": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+      "type": "parent",
+      "id": "https://ror.org/05745n787"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

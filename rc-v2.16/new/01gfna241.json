@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "Centrum för epidemiologi och samhällsmedicin"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Stockholm Health Care Services",
+      "type": "parent",
+      "id": "https://ror.org/04d5f4w73"
+    },
+    {
+      "label": "Karolinska Institutet",
+      "type": "related",
+      "id": "https://ror.org/056d84691"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

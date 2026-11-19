@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,18 @@
       "value": "Nationales Institut für Wissenschaftskommunikation gGmbH"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Klaus Tschira Foundation",
+      "type": "parent",
+      "id": "https://ror.org/052jep661"
+    },
+    {
+      "label": "Karlsruhe Institute of Technology",
+      "type": "parent",
+      "id": "https://ror.org/04t3en479"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

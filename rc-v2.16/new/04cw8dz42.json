@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Yarmouth Regional Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Nova Scotia Health Authority",
+      "type": "parent",
+      "id": "https://ror.org/035gna214"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -97,7 +97,13 @@
       "value": "Instituto de Ciencias Tecnológicas"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Universidad San Sebastián",
+      "type": "parent",
+      "id": "https://ror.org/04jrwm652"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

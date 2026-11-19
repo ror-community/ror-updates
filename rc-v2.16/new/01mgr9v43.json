@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "Stackpole International (Canada)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Johnson Electric (China)",
+      "type": "parent",
+      "id": "https://ror.org/03ff82720"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Фаховий музичний коледж Дніпровської академії музики"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Dnipro Academy of Music",
+      "type": "parent",
+      "id": "https://ror.org/03bpp6v86"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

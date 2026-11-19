@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -57,7 +57,18 @@
       "value": "St John of God Midland Public Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "St John of God Health Care",
+      "type": "parent",
+      "id": "https://ror.org/01z7q2468"
+    },
+    {
+      "label": "Swan District Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/03bfaac52"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

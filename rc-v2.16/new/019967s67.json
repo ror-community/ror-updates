@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -90,7 +90,13 @@
       "value": "Centro para el Estudio de los Sistemas Marinos"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "type": "parent",
+      "id": "https://ror.org/03cqe8w59"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

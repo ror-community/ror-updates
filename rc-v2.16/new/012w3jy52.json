@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -76,7 +76,28 @@
       "value": "Istituto di Scienze del Patrimonio Culturale"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    },
+    {
+      "label": "Institute for Archaeological and Monumental Heritage",
+      "type": "predecessor",
+      "id": "https://ror.org/00x5wpm25"
+    },
+    {
+      "label": "Istituto di Studi sul Mediterraneo Antico",
+      "type": "predecessor",
+      "id": "https://ror.org/02gcxw165"
+    },
+    {
+      "label": "Institute for the Conservation and Valorization of Cultural Heritage",
+      "type": "predecessor",
+      "id": "https://ror.org/02ynrme92"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

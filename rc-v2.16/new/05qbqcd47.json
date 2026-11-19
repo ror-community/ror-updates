@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "OppenheimerFunds, Inc."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Invesco (United States)",
+      "type": "successor",
+      "id": "https://ror.org/017sz3r20"
+    }
+  ],
   "status": "inactive",
   "types": [
     "company"

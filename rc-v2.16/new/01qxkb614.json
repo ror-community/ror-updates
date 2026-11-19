@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -96,7 +96,33 @@
       "value": "UAR2045"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre National de la Recherche Scientifique",
+      "type": "parent",
+      "id": "https://ror.org/02feahw73"
+    },
+    {
+      "label": "Lyon 1 Université",
+      "type": "parent",
+      "id": "https://ror.org/029brtt94"
+    },
+    {
+      "label": "École d'Ingénieurs en Chimie et Sciences du Numérique",
+      "type": "parent",
+      "id": "https://ror.org/01cbtr271"
+    },
+    {
+      "label": "Institut National des Sciences Appliquées de Lyon",
+      "type": "parent",
+      "id": "https://ror.org/050jn9y42"
+    },
+    {
+      "label": "Université Jean Monnet",
+      "type": "parent",
+      "id": "https://ror.org/030bahv93"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

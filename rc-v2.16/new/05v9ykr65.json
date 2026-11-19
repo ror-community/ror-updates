@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -48,7 +48,13 @@
       "value": "Michigan Department of Public Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Michigan Department of Health and Human Services",
+      "type": "successor",
+      "id": "https://ror.org/03tpyg842"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

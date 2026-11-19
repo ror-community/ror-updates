@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -40,7 +40,13 @@
       "value": "ResApp Health (Australia)"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Pfizer (United States)",
+      "type": "parent",
+      "id": "https://ror.org/01xdqrp08"
+    }
+  ],
   "status": "inactive",
   "types": [
     "company"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -95,7 +95,13 @@
       "value": "United States Immigration and Naturalization Service"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Justice",
+      "type": "parent",
+      "id": "https://ror.org/02916qm60"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

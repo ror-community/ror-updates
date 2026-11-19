@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Stahlzentrum Freiberg e.V."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "TU Bergakademie Freiberg",
+      "type": "related",
+      "id": "https://ror.org/031vc2293"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

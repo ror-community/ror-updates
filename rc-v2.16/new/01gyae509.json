@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,13 @@
       "value": "Providence Continuing Care Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Providence Care Hospital",
+      "type": "child",
+      "id": "https://ror.org/00zq1aj91"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

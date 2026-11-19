@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,23 @@
       "value": "Fraunhofer-Zentrum für Mikroelektronische und Optische Systeme für die Biomedizin"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Fraunhofer Institute for Photonic Microsystems",
+      "type": "related",
+      "id": "https://ror.org/020n3fw10"
+    },
+    {
+      "label": "Fraunhofer Institute for Applied Optics and Precision Engineering",
+      "type": "related",
+      "id": "https://ror.org/02afjh072"
+    },
+    {
+      "label": "Fraunhofer Institute for Cell Therapy and Immunology",
+      "type": "related",
+      "id": "https://ror.org/04x45f476"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

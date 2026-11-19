@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -109,7 +109,23 @@
       "value": "Zentrum für Radiopharmazeutische Wissenschaften"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Paul Scherrer Institute",
+      "type": "parent",
+      "id": "https://ror.org/03eh3y714"
+    },
+    {
+      "label": "ETH Zurich",
+      "type": "parent",
+      "id": "https://ror.org/05a28rw58"
+    },
+    {
+      "label": "University Hospital Zurich",
+      "type": "related",
+      "id": "https://ror.org/01462r250"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

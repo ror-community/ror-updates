@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "St Cyril's Coptic Orthodox Theological College"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Sydney College of Divinity",
+      "type": "related",
+      "id": "https://ror.org/00p6her27"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

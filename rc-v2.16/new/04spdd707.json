@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Wood Canada Limitée"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "John Wood Group (United Kingdom)",
+      "type": "parent",
+      "id": "https://ror.org/01teevb58"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

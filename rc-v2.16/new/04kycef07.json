@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Centre canadien de cartographie et d’observation de la Terre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Natural Resources Canada",
+      "type": "parent",
+      "id": "https://ror.org/05hepy730"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

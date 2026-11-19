@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -71,7 +71,13 @@
       "value": "Lorenz-von-Stein-Institut für Verwaltungswissenschaften an der Christian-Albrechts-Universität zu Kiel"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Christian-Albrechts-Universität zu Kiel",
+      "type": "parent",
+      "id": "https://ror.org/04v76ef78"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

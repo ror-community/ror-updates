@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Paderborner Zentrum für Paralleles Rechnen"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Paderborn University",
+      "type": "parent",
+      "id": "https://ror.org/058kzsd48"
+    },
+    {
+      "label": "Verein für Nationales Hochleistungsrechnen – NHR-Verein e.V.",
+      "type": "related",
+      "id": "https://ror.org/033mrbb45"
+    }
+  ],
   "status": "active",
   "types": [
     "facility",

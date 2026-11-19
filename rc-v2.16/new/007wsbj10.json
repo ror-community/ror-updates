@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,23 @@
       "value": "Los Angeles County, California"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Los Angeles County Department of Public Health",
+      "type": "child",
+      "id": "https://ror.org/017dm4063"
+    },
+    {
+      "label": "Los Angeles County District Attorney's Office",
+      "type": "child",
+      "id": "https://ror.org/05wp99236"
+    },
+    {
+      "label": "Los Angeles County Department of Health Services",
+      "type": "child",
+      "id": "https://ror.org/03xyjdy64"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

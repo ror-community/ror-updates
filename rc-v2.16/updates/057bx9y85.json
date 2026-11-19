@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -94,7 +94,13 @@
       "value": "筑波技術大学"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Tsukuba College of Technology",
+      "type": "predecessor",
+      "id": "https://ror.org/00gj2a565"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

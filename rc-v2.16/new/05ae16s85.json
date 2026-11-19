@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Tanenbaum Institute for Science in Sport"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Toronto",
+      "type": "parent",
+      "id": "https://ror.org/03dbr7087"
+    },
+    {
+      "label": "Sinai Health System",
+      "type": "parent",
+      "id": "https://ror.org/044790d95"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

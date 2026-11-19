@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "St. Boniface Hospital Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "St. Boniface Hospital",
+      "type": "parent",
+      "id": "https://ror.org/02xerpt86"
+    },
+    {
+      "label": "University of Manitoba",
+      "type": "related",
+      "id": "https://ror.org/02gfys938"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

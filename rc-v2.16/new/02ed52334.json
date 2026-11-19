@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,13 @@
       "value": "Owerko Centre for Neurodevelopment and Child Mental Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Alberta Children's Hospital Research Institute",
+      "type": "parent",
+      "id": "https://ror.org/00gmyvv50"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

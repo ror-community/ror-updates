@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Yukon Department of Energy, Mines and Resources"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Yukon",
+      "type": "parent",
+      "id": "https://ror.org/05bhh0g83"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

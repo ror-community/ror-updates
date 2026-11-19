@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -69,7 +69,18 @@
       "value": "Institute of Democracy and Civil Society"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Amadeu Antonio Foundation",
+      "type": "parent",
+      "id": "https://ror.org/04dvxx266"
+    },
+    {
+      "label": "Forschungsinstitut Gesellschaftlicher Zusammenhalt",
+      "type": "related",
+      "id": "https://ror.org/042ahds41"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

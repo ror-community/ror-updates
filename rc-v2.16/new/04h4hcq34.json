@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -62,7 +62,18 @@
       "value": "IGSN – International Generic Sample Number Organization e.V."
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "GFZ Helmholtz Centre for Geosciences",
+      "type": "related",
+      "id": "https://ror.org/04z8jg394"
+    },
+    {
+      "label": "DataCite",
+      "type": "related",
+      "id": "https://ror.org/04wxnsj81"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

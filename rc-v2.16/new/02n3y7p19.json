@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -61,7 +61,13 @@
       "value": "Organisation de normes en santé"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Accreditation Canada",
+      "type": "related",
+      "id": "https://ror.org/056c1me96"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Ministry of University and Scientific and Technological Research"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Governo Italiano",
+      "type": "parent",
+      "id": "https://ror.org/00xqkj280"
+    },
+    {
+      "label": "Ministry of Education, Universities and Research",
+      "type": "successor",
+      "id": "https://ror.org/0166hxq48"
+    }
+  ],
   "status": "inactive",
   "types": [
     "government"

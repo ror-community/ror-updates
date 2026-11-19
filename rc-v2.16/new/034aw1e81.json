@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Zentralinstitut für Raumplanung an der Universität Münster"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Deutsche Akademie für Städtebau und Landesplanung",
+      "type": "parent",
+      "id": "https://ror.org/0076h6458"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

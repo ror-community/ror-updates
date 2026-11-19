@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,18 @@
       "value": "Харківський інститут фінансів Українського державного університету фінансів та міжнародної торгівлі"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "State University of Trade and Economics",
+      "type": "parent",
+      "id": "https://ror.org/03r6hpz93"
+    },
+    {
+      "label": "Kharkiv Institute of Trade and Economics of Kyiv National University of Trade and Economics",
+      "type": "successor",
+      "id": "https://ror.org/05czcxp90"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

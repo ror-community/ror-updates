@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "Республиканский специализированный научно-практический медицинский центр хирургии имени академика В. Вахидова"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Health of the Republic of Uzbekistan",
+      "type": "parent",
+      "id": "https://ror.org/00qcztw05"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

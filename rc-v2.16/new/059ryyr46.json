@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,18 @@
       "value": "Spanish Space Agency"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministerio de Ciencia, Innovación y Universidades",
+      "type": "parent",
+      "id": "https://ror.org/05r0vyz12"
+    },
+    {
+      "label": "Ministerio de Defensa",
+      "type": "parent",
+      "id": "https://ror.org/05jr4a171"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

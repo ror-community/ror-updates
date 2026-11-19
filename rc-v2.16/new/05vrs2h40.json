@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -85,7 +85,13 @@
       "value": "New Jersey State Council on the Arts"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "New Jersey Department of State",
+      "type": "parent",
+      "id": "https://ror.org/04ndw0k24"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Canadian Association for Global Health"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Canadian Society for International Health",
+      "type": "predecessor",
+      "id": "https://ror.org/00kvcw656"
+    },
+    {
+      "label": "Canadian Coalition for Global Health Research",
+      "type": "predecessor",
+      "id": "https://ror.org/053pe9m10"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

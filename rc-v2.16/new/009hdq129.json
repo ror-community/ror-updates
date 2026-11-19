@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -99,7 +99,18 @@
       "value": "United States Employment and Training Administration"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "United States Department of Labor",
+      "type": "parent",
+      "id": "https://ror.org/05mbkbj54"
+    },
+    {
+      "label": "Office of Unemployment Insurance",
+      "type": "child",
+      "id": "https://ror.org/05hksxb92"
+    }
+  ],
   "status": "active",
   "types": [
     "funder",

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -87,7 +87,18 @@
       "value": "London and South East University Group"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Greenwich",
+      "type": "child",
+      "id": "https://ror.org/00bmj0a71"
+    },
+    {
+      "label": "University of Kent",
+      "type": "child",
+      "id": "https://ror.org/00xkeyj56"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

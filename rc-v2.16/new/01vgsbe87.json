@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Quantum Advanced Research Center"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Consejo Superior de Investigaciones Científicas",
+      "type": "parent",
+      "id": "https://ror.org/02gfc7t72"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

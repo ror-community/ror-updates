@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,18 @@
       "value": "Institut de soins palliatifs et de fin de vie Michel-Sarrazin – Université Laval"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "parent",
+      "id": "https://ror.org/04sjchr03"
+    },
+    {
+      "label": "Michel-Sarrazin",
+      "type": "related",
+      "id": "https://ror.org/00td86h58"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

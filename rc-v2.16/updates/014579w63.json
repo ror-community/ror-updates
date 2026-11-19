@@ -1,0 +1,118 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "501100020214"
+      ],
+      "preferred": "501100020214",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.421577.2"
+      ],
+      "preferred": "grid.421577.2",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0480 265X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5493608"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/014579w63",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.fraserhealth.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Fraser_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 49.10635,
+        "lng": -122.82509,
+        "name": "Surrey"
+      },
+      "geonames_id": 6159905
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fraser Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Columbian Hospital",
+      "type": "child",
+      "id": "https://ror.org/05ymyxj51"
+    },
+    {
+      "label": "Ministry of Health",
+      "type": "parent",
+      "id": "https://ror.org/05smbmp94"
+    },
+    {
+      "label": "Chilliwack General Hospital",
+      "type": "child",
+      "id": "https://ror.org/05q8prb65"
+    },
+    {
+      "label": "Jim Pattison Outpatient Care and Surgery Centre",
+      "type": "related",
+      "id": "https://ror.org/02zg11546"
+    },
+    {
+      "label": "Abbotsford Regional Hospital and Cancer Centre",
+      "type": "related",
+      "id": "https://ror.org/010az6z94"
+    },
+    {
+      "label": "Langley Memorial Hospital",
+      "type": "child",
+      "id": "https://ror.org/00j0f5t84"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

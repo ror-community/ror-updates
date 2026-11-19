@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,23 @@
       "value": "TUM University Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technical University of Munich",
+      "type": "parent",
+      "id": "https://ror.org/02kkvpp62"
+    },
+    {
+      "label": "TUM Klinikum Rechts der Isar",
+      "type": "child",
+      "id": "https://ror.org/04jc43x05"
+    },
+    {
+      "label": "Deutsches Herzzentrum München",
+      "type": "child",
+      "id": "https://ror.org/04hbwba26"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,23 @@
       "value": "Institut franco-allemand de sciences historiques et sociales"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministère de l'Europe et des Affaires étrangères",
+      "type": "parent",
+      "id": "https://ror.org/00dfd1509"
+    },
+    {
+      "label": "Goethe University Frankfurt",
+      "type": "parent",
+      "id": "https://ror.org/04cvxnb49"
+    },
+    {
+      "label": "École des hautes études en sciences sociales",
+      "type": "parent",
+      "id": "https://ror.org/02d9dg697"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

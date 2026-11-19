@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Australian Army"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Australian Defence Force",
+      "type": "parent",
+      "id": "https://ror.org/047fqap31"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

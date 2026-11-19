@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -111,7 +111,13 @@
       "value": "苏州市第九人民医院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Soochow University",
+      "type": "related",
+      "id": "https://ror.org/05t8y2r12"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

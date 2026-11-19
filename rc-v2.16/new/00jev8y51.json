@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -82,7 +82,13 @@
       "value": "Newfoundland and Labrador Institute of Fisheries and Marine Technology"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Memorial University of Newfoundland",
+      "type": "parent",
+      "id": "https://ror.org/04haebc03"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

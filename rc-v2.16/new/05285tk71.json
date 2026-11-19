@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,13 @@
       "value": "Stavros Niarchos Foundation Centre for Hellenic Studies"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Simon Fraser University",
+      "type": "parent",
+      "id": "https://ror.org/0213rcc28"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,13 @@
       "value": "Відокремлений структурний підрозділ «Березнівський лісотехнічний фаховий коледж Національного університету водного господарства та природокористування»"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "National University of Water and Environmental Engineering",
+      "type": "parent",
+      "id": "https://ror.org/00ppfcz28"
+    }
+  ],
   "status": "active",
   "types": [
     "education"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Прикарпатський інститут імені Михайла Грушевського Приватного акціонерного товариства \"Вищий навчальний заклад \"Міжрегіональна Академія управління персоналом\""
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Interregional Academy of Personnel Management",
+      "type": "parent",
+      "id": "https://ror.org/01ezcv773"
+    },
+    {
+      "label": "Lviv Institute of the Interregional Academy of Personnel Management",
+      "type": "successor",
+      "id": "https://ror.org/00xzpme89"
+    }
+  ],
   "status": "inactive",
   "types": [
     "education"

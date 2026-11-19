@@ -5,7 +5,7 @@
       "schema_version": "1.0"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -74,7 +74,13 @@
       "value": "Tsubame Rosai Hospital"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Saiseikai Niigata Kenoh Kikan Hospital",
+      "type": "successor",
+      "id": "https://ror.org/05h5b7g15"
+    }
+  ],
   "status": "inactive",
   "types": [
     "funder",

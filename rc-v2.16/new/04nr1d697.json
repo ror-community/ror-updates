@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -68,7 +68,33 @@
       "value": "Department of State Hospitals"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "California Health and Human Services Agency",
+      "type": "parent",
+      "id": "https://ror.org/03q5mqx63"
+    },
+    {
+      "label": "Patton State Hospital",
+      "type": "child",
+      "id": "https://ror.org/0188h2v81"
+    },
+    {
+      "label": "Coalinga State Hospital",
+      "type": "child",
+      "id": "https://ror.org/0304chs76"
+    },
+    {
+      "label": "Napa State Hospital",
+      "type": "child",
+      "id": "https://ror.org/05ec81r30"
+    },
+    {
+      "label": "Atascadero State Hospital",
+      "type": "child",
+      "id": "https://ror.org/05qhetb06"
+    }
+  ],
   "status": "active",
   "types": [
     "government"

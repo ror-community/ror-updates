@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "Queensland Cerebral Palsy and Rehabilitation Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    },
+    {
+      "label": "Children's Health Queensland Hospital and Health Service",
+      "type": "related",
+      "id": "https://ror.org/02t3p7e85"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

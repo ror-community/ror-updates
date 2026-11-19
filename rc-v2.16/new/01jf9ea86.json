@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -52,7 +52,18 @@
       "value": "Child and Adolescent Health Service"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Government of Western Australia Department of Health",
+      "type": "parent",
+      "id": "https://ror.org/01epcny94"
+    },
+    {
+      "label": "Perth Children's Hospital",
+      "type": "child",
+      "id": "https://ror.org/015zx6n37"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"

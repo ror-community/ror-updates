@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-10",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,18 @@
       "value": "DMT-LB"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Technische Hochschule Georg Agricola",
+      "type": "child",
+      "id": "https://ror.org/033jd5r25"
+    },
+    {
+      "label": "Deutsches Bergbau-Museum Bochum",
+      "type": "child",
+      "id": "https://ror.org/03k7cjr94"
+    }
+  ],
   "status": "active",
   "types": [
     "nonprofit"

@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,18 @@
       "value": "Australian Infectious Diseases Research Centre"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "The University of Queensland",
+      "type": "parent",
+      "id": "https://ror.org/00rqy9422"
+    },
+    {
+      "label": "QIMR Berghofer Medical Research Institute",
+      "type": "related",
+      "id": "https://ror.org/004y8wk30"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

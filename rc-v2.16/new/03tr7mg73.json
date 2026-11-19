@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -59,7 +59,18 @@
       "value": "Moore, Amdahl, Dennard to their MAXimum"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Centre Inria de l'Université Grenoble Alpes",
+      "type": "parent",
+      "id": "https://ror.org/00n8d6z93"
+    },
+    {
+      "label": "Techniques of Informatics and Microelectronics for Integrated Systems Architecture",
+      "type": "parent",
+      "id": "https://ror.org/000063q30"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

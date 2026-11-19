@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -80,7 +80,13 @@
       "value": "Centre interuniversitaire d'études sur les lettres, les arts et les traditions"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "related",
+      "id": "https://ror.org/04sjchr03"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

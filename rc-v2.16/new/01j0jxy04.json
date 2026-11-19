@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-17",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -66,7 +66,13 @@
       "value": "Toyota Motor Corporation Australia"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Toyota Motor Corporation (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/02zqm6r10"
+    }
+  ],
   "status": "active",
   "types": [
     "company"

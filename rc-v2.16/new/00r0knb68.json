@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-09",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -47,7 +47,13 @@
       "value": "Productique Québec"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Cégep de Sherbrooke",
+      "type": "related",
+      "id": "https://ror.org/01nywkf82"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

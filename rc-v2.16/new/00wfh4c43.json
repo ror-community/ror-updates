@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -54,7 +54,13 @@
       "value": "Campbell Centre for the Study of Animal Welfare"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "University of Guelph",
+      "type": "parent",
+      "id": "https://ror.org/01r7awg59"
+    }
+  ],
   "status": "active",
   "types": [
     "facility"

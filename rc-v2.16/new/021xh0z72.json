@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -78,7 +78,13 @@
       "value": "National Museum of Archaeology, Anthropology, and History of Peru"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Ministry of Culture",
+      "type": "parent",
+      "id": "https://ror.org/04gfk4b59"
+    }
+  ],
   "status": "active",
   "types": [
     "archive"

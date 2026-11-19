@@ -5,7 +5,7 @@
       "schema_version": "2.1"
     },
     "last_modified": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "schema_version": "2.1"
     }
   },
@@ -73,7 +73,23 @@
       "value": "社会福祉法人恩賜財団済生会 新潟県央基幹病院"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "label": "Social Welfare Organization Saiseikai Imperial Gift Foundation",
+      "type": "parent",
+      "id": "https://ror.org/01w5vp368"
+    },
+    {
+      "label": "Tsubame Rosai Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/03bs5zb68"
+    },
+    {
+      "label": "Koseiren Sanjo General Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/02jprvs45"
+    }
+  ],
   "status": "active",
   "types": [
     "healthcare"
