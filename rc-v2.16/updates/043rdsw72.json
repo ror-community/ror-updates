@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.492291.5"
+      ],
+      "preferred": "grid.492291.5",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/043rdsw72",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nmahs.health.wa.gov.au/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "WA",
+        "country_subdivision_name": "Western Australia",
+        "lat": -31.98184,
+        "lng": 115.8073,
+        "name": "Nedlands"
+      },
+      "geonames_id": 2064874
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NMHS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "North Metropolitan Health Service"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centre for Clinical Interventions",
+      "type": "child",
+      "id": "https://ror.org/04b17kf79"
+    },
+    {
+      "label": "Sir Charles Gairdner Osborne Park Health Care Group",
+      "type": "child",
+      "id": "https://ror.org/00b9ahn78"
+    },
+    {
+      "label": "Government of Western Australia Department of Health",
+      "type": "parent",
+      "id": "https://ror.org/01epcny94"
+    },
+    {
+      "label": "Joondalup Health Campus",
+      "type": "related",
+      "id": "https://ror.org/05m055z34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

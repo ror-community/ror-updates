@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1976,
+  "external_ids": [
+    {
+      "all": [
+        "100019228"
+      ],
+      "preferred": "100019228",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.427478.a"
+      ],
+      "preferred": "grid.427478.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9128 9313"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05ascfq76",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.tides.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Tides_(organization)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.77493,
+        "lng": -122.41942,
+        "name": "San Francisco"
+      },
+      "geonames_id": 5391959
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Tides"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Tides Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Tides Network",
+      "type": "parent",
+      "id": "https://ror.org/01sptm433"
+    },
+    {
+      "label": "Tides Center",
+      "type": "related",
+      "id": "https://ror.org/0560sq358"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

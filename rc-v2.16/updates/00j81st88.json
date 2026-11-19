@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2009,
+  "external_ids": [
+    {
+      "all": [
+        "100008772"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.450552.3"
+      ],
+      "preferred": "grid.450552.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0444 2033"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1053422"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00j81st88",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cenovus.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Cenovus_Energy"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 51.05011,
+        "lng": -114.08529,
+        "name": "Calgary"
+      },
+      "geonames_id": 5913490
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Cenovus Energy (Canada)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Husky Energy (Canada)",
+      "type": "predecessor",
+      "id": "https://ror.org/04b0s8g05"
+    },
+    {
+      "label": "MEG Energy (Canada)",
+      "type": "child",
+      "id": "https://ror.org/0371k0846"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

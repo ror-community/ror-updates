@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kfmmc.med.sa"
+  ],
+  "established": 1989,
+  "external_ids": [
+    {
+      "all": [
+        "grid.415298.3"
+      ],
+      "preferred": "grid.415298.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0573 8549"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q30280423"
+      ],
+      "preferred": "Q30280423",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01c524129",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.kfmmc.med.sa/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "country_subdivision_code": "04",
+        "country_subdivision_name": "Eastern Province",
+        "lat": 26.28864,
+        "lng": 50.11396,
+        "name": "Dhahran"
+      },
+      "geonames_id": 107797
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "KFMMC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "King Fahd Military Medical Complex"
+    },
+    {
+      "lang": "ar",
+      "types": [
+        "label"
+      ],
+      "value": "مجمع الملك فهد الطبي العسكري"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Ministry of Defense",
+      "type": "parent",
+      "id": "https://ror.org/03dtp6w69"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "kyushu-cc.hosp.go.jp"
+  ],
+  "established": 1944,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470350.5"
+      ],
+      "preferred": "grid.470350.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1774 2334"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q11571568"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00mce9b34",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://kyushu-cc.hosp.go.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "40",
+        "country_subdivision_name": "Fukuoka",
+        "lat": 33.6,
+        "lng": 130.41667,
+        "name": "Fukuoka"
+      },
+      "geonames_id": 1863967
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NHO Kyushu Cancer Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Hospital Organization Kyushu Cancer Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "国立病院機構九州がんセンター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

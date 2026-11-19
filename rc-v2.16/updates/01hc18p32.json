@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1978,
+  "external_ids": [
+    {
+      "all": [
+        "501100003542"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453153.5"
+      ],
+      "preferred": "grid.453153.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2230 5647"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01hc18p32",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mwk.baden-wuerttemberg.de"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BW",
+        "country_subdivision_name": "Baden-Wurttemberg",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "name": "Stuttgart"
+      },
+      "geonames_id": 2825297
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "MWK"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landesregierung von Baden-Württemberg",
+      "type": "parent",
+      "id": "https://ror.org/0522eh277"
+    },
+    {
+      "label": "Kommission für geschichtliche Landeskunde in Baden-Württemberg",
+      "type": "child",
+      "id": "https://ror.org/030fnw656"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

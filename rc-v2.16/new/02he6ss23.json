@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "pum.umontreal.ca"
+  ],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 0045 2259"
+      ],
+      "preferred": "0000 0001 0045 2259",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q21428306"
+      ],
+      "preferred": "Q21428306",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02he6ss23",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://pum.umontreal.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Presses_de_l%27Universit%C3%A9_de_Montr%C3%A9al"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Les Presses de l'Université de Montréal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "PUM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Presses de l'Université de Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "parent",
+      "id": "https://ror.org/0161xgx34"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "nonprofit"
+  ]
+}

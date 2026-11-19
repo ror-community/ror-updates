@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1901,
+  "external_ids": [
+    {
+      "all": [
+        "grid.462092.b"
+      ],
+      "preferred": "grid.462092.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q3277092"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02zbc1a16",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.treasury.gov.au/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Department_of_the_Treasury_(Australia)"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "ACT",
+        "country_subdivision_name": "Australian Capital Territory",
+        "lat": -35.28346,
+        "lng": 149.12807,
+        "name": "Canberra"
+      },
+      "geonames_id": 2172517
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Department of the Treasury"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The Treasury"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Australian Bureau of Statistics",
+      "type": "child",
+      "id": "https://ror.org/00ve6e186"
+    },
+    {
+      "label": "Australian Securities and Investments Commission",
+      "type": "child",
+      "id": "https://ror.org/02vbwsy79"
+    },
+    {
+      "label": "Australian Taxation Office",
+      "type": "child",
+      "id": "https://ror.org/03cfhyx33"
+    },
+    {
+      "label": "Foreign Investment Review Board",
+      "type": "child",
+      "id": "https://ror.org/01wzzs254"
+    },
+    {
+      "label": "Public Utilities Office",
+      "type": "child",
+      "id": "https://ror.org/00vjrcd64"
+    },
+    {
+      "label": "Australian Government",
+      "type": "parent",
+      "id": "https://ror.org/0314h5y94"
+    },
+    {
+      "label": "Australian Building Codes Board",
+      "type": "related",
+      "id": "https://ror.org/02j3nq449"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

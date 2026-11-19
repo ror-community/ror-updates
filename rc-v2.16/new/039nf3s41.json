@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "mira.mcmaster.ca"
+  ],
+  "established": 2016,
+  "external_ids": [
+    {
+      "all": [
+        "100020434"
+      ],
+      "preferred": "100020434",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0005 1683 2319"
+      ],
+      "preferred": "0000 0005 1683 2319",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/039nf3s41",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://mira.mcmaster.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 43.25011,
+        "lng": -79.84963,
+        "name": "Hamilton"
+      },
+      "geonames_id": 5969782
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "MIRA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "McMaster Institute for Research on Ageing"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "McMaster Institute for Research on Aging"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Labarge Centre for Mobility in Aging",
+      "type": "child",
+      "id": "https://ror.org/05f8w0216"
+    },
+    {
+      "label": "McMaster University",
+      "type": "parent",
+      "id": "https://ror.org/02fa3aq29"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

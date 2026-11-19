@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.428748.5"
+      ],
+      "preferred": "grid.428748.5",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8052 6109"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5903414"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/057csh885",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://en.horizonnb.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Horizon_Health_Network"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "NB",
+        "country_subdivision_name": "New Brunswick",
+        "lat": 45.94541,
+        "lng": -66.66558,
+        "name": "Fredericton"
+      },
+      "geonames_id": 5957776
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Horizon Health Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Centracare",
+      "type": "child",
+      "id": "https://ror.org/02hm5wz09"
+    },
+    {
+      "label": "Dr. Everett Chalmers Regional Hospital",
+      "type": "child",
+      "id": "https://ror.org/054dsb308"
+    },
+    {
+      "label": "Moncton Hospital",
+      "type": "child",
+      "id": "https://ror.org/02p6pjw94"
+    },
+    {
+      "label": "River Valley Health",
+      "type": "predecessor",
+      "id": "https://ror.org/03wh72077"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "smwk.sachsen.de"
+  ],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "501100006114"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467785.f"
+      ],
+      "preferred": "grid.467785.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2227 3534"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2378820"
+      ],
+      "preferred": "Q2378820",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05wnef833",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.smwk.sachsen.de/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/S%C3%A4chsisches_Staatsministerium_f%C3%BCr_Wissenschaft,_Kultur_und_Tourismus"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "SMWK"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Saxon State Ministry for Higher Education, Research and the Arts"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Saxon State Ministry for Science and the Arts"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Saxon State Ministry for Science, Culture and Tourism"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Sächsisches Staatsministerium für Wissenschaft und Kunst"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Landesamt für Archäologie Sachsen",
+      "type": "child",
+      "id": "https://ror.org/02kv9xm28"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1962,
+  "external_ids": [
+    {
+      "all": [
+        "100000071",
+        "100009633"
+      ],
+      "preferred": "100000071",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420089.7"
+      ],
+      "preferred": "grid.420089.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 9635 8082"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5409765"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04byxyr05",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nichd.nih.gov/Pages/index.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Eunice_Kennedy_Shriver_National_Institute_of_Child_Health_and_Human_Development"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NICHD"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    },
+    {
+      "label": "Developmental Studies Hybridoma Bank",
+      "type": "related",
+      "id": "https://ror.org/006cer819"
+    },
+    {
+      "label": "National Center for Medical Rehabilitation Research",
+      "type": "child",
+      "id": "https://ror.org/04fabxz98"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

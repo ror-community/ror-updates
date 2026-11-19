@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100002669",
+        "100004390",
+        "100011676"
+      ],
+      "preferred": "100011676",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454112.7"
+      ],
+      "preferred": "grid.454112.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0545 1206"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q830608"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02j2cf778",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.elekta.com/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Elekta"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Stockholm",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "name": "Stockholm"
+      },
+      "geonames_id": 2673730
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Elekta (Sweden)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Elekta (Switzerland)",
+      "type": "child",
+      "id": "https://ror.org/00212dq27"
+    },
+    {
+      "label": "Elekta (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/04t7ypr69"
+    },
+    {
+      "label": "Elekta (United States)",
+      "type": "child",
+      "id": "https://ror.org/03me50s15"
+    },
+    {
+      "label": "Resonant Medical (Canada)",
+      "type": "related",
+      "id": "https://ror.org/03j5wzk59"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

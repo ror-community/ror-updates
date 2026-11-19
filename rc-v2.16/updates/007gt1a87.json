@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-11-07",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "klinikum-dresden.de"
+  ],
+  "established": 2017,
+  "external_ids": [
+    {
+      "all": [
+        "grid.506533.6"
+      ],
+      "preferred": "grid.506533.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q28738058"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/007gt1a87",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.klinikum-dresden.de/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "SN",
+        "country_subdivision_name": "Saxony",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "name": "Dresden"
+      },
+      "geonames_id": 2935022
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Dresden Municipal Hospital"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Municipal Hospital Dresden"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Municipal Hospital of Dresden"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Städtisches Klinikum Dresden"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Technische Universität Dresden",
+      "type": "related",
+      "id": "https://ror.org/042aqky30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

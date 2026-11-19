@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2004,
+  "external_ids": [
+    {
+      "all": [
+        "100011094"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.415368.d"
+      ],
+      "preferred": "grid.415368.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0805 4386"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q2826604"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/023xf2a37",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.canada.ca/en/public-health.html"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Public_Health_Agency_of_Canada"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "ON",
+        "country_subdivision_name": "Ontario",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "name": "Ottawa"
+      },
+      "geonames_id": 6094817
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Agence de la santé publique du Canada"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Public Health Agency of Canada"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Collaborating Centre for Methods and Tools",
+      "type": "child",
+      "id": "https://ror.org/05wagd980"
+    },
+    {
+      "label": "Health Canada",
+      "type": "parent",
+      "id": "https://ror.org/05p8nb362"
+    },
+    {
+      "label": "Health Promotion and Chronic Disease Prevention Branch",
+      "type": "child",
+      "id": "https://ror.org/059wyy140"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

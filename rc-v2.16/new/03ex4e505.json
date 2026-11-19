@@ -1,0 +1,108 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "cds.unistra.fr"
+  ],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2294 5556"
+      ],
+      "preferred": "0000 0001 2294 5556",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1054195"
+      ],
+      "preferred": "Q1054195",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03ex4e505",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://cds.unistra.fr/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Centre_de_donn%C3%A9es_astronomiques_de_Strasbourg"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "GES",
+        "country_subdivision_name": "Grand Est",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "name": "Strasbourg"
+      },
+      "geonames_id": 2973783
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "acronym"
+      ],
+      "value": "CDS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Centre de Données astronomiques de Strasbourg"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Centre de données stellaires"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Strasbourg Astronomical Data Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Strasbourg Astronomical Data Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Observatoire astronomique de Strasbourg",
+      "type": "parent",
+      "id": "https://ror.org/04xsj2p07"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

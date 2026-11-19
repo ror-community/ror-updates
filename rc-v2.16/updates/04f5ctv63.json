@@ -1,0 +1,126 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-07-06",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "501100021568",
+        "501100014330"
+      ],
+      "preferred": "501100021568",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 9226 0378"
+      ],
+      "preferred": "0000 0004 9226 0378",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q96378553"
+      ],
+      "preferred": "Q96378553",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04f5ctv63",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ofb.gouv.fr"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "French Biodiversity Office"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "French Office for Biodiversity"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OFB"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office Français de la Biodiversité"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "The French Office for Biodiversity"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "PatriNat",
+      "type": "child",
+      "id": "https://ror.org/037eda396"
+    },
+    {
+      "label": "Ministère de la Transition écologique et de la Cohésion des territoires",
+      "type": "parent",
+      "id": "https://ror.org/00g8rx069"
+    },
+    {
+      "label": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "type": "parent",
+      "id": "https://ror.org/029m96t80"
+    },
+    {
+      "label": "Office National de la Chasse et de la Faune Sauvage",
+      "type": "predecessor",
+      "id": "https://ror.org/021tq1e57"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

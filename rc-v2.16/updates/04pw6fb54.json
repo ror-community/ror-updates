@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "100006108"
+      ],
+      "preferred": "100006108",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.429651.d"
+      ],
+      "preferred": "grid.429651.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 3497 6087"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q16932123"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04pw6fb54",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ncats.nih.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Center_for_Advancing_Translational_Sciences"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.084,
+        "lng": -77.15276,
+        "name": "Rockville"
+      },
+      "geonames_id": 4367175
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NCATS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Center for Advancing Translational Sciences"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    },
+    {
+      "label": "National Center for Research Resources",
+      "type": "predecessor",
+      "id": "https://ror.org/021w6cd23"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

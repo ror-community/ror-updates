@@ -1,0 +1,109 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1991,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413077.6"
+      ],
+      "preferred": "grid.413077.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0434 9023"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7864122"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01t8svj65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ucsfhealth.org/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/UCSF_Medical_Center"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 37.77493,
+        "lng": -122.41942,
+        "name": "San Francisco"
+      },
+      "geonames_id": 5391959
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "UCSF Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "University of California Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "University of California San Francisco Medical Center"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "UCSF Helen Diller Family Comprehensive Cancer Center",
+      "type": "child",
+      "id": "https://ror.org/05yndxy10"
+    },
+    {
+      "label": "UCSF Benioff Children's Hospital",
+      "type": "related",
+      "id": "https://ror.org/03hwe2705"
+    },
+    {
+      "label": "University of California, San Francisco",
+      "type": "related",
+      "id": "https://ror.org/043mz5j54"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

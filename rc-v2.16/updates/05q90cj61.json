@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2010,
+  "external_ids": [
+    {
+      "all": [
+        "grid.470439.d"
+      ],
+      "preferred": "grid.470439.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4675 7586"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/05q90cj61",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.healthpei.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "PE",
+        "country_subdivision_name": "Prince Edward Island",
+        "lat": 46.23459,
+        "lng": -63.1256,
+        "name": "Charlottetown"
+      },
+      "geonames_id": 5920288
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health PEI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "One Island Health System"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Queen Elizabeth Hospital",
+      "type": "child",
+      "id": "https://ror.org/00bn79y13"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "charbonneau.ucalgary.ca"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100020684"
+      ],
+      "preferred": "100020684",
+      "type": "fundref"
+    }
+  ],
+  "id": "https://ror.org/02bwkak45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://charbonneau.ucalgary.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 51.05011,
+        "lng": -114.08529,
+        "name": "Calgary"
+      },
+      "geonames_id": 5913490
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "ACCI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Arnie Charbonneau Cancer Institute"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "SACRI"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Southern Alberta Cancer Research Institute"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Calgary",
+      "type": "parent",
+      "id": "https://ror.org/03yjb2x39"
+    },
+    {
+      "label": "Alberta Health Services",
+      "type": "related",
+      "id": "https://ror.org/02nt5es71"
+    },
+    {
+      "label": "Robson DNA Science Centre",
+      "type": "child",
+      "id": "https://ror.org/04c1tct47"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1883,
+  "external_ids": [
+    {
+      "all": [
+        "100011630"
+      ],
+      "preferred": "100011630",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.427187.f"
+      ],
+      "preferred": "grid.427187.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0491 2267"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q48754"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025h3d465",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://corporate.ppg.com"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/PPG_Industries"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "PA",
+        "country_subdivision_name": "Pennsylvania",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "name": "Pittsburgh"
+      },
+      "geonames_id": 5206379
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "PPG Industries (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Pittsburgh Plate Glass"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "PPG Industries (United Kingdom)",
+      "type": "child",
+      "id": "https://ror.org/052r73a33"
+    },
+    {
+      "label": "PPG Industries (Australia)",
+      "type": "child",
+      "id": "https://ror.org/02gz2zh85"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

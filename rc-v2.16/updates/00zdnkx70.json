@@ -1,0 +1,112 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1911,
+  "external_ids": [
+    {
+      "all": [
+        "501100005057"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.38348.34"
+      ],
+      "preferred": "grid.38348.34",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0532 0580"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q43406"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00zdnkx70",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.nthu.edu.tw/english/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/National_Tsing_Hua_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "TW",
+        "country_name": "Taiwan",
+        "country_subdivision_code": null,
+        "country_subdivision_name": "Taiwan",
+        "lat": 24.80361,
+        "lng": 120.96861,
+        "name": "Hsinchu"
+      },
+      "geonames_id": 1675151
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "NTHU"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "National Tsing Hua University"
+    },
+    {
+      "lang": "zh",
+      "types": [
+        "label"
+      ],
+      "value": "國立清華大學"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University System of Taiwan",
+      "type": "parent",
+      "id": "https://ror.org/054kvr030"
+    },
+    {
+      "label": "National Hsinchu University of Education",
+      "type": "predecessor",
+      "id": "https://ror.org/05prep819"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

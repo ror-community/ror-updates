@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "herbier.ulaval.ca"
+  ],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2181 4220"
+      ],
+      "preferred": "0000 0001 2181 4220",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q15210144"
+      ],
+      "preferred": "Q15210144",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05q34kq51",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.herbier.ulaval.ca/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://fr.wikipedia.org/wiki/Herbier_Louis-Marie"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "name": "Québec"
+      },
+      "geonames_id": 6325494
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Herbier Louis-Marie"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Louis-Marie Herbarium"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université Laval",
+      "type": "parent",
+      "id": "https://ror.org/04sjchr03"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "archive"
+  ]
+}

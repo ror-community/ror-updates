@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1985,
+  "external_ids": [
+    {
+      "all": [
+        "100005105"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.420151.3"
+      ],
+      "preferred": "grid.420151.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 8819 7709"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q445007"
+      ],
+      "preferred": "Q445007",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/04sme7s65",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.altria.com/Pages/default.aspx"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Altria"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "VA",
+        "country_subdivision_name": "Virginia",
+        "lat": 37.55376,
+        "lng": -77.46026,
+        "name": "Richmond"
+      },
+      "geonames_id": 4781708
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Altria (United States)"
+    },
+    {
+      "lang": null,
+      "types": [
+        "alias"
+      ],
+      "value": "Philip Morris Companies Inc."
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Philip Morris USA (United States)",
+      "type": "child",
+      "id": "https://ror.org/01ejzwp32"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "iwakuni.hosp.go.jp"
+  ],
+  "established": 1942,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414860.f"
+      ],
+      "preferred": "grid.414860.f",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/03kcxpp45",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://iwakuni.hosp.go.jp/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "AS",
+        "continent_name": "Asia",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "country_subdivision_code": "35",
+        "country_subdivision_name": "Yamaguchi",
+        "lat": 34.16297,
+        "lng": 132.22,
+        "name": "Iwakuni"
+      },
+      "geonames_id": 1861212
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Iwakuni Medical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "NHO Iwakuni Clinical Center"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "National Hospital Organization Iwakuni Clinical Center"
+    },
+    {
+      "lang": "ja",
+      "types": [
+        "label"
+      ],
+      "value": "岩国医療センター"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hospital Organization",
+      "type": "parent",
+      "id": "https://ror.org/03ntccx93"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1988,
+  "external_ids": [
+    {
+      "all": [
+        "501100003323"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453032.3"
+      ],
+      "preferred": "grid.453032.3",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2289 2722"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01kv58h76",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.anrs.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "name": "Paris"
+      },
+      "geonames_id": 2988507
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ANRS "
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Agence Nationale de Recherches sur le Sida et les Hépatites Virales"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Programme PAC-CI",
+      "type": "child",
+      "id": "https://ror.org/03jtajd40"
+    },
+    {
+      "label": "Institut de Recherche Vaccinale",
+      "type": "child",
+      "id": "https://ror.org/02f9r3321"
+    },
+    {
+      "label": "Inserm",
+      "type": "parent",
+      "id": "https://ror.org/02vjkv261"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility",
+    "funder"
+  ]
+}

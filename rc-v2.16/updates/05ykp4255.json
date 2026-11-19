@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "ea.epson.com"
+  ],
+  "established": 1975,
+  "external_ids": [
+    {
+      "all": [
+        "100004370"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.467346.4"
+      ],
+      "preferred": "grid.467346.4",
+      "type": "grid"
+    }
+  ],
+  "id": "https://ror.org/05ykp4255",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://epson.com/usa"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 33.80307,
+        "lng": -118.07256,
+        "name": "Los Alamitos"
+      },
+      "geonames_id": 5368304
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Epson (United States)"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Epson America"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "Epson America, Inc."
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Epson America, Inc. (United States)"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Seiko Epson (Japan)",
+      "type": "parent",
+      "id": "https://ror.org/00dsxfs45"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "company",
+    "funder"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "100000097"
+      ],
+      "preferred": "100000097",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.281253.f"
+      ],
+      "preferred": "grid.281253.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2200 4473"
+      ],
+      "preferred": "0000 0001 2200 4473",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6971366"
+      ],
+      "preferred": "Q6971366",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/021w6cd23",
+  "links": [
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/National_Center_for_Research_Resources"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "name": "Bethesda"
+      },
+      "geonames_id": 4348599
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NCRR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "National Center for Research Resources"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Institutes of Health",
+      "type": "parent",
+      "id": "https://ror.org/01cwqze88"
+    },
+    {
+      "label": "National Center for Advancing Translational Sciences",
+      "type": "successor",
+      "id": "https://ror.org/04pw6fb54"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

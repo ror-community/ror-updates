@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "tumklinikum.de"
+  ],
+  "established": 2024,
+  "external_ids": [
+    {
+      "all": [
+        "Q133854901"
+      ],
+      "preferred": "Q133854901",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02ps4xr82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://tumklinikum.de"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://de.wikipedia.org/wiki/TUM_Klinikum"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "DE",
+        "country_name": "Germany",
+        "country_subdivision_code": "BY",
+        "country_subdivision_name": "Bavaria",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "name": "Munich"
+      },
+      "geonames_id": 2867714
+    }
+  ],
+  "names": [
+    {
+      "lang": "de",
+      "types": [
+        "alias"
+      ],
+      "value": "Klinikum der Technischen Universität München"
+    },
+    {
+      "lang": "de",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "TUM Klinikum"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label"
+      ],
+      "value": "TUM University Hospital"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Technical University of Munich",
+      "type": "parent",
+      "id": "https://ror.org/02kkvpp62"
+    },
+    {
+      "label": "TUM Klinikum Rechts der Isar",
+      "type": "child",
+      "id": "https://ror.org/04jc43x05"
+    },
+    {
+      "label": "Deutsches Herzzentrum München",
+      "type": "child",
+      "id": "https://ror.org/04hbwba26"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1969,
+  "external_ids": [
+    {
+      "all": [
+        "grid.414305.7"
+      ],
+      "preferred": "grid.414305.7",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0555 2355"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/0524asq02",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.ciusssnordmtl.ca/installations/hopitaux/hopital-en-sante-mentale-riviere-des-prairies/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HRDP"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Hôpital Rivière-des-Prairies"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Hôpital en santé mentale Rivière-des-Prairies"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Centre intégré universitaire de santé et de services sociaux du Nord-de-l’Île-de-Montréal",
+      "type": "parent",
+      "id": "https://ror.org/03n9mt987"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

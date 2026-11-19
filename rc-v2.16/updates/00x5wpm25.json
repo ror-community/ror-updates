@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503058.b"
+      ],
+      "preferred": "grid.503058.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 4679 5152"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/00x5wpm25",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.ibam.cnr.it/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "82",
+        "country_subdivision_name": "Sicily",
+        "lat": 37.49223,
+        "lng": 15.07041,
+        "name": "Catania"
+      },
+      "geonames_id": 2525068
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IBAM"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute for Archaeological and Monumental Heritage"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto per i Beni Archeologici e Monumentali"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    },
+    {
+      "label": "Istituto di Scienze del Patrimonio Culturale",
+      "type": "successor",
+      "id": "https://ror.org/012w3jy52"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

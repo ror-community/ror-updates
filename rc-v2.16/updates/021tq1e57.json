@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1972,
+  "external_ids": [
+    {
+      "all": [
+        "501100017512"
+      ],
+      "preferred": "501100017512",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.436956.b"
+      ],
+      "preferred": "grid.436956.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0638 7840"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/021tq1e57",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.oncfs.gouv.fr/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "FR",
+        "country_name": "France",
+        "country_subdivision_code": "IDF",
+        "country_subdivision_name": "Île-de-France",
+        "lat": 48.70049,
+        "lng": 1.88696,
+        "name": "Auffargis"
+      },
+      "geonames_id": 3036223
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ONCFS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office National de la Chasse et de la Faune Sauvage"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Office Français de la Biodiversité",
+      "type": "successor",
+      "id": "https://ror.org/04f5ctv63"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

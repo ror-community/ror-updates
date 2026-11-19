@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "nvartscouncil.org"
+  ],
+  "established": 1967,
+  "external_ids": [
+    {
+      "all": [
+        "100021586"
+      ],
+      "preferred": "100021586",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0000 8615 0149"
+      ],
+      "preferred": "0000 0000 8615 0149",
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/003n7gj06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nvartscouncil.org"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "NV",
+        "country_subdivision_name": "Nevada",
+        "lat": 39.1638,
+        "lng": -119.7674,
+        "name": "Carson City"
+      },
+      "geonames_id": 5501344
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "NAC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Nevada Arts Council"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Nevada State Council on the Arts"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nevada Department of Tourism and Cultural Affairs",
+      "type": "parent",
+      "id": "https://ror.org/01edg5683"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

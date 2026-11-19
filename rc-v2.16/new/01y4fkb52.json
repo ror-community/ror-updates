@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "senate.gov"
+  ],
+  "established": 1789,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0004 0507 7242"
+      ],
+      "preferred": "0000 0004 0507 7242",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q66096"
+      ],
+      "preferred": "Q66096",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01y4fkb52",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.senate.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/United_States_Senate"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "DC",
+        "country_subdivision_name": "District of Columbia",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "name": "Washington"
+      },
+      "geonames_id": 4140963
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Senate of the United States"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "U.S. Senate"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "United States Senate"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "United States Congress",
+      "type": "parent",
+      "id": "https://ror.org/00k1mwv09"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

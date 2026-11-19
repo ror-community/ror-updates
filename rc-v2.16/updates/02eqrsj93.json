@@ -1,0 +1,89 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2011,
+  "external_ids": [
+    {
+      "all": [
+        "501100000156"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.453037.6"
+      ],
+      "preferred": "grid.453037.6",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 5906 667X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02eqrsj93",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.frqs.gouv.qc.ca/en/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "FRQS"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Fonds de Recherche du Québec - Santé"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Fonds de recherche du Québec",
+      "type": "successor",
+      "id": "https://ror.org/00w3qhf76"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

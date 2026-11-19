@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "arctic.ucalgary.ca"
+  ],
+  "established": 1945,
+  "external_ids": [
+    {
+      "all": [
+        "100005244"
+      ],
+      "preferred": "100005244",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 4658 5155"
+      ],
+      "preferred": "0000 0004 4658 5155",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q4787518"
+      ],
+      "preferred": "Q4787518",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/00mj5rc82",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://arctic.ucalgary.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Arctic_Institute_of_North_America"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "AB",
+        "country_subdivision_name": "Alberta",
+        "lat": 51.05011,
+        "lng": -114.08529,
+        "name": "Calgary"
+      },
+      "geonames_id": 5913490
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "AINA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Arctic Institute of North America"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "University of Calgary",
+      "type": "parent",
+      "id": "https://ror.org/03yjb2x39"
+    },
+    {
+      "label": "Kluane Lake Research Station",
+      "type": "child",
+      "id": "https://ror.org/03ys1tv30"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "nonprofit"
+  ]
+}

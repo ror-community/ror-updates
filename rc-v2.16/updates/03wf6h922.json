@@ -1,0 +1,94 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1999,
+  "external_ids": [
+    {
+      "all": [
+        "100015876"
+      ],
+      "preferred": "100015876",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.484189.8"
+      ],
+      "preferred": "grid.484189.8",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0413 7901"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121937"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03wf6h922",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.gov.nu.ca/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "NU",
+        "country_subdivision_name": "Nunavut",
+        "lat": 63.74697,
+        "lng": -68.51727,
+        "name": "Iqaluit"
+      },
+      "geonames_id": 5983720
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Government of Nunavut"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Canada-Nunavut Geoscience Office",
+      "type": "related",
+      "id": "https://ror.org/00rbz6191"
+    },
+    {
+      "label": "Nunavut Department of Health",
+      "type": "child",
+      "id": "https://ror.org/03nt9sb64"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

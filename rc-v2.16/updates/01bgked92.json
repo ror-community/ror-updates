@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.459283.1"
+      ],
+      "preferred": "grid.459283.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0000 7620 6321"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01bgked92",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.csssdelamontagne.qc.ca/en"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "CSSS de la Montagne"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Centre de Santé et de Services Sociaux de la Montagne"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "CIUSSS du Centre-Ouest-de-l'Île-de-Montréal",
+      "type": "successor",
+      "id": "https://ror.org/03qbtqz88"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

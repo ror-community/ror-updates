@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "uhliverpool.nhs.uk"
+  ],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "501100021117"
+      ],
+      "preferred": "501100021117",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.452080.b"
+      ],
+      "preferred": "grid.452080.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q4697536",
+        "Q85781777"
+      ],
+      "preferred": "Q85781777",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02h67vt10",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.uhliverpool.nhs.uk"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Liverpool_University_Hospitals_NHS_Foundation_Trust"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "country_subdivision_code": "ENG",
+        "country_subdivision_name": "England",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "name": "Liverpool"
+      },
+      "geonames_id": 2644210
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Aintree University Hospital NHS Foundation Trust"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Aintree University Hospitals NHS Foundation Trust"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "acronym"
+      ],
+      "value": "LUHFT"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Liverpool University Hospitals NHS Foundation Trust"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Aintree University Hospital",
+      "type": "child",
+      "id": "https://ror.org/008j59125"
+    },
+    {
+      "label": "Edge Hill University",
+      "type": "related",
+      "id": "https://ror.org/028ndzd53"
+    },
+    {
+      "label": "Liverpool John Moores University",
+      "type": "related",
+      "id": "https://ror.org/04zfme737"
+    },
+    {
+      "label": "University of Liverpool",
+      "type": "related",
+      "id": "https://ror.org/04xs57h96"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "healthcare"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1997,
+  "external_ids": [
+    {
+      "all": [
+        "grid.413292.f"
+      ],
+      "preferred": "grid.413292.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0407 789X"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q7270360"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/025qrzc85",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.nshealth.ca/locations-and-facilities/qeii-health-sciences-centre"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Queen_Elizabeth_II_Health_Sciences_Centre"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "NS",
+        "country_subdivision_name": "Nova Scotia",
+        "lat": 44.64269,
+        "lng": -63.57688,
+        "name": "Halifax"
+      },
+      "geonames_id": 6324729
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "QEII Health Sciences Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Queen Elizabeth II Health Sciences Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Nova Scotia Health Authority",
+      "type": "parent",
+      "id": "https://ror.org/035gna214"
+    },
+    {
+      "label": "Dalhousie University",
+      "type": "related",
+      "id": "https://ror.org/01e6qks80"
+    },
+    {
+      "label": "Camp Hill Hospital",
+      "type": "predecessor",
+      "id": "https://ror.org/039jp5180"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

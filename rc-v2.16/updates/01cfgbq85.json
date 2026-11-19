@@ -1,0 +1,79 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.423864.f"
+      ],
+      "preferred": "grid.423864.f",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1756 9121"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/01cfgbq85",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.asf.toscana.it/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.77925,
+        "lng": 11.24626,
+        "name": "Florence"
+      },
+      "geonames_id": 3176959
+    }
+  ],
+  "names": [
+    {
+      "lang": "it",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Azienda Sanitaria di Firenze"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Santa Maria Nuova Hospital",
+      "type": "child",
+      "id": "https://ror.org/053vhdz56"
+    },
+    {
+      "label": "Azienda Usl Toscana Centro",
+      "type": "successor",
+      "id": "https://ror.org/05a87zb20"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "healthcare"
+  ]
+}

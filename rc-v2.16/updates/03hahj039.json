@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2008,
+  "external_ids": [
+    {
+      "all": [
+        "grid.421138.d"
+      ],
+      "preferred": "grid.421138.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 0816 5852"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q3152120"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03hahj039",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://ciusss-centresudmtl.gouv.qc.ca/etablissement/institut-de-readaptation-gingras-lindsay-de-montreal-hudson"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "QC",
+        "country_subdivision_name": "Quebec",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "name": "Montreal"
+      },
+      "geonames_id": 6077243
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "IRGLM"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "alias"
+      ],
+      "value": "Institut de Readaptation Gingras Lindsay de Montreal"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "Institut de réadaptation Gingras-Lindsay-de-Montréal"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Université de Montréal",
+      "type": "related",
+      "id": "https://ror.org/0161xgx34"
+    },
+    {
+      "label": "Santé Québec Centre-Sud-de-l’Île-de-Montréal – Universitaire",
+      "type": "parent",
+      "id": "https://ror.org/04mc33q52"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}

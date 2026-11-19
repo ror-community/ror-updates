@@ -1,0 +1,98 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "grid.483616.e"
+      ],
+      "preferred": "grid.483616.e",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2167 4520"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q33121531"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/01z6p8p31",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.cdc.gov/oid/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "GA",
+        "country_subdivision_name": "Georgia",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "name": "Atlanta"
+      },
+      "geonames_id": 4180439
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "OID"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Office of Infectious Diseases"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention",
+      "type": "child",
+      "id": "https://ror.org/01wjn2x92"
+    },
+    {
+      "label": "National Center for Immunization and Respiratory Diseases",
+      "type": "child",
+      "id": "https://ror.org/05je2tx78"
+    },
+    {
+      "label": "Centers for Disease Control and Prevention",
+      "type": "parent",
+      "id": "https://ror.org/042twtr12"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "created": {
+      "date": "2026-11-18",
+      "schema_version": "2.1"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "sbrc.ca"
+  ],
+  "established": 1987,
+  "external_ids": [],
+  "id": "https://ror.org/05d0tbs80",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.sbrc.ca"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Albrechtsen Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "label",
+        "ror_display"
+      ],
+      "value": "St. Boniface Hospital Albrechtsen Research Centre"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St. Boniface Hospital Research"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "St. Boniface Hospital Research Centre"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "St. Boniface Hospital",
+      "type": "parent",
+      "id": "https://ror.org/02xerpt86"
+    },
+    {
+      "label": "University of Manitoba",
+      "type": "related",
+      "id": "https://ror.org/02gfys938"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

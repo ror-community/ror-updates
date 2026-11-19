@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "created": {
+      "date": "2019-02-17",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2001,
+  "external_ids": [
+    {
+      "all": [
+        "grid.503061.1"
+      ],
+      "preferred": "grid.503061.1",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 1780 7281"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/02ynrme92",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.icvbc.cnr.it/test_eng/index.html"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "country_subdivision_code": "52",
+        "country_subdivision_name": "Tuscany",
+        "lat": 43.83193,
+        "lng": 11.19924,
+        "name": "Sesto Fiorentino"
+      },
+      "geonames_id": 3166601
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "ICVBC"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute for the Conservation and Valorization of Cultural Heritage"
+    },
+    {
+      "lang": "it",
+      "types": [
+        "label"
+      ],
+      "value": "Istituto per la Conservazione e la Valorizzazione dei Beni Culturali"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Research Council",
+      "type": "parent",
+      "id": "https://ror.org/04zaypm56"
+    },
+    {
+      "label": "Istituto di Scienze del Patrimonio Culturale",
+      "type": "successor",
+      "id": "https://ror.org/012w3jy52"
+    }
+  ],
+  "status": "inactive",
+  "types": [
+    "facility"
+  ]
+}

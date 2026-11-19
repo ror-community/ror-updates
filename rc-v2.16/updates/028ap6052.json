@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2020-12-21",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "inenbiol.com"
+  ],
+  "established": 1960,
+  "external_ids": [
+    {
+      "all": [
+        "grid.509257.c"
+      ],
+      "preferred": "grid.509257.c",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "Q12074556"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/028ap6052",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.inenbiol.com/"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "country_subdivision_code": "46",
+        "country_subdivision_name": "Lviv",
+        "lat": 49.83826,
+        "lng": 24.02324,
+        "name": "Lviv"
+      },
+      "geonames_id": 702550
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Institute of Animal Biology NAAS"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Institute of Animal Biology of NAAS"
+    },
+    {
+      "lang": "uk",
+      "types": [
+        "label"
+      ],
+      "value": "Інститут біології тварин НААН"
+    },
+    {
+      "lang": "uk",
+      "types": [
+        "label"
+      ],
+      "value": "Інститут біології тварин Національної академії аграрних наук України"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Academy of Agrarian Sciences of Ukraine",
+      "type": "parent",
+      "id": "https://ror.org/001040111"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "facility"
+  ]
+}

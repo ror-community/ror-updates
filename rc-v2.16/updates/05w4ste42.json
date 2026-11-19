@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [
+    "royalroads.ca"
+  ],
+  "established": 1940,
+  "external_ids": [
+    {
+      "all": [
+        "100009366"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.262714.4"
+      ],
+      "preferred": "grid.262714.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0001 2180 0902"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q1813315"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/05w4ste42",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.royalroads.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "http://en.wikipedia.org/wiki/Royal_Roads_University"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "BC",
+        "country_subdivision_name": "British Columbia",
+        "lat": 48.4359,
+        "lng": -123.35155,
+        "name": "Victoria"
+      },
+      "geonames_id": 6174041
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Royal Roads University"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Cascade Institute",
+      "type": "child",
+      "id": "https://ror.org/01fbydz47"
+    },
+    {
+      "label": "Royal Roads Military College",
+      "type": "predecessor",
+      "id": "https://ror.org/059dy3b46"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "education",
+    "funder"
+  ]
+}

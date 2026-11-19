@@ -1,0 +1,97 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-12-20",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1971,
+  "external_ids": [
+    {
+      "all": [
+        "0000 0001 2297 025X"
+      ],
+      "preferred": "0000 0001 2297 025X",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q558436"
+      ],
+      "preferred": "Q558436",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03cranv98",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://grainscanada.gc.ca"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Canadian_Grain_Commission"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "country_subdivision_code": "MB",
+        "country_subdivision_name": "Manitoba",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "name": "Winnipeg"
+      },
+      "geonames_id": 6183235
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Canada Grain Commission"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Canadian Grain Commission"
+    },
+    {
+      "lang": "fr",
+      "types": [
+        "label"
+      ],
+      "value": "Commission canadienne des grains"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Agriculture and Agri-Food Canada",
+      "type": "related",
+      "id": "https://ror.org/051dzs374"
+    },
+    {
+      "label": "Grain Research Laboratory",
+      "type": "child",
+      "id": "https://ror.org/01ktyar27"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}

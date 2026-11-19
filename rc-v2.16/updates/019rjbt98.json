@@ -1,0 +1,100 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100007590"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.410375.4"
+      ],
+      "preferred": "grid.410375.4",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0395 8855"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q17510567"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/019rjbt98",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.cdphe.state.co.us/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Colorado_Department_of_Public_Health_and_Environment"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 39.73915,
+        "lng": -104.9847,
+        "name": "Denver"
+      },
+      "geonames_id": 5419384
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CDPHE"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Colorado Department of Public Health and Environment"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "State of Colorado",
+      "type": "parent",
+      "id": "https://ror.org/04gkdd804"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

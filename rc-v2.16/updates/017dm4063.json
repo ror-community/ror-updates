@@ -1,0 +1,107 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 2006,
+  "external_ids": [
+    {
+      "all": [
+        "100007239"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.416097.d"
+      ],
+      "preferred": "grid.416097.d",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0428 8718"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q6682079"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/017dm4063",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://publichealth.lacounty.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Los_Angeles_County_Department_of_Public_Health"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CA",
+        "country_subdivision_name": "California",
+        "lat": 34.05223,
+        "lng": -118.24368,
+        "name": "Los Angeles"
+      },
+      "geonames_id": 5368361
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DPH"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "label"
+      ],
+      "value": "Departamento de Salud Pública del Condado de Los Ángeles"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Los Angeles County Department of Public Health"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Los Angeles County",
+      "type": "parent",
+      "id": "https://ror.org/007wsbj10"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

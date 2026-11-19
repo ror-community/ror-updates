@@ -1,0 +1,105 @@
+{
+  "admin": {
+    "created": {
+      "date": "2023-08-30",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "100013047"
+      ],
+      "preferred": "100013047",
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "0000 0004 0636 8973"
+      ],
+      "preferred": "0000 0004 0636 8973",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5148792"
+      ],
+      "preferred": "Q5148792",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/03b38v557",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://dnr.colorado.gov"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Colorado_Department_of_Natural_Resources"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "CO",
+        "country_subdivision_name": "Colorado",
+        "lat": 39.73915,
+        "lng": -104.9847,
+        "name": "Denver"
+      },
+      "geonames_id": 5419384
+    }
+  ],
+  "names": [
+    {
+      "lang": "en",
+      "types": [
+        "alias"
+      ],
+      "value": "Colorado DNR"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Colorado Department of Natural Resources"
+    },
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "DNR"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Colorado Water Conservation Board",
+      "type": "child",
+      "id": "https://ror.org/05qx54k29"
+    },
+    {
+      "label": "State of Colorado",
+      "type": "parent",
+      "id": "https://ror.org/04gkdd804"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

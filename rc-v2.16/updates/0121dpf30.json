@@ -1,0 +1,110 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1982,
+  "external_ids": [
+    {
+      "all": [
+        "100010001"
+      ],
+      "preferred": null,
+      "type": "fundref"
+    },
+    {
+      "all": [
+        "grid.454842.b"
+      ],
+      "preferred": "grid.454842.b",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0405 7557"
+      ],
+      "preferred": null,
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q5690644"
+      ],
+      "preferred": null,
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/0121dpf30",
+  "links": [
+    {
+      "type": "website",
+      "value": "http://www.hrsa.gov/"
+    },
+    {
+      "type": "wikipedia",
+      "value": "https://en.wikipedia.org/wiki/Health_Resources_and_Services_Administration"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "NA",
+        "continent_name": "North America",
+        "country_code": "US",
+        "country_name": "United States",
+        "country_subdivision_code": "MD",
+        "country_subdivision_name": "Maryland",
+        "lat": 39.084,
+        "lng": -77.15276,
+        "name": "Rockville"
+      },
+      "geonames_id": 4367175
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "HRSA"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Health Resources and Services Administration"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "National Hansen's Disease Program",
+      "type": "child",
+      "id": "https://ror.org/049n6n725"
+    },
+    {
+      "label": "United States Department of Health and Human Services",
+      "type": "parent",
+      "id": "https://ror.org/033jnv181"
+    },
+    {
+      "label": "Maternal and Child Health Bureau",
+      "type": "child",
+      "id": "https://ror.org/02jwn7g86"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "funder",
+    "government"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "created": {
+      "date": "2024-03-13",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": null,
+  "external_ids": [
+    {
+      "all": [
+        "0000000417963647"
+      ],
+      "preferred": "0000000417963647",
+      "type": "isni"
+    },
+    {
+      "all": [
+        "Q58347341"
+      ],
+      "preferred": "Q58347341",
+      "type": "wikidata"
+    }
+  ],
+  "id": "https://ror.org/02r40rn49",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://centraladelaide.health.sa.gov.au"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "OC",
+        "continent_name": "Oceania",
+        "country_code": "AU",
+        "country_name": "Australia",
+        "country_subdivision_code": "SA",
+        "country_subdivision_name": "South Australia",
+        "lat": -34.92866,
+        "lng": 138.59863,
+        "name": "Adelaide"
+      },
+      "geonames_id": 2078025
+    }
+  ],
+  "names": [
+    {
+      "lang": null,
+      "types": [
+        "acronym"
+      ],
+      "value": "CALHN"
+    },
+    {
+      "lang": "en",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Central Adelaide Local Health Network"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Royal Adelaide Hospital",
+      "type": "child",
+      "id": "https://ror.org/00carf720"
+    },
+    {
+      "label": "Queen Elizabeth Hospital",
+      "type": "child",
+      "id": "https://ror.org/00x362k69"
+    },
+    {
+      "label": "Hampstead Rehabilitation Centre",
+      "type": "child",
+      "id": "https://ror.org/02dxzz234"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "healthcare"
+  ]
+}
