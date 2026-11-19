@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "created": {
+      "date": "2018-11-14",
+      "schema_version": "1.0"
+    },
+    "last_modified": {
+      "date": "2026-11-19",
+      "schema_version": "2.1"
+    }
+  },
+  "domains": [],
+  "established": 1990,
+  "external_ids": [
+    {
+      "all": [
+        "grid.419060.a"
+      ],
+      "preferred": "grid.419060.a",
+      "type": "grid"
+    },
+    {
+      "all": [
+        "0000 0004 0501 3644"
+      ],
+      "preferred": null,
+      "type": "isni"
+    }
+  ],
+  "id": "https://ror.org/005dknr06",
+  "links": [
+    {
+      "type": "website",
+      "value": "https://www.navarra.es/home_es/Temas/Portal+de+la+Salud/Ciudadania"
+    }
+  ],
+  "locations": [
+    {
+      "geonames_details": {
+        "continent_code": "EU",
+        "continent_name": "Europe",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "country_subdivision_code": "NC",
+        "country_subdivision_name": "Navarre",
+        "lat": 42.81687,
+        "lng": -1.64323,
+        "name": "Pamplona"
+      },
+      "geonames_id": 3114472
+    }
+  ],
+  "names": [
+    {
+      "lang": "es",
+      "types": [
+        "alias"
+      ],
+      "value": "Salud Navarra"
+    },
+    {
+      "lang": "es",
+      "types": [
+        "ror_display",
+        "label"
+      ],
+      "value": "Servicio Navarro de Salud"
+    }
+  ],
+  "relationships": [
+    {
+      "label": "Gobierno de Navarra",
+      "type": "child",
+      "id": "https://ror.org/025qq4838"
+    },
+    {
+      "label": "Instituto de Salud Pública y Laboral de Navarra",
+      "type": "child",
+      "id": "https://ror.org/000ep5m48"
+    }
+  ],
+  "status": "active",
+  "types": [
+    "government"
+  ]
+}
